@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="popup_webinar">
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" data-backdrop="static">
+          <div class="modal-dialog" role="document" style="margin-top: 200px;">
+            <section style="position: absolute;">
+                <button type="button" class="close_popup_btn" style="color: #101010;background-color: unset;border: 2px solid black;position: absolute;right: 7px;top: 6px;" data-dismiss="modal"><b>X</b></button>
+                <img class="responsive img-responsive" src="/kanak_website/static/src/img/popup_netsuite_webinar.jpg" style="width: 100%;"/>
+                <a class="btn btn-danger popup_register_btn" href="/netsuite-webinar" style="border-radius: 10px;margin-top: -150px;margin-left: 18px;background-color: #d41913;" role="button">Register Now!</a>
+            </section>
+          </div>
+        </div>
+    </template>
+    <template id="webinar_ceo_page" name="Webinar">
+        <t t-call="website.layout">
+             <t t-set='head'>
+                <meta property="og:title" content="New Financial Software for New Financial Year in 2021" />
+                <meta property="og:description" content="In this webinar, you will come to know, NetSuite and its modern capabilities, KPI/KRA  features of NetSuite and Elaboration on its work areas for your organization" />
+                <meta property="og:image" content="https://1.bp.blogspot.com/-act_WtakiR0/YHmMqIR4UlI/AAAAAAAABDY/09G2I9WLuPEBl5Nn3t6FzraC4aX9-sjnwCLcBGAsYHQ/s400/webinar%2Bof%2Boracle%2Bnetsuite%2Bimage-1.jpg" />
+             </t>
+            <div id="wrap" class="oe_structure">
+                <section id="register">
+                    <div class="responsive item active oe_img_bg pt152 pb152" style="background-image: url('/kanak_website/static/src/img/webinar/stock.jpg');background-repeat: no-repeat;background-attachment: fixed;background-size: cover;">
+                        <div style="opacity: .9;transform: scale(1);background: #06416b;">
+                            <br/><br/><br/>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-6">
+                                        <h2 class="text-uppercase fw700 text-left">
+                                            <font style="font-size: 42px;color:white;">
+                                                <span>New Financial Software for New Financial Year</span>
+                                            </font>
+                                            <br/>
+                                            <font>
+                                                <strong style="color:white;font-size: 15px;">If You Want To Get Ahead, Get Register yourself for the Webinar.</strong>
+                                            </font>
+                                        </h2>
+                                        <br/><br/><br/><br/>
+                                        <div class="row">
+                                            <div class="col-sm-2">
+                                                <img style=" width: 50px;" class="responsive img-responsive calendar_icon" src="/kanak_website/static/src/img/webinar/iconfinder_calendar.png" />
+                                            </div>
+                                            <h2 class="fw700 text-left calendar_text" style="position: absolute;left: 80px;top: 215px;">
+                                                <font style="font-size: 32px;color:white;">
+                                                    <strong>THURSDAY, 22nd APRIL, 2021</strong><br/><strong>12 PM IST</strong>
+                                                </font>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6">
+                                        <form class="adjust_form" style="margin-left: 78px;" action="/thank-you-for-register">
+                                        <div class="form-group webinar_ceo_input_field" style="width: 70%;margin: 10px;margin-left: 70px;">
+                                            <label style="color:white;" for="name">Company Name*</label>
+                                            <input type="name" class="form-control" name="company_name" id="company_name" required="true" />
+                                        </div>
+                                        <div class="form-group webinar_ceo_input_field" style="width: 70%;margin: 10px;margin-left: 70px;">
+                                            <label style="color:white;" for="name">Person Name*</label>
+                                            <input type="name" class="form-control" name="person_name" id="person_name" required="true" />
+                                        </div>
+                                        <div class="form-group webinar_ceo_input_field" style="width: 70%;margin: 10px;margin-left: 70px;">
+                                            <label style="color:white;" for="email">Email Address*</label>
+                                            <input type="email" name="email" class="mr-sm-2 form-control" id="email" required="true" />
+                                        </div>
+                                        <div class="form-group webinar_ceo_input_field" style="width: 70%;margin: 10px;margin-left: 70px;">
+                                            <label style="color:white;" for="name">Title*</label>
+                                            <input type="name" class="form-control" name="title_name" id="title_name" required="true" />
+                                        </div>
+                                        <div class="form-group webinar_ceo_input_field" style="width: 70%;margin: 10px;margin-left: 70px;">
+                                            <label style="color:white;" for="name">Contact Number*</label>
+                                            <input type="tel" class="form-control" name="contact_number" id="contact_number" required="true" pattern="^\d{10}$"/>
+                                        </div>
+                                        <span class="disclaimer" style="    padding-left: 65px;font-size: 12px;color:white;">*Disclaimer:This data will not be shared with any third party.</span>
+                                        <div style="margin-left: 95px;margin-top: 15px;" class="webinar_recaptcha">
+                                            <div class="g-recaptcha" t-att-data-sitekey="website.recaptcha_site_key" data-theme="red"></div>
+                                        </div>
+                                        <div class="row">
+                                            <button type="submit" class="ceo_submit_button btn mob_ceo_submit_button">Register Now</button>
+                                        </div>
+                                    </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <br/>
+                <section>
+                     <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <br/>
+                                <img style="max-height: 330px;" class="responsive img-responsive" src="/kanak_website/static/src/img/webinar/business-meeting.jpg" />
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 txt_content" style="width: 550px;">
+                                <h2 class="text-uppercase fw700 text-left">
+                                    <font style="color:black;">
+                                        <span>Introduction</span>
+                                    </font>
+                                </h2>
+                                <p style="text-align: inherit;font-size: 15px;">In this competitive world of technology enhancement, we have an array of applications around us to ease our business complications and solve mission-critical issues. As we have seen in the COVID-19 pandemic last year, that technology was one of those few things that favored our survival and helped us cope up with tough times efficiently.</p>
+                                <p style="text-align: inherit;font-size: 15px;">In this webinar, we are going to discuss one such solution for the entire business. Most importantly, we are putting down this discussion for CEOs and CFOs. We believe that an organization, the team, or the managers can have more profound control over business operations under the aegis of a decisive leader, who knows all the aggregates across such a solution including what new they can have to scale their businesses in 2021 and be future prepared as well.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <br/>
+                <section style="background: #06416b;">
+                     <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6 txt_content" style="width: 600px;">
+                                <h2 class="text-uppercase fw700 text-left">
+                                    <font style="color:white;">
+                                        <span>Agenda</span>
+                                    </font>
+                                </h2>
+                                <p style="color:white;text-align: inherit;font-size: 15px;">
+                                    We would primarily discuss NetSuite and its primacy for being the most widely deployed go-to platform for entrepreneurs of all shapes and sizes across the globe. Most importantly, business administrators and the higher management will get to know about the KPI/KRA features of NetSuite that delivers quick insights to make better decisions.
+                                </p>
+                                <p style="color:white;text-align: inherit;font-size: 18px;">
+                                    In 30 minutes, our experts will let you come across:
+                                </p>
+                                <ul style="color:white;">
+                                    <li style="margin: 0 0 10px 0;"><b>A Brief Introduction of NetSuite.</b></li>
+                                    <li style="margin: 0 0 10px 0;"><b>Key areas that entrepreneurs need to focus on.</b></li>
+                                    <li style="margin: 0 0 10px 0;"><b>Demonstration of manage KPI/KRA.</b></li>
+                                    <li style="margin: 0 0 10px 0;"><b>Q &amp; A Session.</b></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <br/>
+                                <img style="margin-left: 32px;height: 330px;width: 88%;" class="Benefits-of-Video-Conferencing responsive img-responsive" src="/kanak_website/static/src/img/webinar/Benefits-of-Video-Conferencing.jpg" />
+                            </div>
+                        </div>
+                    </div>
+                    <br/>
+                </section>
+                <br/><br/>
+                 <section>
+                     <div class="container">
+                        <div class="row">
+                            <div class="txt_content col-lg-5 col-md-5 col-sm-5">
+                                <p style="text-align: inherit;font-size: 15px;">
+                                    We are talking about New Financial Software for New Financial Year. It’s high time that we get to know things at the earliest, make the most of the capabilities, and strategize to ensure minimal bottlenecks. In particular, this discussion would help business administrators comprehend the advantages of technology enhancement and manage KPI and KRA respectively.
+                                </p>
+                            </div>
+                            <div class="col-lg-1 col-md-1 col-sm-1 to_begain_border" style="border-left: 6px solid #d8d2d2;height: 230px;width: 0px;border-radius: 5px;">
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 to_begain">
+                                <p style="text-align: inherit;font-size: 15px;margin-left: -20px;" class="to_begain_p">
+                                    To begin with, NetSuite provides out-of-the-box functionality to meet and helps adapt to a variety of industry requirements.
+                                </p>
+                                <ul style="margin-left: -20px;">
+                                    <li style="margin: 0 0 10px 0;">A Global Software Company with advanced revenue recognition needs,</li>
+                                    <li style="margin: 0 0 10px 0;">A Manufacturing Unit,</li>
+                                    <li style="margin: 0 0 10px 0;">A Wholesale Distributor entity with multi-site inventory and production,</li>
+                                    <li style="margin: 0 0 10px 0;">A Professional Services Organizations with disparate resources and complex multi-currency client billing,</li>
+                                    <li style="margin: 0 0 10px 0;">Or An Omnichannel Retail Business</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <br/>
+                <section style="background-image: url('/kanak_website/static/src/img/webinar/Financial-Services-featured.jpg');background-repeat: no-repeat;background-attachment: fixed;background-size: cover;">
+                    <div style="opacity: .9;transform: scale(1);background: #06416b;">
+                         <div class="container">
+                            <br/><br/><br/>
+                            <div class="txt_content" style="border: 3px solid white;border-radius: 10px;">
+                                <p style="color:white;text-align: inherit;padding: 10px;">
+                                    NetSuite is the only cloud ERP that holds all inventive capabilities and delivers apposite solutions to meet all these needs without a hitch. To understand this functionality closely, we must know that these capabilities have been orchestrated into the core product from the ground up.
+                                </p>
+                                <p style="color:white;text-align: inherit;padding: 10px;">
+                                    Most importantly, NetSuite New Financial Software is developed from experience working with thousands of companies in a variety of industries. Experts have deeply analyzed the experiences and engineered NetSuite’s industry-specific software solutions in such a way that it helps you get up and explore a myriad of opportunities to grow. 
+                                </p>
+                                <p style="color:white;text-align: inherit;padding: 10px;">
+                                    To make it more industry-specific, NetSuite’s cloud computing business management suite comes with the widest array of solutions to manage the entire business including CRM, accounting or ERP, PSA, E-commerce, and order management. For instance, businesses can pick apposite solutions that can fit in their industry-type such as Finance, Wholesale Distribution, Professional Services, Advertising, Manufacturing, Nonprofit, Media and Publishing, and Retail, and other relevant variants as well.
+                                </p>
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                </div>
+                            </div>
+                            <br/><br/><br/>
+                        </div>
+                    </div>
+                </section>
+                <br/>
+                <section>
+                    <div class="container txt_content">
+                        <div class="row text-center">
+                            <div class="col-lg-3 col-md-3 col-sm-3">
+                                <div class="content_box" style="border-radius: 10px;box-shadow: 3px 3px 20px -3px rgb(0 0 0 / 25%);overflow: hidden;margin: 0 0 25px;width: 90%;min-height: 192px;">
+                                    <p style="padding: 40px;text-align: center;">Integrated SRP for a unified view of the entire businesses.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3">
+                                <div class="content_box" style="border-radius: 10px;box-shadow: 3px 3px 20px -3px rgb(0 0 0 / 25%);overflow: hidden;margin: 0 0 25px;width: 90%;min-height: 180px;">
+                                    <p style="padding: 40px;text-align: center;">Combined NetSuite ERP and OpenAir give a real-time SRP for two services businesses. </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3">
+                                <div class="content_box" style="border-radius: 10px;box-shadow: 3px 3px 20px -3px rgb(0 0 0 / 25%);overflow: hidden;margin: 0 0 25px;width: 90%;min-height: 180px;">
+                                    <p style="padding: 40px;text-align: center;">Unprecedented improvements in financial efficiency and greater scalability.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3">
+                                <div class="content_box" style="border-radius: 10px;box-shadow: 3px 3px 20px -3px rgb(0 0 0 / 25%);overflow: hidden;margin: 0 0 25px;width: 90%;min-height: 180px;">
+                                    <p style="padding: 40px;text-align: center;">Consistent customer data, accurate demand planning for improved fundraising.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row text-center">
+                            <div class="col-lg-3 col-md-3 col-sm-3">
+                                <div class="content_box" style="border-radius: 10px;box-shadow: 3px 3px 20px -3px rgb(0 0 0 / 25%);overflow: hidden;margin: 0 0 25px;width: 90%;min-height: 177px;">
+                                    <p style="padding: 15px;text-align: center;">Automation across financial operations helps improve order-processing time and expenses.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3">
+                                <div class="content_box" style="border-radius: 10px;box-shadow: 3px 3px 20px -3px rgb(0 0 0 / 25%);overflow: hidden;margin: 0 0 25px;width: 90%;min-height: 180px;">
+                                    <p style="padding: 40px;text-align: center;">Instant and accurate monthly financial close time from 10 days to 5.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3">
+                                <div class="content_box" style="border-radius: 10px;box-shadow: 3px 3px 20px -3px rgb(0 0 0 / 25%);overflow: hidden;margin: 0 0 25px;width: 90%;min-height: 180px;">
+                                    <p style="padding: 15px;text-align: center;">Real-time financial reporting spans robust implementation, flexibility for custom fields for complex sales, and distribution processes.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3">
+                                <div class="content_box" style="border-radius: 10px;box-shadow: 3px 3px 20px -3px rgb(0 0 0 / 25%);overflow: hidden;margin: 0 0 25px;width: 90%;min-height: 180px;">
+                                    <p style="padding: 15px;text-align: center;">Highly scalable revenue recognition process with a unified system for global subsidiaries, and multi-currency transactions.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p style="text-align: inherit;">
+                            Above all, the most enticing benefit is, businesses of all sizes can ensure robust financials and that too, without bearing a superfluous outlay. Right from start-ups and midmarket businesses, to large multi-national enterprises, NetSuite empowers modern business’s finance, both private and public, to unlock their growth potential. By streamlining mission-critical processes and reducing IT costs, it allows companies to easily scale and future-proof their business with an agile platform. Interestingly, NetSuite Financial Software evolves as your needs change and hence, businesses are considering it over other solutions to grab maximum potential in the new financial year. For the most part, this evolution helps businesses keep pace and grow with a fully up-to-date IT environment geared for innovation, scale, and business transformation.
+                        </p>
+                    </div>
+                </section>
+                <br/>
+                <section>
+                    <div class="container txt_content">
+                        <div style="background: #06416b;padding:20px;    border-radius: 10px;">
+                            <p style="color:white;text-align: inherit;">Once you explore and uncover the layers of its business benefits, you will find many of your pain-points are addressed and you have a one-stop solution to mitigate key challenges that often obstructed your growth and the organization as a whole. </p>
+                            <ul style="color:white;margin-top: 20px;">
+                                <li style="margin: 0 0 10px 0;"><p style="color:white;text-align: inherit;">Undoubtedly, NetSuite delivers extensive support at every stage of growth and evolution with a flexible, scalable platform built for the modern-day business environment, especially for financial operations. You can easily scale up, spin-off, acquire new business opportunities and, drive greater scalability.</p></li>
+                                <li style="margin: 0 0 10px 0;"><p style="color:white;text-align: inherit;">And as NetSuite is in the cloud, financial businesses can enter new markets faster. Delivering it confidently, NetSuite helps secure data, achieve uptime, and provides comprehensive disaster recovery, security, and uptime capabilities to corporate and the most remote subsidiary as well. With this, it can be concluded that businesses can preeminently counter the most critical challenge of securing the organization’s confidential information and mitigate other relevant vulnerabilities as well.</p></li>
+                                <li style="margin: 0 0 10px 0;"><p style="color:white;text-align: inherit;">As we are here to discuss and exchange business visions with CEOs and CFOs, it would be quite resourceful to narrowing it down to core financial capability. With NetSuite, you can transform your General Ledger into a dynamic business asset, optimize account receivables and accelerate cash flows with complete control. The most important aspect is the automation of accounts payables, where you can save time, improve control, and increase productivity.</p></li>
+                            </ul>
+                            <img style="margin-left: 22px;width: 98%;" class="responsive img-responsive" src="/kanak_website/static/src/img/webinar/group_image.jpg" />
+                            <ul style="color:white;margin-top: 20px;">
+                                <li style="margin: 0 0 10px 0;"><p style="color:white;text-align: inherit;">Next, NetSuite offers automated domestic and global tax compliance. With end-to-end lifecycle management for plant, property, and equipment, you can efficiently monitor, predict, and manage cash across global locations, and entities in real-time. .</p></li>
+                                <li style="margin: 0 0 10px 0;">
+                                    <p style="color:white;text-align: inherit;">You can have a complete payment management solution that centralizes, streamlines, and simplifies your payment needs. Finance managers and administrators can witness synchronized complex processes from Order to Billing to Revenue Recognition and as per Multiple Accounting Standards.</p>
+                                </li>
+                                <li style="margin: 0 0 10px 0;"><p style="color:white;text-align: inherit;">
+                                    To ease planning and execution in the New Financial Year, it has come up with robust Planning and Budgeting, along with CapEx planning. It enables the management, prioritization, and planning for capital expenses and their impact on overall expenditures and financial statements.</p>
+                                </li>
+                                <li style="margin: 0 0 10px 0;"><p style="color:white;text-align: inherit;">
+                                    Most importantly, to grow and expand, financial businesses need extensive capabilities to meet regulatory compliance and assistance for it. Here, NetSuite financial reporting provides global support for both internationalization and localization. It extends support across multiple accounting books, multiple Fiscal and Tax calendars, localized tax calculations and reporting, local format Income Statement and Balance Sheet, and Audit and Compliance Reporting.</p>
+                                </li>
+                            </ul>
+                            <br/>
+                        </div>
+                    </div>
+                </section>
+                <br/>
+                <section>
+                    <div class="container txt_content">
+                        <h2 class="text-uppercase fw700 text-left">
+                            <font style="color:black;">
+                                <span>Conclusion</span>
+                            </font>
+                        </h2>
+                        <p style="text-align: inherit;">
+                            NetSuite streamlines critical and core financial processes to ensure robust business continuity across all touchpoints. By leveraging the New Financial Software, CFOs, and other financial administrators would experience no room left to thrive in the modern business world. To sum up, you can ease the way you manage your business financials globally and grow in dynamic ways. 
+                        </p>
+                        <p style="text-align: inherit;">
+                            Hopefully, the upcoming Financial Year with this new capability would help you execute on your business vision and drive greater business potential to retain success in the long run.
+                        </p>
+                    </div>
+                </section>
+                <div class="row">
+                    <a href="#register" class="ceo_submit_button btn mob_ceo_submit_button" style="margin-left: 600px;width: auto;"><strong style="font-size:20px;">Book Your Seat Now</strong></a>
+                </div>
+            </div>
+            <br/><br/>
+        </t>
+    </template>
+    <template id="webinar_register_page" name="Tank You For Register">
+        <t t-call="website.layout">
+            <div class="container">
+                <br /><br />
+                <h2>Thank you for registering for "Oracle NetSuite Webinar".</h2>
+                <br /><br />
+            </div>
+        </t>
+    </template>
+</odoo>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <template id="tmp_netsuit_licensing_page" name="NetSuite Licensing">
+            <t t-call="website.layout">
+                <section>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <img src="/kanak_website/static/src/img/netsuite_licensing/Bg_banner.png" class="img-responsive center-block"/>
+                            <div id="netsuite_licensing" class="col-lg-12">
+                                <div class="col-lg-6" style="padding-left:40px">
+                                <h2 style="border-left: 4px solid #003362; font-weight: normal;font-size: 32px">&amp;nbsp;&amp;nbsp;NetSuite&amp;nbsp;&amp;nbsp;<span class="text-danger">Licensing</span></h2>
+                                <p class="text-justify">Businesses planning to move to the cloud or transit from the legacy to <a href="https://kanakinfosystems.com/netsuite-services">NetSuite ERP cloud-based solutions</a> must closely watch the cost incurred. NetSuite licensing is something that needs a customer’s undivided attention and time to help business leaders make investments judiciously. So before you pick a tool to revamp the entire business operation, let’s closely comprehend the NetSuite license's key components.</p>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="container">
+                        <div class="row">
+                            <div id="license_cost" class="col-lg-12">
+                                <h1>How Much Does <a href="https://kanakinfosystems.com/blog/what-is-netsuite">NetSuite</a> License Cost?</h1>
+                                <p class="text-justify">NetSuite's license cost or NetSuite licensing begins with the concept of "a suite". The type of suite you will need to license is extensively regulated by the size of your organization and/or the type of tools/applications you may want to deploy.</p>
+                                <p class="text-justify">For instance, in terms of the language used under NetSuite, these suites are standard as NetSuite Limited Edition, NetSuite Mid-Market Edition, and NetSuite Enterprise Edition.</p>
+                                <ul>
+                                    <li>
+                                        <p>Each NetSuite Edition functions as per the number of named user licenses and/or the total number of employees within your business organization.</p>
+                                    </li>
+                                    <li>
+                                        <p>Each NetSuite edition is similar and uniform in terms of the underlying code base and deployment model.</p>
+                                    </li>
+                                </ul>
+                                <p class="text-justify">Hence, as your company expands and thrives in, you simply acclimate your NetSuite subscription size to meet your requirements; the transition is flawless. Furthermore, with NetSuite licensing, you never have to go anxious about a system migration once you've outperformed your current edition; you can simply just modify your pricing model.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section style="background-image: url('/kanak_website/static/src/img/netsuite_licensing/Bg_1.png');">
+                    <div class="container">
+                        <div class="row">
+                            <div id="licensing_edition" class="col-lg-12">
+                                <h2>NetSuite Licensing Edition:</h2>
+                                <div class="col-lg-4 col-md-4">
+                                    <div class="bg-white">
+                                        <div><img src="/kanak_website/static/src/img/netsuite_licensing/Limited_edition.png" class="img-responsive center-block"/></div>
+                                        <div style="padding: 20pt">
+                                            <p class="text-justify"><b>Limited Edition:</b> NetSuite Limited Edition is NetSuite pricing for small businesses. This edition under standard NetSuite licensing is ideal for business organizations running a single legal entity. Businesses with not more than ten user licenses and less than 50 employees can make the most of Limited Edition to grow and scale.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4">
+                                    <div class="bg-white">
+                                        <div><img src="/kanak_website/static/src/img/netsuite_licensing/NetSuite_mid_market.png" class="img-responsive center-block"/></div>
+                                        <div style="padding: 20pt">
+                                            <p class="text-justify"><b>NetSuite Mid-Market Edition:</b> This Mid-Market edition under NetSuite licensing is the right fit for companies that demand more than ten named users. Also, businesses with two or more legal entities can pick this Mid-market edition. It renders them the ability to perform consolidated financial reports across multiple currencies, languages, etc.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4">
+                                    <div class="bg-white">
+                                        <div><img src="/kanak_website/static/src/img/netsuite_licensing/NetSuite_enterprise.png" class="img-responsive center-block"/></div>
+                                        <div style="padding: 20pt">
+                                            <p class="text-justify"><b>NetSuite Enterprise Edition:</b> NetSuite cost for Enterprise edition is designed for companies with more than 1,000+ named users.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section style="background: linear-gradient(to bottom, #f6f4fb 0%, #ffffff 100%);">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12" style="margin: 20pt auto">
+                                <h2>NetSuite Pricing Per User</h2>
+                                <p class="text-justify">Regarding permitting the end clients of programming, ERP programming sellers offer either a simultaneous authorizing model or a named client model. Thus, business pioneers can benefit from use according to their business and staff prerequisites with a normalized NetSuite value.</p>
+                                <div id="named_user" class="col-lg-12">
+                                    <div>
+                                        <h4><b>NetSuite licenses "named user," which is most probably the end-user of the application.</b></h4>
+                                        <p class="text-justify">You understand that a user license is needed for jobs like a Controller, a Sales Manager, a Director of Operations, and a Customer Service Representative.</p>
+                                        <p class="text-justify">Anybody executing in the framework on a standard premise will need a full client permit. Besides, in the event that you require total bookkeeping of all framework changes and exchanges by the client, you'll need to have a committed NetSuite permit for every client as opposed to sharing client licenses among gatherings of individuals.</p>
+                                        <p class="text-justify">Moreover, there are other client licenses for the people who perform restricted assignments or capacities inside NetSuite, for example, time passage against a venture, enter/see/track gathered PTO or enter/see/track cost reports, or the individuals who start a buy demand. These restricted capacity clients licenses are alluded to as "Self-Service Users".</p>
+                                        <p class="text-justify">At long last, there are generally questions with respect to "what might be said about clients requiring read-just admittance to NetSuite information"?</p>
+                                        <p class="text-justify">Additionally, reports can be booked and circulated to non-authorized clients through local NetSuite revealing usefulness in either Excel, CSV, PDF, or Word.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <br />
+                <section style="background-image: url('/kanak_website/static/src/img/netsuite_licensing/Bg_2.png');background-repeat: no-repeat; ">
+                    <div class="container">
+                        <div class="row">
+                            <div id="advance_modules" class="col-lg-12">
+                                <div class="col-lg-6" style="padding-left: 0">
+                                    <h3 style="font-size:28px;font-weight: 900;color: #003362;">Advanced NetSuite Modules</h3>
+                                    <p class="text-justify">Since each organization is extraordinary, it's probably you'll have needs far in excess of the standard NetSuite <a href="https://www.creatio.com/page/what-is-crm">CRM</a>, and ERP highlights recorded previously. Thus, Oracle NetSuite estimating offers a few extra progressed modules you can decide to permit, dependent on your specific business needs.</p>
+                                    <p class="text-justify">NetSuite modules might be authorized "individually" or they might be packaged together as an "Industry Suite", which are a pre-bundled set of modules generally utilized for explicit enterprises.</p>
+                                    <p class="text-justify">For instance, "NetSuite Manufacturing" would incorporate the fundamental modules for an assembling organization to maintain their business on NetSuite. There's likewise the idea of NetSuite for explicit specialty ventures. Take metal manufacture programming, for instance. Local NetSuite licensing around manufacturing modules combined with packaged SuiteScript arrangements can be conveyed to assist clients with running NetSuite in exceptionally redid conditions right "out of the box" as a rule.</p>
+                                    <p class="text-justify">NetSuite advanced modules price and industry suites differ as per the edition type (NetSuite Limited Edition, NetSuite Mid-Market Edition, and NetSuite Enterprise Edition).</p>
+                                </div>
+                                <div id="netsuite_modules" class="col-lg-6">
+                                    <img src="/kanak_website/static/src/img/netsuite_licensing/NetSuite_modules.png" class="img-responsive center-block"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section style="background-image: url('/kanak_website/static/src/img/netsuite_licensing/Bg_3.png');">
+                    <div class="container">
+                        <div class="row">
+                            <div id="thriving_bussiness" class="col-lg-12" style="padding: 40pt 0">
+                                <div class="col-lg-5">
+                                    <img src="/kanak_website/static/src/img/netsuite_licensing/img.png" class="img-responsive center-block"/>
+                                </div>
+                                <div class="col-lg-7">
+                                    <h3 class="text-left" style="font-size:28px;font-weight: 900;color: #003362;">Why are Thriving Businesses considering NetSuite?</h3>
+                                    <p class="text-justify">As we all know, NetSuite is the world’s leading cloud-based ERP software and has catered to many businesses managing their key operations via a single, fully integrated system. From Financials, CRM, Ecommerce to Professional Services Automation, Inventory, and Sales, NetSuite offers inventive capabilities across all verticals. Moreover, it starts functioning within a stipulated time after implementation and is easy to use. Additionally, the flexibility it depicts is hardly found with other solutions to meet all aspects of your business.</p>
+                                    <h3>Thousands of companies worldwide prefer NetSuite ERP to other cloud <a href="https://kanakinfosystems.com/erp-solutions">ERP solutions</a> as it helps:</h3>
+                                    <ul>
+                                        <li>
+                                            <p>Optimize and manage key business operations and processes.</p>
+                                        </li>
+                                        <li>
+                                            <p>Gain extensive visibility across the entire business via one integrated source.</p>
+                                        </li>
+                                        <li>
+                                            <p>Drive high scalability for business growth and expansion.</p>
+                                        </li>
+                                        <li>
+                                            <p>Plan business productivity within a stipulated time.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <br />
+                <section>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <h4 style="font-size:28px;font-weight: 900;color: #003362;">How To Get NetSuite Licensing?</h4>
+                                <p class="text-justify">Most NetSuite Licensing modules can be bought in whenever during the length of your NetSuite membership term. However, on the long odds that your business has more than one legitimate element that requires separate financials, between organization exchange the board and monetary solidifications (or has plans to soon) you'll need to permit NetSuite OneWorld right from the beginning.</p>
+                                <p class="text-justify">Here, our experienced consultants can help you with NetSuite Licensing and get you the right edition as per your business size and requirements. In addition, we have assisted multitudinous organizations across the right implementation, integration, training, ongoing audits, go-live, and post-live support in helping them execute their vision effectively.</p>
+                                <p class="text-justify">An extraordinary aspect concerning NetSuite Licensing is that its open architecture and modular license approach allow business organizations to add and remove modules when the business demands them.</p>
+                                <h4 style="font-size:28px;font-weight: 900;color: #003362;">Why choose us for your NetSuite Licensing?</h4>
+                                <p class="text-justify">We are certified and acclaimed NetSuite resellers and hold all-inclusive expertise in the evaluation, implementation, configuration, customization, and services. We are committed to success and go all out to win trust even beyond the go-live.</p>
+                                <p class="text-justify">You will always receive a straightway connection to our skilled and accredited IT consultants for <a href="https://kanakinfosystems.com/netsuite-support">NetSuite Support</a>. Our experts will guide you with the best practices, purchasing options, pricing, NetSuite licensing, products, and more. In addition, we are available 24x 7 to let you avail of all kinds of assistance across NetSuite ERP solutions and help you meet your specific business needs without much hassle.</p>
+                                <p class="text-justify">On a conclusive note, businesses connecting with an experienced NetSuite Solution provider partner can be comprehended NetSuite licensing more closely and pick the most apposite solution. It is an industry best practice to make judicious business investments and scale your business with technology enhancements within a stipulated time.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <br />
+                <section>
+                    <div class="container" style="background: #f9f9f9;">
+                        <br />
+                        <div class="row text-center">
+                            <h2><font style="font-size: 30px;">
+                                    <span class="dark_blue">Contact Us for NetSuite Implementation</span>
+                                </font>
+                            </h2>
+                            <p class="text-center">For More Information on NetSuite Consulting Services</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 text-center">
+                                <br/><br/>
+                                <form action="/netsuite-licensing-thankyou" method="post">
+                                    <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()" />
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6 col-sm-6">
+                                            <div class="form-group text-left">
+                                                <label for="name">Name*</label>
+                                                <input type="name" class="form-control" name="name" id="name" required="true" style="border-radius: unset;background: #efefef;border: unset;" placeholder="Enter Your Name" />
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6">
+                                            <div class="form-group text-left">
+                                                <label for="email">Email*</label>
+                                                <input type="email" class="form-control" name="email" id="email" required="true" style="border-radius: unset;background: #efefef;border: unset;" placeholder="Enter Your Email" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group text-left">
+                                        <label for="phone">Phone</label>
+                                        <input type="phone" class="form-control" name="phone" id="phone" style="border-radius: unset;background: #efefef;border: unset;" placeholder="Enter Your Phone" />
+                                    </div>
+                                    <div class="form-group text-left">
+                                        <label for="email">Description</label>
+                                        <textarea class="form-control" id="validationTextarea" name="question" required="true" style="border-radius: unset;background: #efefef;border: unset;" placeholder="Description..."></textarea>
+                                    </div>
+                                    <div class="text-center">
+                                        <div class="g-recaptcha netsuite" style="text-align: center; text-align: -webkit-center;" t-att-data-sitekey="website.recaptcha_site_key" data-theme="red"></div>
+                                    </div>
+                                    <button type="submit" class="btn-dark btn btn-primary form_netsuite_submit" style="height: 40px;width: 150px;border-radius: 5px;">Submit</button>
+                                    <br />
+                                    
+                                </form>
+                                <br />
+                            </div>
+                        </div>
+                        <br />
+                    </div>
+                </section>
+               
+                <br />
+            </t>
+        </template>
+    </data>
+</odoo>

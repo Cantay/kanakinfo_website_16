@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="assets_frontend" inherit_id="web.assets_frontend">
+        <xpath expr="link[last()]" position="after">
+            <link href="/kanak_website/static/src/css/career_website.css" type="text/css" rel="stylesheet" />
+            <link href="/kanak_website/static/src/css/web_career_ssa.css" type="text/css" rel="stylesheet" />
+            <link href="/kanak_website/static/src/scss/website.css" type="text/css" rel="stylesheet" />
+        </xpath>
+        <xpath expr="//script[last()]" position="after">
+            <script type="text/javascript" src="/kanak_website/static/src/js/netsuite.js" />
+            <script type="text/javascript" src="/kanak_website/static/src/js/career_search.js" />
+            <script type="text/javascript" src="/kanak_website/static/src/js/seo_optimize.js" />
+        </xpath>
+    </template>
+</odoo>
+
+

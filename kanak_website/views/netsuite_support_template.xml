@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <template id="tmp_netsuit_support_page" name="NetSuite Support">
+            <t t-call="website.layout">
+                <section>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <img src="/kanak_website/static/src/img/netsuite_support/Bg.png" class="img-responsive center-block" />
+                        </div>
+                    </div>
+                </section>
+                <br />
+                <section>
+                    <div class="container">
+                        <div class="row">
+                            <div id="support" class="col-lg-12">
+                                <div class="col-lg-6">
+                                    <img src="/kanak_website/static/src/img/netsuite_support/NetSuite_Support.png" class="img-responsive center-block" />
+                                </div>
+                                <div class="col-lg-6">
+                                    <h1 class="text-left" style="font-size:28px;font-weight: 900;color: #003362;">NetSuite Support </h1>
+                                    <p class="text-justify">Harnessing the inventive capabilities of the world’s most widely deployed cloud <a href="https://kanakinfosystems.com/erp-solutions">ERP solution</a>, businesses can streamline key operations. But What Next?</p>
+                                    <p class="text-justify">Here comes in picture NetSuite Support that enables business leaders to unveil growth opportunities offered by NetSuite. One can make the most of its Support Services to retain productivity and high operational efficiency in the long run.</p>
+                                    <p class="text-justify">With NetSuite Support, your solution provider partner ensures that your drive maximum business benefit out of technology enhancement as a <a href="https://kanakinfosystems.com/netsuite-implementation">NetSuite Implementation</a>. They deliver a well-defined SLA (Service Level Agreement) to assist you in managing costs, upgrades and integrated data. Your NetSuite Partner will help you come across an array of NetSuite Support Services, including training and NetSuite ERP customization. You can meet your specific business needs, leverage best industry practices, and ensure maximum ROI.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <br />
+                <section style="background: linear-gradient(to bottom, #fffaf6 0%, #fffaf6 100%);">
+                    <div class="container">
+                        <div class="row">
+                            <div id="netsuite_support_basic" class="col-lg-12">
+                                <h2>NetSuite Support </h2>
+                                <p class="text-justify">NetSuite Support is further divided into Basic Support (Tier I) and Enhance Support (Tier II).</p>
+                                <div class="col-lg-4">
+                                    <h3>NetSuite Support Basic:</h3>
+                                    <ul>
+                                        <li>
+                                            <p>Provide Troubleshooting</p>
+                                        </li>
+                                        <li>
+                                            <p>Regular Admin Support</p>
+                                        </li>
+                                        <li>
+                                            <p>Form customization</p>
+                                        </li>
+                                        <li>
+                                            <p>Fundamental workflows</p>
+                                        </li>
+                                        <li>
+                                            <p>User/Role Management</p>
+                                        </li>
+                                        <li>
+                                            <p>System Configuration</p>
+                                        </li>
+                                        <li>
+                                            <p>Business Process Management</p>
+                                        </li>
+                                        <li>
+                                            <p>Pre-existing Dashboards, Saved Searches &amp; Reports</p>
+                                        </li>
+                                        <li>
+                                            <p>Recognizing Script &amp; Integration Errors</p>
+                                        </li>
+                                        <li>
+                                            <p>Performance Analysis</p>
+                                        </li>
+                                        <li>
+                                            <p>CSV &amp; XML Imports</p>
+                                        </li>
+                                        <li>
+                                            <p>PDF &amp; HTML Template changes</p>
+                                        </li>
+                                        <li>
+                                            <p>Custom Form &amp; Field Creation</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-4" style="padding: 40pt"><img src="/kanak_website/static/src/img/netsuite_support/NetSuite_Support_bg.png" class="img-responsive center-block" /></div>
+                                <div class="col-lg-4">
+                                    <h3>NetSuite Support Enhance:</h3>
+                                    <ul>
+                                        <li>
+                                            <p>Workflow Design (Scripting)</p>
+                                        </li>
+                                        <li>
+                                            <p>Saved Searches &amp; Reports creation</p>
+                                        </li>
+                                        <li>
+                                            <p>Custom Scripting &amp; Coding</p>
+                                        </li>
+                                        <li>
+                                            <p>Dashboard Design</p>
+                                        </li>
+                                        <li>
+                                            <p>Performance Tuning</p>
+                                        </li>
+                                        <li>
+                                            <p>Form Design &amp; Build</p>
+                                        </li>
+                                        <li>
+                                            <p>Data Migration</p>
+                                        </li>
+                                        <li>
+                                            <p>Handling Script &amp; Integration errors</p>
+                                        </li>
+                                        <li>
+                                            <p>Third-Party System Integrations</p>
+                                        </li>
+                                        <li>
+                                            <p>Training &amp; Support</p>
+                                        </li>
+                                        <li>
+                                            <p>PDF &amp; HTML Template creation</p>
+                                        </li>
+                                        <li>
+                                            <p>New Release Support</p>
+                                        </li>
+                                        <li>
+                                            <p>SuiteFlow, SuiteScript, and SuiteBundler Development</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <br />
+                <section>
+                    <div class="container">
+                        <div id="functional_support" class="row">
+                            <div class="col-lg-12">
+                                <div class="col-lg-1" style="padding-top:20pt">
+                                    <img src="/kanak_website/static/src/img/netsuite_support/Functional_Support.png" class="img-responsive" />
+                                </div>
+                                <div class="col-lg-11">
+                                    <h2 class="text-left">Functional Support </h2>
+                                    <p class="text-justify">This NetSuite Support helps business leaders evaluate if the implementation is successfully running or not. Well, internal operations are equally important as the technology itself. An expert team of NetSuite functional and process consultants helps instantly identify unique business requirements. These experts help business administrators address key operational issues and derive competitive advantages from the NetSuite cloud ERP solutions.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="col-lg-1" style="padding-top:20pt">
+                                    <img src="/kanak_website/static/src/img/netsuite_support/Technical_Support.png" class="img-responsive" />
+                                </div>
+                                <div class="col-lg-11">
+                                    <h2 class="text-left">Technical Support</h2>
+                                    <p class="text-justify">NetSuite Technical Support comprises extensive assistance that helps optimize the value of NetSuite by improving operational efficiencies and ascertaining business continuity. Most importantly, NetSuite Technical Support enhances productivity. When you connect with an acclaimed <a href="https://kanakinfosystems.com/netsuite-services">NetSuite Solution Provider</a>, they render extensive NetSuite Support Services to optimize business investment and help make sure that the NetSuite cloud ERP solution is suited specifically to meet unique business needs.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="col-lg-1" style="padding-top:20pt">
+                                    <img src="/kanak_website/static/src/img/netsuite_support/NetSuite_Administration.png" class="img-responsive" />
+                                </div>
+                                <div class="col-lg-11">
+                                    <h2 class="text-left">NetSuite Administration</h2>
+                                    <p class="text-justify">By leveraging NetSuite administrative layer, solution provider partners help ensure role-based and secure access to corporate data. <a href="https://kanakinfosystems.com/contact-us">NetSuite Support</a> Services deliver the admin know-how to customize the system as per the business requirements. This enables seamless collaboration with the team members across all business functions as well. </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="col-lg-1" style="padding-top:20pt">
+                                    <img src="/kanak_website/static/src/img/netsuite_support/Resource_Augmentation.png" class="img-responsive" />
+                                </div>
+                                <div class="col-lg-11">
+                                    <h2 class="text-left">Resource Augmentation</h2>
+                                    <p class="text-justify">To get your project done, NetSuite Staff
+                                        Augmentation Service under NetSuite Support offers extensive capabilities. If
+                                        you need extra resources to expedite project completion, your solution provider
+                                        partner caters to temporary as well as dedicated staffing requirements. Right from
+                                        project staffing to system monitoring, this NetSuite support service lets you
+                                        ramp up (or down) as per the business requirements.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <br />
+                <section>
+                    <div class="container">
+                        <div class="row">
+                            <div id="key_feature" class="col-lg-12">
+                                <div class="col-lg-6" style="padding: 40pt">
+                                    <h2 class="text-left">Key Features</h2>
+                                    <p class="text-justify">Business leaders can make NetSuite a key player in their success and the growth of the company by maximizing its utility. NetSuite Support offers extensive capabilities to scale business operations via comprehensive help-desk support essentials, and user onboarding &amp; training programs for customers.</p>
+                                    <p class="text-justify">Some of the modules covered under NetSuite Support Services are mentioned below:</p>
+                                    <div class="col-lg-6 col-md-6 col-sm-6 key_list"><ul>
+                                        <li><p>Ticket Tracking System</p></li>
+                                        <li><p>Online Meeting Space</p></li>
+                                        <li><p>Customer Portal</p></li>
+                                        <li><p>End-User Reference Guides</p></li>
+                                        <li><p>Multiple Support Channels</p></li></ul>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6 key_list">
+                                        <ul>
+                                        <li><p>Business Hours Support</p></li>
+                                        <li><p>Weekend Coverage</p></li>
+                                        <li><p>Peak Period Support</p></li>
+                                        <li><p>Priority Support</p></li>
+                                        <li><p>Enhancement</p></li>                                     </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6" style="padding: 40pt">
+                                    <img src="/kanak_website/static/src/img/netsuite_support/Key_features.png" class="img-responsive center-block" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <br />
+                <br />
+                <section>
+                    <div class="container">
+                        <div class="row">
+                            <div id="hire_expert" class="col-lg-12">
+                                <div class="col-lg-6" style="padding: 40pt">
+                                    <h2 class="text-left">HIRE EXPERTS AT NETSUITE SUPPORT TO LEAD THE COMPETITIVE EDGE
+                                    </h2>
+                                    <p class="text-justify">Extensive experience, sound technical knowledge &amp; the ability to solve even the most complex problems and issues related to NetSuite makes our team stand out from the common and prevalent practices. Our NetSuite Support Consultants hold extensive experience in rendering end-user support without a hitch and suggest instant resolutions around fundamental and complex issues across user/security administration, system support, and product customization.</p>
+                                </div>
+                                <div class="col-lg-6" style="padding: 40pt">
+                                    <img src="/kanak_website/static/src/img/netsuite_support/Hire_expert.png" class="img-responsive center-block" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <br />
+                <br />
+                <section style="background: linear-gradient(to bottom, #fffaf6 0%, #fffaf6 100%);">
+                    <div class="container">
+                        <div class="row">
+                            <div id="support_services" class="col-lg-12">
+                                <div style="width: 30px;height:130px;background-color:#ffa53a;position:absolute;top:30pt;padding:14pt"></div>
+                                <div class="col-lg-4">
+                                    <h2 class="text-left" style="padding-top: 75pt;padding-left: 20pt;text-transform: uppercase;font-size:28px;font-weight: 900;color: #003362;">Why choose us for NetSuite Support Services?</h2>
+                                    <hr />
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div id="next_generation">
+                                        <div></div>
+                                        <h4>NEXT-GENERATION SOLUTIONS</h4>
+                                        <p>We are adept at developing innovative and inventive approaches to render positive business results. We assist in retaining continuous improvement and exploring ways to grab maximized profitability.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div id="lucidity">
+                                        <div></div>
+                                        <h4>LUCIDITY</h4>
+                                        <p>We assist our clients in scaling up their business efficiency and optimizing organizational outcomes via extensive dedication and persistently work towards adding value to their business. We make sure that our associates or clientele are aware of project status in real-time and no loopholes are left unaddressed.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="support_services_two" class="col-lg-12">
+                                <div class="col-lg-4 col-md-6">
+                                    <div id="in_house_resources">
+                                        <div></div>
+                                        <h4>IN-HOUSE RESOURCES</h4>
+                                        <p>We assist our associates with a dedicated and committed team of adept and experienced NetSuite Developers. They review, inspect, and spend substantial time settling your existing scripts to enhance performance along with making corrections. </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div id="service_level_agreement">
+                                        <div></div>
+                                        <h4>SERVICE LEVEL AGREEMENT</h4>
+                                        <p>We ascertain that you drive maximum ROI around your NetSuite Support and make the most of technology enhancements by defining the Customer Service Level Agreement (SLA).</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-12">
+                                    <div id="pocket_friendly">
+                                        <div></div>
+                                        <h4>POCKET-FRIENDLY</h4>
+                                        <p>We avoid procrastination and ensure on-time delivery. We aim at delivering uncompromised NetSuite Support that is low on your pockets but lets you steer high profitability. Affordable NetSuite Support services can help you increase active engagement without any additional business outlay.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <br />
+                <section>
+                    <div class="container">
+                        <div class="row">
+                            <div id="support_cover" class="col-lg-12">
+                                <h3 style="font-size:28px;font-weight: 900;color: #003362;">OUR NETSUITE SUPPORT COVERS </h3>
+                                <div class="col-lg-6">
+                                    <ul>
+                                        <li>
+                                            <p>Support for all NetSuite Customers, irrespective of the industry.</p>
+                                        </li>
+                                        <li>
+                                            <p>Inspection of NetSuite platform for quick detection, troubleshooting, and resolution.</p>
+                                        </li>
+                                        <li>
+                                            <p>Proactive Account and NetSuite Customer Support Teams for real-time reports and insights.</p>
+                                        </li>
+                                        <li>
+                                            <p>Saved searches and custom reports helping business administrators make well-informed decisions.</p>
+                                        </li>
+                                        <li>
+                                            <p>NetSuite Customization (e.g. custom fields, custom forms, and workflows).</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-6">
+                                    <ul>
+                                        <li>
+                                            <p>Testing and deployment of exceptional user experience.</p>
+                                        </li>
+                                        <li>
+                                            <p>Cohesive and quality communication regarding system status.</p>
+                                        </li>
+                                        <li>
+                                            <p>Audit NetSuite configuration for industry-leading practices.</p>
+                                        </li>
+                                        <li>
+                                            <p>Regression testing for NetSuite upgrades.</p>
+                                        </li>
+                                        <li>
+                                            <p>Assign, edit, and audit user roles.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <br />
+                <section>
+                    <div class="container">
+                        <div class="row">
+                            <div style="width: 80%;margin: auto">
+                                <div id="support_conclusion" class="col-lg-12 bg-danger text-center" style="margin: 40pt 0;padding: 20pt 40pt;border-radius:10px">
+                                    <h2>Conclusion</h2>
+                                    <p class="text-justify">To avail of extensive NetSuite Support or NetSuite Technical Support, you can connect with an acclaimed and accredited ERP solution provider, who holds rich industry expertise and experience across managing post-implementation operations. They can help you overcome bug fixes, reporting issues, and more within the stipulated time.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <br />
+                <section>
+                    <div class="container" style="background: #f9f9f9;">
+                        <br />
+                        <div class="row text-center">
+                            <h2>
+                                <font style="font-size: 30px;">
+                                    <span class="dark_blue">Contact Us for NetSuite Implementation</span>
+                                </font>
+                            </h2>
+                            <p class="text-center">For More Information on NetSuite Consulting Services</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 text-center">
+                                <br /><br />
+                                <form action="/netsuite-support-thankyou" method="post">
+                                    <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()" />
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6 col-sm-6">
+                                            <div class="form-group text-left">
+                                                <label for="name">Name*</label>
+                                                <input type="name" class="form-control" name="name" id="name" required="true" style="border-radius: unset;background: #efefef;border: unset;" placeholder="Enter Your Name" />
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6">
+                                            <div class="form-group text-left">
+                                                <label for="email">Email*</label>
+                                                <input type="email" class="form-control" name="email" id="email" required="true" style="border-radius: unset;background: #efefef;border: unset;" placeholder="Enter Your Email" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group text-left">
+                                        <label for="phone">Phone</label>
+                                        <input type="phone" class="form-control" name="phone" id="phone" style="border-radius: unset;background: #efefef;border: unset;" placeholder="Enter Your Phone" />
+                                    </div>
+                                    <div class="form-group text-left">
+                                        <label for="email">Description</label>
+                                        <textarea class="form-control" id="validationTextarea" name="question" required="true" style="border-radius: unset;background: #efefef;border: unset;" placeholder="Description..."></textarea>
+                                    </div>
+                                    <div class="text-center">
+                                        <div class="g-recaptcha netsuite" style="text-align: center; text-align: -webkit-center;" t-att-data-sitekey="website.recaptcha_site_key" data-theme="red"></div>
+                                    </div>
+                                    <button type="submit" class="btn-dark btn btn-primary form_netsuite_submit" style="height: 40px;width: 150px;border-radius: 5px;">Submit</button>
+                                    <br />
+                                </form>
+                                <br />
+                            </div>
+                        </div>
+                        <br />
+                    </div>
+                </section>
+                <br />
+            </t>
+        </template>
+    </data>
+</odoo>

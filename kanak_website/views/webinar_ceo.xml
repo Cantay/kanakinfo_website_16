@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record id="webinar_ceo_tree_view" model="ir.ui.view">
+            <field name="name">webinar.ceo.tree.view</field>
+            <field name="model">ceo.webinar</field>
+            <field name="arch" type="xml">
+                <tree string="Webinar CEO Tree View">
+                    <field name="company_name"/>
+                    <field name="person_name"/>
+                    <field name="email"/>
+                    <field name="title"/>
+                    <field name="contact_number"/>
+                </tree>
+            </field>
+        </record>
+        <record id="webinar_ceo_form_view" model="ir.ui.view">
+            <field name="name">webinar.ceo.form.view</field>
+            <field name="model">ceo.webinar</field>
+            <field name="arch" type="xml">
+                <form string="Webinar CEO Form View">
+                    <group>
+                        <group>
+                            <field name="person_name"/>
+                            <field name="contact_number"/>
+                            <field name="email"/>
+                        </group>
+                        <group>
+                            <field name="company_name"/>
+                            <field name="title"/>
+                        </group>
+                    </group>
+                </form>
+            </field>
+        </record>
+        <record id="action_webinar_ceo" model="ir.actions.act_window">
+            <field name="name">Webinar</field>
+            <field name="res_model">ceo.webinar</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+        <menuitem id="webinar_menu" name="Webinar" parent="website.menu_website_global_configuration" action="action_webinar_ceo"/>
+    </data>
+</odoo>

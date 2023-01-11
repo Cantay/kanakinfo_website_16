@@ -1,0 +1,2204 @@
+body {
+    line-height: 1.0;
+}
+
+.main-content-wrap {
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px -3px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    margin: 0 0 25px;
+    width: 100%;
+}
+
+.faq_button img {
+    display: block;
+    height: 30px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.frequently_border_1 {
+    margin-right: -80px;
+    width: 50%;
+    margin-top: 3.5rem;
+    border-top: 4px solid red;
+    margin-left: 210px;
+}
+
+.frequently_border_2 {
+    margin-left: -70px;
+    width: 50%;
+    margin-top: 3.5rem;
+    border-top: 4px solid red;
+    margin-right: : 210px;
+}
+
+.faq_button {
+    display: inline-block;
+    height: 30px;
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+    width: 3%;
+    border: unset;
+    background: unset;
+}
+
+body.modal-open .navbar-static-top {
+    z-index: auto;
+}
+
+body.modal-open main {
+    position: initial;
+}
+
+body.modal-open #footer {
+    position: inherit;
+}
+
+.left-main-content-wrap {
+    box-shadow: 3px 3px 20px -3px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    width: 100%;
+    height: 500px;
+    border-radius: 7px;
+}
+
+.gCdMUP {
+    display: none !important;
+}
+
+.ceo_submit_button {
+    margin: 20px;
+    margin-left: 175px;
+    width: 150px;
+    background: linear-gradient(-135deg, #ef8707, red, #ef8707 100%);
+    ;
+    color: white;
+}
+
+.submit-main-content-wrap {
+    box-shadow: 3px 3px 20px -3px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    margin: 0 0 25px;
+    color: white;
+    height: 500px;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url(/kanak_website/static/src/img/thank_you_img.png);
+    background-color: #06416b;
+}
+
+.netsutie_img-content-wrap {
+    box-shadow: 3px 3px 20px -3px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    margin: 0 0 25px;
+    color: white;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.header-content {
+    padding: 30px 0;
+}
+
+.content-top-center {
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.flex-row {
+    width: 100%;
+    letter-spacing: normal;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.form-wrapper {
+    font-size: 16px;
+}
+
+.content-img {
+    min-height: 400px;
+    box-sizing: border-box;
+}
+
+.span_blue {
+    color: #06416b;
+}
+
+.span_red {
+    color: red;
+}
+
+.main_natesuite_title {
+    font-size: 30px;
+    margin: 20px;
+}
+
+.main_draw_title {
+    color: #06416b;
+    font-size: 20px;
+}
+
+.main_netsuite_img {
+    margin-left: -15px;
+}
+
+.main_about_you {
+    color: #06416b;
+    font-size: 20px;
+}
+
+.netsuite_field {
+    margin-top: 30px;
+}
+
+.net-implement {
+    background-image: url('/kanak_website/static/src/img/netsuite_slider1.jpg');
+
+}
+
+.main_personalize_title {
+    color: #06416b;
+    font-size: 20px;
+}
+
+.content-only {
+    width: 310px;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    border-bottom: 5px solid #fff;
+}
+
+.margin_bottom_20px {
+    margin-bottom: 25px !important;
+    width: auto !important;
+    height: 200px;
+}
+
+@media only screen and (max-width: 768px) {
+    /*netsuite page
+*/
+
+    .run_your_business {
+        width: auto !important;
+        margin-top: auto !important;
+    }
+
+    .align_justify {
+        text-align: justify !important;
+    }
+
+    .nf {
+        text-align: justify !important;
+        padding: 10px !important;
+        margin-bottom: -30px;
+    }
+
+    .bgr {
+        padding: 20px;
+    }
+
+    .sb {
+        margin-bottom: -40px !important;
+    }
+
+    .hc {
+        font-size: 20px !important;
+        margin-left: -30px !important;
+        margin-top: -15px !important;
+        margin-bottom: 30px !important;
+    }
+
+    .li_padding_10 {
+        padding: 10px;
+    }
+
+    .ca {
+        width: 5% !important;
+    }
+
+    .use_netsuite {
+        margin: auto !important;
+        margin-bottom: -30px !important;
+    }
+
+    .netsuite_impl {
+        width: 90% !important;
+    }
+
+    /*.key_setup{
+        margin-left: 35px !important;
+    }*/
+
+    .specific_reasons {
+        padding: 12px !important;
+        margin-bottom: -25px !important;
+    }
+
+    .erp_box {
+        width: auto !important;
+        height: auto !important;
+        margin-bottom: 25px !important;
+    }
+
+    .remove_margin_erp_box {
+        margin-left: auto !important;
+        margin-bottom: 25px !important;
+    }
+
+    .fr {
+        margin-bottom: -40px !important;
+    }
+
+    .help_you {
+        width: auto !important;
+        margin-bottom: 40px !important;
+    }
+
+    .margin_bottom_20px {
+        margin-bottom: 25px !important;
+        width: auto !important;
+        height: 340px !important;
+    }
+
+    .input_field_width_96 {
+        width: 96% !important;
+    }
+
+    .left_15 {
+        margin-left: 15px !important;
+        width: auto !important;
+    }
+
+    .adc {
+        margin-top: 15px !important;
+        margin-left: 50px !important;
+    }
+
+    .adb {
+        margin-left: 110px !important;
+    }
+
+    .faq_box {
+        padding: 50px !important;
+        margin-top: -50px !important;
+    }
+
+    .faq_button {
+        width: auto !important;
+    }
+
+    .frequently_border_1 {
+        display: none !important;
+    }
+
+    .frequently_border_2 {
+        display: none !important;
+    }
+
+    .faq_border {
+        margin-left: 25px;
+    }
+
+
+    /*    webinar
+*/
+    .calendar_text {
+        top: 270px !important;
+    }
+
+    .calendar_icon {
+        margin-top: -50px !important;
+    }
+
+    .adjust_form {
+        margin-left: auto !important;
+        margin-top: 70px;
+    }
+
+    .webinar_ceo_input_field {
+        margin-left: 5px !important;
+        width: 95% !important;
+    }
+
+    .txt_content {
+        text-align: justify !important;
+        font-size: 15px !important;
+        width: auto !important;
+    }
+
+    .mob_ceo_submit_button {
+        margin-left: 103px !important;
+    }
+
+    .content_box {
+        margin-left: 12px !important;
+    }
+
+    .Benefits-of-Video-Conferencing {
+        height: auto !important;
+    }
+
+    .to_begain {
+        margin-top: -200px !important;
+    }
+
+    .to_begain_p {
+        margin-left: auto !important;
+    }
+
+    .to_begain_border {
+        border: none !important;
+    }
+
+    .to_begain_span {
+        margin-left: auto !important;
+    }
+
+    .webinar_recaptcha {
+        margin-left: 30px !important;
+    }
+
+    /*    webinar */
+    .offical_netsuite_logo {
+        padding-top: 18px !important;
+        width: 144px !important;
+        margin-left: 6.5rem !important;
+        display: block;
+    }
+
+    .close_popup_btn {
+        color: #101010;
+        background-color: unset;
+        border: 1px solid black !important;
+        position: absolute;
+        right: 2px !important;
+        top: 1px !important;
+    }
+
+    .disclaimer {
+        margin-left: -58px;
+        font-size: 12px !important;
+    }
+
+    .adjust_captcha {
+        margin-top: 15px !important;
+        margin-left: -15px !important;
+    }
+
+    .adjust_button {
+        margin: 25px !important;
+        margin-top: 15px !important;
+    }
+
+    .adjust_field {
+        width: auto !important;
+        margin-left: auto !important;
+    }
+
+    .title_padding {
+        padding: 10px;
+        text-align: justify;
+    }
+
+    .indst_box {
+        content: "A" !important;
+        display: block !important;
+        margin-top: 1em !important;
+    }
+
+    .products_section {
+        margin-top: -40px;
+    }
+
+    .netsuite_products {
+        margin-bottom: 32px !important;
+        margin-top: : 32px !important;
+        margin-left: auto !important;
+    }
+
+    .centered {
+        position: absolute !important;
+        top: 70% !important;
+        left: auto !important;
+        transform: translate(-50%, -50%) !important;
+        text-align: center !important;
+    }
+
+    .netsuite_custom_icon_2 {
+        width: 80% !important;
+        margin: auto !important;
+    }
+
+    .table_fm {
+        margin-top: 2em;
+    }
+
+    .netsuite_custom_icon {
+        width: auto !important;
+        height: auto !important;
+        display: block !important;
+        margin: auto;
+    }
+
+    .remove_padding {
+        padding: 20px !important;
+    }
+
+    .title_1 {
+        font-size: 45px !important;
+
+    }
+
+    .kanak_header_for_mobile {
+        display: block !important;
+    }
+
+    .kanak_header {
+        display: none;
+    }
+
+    .main_class_netsuit_form .netsuite_title {
+        font-size: 16px !important;
+    }
+
+    .main_class_netsuit_form .draw_title {
+        font-size: 16px !important;
+    }
+
+    .main_class_netsuit_form .about_you {
+        content: "A" !important;
+        display: block !important;
+        margin-top: 1em !important;
+    }
+
+    .main_class_netsuit_form .personalize_title {
+        font-size: 16px !important;
+    }
+
+    .main_class_netsuit_form .draw_col {
+        content: "A" !important;
+        display: block !important;
+        margin-top: -2em !important;
+    }
+
+    .main_class_netsuit_form .netsuite_img {
+        content: "A" !important;
+        display: block !important;
+        margin-top: 1em !important;
+    }
+
+    .main_class_netsuit_form .netsuite_content_right {
+        margin-left: 0px !important;
+    }
+
+    .popup_register_btn {
+        border-radius: 10px;
+        margin-top: -80px !important;
+        margin-left: 8px !important;
+        background-color: #d41913;
+        font-size: smaller;
+    }
+
+    .main_class_netsuit_thank_you_form .thank_you_title {
+        font-size: 30px !important;
+    }
+
+    .main_class_netsuit_thank_you_form .span_thank_you {
+        font-size: 15px !important;
+    }
+
+    .main_class_netsuit_thank_you_form .share_on {
+        margin-top: -4em;
+    }
+
+    .submit-main-thank-you-content-wrap {
+        box-shadow: 3px 3px 20px -3px rgba(0, 0, 0, 0.25);
+        overflow: hidden;
+        margin: 0 0 25px;
+        color: white;
+        height: 500px;
+        width: 110%;
+        height: 100%;
+        margin-left: -1.2em;
+        background-image: url(/kanak_website/static/src/img/thank_you_img.png);
+        background-size: cover;
+        background-color: #06416b;
+    }
+
+    #follow_step {
+        background-image: none !important;
+        /*background-repeat: no-repeat; 
+        background-position: top;*/
+        padding-top: 0pt;
+
+    }
+
+    #odoo_feature {
+        font-size: 20pt;
+        margin: 10pt 0;
+    }
+
+    #follow_step .col-lg-6 div {
+        height: auto;
+
+    }
+
+    #odoo_services .col-lg-4 div {
+        height: auto;
+    }
+
+    #multi_sector div div {
+        text-align: center;
+        padding: 20pt;
+        height: auto;
+    }
+
+    #netsuite_licensing {
+        margin-top: -268px !important;
+        margin-bottom: 82px;
+    }
+
+    #licensing_edition div div div:last-child {
+        height: auto !important;
+    }
+
+    #licensing_edition>div {
+        padding: 20pt 114px !important;
+    }
+
+    #support_services div div {
+        height: auto !important;
+    }
+
+    #support_services_two div div {
+        height: auto !important;
+    }
+
+    #support div:first-child {
+        display: none;
+    }
+
+
+
+}
+
+.custom_slider {
+    background-size: cover;
+    min-height: 500px;
+}
+
+.carousel {
+    position: relative;
+}
+
+.s_carousel .carousel-inner,
+.s_quotes_carousel .carousel-inner {
+    overflow: hidden;
+    height: 100%;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-item {
+    position: relative;
+    display: none;
+    float: left;
+    width: 100%;
+    margin-right: -100%;
+    backface-visibility: hidden;
+    transition: transform 0.6s ease-in-out;
+}
+
+.bl-slider {
+    padding-left: 8px;
+    font-size: 17px;
+    border-left: 8px solid #00546e;
+    margin-bottom: 0px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.netsuite_custom_icon {
+    width: 80%;
+    height: 80%;
+    display: inline;
+}
+
+.netsuite_custom_icon:hover {
+    transform: rotateY(180deg);
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.icon_span {
+    color: white;
+}
+
+.product_box {
+    background-color: #fbfbfb;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 30px;
+    border: 1px solid #e8e8e8;
+    margin-bottom: 48px;
+    min-height: 230px;
+    max-height: 230px;
+    overflow: hidden;
+}
+
+.netsuite_custom_icon_2 {
+    width: 90%;
+}
+
+.centered {
+    position: absolute;
+    top: 70%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.industry_box {
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px -3px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    margin: 0 0 25px;
+    width: 100%;
+    min-height: 230px;
+}
+
+.about_us_box {
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px -3px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    margin: 0 0 25px;
+    width: 100%;
+    min-height: auto;
+}
+
+.netsuite_custom_icon_3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    content: "A";
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.industry_box:hover {
+    box-shadow: 0 4rem 4rem rgba(60, 72, 88, 0.15);
+}
+
+/*NetSuite Implementation page*/
+
+#key_step {
+    padding: 70px 80px 0 0
+}
+
+#steps div div {
+    height: 325px;
+
+}
+
+
+/*#good_netsuite div{
+    margin-top: -420px;
+    margin-left: 20pt;
+    background-color: none;
+}*/
+
+
+
+
+.implementation_check {
+    background-image: url(/kanak_website/static/src/img/check_Bg_3.png);
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #f4f6fe;
+    /*padding: 30pt 0;*/
+
+}
+
+
+
+#implementation_checklist div h2 {
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /*padding-left:80px;*/
+}
+
+
+#implementation_checklist .tab {
+    /*float: left;*/
+    /*background-color: #f1f1f1;*/
+    /*height: 300px;*/
+    padding-left: 16%;
+}
+
+
+
+
+.tab a {
+    display: block;
+    color: black;
+    padding: 5px 15px;
+    /*width: 50%;*/
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    /*font-size: 17px;*/
+    margin-top: 5px;
+    background-color: none !important;
+    text-align: center;
+
+}
+
+.tab a img {
+    height: 20px;
+}
+
+.tab a font {
+    font-size: 14pt;
+}
+
+.tab a>img,
+a>font {
+    vertical-align: middle;
+    display: inline-block;
+
+}
+
+#implementation_checklist .tab a:hover {
+    background-color: #e6e9f6;
+    border-radius: 5px;
+
+}
+
+#implementation_checklist .tab a.active {
+    background-color: #ccc;
+    border-radius: 5px;
+
+}
+
+
+
+#implementation_checklist .tabcontent {
+    /*margin: 0 5% 5% 5%;*/
+    padding: 2%;
+    border-top: 12px solid #193b67;
+    border-right: 6px solid #193b67;
+    border-bottom: 6px solid #193b67;
+    border-left: 6px solid #193b67;
+    height: auto;
+    border-radius: 5px;
+    background-color: white;
+}
+
+
+#implementation_checklist .tabcontent ul {
+    list-style-image: url(/kanak_website/static/src/img/Small_Icon/Arrow.png);
+    /*background-image: url(/kanak_website/static/src/img/Small_Icon/Arrow.png) no-repeat;*/
+    /*height: 10px;*/
+}
+
+#implementation_checklist .tabcontent ul li {
+    font-size: 14pt;
+    vertical-align: middle;
+    margin-top: 10pt;
+}
+
+
+
+
+
+
+
+#advantages {
+    padding: 0 80px 0 80px;
+}
+
+
+#advantages ul {
+    list-style-image: url(/kanak_website/static/src/img/Point_View.png);
+    margin-left: -20px;
+}
+
+#advantages ul li {
+    font-size: 14pt;
+    vertical-align: middle;
+    margin-top: 5pt;
+}
+
+/* acccorrrrrrrrrrrrrrr */
+
+
+/*#accordian {
+    padding: 40px 80px 0 80px;
+}
+
+
+
+#accordian .accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+#accordian .active, .accordion:hover {
+  background-color: #ccc;
+}
+
+#accordian .accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+#accordian .active:after {
+  content: "\2212";
+}
+
+#accordian .panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}*/
+
+
+
+/* Slider Content */
+
+
+#exampleSlider .content h3 {
+    margin-top: 0;
+}
+
+
+#exampleSlider {
+    position: relative;
+    /*border: 1px solid black;*/
+    /*width: 90%;*/
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+@media (max-width: 767px) {
+    #exampleSlider {
+        border-color: transparent;
+    }
+}
+
+#exampleSlider .MS-content {
+    margin: 15px 5%;
+    overflow: hidden;
+    white-space: nowrap;
+    /*border: 1px solid red;*/
+    padding: 5px;
+}
+
+
+
+#exampleSlider #tab button {
+    font-size: 16px;
+    cursor: pointer;
+    padding: 5px 0 5px 0;
+    margin-left: 10px;
+    background-color: white;
+    border: none;
+    box-shadow: 0px 1px 3px 1px #888888;
+    /*font-weight: bold;*/
+}
+
+#exampleSlider .content {
+    margin: 15px 5%;
+    overflow: hidden;
+    background-color: white;
+    /*border: 1px solid red;*/
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 1px #888888;
+    margin-top: 25pt;
+    margin-left: 70px;
+    margin-bottom: 24pt;
+}
+
+#exampleSlider .content div {
+    width: 100%;
+}
+
+
+
+#exampleSlider .content #showp div {
+    height: auto;
+    width: auto;
+    padding: 30px;
+    text-align: justify;
+    white-space: wrap;
+    display: none;
+    line-height: 1.3;
+
+}
+
+#exampleSlider .content #showp div p {
+    text-align: justify;
+}
+
+
+#exampleSlider .content #showp .active {
+    display: block;
+}
+
+
+
+#exampleSlider #tab .btnactive {
+    background-color: #153e69;
+    color: white;
+}
+
+
+
+
+@media (max-width: 767px) {
+    #exampleSlider .MS-content {
+        margin: 0;
+    }
+}
+
+
+
+#exampleSlider .MS-content .item {
+    display: inline-block;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    vertical-align: top;
+    border-right: none;
+    width: 19%;
+    border-radius: 5px;
+}
+
+@media (max-width: 1200px) {
+    #exampleSlider .MS-content .item {
+        width: 25%;
+    }
+}
+
+@media (max-width: 992px) {
+    #exampleSlider .MS-content .item {
+        width: 33.3333%;
+    }
+}
+
+@media (max-width: 767px) {
+    #exampleSlider .MS-content .item {
+        width: 50%;
+    }
+}
+
+
+#exampleSlider .MS-controls button {
+    position: absolute;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    outline: 0;
+    top: 22px;
+}
+
+@media (max-width: 767px) {
+    #exampleSlider .MS-controls button {
+        display: none;
+    }
+}
+
+#exampleSlider .MS-controls button:hover {
+    cursor: pointer;
+}
+
+
+#exampleSlider .MS-controls .MS-left {
+    left: 30px;
+}
+
+@media (max-width: 992px) {
+    #exampleSlider .MS-controls .MS-left {
+        left: -2px;
+    }
+}
+
+#exampleSlider .MS-controls .MS-right {
+    right: 23px;
+}
+
+@media (max-width: 992px) {
+    #exampleSlider .MS-controls .MS-right {
+        right: -2px;
+    }
+}
+
+
+
+
+#consult_list ul li {
+    margin-left: -24px;
+    padding: 10px 0 10px 0;
+}
+
+#consult_list ul li::marker {
+    font-size: 20px;
+}
+
+
+#consult_list {
+    padding: 40pt 0 40pt 0;
+}
+
+
+
+
+#assessment .well {
+    padding: 10px;
+    min-height: 20px;
+    margin: 20px 0;
+    background-color: white;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: 3px 3px 5px -3px;
+    ;
+    box-shadow: 3px 3px 5px -3px;
+    display: flex;
+    align-items: center;
+}
+
+
+#assessment .well img {
+    height: 40px;
+    float: right;
+}
+
+
+
+
+
+
+#netsuite_support ul li {
+    margin-left: -40px;
+    /*padding: 10px 0 10px 0;*/
+
+    /*margin: 0;*/
+    padding: 10px 0 10px 30px;
+    list-style: none;
+    background-image: url(/kanak_website/static/src/img/netsuite_consultant/arrow.png);
+    background-size: 12px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    font-size: 17px;
+}
+
+#netsuite_support div {
+    padding: 0 20pt;
+}
+
+
+#professional_services ul li {
+    margin-left: -40px;
+    padding: 10px 0 10px 30px;
+    list-style: none;
+    background-image: url(/kanak_website/static/src/img/netsuite_consultant/arrow.png);
+    background-size: 12px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    font-size: 17px;
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+
+    /*#good_netsuite div {
+        margin-top: -350px;
+        margin-left: 20pt;
+        background-color: none;
+        }*/
+
+
+    #implementation_checklist .tab {
+        padding-left: 10pt !important;
+    }
+
+    .margin_bottom_20px {
+        margin-bottom: 25px !important;
+        width: auto !important;
+        height: 230px;
+    }
+
+
+    #steps div div {
+        height: auto;
+    }
+
+    #netsuite_licensing {
+        margin-top: -300px !important;
+        margin-bottom: 128px;
+    }
+
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 425px) {
+
+    .margin_bottom_20px {
+        margin-bottom: 25px !important;
+        width: auto !important;
+        height: auto !important;
+    }
+
+
+    .carousel-indicators {
+        bottom: 0px !important;
+    }
+
+
+    .title_1 {
+        font-size: 28px !important;
+    }
+
+
+    #key_step {
+        padding: 20pt;
+
+    }
+
+    .key_setup {
+        margin: 0 15px !important;
+    }
+
+    #steps div div {
+        height: auto;
+
+    }
+
+    #good_netsuite img {
+        display: none;
+    }
+
+    /* #good_netsuite div{
+        margin-top: 0px;
+        margin: 20pt;
+        background-color: #1e4772;
+        padding: 20pt;
+        border-radius: 5px;
+    }*/
+
+    .net-implement {
+        background-image: url('/kanak_website/static/src/img/netsuite_slider1.jpg');
+        background-size: 196% 100%;
+
+    }
+
+    #implementation_checklist div h2 {
+        font-size: 24px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-left: 20px;
+
+    }
+
+
+    #implementation_checklist .tab {
+        float: left;
+        /*background-color: #f1f1f1;*/
+        /*height: 300px;*/
+        padding-left: 15px;
+    }
+
+
+    #implementation_checklist .tabcontent {
+        margin: 0;
+        padding: 2%;
+        border-top: 12px solid #193b67;
+        border-right: 6px solid #193b67;
+        border-bottom: 6px solid #193b67;
+        border-left: 6px solid #193b67;
+        height: auto;
+        border-radius: 5px;
+        background-color: white;
+    }
+
+    #implementation_checklist .tabcontent ul li {
+        font-size: 12pt;
+
+    }
+
+    #overcome {
+        padding: 10pt;
+    }
+
+    #exampleSlider .content {
+        margin-left: 10px !important;
+
+    }
+
+
+    #advantages {
+        padding: 0 30px 0 30px !important;
+    }
+
+
+    #exampleSlider #tab button {
+        font-size: 14px !important;
+        margin-left: 7px !important;
+    }
+
+    #exampleSlider .MS-content .item {
+        width: 152px !important;
+    }
+
+    #exampleSlider .MS-content {
+        width: 96%;
+    }
+
+    #exampleSlider .MS-controls button {
+        display: block !important;
+        top: 5px;
+    }
+
+    #exampleSlider .MS-controls .MS-left {
+        margin-left: 0px;
+    }
+
+    #exampleSlider .MS-controls .MS-right {
+        margin-right: 0px;
+    }
+
+
+    #assessment div div {
+        padding: 0;
+    }
+
+
+    #assessment .well img {
+        height: 30px;
+        float: right;
+        width: 60px;
+    }
+
+    #assessment div .col-md-10 {
+        padding-left: 10px;
+    }
+
+
+    #roadmap img {
+        width: 48px !important;
+    }
+
+
+    #professional_services {
+        padding: 0 !important;
+    }
+
+    #professional_services div {
+        padding: 0 !important;
+    }
+
+
+    #expect div {
+        padding: 20pt !important;
+        margin-top: 20pt !important;
+    }
+
+
+    #netsuite_users {
+        margin: 0 !important;
+    }
+
+
+    #trustworthy div {
+        padding: 0 !important;
+    }
+
+
+    #conclusion {
+        padding: 20pt !important;
+        margin: 0 !important;
+    }
+
+
+    #netsuite_support div div {
+        padding: 0 !important;
+    }
+
+    #netsuite_support div {
+        padding: 0 !important;
+    }
+
+
+    #multi_sector div .col-lg-4 {
+        height: auto !important;
+        padding: 0 !important;
+        border-bottom: 1px solid #e3e3e3;
+        margin-bottom: 10pt;
+    }
+
+
+    #netsuite_licensing {
+        margin-top: 0px !important;
+    }
+
+    #netsuite_licensing div {
+        padding: 0px !important;
+    }
+
+    #licensing_edition>div {
+        padding: 20pt !important;
+    }
+
+    #licensing_edition div div div:last-child {
+        height: auto !important;
+    }
+
+    #netsuite_licensing {
+        margin-top: 0px !important;
+        margin-bottom: 16px;
+    }
+
+
+
+    #license_cost ul li {
+        background-position: unset !important;
+    }
+
+
+    #advance_modules div {
+        padding-right: 0 !important;
+    }
+
+    #advance_modules #netsuite_modules {
+        display: none !important;
+    }
+
+    #thriving_bussiness div ul li {
+        background-position: unset !important;
+    }
+
+    #named_user div {
+        padding: 12pt !important;
+        width: 100% !important;
+    }
+
+
+    #support div {
+        padding: 10pt !important;
+    }
+
+    #functional_support div img {
+        margin: auto !important;
+        height: 60pt;
+    }
+
+    #key_feature div {
+        padding: 10pt !important;
+    }
+
+    #hire_expert div {
+        padding: 10pt !important;
+
+    }
+
+    #support_conclusion {
+        padding: 20pt !important;
+    }
+
+
+
+}
+
+#key_feature div .key_list ul {
+    margin-left: -30px;
+}
+
+
+
+
+#netsuite_users {
+    margin: 40pt 0;
+}
+
+
+
+#netsuite_users * {
+    color: white !important;
+}
+
+
+
+
+#expect div {
+
+    -webkit-box-shadow: 3px 3px 5px -3px;
+    ;
+    box-shadow: 3px 3px 10px -3px;
+}
+
+
+
+
+
+#multi_sector div div {
+    text-align: center;
+    padding: 20pt;
+    /*border: 1px solid #e3e3e3;*/
+    height: 380px;
+}
+
+
+#multi_sector div div div {
+    background-repeat: no-repeat;
+    background-size: 70px;
+    background-position: center;
+    height: 80px;
+    width: 80px;
+    margin: auto;
+    display: inline-block
+}
+
+
+#multi_sector hr {
+    width: 30%;
+    border: none;
+    border-bottom: 2px solid blue;
+}
+
+#multi_sector div div:hover {
+    background-color: blue;
+    cursor: pointer;
+
+}
+
+
+#multi_sector div div:hover * {
+    color: white !important;
+}
+
+
+#multi_sector div div:hover hr {
+    border-bottom: 2px solid white !important;
+}
+
+
+#order_management div {
+    background-image: url(/kanak_website/static/src/img/netsuite_consultant/Icon_color/Order_management.png);
+}
+
+#order_management:hover div {
+    background-image: url(/kanak_website/static/src/img/netsuite_consultant/Icon_white/Order_management.png);
+}
+
+
+#accounting div {
+    background-image: url(/kanak_website/static/src/img/netsuite_consultant/Icon_color/Accounting.png);
+}
+
+#accounting:hover div {
+    background-image: url(/kanak_website/static/src/img/netsuite_consultant/Icon_white/Accounting.png);
+}
+
+
+#invoicing div {
+    background-image: url(/kanak_website/static/src/img/netsuite_consultant/Icon_color/Invoicing.png);
+}
+
+#invoicing:hover div {
+    background-image: url(/kanak_website/static/src/img/netsuite_consultant/Icon_white/Invoicing.png);
+}
+
+#inventory_management div {
+    background-image: url(/kanak_website/static/src/img/netsuite_consultant/Icon_color/Inventory_management.png);
+}
+
+#inventory_management:hover div {
+    background-image: url(/kanak_website/static/src/img/netsuite_consultant/Icon_white/Inventory_management.png);
+}
+
+#purchasing_management div {
+    background-image: url(/kanak_website/static/src/img/netsuite_consultant/Icon_color/Purchasing_management.png);
+}
+
+#purchasing_management:hover div {
+    background-image: url(/kanak_website/static/src/img/netsuite_consultant/Icon_white/Purchasing_management.png);
+}
+
+#netsuite_multi_currency div {
+    background-image: url(/kanak_website/static/src/img/netsuite_consultant/Icon_color/NetSuite_multi_Currency.png);
+}
+
+#netsuite_multi_currency:hover div {
+    background-image: url(/kanak_website/static/src/img/netsuite_consultant/Icon_white/NetSuite_multi_Currency.png);
+}
+
+#netsuite_integrations div {
+    background-image: url(/kanak_website/static/src/img/netsuite_consultant/Icon_color/NetSuite_integrations.png);
+}
+
+#netsuite_integrations:hover div {
+    background-image: url(/kanak_website/static/src/img/netsuite_consultant/Icon_white/NetSuite_integrations.png);
+}
+
+#netsuite_billing div {
+    background-image: url(/kanak_website/static/src/img/netsuite_consultant/Icon_color/NetSuite_billing.png);
+}
+
+#netsuite_billing:hover div {
+    background-image: url(/kanak_website/static/src/img/netsuite_consultant/Icon_white/NetSuite_billing.png);
+}
+
+#netsuite_website_builds div {
+    background-image: url(/kanak_website/static/src/img/netsuite_consultant/Icon_color/NetSuite_website_builds.png);
+}
+
+#netsuite_website_builds:hover div {
+    background-image: url(/kanak_website/static/src/img/netsuite_consultant/Icon_white/NetSuite_website_builds.png);
+}
+
+#netsuite_administration div {
+    background-image: url(/kanak_website/static/src/img/netsuite_consultant/Icon_color/NetSuite_website_builds.png);
+}
+
+#netsuite_administration:hover div {
+    background-image: url(/kanak_website/static/src/img/netsuite_consultant/Icon_white/NetSuite_website_builds.png);
+}
+
+
+#customer_service_training div {
+    background-image: url(/kanak_website/static/src/img/netsuite_consultant/Icon_color/Customer_service_training.png);
+}
+
+#customer_service_training:hover div {
+    background-image: url(/kanak_website/static/src/img/netsuite_consultant/Icon_white/Customer_service_training.png);
+}
+
+
+#ecommerce_web_analytics div {
+    background-image: url(/kanak_website/static/src/img/netsuite_consultant/Icon_color/Ecommerce_web_analytics.png);
+}
+
+#ecommerce_web_analytics:hover div {
+    background-image: url(/kanak_website/static/src/img/netsuite_consultant/Icon_white/Ecommerce_web_analytics.png);
+}
+
+
+#conclusion {
+    background-color: #f33c53;
+    -webkit-box-shadow: 3px 3px 5px 0px;
+    ;
+    box-shadow: 3px 3px 10px 0px;
+}
+
+
+
+#conclusion * {
+    color: white !important;
+
+}
+
+
+#netsuite_licensing {
+    margin-top: -432px;
+}
+
+
+#license_cost {
+    padding-bottom: 40pt;
+}
+
+
+#license_cost ul li {
+    list-style-type: none;
+    background-image: url(/kanak_website/static/src/img/netsuite_licensing/point_icon.png);
+    background-repeat: no-repeat;
+    margin-left: -40px;
+    padding-left: 40px;
+    background-position: left;
+    background-size: 12px;
+}
+
+#licensing_edition {
+    margin: 20pt auto;
+}
+
+
+#licensing_edition>div {
+    padding: 20pt;
+}
+
+#licensing_edition>div .bg-white {
+    border-radius: 16px 16px 0 0;
+    -webkit-box-shadow: 3px 3px 5px 0px;
+    ;
+    box-shadow: 3px 3px 10px 0px;
+
+}
+
+
+#licensing_edition div div div:last-child {
+    height: 320px;
+}
+
+
+#named_user {
+    margin: 20pt 0;
+
+}
+
+
+#named_user div {
+    width: 90%;
+    background-color: white;
+    padding: 30pt;
+    margin: auto;
+    border-radius: 5px;
+    -webkit-box-shadow: 3px 3px 5px 0px;
+    ;
+    box-shadow: 3px 3px 10px 0px;
+}
+
+
+#advance_modules div {
+    padding: 20pt;
+
+}
+
+
+#thriving_bussiness div img {
+    height: 500px;
+}
+
+#thriving_bussiness div ul li {
+    list-style-type: none;
+    background-image: url(/kanak_website/static/src/img/netsuite_licensing/point_icon.png);
+    background-repeat: no-repeat;
+    margin-left: -40px;
+    padding-left: 40px;
+    background-position: left;
+    background-size: 12px;
+}
+
+
+#netsuite_support_basic div ul {
+    padding-top: 10pt;
+
+}
+
+#netsuite_support_basic div ul li {
+    list-style-type: none;
+    background-image: url(/kanak_website/static/src/img/netsuite_licensing/point_icon.png);
+    background-repeat: no-repeat;
+    margin-left: -40px;
+    padding-left: 40px;
+    background-position-y: top;
+    background-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+
+}
+
+
+#netsuite_support_basic div ul li p {
+    line-height: 1.0 !important;
+
+}
+
+
+#support_services {
+    margin: 40pt 0 0 0;
+}
+
+
+#support_services div {
+    padding: 20pt;
+}
+
+
+#support_services div hr {
+    width: 30%;
+    border: none;
+    border-bottom: 4px solid #ffa53a;
+}
+
+
+#support_services div div {
+    padding: 20pt;
+    /*border: 1px solid #e3e3e3;*/
+    height: 380px;
+    background-color: white;
+}
+
+
+#support_services div div div {
+    background-repeat: no-repeat;
+    background-size: 50px;
+    height: 60px;
+    width: 60px;
+    display: inline-block
+}
+
+
+#support_services div div:hover {
+    background-color: #ffa53a;
+    -webkit-box-shadow: 3px 3px 10px 0px;
+    ;
+    box-shadow: 3px 3px 10px 0px;
+}
+
+
+#support_services div div:hover div {
+    -webkit-box-shadow: 0px 0px 0px 0px;
+    ;
+    box-shadow: 0px 0px 0px 0px;
+}
+
+#support_services div div:hover * {
+    color: white !important;
+}
+
+
+
+
+#support_services div #next_generation div {
+    background-image: url(/kanak_website/static/src/img/netsuite_support/Icon_color/Next_generation_Solutions.png);
+}
+
+
+#support_services div #next_generation:hover div {
+    background-image: url(/kanak_website/static/src/img/netsuite_support/Icon_white/Next_generation_Solutions.png);
+    background-color: #ffa53a;
+}
+
+#support_services div #lucidity div {
+    background-image: url(/kanak_website/static/src/img/netsuite_support/Icon_color/Lucidity.png);
+}
+
+
+#support_services div #lucidity:hover div {
+    background-image: url(/kanak_website/static/src/img/netsuite_support/Icon_white/Lucidity.png);
+    background-color: #ffa53a;
+}
+
+
+
+
+#support_services_two {
+    margin: 0 0 40pt 0;
+}
+
+
+#support_services_two div {
+    padding: 20pt;
+}
+
+
+
+
+#support_services_two div div {
+    padding: 20pt;
+    /*border: 1px solid #e3e3e3;*/
+    height: 380px;
+    background-color: white;
+
+
+}
+
+
+#support_services_two div div div {
+    background-repeat: no-repeat;
+    background-size: 50px;
+    height: 60px;
+    width: 60px;
+    display: inline-block
+}
+
+
+#support_services_two div div:hover {
+    background-color: #0c9ee7;
+    -webkit-box-shadow: 3px 3px 5px 0px;
+    ;
+    box-shadow: 3px 3px 10px 0px;
+
+}
+
+
+#support_services_two div div:hover div {
+    -webkit-box-shadow: 0px 0px 0px 0px;
+    box-shadow: 0px 0px 0px 0px;
+}
+
+#support_services_two div div:hover * {
+    color: white !important;
+}
+
+
+#support_services_two div #in_house_resources div {
+    background-image: url(/kanak_website/static/src/img/netsuite_support/Icon_color/In_house_resources.png);
+}
+
+
+#support_services_two div #in_house_resources:hover div {
+    background-image: url(/kanak_website/static/src/img/netsuite_support/Icon_white/In_house_resources.png);
+    background-color: #0c9ee7;
+}
+
+
+#support_services_two div #service_level_agreement div {
+    background-image: url(/kanak_website/static/src/img/netsuite_support/Icon_color/Service_level_agreement.png);
+}
+
+
+#support_services_two div #service_level_agreement:hover div {
+    background-image: url(/kanak_website/static/src/img/netsuite_support/Icon_white/Service_level_agreement.png);
+    background-color: #0c9ee7;
+}
+
+
+#support_services_two div #pocket_friendly div {
+    background-image: url(/kanak_website/static/src/img/netsuite_support/Icon_color/Pocket_friendly.png);
+}
+
+
+#support_services_two div #pocket_friendly:hover div {
+    background-image: url(/kanak_website/static/src/img/netsuite_support/Icon_white/Pocket_friendly.png);
+    background-color: #0c9ee7;
+}
+
+
+#support_conclusion {
+    background-color: #24587b;
+    -webkit-box-shadow: 3px 3px 5px 0px;
+    ;
+    box-shadow: 3px 3px 10px 0px;
+}
+
+
+
+#support_conclusion * {
+    color: white !important;
+
+}
+
+#support_cover div ul li {
+    list-style-type: none;
+    background-image: url(/kanak_website/static/src/img/netsuite_licensing/point_icon.png);
+    background-repeat: no-repeat;
+    margin-left: -30px;
+    padding-left: 30px;
+    background-position-y: top;
+    background-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+
+}
+
+
+#support_cover div ul li p {
+    line-height: 1.0 !important;
+
+}
+
+
+
+#odoo_img img {
+    height: 60px !important;
+}
+
+
+
+#follow_step {
+    background-image: url(/kanak_website/static/src/img/odoo_implementation/Line.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    padding-top: 20pt;
+
+}
+
+
+
+
+
+#follow_step .col-lg-6 div {
+    background-color: white;
+    padding: 10pt;
+    height: 160px;
+    margin-top: 20pt;
+    box-shadow: 1px 1px 5px 1px;
+
+}
+
+
+
+/*#follow_step .col-lg-6:nth-child(3) {
+    border-left: 2px solid #c9c9c9;
+}
+*/
+
+#follow_step .col-lg-6 div h2 {
+    font-size: 18px !important;
+    margin-top: 0 !important;
+    font-weight: 500 !important;
+}
+
+#follow_step .col-lg-6 div p {
+    line-height: 1.2 !important;
+}
+
+
+#odoo_includes div h2 {
+    font-size: 22px !important;
+    font-weight: 700 !important;
+}
+
+#odoo_includes div p {
+    line-height: 1.2 !important;
+}
+
+
+
+#odoo_services .col-lg-4 {
+    padding: 10pt;
+}
+
+#odoo_services .col-lg-4 div {
+
+    background-color: #fbfbfb;
+    padding: 10pt;
+    height: 220px;
+    box-shadow: 1px 1px 5px 1px;
+}
+
+#odoo_services .col-lg-4 div img {
+    height: 60px;
+}
+
+#odoo_services .col-lg-4 div h2 {
+    font-size: 18px !important;
+    font-weight: 500 !important;
+}
+
+#odoo_services .col-lg-4 div p {
+    line-height: 1.2 !important;
+}
+
+
+#odoo_feature {
+    border-radius: 25pt;
+    background-color: #073b6c;
+    padding: 10pt;
+    font-size: 30pt;
+    font-weight: bold;
+    margin: 40pt 0;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    #follow_step .col-lg-6 div {
+        height: 190px;
+    }
+
+    #odoo_services .col-lg-4 div {
+        height: 250px;
+    }
+
+
+    #licensing_edition div div div:last-child {
+        height: 434px;
+    }
+
+
+
+
+}
+
+
+
+
+/* Kanak Careers Start */
+
+.main_slide_container {
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+}
+
+.slide_content {
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 8vw;
+    transition: width .5s ease;
+    padding-right: 2vw;
+}
+
+.slide_content1 {
+    width: 14vw;
+}
+
+.slide_active {
+    width: 38vw;
+}
+
+.slide_content img {
+    object-fit: cover;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 30vw;
+    border-radius: 10px;
+
+}
+
+.jobs_detail {
+    /*background-image: url("/kanak_website/static/src/img/careers/main_banner_jobs.png");
+    min-height: 680px;
+*/
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+.job_apply {
+    padding: 10px;
+    background: #EFF3F7;
+    border-radius: 8px;
+
+}
+
+.job_state {
+    border: 1px solid white;
+    padding: 6px;
+    border-radius: 5px;
+    display: inline-block;
+    float: right;
+    margin-right: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+
+    "concernRoleID": "",
+    "firstForename": "Dev",
+    "familyName": "Syed",
+    "dateOfBirth": "1990-05-12",
+    "gender": {
+        "value": "SX2"
+    }
+
+    ,
+    "maritalStatusCode": {
+        "value": "MS1"
+    }
+
+    ,
+    "nationalityCode": {
+        "value": ""
+    }
+
+    ,
+    "countryOfBirth": {
+        "value": ""
+    }
+
+    ,
+    "registrationDate": "2021-05-12",
+    "alternateID": "TEST2021051202",
+    "addressData": "",
+    "middleName": "",
+    "lastName": "",
+    "addressDtls": {
+
+        "addressLine1": "",
+        "addressLine2": "",
+        "addressCity": "",
+        "addressCountryCode": {
+            "value": ""
+        }
+
+        ,
+        "addressZipOrPostalCode": "",
+        "addressStateOrProvinceCode": "",
+        "addressCountyOrRegionCode": "",
+        "addressCityDistrict": "",
+        "addressAptOrBuilding": "",
+        "addressTypeCode": {
+            "value": ""
+        }
+
+        ,
+        "addressLine3": "",
+        "addressLine4": ""
+    }
+}

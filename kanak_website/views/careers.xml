@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <template id="website_kanak_hr_jobs" inherit_id="website_hr_recruitment.index" name="Kanak Jobs">
+            <xpath expr="//div[@id='wrap']" position="replace">
+                <!-- SECTION - OFFICE IMAGE CARAOUSEL  -->
+                <section class="job_slider_web_dis">
+                    <div class="container job_main " style="position: relative">
+                        <div class="main_slide_container">
+                            <div class="slide_content slide_active">
+                                <img src="/kanak_website/static/src/img/careers/CareerPhotos/Image3.png" />
+                            </div>
+                            <div class="slide_content slide_content1 slide_active">
+                                <img src="/kanak_website/static/src/img/careers/CareerPhotos/Image12.png" />
+                            </div>
+                            <div class="slide_content">
+                                <img src="/kanak_website/static/src/img/careers/CareerPhotos/Image6.png" />
+                            </div>
+                            <div class="slide_content slide_content1">
+                                <img src="/kanak_website/static/src/img/careers/CareerPhotos/Image11.png" />
+                            </div>
+                            <div class="slide_content">
+                                <img src="/kanak_website/static/src/img/careers/CareerPhotos/Image17.png" />
+                            </div>
+                            <div class="slide_content slide_content1">
+                                <img src="/kanak_website/static/src/img/careers/CareerPhotos/Image19.png" />
+                            </div>
+                            <div class="slide_content">
+                                <img src="/kanak_website/static/src/img/careers/CareerPhotos/Image10.png" />
+                            </div>
+                            <div class="slide_content slide_content1">
+                                <img src="/kanak_website/static/src/img/careers/CareerPhotos/Image2.png" />
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Banner to be displayed on Mobile -->
+                </section>
+                <section class="job_banner_sm_dis">
+                    <div>
+                        <img class="img-responsive center-block" src="/kanak_website/static/src/img/careers/CareerPhotos/career_banner_mob.png" />
+                    </div>
+                </section>
+                <!-- SECTION - WHY SHOULD YOU JOIN KANAK  -->
+                <section class="job_text">
+                    <div class="container">
+                        <div class="job_text_info">
+                            <div>
+                                <span class="vl_1 vl_1_m pull-left" />
+                                <h2 class="jt_h2_w text-justify fszpx-17">Great Concepts Make Kanak Infosystems Stand Out From The <br />
+                                    Competition, <span class="text-justify">A Successful Career Is Just One Click Away</span>
+                                    <br />
+                                    <br />
+                                </h2>
+                                <h2 class="jt_h2_m">Great Concepts Make Kanak Infosystem Stand Out From The
+                                    Competition,<span> A Successful Career Is Just One Click Away</span>
+                                    <br />
+                                    <br />
+                                </h2>
+                            </div>
+                            <p id="read_hide" class="text-justify text_hide">Working for Kanak Infosystems is more than just a job, it&#39;s also a journey of excellence and experience. There is a plethora of room for personal and professional inquiry here.<span class="more_text"> Realizing your true working potential is undoubtedly made possible by a challenging and exciting work environment. At Kanak Infosystems, you can expect a fast-paced job, exposure to other cultures, and excellent service standards.<br /><br /> Our open-door culture for employees overcomes all of the designated hierarchies and hesitations. Technical and management competencies further ensure the best possible use of your skills. We provide excellent flexibility when changing to a higher classification in your career.</span></p>
+                            <button class="btn btn-link read_more_btn">Read More...</button>
+                            <br />
+                        </div>
+                        <div class="row">
+                            <div class="job_join_us col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3">
+                                <br />
+                                <h3 class="text-center"><strong>Why Should You Join Us</strong></h3>
+                                <p class="text-center text-justify">We are constantly searching for skilled and intelligent individuals with exceptional skills in today&#39;s top-tier technologies. Join us as we broaden our hiring networks, scale our operations internationally, and establish Kanak Infosystems as a global business.</p>
+                                <br />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- SECTION - WE ARE RECRUITING  -->
+                <section class="jobs_detail jobs_detail_bg_color">
+                    <div class="container">
+                        <div class="jobs_detail_vl">
+                            <div>
+                                <span class="vl_2 vl_2_m pull-left" />
+                                <h2 class="fszpx-17">We&#39;re Recruiting! <span>Your Skills Are Respected</span></h2>
+                            </div>
+                        </div>
+                        <p class="text-justify">Kanak Infosystems is looking for talented and skilled professionals in the tech and design domains to join a reputable web and mobile application development firm that has completed over 100+ projects. To apply for any of the positions listed below, send an updated copy of your resume or CV to careers@kanakinfosystems.com</p>
+                        <div class="row">
+                            <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-12" style="background-color:#15456E; border-radius:5px">
+                                <div class="form-group" style="margin-bottom: -25px;">
+                                    <div class="col" style="padding-top: 15px;padding-bottom: 15px;">
+                                        <t t-set="departments" t-value="request.env['hr.department'].search([])" />
+                                        <select class="form-control list_of_department">
+                                            <option selected="false" disabled="disabled">--Select your Department--</option>
+                                            <t t-foreach="departments" t-as="department">
+                                                <option t-att-value="department.id"><span t-field="department.name" /></option>
+                                            </t>
+                                        </select>
+                                    </div>
+                                </div>
+                                <br /><br />
+                            </div>
+                        </div>
+                        <br /><br />
+                        <div class="preview_jobs row"></div>
+                        <br /><br />
+                    </div>
+                </section>
+                <!-- SECTION - JOB PERKS @KANAK(TEXT)  -->
+                <section id="job_perks_text">
+                    <div class="container">
+                        <div>
+                            <h2 class="fszpx-17">Perks &amp; Benefits To Work With @<span>Kanak Infosystems</span></h2>
+                            <br />
+                            <p class="text-justify">We provide the best care to ensure that our team members can produce their best work. Here are a handful of the advantages and incentives we provide to our team members:</p>
+                        </div>
+                        <div class="row job_perks_card_row">
+                            <div class="job_perks_card">
+                                <img class="img-responsive center-block" src="/kanak_website/static/src/img/careers/job_perks/Flexible-Working.png" alt="Flexible Working" />
+                                <p class="text-center">Flexible Working Hours</p>
+                            </div>
+                            <div class="job_perks_card">
+                                <img class="img-responsive center-block" src="/kanak_website/static/src/img/careers/job_perks/Family-Bliss.png" alt="Family Bliss" />
+                                <p class="text-center">Family Bliss</p>
+                            </div>
+                            <div class="job_perks_card">
+                                <img class="img-responsive center-block" src="/kanak_website/static/src/img/careers/job_perks/Awesome_coworker.png" alt="Awesome Co-Worker" />
+                                <p class="text-center">Awesome Co-Workers</p>
+                            </div>
+                            <div class="job_perks_card">
+                                <img class="img-responsive center-block" src="/kanak_website/static/src/img/careers/job_perks/Company-Activities.png" alt="Company Activities" />
+                                <p class="text-center">Company Activities</p>
+                            </div>
+                            <div class="job_perks_card">
+                                <img class="img-responsive center-block" src="/kanak_website/static/src/img/careers/job_perks/Kanak-Swag.png" alt="Kanak Swag" />
+                                <p class="text-center">Kanak Swag</p>
+                            </div>
+                            <div class="job_perks_card">
+                                <img class="img-responsive center-block" src="/kanak_website/static/src/img/careers/job_perks/Growth.png" alt="Growth" />
+                                <p class="text-center">Growth Opportunity</p>
+                            </div>
+                            <div class="job_perks_card">
+                                <img class="img-responsive center-block" src="/kanak_website/static/src/img/careers/job_perks/Transparency.png" alt="Transparency" />
+                                <p class="text-center">Transparency From Top To Bottom</p>
+                            </div>
+                            <div class="job_perks_card">
+                                <img class="img-responsive center-block" src="/kanak_website/static/src/img/careers/job_perks/Competitive.png" alt="Competitive" />
+                                <p class="text-center">Competitive Salaries</p>
+                            </div>
+                            <div class="job_perks_card bday_card_none">
+                                <img class="img-responsive center-block" src="/kanak_website/static/src/img/careers/job_perks/calendar-date-5-icon.png" alt="5_days" />
+                                <p class="text-center">5 Days Working</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- SECTION - CURVE-WE WANT YOU @KANAK  -->
+                <section id="we_want_kanak_curve">
+                    <div class="container">
+                        <div class="round_top_we_want" />
+                    </div>
+                </section>
+                <!-- SECTION - WE WANT YOU @KANAK  -->
+                <section id="we_want_kanak">
+                    <div class="container">
+                        <div class="row">
+                            <div class="we_want_kanak_text col-lg-10 col-lg-offset-1">
+                                <h2 class="text-center fszpx-17">We Want You @<span>Kanak Infosystems</span></h2>
+                                <p class="text-justify">At Kanak, you&#39;ll work with incredible people to develop ground-breaking solutions that transform industries and solve challenging challenges. We adore working with self-starters who actively contribute to our team with unique ideas and aid in creating our vibrant and enjoyable work environment.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- SECTION - CURVE-JOB PROCESS @KANAK  -->
+                <section id="job_process_interview_curve">
+                    <div class="container">
+                        <div class="round_top_interview">
+                            <div class="row">
+                                <div class="col-lg-10 col-lg-offset-1">
+                                    <br />
+                                    <h3 class="text-center fszpx-17"><u>Process Of Interview</u></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- SECTION - JOB PROCESS @KANAK  -->
+                <section id="job_process_interview">
+                    <div class="container">
+                        <p class="text-center text-justify">Any candidate&#39;s selection is solely based on how well they do in the interview. The interview process often has four steps, which are listed below.</p>
+                        <br />
+                        <div id="interview_process_web_img" class="row">
+                            <div class="col-lg-10 col-lg-offset-1">
+                                <img src="/kanak_website/static/src/img/careers/CareerPhotos/interview_process.png" />
+                            </div>
+                        </div>
+                        <div id="interview_process_mobile_img" class="row">
+                            <div class="col-xs-8">
+                                <div class="knk_int_p" style="margin-bottom:45px;">
+                                    <p class="text-right">Personal Interview</p>
+                                </div>
+                                <div class="knk_int_p" style="margin-bottom:45px;">
+                                    <p class="text-right">Technical Round</p>
+                                </div>
+                                <div class="knk_int_p" style="margin-bottom:45px;">
+                                    <p class="text-right">HR Round</p>
+                                </div>
+                                <div class="knk_int_p">
+                                    <p class="text-right">Higher Management</p>
+                                </div>
+                            </div>
+                            <div class="col-xs-4">
+                                <img class="img-responsive responsive" src="/kanak_website/static/src/img/careers/CareerPhotos/interview_bar_mobile.png" />
+                            </div>
+                        </div>
+                        <div id="interview_process_web" class="row">
+                            <div class="col-lg-3">
+                                <h4>Personal Interview</h4>
+                                <p class="text-justify">An applicant would undergo an initial screening where they would be given questions about their leadership, adaptability, and other.</p>
+                            </div>
+                            <div class="col-lg-3">
+                                <h4>Technical Round</h4>
+                                <p class="text-justify">The phase of the interview requires you to run a program in practice and display the results.</p>
+                            </div>
+                            <div class="col-lg-3">
+                                <h4>HR Round</h4>
+                                <p class="text-justify">In this phase, the results of the skills test and in-person interview should be communicated to you. You should anticipate receiving an offer (or rejection) as soon as possible after receiving comments.</p>
+                            </div>
+                            <div class="col-lg-3">
+                                <h4>Higher Management</h4>
+                                <p class="text-justify">A brief final interview with the hiring manager can be scheduled for you after all of the aforementioned processes have been finished.</p>
+                            </div>
+                        </div>
+                        <div id="join_team" class="text-center">
+                            <h1 class="text-center">Join the Kanak Infosystems <span>Team!</span></h1>
+                            <p class="text-center">Take part in some of the most exciting projects possible using cutting-edge technologies.</p>
+                            <br />
+                        </div>
+                    </div>
+                </section>
+                <br />
+                <br />
+            </xpath>
+        </template>
+        <template id="jobs_show_website" name="JOBS shown on website ">
+            <t t-foreach="jobs" t-as="job">
+                <t t-if="job.website_published">
+                    <a t-attf-href="/jobs/detail/#{job.website_url}">
+                        <div class="col-lg-4 col-md-4 col-sm-6 open_job_jd job_text jobs_vacancy">
+                            <div style="border-radius: 5px;background-color: #15456E;color:white;margin: 5px;padding:10px;">
+                                <h4><strong><span id="job_card_name" t-field="job.name" /></strong></h4>
+                                <p class="text-white">Experience - <span t-esc="job.exp_required" /> years</p>
+                                <h6 class="text-white">Vacancy - <span t-esc="job.no_of_recruitment" /></h6>
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <a t-attf-href="/jobs/detail/#{job.website_url}" class="btn btn-default btn-sm " style="border-radius:5px">Read More</a>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <t t-foreach="job.vacant_location" t-as="vacant">
+                                            <div class="job_state">
+                                                <span><i class="fa fa-map-marker"></i>&amp;nbsp;</span>
+                                                <t t-esc="vacant.name" />
+                                            </div>
+                                        </t>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </t>
+            </t>
+        </template>
+        <template id="template_details_inherit" inherit_id="website_hr_recruitment.detail">
+            <xpath expr="//div[hasclass('js_hr_recruitment')]" position="replace">
+                <div id="wrap" class="js_hr_recruitment">
+                    <div class="oe_structure" />
+                    <!-- Breadcrumb -->
+                    <section class="mb16 bg-white">
+                        <div class="container">
+                            <div class="pull-right">
+                                <a t-attf-href="/jobs/apply/#{job.website_url}" class="btn btn-primary btn-lg pull-right mt32 mb4">Apply Now!</a>
+                            </div>
+                            <label class="mb0 mt16"><a href="/jobs">Jobs</a></label> /
+                            <h1 class="mb0 mt0" t-field="job.name" />
+                            <h4 class="mt0" t-field="job.address_id" t-field-options='{
+                        "widget": "contact",
+                        "fields": ["city"],
+                        "no_tag_br": True
+                    }' />
+                        </div>
+                    </section>
+                    <section class="mb32 jd_details">
+                        <!-- Summary -->
+                        <div class="container container_summary">
+                            <p class="text-justify">Summary: <span t-field="job.job_summary" /></p>
+                        </div>
+                        <!-- Job Description -->
+                        <div class="container">
+                            <h1>Job <span style="color:red;">Description:</span></h1>
+                            <p class="mt0 lead" t-field="job.description" />
+                        </div>
+                        <!-- Skills -->
+                        <div class="container skills_container">
+                            <!-- <div class="row"> -->
+                            <div class=" col skills_tags">
+                                <h2 class="mb0 mt0">Skills:</h2>
+                                <t t-foreach="job.job_skill" t-as="job_skill">
+                                    <p t-esc="job_skill.name" />
+                                </t>
+                            </div>
+                            <!-- </div> -->
+                        </div>
+                        <!-- Note for Fresher's -->
+                        <div class="container">
+                            <div class="Note text-center">
+                                <h3><cite><span>Note:</span> Fresher's can also apply!!</cite></h3>
+                            </div>
+                        </div>
+                    </section>
+                    <div class="oe_structure">
+                        <section class="o_job_bottom_bar mt32 mb32">
+                            <div class="text-center">
+                                <a t-attf-href="/jobs/apply/#{job.website_url}" class="btn btn-primary btn-lg">Apply Now!</a>
+                                <br />
+                                <br />
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </xpath>
+        </template>
+        <template id="job_apply_custom" inherit_id="website_hr_recruitment.apply" name="Job Apply Custom">
+            <xpath expr="//section[@id='forms']" position="replace">
+                <section id="forms">
+                    <form action="/website_form/" method="post" class="s_website_form form-horizontal container-fluid mt32" enctype="multipart/form-data" data-model_name="hr.applicant" data-success_page="/job-thank-you" t-att-data-form_field_department_id="job and job.department_id.id or False" t-att-data-form_field_job_id="job and job.id or False">
+                        <div class="form-group form-field o_website_form_required_custom">
+                            <div class="col-md-3 col-sm-4 job_apply_form_text_align">
+                                <label class="control-label" for="partner_name">Your Name</label>
+                            </div>
+                            <div class="col-md-7 col-sm-8">
+                                <input type="text" class="form-control o_website_form_input" name="partner_name" required="" />
+                            </div>
+                        </div>
+                        <div class="form-group form-field o_website_form_required_custom">
+                            <div class="col-md-3 col-sm-4 job_apply_form_text_align">
+                                <label class="control-label" for="email_from">Your Email</label>
+                            </div>
+                            <div class="col-md-7 col-sm-8">
+                                <input type="email" class="form-control o_website_form_input" name="email_from" required="" />
+                            </div>
+                        </div>
+                        <div class="form-group form-field o_website_form_required_custom">
+                            <div class="col-md-3 col-sm-4 job_apply_form_text_align">
+                                <label class="control-label" for="partner_phone">Your Phone Number</label>
+                            </div>
+                            <div class="col-md-7 col-sm-8">
+                                <input type="text" class="form-control o_website_form_input" name="partner_phone" required="" />
+                            </div>
+                        </div>
+                        <div class="form-group form-field">
+                            <div class="col-md-3 col-sm-4 job_apply_form_text_align">
+                                <label class="control-label" for="description">Short Introduction</label>
+                            </div>
+                            <div class="col-md-7 col-sm-8">
+                                <textarea class="form-control o_website_form_input" name="description"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group form-field o_website_form_required_custom">
+                            <div class="col-md-3 col-sm-4 job_apply_form_text_align">
+                                <label class="control-label" for="Resume">Resume</label>
+                            </div>
+                            <div class="col-md-7 col-sm-8">
+                                <input type="file" class="form-control o_website_form_input" name="Resume" required="" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-offset-3 col-sm-offset-4 col-sm-8 col-md-7">
+                                <span class="btn btn-primary btn-lg o_website_form_send">Submit</span>
+                                <span id="o_website_form_result"></span>
+                            </div>
+                        </div>
+                    </form>
+                </section>
+            </xpath>
+        </template>
+    </data>
+</odoo>

@@ -1,0 +1,788 @@
+.odoo-service-banner {
+    background: #F5F5F5 url(/kanak_website/static/src/img/odoo_erp_services/odoo-service-banner.png) no-repeat right top;
+    background-size: 60%;
+    background-position: 100% 110%;
+    padding-top: 30pt;
+    padding-bottom: 30pt;
+}
+
+.odoo-service-banner div.row {
+    display: flex;
+    align-items: center;
+}
+
+.odoo-service-banner div.row p {
+    padding-right: 60pt;
+}
+
+.odoo-service-banner div.input-group {
+    width: 50%;
+}
+
+.odoo-service-banner div.input-group input{
+    background: #fff;
+}
+
+.odoo-service-banner h1{
+    font-weight: 600;
+    font-size: 48px;
+    color: #714B67;
+}
+
+.odoo-service-banner h1 span{
+    color: #15456E;
+}
+
+
+.banner-odoo-service {
+    display: block;
+}
+
+.odoo-service-banner .banner-odoo-service {
+    height: 400px;
+}
+
+.odoo-erp-desk {
+    display: block;
+}
+
+.odoo-erp-talkus {
+    padding-top: 30pt;
+    padding-bottom: 30pt;
+}
+
+
+.odoo-erp-talkus .erp-talkus{
+    padding-top: 50pt;
+}
+
+.odoo-erp-talkus .erp-talkus p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: justify;
+    color: #15456E;
+}
+
+.odoo-erp-talkus .talk-us p span{
+    display: inline-block;
+}
+
+.talk-us p {
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #714B67;
+}
+
+.talk-us a {
+    border-radius: 50px;
+    padding: 6px 28px;
+    background: radial-gradient(104.38% 916.32% at 104.38% 50%, #15456E 0%, #714B67 100%);
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    color: #fff;
+}
+
+.talk-us img {
+    margin-right: 5pt;
+    display: inline-block;
+    vertical-align: middle;
+    height: 18px;
+}
+
+.talk-us p span {
+    font-size: 18px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.talk-us span {
+    font-size: 18px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.odoo-service {
+    margin-top: 20pt;
+    position: relative;
+}
+
+.odoo-service-main {
+    background-color: #F5F5F5;
+    padding-top: 30pt;
+    padding-bottom: 30pt;
+}
+
+.odoo-service-main .talk-us a {
+    background: radial-gradient(104.38% 916.32% at 104.38% 50%, #15456E 0%, #DB4437 100%);
+}
+
+.odoo-service-main .container .row{
+    padding-top: 15pt;
+    padding-bottom: 15pt;
+}
+
+
+
+.odoo-service-main h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    color: #15456E;
+    text-align: center;
+}
+
+.odoo-service p {
+    color: #fff;
+    font-size: 15px;
+}
+
+
+.odoo-service .main-img{
+    width: 60px;
+    height: 60px;
+    margin: 0;
+    position: absolute;
+    top: 50px;
+}
+
+.odoo-service .main-img.left{
+    left: 0;
+    /*-ms-transform: translate(0%, -25%);
+    transform: translate(0%, -25%);*/
+}
+
+.odoo-service .main-img.right{
+    right: 0;
+    /*-ms-transform: translate(0%, -25%);
+    transform: translate(0%, -25%);*/
+}
+
+
+.odoo-service .main-text {
+    color: #fff;
+    border-radius: 10px;
+    min-height: 150px;
+    
+}
+
+
+.odoo-service .main-text.service-custom {
+    background-color: #15456E;
+    margin-left: 30px;
+    margin-bottom: 0;
+    padding: 10pt 10pt 10pt 30pt;
+}
+
+.odoo-service .main-text.service-integration {
+    background-color: #714B67;
+    margin-right: 30px;
+    margin-bottom: 0;
+    padding: 10pt 30pt 10pt 10pt;
+    text-align: right;
+}
+
+.odoo-service .main-text.service-integration p{
+    text-align: right;
+}
+
+.odoo-service .main-text.service-implementation {
+    background-color: #714B67;
+    margin-left: 30px;
+    margin-bottom: 0;
+    padding: 10pt 10pt 10pt 30pt;
+}
+
+.odoo-service .main-text.service-support {
+    background-color: #15456E;
+    margin-right: 30px;
+    padding: 10pt 30pt 10pt 10pt;
+    text-align: right;
+}
+
+.odoo-service .main-text.service-support p{
+    text-align: right;
+}
+
+
+.odoo-faq {
+    background: url(/kanak_website/static/src/img/odoo_erp_services/faq-bg1.png) no-repeat left top;
+    background-size: 25%;
+    background-position: 0% 90%;
+    height: auto;
+    padding-top: 50pt;
+    padding-bottom: 50pt;
+}
+
+.odoo-faq .faq {
+    font-weight: 600;
+    font-size: 48px;
+    color: #714B67;
+    margin-bottom: 50pt;
+}
+
+.odoo-faq .faq span{
+    color: #15456E;
+}
+
+
+.odoo-faq .fa {
+    float: right;
+}
+
+
+.odoo-faq .panel-title>a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    color: #714B67 !important;
+}
+    
+
+.odoo-faq .accordion-item {
+    background: rgba(210, 225, 244, 0.35);
+    border-radius: 16px;
+    margin-bottom: 20pt;
+    border: none;
+}
+
+.odoo-faq .accordion-button:focus {
+    border-color: transparent;
+    box-shadow: none;
+}
+
+
+.odoo-faq .panel-default>.panel-heading+.panel-collapse .panel-body {
+    background: transparent;
+    padding: 0 10pt 10pt 10pt;
+    border: none;
+    color: #515151;
+}
+
+.customer-review {
+    background: url(/kanak_website/static/src/img/odoo_erp_services/review-bg.png) no-repeat right;
+    background-size: 70%;
+    background-position: 100% 100%;
+    padding-top: 30pt;
+    padding-bottom: 60pt;
+
+}
+
+.customer-review h1 {
+    margin-bottom: 30pt;
+    text-align: right;
+}
+
+.customer-review .owl-carousel .owl-item .quote {
+    height: 30px;
+    width: 50px;
+    margin: 0;
+}
+
+.review-main {
+    text-align: center;
+}
+
+.customer-review .owl-carousel .item img {
+    width: 70%;
+}
+
+.customer-review .owl-carousel .owl-nav .owl-next {
+    position: absolute;
+    top: 130%;
+    bottom: 0% !important;
+    left: -67%;
+    right: 0;
+    margin: auto;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 1px solid #4C466A;
+    background-color: #fff;
+    background-image: url(/website_kanak/static/src/img/v3/home/exp_solution/right.svg);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center;
+}
+
+.customer-review .owl-carousel .owl-nav .owl-prev {
+    position: absolute;
+    top: 130%;
+    bottom: 0% !important;
+    left: 0;
+    right: 80%;
+    margin: auto;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 1px solid #4C466A;
+    background-color: #fff;
+    background-image: url(/website_kanak/static/src/img/v3/home/exp_solution/left.svg);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center;
+}
+
+.customer-review .customer-rating{
+    margin-top: 50pt;
+}
+
+.customer-review .customer-rating div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.customer-review .customer-rating div .name{
+    font-size: 22px;
+    margin-bottom: 0;
+}
+
+.customer-review .customer-rating div p{
+    margin-bottom: 0;
+    line-height: 1;
+}
+
+
+.customer-rating {
+   padding: 10px 5px;
+   background: lightgray;
+   border-radius: 10px;
+}
+
+
+.customer-rating:before {
+   content:"";
+   position: absolute;
+   width: 0;
+   height: 0;
+   border-top: 13px solid transparent;
+   border-right: 26px solid lightgray;
+   border-bottom: 13px solid transparent;
+   margin: 13px 0 0 -30px;
+}
+
+.customer-review .customer-rating div .checked {
+  color: orange;
+}
+
+
+.customer-review .customer-rating div img{
+    height: 60px;
+    width: 60px !important;
+    border-radius: 50%;
+    margin-right: 10pt;
+}
+
+.review-box .review_card {
+    padding: 30px;
+    border: none;
+    border-radius: 36px;
+    box-shadow: 0 0 13px 0 #00000021;
+    margin-top: 29px;
+    border: 1px solid #E5E5E5;
+    }
+
+.review-box .review_card .name{
+    padding-top: 0px;
+}
+
+
+.review-box .owl-carousel .item img {
+    width: 12%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10pt;
+}
+
+
+.review-box .owl-carousel .item {
+    padding:0 50pt;
+
+}
+
+
+.review-box .review_card div div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.review-box div .checked {
+  color: orange;
+}
+
+.review-box div .name{
+    margin-bottom: 0;
+    line-height: 1;
+    font-size: 24px;
+}
+
+.review-box div .rate{
+    margin-bottom: 0;
+    line-height: 1;
+}
+
+.review-box .review_card .review-main {
+    margin-top: 20pt;
+    text-align: justify;
+}
+
+.call-action {
+    padding-top: 30pt;
+    padding-bottom: 30pt;
+    padding-left: 60pt;
+    /*background-color: #23446B;*/
+    background: #23446B url(/kanak_website/static/src/img/odoo_erp_services/call_action_bg.png) no-repeat left;
+    background-size: 25%;
+    background-position: 0% 90%;
+    margin-top: 30pt;
+    margin-bottom: 30pt;
+}
+
+.call-action div.row{
+    display: flex;
+    align-items: center;
+}
+
+.call-action h4{
+    color: #fff;
+    font-size: 2rem;
+}
+
+.call-action p{
+    color: #fff;
+    margin-top: 20pt;
+    margin-bottom: 20pt;
+}
+
+.call-action .talk-us{
+    border-radius: 50px;
+    padding: 6px 28px;
+    background: #fff;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    color: #23446B;
+}
+
+.call-action .talk-us img {
+    margin-right: 5pt;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.call-action .talk-us span {
+    font-size: 18px;
+    color: #23446B;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+#odoo-erp-Modal .modal-dialog {
+    margin: 100px auto !important;
+}
+
+
+.odoo-erp-modal-main {
+    background-color: #D5E0F3;
+    background-image: url(/kanak_website/static/src/img/odoo_erp_services/modal-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.odoo-erp-modal-main .modal-header {
+    border-bottom: none;
+}
+
+.odoo-erp-modal-main .modal-close {
+    border: none;
+}
+
+.odoo-erp-modal-main h4 {
+    color: #15456E;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.odoo-erp-modal-main label {
+    color: #15456E;
+}
+
+.odoo-erp-modal-main .odoo-erp-form {
+    padding: 20pt;
+    margin-left: 20pt;
+    background-color: #ffe0e2;
+    box-shadow: 5px 5px 30px;
+}
+
+.odoo-erp-modal-main .odoo-erp-form .contact-us{
+    font-size: 2rem;
+}
+
+
+
+
+/*.odoo-erp-modal-main select {
+    width: 90%;
+}*/
+
+.odoo-erp-modal-btn {
+    width: 100%;
+    height: 48px;
+    background: linear-gradient(to right, #4eb5c8, #9f6bd4);
+    border-radius: 8px;
+    color: #fff;
+}
+
+.odoo-erp-modal-main .control-label {
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+@media (max-width: 425px) {
+
+    .odoo-landing-header .address {
+        margin-top: 10pt;
+        display: inline-block;
+        text-align: center;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+
+    #odoo-erp-Modal .modal-dialog {
+        margin: 150px auto !important;
+    }
+
+    .odoo-service-banner div.input-group {
+        width: 100%;
+    }
+
+    .customer-review {
+        background: #E0EBF7;
+        background-size: 100%;
+    }
+
+    .review-box .review_card .name{
+        padding-top: 10px;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+    .odoo-service-banner div.row p {
+        padding-right: 0;
+    }
+
+    .odoo-landing-header div div.row div {
+        text-align: center;
+    }
+
+    .odoo-landing-header div div.row {
+        display: inline-block;
+        align-items: center;
+    }
+
+    .odoo-service-banner {
+        background: #F5F5F5;
+    }
+
+    .banner-odoo-service {
+        display: none;
+    }
+
+    .odoo-erp-desk {
+        display: none;
+    }
+
+    .odoo-erp-talkus .erp-talkus {
+        padding-top: 20pt;
+    }
+
+    .odoo-faq {
+        background: none;
+        padding-top: 20pt;
+        padding-bottom: 20pt;
+    }
+
+    .odoo-faq .panel {
+        display: block;
+    }
+
+    .customer-review {
+        background-size: 100%;
+    }
+
+    .customer-review h1 {
+        text-align: center;
+    }
+
+    .odoo-service-main h2 {
+        font-size: 28px;
+    }
+
+    .odoo-service .main-img{
+        width: 60px;
+        height: 60px;
+        margin: 0 auto;
+        position: absolute;
+        top: -30px;
+    }
+
+    .odoo-service .main-img.left{
+        left: 0;
+        right: 0;
+    }
+
+    .odoo-service .main-img.right{
+        right: 0;
+        left: 0;
+    }
+
+    .odoo-service .main-text.service-custom {
+        background-color: #15456E;
+        margin-left: 0;
+        margin-bottom: 30pt;
+        padding: 30pt 10pt 10pt 10pt;
+        text-align: center;
+    }
+
+    .odoo-service .main-text.service-custom p{
+        text-align: center;
+    }
+
+    .odoo-service .main-text.service-integration {
+        background-color: #714B67;
+        margin-right: 0;
+        margin-bottom: 30pt;
+        padding: 30pt 10pt 10pt 10pt;
+        text-align: center;
+    }
+
+    .odoo-service .main-text.service-integration p{
+        text-align: center;
+    }
+
+    .odoo-service .main-text.service-implementation {
+        background-color: #714B67;
+        margin-left: 0;
+        margin-bottom: 30pt;
+        padding: 30pt 10pt 10pt 10pt;
+        text-align: center;
+    }
+
+    .odoo-service .main-text.service-implementation p{
+        text-align: center;
+    }
+
+    .odoo-service .main-text.service-support {
+        background-color: #15456E;
+        margin-right: 0;
+        padding: 30pt 10pt 10pt 10pt;
+        text-align: center;
+    }
+
+    .odoo-service .main-text.service-support p{
+        text-align: center;
+    }
+
+
+    .customer-review .owl-carousel .owl-nav .owl-prev {
+        top: 110%;
+        right: 50%;
+        display: block;
+    }
+
+    .customer-review .owl-carousel .owl-nav .owl-next {
+        top: 110%;
+        left: 50%;
+        display: block;
+    }
+
+    .review-box .owl-carousel .item {
+        padding:20pt 10pt;
+
+    }
+
+    .review-box .review_card {
+        padding: 30px;
+    }
+
+    .review-box .owl-carousel .owl-item img {
+        width: 28%;
+    }
+    
+    .call-action {
+        padding: 20pt;
+        background: #23446B;
+    }
+
+    .odoo-erp-modal-main .odoo-erp-form {
+        margin: 0;
+    }
+
+
+    
+}
+
+
+#wrapwrap.service_ecom_page{
+    padding-bottom: 0px !important;
+}
+
+.odoo-landing-header {
+    background: #fff;
+    /*position: sticky;*/
+    top: 0;
+    z-index: 999999;
+}
+
+
+.pt16 {
+    padding-top: 16px;
+}
+
+.odoo-landing-header div div.row {
+    display: flex;
+    align-items: center;
+}
+
+.odoo-landing-header .address {
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.odoo-landing-header .address div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.odoo-landing-header .address div img {
+    margin-left: 5pt;
+    margin-right: 5pt;
+}
+
+
+.odoo-landing-header .address div img{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.odoo-landing-header .address div span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
+

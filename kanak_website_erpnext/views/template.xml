@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="view_website_form" model="ir.ui.view">
+        <field name="name">website.form</field>
+        <field name="model">website</field>
+        <field name="inherit_id" ref="website.view_website_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='language_ids']" position="after">
+                <field name="recaptcha_site_key" placeholder="Your reCAPTCHA site key" />
+                <field name="recaptcha_private_key" placeholder="Your reCAPTCHA private key" />
+            </xpath>
+        </field>
+    </record>
+    <template id="tmp_thank_you_form" name="Thank You">
+        <t t-call="website.layout">
+            <div class="container">
+                <div class="col-md-12 col-sm-12">
+                    <div>
+                        <div class="text-center">
+                            <br /><br /><br />
+                            <b class="thank_you_title" style="font-size:40px;"><span>Thank You!</span></b><br />
+                            <span class="span_thank_you">For Contacting us. Our Team will respond to this email </span><br />
+                            <span class="span_thank_you">within the next 24 hours with more details.</span>
+                            <br /><br />
+                            <a href="https://kanakinfosystems.com/" class="btn btn-primary btn-lg active" style="background-color: red !important;">Visit Our Website</a>
+                            <br /><br /><br /><br />
+                            <div class="share_on">
+                                <span>Follow Us on Social Media</span><br />
+                                <ul style="margin-right: 30px !important;list-style-type:none !important;display: inline-block !important;">
+                                    <li style="display: inline-block !important;">
+                                        <a href="https://www.facebook.com/kanakinfosystems/"><img src="/kanak_website_erpnext/static/src/img/fb.png" height="20px" /></a>
+                                    </li>
+                                    <li style="display: inline-block !important;">
+                                        <a href="https://www.youtube.com/channel/UCfS_433Zx5ui2hZ8uPY371A"><img src="/kanak_website_erpnext/static/src/img/youtube.png" height="20px" /></a>
+                                    </li>
+                                    <li style="display: inline-block !important;">
+                                        <a href="https://www.linkedin.com/company/kanak-infosystems-llp./"><img src="/kanak_website_erpnext/static/src/img/linkedin.png" height="20px" /></a>
+                                    </li>
+                                    <li style="display: inline-block !important;">
+                                        <a href="https://twitter.com/KanakInfosys"><img src="/kanak_website_erpnext/static/src/img/twitter.png" height="20px" /></a>
+                                    </li>
+                                    <li style="display: inline-block !important;">
+                                        <a href="https://www.instagram.com/kanakinfosystemsllp/"><img src="/kanak_website_erpnext/static/src/img/instagram.png" height="20px" /></a>
+                                    </li>
+                                    <li style="display: inline-block !important;">
+                                        <a href="https://in.pinterest.com/kanakinfosystemsllp/"><img src="/kanak_website_erpnext/static/src/img/pinterest.png" height="20px" /></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </t>
+    </template>
+</odoo>

@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="portal_header_inherit" inherit_id="portal.frontend_layout">
+        <xpath expr="//header" position="attributes">
+            <attribute name="t-if">
+                not no_header
+            </attribute>
+        </xpath>
+        <xpath expr="//footer" position="attributes">
+            <attribute name="t-if">
+                not no_header
+            </attribute>
+        </xpath>
+    </template>
+    <template id="erpnext_services" name="Odoo Erp Services">
+        <t t-call="website.layout">
+            <t t-set="no_header" t-value="True" />
+            <t t-set="pageName" t-value="'service_erpnext_page'" />
+            <section class="erpnext-landing-header pt16 pb16">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="/kanak_website_erpnext/static/src/img/erp-next/kanak-logo.png" />
+                        </div>
+                        <div class="col-md-7">
+                            <div class="address">
+                                <div><img src="/kanak_website_erpnext/static/src/img/erp-next/phone.png" /> <span>+91 9818211679,+91 9998040067</span></div>
+                                <div><img src="/kanak_website_erpnext/static/src/img/erp-next/e-mail.png" /> <span><a href="mailto:sales@kanakinfosystems.com">sales@kanakinfosystems.com</a></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="erpnext-service-banner">
+                <div class="container">
+                    <div class="row">
+                        <div class="erpnext-banner-main">
+                            <p class="erpnext-head-main">ERPNext</p>
+                            <p>A robust software- complete business automation</p>
+                            <div class="talk-us">
+                                <a href="" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#erpnext-Modal"><img src="/kanak_website_erpnext/static/src/img/erp-next/phone-call.png" /> <span>Reach To us</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal" id="erpnext-Modal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <!-- Modal Header -->
+                            <div class="modal-header">
+                                <h4 class="modal-title">Contact Us</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                                <p>Schedule your meeting with an EXPERT to get started.</p>
+                                <form action="/erpnext-service-thankyou" method="post" class="form-horizontal">
+                                    <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()" />
+                                    <div class="mb-2">
+                                        <label class="form-label" for="name">Name:</label>
+                                        <input type="text" class="form-control" name="name" id="name" placeholder="Your Name" required="" />
+                                    </div>
+                                    <div class="mb-2">
+                                        <label class="form-label" for="email">Email</label>
+                                        <input type="email" class="form-control" name="email" id="email" placeholder="Email" required="" />
+                                    </div>
+                                    <div class="mb-2">
+                                        <label class="form-label" for="mobile">Mobile Number</label>
+                                        <input type="text" class="form-control" name="mobile" id="mobile" placeholder="Mobile Number" required="" />
+                                    </div>
+                                    <div class="mb-2">
+                                        <label class="form-label" for="comment">Description:</label>
+                                        <textarea class="form-control" rows="3" id="comment" name="question" required="true" placeholder="Description..."></textarea>
+                                    </div>
+                                    <div class="mb-2 text-center">
+                                        <div class="g-recaptcha" style="text-align: center; text-align: -webkit-center;" t-att-data-sitekey="website.recaptcha_site_key" data-theme="red"></div>
+                                    </div>
+                                    <div class="mt-2">
+                                        <button type="submit" class="btn btn-default erpnext-modal-btn">Submit </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="erpnext-feature">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <p class="text-white">ERPNext has been a feather of Kanak Infosystems LLP’s at since 2017. We have been Developing, Implementing, Integrating, Customizing and Providing Support for numerous industries. That is exactly what makes us standout! We approach every colour of the Industry spectrum without compromising on the quality of work and customer satisfaction.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="s3_erpnext">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 s3_mob"></div>
+                        <div class="col-lg-6 ">
+                            <div class="s3_block">
+                                <h1 class="pb-2"><b>ERPNext - Almost Everything you Need, on a Single Platform</b></h1>
+                                <ul>
+                                    <li>ERPNext is a highly scalable software solution.</li>
+                                    <li>It is completely open source which helps in integrating it with almost any software or application. </li>
+                                    <li>It can transform and take shape as per your business requirements to help your business in all possible processes.</li>
+                                    <li> What makes ERPNext completely exclusive is that it caters to each and every industry. Frappe Books, Frappe Healthcare and Frappe LMS are some of its industry specific branches</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="s4_block pt-5 pb-5">
+                <div class="container">
+                    <h2>How Can Kanak Infosystems help your <span class="red">ERPNext Database?</span></h2>
+                    <div class="row">
+                        <div class="col-lg-2 s4_mob" />
+                        <div class="col-lg-4">
+                            <div class="erpnext-main">
+                                <div class="erpnext-top blue">Customization</div>
+                                <div class="erpnext-content">
+                                    <p>our team of experts will make sure the ERPNext database is absolutely customized to suit your business.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="erpnext-main">
+                                <div class="erpnext-top red">Integration</div>
+                                <div class="erpnext-content">
+                                    <p>we make sure we use the open source feature to its maximum capacity. We will integrate all your needed softwares and applications with your database.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 s4_mob" />
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-2 s4_mob" />
+                        <div class="col-lg-4">
+                            <div class="erpnext-main">
+                                <div class="erpnext-top sky">Implementation</div>
+                                <div class="erpnext-content">
+                                    <p>The decision of using an ERP in itself is a big change, we will take your further stress away by making sure the implementation is a smooth and hassle free process.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="erpnext-main">
+                                <div class="erpnext-top darkblue">Support</div>
+                                <div class="erpnext-content">
+                                    <p>we understand how important support is. And our team of dedicated technicians will make sure that we are here for your needs.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 s4_mob" />
+                    </div>
+                    <p class="text-center help-text">Still have Queries?</p>
+                    <div class="talk-us text-center">
+                        <a href="" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#erpnext-Modal"><img src="/kanak_website_erpnext/static/src/img/erp-next/phone-call.png" /> <span>Talk To us</span></a>
+                    </div>
+                </div>
+            </section>
+            <section class="erpnext-review">
+                <div class="container">
+                    <p class="mb-5 mt-5 customer-review">Customer <span class="red">Review</span></p>
+                    <div class="row">
+                        <div class="owl-carousel">
+                            <div class="item">
+                                <div>
+                                    <div class="review-main-box">
+                                        <div class="review-img">
+                                            <img src="/kanak_website_erpnext/static/src/img/erp-next/review-img.png" class="img-fluid" />
+                                        </div>
+                                        <div class="review-main"></div>
+                                        <div class="review-main-content">
+                                            <p>&quot;Kanak is an awesome team of people. They are genuine, patient and supportive.&quot;</p>
+                                            <p class="text-center"><span class="red">Ryan Litwin</span><br />
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div>
+                                    <div class="review-main-box">
+                                        <div class="review-img">
+                                            <img src="/kanak_website_erpnext/static/src/img/erp-next/review-img.png" class="img-fluid" />
+                                        </div>
+                                        <div class="review-main"></div>
+                                        <div class="review-main-content">
+                                            <p>&quot;They have administrative overhead reduced to a minimum, which is key for speed and business.&quot;</p>
+                                            <p class="text-center"><span class="red">Dani Fricker</span><br />
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div>
+                                    <div class="review-main-box">
+                                        <div class="review-img">
+                                            <img src="/kanak_website_erpnext/static/src/img/erp-next/review-img.png" class="img-fluid" />
+                                        </div>
+                                        <div class="review-main"></div>
+                                        <div class="review-main-content">
+                                            <p>&quot;They responded very fast as I connect them on their website, and they're not just fast, but also professional, helped a lot.&quot;</p>
+                                            <p class="text-center"><span class="red">Endless Lin</span><br />
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div>
+                                    <div class="review-main-box">
+                                        <div class="review-img">
+                                            <img src="/kanak_website_erpnext/static/src/img/erp-next/review-img.png" class="img-fluid" />
+                                        </div>
+                                        <div class="review-main"></div>
+                                        <div class="review-main-content">
+                                            <p>&quot;We worked together for a bigger project. The support, consulting and the work was great. No matter what question we had we got help. Will work with Kanak again. No doubt.&quot;</p>
+                                            <p class="text-center"><span class="red">M. Lee</span><br />
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="erpnext-faq">
+                <div class="container">
+                    <p class="text-center pt-5 erpfaq">Frequently Asked Question </p>
+                    <div class="row pt-5 pb-5">
+                        <div class="col-lg-8 offset-lg-2" style="background-color:#fff;border-radius:16px">
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <p class="accordion-header" id="headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            <h3><b>What is the difference between ERPNext and Frappe?</b></h3>
+                                        </button>
+                                    </p>
+                                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            ERPNext is an application/software which is built on Frappe Framework. ERPNext consists of various Modules like CRM, HR, Payroll, etc which helps you in automating your business processes.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <p class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            <h3><b>Can I customize ERPNext?</b></h3>
+                                        </button>
+                                    </p>
+                                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            ERPNext is a completely open source software. By open source, it refers to the fact that the base code for this particular software is publicly available and businesses can make the most out of it by customizing it as per their business workflow.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <p class="accordion-header" id="headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            <h3><b>What is Frappe Framework?</b></h3>
+                                        </button>
+                                    </p>
+                                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Frappe is a full-stack, batteries- included, web framework written in Python and Javascript with MariaDB as the database.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <p class="accordion-header" id="headingFour">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                            <h3><b>Does ERPNext work for Windows?</b></h3>
+                                        </button>
+                                    </p>
+                                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            ERPNext runs smoothly on Linux, MacOS and OS X VM.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <p class="accordion-header" id="headingFive">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                            <h3><b>Where can I host ERPNext?</b></h3>
+                                        </button>
+                                    </p>
+                                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            You can opt for any cloud server to host ERPNext. You can also choose Frappe Cloud Hosting which is specifically designed for ERPNext.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="talk-to-us">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <h2>Minimize your manual business operations with ERPNext</h2>
+                            <p>Being a free and open-source ERP software, ERPNext can make your business management process smooth and efficient with its different modules. Our certified consultants can help you and guide you with the process of implementation, integration, customization, maintenance, and support.</p>
+                            <div class="talk-us">
+                                <a href="#" type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#erpnext-Modal"><img src="/kanak_website_erpnext/static/src/img/erp-next/phone-call2.png" /> Talk To us</a>
+                            </div>
+                        </div>
+                        <!-- <div class="col-lg-6">
+                            <img src="" />
+                        </div> -->
+                    </div>
+                </div>
+            </section>
+            <section class="blue_strip">
+                <!-- blue strip -->
+            </section>
+        </t>
+    </template>
+</odoo>

@@ -1,0 +1,485 @@
+#wrapwrap.service_erpnext_page {
+    padding-bottom: 0px !important;
+}
+
+.erpnext-landing-header {
+    background: #fff;
+    /*z-index: 999999;*/
+}
+
+.erpnext-landing-header div div.row {
+    display: flex;
+    align-items: center;
+}
+
+.erpnext-landing-header div div.row div{
+    text-align: left;
+}
+
+.erpnext-landing-header .address {
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.erpnext-landing-header .address div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.erpnext-landing-header .address div img {
+    margin-left: 5pt;
+    margin-right: 5pt;
+}
+
+.erpnext-landing-header .address div img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.erpnext-landing-header .address div span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.erpnext-service-banner {
+    background: #F5F5F5 url(/kanak_website_erpnext/static/src/img/erp-next/Banner-main.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.erpnext-service-banner div.row {
+    display: flex;
+    align-items: center;
+    height: 380px;
+
+}
+
+.erpnext-service-banner div.row .erpnext-banner-main {
+    text-align: left;
+}
+
+.erpnext-service-banner div.row .erpnext-banner-main p {
+    text-align: left;
+    margin-top: 1rem;
+}
+
+.erpnext-service-banner div.input-group {
+    width: 50%;
+}
+
+.erpnext-service-banner div.input-group input {
+    background: #fff;
+}
+
+.erpnext-service-banner .erpnext-head-main {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 36px;
+    text-align: justify;
+    color: #4B88D2;
+}
+
+.banner-erpnext-service {
+    display: block;
+}
+
+.talk-us img{
+    height: 18px;
+    margin-right: 5pt;
+}
+
+#erpnext-Modal .modal-content {
+    background: skyblue;
+}
+
+#erpnext-Modal .modal-header {
+    border-bottom: none;
+}
+
+.erpnext-modal-btn {
+    width: 100%;
+    height: 48px;
+    background: linear-gradient(to right, #4b79d5, #9f6bd4);
+    border-radius: 8px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.erpnext-feature {
+    background: url(/kanak_website_erpnext/static/src/img/erp-next/erpnext-banner22.png) no-repeat;
+    background-size: cover;
+    background-position: 100% 22%;
+    height: 400px;
+}
+
+.erpnext-feature .row{
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.erpnext-feature .row p {
+    text-align: justify;
+    word-spacing: 1px;
+}
+
+.s3_erpnext {
+    background: url(/kanak_website_erpnext/static/src/img/erp-next/erpnext-banner1.png) no-repeat;
+    background-size: 50%;
+    background-position: left center;
+}
+
+.s3_erpnext .s3_mob {
+    display: block;
+}
+
+.s3_block {
+    background: linear-gradient(352.44deg, rgba(75, 136, 210, 0.19) 98.99%, rgba(75, 136, 210, 0) 99.82%);
+    border: 1px dashed #4B88D2;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 16px;
+    padding: 30pt;
+    margin: 50pt 50pt;
+}
+
+.s3_block h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.s4_block {
+    background-color: #EFF5FB;
+}
+
+.s4_block h2{
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    color: #15456E;
+}
+
+.s4_block .row{
+    padding-top: 30pt;
+}
+
+.s4_block .row .s4_mob{
+    display: block;
+}
+
+.s4_block .row div{
+    margin-bottom: 0;
+}
+
+.s4_block .help-text{
+    padding-top: 50pt;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #15456E;
+}
+
+.red {
+    color: #DB4437;
+}
+
+.erpnext-main{
+    position: relative;
+}
+
+.erpnext-main .erpnext-top {
+    position: absolute;
+    top: -20pt;
+    width: 50%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    color: #fff;
+    display: inline-block;
+    padding: 15pt 0px 15pt 0;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bolder;
+    border: 2px solid black;
+}
+
+.erpnext-main .erpnext-top.blue {
+    background: #4B88D2;
+}
+
+/*.erpnext-main .erpnext-top.blue+div p{
+    color: #4B88D2;
+}
+*/
+.erpnext-main .erpnext-top.red {
+    background: #C2453F;
+}
+
+/*.erpnext-main .erpnext-top.red+div p{
+    color: #C2453F;
+}
+*/
+.erpnext-main .erpnext-top.sky {
+    background: #73B6FF;
+}
+
+/*.erpnext-main .erpnext-top.sky+div p{
+    color: #73B6FF;
+}*/
+
+.erpnext-main .erpnext-top.darkblue {
+    background: #26479C;
+}
+
+/*.erpnext-main .erpnext-top.darkblue+div p{
+    color: #26479C;
+}*/
+
+.erpnext-main .erpnext-content {
+    background: #F1F2F2;
+    margin-top: 30pt;
+    padding: 40pt 15pt 15pt 15pt;
+    border-radius: 18px;
+    box-shadow: -8px 20px 10px 6px #999899;
+    height: 200px;
+    border: 2px solid black;
+}
+
+.erpnext-main .erpnext-content p{
+    text-align: center;
+}
+
+.erpnext-review .customer-review{
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    color: #15456E;
+}
+
+.erpnext-review .owl-item .item {
+    padding: 30pt;
+}
+
+.erpnext-review .owl-item.active.center .item{
+    padding: 0pt 20pt;
+}
+
+.erpnext-review .owl-item.active.center .review-main-content{
+    padding: 30pt 10pt 0 10pt;
+    box-shadow: -6px 20px 20px 6px #999899;
+}
+
+
+.review-main-box {
+    position: relative;
+    height: 350px;
+}
+
+.review-img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid blue;
+    /*background: blue;*/
+    position: absolute;
+    /*top: -50px;*/
+    margin: auto;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.review-img img{
+    height: 100%;
+}
+
+.review-main {
+    border: 4px solid blue;
+    height: 100px;
+    /*margin-top: 50px;*/
+    border-radius: 10px;
+    position: absolute;
+    top: 50px;
+    width: 100%;
+}
+
+.review-main-content {
+    background: #fff;
+    padding: 20pt 10pt 0 10pt;
+    color: blue;
+    position: absolute;
+    top: 50px;
+    margin: 15pt;
+    border: 4px solid #F2F2F2;
+    border-radius: 16px;
+    height: 260px;
+}
+
+.review-main-content p{
+    color: #4B88D2;
+    text-align: justify;
+}
+
+.erpnext-faq {
+    background-color: #EFF5FB;
+    background-image: url(/kanak_website_erpnext/static/src/img/erp-next/faq-bg.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+
+}
+
+.erpnext-faq .erpfaq{
+    font-size: 2.5rem;
+}
+
+.erpnext-faq button h3 {
+    font-size: 1rem;
+}
+
+.talk-to-us {
+    background-image: url(/kanak_website_erpnext/static/src/img/erp-next/talk-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 550px;
+}
+
+.talk-to-us .row{
+    padding-top: 100pt;
+}
+
+.talk-to-us .row div {
+    color: #fff;
+}
+
+.talk-to-us .talk-us a{
+    color: #4B88D2;
+}
+
+.blue_strip {
+    height: 50px;
+    background: #15456E;
+}
+
+
+@media (max-width: 992px) {
+    .talk-to-us {
+        background-color: #4B88D2;
+        background-image: none;
+        height: auto;
+        padding: 20pt 0;
+    }
+
+    .talk-to-us .row {
+        padding-top: 0;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .erpnext-service-banner {
+        background-size: cover;
+        background-position: left;
+    }
+
+    .erpnext-landing-header div div.row div{
+        text-align: center;
+    }
+
+    .banner-erpnext-service {
+        display: none;
+    }
+
+    .erpnext-service-banner div.input-group {
+        width: 100%;
+    }
+
+    .erpnext-review .owl-item.active.center .item{
+        padding: 0pt 10pt;
+    }
+
+    .erpnext-review .owl-item.active.center .review-main-content{
+        padding: 20pt 20pt;
+        box-shadow: -6px 20px 20px 6px #999899;
+    }
+
+    .erpnext-feature {
+        background: #4b79d5;
+        background-size: auto;
+        background-position: center;
+        height: auto;
+    }
+
+    .erpnext-feature .row{
+        height: auto;
+        padding-top: 10pt;
+    }
+
+    .s3_erpnext {
+        background: transparent;
+    }
+
+    .s3_erpnext .s3_mob {
+        display: none;
+    }
+
+    .s3_block {
+        margin: 20pt 10pt;
+    }
+
+    .s4_block {
+        background-image: none;
+    }
+
+    .s4_block .row{
+        padding-top: 10pt;
+    }
+
+    .s4_block .row .s4_mob{
+        display: none;
+    }
+
+    .s4_block .row div{
+        margin-bottom: 10pt;
+    }
+
+    .s4_block .help-text {
+        padding-top: 20pt;
+    }
+}
+
+@media (max-width: 573px) {
+    .erpnext-service-banner div.row {
+        height: 300px !important;
+    }
+
+    .erpnext-landing-header .address {
+        margin-top: 10pt;
+        display: inline-block;
+    }
+
+    .erpnext-landing-header .address div{
+        margin-top: 10pt;
+    }
+}
+
+
+@media (max-width: 425px) {
+    .erpnext-service-banner div.row .erpnext-banner-main {
+        text-align: center;
+    }
+
+    .erpnext-service-banner div.row .erpnext-banner-main p {
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 360px) {
+    .erpnext-review .owl-item.active.center .review-main-content {
+        padding: 20pt 20pt 0 20pt;
+    }
+}

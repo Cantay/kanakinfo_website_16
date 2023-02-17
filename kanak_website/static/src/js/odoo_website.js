@@ -1,4 +1,4 @@
-odoo.define('kanak_website.career_search', function(require) {
+odoo.define('kanak_website.odoo_website', function(require) {
     "use strict";
     require('web.dom_ready');
 

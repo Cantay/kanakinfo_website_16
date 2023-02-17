@@ -19,15 +19,21 @@
             <section class="odoo-landing-header pt16 pb16">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-5">
+                        <div class="col-md-6">
                             <img src="/kanak_website/static/src/img/odoo_erp_services/kanak-logo.png" />
                         </div>
-                        <div class="col-md-7">
+                        <div class="col-md-6">
+                            <div class="address">
+                                <div><img src="/kanak_website/static/src/img/odoo_erp_services/phone.png" /> <span>+91 9818108884,+91 9998040067</span></div>
+                                <div><img src="/kanak_website/static/src/img/odoo_erp_services/e-mail.png" /> <span><a href="mailto:sales@kanakinfosystems.com">sales@kanakinfosystems.com</a></span></div>
+                            </div>
+                        </div>
+                        <!-- <div class="col-md-4">
                             <div class="address">
                                 <div><img src="/kanak_website/static/src/img/odoo_erp_services/phone.png" /> <span>+91 9818211679,+91 9998040067</span></div>
                                 <div><img src="/kanak_website/static/src/img/odoo_erp_services/e-mail.png" /> <span><a href="mailto:sales@kanakinfosystems.com">sales@kanakinfosystems.com</a></span></div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </section>
@@ -57,7 +63,7 @@
             <section class="odoo-erp-talkus">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-7 erp-talkus">
+                        <div class="col-lg-7 erp-talkus">
                             <p>Kanak Infosystems LLP. has been working on Odoo for over a decade and specializes in
                                 <span style="color: #DB4437;">Development, Implementation, Customization, Consultation</span> and <span style="color: #DB4437;">Integration.</span> What’s different
                                 about us working as an Odoo Partner is that we aren’t restricted to specific industries. We
@@ -68,8 +74,8 @@
                                     source ERP</span>, it is highly flexible and customizable to make it more personalized for your
                                 business.</p>
                         </div>
-                        <div class="col-md-5">
-                            <img src="/kanak_website/static/src/img/odoo_erp_services/talk-us.png" class="img-fluid odoo-erp-desk" />
+                        <div class="col-lg-5 odoo-erp-desk">
+                            <img src="/kanak_website/static/src/img/odoo_erp_services/talk-us.png" class="img-fluid" />
                         </div>
                     </div>
                     <div class="col-md-12 text-center talk-us mt-3">
@@ -172,7 +178,7 @@
             </section>
             <section class="odoo-faq">
                 <div class="container">
-                    <div class="offset-md-4 col-md-8 col-sm-12 col-xs-12">
+                    <div class="offset-lg-4 col-lg-8 col-md-12 col-sm-12 col-xs-12">
                         <p class="text-center faq">Frequently <span>Asked Question</span></p>
                         <div class="accordion" id="accordionExample">
                             <div class="accordion-item">
@@ -238,7 +244,7 @@
                 <div class="container">
                     <div class="owl-carousel">
                         <div class="item">
-                            <div class="" style="padding:20pt">
+                            <div class="" style="padding-left:10pt;padding-right:10pt;">
                                 <div class="row review_card">
                                     <div class="col-md-12">
                                         <img src="/kanak_website/static/src/img/odoo_erp_services/review-img1.png" />
@@ -259,7 +265,7 @@
                             </div>
                         </div>
                         <div class="item">
-                            <div class="" style="padding:20pt">
+                            <div class="" style="padding-left:10pt;padding-right:10pt;">
                                 <div class="row review_card">
                                     <div class="col-md-12">
                                         <img src="/kanak_website/static/src/img/odoo_erp_services/review-img1.png" />
@@ -280,12 +286,12 @@
                             </div>
                         </div>
                         <div class="item">
-                            <div class="" style="padding:20pt">
+                            <div class="" style="padding-left:10pt;padding-right:10pt;">
                                 <div class="row review_card">
                                     <div class="col-md-12">
                                         <img src="/kanak_website/static/src/img/odoo_erp_services/review-img1.png" />
                                         <div>
-                                            <p class="name"><b>Enthu Tech</b></p>
+                                            <p class="name"><b>DirectShop Fittings</b></p>
                                             <p class="rate">Rating: 5</p>
                                             <div>
                                                 <span class="fa fa-star checked"></span>
@@ -295,16 +301,13 @@
                                                 <span class="fa fa-star checked"></span>
                                             </div>
                                         </div>
-                                        <p class="review-main">Our experience with Team Kanak was excellent. Our team had purchased an incompatible version of a module from them. But they were kind enough to understand our mistake and
-                                            supported us by providing the compatible version without additional cost and also helped us
-                                            to get their module up and running in our server without any issues. Great customer support.
-                                            We are completely satisfied with their customer service. Thank you very much Kanak Team.</p>
+                                        <p class="review-main">Absolutely top company to deal with.  Hopefully we will be doing more work with them moving forward.  Keep up the good work and thank you for your help and assistance</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="item">
-                            <div class="" style="padding:20pt">
+                            <div class="" style="padding-left:10pt;padding-right:10pt;">
                                 <div class="row review_card">
                                     <div class="col-md-12">
                                         <img src="/kanak_website/static/src/img/odoo_erp_services/review-img1.png" />

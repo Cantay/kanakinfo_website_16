@@ -272,7 +272,7 @@
 }
 
 
-.review-main-box {
+.erpnext-review .review-main-box {
     position: relative;
     height: 350px;
 }
@@ -295,7 +295,7 @@
     height: 100%;
 }
 
-.review-main {
+.erpnext-review .review-main {
     border: 4px solid blue;
     height: 100px;
     /*margin-top: 50px;*/
@@ -305,7 +305,7 @@
     width: 100%;
 }
 
-.review-main-content {
+.erpnext-review .review-main-content {
     background: #fff;
     padding: 20pt 10pt 0 10pt;
     color: blue;
@@ -317,7 +317,7 @@
     height: 260px;
 }
 
-.review-main-content p{
+.erpnext-review .review-main-content p{
     color: #4B88D2;
     text-align: justify;
 }

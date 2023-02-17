@@ -1,3 +1,53 @@
+
+#wrapwrap.service_ecom_page{
+    padding-bottom: 0px !important;
+}
+
+.odoo-landing-header {
+    background: #fff;
+    top: 0;
+    z-index: 999999;
+}
+
+.pt16 {
+    padding-top: 16px;
+}
+
+.odoo-landing-header div div.row {
+    display: flex;
+    align-items: center;
+}
+
+/*.odoo-landing-header .address {
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}*/
+
+
+.odoo-landing-header .address div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.odoo-landing-header .address div img {
+    margin-left: 5pt;
+    margin-right: 5pt;
+}
+
+
+.odoo-landing-header .address div img{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.odoo-landing-header .address div span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
 .odoo-service-banner {
     background: #F5F5F5 url(/kanak_website/static/src/img/odoo_erp_services/odoo-service-banner.png) no-repeat right top;
     background-size: 60%;
@@ -38,9 +88,9 @@
     display: block;
 }
 
-.odoo-service-banner .banner-odoo-service {
+/*.odoo-service-banner .banner-odoo-service {
     height: 400px;
-}
+}*/
 
 .odoo-erp-desk {
     display: block;
@@ -380,14 +430,13 @@
     border: none;
     border-radius: 36px;
     box-shadow: 0 0 13px 0 #00000021;
-    margin-top: 29px;
     border: 1px solid #E5E5E5;
+    height: auto;
     }
 
 .review-box .review_card .name{
     padding-top: 0px;
 }
-
 
 .review-box .owl-carousel .item img {
     width: 12%;
@@ -396,18 +445,14 @@
     margin-right: 10pt;
 }
 
-
 .review-box .owl-carousel .item {
     padding:0 50pt;
-
 }
-
 
 .review-box .review_card div div {
     display: inline-block;
     vertical-align: middle;
 }
-
 
 .review-box div .checked {
   color: orange;
@@ -416,7 +461,7 @@
 .review-box div .name{
     margin-bottom: 0;
     line-height: 1;
-    font-size: 24px;
+    font-size: 1.2rem;
 }
 
 .review-box div .rate{
@@ -437,8 +482,8 @@
     background: #23446B url(/kanak_website/static/src/img/odoo_erp_services/call_action_bg.png) no-repeat left;
     background-size: 25%;
     background-position: 0% 90%;
-    margin-top: 30pt;
-    margin-bottom: 30pt;
+    /*margin-top: 30pt;*/
+    /*margin-bottom: 30pt;*/
 }
 
 .call-action div.row{
@@ -478,11 +523,9 @@
     vertical-align: middle;
 }
 
-
 #odoo-erp-Modal .modal-dialog {
     margin: 100px auto !important;
 }
-
 
 .odoo-erp-modal-main {
     background-color: #D5E0F3;
@@ -490,7 +533,6 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-
 
 .odoo-erp-modal-main .modal-header {
     border-bottom: none;
@@ -521,13 +563,6 @@
     font-size: 2rem;
 }
 
-
-
-
-/*.odoo-erp-modal-main select {
-    width: 90%;
-}*/
-
 .odoo-erp-modal-btn {
     width: 100%;
     height: 48px;
@@ -540,21 +575,15 @@
     margin-bottom: 5px;
 }
 
-
-
-
-
-
 @media (max-width: 425px) {
 
-    .odoo-landing-header .address {
+    /*.odoo-landing-header .address {
         margin-top: 10pt;
         display: inline-block;
         text-align: center;
         align-items: center;
         justify-content: space-around;
-    }
-
+    }*/
 
     #odoo-erp-Modal .modal-dialog {
         margin: 150px auto !important;
@@ -573,10 +602,35 @@
         padding-top: 10px;
     }
 
+    .review-box .owl-carousel .owl-item img {
+        width: 28% !important;
+    }
+
+}
+
+@media (max-width: 767px){
+    .banner-odoo-service {
+        display: none;
+    }
+
+    .review-box .review_card {
+        height: 400px;
+    }
 }
 
 
 @media (max-width: 768px) {
+    .odoo-landing-header .address {
+        display: inline-block;
+        text-align: center;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .odoo-landing-header .address div{
+        margin-top: 10pt;
+    }
+
     .odoo-service-banner div.row p {
         padding-right: 0;
     }
@@ -585,17 +639,13 @@
         text-align: center;
     }
 
-    .odoo-landing-header div div.row {
+    /*.odoo-landing-header div div.row {
         display: inline-block;
         align-items: center;
-    }
+    }*/
 
     .odoo-service-banner {
         background: #F5F5F5;
-    }
-
-    .banner-odoo-service {
-        display: none;
     }
 
     .odoo-erp-desk {
@@ -716,7 +766,7 @@
     }
 
     .review-box .owl-carousel .owl-item img {
-        width: 28%;
+        width: 12%;
     }
     
     .call-action {
@@ -727,61 +777,10 @@
     .odoo-erp-modal-main .odoo-erp-form {
         margin: 0;
     }
-
-
-    
 }
 
 
-#wrapwrap.service_ecom_page{
-    padding-bottom: 0px !important;
-}
 
-.odoo-landing-header {
-    background: #fff;
-    /*position: sticky;*/
-    top: 0;
-    z-index: 999999;
-}
-
-
-.pt16 {
-    padding-top: 16px;
-}
-
-.odoo-landing-header div div.row {
-    display: flex;
-    align-items: center;
-}
-
-.odoo-landing-header .address {
-    margin-top: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-
-.odoo-landing-header .address div {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.odoo-landing-header .address div img {
-    margin-left: 5pt;
-    margin-right: 5pt;
-}
-
-
-.odoo-landing-header .address div img{
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.odoo-landing-header .address div span {
-    display: inline-block;
-    vertical-align: middle;
-}
 
 
 

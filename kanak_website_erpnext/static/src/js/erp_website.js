@@ -1,4 +1,4 @@
-odoo.define('kanak_website_erpnext.website', function(require) {
+odoo.define('kanak_website_erpnext.erp_website', function(require) {
     "use strict";
     require('web.dom_ready');
 

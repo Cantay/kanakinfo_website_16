@@ -24,7 +24,7 @@
                         </div>
                         <div class="col-md-7">
                             <div class="address">
-                                <div><img src="/kanak_website_erpnext/static/src/img/erp-next/phone.png" /> <span>+91 9818211679,+91 9998040067</span></div>
+                                <div><img src="/kanak_website_erpnext/static/src/img/erp-next/phone.png" /> <span>+91 9818108884,+91 9998040067</span></div>
                                 <div><img src="/kanak_website_erpnext/static/src/img/erp-next/e-mail.png" /> <span><a href="mailto:sales@kanakinfosystems.com">sales@kanakinfosystems.com</a></span></div>
                             </div>
                         </div>
@@ -162,7 +162,7 @@
             </section>
             <section class="erpnext-review">
                 <div class="container">
-                    <p class="mb-5 mt-5 customer-review">Customer <span class="red">Review</span></p>
+                    <p class="customer-review">Customer <span class="red">Review</span></p>
                     <div class="row">
                         <div class="owl-carousel">
                             <div class="item">
@@ -230,7 +230,7 @@
                 </div>
             </section>
             <section class="erpnext-faq">
-                <div class="container">
+                <div class="container mt-2">
                     <p class="text-center pt-5 erpfaq">Frequently Asked Question </p>
                     <div class="row pt-5 pb-5">
                         <div class="col-lg-8 offset-lg-2" style="background-color:#fff;border-radius:16px">
@@ -307,7 +307,7 @@
                             <h2>Minimize your manual business operations with ERPNext</h2>
                             <p>Being a free and open-source ERP software, ERPNext can make your business management process smooth and efficient with its different modules. Our certified consultants can help you and guide you with the process of implementation, integration, customization, maintenance, and support.</p>
                             <div class="talk-us">
-                                <a href="#" type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#erpnext-Modal"><img src="/kanak_website_erpnext/static/src/img/erp-next/phone-call2.png" /> Talk To us</a>
+                                <a href="#" type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#erpnext-Modal"><img src="/kanak_website_erpnext/static/src/img/erp-next/phone-call.png" /> Talk To us</a>
                             </div>
                         </div>
                         <!-- <div class="col-lg-6">

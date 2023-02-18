@@ -16,7 +16,7 @@ odoo.define('kanak_website_erpnext.erp_website', function(require) {
                 items: 1
             },
             600: {
-                items: 3
+                items: 1
             },
             1000: {
                 items: 3
@@ -30,8 +30,5 @@ odoo.define('kanak_website_erpnext.erp_website', function(require) {
 
     $(".erpnext-review .owl-carousel .owl-prev").html('');
     $(".erpnext-review .owl-carousel .owl-next").html('');
-
-
- 
 
 });

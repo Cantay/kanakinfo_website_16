@@ -28,12 +28,6 @@
                                 <div><img src="/kanak_website/static/src/img/odoo_erp_services/e-mail.png" /> <span><a href="mailto:sales@kanakinfosystems.com">sales@kanakinfosystems.com</a></span></div>
                             </div>
                         </div>
-                        <!-- <div class="col-md-4">
-                            <div class="address">
-                                <div><img src="/kanak_website/static/src/img/odoo_erp_services/phone.png" /> <span>+91 9818211679,+91 9998040067</span></div>
-                                <div><img src="/kanak_website/static/src/img/odoo_erp_services/e-mail.png" /> <span><a href="mailto:sales@kanakinfosystems.com">sales@kanakinfosystems.com</a></span></div>
-                            </div>
-                        </div> -->
                     </div>
                 </div>
             </section>
@@ -84,7 +78,7 @@
                     </div>
                 </div>
                 <div id="odoo-erp-Modal" class="modal fade" role="dialog">
-                    <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-dialog modal-lg ">
                         <!-- Modal content-->
                         <div class="modal-content odoo-erp-modal-main">
                             <div class="modal-header">
@@ -244,7 +238,7 @@
                 <div class="container">
                     <div class="owl-carousel">
                         <div class="item">
-                            <div class="" style="padding-left:10pt;padding-right:10pt;">
+                            <div class="review-slide">
                                 <div class="row review_card">
                                     <div class="col-md-12">
                                         <img src="/kanak_website/static/src/img/odoo_erp_services/review-img1.png" />
@@ -265,7 +259,7 @@
                             </div>
                         </div>
                         <div class="item">
-                            <div class="" style="padding-left:10pt;padding-right:10pt;">
+                            <div class="review-slide">
                                 <div class="row review_card">
                                     <div class="col-md-12">
                                         <img src="/kanak_website/static/src/img/odoo_erp_services/review-img1.png" />
@@ -286,7 +280,7 @@
                             </div>
                         </div>
                         <div class="item">
-                            <div class="" style="padding-left:10pt;padding-right:10pt;">
+                            <div class="review-slide">
                                 <div class="row review_card">
                                     <div class="col-md-12">
                                         <img src="/kanak_website/static/src/img/odoo_erp_services/review-img1.png" />
@@ -301,13 +295,13 @@
                                                 <span class="fa fa-star checked"></span>
                                             </div>
                                         </div>
-                                        <p class="review-main">Absolutely top company to deal with.  Hopefully we will be doing more work with them moving forward.  Keep up the good work and thank you for your help and assistance</p>
+                                        <p class="review-main">Absolutely top company to deal with. Hopefully we will be doing more work with them moving forward. Keep up the good work and thank you for your help and assistance</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="item">
-                            <div class="" style="padding-left:10pt;padding-right:10pt;">
+                            <div class="review-slide">
                                 <div class="row review_card">
                                     <div class="col-md-12">
                                         <img src="/kanak_website/static/src/img/odoo_erp_services/review-img1.png" />

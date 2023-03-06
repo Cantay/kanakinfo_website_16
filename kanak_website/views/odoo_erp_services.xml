@@ -24,57 +24,75 @@
                         </div>
                         <div class="col-md-6">
                             <div class="address">
-                                <div><img src="/kanak_website/static/src/img/odoo_erp_services/phone.png" /> <span>+91 9818108884,+91 9998040067</span></div>
-                                <div><img src="/kanak_website/static/src/img/odoo_erp_services/e-mail.png" /> <span><a href="mailto:sales@kanakinfosystems.com">sales@kanakinfosystems.com</a></span></div>
+                                <div><img src="/kanak_website/static/src/img/odoo_erp_services/phone.png" alt="" /> <span>+91 9818108884,+91 9998040067</span></div>
+                                <div><img alt="" src="/kanak_website/static/src/img/odoo_erp_services/e-mail.png" /> <span><a href="mailto:sales@kanakinfosystems.com">sales@kanakinfosystems.com</a></span></div>
                             </div>
                         </div>
                     </div>
+                    <!-- Google tag (gtag.js) -->
+                    <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-5H1LDVVGXF"></script>
+                    <script>
+                        window.dataLayer = window.dataLayer || [];
+                      function gtag(){dataLayer.push(arguments);}
+                      gtag('js', new Date());
+
+                      gtag('config', 'G-5H1LDVVGXF');
+                    </script>
                 </div>
             </section>
-            <section class="odoo-service-banner">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <h1>ODOO <span>ERP</span></h1>
-                            <p>Your key to a rapid business transformation. Your entire business process in one software</p>
-                            <div class="s_newsletter_subscribe_form s_newsletter_list js_subscribe" data-vxml="001" data-list-id="1" data-name="Newsletter" data-snippet="s_newsletter_subscribe_form">
-                                <div class="input-group">
-                                    <input type="email" name="email" class="js_subscribe_value form-control" placeholder="your email..." />
-                                    <a role="button" href="#" class="btn btn-primary js_subscribe_btn o_submit o_default_snippet_text">Subscribe</a>
-                                    <a role="button" href="#" class="btn btn-success js_subscribed_btn d-none o_submit o_default_snippet_text" disabled="disabled">Thanks</a>
+            <section>
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active odoo-service-banner" data-bs-interval="2000">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h1>ODOO <span>ERP</span></h1>
+                                        <p>Your key to a rapid business transformation. Your entire business process in one software</p>
+                                        <div class="talk-us mt32">
+                                            <a href="" type="button" class="btn btn-default" data-bs-toggle="modal" data-bs-target="#odoo-erp-Modal"><img alt="" src="/kanak_website/static/src/img/odoo_erp_services/phone-call.png" /> <span>Talk to us</span></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img alt="" src="/kanak_website/static/src/img/odoo_erp_services/Odoo-ERP-Graphic.png" class="img-fluid banner-odoo-service" />
+                                    </div>
                                 </div>
                             </div>
-                            <div class="talk-us mt32">
-                                <a href="" type="button" class="btn btn-default" data-bs-toggle="modal" data-bs-target="#odoo-erp-Modal"><img src="/kanak_website/static/src/img/odoo_erp_services/phone-call.png" /> <span>Talk to us</span></a>
+                        </div>
+                        <div class="carousel-item odoo-service-banner2" data-bs-interval="2000">
+                            <div class="container d-flex align-items-center">
+                                <div class="col-lg-5">
+                                    <p class="banner-heading">Odoo <span>Services</span></p>
+                                    <p>Elevate Your Business Performance with Odoo ERP - Optimize Your Workflows for Success!</p>
+                                    <a href="" type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#odoo-erp-Modal">Get Free Consultation</a>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <img src="/kanak_website/static/src/img/odoo_erp_services/Odoo-ERP-Graphic.png" class="img-fluid banner-odoo-service" />
-                        </div>
                     </div>
+                    
                 </div>
             </section>
             <section class="odoo-erp-talkus">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-7 erp-talkus">
-                            <p>Kanak Infosystems LLP. has been working on Odoo for over a decade and specializes in
-                                <span style="color: #DB4437;">Development, Implementation, Customization, Consultation</span> and <span style="color: #DB4437;">Integration.</span> What’s different
-                                about us working as an Odoo Partner is that we aren’t restricted to specific industries. We
-                                expand our horizons with every new project.</p>
-                            <p><span style="color: #DB4437;">Odoo ERP</span> is a one-stop solution for business owners. This solution will 
-                                automate your business processes making them as smooth and as ever efficient. It comes with
-                                a plethora of applications to be integrated with your database. The fact that it is an <span style="color: #DB4437;">Open-
-                                    source ERP</span>, it is highly flexible and customizable to make it more personalized for your
-                                business.</p>
+                            <h2>Experience Unmatched Business Growth with Odoo Partner Kanak Infosystems for <span style="color: #714B67;"> Customizable Odoo ERP Implementation</span></h2>
+                            <p>Kanak Infosystems LLP. is a leading <span style="color: #DB4437;">Odoo partner</span>, committed to providing top-notch <span style="color: #DB4437;">development,
+                                    implementation, customization, consultation, and integration services</span> to businesses of all sizes and
+                                industries. With over a decade of experience in Odoo, we have established ourselves as a reliable and
+                                trustworthy partner for businesses seeking to optimize their operations.</p>
+                            <p>As an <span style="color: #DB4437;">open-source ERP system, Odoo</span> offers unparalleled flexibility and customization options, enabling
+                                businesses to tailor it to their specific requirements. At Kanak Infosystems LLP, we specialize in providing
+                                comprehensive <span style="color: #DB4437;">Odoo support services, including upgrades and migrations</span>, to ensure that businesses
+                                continue to derive maximum value from the platform.</p>
                         </div>
                         <div class="col-lg-5 odoo-erp-desk">
-                            <img src="/kanak_website/static/src/img/odoo_erp_services/talk-us.png" class="img-fluid" />
+                            <img alt="" src="/kanak_website/static/src/img/odoo_erp_services/talk-us.png" class="img-fluid" />
                         </div>
                     </div>
-                    <div class="col-md-12 text-center talk-us mt-3">
-                        <p>Wish to explore the <span>Great Possibilities with Odoo?</span></p>
-                        <a href="" type="button" class="btn btn-default" data-bs-toggle="modal" data-bs-target="#odoo-erp-Modal"><img src="/kanak_website/static/src/img/odoo_erp_services/phone-call.png" /> <span>Talk to us</span></a>
+                    <div class="col-md-12 text-center talk-us mt-5">
+                        <p>Don&#39;t let inefficiencies hold your business back - let us optimize your workflows with Odoo.</p>
+                        <a href="" type="button" class="btn btn-default" data-bs-toggle="modal" data-bs-target="#odoo-erp-Modal"><img alt="" src="/kanak_website/static/src/img/odoo_erp_services/phone-call.png" /> <span>Get Free Odoo Consultation</span></a>
                     </div>
                 </div>
                 <div id="odoo-erp-Modal" class="modal fade" role="dialog">
@@ -125,48 +143,48 @@
             </section>
             <section class="odoo-service-main">
                 <div class="container">
-                    <h2>What <span style="color:#714B67;">Services</span> will we provide you in <span style="color:#714B67;">Odoo?</span></h2>
+                    <h2>Don&#39;t Miss Out on Streamlining Your Business with Our Comprehensive <span style="color:#714B67;">Odoo Services and Support.</span></h2>
                     <div class="row">
                         <div class="col-md-6">
                             <div class="odoo-service">
-                                <div class="main-img left"><img src="/kanak_website/static/src/img/odoo_erp_services/customization.png" class="img-fluid" /></div>
+                                <div class="main-img left"><img alt="" src="/kanak_website/static/src/img/odoo_erp_services/customization.png" class="img-fluid" /></div>
                                 <div class="main-text service-custom">
-                                    <h3>Customization</h3>
+                                    <h3>Odoo Customization</h3>
                                     <p>Our team of experts will make sure we make your Odoo database a complete replica of your business.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="odoo-service">
-                                <div class="main-img right"><img src="/kanak_website/static/src/img/odoo_erp_services/integration.png" class="img-fluid" /></div>
+                                <div class="main-img right"><img alt="" src="/kanak_website/static/src/img/odoo_erp_services/integration.png" class="img-fluid" /></div>
                                 <div class="main-text service-integration">
-                                    <h3>Integration</h3>
+                                    <h3>Odoo Integration</h3>
                                     <p>Kanak makes sure everything that you need is present in just one system. We will integrate all your needed software and applications in your database.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="odoo-service">
-                                <div class="main-img left"><img src="/kanak_website/static/src/img/odoo_erp_services/implementation.png" class="img-fluid" /></div>
+                                <div class="main-img left"><img alt="" src="/kanak_website/static/src/img/odoo_erp_services/implementation.png" class="img-fluid" /></div>
                                 <div class="main-text service-implementation ">
-                                    <h3>Implementation</h3>
+                                    <h3>Odoo Implementation</h3>
                                     <p>Initiating the use of an ERP in the business is a huge change. We make sure it is a stress-free process for you. It will be our responsibility to make the change smoother for you.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="odoo-service">
-                                <div class="main-img right"><img src="/kanak_website/static/src/img/odoo_erp_services/support.png" class="img-fluid" /></div>
+                                <div class="main-img right"><img alt="" src="/kanak_website/static/src/img/odoo_erp_services/support.png" class="img-fluid" /></div>
                                 <div class="main-text service-support">
-                                    <h3>Support</h3>
+                                    <h3>Odoo Support</h3>
                                     <p>our team of talented and skilled individuals will be there for you. You can reach out to us anytime for any support that is needed.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-12 text-center talk-us">
-                        <p>Wanna know how Odoo can transform your Business?</p>
-                        <a href="" type="button" class="btn btn-default" data-bs-toggle="modal" data-bs-target="#odoo-erp-Modal"><img src="/kanak_website/static/src/img/odoo_erp_services/phone-call.png" /> <span>Talk to us</span></a>
+                        <p>Discover how our tailored Odoo solutions can transform your business operations for the better.</p>
+                        <a href="" type="button" class="btn btn-default" data-bs-toggle="modal" data-bs-target="#odoo-erp-Modal"><img alt="" src="/kanak_website/static/src/img/odoo_erp_services/phone-call.png" /> <span>Book a Free Demo</span></a>
                     </div>
                 </div>
             </section>
@@ -241,7 +259,7 @@
                             <div class="review-slide">
                                 <div class="row review_card">
                                     <div class="col-md-12">
-                                        <img src="/kanak_website/static/src/img/odoo_erp_services/review-img1.png" />
+                                        <img alt="" src="/kanak_website/static/src/img/odoo_erp_services/review-img1.png" />
                                         <div>
                                             <p class="name"><b>Ryan Litwin</b></p>
                                             <p class="rate">Rating: 5</p>
@@ -262,7 +280,7 @@
                             <div class="review-slide">
                                 <div class="row review_card">
                                     <div class="col-md-12">
-                                        <img src="/kanak_website/static/src/img/odoo_erp_services/review-img1.png" />
+                                        <img alt="" src="/kanak_website/static/src/img/odoo_erp_services/review-img1.png" />
                                         <div>
                                             <p class="name"><b>Dani Fricker</b></p>
                                             <p class="rate">Rating: 4.5</p>
@@ -270,8 +288,8 @@
                                                 <span class="fa fa-star checked"></span>
                                                 <span class="fa fa-star checked"></span>
                                                 <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
                                                 <span class="fa fa-star checked fa-star-half-full"></span>
-                                                <span class="fa fa-star"></span>
                                             </div>
                                         </div>
                                         <p class="review-main">&quot;They have administrative overhead reduced to a minimum, which is key for speed and business.&quot;</p>
@@ -283,7 +301,7 @@
                             <div class="review-slide">
                                 <div class="row review_card">
                                     <div class="col-md-12">
-                                        <img src="/kanak_website/static/src/img/odoo_erp_services/review-img1.png" />
+                                        <img alt="" src="/kanak_website/static/src/img/odoo_erp_services/review-img1.png" />
                                         <div>
                                             <p class="name"><b>DirectShop Fittings</b></p>
                                             <p class="rate">Rating: 5</p>
@@ -304,7 +322,7 @@
                             <div class="review-slide">
                                 <div class="row review_card">
                                     <div class="col-md-12">
-                                        <img src="/kanak_website/static/src/img/odoo_erp_services/review-img1.png" />
+                                        <img alt="" src="/kanak_website/static/src/img/odoo_erp_services/review-img1.png" />
                                         <div>
                                             <p class="name"><b>Hassan Daryanavard</b></p>
                                             <p class="rate">Rating: 5</p>
@@ -330,10 +348,10 @@
                         <div class="col-md-6 col-sm-12">
                             <h4 class="text-left">We Don’t Make Promises, We Deliver Results.</h4>
                             <p>As a professional Odoo service provider with 10+ years of experience, we uphold the highest level of integrity. We can handle everything on Odoo software like integration, installation, implementation, customization, training, support, and development. </p>
-                            <a href="" type="button" class="btn btn-default talk-us" data-bs-toggle="modal" data-bs-target="#odoo-erp-Modal"><img src="/kanak_website/static/src/img/odoo_erp_services/phone-call1.png" /> <span>Talk to us</span></a>
+                            <a href="" type="button" class="btn btn-default talk-us" data-bs-toggle="modal" data-bs-target="#odoo-erp-Modal"><img alt="" src="/kanak_website/static/src/img/odoo_erp_services/phone-call1.png" /> <span>Talk to us</span></a>
                         </div>
                         <div class="col-md-6">
-                            <img src="/kanak_website/static/src/img/odoo_erp_services/Frame.png" class="img-fluid banner-odoo-service" />
+                            <img alt="" src="/kanak_website/static/src/img/odoo_erp_services/Frame.png" class="img-fluid banner-odoo-service" />
                         </div>
                     </div>
                 </div>

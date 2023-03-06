@@ -48,6 +48,18 @@
     padding-bottom: 30pt;
 }
 
+.odoo-service-banner2 {
+    background: url(/kanak_website/static/src/img/odoo_erp_services/Bg-banner.jpg) no-repeat ;
+    background-size: cover;
+    background-position: center;
+    padding-top: 30pt;
+    padding-bottom: 30pt;
+}
+
+.odoo-service-banner2 .container{
+    height: 500px;
+}
+
 .odoo-service-banner div.row {
     display: flex;
     align-items: center;
@@ -57,23 +69,24 @@
     padding-right: 60pt;
 }
 
-.odoo-service-banner div.input-group {
-    width: 50%;
-}
-
-.odoo-service-banner div.input-group input{
-    background: #fff;
-}
-
 .odoo-service-banner h1{
     font-weight: 600;
     font-size: 48px;
     color: #714B67;
 }
 
-.odoo-service-banner h1 span{
-    color: #15456E;
+.odoo-service-banner2 .banner-heading{
+    font-weight: 600;
+    font-size: 48px;
+    color: #714B67;
+    margin-bottom: 0.5rem;
 }
+
+.odoo-service-banner h1 span,
+.odoo-service-banner2 .banner-heading span
+    {
+        color: #15456E;
+    }
 
 
 .banner-odoo-service {
@@ -90,7 +103,13 @@
 }
 
 .odoo-erp-talkus .erp-talkus{
-    padding-top: 50pt;
+    padding-top: 30pt;
+}
+
+.odoo-erp-talkus .erp-talkus h2{
+    font-size: 2rem;
+    color: #15456E;
+    margin-bottom: 20pt;
 }
 
 .odoo-erp-talkus .erp-talkus p{
@@ -158,13 +177,13 @@
 
 .odoo-service-main .container .row{
     padding-top: 15pt;
-    padding-bottom: 15pt;
+    padding-bottom: 30pt;
 }
 
 .odoo-service-main h2 {
     font-style: normal;
     font-weight: 600;
-    font-size: 48px;
+    font-size: 38px;
     color: #15456E;
     text-align: center;
 }
@@ -442,10 +461,6 @@
         margin: 150px auto !important;
     }
 
-    .odoo-service-banner div.input-group {
-        width: 100%;
-    }
-
     .review-box .review_card .name{
         padding-top: 10px;
     }
@@ -464,10 +479,21 @@
     .review-box .review_card {
         height: 400px;
     }
+
+
 }
 
 
 @media (max-width: 768px) {
+
+    .odoo-service-banner2 {
+        background-position: left;
+    }
+
+    .odoo-service-banner2 .container {
+        height: auto;
+    }
+
     .odoo-landing-header .address {
         display: inline-block;
         text-align: center;
@@ -511,6 +537,7 @@
 
     .odoo-service-main h2 {
         font-size: 28px;
+        text-align: left;
     }
 
     .odoo-service .main-img{
@@ -601,10 +628,3 @@
         margin: 0;
     }
 }
-
-
-
-
-
-
-

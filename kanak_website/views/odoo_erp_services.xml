@@ -147,37 +147,60 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="odoo-service">
-                                <div class="main-img left"><img alt="" src="/kanak_website/static/src/img/odoo_erp_services/customization.png" class="img-fluid" /></div>
+                                <div class="main-img left"><img alt="" src="/kanak_website/static/src/img/odoo_erp_services/Installation.png" class="img-fluid" /></div>
                                 <div class="main-text service-custom">
+                                    <h3>Odoo Installation</h3>
+                                    <p>Looking for reliable Odoo installation? Kanak Infosystems LLP. offers expert configuration of databases and web servers for a smooth and efficient process.</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="odoo-service">
+                                <div class="main-img right"><img alt="" src="/kanak_website/static/src/img/odoo_erp_services/customization.png" class="img-fluid" /></div>
+                                <div class="main-text service-integration">
                                     <h3>Odoo Customization</h3>
                                     <p>Our team of experts will make sure we make your Odoo database a complete replica of your business.</p>
+                                    
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="odoo-service">
-                                <div class="main-img right"><img alt="" src="/kanak_website/static/src/img/odoo_erp_services/integration.png" class="img-fluid" /></div>
-                                <div class="main-text service-integration">
+                                <div class="main-img left"><img alt="" src="/kanak_website/static/src/img/odoo_erp_services/integration.png" class="img-fluid" /></div>
+                                <div class="main-text service-implementation ">
                                     <h3>Odoo Integration</h3>
                                     <p>Kanak makes sure everything that you need is present in just one system. We will integrate all your needed software and applications in your database.</p>
+                                    
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="odoo-service">
-                                <div class="main-img left"><img alt="" src="/kanak_website/static/src/img/odoo_erp_services/implementation.png" class="img-fluid" /></div>
-                                <div class="main-text service-implementation ">
+                                <div class="main-img right"><img alt="" src="/kanak_website/static/src/img/odoo_erp_services/implementation.png" class="img-fluid" /></div>
+                                <div class="main-text service-support">
                                     <h3>Odoo Implementation</h3>
                                     <p>Initiating the use of an ERP in the business is a huge change. We make sure it is a stress-free process for you. It will be our responsibility to make the change smoother for you.</p>
+                                    
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="odoo-service">
-                                <div class="main-img right"><img alt="" src="/kanak_website/static/src/img/odoo_erp_services/support.png" class="img-fluid" /></div>
-                                <div class="main-text service-support">
+                                <div class="main-img left"><img alt="" src="/kanak_website/static/src/img/odoo_erp_services/support.png" class="img-fluid" /></div>
+                                <div class="main-text service-custom">
                                     <h3>Odoo Support</h3>
                                     <p>our team of talented and skilled individuals will be there for you. You can reach out to us anytime for any support that is needed.</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="odoo-service">
+                                <div class="main-img right"><img alt="" src="/kanak_website/static/src/img/odoo_erp_services/developer.png" class="img-fluid" /></div>
+                                <div class="main-text service-integration">
+                                    <h3>Hire Odoo Developer</h3>
+                                    <p>Need a skilled and experienced Odoo developer for your project? At Kanak Infosystems LLP., excellence is guaranteed. Hire us today.</p>
                                 </div>
                             </div>
                         </div>

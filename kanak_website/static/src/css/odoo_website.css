@@ -597,6 +597,7 @@
     .odoo-service .main-text.service-support {
         background-color: #15456E;
         margin-right: 0;
+        margin-bottom: 30pt;
         padding: 30pt 10pt 10pt 10pt;
         text-align: center;
     }

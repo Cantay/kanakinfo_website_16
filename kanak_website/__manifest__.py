@@ -9,7 +9,7 @@
     'version': '16.0',
     'depends': ['website','mass_mailing','crm'],
     'data': [
-        'views/odoo_erp_services.xml',
+        #'views/odoo_erp_services.xml',
         'views/template.xml',
     ],
     'demo': [

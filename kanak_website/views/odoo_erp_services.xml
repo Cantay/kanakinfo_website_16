@@ -63,7 +63,7 @@
                             <div class="container d-flex align-items-center">
                                 <div class="col-lg-5">
                                     <p class="banner-heading">Odoo <span>Services</span></p>
-                                    <p>Elevate Your Business Performance with Odoo ERP - Optimize Your Workflows for Success!</p>
+                                    <p>Elevate Your Business Performance with <br/>Odoo ERP - Optimize Your Workflows for Success!</p>
                                     <a href="" type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#odoo-erp-Modal">Get Free Consultation</a>
                                 </div>
                             </div>

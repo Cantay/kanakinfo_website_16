@@ -49,7 +49,7 @@
 }
 
 .odoo-service-banner2 {
-    background: url(/kanak_website/static/src/img/odoo_erp_services/Bg-banner.jpg) no-repeat ;
+    background: url(/kanak_website/static/src/img/odoo_erp_services/Bg-banner.png) no-repeat ;
     background-size: cover;
     background-position: center;
     padding-top: 30pt;
@@ -254,8 +254,8 @@
 
 .odoo-faq {
     background: url(/kanak_website/static/src/img/odoo_erp_services/faq-bg1.png) no-repeat left top;
-    background-size: 25%;
-    background-position: 0% 90%;
+    background-size: 35%;
+    background-position: 0% 70%;
     height: auto;
     padding-top: 50pt;
     padding-bottom: 50pt;
@@ -456,6 +456,11 @@
 }
 
 @media (max-width: 425px) {
+
+    .odoo-service-banner2 {
+        background-position: left;
+        background-size: auto;
+    }
 
     #odoo-erp-Modal .modal-dialog {
         margin: 150px auto !important;

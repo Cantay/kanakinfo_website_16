@@ -16,15 +16,7 @@
             <div class="container">
                 <div class="col-md-12 col-sm-12">
                     <div>
-                        <!-- Google tag (gtag.js) -->
-                        <script async="async" src="https://www.googletagmanager.com/gtag/js?id=AW-588817491"></script>
-                        <script>
-                          window.dataLayer = window.dataLayer || [];
-                          function gtag(){dataLayer.push(arguments);}
-                          gtag('js', new Date());
-
-                          gtag('config', 'AW-588817491');
-                        </script>
+                        
                         <div class="text-center">
                             <br /><br /><br />
                             <b class="thank_you_title" style="font-size:40px;"><span>Thank You!</span></b><br />

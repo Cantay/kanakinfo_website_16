@@ -38,7 +38,14 @@
 
                       gtag('config', 'G-5H1LDVVGXF');
                     </script>
-                    
+                    <script async="async" src="https://www.googletagmanager.com/gtag/js?id=AW-588817491"></script>
+                    <script>
+                        window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-588817491');
+</script>
                 </div>
             </section>
             <section>
@@ -64,13 +71,12 @@
                             <div class="container d-flex align-items-center">
                                 <div class="col-lg-5">
                                     <p class="banner-heading">Odoo <span>Services</span></p>
-                                    <p>Elevate Your Business Performance with <br/>Odoo ERP - Optimize Your Workflows for Success!</p>
-                                    <a href="" type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#odoo-erp-Modal">Get Free Consultation</a>
+                                    <p>Elevate Your Business Performance with <br />Odoo ERP - Optimize Your Workflows for Success!</p>
+                                    <a href="" type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#odoo-erp-Modal">Contact Us Now</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
                 </div>
             </section>
             <section class="odoo-erp-talkus">
@@ -93,7 +99,7 @@
                     </div>
                     <div class="col-md-12 text-center talk-us mt-5">
                         <p>Don&#39;t let inefficiencies hold your business back - let us optimize your workflows with Odoo.</p>
-                        <a href="" type="button" class="btn btn-default" data-bs-toggle="modal" data-bs-target="#odoo-erp-Modal"><img alt="" src="/kanak_website/static/src/img/odoo_erp_services/phone-call.png" /> <span>Get Free Odoo Consultation</span></a>
+                        <a href="" type="button" class="btn btn-default" data-bs-toggle="modal" data-bs-target="#odoo-erp-Modal"><img alt="" src="/kanak_website/static/src/img/odoo_erp_services/phone-call.png" /> <span>Request Demo</span></a>
                     </div>
                 </div>
                 <div id="odoo-erp-Modal" class="modal fade" role="dialog">
@@ -152,7 +158,6 @@
                                 <div class="main-text service-custom">
                                     <h3>Odoo Installation</h3>
                                     <p>Looking for reliable Odoo installation? Kanak Infosystems LLP. offers expert configuration of databases and web servers for a smooth and efficient process.</p>
-                                    
                                 </div>
                             </div>
                         </div>
@@ -162,7 +167,6 @@
                                 <div class="main-text service-integration">
                                     <h3>Odoo Customization</h3>
                                     <p>Our team of experts will make sure we make your Odoo database a complete replica of your business.</p>
-                                    
                                 </div>
                             </div>
                         </div>
@@ -172,7 +176,6 @@
                                 <div class="main-text service-implementation ">
                                     <h3>Odoo Integration</h3>
                                     <p>Kanak makes sure everything that you need is present in just one system. We will integrate all your needed software and applications in your database.</p>
-                                    
                                 </div>
                             </div>
                         </div>
@@ -182,7 +185,6 @@
                                 <div class="main-text service-support">
                                     <h3>Odoo Implementation</h3>
                                     <p>Initiating the use of an ERP in the business is a huge change. We make sure it is a stress-free process for you. It will be our responsibility to make the change smoother for you.</p>
-                                    
                                 </div>
                             </div>
                         </div>
@@ -192,7 +194,6 @@
                                 <div class="main-text service-custom">
                                     <h3>Odoo Support</h3>
                                     <p>our team of talented and skilled individuals will be there for you. You can reach out to us anytime for any support that is needed.</p>
-                                    
                                 </div>
                             </div>
                         </div>
@@ -208,7 +209,7 @@
                     </div>
                     <div class="col-md-12 text-center talk-us">
                         <p>Discover how our tailored Odoo solutions can transform your business operations for the better.</p>
-                        <a href="" type="button" class="btn btn-default" data-bs-toggle="modal" data-bs-target="#odoo-erp-Modal"><img alt="" src="/kanak_website/static/src/img/odoo_erp_services/phone-call.png" /> <span>Book a Free Demo</span></a>
+                        <a href="" type="button" class="btn btn-default" data-bs-toggle="modal" data-bs-target="#odoo-erp-Modal"><img alt="" src="/kanak_website/static/src/img/odoo_erp_services/phone-call.png" /> <span>Learn More</span></a>
                     </div>
                 </div>
             </section>
@@ -372,7 +373,7 @@
                         <div class="col-md-6 col-sm-12">
                             <h4 class="text-left">We Don’t Make Promises, We Deliver Results.</h4>
                             <p>As a professional Odoo service provider with 10+ years of experience, we uphold the highest level of integrity. We can handle everything on Odoo software like integration, installation, implementation, customization, training, support, and development. </p>
-                            <a href="" type="button" class="btn btn-default talk-us" data-bs-toggle="modal" data-bs-target="#odoo-erp-Modal"><img alt="" src="/kanak_website/static/src/img/odoo_erp_services/phone-call1.png" /> <span>Talk to us</span></a>
+                            <a href="" type="button" class="btn btn-default talk-us" data-bs-toggle="modal" data-bs-target="#odoo-erp-Modal"><img alt="" src="/kanak_website/static/src/img/odoo_erp_services/phone-call1.png" /> <span>Get in Touch</span></a>
                         </div>
                         <div class="col-md-6">
                             <img alt="" src="/kanak_website/static/src/img/odoo_erp_services/Frame.png" class="img-fluid banner-odoo-service" />

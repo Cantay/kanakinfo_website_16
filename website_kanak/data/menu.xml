@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data noupdate="1">
+
+        <record id="website.default_website" model="website">
+           <field name="logo" type="base64" file="website_kanak/static/src/img/knk_logo.svg"/>
+        </record>
+
+        <delete model="website.menu" search="[('url','in', ['/', '/']),
+        ('website_id', '=', 1)]"/>
+
+        <!-- Contact us -->
+        <delete model="website.menu" search="[('url','in', ['/', '/contactus']),
+        ('website_id', '=', 1)]"/>
+
+		<record id="menu_company" model="website.menu">
+            <field name="name">Company</field>
+            <field name="website_id">1</field>
+            <!-- <field name="parent_id" ref="website.main_menu" /> -->
+            <field name="parent_id" search="[
+        ('url', '=', '/default-main-menu'),
+        ('website_id', '=', 1)]"/>
+            <field name="sequence" type="int">20</field>
+        </record>
+        <record id="menu_odoo" model="website.menu">
+            <field name="name">Odoo</field>
+            <field name="website_id">1</field>
+            <!-- <field name="parent_id" ref="website.main_menu" /> -->
+            <field name="parent_id" search="[
+        ('url', '=', '/default-main-menu'),
+        ('website_id', '=', 1)]"/>
+            <field name="sequence" type="int">30</field>
+        </record>
+        <record id="menu_netsuite" model="website.menu">
+            <field name="name">Oracle Netsuite</field>
+            <field name="website_id">1</field>
+            <!-- <field name="parent_id" ref="website.main_menu" /> -->
+            <field name="parent_id" search="[
+        ('url', '=', '/default-main-menu'),
+        ('website_id', '=', 1)]"/>
+            <field name="sequence" type="int">40</field>
+        </record>
+        <record id="menu_erpnext" model="website.menu">
+            <field name="name">ERPNext</field>
+            <field name="website_id">1</field>
+            <!-- <field name="parent_id" ref="website.main_menu" /> -->
+            <field name="parent_id" search="[
+        ('url', '=', '/default-main-menu'),
+        ('website_id', '=', 1)]"/>
+            <field name="sequence" type="int">50</field>
+        </record>
+        <record id="menu_mobile_apps" model="website.menu">
+            <field name="name">Mobile Apps</field>
+            <field name="website_id">1</field>
+            <!-- <field name="parent_id" ref="website.main_menu" /> -->
+            <field name="parent_id" search="[
+        ('url', '=', '/default-main-menu'),
+        ('website_id', '=', 1)]"/>
+            <field name="sequence" type="int">60</field>
+        </record>
+
+
+
+        <record id="menu_contactus" model="website.menu">
+	        <field name="name">About US</field>
+	        <field name="url">/about-us</field>
+	        <field name="website_id">1</field>
+	        <field name="parent_id" ref="website_kanak.menu_company" />
+	        <field name="sequence" type="int">10</field>
+	    </record>
+	    <record id="menu_our_team" model="website.menu">
+	        <field name="name">Meet The Team</field>
+	        <field name="url">/our-team</field>
+	        <field name="website_id">1</field>
+	        <field name="parent_id" ref="website_kanak.menu_company" />
+	        <field name="sequence" type="int">20</field>
+	    </record>
+	    <record id="menu_testimonial" model="website.menu">
+	        <field name="name">Testimonial</field>
+	        <field name="url">/testimonial</field>
+	        <field name="website_id">1</field>
+	        <field name="parent_id" ref="website_kanak.menu_company" />
+	        <field name="sequence" type="int">30</field>
+	    </record>
+	    <record id="menu_policy" model="website.menu">
+	        <field name="name">Privacy Policy</field>
+	        <field name="url">/privacy-policy</field>
+	        <field name="website_id">1</field>
+	        <field name="parent_id" ref="website_kanak.menu_company" />
+	        <field name="sequence" type="int">40</field>
+	    </record>
+	    <record id="menu_engagement_models" model="website.menu">
+	        <field name="name">Engagement Models</field>
+	        <field name="url">/engagement-models</field>
+	        <field name="website_id">1</field>
+	        <field name="parent_id" ref="website_kanak.menu_company" />
+	        <field name="sequence" type="int">50</field>
+	    </record>
+	    <record id="menu_careers" model="website.menu">
+	        <field name="name">Careers</field>
+	        <field name="url">/jobs</field>
+	        <field name="website_id">1</field>
+	        <field name="parent_id" ref="website_kanak.menu_company" />
+	        <field name="sequence" type="int">60</field>
+	    </record>
+
+
+
+	    <record id="menu_odoo_development" model="website.menu">
+            <field name="name">Odoo Development</field>
+            <field name="url">/odoo-development-services</field>
+            <field name="website_id">1</field>
+            <field name="parent_id" ref="website_kanak.menu_odoo" />
+            <field name="sequence" type="int">10</field>
+        </record>
+        <record id="menu_implementation" model="website.menu">
+	        <field name="name">Odoo Implementation</field>
+	        <field name="url">/odoo-customization-implementation-services</field>
+	        <field name="website_id">1</field>
+	        <field name="parent_id" ref="website_kanak.menu_odoo" />
+	        <field name="sequence" type="int">20</field>
+	    </record>
+	    <record id="menu_odoo_theme" model="website.menu">
+            <field name="name">Odoo Theme</field>
+            <field name="url">/odoo-themes</field>
+            <field name="website_id">1</field>
+            <field name="parent_id" ref="website_kanak.menu_odoo"/>
+            <field name="sequence" type="int">30</field>
+        </record>
+        <record id="menu_integration" model="website.menu">
+	        <field name="name">Odoo Integration</field>
+	        <field name="url">/odoo-integration-services</field>
+	        <field name="website_id">1</field>
+	        <field name="parent_id" ref="website_kanak.menu_odoo" />
+	        <field name="sequence" type="int">40</field>
+	    </record>
+	    <record id="menu_installation" model="website.menu">
+	        <field name="name">Odoo Installation</field>
+	        <field name="url">/odoo-installation-services</field>
+	        <field name="website_id">1</field>
+	        <field name="parent_id" ref="website_kanak.menu_odoo" />
+	        <field name="sequence" type="int">50</field>
+	    </record>
+	    <record id="menu_web_odoo_training" model="website.menu">
+			<field name="name">Odoo Training</field>
+			<field name="url">/odoo_Training</field>
+			<field name="website_id">1</field>
+			<field name="parent_id" ref="website_kanak.menu_odoo"/>
+			<field name="sequence">60</field>
+		</record>
+	    <record id="menu_hire_odoo_developer" model="website.menu">
+            <field name="name">Hire Odoo Developer</field>
+            <field name="url">/hire-odoo-developer</field>
+            <field name="website_id">1</field>
+            <field name="parent_id" ref="website_kanak.menu_odoo" />
+            <field name="sequence" type="int">70</field>
+        </record>
+        
+
+
+        <record id="menu_web_netsuite" model="website.menu">
+			<field name="name">Netsuite</field>
+			<field name="url">/netsuite_webpage</field>
+			<field name="website_id">1</field>
+			<field name="parent_id" ref="website_kanak.menu_netsuite"/>
+			<field name="sequence">10</field>
+		</record>
+		<record id="menu_netsuite_implementation" model="website.menu">
+            <field name="name">Netsuite Implementation</field>
+            <field name="url">/netsuite-implementation</field>
+            <field name="website_id">1</field>
+            <field name="parent_id" ref="website_kanak.menu_netsuite" />
+            <field name="sequence" type="int">20</field>
+        </record>
+        <record id="menu_netsuite_consultant" model="website.menu">
+            <field name="name">Netsuite Consultant</field>
+            <field name="url">/netsuite-consultant</field>
+            <field name="website_id">1</field>
+            <field name="parent_id" ref="website_kanak.menu_netsuite"/>
+            <field name="sequence" type="int">30</field>
+        </record>
+        <record id="menu_netsuite_licensing" model="website.menu">
+            <field name="name">Netsuite Licensing</field>
+            <field name="url">/netsuite-licensing</field>
+            <field name="website_id">1</field>
+            <field name="parent_id" ref="website_kanak.menu_netsuite"/>
+            <field name="sequence" type="int">40</field>
+        </record>
+        <record id="menu_web_netsuite_support" model="website.menu">
+			<field name="name">Netsuite Support</field>
+			<field name="url">/netsuite_support</field>
+			<field name="website_id">1</field>
+			<field name="parent_id" ref="website_kanak.menu_netsuite"/>
+			<field name="sequence">50</field>
+		</record>
+
+
+
+        <record id="menu_erp_next" model="website.menu">
+            <field name="name">ERPNext Services</field>
+            <field name="url">/erpnext-services</field>
+            <field name="website_id">1</field>
+            <field name="parent_id" ref="website_kanak.menu_erpnext" />
+            <field name="sequence" type="int">10</field>
+        </record>
+        <record id="menu_frappe_book" model="website.menu">
+            <field name="name">Frappe Books</field>
+            <field name="url">/frappe-books-accounting-system</field>
+            <field name="website_id">1</field>
+            <field name="parent_id" ref="website_kanak.menu_erpnext" />
+            <field name="sequence" type="int">20</field>
+        </record>
+        <record id="menu_frappe_healthcare" model="website.menu">
+            <field name="name">Frappe Healthcare</field>
+            <field name="url">/frappe_healthcare</field>
+            <field name="website_id">1</field>
+            <field name="parent_id" ref="website_kanak.menu_erpnext" />
+            <field name="sequence" type="int">30</field>
+        </record>
+        <record id="menu_frappe_hrms" model="website.menu">
+            <field name="name">Frappe HRMS</field>
+            <field name="url">/frappe-hrms</field>
+            <field name="website_id">1</field>
+            <field name="parent_id" ref="website_kanak.menu_erpnext" />
+            <field name="sequence" type="int">40</field>
+        </record>
+        <record id="menu_frappe_lms" model="website.menu">
+            <field name="name">Frappe LMS</field>
+            <field name="url">/frappe-lms</field>
+            <field name="website_id">1</field>
+            <field name="parent_id" ref="website_kanak.menu_erpnext" />
+            <field name="sequence" type="int">50</field>
+        </record>
+
+
+
+        <record id="menu_ios_dev" model="website.menu">
+	        <field name="name">IOS</field>
+	        <field name="url">/ios-app-development-company</field>
+	        <field name="website_id">1</field>
+	        <field name="parent_id" ref="website_kanak.menu_mobile_apps" />
+	        <field name="sequence" type="int">10</field>
+	    </record>
+        <record id="menu_android_apps" model="website.menu">
+            <field name="name">Android</field>
+            <field name="url">/android-app-development-company</field>
+            <field name="website_id">1</field>
+            <field name="parent_id" ref="website_kanak.menu_mobile_apps" />
+            <field name="sequence" type="int">20</field>
+        </record>
+        <record id="menu_geomarking_apps" model="website.menu">
+            <field name="name">GeoMarking</field>
+            <field name="url">/geomarking-employee-attendance-app</field>
+            <field name="website_id">1</field>
+            <field name="parent_id" ref="website_kanak.menu_mobile_apps" />
+            <field name="sequence" type="int">30</field>
+        </record>
+        <record id="menu_odooshoppe" model="website.menu">
+            <field name="name">OdooShoppe</field>
+            <field name="url">/odooshoppe</field>
+            <field name="website_id">1</field>
+            <field name="parent_id" ref="website_kanak.menu_mobile_apps" />
+            <field name="sequence" type="int">40</field>
+        </record>
+
+    </data>
+</odoo>

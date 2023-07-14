@@ -1,0 +1,655 @@
+<odoo>
+    <template id="busineess_bi_mobile_android" name="Android Mobile">
+        <t t-set="additional_title"> Android Mobile App Development Company, Android Phone App
+            Developer</t>
+        <t t-set="website_meta_description"> Professional Android mobile apps development company
+            Kanak offering android apps design and develop services by highly skilled android app
+            developers</t>
+        <t t-set="website_meta_keywords">kanak infosystems llp, android phone apps, android app
+            developer, android app development, best android apps, best apps for android, android
+            app development compan </t>
+        <t t-call="website.layout">
+            <t t-set="pageName" t-value="'android kanak_android'" />
+            <div id="wrap" class="busineess_bi_mobile_android_kanak">
+                <section id="main-odoo-andro-banner">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <p class="android-main"> Android <span style="color:red;">App
+                                        Development</span>
+                                </p>
+                                <p>Everything you need is at your fingertips.</p>
+                                <a href="/contactus" type="button" class="btn btn-danger btn-android-appointment">Book an
+                                    Appointment</a>
+                            </div>
+                            <div class="col-lg-6 mob">
+                                <img alt="" src="/website_kanak/static/src/img/android-apps/android-bg1.png" class="img-fluid mx-auto" />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                        <div class="workpage-home-work">
+                            <div class="container">
+                            <span>
+                                <a class="text-decoration-none" href="/"> Home </a>
+                            </span>
+                            <i class="fa fa-chevron-right" aria-hidden="true" />
+                            <span> Android Apps Development </span>
+                        </div>
+                        </div>
+                    </section>
+                <section class="pt16 pb16">
+                    <div class="container">
+                        <div class="row text-center">
+                            <div class="col-md-12">
+                                <div class="inner_accr">
+                                    <ul>
+                                        <li class="score">
+                                            <figure>
+                                                <img alt="" src="/website_kanak/static/src/img/android-apps/upwork.png" />
+                                            </figure>
+                                            <p class="text-center darkc w-700"> 99% <strong class="fonts-18 textc-aaa">Success Score</strong>
+                                            </p>
+                                        </li>
+                                        <li class="score1">
+                                            <figure>
+                                                <img alt="" src="/website_kanak/static/src/img/android-apps/clutch.png" />
+                                            </figure>
+                                            <p class="text-center darkc w-700"> 4.5 <strong class="fonts-18 textc-aaa">
+                                                    <i class="fa fa-star" />
+                                                    <i class="fa fa-star" />
+                                                    <i class="fa fa-star" />
+                                                    <i class="fa fa-star" />
+                                                    <i class="fa fa-star-half" />
+                                                </strong>
+                                            </p>
+                                        </li>
+                                        <li class="score2">
+                                            <figure>
+                                                <img alt="" src="/website_kanak/static/src/img/android-apps/google.png" />
+                                            </figure>
+                                            <p class="text-center darkc w-700"> 5.0 <strong class="fonts-18 textc-aaa">
+                                                    <i class="fa fa-star" />
+                                                    <i class="fa fa-star" />
+                                                    <i class="fa fa-star" />
+                                                    <i class="fa fa-star" />
+                                                    <i class="fa fa-star" />
+                                                </strong>
+                                            </p>
+                                        </li>
+                                        <li class="score3">
+                                            <figure>
+                                                <img alt="" src="/website_kanak/static/src/img/android-apps/goodfirms.png" />
+                                            </figure>
+                                            <p class="text-center darkc w-700"> 4.8 <strong class="fonts-18 textc-aaa">
+                                                    <i class="fa fa-star" />
+                                                    <i class="fa fa-star" />
+                                                    <i class="fa fa-star" />
+                                                    <i class="fa fa-star" />
+                                                    <i class="fa fa-star-half-empty" />
+                                                </strong>
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="pt16 pb16">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="sec-head">
+                                    <h1 class="mshome-heading">Our Android Apps Development Services</h1>
+                                    <br />
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <p class="mshome-desc"> The use of mobile phones has
+                                                been constantly rising and has now reached a point
+                                                that one can see a smartphone in almost every hand
+                                                on the street. This rising mobile usage has opened
+                                                new opportunities for brands to deliver value to
+                                                their customers in the moment of need. A company can
+                                                either <a href="https://kanakinfosystems.com/contact-us">Hire
+                                                    Android App Developer</a> to develop their apps
+                                                in-house or get their apps developed from a <a href="https://kanakinfosystems.com">Mobile App
+                                                    Service provider</a> . Either way, companies can add
+                                                value to their users and increase their ROI almost
+                                                immediately. <br />
+                                                <br /> Android Operating System
+                                                has an estimated market share of 85% smartphone
+                                                coverage. In this rapidly growing <a href="https://play.google.com/store/apps/developer?id=Kanak+Infosystems+LLP.&amp;hl=en_GB&amp;gl=US">Android
+                                                    App</a> market, Kanak Infosystems prides itself on
+                                                being a leading Android <a href="https://kanakinfosystems.com/blog/mobile-app-development-for-your-business-can-enhance-the-reputation-of-your-brand">App
+                                                    Development</a> company that provides the best
+                                                Android Application Development services. We are a
+                                                leading Mobile app development company that offers
+                                                mobile app development to our clients to streamline
+                                                their business processes while adding value to their
+                                                users. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br /><br /><br />
+                            <div class="col-md-6"><br />
+                                <div class="box-wrapper">
+                                    <div class="row" style="margin-top: 20px;">
+                                        <div class="col-lg-2 col-md-12 col-sm-2 col-xs-12" style="display: inherit;justify-content: center;">
+                                            <div class="icon-wrap" style="margin-left: 0px;">
+                                                <img class="exp-one" alt="" src="/website_kanak/static/src/img/android-apps/Customized-Android-icon.png" style="max-height: 100%; max-width: 100%;" />
+                                            </div>
+                                        </div>
+                                        <div class="text-left col-lg-10 col-md-12 col-sm-10 col-xs-12">
+                                            <p class="android-apps-head" style="font-weight: unset;">Customized Android App Development</p>
+                                            <p class="text-justify" style="text-align: justify;">Every company function differently and hence has different demands from their apps. As an Android app development company, we make sure to address our clients' specific requirements and provide them with the best Android application development service to fulfill those requirements.</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-10 col-md-offset-2">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6"><br />
+                                <div class="box-wrapper">
+                                    <div class="row" style="margin-top: 20px;">
+                                        <div class="col-lg-2 col-md-12 col-sm-2 col-xs-12" style="display: inherit;justify-content: center;">
+                                            <div class="icon-wrap" style="margin-left: 0px;">
+                                                <img class="exp-one" alt="" src="/website_kanak/static/src/img/android-apps/App UX-UI Design.png" />
+                                            </div>
+                                        </div>
+                                        <div class="text-left col-lg-10 col-md-12 col-sm-10 col-xs-12">
+                                            <p class="android-apps-head" style="font-weight: unset;">Android
+                                                App UX/UI Design</p>
+                                            <p class="text-justify" style="text-align: justify;">Our UI/UX Android designer team
+                                                is well-known for executing the best design
+                                                guidelines and techniques to deliver the most
+                                                attractive and interactive User Interface. We don't
+                                                just design apps, we focus on creating an immersive
+                                                experience for the end-user and provide them with
+                                                seamless user experience.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="box-wrapper">
+                                    <div class="row" style="margin-top: 20px;">
+                                        <div class="col-md-12 col-lg-2 col-sm-2 col-xs-12" style="display: inherit;justify-content: center;">
+                                            <div class="icon-wrap" style="margin-left: 0px;">
+                                                <img class="exp-one" alt="" src="/website_kanak/static/src/img/android-apps/App Testing.png" />
+                                            </div>
+                                        </div>
+                                        <div class="text-left col-lg-10 col-md-12 col-sm-10 col-xs-12">
+                                            <p class="android-apps-head" style="font-weight: unset;">Android
+                                                App Testing</p>
+                                            <p class="text-justify" style="text-align: justify;">Every mobile app requires
+                                                its own set of testing such as user experience,
+                                                technology stack, security and compliance
+                                                checks. We have a professional quality assurance
+                                                team that checks various aspects of an
+                                                application to make sure that we deliver
+                                                high-performance, bug-free, and easily scalable
+                                                Android apps to our clients.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="box-wrapper">
+                                    <div class="row" style="margin-top: 20px;">
+                                        <div class="col-lg-2 col-md-12 col-sm-2 col-xs-12" style="display: inherit;justify-content: center;">
+                                            <div class="icon-wrap" style="margin-left: 0px;">
+                                                <img class="exp-one" alt="" src="/website_kanak/static/src/img/android-apps/App Consultation.png" />
+                                            </div>
+                                        </div>
+                                        <div class="text-left col-lg-10 col-md-12 col-sm-10 col-xs-12">
+                                            <p class="android-apps-head" style="font-weight: unset;">Android
+                                                App Consultation</p>
+                                            <p class="text-justify" style="text-align: justify;">Kanak Infosystems has a
+                                                long-standing experience when it comes to
+                                                creating, testing, and launching Android apps.
+                                                This experience allows us to have a team to
+                                                perform in-depth market study and present
+                                                well-researched forecasts to validate your app
+                                                idea and suggest mobile strategies for
+                                                maximizing benefits.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="box-wrapper">
+                                    <div class="row" style="margin-top: 20px;">
+                                        <div class="col-lg-2 col-md-12 col-sm-2 col-xs-12" style="display: inherit;justify-content: center;">
+                                            <div class="icon-wrap" style="margin-left: 0px;">
+                                                <img class="exp-one" alt="" src="/website_kanak/static/src/img/android-apps/App Support.png" />
+                                            </div>
+                                        </div>
+                                        <div class="text-left col-lg-10 col-md-12 col-sm-10 col-xs-12">
+                                            <p class="android-apps-head" style="font-weight: unset;">Android
+                                                App Support</p>
+                                            <p class="text-justify" style="text-align: justify;">
+                                                <a href="https://kanakinfosystems.com/blog/mobile-app-development-process">Developing
+                                                    an Android app</a> is just half the battle for
+                                                providing your user with a great experience. The
+                                                other half is constantly updating the app with new
+                                                themes, features, content etc. We provide regular
+                                                update services for the app in terms of feature
+                                                enhancement, feature enrichment, design changes, App
+                                                maintenance, app support, and even App Optimization. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="box-wrapper">
+                                    <div class="row" style="margin-top: 20px;">
+                                        <div class="col-lg-2 col-md-12 col-sm-2 col-xs-12" style="display: inherit;justify-content: center;">
+                                            <div class="icon-wrap" style="margin-left: 0px;">
+                                                <img class="exp-one" alt="" src="/website_kanak/static/src/img/android-apps/App Modernization.png" />
+                                            </div>
+                                        </div>
+                                        <div class="text-left col-lg-10 col-md-12 col-sm-10 col-xs-12">
+                                            <p class="android-apps-head" style="font-weight: unset;">Android
+                                                App Modernization</p>
+                                            <p class="text-justify" style="text-align: justify;">Business keeps changing, the
+                                                users keep changing, technology keeps changing,
+                                                and the expectations from an app keep changing.
+                                                What does not change is the desire to create
+                                                value from pre-existing company resources. If
+                                                you have an existing app, we help you with
+                                                Android App Modernization by adapting your app
+                                                to the new market demands and generate business
+                                                value.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="pt16 pb16">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div>
+                                    <h2 class="" >About Kanak Infosystems - Android App
+                                        Development Company</h2>
+                                    <br />
+                                    <div class="">
+                                        <p class="text-justify"> We are on a laser-focused mission
+                                            of helping startups, businesses and enterprises discover
+                                            the power of open source and <a href="https://en.wikipedia.org/wiki/Mobile_technology">mobile
+                                                technology</a> . Android app development is one of our
+                                            core strengths. <br />
+                                            <br /> Our development team works
+                                            hard to create intuitive apps to help your business grow
+                                            exponentially. Being an experienced Android application
+                                            development company, we have perfected our research and
+                                            implementation strategies to deliver high-quality
+                                            Android projects successfully within the given
+                                            timeframe. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="pt16 pb16">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div>
+                                    <h2 class="" >Our
+                                        Application Development Process</h2>
+                                    <br />
+                                    <div class="">
+                                        <p class="text-justify"> Kanak Infosystems follows an <a href="https://kanakinfosystems.com/blog/project-management-methodologies">
+                                                Agile</a> Application Development methodology which
+                                            allows us to rapidly build solutions that are
+                                            user-friendly, robust, and easy-to-use. We follow
+                                            industry’s best practices for Android App Development
+                                            which has the following sub-processes. </p>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-3 col-md-4 col-11 col-sm-6 border_box">
+                                        <figure>
+                                            <img alt="" src="/website_kanak/static/src/img/android-apps/Requirement Analysis.png" style="margin-bottom: 10px;" />
+                                            <h6 class="heading6">Requirement Analysis</h6>
+                                            <p class="box1-para">Your Requirements, Features
+                                                Feasibility, Market Analysis, Competitor Research,
+                                                Technology to be used, Monetization Strategies (if
+                                                any)</p>
+                                        </figure>
+                                    </div>
+                                    <div class="col-lg-3 col-md-4 col-11 col-sm-6 border_box">
+                                        <figure>
+                                            <img alt="" src="/website_kanak/static/src/img/android-apps/UI-UX Design.png" style="margin-bottom: 10px;" />
+                                            <h6 class="heading6">UI/UX Design</h6>
+                                            <p class="box1-para">Wireframing, Concept Design, UI
+                                                Design, Visual, Micro-interactions</p>
+                                        </figure>
+                                    </div>
+                                    <div class="col-md-4 col-lg-3 col-11 col-sm-6 border_box">
+                                        <figure>
+                                            <img alt="" src="/website_kanak/static/src/img/android-apps/Architecture.png" style="margin-bottom: 10px;" />
+                                            <h6 class="heading6">Architecture</h6>
+                                            <p class="box1-para">Define MVC Modules, Create
+                                                Frameworks, Define Network Layer, Database Layer, UI
+                                                Layer</p>
+                                        </figure>
+                                    </div>
+                                    <div class="col-md-4 col-lg-3 col-11 col-sm-6 border_box">
+                                        <figure>
+                                            <img alt="" src="/website_kanak/static/src/img/android-apps/Development.png" style="margin-bottom: 10px;" />
+                                            <h6 class="heading6">Development</h6>
+                                            <p class="box1-para">Frontend Development, Functionality
+                                                Development, Integration, Backend Development, Code
+                                                Review, Unit Testing</p>
+                                        </figure>
+                                    </div>
+                                    <div class="col-md-4 col-lg-3 col-11 col-sm-6 border_box">
+                                        <figure>
+                                            <img alt="" src="/website_kanak/static/src/img/android-apps/Quality Assurance.png" style="margin-bottom: 10px;" />
+                                            <h6 class="heading6">Quality Assurance</h6>
+                                            <p class="box1-para">Functional, Integration, Usability,
+                                                Performance Testing on actual devices.</p>
+                                        </figure>
+                                    </div>
+                                    <div class="col-md-4 col-lg-3 col-11 col-sm-6 border_box">
+                                        <figure>
+                                            <img alt="" src="/website_kanak/static/src/img/android-apps/Play store Submission.png" style="margin-bottom: 10px;" />
+                                            <h6 class="heading6">Play Store Submission</h6>
+                                            <p class="box1-para">App Submission, Post Approval
+                                                Testing, Enterprise Distribution, MDM.</p>
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="makes">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h3 class="text-center" >Why
+                                    Choose Us?</h3>
+                            </div><br />
+                            <div class="col-md-6">
+                                <div class="box-wrapper">
+                                    <div class="row" style="margin-top: 20px;">
+                                        <div class="col-lg-2 col-md-12 col-sm-2 col-xs-12" style="display: inherit;justify-content: center;">
+                                            <div class="" style="margin-left: 0px;width:68px;height: 68px;">
+                                                <img alt="" src="/website_kanak/static/src/img/android-apps/arrow.png" />
+                                            </div>
+                                        </div>
+                                        <div class="text-left col-lg-10 col-md-12 col-sm-10 col-xs-12">
+                                            <!-- <p class="android-apps-head" style="font-weight: unset;"> -->
+                                            <p class="make" style="font-weight: 600;">Highly Skilled Team</p>
+                                            <p class="paragraph" style="text-align: justify;">We hire Android
+                                                Developers who are handpicked from a pool of highly skilled
+                                                individuals in building apps from simple to complex
+                                                functionalities across various industries. We don't just build
+                                                apps for you, we deliver a robust, clean, and easy to understand
+                                                the project. Our dedicated and talented team of designers,
+                                                developers, and project managers work together to deliver
+                                                tailored engagement experiences.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="box-wrapper">
+                                    <div class="row" style="margin-top: 20px;">
+                                        <div class="col-lg-2 col-md-12 col-sm-2 col-xs-12" style="display: inherit;justify-content: center;">
+                                            <div class="" style="margin-left: 0px;width:68px;height: 68px;">
+                                                <img alt="" src="/website_kanak/static/src/img/android-apps/arrow.png" />
+                                            </div>
+                                        </div>
+                                        <div class="text-left col-lg-10 col-md-12 col-sm-10 col-xs-12">
+                                            <!-- <p class="android-apps-head" style="font-weight: unset;"> -->
+                                            <p class="make" style="font-weight: 600;">Follow Latest Trends</p>
+                                            <p class="paragraph" style="text-align: justify;">We believe in
+                                                adopting the latest trends and adopting new technologies that
+                                                change with time and innovations. By implementing the industry's
+                                                best technologies, practices, and processes for custom Android
+                                                app development, we can generate higher ROI for our customers,
+                                                which makes <a href="https://kanakinfosystems.com">Kanak
+                                                    Infosystems</a> one of the best mobile app development company. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="box-wrapper">
+                                    <div class="row" style="margin-top: 20px;">
+                                        <div class="col-lg-2 col-md-12 col-sm-2 col-xs-12" style="display: inherit;justify-content: center;">
+                                            <div class="" style="margin-left: 0px;width:68px;height: 68px;">
+                                                <img alt="" src="/website_kanak/static/src/img/android-apps/arrow.png" />
+                                            </div>
+                                        </div>
+                                        <div class="text-left col-lg-10 col-md-12 col-sm-10 col-xs-12">
+                                            <!-- <p class="android-apps-head" style="font-weight: unset;"> -->
+                                            <p class="make" style="font-weight: 600;">Experience across Industries</p>
+                                            <p class="paragraph" style="text-align: justify;">We have extensive
+                                                experience working with brands, enterprises, and startups across
+                                                the globe from various industry verticals. As a mobile app
+                                                service provider, Kanak Infosystems has over 8 years of
+                                                experience in Android app design and development for almost all
+                                                domains and industries.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="box-wrapper">
+                                    <div class="row" style="margin-top: 20px;">
+                                        <div class="col-lg-2 col-md-12 col-sm-2 col-xs-12" style="display: inherit;justify-content: center;">
+                                            <div class="" style="margin-left: 0px;width:68px;height: 68px;">
+                                                <img alt="" src="/website_kanak/static/src/img/android-apps/arrow.png" />
+                                            </div>
+                                        </div>
+                                        <div class="text-left col-lg-10 col-md-12 col-sm-10 col-xs-12">
+                                            <!-- <p class="android-apps-head" style="font-weight: unset;"> -->
+                                            <p class="make" style="font-weight: 600;">Project Support</p>
+                                            <p class="paragraph" style="text-align: justify;">As soon as a
+                                                project starts, we assign a project manager to you for the
+                                                duration of the project. He/She will be responsible for sharing
+                                                regular updates about the project’s progress. In case of any
+                                                queries, you can contact the designated person at any time for a
+                                                quick solution.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="pt16 pb16">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h3 class="text-center" >Mobile
+                                    App Development for Several Industry Verticals</h3>
+                                <br />
+                                <p class="text-center">Our developers are well experienced in
+                                    developing numerous apps for various industry verticals.</p><br /><br />
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3 col-sm-6 text-center col-6">
+                                    <img alt="" src="/website_kanak/static/src/img/android-apps/heath.png" />
+                                    <p>Healthcare</p>
+                                </div>
+                                <div class="col-md-3 col-sm-6 text-center col-6">
+                                    <img alt="" src="/website_kanak/static/src/img/android-apps/Logistics.png" />
+                                    <p>Logistics</p>
+                                </div>
+                                <div class="col-md-3 col-sm-6 text-center col-6">
+                                    <img alt="" src="/website_kanak/static/src/img/android-apps/Education.png" />
+                                    <p>Education</p>
+                                </div>
+                                <div class="col-md-3 col-sm-6 text-center col-6">
+                                    <img alt="" src="/website_kanak/static/src/img/android-apps/retail.png" />
+                                    <p>Retail</p>
+                                </div>
+                                <div class="col-md-3 col-sm-6 text-center col-6 space">
+                                    <img alt="" src="/website_kanak/static/src/img/android-apps/Finance.png" />
+                                    <p>Finance</p>
+                                </div>
+                                <div class="col-md-3 col-sm-6 text-center col-6 space">
+                                    <img alt="" src="/website_kanak/static/src/img/android-apps/Wellnessandfitness.png" />
+                                    <p>Wellness and fitness</p>
+                                </div>
+                                <div class="col-md-3 col-sm-6 text-center col-6 space">
+                                    <img alt="" src="/website_kanak/static/src/img/android-apps/Oil and Gas.png" />
+                                    <p>Oil and Gas</p>
+                                </div>
+                                <div class="col-md-3 col-sm-6 text-center col-6 space">
+                                    <img alt="" src="/website_kanak/static/src/img/android-apps/Transportation.png" />
+                                    <p>Transportation</p>
+                                </div>
+                                <div class="col-md-3 col-sm-6 text-center col-6 space">
+                                    <img alt="" src="/website_kanak/static/src/img/android-apps/Travel.png" />
+                                    <p>Travel</p>
+                                </div>
+                                <div class="col-md-3 col-sm-6 text-center col-6 space">
+                                    <img alt="" src="/website_kanak/static/src/img/android-apps/Social Network.png" />
+                                    <p>Social Network</p>
+                                </div>
+                                <div class="col-md-3 col-sm-6 text-center col-6 space">
+                                    <img alt="" src="/website_kanak/static/src/img/android-apps/Event.png" />
+                                    <p>Event</p>
+                                </div>
+                                <div class="col-md-3 col-sm-6 text-center col-6 space">
+                                    <img alt="" src="/website_kanak/static/src/img/android-apps/Productivity.png" />
+                                    <p>Productivity</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="pt16 pb16">
+                    <div class="container">
+                        <p class="different1" style="font-weight: 900;height:fit-content;">Frequently Asked Questions</p>
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                        <b>Will I get assistance in uploading the app to the Play Store? </b>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <p> Of course! Our mobile app development team will take care of not
+                                            just creating an app for you, but also upload your application
+                                            on the <a href="https://apps.apple.com/in/developer/kanak-info-systems-pvt-ltd/id1501795532">App
+                                                Store</a> . Our team has already uploaded numerous mobile apps
+                                            successfully without charging any additional cost. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                        <b>What Tools and Technologies do you use?</b>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <p>To provide for the best android application development services,
+                                            we make use of the following tools and technologies:</p>
+                                        <ul>
+                                            <li>
+                                                <b>Tools and IDE:</b> Android Studio, Android SDK, and
+                                                Android NDK </li>
+                                            <li>
+                                                <b>Programming Language:</b> Flutter, React Native, Android
+                                                Native </li>
+                                            <li>
+                                                <b>Database:</b> SQLite, Firebase, Postgresql, mysql </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                        <b>If I want modifications in my application after it has been
+                                            launched?</b>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <p>We are there to assist you in anything related to Android App
+                                            Development. You can Hire Android app developer from Kanak
+                                            Infosystems and we will help you make modifications in your
+                                            application after its launch. However, those modifications will
+                                            be chargeable as it not included in the initial scope of the
+                                            project.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                        <b>Who will own the source code after development?</b>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <p>You will be assigned the appropriate copyright or license rights
+                                            for the code for your app. You will have the opportunity to
+                                            review our code ownership terms even before the project begins.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingFive">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                                        <b>Can we connect our existing website and systems/ tools with
+                                            the app?</b>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <p>Usually, you can. Most modern apps and systems will have an
+                                            interface that allows for an exchange of information between
+                                            various technologies. If you have an “API documentation”, then
+                                            it is very likely that we will be able to integrate those within
+                                            the app. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingSix">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                                        <b>Which Industries do you cater to?</b>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <p>Our team is capable of developing versatile, powerful,
+                                            user-friendly, and scalable applications of any category in the
+                                            Play Store. We have created apps for industries such as
+                                            Healthcare, Logistics, Education, Retail, Finance, Wellness and
+                                            Fitness, Oil and Gas, Transportation, Travel, Social Network,
+                                            Event, Productivity, Beauty, Apparel, E-commerce, Food and
+                                            Restaurant, Real Estate, etc. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </t>
+    </template>
+</odoo>

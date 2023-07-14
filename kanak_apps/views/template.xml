@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="top_carts_tmpl" name="APPS Store">
+        <t t-call="website.layout">
+            <t t-set="pageName" t-value="'knk_top_charts_apps'"/>
+            <t t-set="title" t-value="mtype"/>
+            <div id="wrap" t-attf-class="js_apps top_apps #{'theme_card_design' if mtype == 'themes' else ''}">
+                <div class="container mb32">
+                    <div class="row">
+                        <div id="loempia_content" class="col-12">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h1 class="mb0 mt0 h3">
+                                        <small style="font-weight:500"><i class="fa fa-star active"></i> Top charts:</small>
+                                        <b>
+                                           <t t-if="mtype == 'modules' and not category">
+                                                Apps
+                                            </t>
+                                            <t t-if="mtype == 'themes' and not category">
+                                                Themes
+                                            </t>
+                                            <t t-if="category">
+                                                <t t-esc="category"/>
+                                            </t>   
+                                        </b>
+                                        <t t-if="mtype == 'modules' and category">
+                                                Apps
+                                        </t>
+                                        <t t-if="mtype == 'themes' and category">
+                                            Themes
+                                        </t>
+                                        <span class="loempia_search_resume h5 mt0 mb32 float-end">
+                                            <b class="fw_medium text-muted small">
+                                                <t t-esc="search_count"/>
+                                                Apps found.
+                                            </b>
+                                            <t t-if="price">
+                                                <a class="badge deep-1 o-text-overflow-inline-block" style="max-width: 240px" t-att-href="vkeep(price='')">
+                                                    <small class="fw_medium">price: </small>
+                                                    <t t-esc="price"/>
+                                                    <span class="fa fw_medium">×</span>
+                                                </a>
+                                            </t>
+                                            <t t-if="series">
+                                                <a class="badge deep-1 o-text-overflow-inline-block" style="max-width: 240px" t-att-href="vkeep(series='')">
+                                                    <small class="fw_medium">Version: </small>
+                                                    v<t t-esc="series"/>
+                                                    <span class="fa fw_medium">×</span>
+                                                </a>
+                                            </t>
+                                            <t t-if="search">
+                                                <a class="badge deep-1 o-text-overflow-inline-block" style="max-width: 240px" t-att-href="vkeep(search='')">
+                                                    <small class="fw_medium">Search: </small>
+                                                    <t t-esc="search"/>
+                                                    <span class="fa fw_medium">×</span>
+                                                </a>
+                                            </t>
+                                            <t t-if="category">
+                                                <a class="badge deep-1 o-text-overflow-inline-block" style="max-width: 240px" t-att-href="vkeep(request.httprequest.path.split('/category')[0] + '/browse')">
+                                                    <small class="fw_medium">Category: </small>
+                                                    <t t-esc="category"/>
+                                                    <span class="fa fw_medium">×</span>
+                                                </a>
+                                            </t>
+                                        </span>
+                                    </h1>
+                                </div>
+                            </div>
+                            <h3 class="mb24 mt24 clearfix">
+                                <span class="fw_light">Top Apps</span>
+                                <a class="btn fw_medium btn-primary float-end" t-att-href="vkeep(order='Relevance')">View all </a>
+                            </h3>
+                            <div class="row mb24 ">
+                                <t t-foreach="top_sales_apps" t-as="product">
+                                    <div class="loempia_app_entry loempia_app_card col-md-6 col-lg-3 ">
+                                        <t t-if="combination">
+                                            <t t-set="xcombination" t-value="get_specific_combination(combination, product.id)"/>
+                                        </t>
+                                        <t t-if="not combination">
+                                            <t t-set="xcombination" t-value="product._get_first_possible_combination()"/>     
+                                        </t>
+                                        <t t-set="combination_info" t-value="product._get_combination_info(xcombination, add_qty=1, pricelist=pricelist)"/>
+                                        <t t-set="product_variant" t-value="product.env['product.product'].browse(combination_info['product_id'])"/>
+                                        <a t-attf-href="/apps/#{mtype}/#{product_variant.version}/#{product_variant.technical_name}">
+                                            <div class="loempia_app_entry_top loempia_cover">
+                                                <div class="o_browser_bar" t-if="mtype == 'themes'"></div>
+                                                <p class="loempia_panel_summary" t-field="product.description_sale"/>
+                                                <t t-if="mtype == 'themes'">
+                                                    <div class="img img-fluid" t-attf-style="background-image: url('/web/image/product.product/{{product_variant.id}}/theme_image');"></div>
+                                                </t>
+                                                <t t-else="">
+                                                    <div class="img img-fluid" t-attf-style="background-image: url('/web/image/product.product/{{product_variant.id}}/banner_image');"></div>
+                                                </t>
+                                            </div>
+                                            <div class="loempia_app_entry_bottom">
+                                                <div>
+                                                    <h5 t-att-title="product.name">
+                                                        <b t-field="product.name"/>
+                                                    </h5>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-8 loempia_panel_author">
+                                                        <b>Kanak Infosystems LLP.</b>
+                                                    </div>
+                                                    <div class="col-4 loempia_panel_price text-end">
+                                                        
+                                                        <t t-if="combination_info['price']">
+                                                            <b t-esc="combination_info['price']" t-options="{'widget': 'monetary',  'display_currency': website.currency_id}"/>
+                                                        </t>
+                                                        <t t-else="">
+                                                            <b>FREE</b>
+                                                        </t>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <t t-call="kanak_apps.rating_widget_stars_static">
+                                                        <t t-set="rating_avg" t-value="product.rating_avg"/>
+                                                        <t t-set="rating_count" t-value="product.rating_count"/>
+                                                    </t>
+                                                    <span class="loempia_tags float-end">
+                                                        <span t-if="not combination_info['price']">
+                                                            <i class="fa fa-download"></i>
+                                                            <t t-esc="product.download_count"/>
+                                                        </span>
+                                                        <span t-if="combination_info['price']">
+                                                            <i class="fa fa-shopping-cart"></i>
+                                                            <t t-esc="int(product.sales_count)"/>
+                                                        </span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </t>
+                            </div>
+                            <h3 class="mb24 mt0 clearfix">
+                                <span class="fw_light">New Apps</span>
+                                <a class="btn fw_medium btn-primary float-end" t-att-href="vkeep(order='Newest')">View all </a>
+                            </h3>
+                            <div class="row mb24 ">
+                                <t t-foreach="news_apps" t-as="product">
+                                    <div class="loempia_app_entry loempia_app_card col-md-6 col-lg-3 ">
+                                        <t t-if="combination">
+                                            <t t-set="xcombination" t-value="get_specific_combination(combination, product.id)"/>  
+                                        </t>
+                                        <t t-if="not combination">
+                                            <t t-set="xcombination" t-value="product._get_first_possible_combination()"/>     
+                                        </t>
+                                        <t t-set="combination_info" t-value="product._get_combination_info(xcombination, add_qty=1, pricelist=pricelist)"/>
+                                        <t t-set="product_variant" t-value="product.env['product.product'].browse(combination_info['product_id'])"/>
+                                        <a t-attf-href="/apps/#{mtype}/#{product_variant.version}/#{product_variant.technical_name}">
+                                            <div class="loempia_app_entry_top loempia_cover">
+                                                <div class="o_browser_bar" t-if="mtype == 'themes'"></div>
+                                                <p class="loempia_panel_summary" t-field="product.description_sale"/>
+                                                <t t-if="mtype == 'themes'">
+                                                    <div class="img img-fluid" t-attf-style="background-image: url('/web/image/product.product/{{product_variant.id}}/theme_image');"></div>
+                                                </t>
+                                                <t t-else="">
+                                                    <div class="img img-fluid" t-attf-style="background-image: url('/web/image/product.product/{{product_variant.id}}/banner_image');"></div>
+                                                </t>
+                                            </div>
+                                            <div class="loempia_app_entry_bottom">
+                                                <div>
+                                                    <h5 t-att-title="product.name">
+                                                        <b t-field="product.name"/>
+                                                    </h5>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-8 loempia_panel_author">
+                                                        <b>Kanak Infosystems LLP.</b>
+                                                    </div>
+                                                    <div class="col-4 loempia_panel_price text-end">
+                                                        
+                                                        <t t-if="combination_info['price']">
+                                                            <b t-esc="combination_info['price']" t-options="{'widget': 'monetary',  'display_currency': website.currency_id}"/>
+                                                        </t>
+                                                        <t t-else="">
+                                                            <b>FREE</b>
+                                                        </t>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <t t-call="kanak_apps.rating_widget_stars_static">
+                                                        <t t-set="rating_avg" t-value="product.rating_avg"/>
+                                                        <t t-set="rating_count" t-value="product.rating_count"/>
+                                                    </t>
+                                                    <span class="loempia_tags float-end">
+                                                        <span t-if="not combination_info['price']">
+                                                            <i class="fa fa-download"></i>
+                                                            <t t-esc="product.download_count"/>
+                                                        </span>
+                                                        <span t-if="combination_info['price']">
+                                                            <i class="fa fa-shopping-cart"></i>
+                                                            <t t-esc="int(product.sales_count)"/>
+                                                        </span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </t>
+                            </div>
+                            <h3 class="mb24 mt0 clearfix">
+                                <span class="fw_light">Most Downloaded</span>
+                                <a class="btn fw_medium btn-primary float-end" t-att-href="vkeep(order='Downloads')">View all</a>
+                            </h3>
+                            <div class="row mb24 ">
+                               <t t-foreach="most_downloads" t-as="product">
+                                    <div class="loempia_app_entry loempia_app_card col-md-6 col-lg-3 ">
+                                        <t t-if="combination">
+                                            <t t-set="xcombination" t-value="get_specific_combination(combination, product.id)"/>    
+                                        </t>
+                                        <t t-if="not combination">
+                                            <t t-set="xcombination" t-value="product._get_first_possible_combination()"/>     
+                                        </t>
+                                        <t t-set="combination_info" t-value="product._get_combination_info(xcombination, add_qty=1, pricelist=pricelist)"/>
+                                        <t t-set="product_variant" t-value="product.env['product.product'].browse(combination_info['product_id'])"/>
+                                        <a t-attf-href="/apps/#{mtype}/#{product_variant.version}/#{product_variant.technical_name}">
+                                            <div class="loempia_app_entry_top loempia_cover">
+                                                <div class="o_browser_bar" t-if="mtype == 'themes'"></div>
+                                                <p class="loempia_panel_summary" t-field="product.description_sale"/>
+                                                <t t-if="mtype == 'themes'">
+                                                    <div class="img img-fluid" t-attf-style="background-image: url('/web/image/product.product/{{product_variant.id}}/theme_image');"></div>
+                                                </t>
+                                                <t t-else="">
+                                                    <div class="img img-fluid" t-attf-style="background-image: url('/web/image/product.product/{{product_variant.id}}/banner_image');"></div>
+                                                </t>
+                                            </div>
+                                            <div class="loempia_app_entry_bottom">
+                                                <div>
+                                                    <h5 t-att-title="product.name">
+                                                        <b t-field="product.name"/>
+                                                    </h5>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-8 loempia_panel_author">
+                                                        <b>Kanak Infosystems LLP.</b>
+                                                    </div>
+                                                    <div class="col-4 loempia_panel_price text-end">
+                                                        
+                                                        <t t-if="combination_info['price']">
+                                                            <b t-esc="combination_info['price']" t-options="{'widget': 'monetary',  'display_currency': website.currency_id}"/>
+                                                        </t>
+                                                        <t t-else="">
+                                                            <b>FREE</b>
+                                                        </t>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <t t-call="kanak_apps.rating_widget_stars_static">
+                                                        <t t-set="rating_avg" t-value="product.rating_avg"/>
+                                                        <t t-set="rating_count" t-value="product.rating_count"/>
+                                                    </t>
+                                                    <span class="loempia_tags float-end">
+                                                        <span t-if="not combination_info['price']">
+                                                            <i class="fa fa-download"></i>
+                                                            <t t-esc="product.download_count"/>
+                                                        </span>
+                                                        <span t-if="combination_info['price']">
+                                                            <i class="fa fa-shopping-cart"></i>
+                                                            <t t-esc="int(product.sales_count)"/>
+                                                        </span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </t>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </t>
+    </template>
+    <template id="apps_list" name="APPS Store">
+        <t t-call="website.layout">
+            <t t-set="pageName" t-value="'knk_list_apps_main'"/>
+            <div id="wrap" t-attf-class="js_apps #{'theme_card_design' if mtype == 'themes' else ''}">
+                <div class="container mb32">
+                    <div class="row">
+                        <div id="loempia_content" class="col-12">
+                            <div class="row">
+                                <div class="col-md-12 ">
+                                    <h1 class="mt0 mb0 h3">
+                                        <b>
+                                            <t t-if="mtype == 'modules' and not category">
+                                                Apps
+                                            </t>
+                                            <t t-if="mtype == 'themes' and not category">
+                                                Themes
+                                            </t>
+                                            <t t-if="category">
+                                                <t t-esc="category"/>
+                                            </t>    
+                                        </b>
+                                        <t t-if="mtype == 'modules' and category">
+                                                Apps
+                                        </t>
+                                        <t t-if="mtype == 'themes' and category">
+                                            Themes
+                                        </t>
+                                        <span class="loempia_search_resume h5 mt0 mb32 float-end">
+                                            <b class="fw_medium text-muted small">
+                                                <t t-esc="search_count"/>
+                                                Apps found.
+                                            </b>
+                                            <t t-if="price">
+                                                <a class="badge deep-1 o-text-overflow-inline-block" style="max-width: 240px" t-att-href="vkeep(price='')">
+                                                    <small class="fw_medium">price: </small>
+                                                    <t t-esc="price"/>
+                                                    <span class="fa fw_medium">×</span>
+                                                </a>
+                                            </t>
+                                            <t t-if="series">
+                                                <a class="badge deep-1 o-text-overflow-inline-block" style="max-width: 240px" t-att-href="vkeep(series='')">
+                                                    <small class="fw_medium">Version: </small>
+                                                    v<t t-esc="series"/>
+                                                    <span class="fa fw_medium">×</span>
+                                                </a>
+                                            </t>
+                                            <t t-if="search">
+                                                <a class="badge deep-1 o-text-overflow-inline-block" style="max-width: 240px" t-att-href="vkeep(search='')">
+                                                    <small class="fw_medium">Search: </small>
+                                                    <t t-esc="search"/>
+                                                    <span class="fa fw_medium">×</span>
+                                                </a>
+                                            </t>
+                                            <t t-if="category">
+                                                <a class="badge deep-1 o-text-overflow-inline-block" style="max-width: 240px" t-att-href="vkeep(request.httprequest.path.split('/category')[0] + '/browse')">
+                                                    <small class="fw_medium">Category: </small>
+                                                    <t t-esc="category"/>
+                                                    <span class="fa fw_medium">×</span>
+                                                </a>
+                                            </t>
+                                        </span>
+                                    </h1>
+                                </div>
+                                <div class="mb16 d-inline-flex align-items-center justify-content-end col-12 ">
+                                    <small class="fw_medium">Sort by</small>
+                                    <div class="btn-group loempia_btn_group">
+                                        <button type="button" class="btn btn-link dropdown-toggle" data-bs-toggle="dropdown" data-display="static" aria-expanded="false">
+                                            <t t-if="order">
+                                                <t t-out="order"/>
+                                            </t>
+                                            <t t-else="">
+                                                Relevance
+                                            </t>
+                                        </button>
+                                        <div class="dropdown-menu dropdown-menu-right" role="menu">
+                                            <div class="dropdown-header">Sort by</div>
+                                            <div role="separator" class="dropdown-divider"></div>
+                                                <a t-att-href="vkeep(order='Relevance')" t-attf-class="dropdown-item #{'active' if order == 'Relevance' else ''}">
+                                                    Relevance
+                                                </a>
+                                                <a t-att-href="vkeep(order='Name')" t-attf-class="dropdown-item #{'active' if order == 'Name' else ''}">
+                                                    Name
+                                                </a>
+                                                <a t-att-href="vkeep(order='Ratings')" class="dropdown-item" t-attf-class="dropdown-item #{'active' if order == 'Ratings' else ''}">
+                                                    Ratings
+                                                </a>
+                                                <a t-att-href="vkeep(order='Lowest+Price')" class="dropdown-item" t-attf-class="dropdown-item #{'active' if order == 'Lowest+Price' else ''}">
+                                                    Lowest Price
+                                                </a>
+                                                <a t-att-href="vkeep(order='Highest+Price')" class="dropdown-item" t-attf-class="dropdown-item #{'active' if order == 'Highest+Price' else ''}">
+                                                    Highest Price
+                                                </a>
+                                                <a t-att-href="vkeep(order='Downloads')" class="dropdown-item" t-attf-class="dropdown-item #{'active' if order == 'Downloads' else ''}">
+                                                    Downloads
+                                                </a>
+                                                <a t-att-href="vkeep(order='Newest')" class="dropdown-item" t-attf-class="dropdown-item #{'active' if order == 'Newest' else ''}">
+                                                    Newest
+                                                </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12" t-if="products">
+                                    <div class="row">
+                                        <t t-foreach="products" t-as="product">
+                                            <div class="loempia_app_entry loempia_app_card col-md-6 col-lg-3 ">
+                                                <t t-if="combination">
+                                                    <t t-set="xcombination" t-value="get_specific_combination(combination, product.id)"/>   
+                                                </t>
+                                                <t t-if="not combination">
+                                                    <t t-set="xcombination" t-value="product._get_first_possible_combination()"/>     
+                                                </t>
+                                                <t t-set="combination_info" t-value="product._get_combination_info(xcombination, add_qty=1, pricelist=pricelist)"/>
+                                                <t t-set="product_variant" t-value="product.env['product.product'].browse(combination_info['product_id'])"/>
+                                                <a t-attf-href="/apps/#{mtype}/#{product_variant.version}/#{product_variant.technical_name}">
+                                                    <div class="loempia_app_entry_top loempia_cover">
+                                                        <div class="o_browser_bar" t-if="mtype == 'themes'"></div>
+                                                        <p class="loempia_panel_summary" t-field="product.description_sale"/>
+                                                        <t t-if="mtype == 'themes'">
+                                                            <div class="img img-fluid" t-attf-style="background-image: url('/web/image/product.product/{{product_variant.id}}/theme_image');"></div>
+                                                        </t>
+                                                        <t t-else="">
+                                                            <div class="img img-fluid" t-attf-style="background-image: url('/web/image/product.product/{{product_variant.id}}/banner_image');"></div>
+                                                        </t>
+                                                    </div>
+                                                    <div class="loempia_app_entry_bottom">
+                                                        <div>
+                                                            <h5 t-att-title="product.name">
+                                                                <b t-field="product.name"/>
+                                                            </h5>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-8 loempia_panel_author">
+                                                                <b>Kanak Infosystems LLP.</b>
+                                                            </div>
+                                                            <div class="col-4 loempia_panel_price text-end">
+                                                                
+                                                                <t t-if="combination_info['price']">
+                                                                    <b t-esc="combination_info['price']" t-options="{'widget': 'monetary',  'display_currency': website.currency_id}"/>
+                                                                </t>
+                                                                <t t-else="">
+                                                                    <b>FREE</b>
+                                                                </t>
+                                                            </div>
+                                                        </div>
+                                                        <div>
+                                                            <t t-call="kanak_apps.rating_widget_stars_static">
+                                                                <t t-set="rating_avg" t-value="product.rating_avg"/>
+                                                                <t t-set="rating_count" t-value="product.rating_count"/>
+                                                            </t>
+                                                            <span class="loempia_tags float-end">
+                                                                <span t-if="not combination_info['price']">
+                                                                    <i class="fa fa-download"></i>
+                                                                    <t t-esc="product.download_count"/>
+                                                                </span>
+                                                                <span t-if="combination_info['price']">
+                                                                    <i class="fa fa-shopping-cart"></i>
+                                                                    <t t-esc="int(product.sales_count)"/>
+                                                                </span>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </t>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 mt32" style="min-height:400px;" t-if="not products">
+                                    <p>No <t t-esc="mtype"/> found for your criteria.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb32">
+                        <div class="col-12 text-center mt32 mb24">
+                            <t t-call="website.pager"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </t>
+    </template>
+</odoo>

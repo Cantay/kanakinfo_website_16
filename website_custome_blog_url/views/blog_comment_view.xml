@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="website_blog.blog_post_action_add" model="ir.actions.act_window">
+        <field name="view_id" ref="website_blog.view_blog_post_form"/>
+    </record>
+    <record id="view_blog_url_form" model="ir.ui.view">
+        <field name="name">blog.post.form</field>
+        <field name="model">blog.post</field>
+        <field name="inherit_id" ref="website_blog.view_blog_post_form" />
+        <field name="arch" type="xml">
+            <field name="tag_ids" position="after">
+                <field name="url" />
+                <field name="banner" widget="image" class="oe_avatar" />
+                <field name="banner_medium" widget="image" class="oe_avatar" />
+                <field name="banner_thumbnail" widget="image" class="oe_avatar" />
+                <field name="custom_json_schema" />
+                <field name="json_schema" attrs="{'invisible': [('custom_json_schema','=', False)]}" />
+            </field>
+            <xpath expr="//sheet" position="inside">
+                <field name="content" />
+            </xpath>
+        </field>
+    </record>
+
+	<record id="view_blog_post_comment_list" model="ir.ui.view">
+        <field name="name">blog.post.comment.list</field>
+        <field name="model">blog.post.comment</field>
+        <field name="arch" type="xml">
+            <tree string="Blog Posts Comment">
+                <field name="name"/>
+                <field name="partner_email"/>
+                <field name="blog_post_id"/>
+                <field name="write_uid"/>
+                <field name="write_date"/>
+            </tree>
+        </field>
+    </record>
+    
+    <record id="view_blog_post_comment_form" model="ir.ui.view">
+        <field name="name">blog.post.comment.form</field>
+        <field name="model">blog.post.comment</field>
+        <field name="arch" type="xml">
+            <form string="Blog Post Comment">
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                		<field name="partner_email"/>
+                        <field name="comment_accept"/>
+                    </group>
+                    <group>
+                       	<field name="write_uid"/>
+                        <field name="write_date"/>
+                    </group>
+                    <group>
+                        <field name="blog_post_id"/>
+                        <field name="comment_description"/>
+                    </group>
+                    
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+
+
+	<record id="action_blog_post_comment" model="ir.actions.act_window">
+            <field name="name">Blog Posts Comment</field>
+            <field name="res_model">blog.post.comment</field>
+            <field name="view_mode">tree,form</field>
+    </record>
+	
+	<menuitem id="menu_comment" parent="website_blog.menu_website_blog_root_global" name="Blog Comment" action="action_blog_post_comment" />
+</odoo>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+<record id="website.contactus_thanks" model="website.page">
+        <field name="name">Thanks (Contact us)</field>
+        <field name="type">qweb</field>
+        <field name="url">/contactus-thank-you</field>
+        <field name="website_published">True</field>
+        <field name="key">website.contactus_thanks</field>
+        <field name="arch" type="xml">
+            <t name="Thanks (Contact us)" t-name="website.contactus_thanks">
+                <t t-call="website.layout">
+                    <!-- <t t-set="pageName" t-value="'contactus_thankyou kanak_contactus_thankyou'"/> -->
+                    <t t-set="pageName" t-value="'contactus_thankyou kanak_contactus'"/>
+                    <div id="wrap">
+                        <!-- Event snippet for Thank You Page conversion page -->
+                        <div class="oe_structure" />
+                        <div class="modal fade mt64" id="myModalkanakcontact" role="dialog">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close close_button_dispaly" data-dismiss="modal">&amp;times;</button>
+                                        <h4 class="modal-title">Thank You for contact</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="container">
+                                            <h1>Thank You!</h1>
+                                            <div class="row">
+                                                <div class="col-sm-4">
+                                                    <img class="img-fluid mx-auto mine-thumb" src="/website_kanak/static/src/img/contact/like.gif" alt="kanak infosystems llp gif" />
+                                                </div>
+                                                <div class="col-sm-8">
+                                                    <div class="alert alert-success">
+                                                        Your message has been sent successfully.
+                                                        <button type="button" class="close" data-dismiss="alert">&amp;times;</button>
+                                                    </div>
+                                                    <p class="mine-cont-1111">
+                                                        We will get back to you shortly.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="oe_structure" />
+                        <section class="contact-us-banner">
+                            <div class="container">
+                                <div class="col-md-12">
+                                    <div class="contact-us-banner-container" style="color:#05416b;">
+                                        <span class="contact-big">Contact Us<br /></span>
+                                        <span class="contact-small">We Would Happy to Hear From You!<br />
+                                            Drop us your query, we will get back to you soon!</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="bg-graycolor">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12 mb16 kanak-breadcrumb">
+                                        <span><a href="/">Home</a></span>
+                                        <i class="fa fa-chevron-right"></i>
+                                        <span><a href="/contact-us">Contact</a></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="bg-graycolor">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <h1 class="text-center mt16 mb48">
+                                            <span style="color:#05416b;font-weight:500px;">Get In</span> <span style="color:red;">Touch</span>
+                                        </h1>
+                                        <p class="mt32 get-contact-paragraph p-8">Contact us about anything related to our company or services.<br />We'll do our best to get back to you as soon as possible.</p>
+                                    </div>
+                                    <div class="clearfix" />
+                                    <div class="col-md-6 col-sm-12">
+                                        <table class='table borderless mt32 align-middle contact-address'>
+                                            <tr>
+                                                <td><img src="/website_kanak/static/src/img/contact/skype.svg" alt="Skype" /></td>
+                                                <td><i>kanakinfosystems</i></td>
+                                            </tr>
+                                            <tr>
+                                                <td><img src="/website_kanak/static/src/img/contact/mail.svg" alt="Mail Us" /></td>
+                                                <td><i>sales@kanakinfosystems.com</i></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="position-relative"><img src="/website_kanak/static/src/img/contact/location.svg" alt="Our Offices" style="position: absolute;top: 5%;left: 0%;height: 12%;"/></td>
+                                                <td>
+                                                    <h4>Registered Office</h4>
+                                                    <i class="small">Kanak Infosystems LLP. 474, Vikas Kunj Vikas Puri, New Delhi, Delhi - 110018, India</i><br />
+                                                    <h4 class="mt24">Branch Office</h4>
+                                                    <i class="small">Kanak Infosystems LLP. Unit no. 406, 5th floor, Westend Mall, Janak Puri, New Delhi, Delhi - 110058, India</i>
+                                                    <h4 class="mt24">Regional Office</h4>
+                                                    <i class="small">Kanak Infosystems LLP. Unit no. 307A, THE LANDMARK, Urjanagar 1, Kudasan, Gandhinagar, Gujarat - 382421, India</i>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><img src="/website_kanak/static/src/img/contact/call.svg" alt="Call Us" /></td>
+                                                <td><i>+91 9818108884, 011-42143250</i></td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-sm-12">
+                                        <div class="row">
+                                            <div class="alert alert-success">
+                                                Your message has been sent successfully. We will get back to you shortly.
+                                            </div>
+                                            <!-- <a t-attf-href="mailto:{{ res_company.email }}" class="btn btn-primary hidden" id="o_contact_mail">Send us an email</a> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="contactus-map mt32 mb32">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-12">
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3501.9971772393287!2d77.0774303!3d28.6298467!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d04bf7488bf13%3A0xaa95a4fdce6492f0!2sKanak+Infosystems+LLP.!5e0!3m2!1sen!2sin!4v1561702541815!5m2!1sen!2sin" width="100%" height="390" frameborder="0" style="3px solid #dedede" allowfullscreen=""></iframe>
+                                    </div>
+                                    <div class="col-md-6 col-sm-12">
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.844616258877!2d72.62678511442296!3d23.17587058487563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2ca6a8a916c4ab35%3A0x3d92be0b301c7307!2sKanak%20Infosystems%20LLP.!5e0!3m2!1sen!2sin!4v1679550502297!5m2!1sen!2sin" width="100%" height="390" style="border:0;" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </t>
+            </t>
+        </field>
+    </record>
+
+</odoo>

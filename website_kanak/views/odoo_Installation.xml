@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="busineess_odoo_openerp_install" name="Odoo Installation">
+        <t t-set="additional_title"> Odoo Open ERP Installation | Install Odoo Ubuntu | Install Odoo</t>
+        <t t-set="website_meta_description">Our wide range of Odoo services includes Odoo ERP
+            installation with 24*7 support. We are offering technical &amp; functional ODOO
+            Installation services. </t>
+        <t t-set="website_meta_keywords">kanak infosystems llp </t>
+        <t t-call="website.layout">
+            <t t-set="pageName" t-value="'OdooInstallation kanak_odoo_installation'" />
+            <div id="wrap">
+                <div class="oe_structure" />
+                <section id="main-odoo-install-banner" class="pt32 pb32">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6 col-6">
+                                <p class="install-banner-head">Odoo <br /><span class="red">
+                                        Installation</span></p>
+                            </div>
+                            <div class="col-lg-6 col-6">
+                                <img src="/website_kanak/static/src/img/odoo_installation/Installation-graphic.webp" class="img-fluid mx-auto" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                        <div class="workpage-home-work">
+                            <div class="container">
+                            <span>
+                                <a class="text-decoration-none" href="/"> Home </a>
+                            </span>
+                            <i class="fa fa-chevron-right" aria-hidden="true" />
+                            <span> Odoo Installation </span>
+                        </div>
+                        </div>
+                    </section>
+
+                <section class="pt16 pb16">
+                    <div class="container">
+                        <div class="row for-spacing-all">
+                            <div class="col-md-12 main-to-main-installation">
+                                <h1 class="instalattion-tag1 mt0 mb0"> How to Install Odoo ERP? </h1>
+                                <p class="instalattion-tag1122"> May be a big question for any new
+                                    organization who are new with this Open ERP system, but we are
+                                    here to help you. </p>
+                                <p class="instalattion-tag2"> "Our experts can install and setup
+                                    Odoo on any <a href="https://kanakinfosystems.com/blog/best-cloud-server-for-small-business">cloud
+                                        servers</a> or at local side on your premises" </p>
+                                <p> A Perfect Installation of Odoo needs
+                                    proper configuration of Odoo Log, Automatic Odoo startup-script
+                                    and <a href="https://kanakinfosystems.com/blog/why-choose-postgresql">
+                                        PostgreSQL</a> database also, and we have <a href="https://g.page/r/CfCSZM79pJWqEB0/review">rich
+                                        experience in to do that</a> . </p>
+                                <p> Installation of <a href="https://kanakinfosystems.com/odoo-development-services">Odoo
+                                        Open ERP</a> system will give your business a better control
+                                    over costs, help you to optimized use of business workflow,
+                                    payment monitoring, state of stocks and many more. </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="main-ab-all-themes">
+                    <div id="parallex-home-odoo-instra2" class="parallex-instra-1">
+                        <div class="overlay-ab">
+                            <div class="container">
+                                <div class="row for-spacing-all pt16 pb16">
+                                    <div class="col-sm-12">
+                                        <h2 class="instalattion-tag6"> A Standard Methodology to
+                                            Implement and Installation of Open ERP Odoo </h2>
+                                        <p class="text-white text-justify"> Although, for any size and
+                                            type of business, implementation of an Odoo system is a
+                                            critical process. So, in order to ensure a successful
+                                            execution of an Open ERP <a href="https://kanakinfosystems.com/odoo-customization-implementation-services">Odoo
+                                                Implementation</a> the business owner must have a clear
+                                            business plan so that they can coordinate with the
+                                            project team to deliver the committed results. </p>
+                                        <p class="text-white text-justify"> We are expert in technical and
+                                            functional consulting for all Odoo services from Odoo
+                                            Development to post <a href="https://kanakinfosystems.com/contact-us">implementation
+                                                support</a> . Our team of Odoo experts and consultants
+                                            have outstanding competency to deliver 100% success in
+                                            each area of Odoo customization and implementation life
+                                            cycle. </p>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <h3 class="instalattion-tag9" style="color: #00deff;font-size:20px;"> HOW WE HELP YOU
+                                            IN TO GROW YOUR BUSINESS WITH ODOO </h3>
+                                    </div>
+                                    <div class="row services-wrapper">
+                                        <div class="col-md-4 col-sm-4">
+                                            <div class="col-md-12 service">
+                                                <div class="service-title">
+                                                    <h4 class="font-2x">
+                                                        <a target="_blank" href="/odoo-development-services">
+                                                            <strong>Development</strong>
+                                                        </a>
+                                                    </h4>
+                                                </div>
+                                                <div class="service-description">
+                                                    <p class="font-3x text-white">
+                                                        <i class="fa fa-check" aria-hidden="true" />
+                                                        Dedicated Resources </p>
+                                                    <p class="font-3x text-white">
+                                                        <i class="fa fa-check" aria-hidden="true" />
+                                                        Expert Team </p>
+                                                    <p class="font-3x text-white">
+                                                        <i class="fa fa-check" aria-hidden="true" />
+                                                        Operational Consultants </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-sm-4">
+                                            <div class="col-md-12 service">
+                                                <div class="service-title">
+                                                    <h4 class="font-2x">
+                                                        <a target="_blank" href="/odoo-customization-implementation-services">
+                                                            <strong>Customization</strong>
+                                                        </a>
+                                                    </h4>
+                                                </div>
+                                                <div class="service-description">
+                                                    <p class="font-3x text-white">
+                                                        <i class="fa fa-check" aria-hidden="true" />
+                                                        Analysis Indidual </p>
+                                                    <p class="font-3x text-white">
+                                                        <i class="fa fa-check" aria-hidden="true" />
+                                                        Business Needs </p>
+                                                    <p class="font-3x text-white">
+                                                        <i class="fa fa-check" aria-hidden="true" />
+                                                        Map the Requirements </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-sm-4">
+                                            <div class="col-md-12 service">
+                                                <div class="service-title">
+                                                    <h4 class="font-2x">
+                                                        <a target="_blank" href="/odoo-customization-implementation-services">
+                                                            <strong>Implementation</strong>
+                                                        </a>
+                                                    </h4>
+                                                </div>
+                                                <div class="service-description">
+                                                    <p class="font-3x text-white">
+                                                        <i class="fa fa-check" aria-hidden="true" />
+                                                        Execution </p>
+                                                    <p class="font-3x text-white">
+                                                        <i class="fa fa-check" aria-hidden="true" />
+                                                        Planning </p>
+                                                    <p class="font-3x text-white">
+                                                        <i class="fa fa-check" aria-hidden="true" />
+                                                        Solution </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row services-wrapper">
+                                        <div class="col-md-4 col-sm-4">
+                                            <div class="col-md-12 service">
+                                                <div class="service-title">
+                                                    <h4 class="font-2x">
+                                                        <a target="_blank" href="/odoo-integration-services">
+                                                            <strong>Integration</strong>
+                                                        </a>
+                                                    </h4>
+                                                </div>
+                                                <div class="service-description">
+                                                    <p class="font-3x text-white">
+                                                        <i class="fa fa-check" aria-hidden="true" />
+                                                        Data Collection </p>
+                                                    <p class="font-3x text-white">
+                                                        <i class="fa fa-check" aria-hidden="true" />
+                                                        Technology Collabration </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-sm-4">
+                                            <div class="col-md-12 service">
+                                                <div class="service-title">
+                                                    <h4 class="font-2x">
+                                                        <a target="_blank" href="/odoo-installation-services">
+                                                            <strong>Installation</strong>
+                                                        </a>
+                                                    </h4>
+                                                </div>
+                                                <div class="service-description">
+                                                    <p class="font-3x text-white">
+                                                        <i class="fa fa-check" aria-hidden="true" />
+                                                        Project Testing </p>
+                                                    <p class="font-3x text-white">
+                                                        <i class="fa fa-check" aria-hidden="true" />
+                                                        Team Training </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-sm-4">
+                                            <div class="col-md-12 service">
+                                                <div class="service-title">
+                                                    <h4 class="font-2x">
+                                                        <a target="_blank" href="/contact-us">
+                                                            <strong>Support</strong>
+                                                        </a>
+                                                    </h4>
+                                                </div>
+                                                <div class="service-description">
+                                                    <p class="font-3x text-white">
+                                                        <i class="fa fa-check" aria-hidden="true" />
+                                                        Contineous Support </p>
+                                                    <p class="font-3x text-white">
+                                                        <i class="fa fa-check" aria-hidden="true" />
+                                                        24X7 Technical Support </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <br />
+                <section id="main-all-pro-instra">
+                    <div class="container">
+                        <div class="row for-spacing-all">
+                            <div class="col-md-12 main-eight-block">
+                                <div class="row g-4 mb-4">
+                                    <div class="col-md-3 col-sm-6 text-center">
+                                        <img class="img-fluid mx auto main-installation-img21" src="/website_kanak/static/src/img/odoo_installation/instaimg1.svg" alt="odoo implementation" />
+                                        <p class="all-small-helpodoo">Implementation</p>
+                                        <p class="all-small-helpodoo1">Requirements Research</p>
+                                        <p class="all-small-helpodoo1">Project Planning</p>
+                                        <p class="all-small-helpodoo1">Solution Design</p>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6 text-center">
+                                        <img class="img-fluid mx auto main-installation-img21" src="/website_kanak/static/src/img/odoo_installation/instaimg2.svg" alt="odoo customization" />
+                                        <p class="all-small-helpodoo">Customization</p>
+                                        <p class="all-small-helpodoo1">GAP Analysis</p>
+                                        <p class="all-small-helpodoo1">Prioritize Business Needs</p>
+                                        <p class="all-small-helpodoo1">Process Mapping</p>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6 text-center">
+                                        <img class="img-fluid mx auto main-installation-img21" src="/website_kanak/static/src/img/odoo_installation/instaimg3.svg" alt="odoo development" />
+                                        <p class="all-small-helpodoo">Development</p>
+                                        <p class="all-small-helpodoo1">Offshore Resources</p>
+                                        <p class="all-small-helpodoo1">Dedicated Development Team</p>
+                                        <p class="all-small-helpodoo1">Transparent Delivery Model!</p>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6 text-center">
+                                        <img class="img-fluid mx auto main-installation-img21" src="/website_kanak/static/src/img/odoo_installation/instaimg4.svg" alt="odoo integration" />
+                                        <p class="all-small-helpodoo">Integration</p>
+                                        <p class="all-small-helpodoo1">Object Identification</p>
+                                        <p class="all-small-helpodoo1">Data Mapping</p>
+                                        <p class="all-small-helpodoo1">Technology Collaboration</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 main-eight-block2">
+                                <div class="row g-4 mb-4">
+                                    <div class="col-md-3 col-sm-6 text-center">
+                                        <img class="img-fluid mx auto main-installation-img21" src="/website_kanak/static/src/img/odoo_installation/instaimg5.svg" alt="odoo consulting" />
+                                        <p class="all-small-helpodoo"> Consulting </p>
+                                        <p class="all-small-helpodoo1"> Business Process Analysis </p>
+                                        <p class="all-small-helpodoo1"> Process recommendation </p>
+                                        <p class="all-small-helpodoo1"> Quality Review </p>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6 text-center">
+                                        <img class="img-fluid mx auto main-installation-img21" src="/website_kanak/static/src/img/odoo_installation/instaimg6.svg" alt="odoo training" />
+                                        <p class="all-small-helpodoo"> Training </p>
+                                        <p class="all-small-helpodoo1"> Technical Training </p>
+                                        <p class="all-small-helpodoo1"> Functional Training</p>
+                                        <p class="all-small-helpodoo1"> Administration Training</p>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6 text-center">
+                                        <img class="img-fluid mx auto main-installation-img21" src="/website_kanak/static/src/img/odoo_installation/instaimg7.svg" alt="odoo migration" />
+                                        <p class="all-small-helpodoo"> Migration </p>
+                                        <p class="all-small-helpodoo1"> Existing System Analysis </p>
+                                        <p class="all-small-helpodoo1"> Data Extraction</p>
+                                        <p class="all-small-helpodoo1"> Data Cleansing</p>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6 text-center">
+                                        <img class="img-fluid mx auto main-installation-img21" src="/website_kanak/static/src/img/odoo_installation/instaimg8.svg" alt="odoo support" />
+                                        <p class="all-small-helpodoo"> Support </p>
+                                        <p class="all-small-helpodoo1"> Preventive Maintenance</p>
+                                        <p class="all-small-helpodoo1"> Upgrade</p>
+                                        <p class="all-small-helpodoo1"> Bug Fixes</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="container">
+                        <div class="row for-spacing-all">
+                            <div class="col-md-12">
+                                <p class="touching-stay"> Stay in Touch ! </p>
+                            </div>
+                            <div class="col-md-12 only-insta-email"> E-mail - <a target="_blank" href="mailto:info@kanakinfosystems.com">
+                                    sales@kanakinfosystems.com </a> </div>
+                            <div class="text-center pb16">
+                                <a href="/contactus" class="btn btn-primary"> Contact Us </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </t>
+    </template>
+</odoo>

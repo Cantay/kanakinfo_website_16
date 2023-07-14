@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="busineess_odoo_openerp_dev" name="Odoo Development">
+        <t t-call="website.layout">
+            <t t-set="pageName" t-value="'OdooDevelopment kanak_odoo_development'" />
+            <t t-set="additional_title">Odoo Open Source ERP System Development Services | Odoo CRM Consultant </t>
+            <t t-set="website_meta_description">We are dealing in Odoo open source ERP development services offering Odoo CRM, Module development, ERP system development and consultancy services. </t>
+            <t t-set="website_meta_keywords"> kanak infosystems llp, odoo development, odoo open erp, odoo documentation, odoo erp system, odoo erp development, odoo module development, odoo consultant</t>
+            <div id="wrap" class="oe_structure">
+                <section id="main-odoo-banner" class="odoo-dev-banner">
+                    <div class="container">
+                        <div class="row pt32 pb32 align-items-center main-new-odoo-themes-banner">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <p class="kanak-odoo-dev-bnr2">Odoo Development<br />
+                                    <span class="red">Services<br /></span></p>
+                                <p class="mt16 mb16">An Open Source ERP- Unlocking new potentials for your business!</p>
+                                <a href="/contactus" type="button" class="btn btn-danger" style="border-radius: 5px">Contact Us</a>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 odoo-dev-mob">
+                                <img src="/website_kanak/static/src/img/odoo-development/development-banner.webp" class="img-fluid mx-auto" />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="workpage-home-work">
+                        <div class="container">
+                            <span>
+                                <a class="text-decoration-none" href="/"> Home </a>
+                            </span>
+                            <i class="fa fa-chevron-right" aria-hidden="true" />
+                            <span> Odoo Development Services </span>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12 for-spacing-all">
+                                <h1 class="implementation-heading1 text-center mb32">
+                                    <span class="underline">Odoo</span> <span class="red">Development</span>
+                                </h1>
+                            </div>
+                            <div class="col-md-12 for-spacing-all mb16">
+                                <p class="for-deve-middletext1 text-justify">Open <a href="https://www.linkedin.com/pulse/signs-tells-your-business-needs-erp-systems-like-kanak-infosystems/">ERP System</a> refers to an <a href="https://kanakinfosystems.com/blog/what-is-erp">enterprise resource planning</a> software in which the public has access to the source code of the system. You may need a system that suits your needs and then depending on those needs you might need to change your business system to grow so you’ll want to find an ERP system that can expand to meet your new needs. The system has additional modules, or just supports plugins and add-ons.
+                                </p>
+                                <p class="for-deve-middletext2 text-justify">Opensource ERP provides an integrated view of core business process using any common database. Open ERP systems tracks your all business resources like finance, assets, raw goods, sales, purchase, finished goods and more production capacity and all transaction of all data.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="middel-text-odoo-deve" class="services mb16">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12 mb16 for-spacing-all left">
+                                <div class="border left">
+                                    <h3 class="implementation-heading1"> Odoo App/Module Development </h3>
+                                    <p class="text-justify">Our expert <a href="https://kanakinfosystems.com/hire-odoo-developer">Odoo Developers</a> create highly customized <a href="https://kanakinfosystems.com/blog/odoo-review">Odoo</a> modules that are flexible and robust. These custom created moules can easily be integrated into your existing business workflow.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12 mb16 for-spacing-all right">
+                                <div class="border right">
+                                    <h3 class="implementation-heading1 text-right"> Odoo Themes Development </h3>
+                                    <p class="text-justify">Having a consistent look and feel of Odoo application makes you look professional as well as enhances your employees' productivity. Get your custom Odoo theme designed Today!</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12 mb16 for-spacing-all left">
+                                <div class="border left">
+                                    <h3 class="implementation-heading1"> Odoo Web Development </h3>
+                                    <p class="text-justify">Give your business a boost by expanding your organization to the web. We create highly customized and easy-to-use web solution for Odoo that is feature rich and useful according to your requirements.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12 mb16 for-spacing-all right">
+                                <div class="border right">
+                                    <h3 class="implementation-heading1 text-right"> Odoo Installation </h3>
+                                    <p class="text-justify">Don’t worry about finding the right kind of server configuration or the correct version of Odoo for your enterprise. Our Odoo team takes care of installing and setting up Odoo on any cloud server or on your local server.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="opens-erp-cmp" class="mt32">
+                    <div class="bg-graycolor">
+                        <div class="overlay-ab">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-4 mt32 mb32">
+                                        <img src="/website_kanak/static/src/img/odoo-development/odoo-development-round.webp" alt="Odoo Development" class="opens-erp-cmp-img img-fluid mx-auto" />
+                                    </div>
+                                    <div class="col-md-8 mt32 mb32">
+                                        <h2 class="deve-odoo-company" style="font-size:28px;font-weight: 900;color: #003362;">
+                                            <span>Open Source ERP-</span>
+                                            <span class="red"><span class="underline">Odoo</span> Development Company</span>
+                                        </h2>
+                                        <p class="main-new-odoo-deve-cn1"> Are you looking for the best ERP solution for your business? Wants to track everyday business process? want to have an ERP which suites your business requirements? OR are you afraid that the investment in Solution “ODOO” and forget about all complex hassles of business management.
+                                        </p>
+                                        <p class="main-new-odoo-deve-cn2">
+                                            Odoo development - is fastest growing Open Source business solution in the world. It allows you to make better decisions through its flexible and fully customizable solution. <a href="https://kanakinfosystems.com/odoo-integration-services">Odoo integrates</a> your different business functions into a single system, automating information sharing between business units such as sales, purchase, stock etc. We Kanak infosystems using Odoo surve any customer need for any business solutions. We provide complete implementation, customization, development, data migration, training and support.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="odoo-erp-different" class="mt32 mb32">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 for-spacing-all">
+                                <h2 class="mb32">Why <span class="underline">Odoo</span> Open ERP And What makes <span class="red"><span class="underline">Odoo</span> Different?</span></h2>
+                                <div class="mb32 purple-left">
+                                    <p class="different-odoo-erp-head1">Unified Business Systems</p>
+                                    <p class="text-justify"> CRM, Sales, Purchasing, Project Management, Warehousing, Operations, Accounting and Human Resources all share data and work together via a modular approach. One set of data supports them all. There is only one The Answer – The correct one!</p>
+                                </div>
+                                <div class="mb32 orange-left">
+                                    <p class="different-odoo-erp-head1">Modular</p>
+                                    <p class="text-justify"> Implement just what you need, adding new modules without taking the system down. Users who are productive with one module will easily pick up the next one.</p>
+                                </div>
+                                <div class="mb32 blue-left">
+                                    <p class="different-odoo-erp-head1">Ease of Use</p>
+                                    <p class="text-justify"> Designed around a simple, easy to use interface; and workflows that can be learned quickly; users are productive quickly and have access to the information they need, when they need it.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="proficiency-odoo" class="proficiency-bg-gray-color">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 mt16 mb32">
+                                <h3 class="text-center text-uppercase" style="font-size:36px;font-weight: 900;color: #003362;">Our Proficiency in <span class="red underline">Odoo</span></h3>
+                                <p class="text-center proficiency-sub">"Can Be Retrace the Business Prosperousness with ODOO"</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container mt64">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6 col-sm-6 profici-block1 mb48">
+                                <div class="profici-icon-main">
+                                    <div class="profici-icon">
+                                        <img src="/website_kanak/static/src/img/odoo-development/OdooCustomization.webp" alt="odoo customization" class="img-fluid mx-auto" />
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 new-odoo-customization profici-card-1">
+                                    <p class="mt16 new-odoo-customization-font-color-card4">Odoo Customization</p>
+                                    <p class="new-odoo-customization-p"> Our team of Odoo experts ensures that Odoo Works the way you want! Sclable, easy to adapt and ready for immediate use! </p>
+                                    <p class="proficiency-font-link Proficiency-link-e1">
+                                        <a target="_blank" href="/odoo-customization-implementation-services">READ MORE</a>
+                                        <i class="fa fa-angle-double-right"></i>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-6 profici-block2 mb48">
+                                <div class="profici-icon-main">
+                                    <div class="profici-icon">
+                                        <img src="/website_kanak/static/src/img/odoo-development/OdooImplementation.webp" alt="odoo implementation" class="img-fluid mx-auto" />
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 new-odoo-customization profici-card-2">
+                                    <p class="mt16 new-odoo-customization-font-color-card2">Odoo Implementation</p>
+                                    <p class="new-odoo-customization-p"> We help you in to run you Odoo ERP properly after customization it as per your business needs!
+                                        An efficient, easy deployment and configuration, without any data leakage </p>
+                                    <p class="proficiency-font-link Proficiency-link-e1">
+                                        <a target="_blank" href="/odoo-customization-implementation-services">READ MORE</a>
+                                        <i class="fa fa-angle-double-right"></i>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-6 profici-block3 mb48">
+                                <div class="profici-icon-main">
+                                    <div class="profici-icon">
+                                        <img src="/website_kanak/static/src/img/odoo-development/OdooIntegration.webp" alt="odoo integration" class="img-fluid mx-auto" />
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 new-odoo-customization profici-card-3">
+                                    <p class="mt16 new-odoo-customization-font-color-card3">Odoo Integration</p>
+                                    <p class="new-odoo-customization-p">If you want to levrage Odoo benefits in your e-store, we are here to help you.
+                                        We will help you in all Sales order integration, Inventory Management and POS Integration with Accounting</p>
+                                    <p class="proficiency-font-link Proficiency-link-e1">
+                                        <a target="_blank" href="/odoo-integration-services">READ MORE</a>
+                                        <i class="fa fa-angle-double-right"></i>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-6 profici-block4 mb48">
+                                <div class="profici-icon-main">
+                                    <div class="profici-icon">
+                                        <img src="/website_kanak/static/src/img/odoo-development/OdooSupportandMaintenance.webp" alt="odoo support and maintenance" class="img-fluid mx-auto" />
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 new-odoo-customization profici-card-4">
+                                    <p class="mt16 new-odoo-customization-font-color-card4">Odoo Support and Maintenance</p>
+                                    <p class="new-odoo-customization-p">We will provide 24*7 highly professional technical support.
+                                        We will provide dedicated team, professional support and immediate response</p>
+                                    <p class="proficiency-font-link">
+                                        <a target="_blank" href="/contactus">READ MORE</a>
+                                        <i class="fa fa-angle-double-right"></i>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="knk-faqs">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12 pb16">
+                                <h3 class="implementation-head text-center">
+                                    <span class="underline">Odoo</span> <span class="red">FAQ<span class="lowecase">s</span></span>
+                                </h3>
+                            </div>
+                            <div class="col-sm-12 faq">
+                                <h4 class="implementation-heading1">1. How is Odoo different from Other ERP solutions?</h4>
+                                <div class="d-none">
+                                    <p class="text-justify">Odoo is an Open source ERP software that is based on Python language. Due to Odoo being open source, any company can play around with it and customize it as much as possible. </p>
+                                    <p class="text-justify">Odoo is modular and hence any company can use the modules that they require and doesn’t need to implement everything at once. Odoo is easier to customize and implement as compared to other commonly used ERPs such as SAP. </p>
+                                    <p class="text-justify">Odoo is free to use and its implementation or customization from a third-party vendor is still very cost-effective. This made Odoo a favorite amongst SMEs and it gained popularity fairly quickly. </p>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 faq">
+                                <h4 class="implementation-heading1">2. When should one opt for Odoo Implementation?</h4>
+                                <div class="d-none">
+                                    <p class="text-justify">If you are a growing business who wants to automate and manage their business processes, it is the right time to opt for Odoo Implementation across your enterprise. If you are a company scouting for ERP solutions then you should opt for Open-source Odoo ERP implementation right now! </p>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 faq">
+                                <h4 class="implementation-heading1">3. How does Odoo ERP benefit my company?</h4>
+                                <div class="d-none">
+                                    <p class="text-justify">Odoo is no doubt the most-loved Open ERP in the market. Integrating Odoo with your system adds more power and flexibility to your organization. It not only expands your business processes, it also automates most of your business.</p>
+                                    <p class="text-justify">Not only do you get added features and functionalities in your company, you get to create a customized ERP for YOUR needs. After using Odoo ERP, you will be able to easily scale your business to new heights without compromising the speed and quality of your organization.</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 faq">
+                                <h4 class="implementation-heading1">4. Why work with us for Odoo Development?</h4>
+                                <div class="d-none">
+                                    <p class="text-justify"> We at Kanak Infosystems understand how crucial it is to have an <a href="https://kanakinfosystems.com/erp-solutions">ERP solution</a> that is easy to integrate, increases employee productivity, and doesn’t hinder the growth of a company. This is why we ensure that you get the best quality services in the fastest amount of time.</p>
+                                    <p class="text-justify">We have a highly experienced team that is filled with diligent professional working round the clock for you.  Our team is always up to date with the latest coding standards as well as the latest technology trends in the market which allows us to serve you in the best possible manner.</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 faq">
+                                <h4 class="implementation-heading1">5. What makes Kanak Infosystems LLP better than other Odoo service providers?</h4>
+                                <div class="d-none">
+                                    <p class="text-justify">With Kanak Infosystems LLP, you are ensured that you get the best Odoo Developers working day and night on your projects. We have a working domain experience of 10+ years which includes Odoo Development, Implementation, Customization and Consultation among other things.</p>
+                                    <p class="text-justify">We always hire Odoo Developers who are domain experts and have in-depth understanding of the Odoo framework. For us, customer satisfaction is the greatest reward and that is why we never compromise on the quality of our services.</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 faq">
+                                <h4 class="implementation-heading1">6. What industries does Kanak Infosystems Cater to?</h4>
+                                <div class="d-none">
+                                    <p class="text-justify">Every business has some processes that are common across the board. We do not restrict ourselves to a specific industry for our Odoo Development services. Being industry independent allows us to cater to a wide range of business verticals and gain expertise over the Odoo platform.</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 faq">
+                                <h4 class="implementation-heading1">7. What are the benefits of Outsourcing Odoo Development to us?</h4>
+                                <div class="d-none">
+                                    <p class="text-justify">By outsourcing your Odoo Development needs to us, you get a multitude of benefits. Some of them are:</p>
+                                    <ul>
+                                        <li>
+                                            <p>You have access to highly skilled Odoo developers</p>
+                                        </li>
+                                        <li>
+                                            <p>A highly productive development team</p>
+                                        </li>
+                                        <li>
+                                            <p>Saving the cost of hiring and managing a development team</p>
+                                        </li>
+                                        <li>
+                                            <p>Your project gets priority and is completed on time</p>
+                                        </li>
+                                        <li>
+                                            <p>Beating the competition and always staying on top</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </t>
+    </template>
+</odoo>

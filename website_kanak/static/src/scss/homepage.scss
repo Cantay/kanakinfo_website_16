@@ -1,0 +1,1085 @@
+h1,
+h2,
+h3,
+h4 {
+    color: $color_2;
+}
+
+.red {
+    color: $color_1 !important;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+footer {
+    background-color: $color_2 !important;
+
+    .s_text_block {
+        a {
+            color: $color_3 !important;
+
+            i.fa-home {
+                color: $color_9;
+            }
+
+        }
+    }
+
+    .brand_icon {
+        text-align: center;
+
+        a {
+            display: inline-block;
+            padding: 10pt;
+
+            img {
+                max-height: 50px;
+            }
+        }
+    }
+}
+
+.kanak_main_homepage {
+
+    #kanak_sec_103 {
+        .head-103 {
+            color: $color_2;
+            font-size: 28px;
+            font-weight: 700;
+            position: relative;
+            overflow: hidden;
+        }
+    }
+
+    .exp_solution_services {
+        background-image: url(/website_kanak/static/src/img/home/Bg.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+        padding-top: 3%;
+        padding-bottom: 3%;
+
+        .solution-head {
+            font-size: 24px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            line-height: 1.1;
+            font-weight: 500;
+            color: $color_3;
+        }
+
+        span {
+            img {
+                height: 12px;
+                margin-left: 8pt;
+            }
+        }
+    }
+
+    .exp_solution.exp_mob {
+        display: none;
+    }
+
+    .exp_solution {
+        div.container {
+            div.row {
+                div.col-lg-12 {
+                    margin-bottom: 8%;
+                }
+            }
+        }
+
+        .main_block {
+            .icon_main {
+                div {
+                    border: 1px solid $color_14;
+                    position: absolute;
+                    top: 50%;
+                    transform: translate(0%, -50%);
+                    width: 60px;
+                    height: 60px;
+                    z-index: 1;
+                    border-radius: 50%;
+                    background-color: $color_3;
+                    box-shadow: 3px 5px 10px $color_14;
+                    display: flex;
+                    align-items: center;
+
+                    img {
+                        width: 60% !important;
+                        margin: auto;
+                    }
+                }
+            }
+
+            .block_content {
+                border: 1px solid $color_14;
+                border-radius: 10px;
+                padding: 10px;
+                margin-left: 30px;
+                padding: 5px 5px 5px 50px;
+                background-color: $color_3;
+
+                p {
+                    font-size: 10pt;
+                    line-height: 1.4;
+                }
+
+                p.block-head {
+                    font-size: 14px;
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                    font-weight: 500;
+                    line-height: 1.1;
+                }
+
+                .main_content {
+                    height: 92px;
+                    overflow: hidden;
+                    margin-bottom: 10pt;
+                }
+            }
+
+            &:hover {
+                .block_content {
+                    background: linear-gradient(to top right, #18305b 0%, #61435f 100%);
+                    box-shadow: 5px 5px 10px #d5d5d5;
+
+                    * {
+                        color: $color_3;
+                    }
+                }
+
+                .icon_main {
+                    div {
+                        box-shadow: none;
+                    }
+                }
+            }
+        }
+
+        .owl-carousel {
+            height: 250px;
+
+            .owl-nav {
+                .owl-next {
+                    position: absolute;
+                    top: unset;
+                    bottom: 0% !important;
+                    left: 20%;
+                    right: 0;
+                    margin: auto;
+                    height: 50px;
+                    width: 50px;
+                    border-radius: 50px;
+                    border: 1px solid #4C466A;
+                    background-color: $color_3;
+                    background-image: url(/website_kanak/static/src/img/home/right.webp);
+                    background-repeat: no-repeat;
+                    background-size: 40%;
+                    background-position: center;
+                }
+
+                .owl-prev {
+                    position: absolute;
+                    top: unset;
+                    bottom: 0% !important;
+                    left: 0;
+                    right: 20%;
+                    margin: auto;
+                    height: 50px;
+                    width: 50px;
+                    border-radius: 50px;
+                    border: 1px solid #4C466A;
+                    background-color: $color_3;
+                    background-image: url(/website_kanak/static/src/img/home/left.webp);
+                    background-repeat: no-repeat;
+                    background-size: 40%;
+                    background-position: center;
+                }
+            }
+
+            .owl-dots {
+                display: none;
+            }
+        }
+    }
+
+    .industries_we_serve {
+        display: none;
+    }
+
+    .mob_motivate {
+        display: block;
+    }
+
+    .we_serve {
+        background-image: url(/website_kanak/static/src/img/home/Industries-bg.webp);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        padding: 40pt 0;
+
+        .we-serve-head {
+            font-size: 36px;
+            font-weight: 900;
+            line-height: 1.1;
+        }
+
+        .serve_content {
+            padding: 5px;
+            background-color: $color_3;
+
+
+            border-radius: 5px 5px 0 0;
+            transition: all ease-in-out 0.3s;
+            position: relative;
+            margin-top: 32px;
+
+            .img_overlay {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                transition: .5s ease;
+                background-color: $color_9;
+
+
+                display: none;
+            }
+
+            &:hover {
+                .img_overlay {
+                    display: block;
+                    opacity: 0.7;
+
+                    .img_hover {
+                        display: block;
+                        position: absolute;
+                        top: 40%;
+                        height: 25%;
+                        z-index: 1;
+                        opacity: 1;
+                    }
+                }
+
+                .img_overlay.img_overlay1 {
+                    .img_hover {
+                        left: 37%;
+                    }
+                }
+
+                .img_overlay.img_overlay2 {
+                    .img_hover {
+                        left: 44%;
+                    }
+                }
+            }
+
+            p {
+                margin: 5px 0;
+                font-size: 10pt;
+                font-weight: bold;
+            }
+        }
+
+        .ptb-20 {
+            paddin-top: 20px;
+            padding-bottom: 20px;
+        }
+    }
+
+    .ptb20 {
+        padding: 0px 20px;
+    }
+
+    .img_overlay1 {
+        height: 87%;
+        width: 97%;
+        margin: 5px 5px 0 4px;
+    }
+
+    .img_overlay2 {
+        height: 82%;
+        width: 97%;
+        margin: 5px 5px 0 6px;
+    }
+
+    .img_overlay3 {
+        height: 82%;
+        width: 98%;
+        margin: 5px 5px 0 6px;
+    }
+
+    .img_overlay.img_overlay3 {
+        .img_hover {
+            left: 44%;
+        }
+    }
+
+    .motivate_us {
+        .motivate-head {
+            font-weight: bold;
+            color: $color_2;
+            font-size: 36px;
+            margin-top: 20px;
+        }
+
+        .main {
+            .read-more {
+                float: right;
+            }
+        }
+
+        .main_motivate_block {
+            .icon_main_motivate {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                left: 12%;
+                top: 0;
+                width: 60px;
+                height: 60px;
+                line-height: 125px;
+                z-index: 1;
+                border-radius: 50%;
+                background-color: $background-color_4;
+
+                div {
+                    background-repeat: no-repeat;
+                    background-size: 60%;
+                    background-position: center;
+                    height: 60px;
+                    width: 60px;
+
+                    img {
+                        width: 60% !important;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                }
+            }
+
+            .block_content_motivate {
+                padding: 10px;
+                margin-top: 30px;
+                padding: 36px 10px 10px 25px;
+
+                .block-head {
+                    font-size: 18px;
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                    font-weight: 500;
+                    line-height: 1.1;
+                }
+
+                div {
+                    p {
+                        font-size: 10pt;
+                        line-height: 1.4;
+                        color: $color_9;
+                    }
+                }
+            }
+        }
+
+        .Our_Transparency {
+            .icon_main_motivate {
+                div {
+                    background-image: url(/website_kanak/static/src/img/home/Transparency.webp);
+                }
+            }
+
+            &:hover {
+                .block_content_motivate {
+                    border-radius: 10px;
+                    padding: 10px;
+                    margin-top: 30px;
+                    padding: 36px 10px 10px 25px;
+                    border: 1px solid #d2f3f3;
+                    background-color: $background-color_5;
+
+                    .block-head {
+                        color: $color_5;
+                    }
+                }
+
+                .icon_main_motivate {
+                    background-color: $color_5;
+
+                    div {
+                        background-image: url(/website_kanak/static/src/img/home/White-Transparency.webp);
+                    }
+                }
+            }
+        }
+
+        .Our_Fairness {
+            .icon_main_motivate {
+                div {
+                    background-image: url(/website_kanak/static/src/img/home/Fairness.webp);
+                }
+            }
+
+            &:hover {
+                .block_content_motivate {
+                    border-radius: 10px;
+                    padding: 10px;
+                    margin-top: 30px;
+                    padding: 36px 10px 10px 25px;
+                    border: 1px solid #f9e6ea;
+                    background-color: $background-color_7;
+
+                    .block-head {
+                        color: $color_6;
+                    }
+                }
+
+                .icon_main_motivate {
+                    background-color: $color_6;
+
+                    div {
+                        background-image: url(/website_kanak/static/src/img/home/White-Fairness.webp);
+                    }
+                }
+            }
+        }
+
+        .Our_Liability {
+            .icon_main_motivate {
+                div {
+                    background-image: url(/website_kanak/static/src/img/home/Liability.webp);
+                }
+            }
+
+            &:hover {
+                .block_content_motivate {
+                    border-radius: 10px;
+                    padding: 10px;
+                    margin-top: 30px;
+                    padding: 36px 10px 10px 25px;
+                    border: 1px solid #f6e6e7;
+                    background-color: $background-color_9;
+
+                    .block-head {
+                        color: $color_7;
+                    }
+                }
+
+                .icon_main_motivate {
+                    background-color: $color_7;
+
+                    div {
+                        background-image: url(/website_kanak/static/src/img/home/White-Liability.webp);
+                    }
+                }
+            }
+        }
+
+        .Our_Attention {
+            .icon_main_motivate {
+                div {
+                    background-image: url(/website_kanak/static/src/img/home/Attention.webp);
+                }
+            }
+
+            &:hover {
+                .block_content_motivate {
+                    border-radius: 10px;
+                    padding: 10px;
+                    margin-top: 30px;
+                    padding: 36px 10px 10px 25px;
+                    border: 1px solid #e5e2f4;
+                    background-color: $background-color_11;
+
+                    .block-head {
+                        color: $color_8;
+                    }
+                }
+
+                .icon_main_motivate {
+                    background-color: $color_8;
+
+                    div {
+                        background-image: url(/website_kanak/static/src/img/home/White-Attention.webp);
+                    }
+                }
+            }
+        }
+    }
+
+    #kanak_11_client_cust {
+        background: #f3f3f3;
+        background: linear-gradient(180deg, $color_3 70%, #f3f3f3 100%);
+
+        .our-partner {
+            border-right: 2px solid #dbdbdb;
+
+            .partners-head {
+                text-transform: uppercase;
+                font-size: 30px;
+                font-weight: 700;
+                text-align: center;
+                color: $color_10;
+                padding-top: 20px;
+                margin-bottom: 0px;
+            }
+
+            img {
+                -webkit-box-shadow: 2px 2px 6px 0 $color_9;
+                -moz-box-shadow: 2px 2px 6px 0 $color_9;
+                box-shadow: 1px 1px 3px 0 $color_9;
+                margin-bottom: 25px;
+            }
+        }
+
+        img.talk {
+            width: 80px;
+        }
+
+        .client-img {
+            width: 130px !important;
+            height: 130px !important;
+            display: inline-block;
+            padding: 33px 10px;
+            background: $color_3;
+            border-radius: 50%;
+            vertical-align: middle;
+            border: 1px solid #eee;
+        }
+
+        .carousel-indicators {
+            bottom: initial;
+            margin-left: 0;
+            display: none;
+        }
+
+        div.carousel {
+            .carousel-indicators {
+                li {
+                    box-shadow: 0 0 0 1px #888;
+                }
+
+                .active {
+                    background-color: $background-color_13;
+                    border-color: $background-color_13;
+                    padding-left: 23px;
+                    height: 9px;
+                    margin: 1px;
+                }
+            }
+        }
+
+        .carousel {
+            .item {
+                img {
+                    margin: 0 auto;
+                }
+            }
+        }
+
+        .carousel-content {
+            p.cust-title-head {
+                color: $color_2;
+                font-size: 22px;
+                font-weight: 500;
+                margin-top: 5px;
+            }
+
+            p {
+                font-size: 14px;
+                line-height: 145%;
+                color: $color_11;
+                text-align: left;
+                font-weight: 300;
+            }
+        }
+
+        .grey-line-end {
+            width: 65%;
+            border-bottom: 1px solid #d7d7d7;
+            margin-top: 32px;
+        }
+    }
+
+    .client-says {
+        .client-says-head {
+            text-transform: uppercase;
+            font-size: 30px;
+            font-weight: 700;
+            text-align: center;
+            color: $color_10;
+            padding-top: 20px;
+            margin-bottom: 0px;
+        }
+    }
+
+    #kanak_11_0_1_002 {
+        background-color: $background-color_14;
+
+        .kanak_11_0_1_002-head {
+            text-transform: uppercase;
+            font-size: 30px;
+            font-weight: 700;
+            text-align: center;
+            color: $color_10;
+            padding-top: 20px;
+        }
+
+        .item_block {
+            -webkit-box-shadow: 2px 2px 6px 0 $color_9;
+            -moz-box-shadow: 2px 2px 6px 0 $color_9;
+            box-shadow: 2px 2px 6px 0 $color_9;
+            margin-bottom: 55px;
+        }
+
+        .recent_title {
+            font-size: 16px;
+            padding: 8px 12px;
+            font-weight: 700;
+            color: $color_3;
+            text-transform: capitalize;
+            width: 100%;
+            background: #de2020;
+            background: linear-gradient(90deg, #de2020 0, #fa4c4d 100%);
+        }
+
+        .recent-detail {
+            padding: 10px 15px;
+            background-color: $color_3;
+        }
+
+        .recent_desc {
+            height: 107px;
+            overflow: hidden;
+            width: 100%;
+            display: -webkit-box;
+            line-height: 140%;
+            font-size: 15px;
+            text-align: justify;
+        }
+
+        .readmore_btn {
+            font-size: 13px;
+            padding: 4px 10px;
+            font-weight: 500;
+
+            i {
+                padding-left: 5px;
+            }
+        }
+    }
+
+    #kanak_sec_107 {
+        .creative-head {
+            text-transform: uppercase;
+            font-size: 30px;
+            font-weight: 700;
+            text-align: center;
+            color: $color_10;
+            padding-top: 20px;
+            margin-bottom: 0px;
+            height: auto;
+            line-height: 136%;
+            overflow: hidden;
+        }
+
+        .blog-feature {
+            border: 3px solid #dedede;
+        }
+
+        .hblog_003 {
+            margin-top: 10px;
+            margin-bottom: 8px;
+            display: flow-root;
+
+            .author {
+                color: $color_12;
+                font-size: 17px;
+                font-weight: 600;
+            }
+
+            .fa-calendar {
+                color: $color_12;
+                margin-right: 5px;
+            }
+
+            .hblog_008.time {
+                font-size: 17px;
+                font-weight: 300;
+                color: $color_13;
+            }
+        }
+
+        .hblog_004 {
+            float: left;
+        }
+
+        .hblog_005 {
+            float: right;
+        }
+
+        .line_draw {
+            border-bottom: 3px solid #f44152;
+            width: 48%;
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+
+        .hblog_002 {
+            height: 36px;
+            overflow: hidden;
+
+            p.blog-head {
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                font-size: 18px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                font-weight: 500;
+                line-height: 1.1;
+            }
+        }
+
+        .hblog_006 {
+            margin-top: 5px;
+            font-size: 13px;
+
+            .readmore_btn {
+                float: right;
+                padding: 4px 15px;
+                border-radius: 2px;
+                font-weight: 600;
+                font-size: 13px;
+            }
+        }
+
+        p {
+            font-size: 15px;
+            text-align: justify;
+            line-height: 136%;
+            height: 82px;
+            overflow: hidden;
+        }
+
+        .box-post {
+            background: $color_3;
+            margin-left: auto;
+            margin-right: auto;
+            align-items: center;
+        }
+
+        .latest-post {
+            padding: 0;
+            margin: 0;
+            list-style: outside none none;
+            background: #f8f8f8;
+            background: linear-gradient(180deg, #f8f8f8 0, $color_3 100%);
+            padding: 30px 15px 0;
+
+            li {
+                margin-bottom: 10px;
+                width: 100%;
+
+                .dflexlist {
+                    display: flex;
+                }
+
+                .post-image {
+                    margin-right: 10px;
+                    width: 140px;
+                    min-width: 140px;
+
+                    .blog-feature {
+                        border: 2px solid #dedede;
+                    }
+                }
+            }
+        }
+
+        .post-item-text {
+            overflow: hidden;
+            text-align: left;
+            overflow: hidden;
+            text-align: left;
+
+            p.author {
+                margin-top: 0;
+                margin-bottom: 7px;
+                font-size: 15px;
+                color: $color_12;
+                font-weight: 500;
+                height: auto;
+            }
+
+            .post_teaser {
+                p {
+                    font-size: 14px;
+                    line-height: 127%;
+                    height: 52px;
+                    overflow: hidden;
+                    margin-bottom: 5px;
+                }
+            }
+        }
+
+        .post-item-text-h4 {
+            height: 20px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 1.1;
+        }
+
+        .v_draw_line {
+            border-bottom: 1px solid #b9b9b9;
+            width: 75%;
+            margin-bottom: 30px;
+            margin-top: 15px;
+        }
+
+        .view_all {
+            a {
+                padding: 4px 20px;
+                border-radius: 2px;
+                font-weight: 600;
+                font-size: 13px;
+                background-color: $background-color_15;
+                border-color: $background-color_15;
+                color: $color_3;
+            }
+        }
+    }
+
+    @media only screen and (max-width: 1024px) {
+        .we_serve {
+            background-size: cover;
+
+            h1 {
+                font-size: 28px;
+            }
+        }
+    }
+
+    @media only screen and (max-width: 767px) {
+        .exp_solution {
+            display: none;
+            padding-top: 0;
+            background-size: 100% 50%;
+
+            .main_block {
+                .icon_main {
+                    div {
+                        left: 0;
+                    }
+                }
+            }
+
+            div.container {
+                div.row {
+                    div.col-lg-12 {
+                        margin-bottom: 10%;
+                    }
+                }
+            }
+        }
+
+        .exp_solution.exp_mob {
+            display: block;
+        }
+
+        .industries_we_serve {
+            display: block;
+            background-image: url(/website_kanak/static/src/img/home/Industries-bg.webp);
+            background-repeat: no-repeat;
+            background-size: 100% 50%;
+            padding: 10pt 0;
+
+            .owl-item.active.center {
+                margin-top: -18pt;
+            }
+
+            .owl-carousel {
+                .we-serve-item {
+                    border-radius: 8px;
+                    background-color: $color_3;
+                    box-shadow: 0px 2px 5px black;
+                    border: 1px solid #c7c5c1;
+                }
+
+                .owl-nav {
+                    .owl-next {
+                        background-color: $background-color_16;
+                        position: absolute;
+                        top: 0%;
+                        right: -20px;
+                        cursor: pointer;
+                        cursor: hand;
+                        -webkit-user-select: none;
+                        -khtml-user-select: none;
+                        -moz-user-select: none;
+                        -ms-user-select: none;
+                        user-select: none;
+                        height: 210px;
+                        width: 150px;
+                    }
+
+                    .owl-prev {
+                        background-color: $background-color_16;
+                        position: absolute;
+                        top: 0%;
+                        margin-left: -16px;
+                        cursor: pointer;
+                        cursor: hand;
+                        -webkit-user-select: none;
+                        -khtml-user-select: none;
+                        -moz-user-select: none;
+                        -ms-user-select: none;
+                        user-select: none;
+                        height: 210px;
+                        width: 150px;
+                    }
+                }
+
+                .owl-stage {
+                    padding-top: 20pt;
+                    height: 160pt;
+
+                    p {
+                        line-height: 100%;
+                    }
+                }
+            }
+        }
+
+        .we_serve {
+            display: none;
+
+            .ptb-20 {
+                paddin-top: 20px;
+                padding-bottom: 20px;
+            }
+        }
+
+        .mob_motivate {
+            display: none;
+        }
+
+        .motivate_us {
+            .main_motivate_block {
+                margin-bottom: 20px;
+
+                .icon_main_motivate {
+                    top: -30px;
+                    left: 0;
+                    right: 0;
+                    margin: auto;
+                }
+
+                .block_content_motivate {
+                    padding: 10px;
+                    margin-top: 30px;
+                    padding: 0px 10px 10px 10px;
+
+                    .block-head {
+                        text-align: center;
+                        font-size: 14px;
+                    }
+                }
+
+                &:hover {
+                    .block_content_motivate {
+                        padding: 36px 10px 10px 10px;
+                    }
+                }
+            }
+
+            .main_detail {
+                margin-top: 70px;
+            }
+        }
+    }
+
+    @media (max-width: 768px) {
+        .ERPNext_module {
+            .erpModule {
+                height: auto;
+            }
+        }
+
+        .motivate_us {
+            .motivate-head {
+                font-size: 22px;
+            }
+        }
+
+        #kanak_11_client_cust {
+            .our-partner {
+                .partners-head {
+                    font-size: 20px;
+                }
+
+                border-right: none;
+            }
+
+            margin-top: 0 !important;
+
+            h1.title_cl {
+                padding-top: 32px;
+            }
+
+            .client-says {
+                h1.title_cl {
+                    margin-top: 32px;
+                }
+            }
+
+            img.talk {
+                width: 40px;
+            }
+
+            .client-img {
+                width: 100px !important;
+                height: 100px !important;
+                padding: 27px 10px;
+            }
+
+            .carousel-content {
+                p.cust-title-head {
+                    text-align: center;
+                    font-size: 18px;
+                    margin-top: 16px;
+                }
+
+                p {
+                    font-size: 15px;
+                    line-height: 140%;
+                    text-align: justify;
+                }
+            }
+
+            .grey-line-end {
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+
+        .client-says {
+            .client-says-head {
+                font-size: 20px;
+            }
+        }
+
+        #kanak_11_0_1_002 {
+            .kanak_11_0_1_002-head {
+                font-size: 20px;
+            }
+        }
+    }
+}

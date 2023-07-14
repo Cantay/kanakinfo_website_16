@@ -1,0 +1,417 @@
+.kanak_frappe_healthcare {
+
+
+    .frappe-health-banner {
+        background-image: url(/website_kanak/static/src/img/frappe_healthcare/Frappe-bg.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        .bg-img {
+            height: 400px;
+        }
+    }
+
+    .spoiler {
+        a {
+            color: $color_16;
+            font-size: 12pt;
+            padding: 5px 0px;
+            cursor: pointer;
+        }
+    }
+
+    h2 {
+        .orange {
+            color: $color_1;
+        }
+    }
+
+    h1 {
+        .orange {
+            color: $color_1;
+        }
+    }
+
+    .frappe-health-feature {
+        background-color: $background-color_4;
+
+        hr {
+            margin: 10pt auto;
+            width: 10%;
+            padding: 0;
+            border-top: 4px solid #15456E;
+        }
+
+        h2 {
+            margin-top: 10px;
+            margin-bottom: 0;
+        }
+    }
+
+    hr {
+        border-top: 1px solid #bebebe;
+    }
+
+    .frappe-healthcare-slide {
+        display: block;
+
+        .owl-carousel {
+            height: 270px;
+
+            .owl-dots {
+                display: none;
+            }
+
+            .owl-nav {
+                position: relative;
+                bottom: 0;
+                margin-top: 50px;
+
+                .owl-next {
+                    position: absolute;
+                    top: unset;
+                    bottom: 0%;
+                    left: 8%;
+                    right: 0;
+                    margin: auto;
+                    height: 50px;
+                    width: 50px;
+                    border-radius: 50px;
+                    border: 1px solid #4C466A;
+                    background-color: $color_3;
+                    background-image: url(/website_kanak/static/src/img/frappe_healthcare/right.svg);
+                    background-repeat: no-repeat;
+                    background-size: 40%;
+                    background-position: center;
+                }
+
+                .owl-prev {
+                    position: absolute;
+                    top: unset;
+                    bottom: 0%;
+                    left: 0;
+                    right: 8%;
+                    margin: auto;
+                    height: 50px;
+                    width: 50px;
+                    border-radius: 50px;
+                    border: 1px solid #4C466A;
+                    background-color: $color_3;
+                    background-image: url(/website_kanak/static/src/img/frappe_healthcare/left.svg);
+                    background-repeat: no-repeat;
+                    background-size: 40%;
+                    background-position: center;
+                }
+            }
+        }
+    }
+
+    .healthcare-main {
+        padding: 10pt;
+
+        .healthcare-main-head {
+            font-size: 18px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-weight: 500;
+            line-height: 1.1;
+        }
+
+        img {
+            height: 50px;
+            width: 50px;
+        }
+    }
+
+    .slide-shape {
+        position: relative;
+        overflow: hidden;
+        height: 20px;
+        margin-top: 5pt;
+
+        &::before {
+            border-radius: 100%;
+            position: absolute;
+            background: #EFF4FB;
+            right: 200px;
+            left: 200px;
+            top: -400px;
+            content: '';
+            bottom: 0;
+        }
+    }
+
+    .shape {
+        position: relative;
+        overflow: hidden;
+        height: 40px;
+
+        &::before {
+            border-radius: 100%;
+            position: absolute;
+            background: $color_3;
+            right: -400px;
+            left: -400px;
+            top: -300px;
+            content: '';
+            bottom: 0;
+        }
+    }
+
+    .benefit-frappe-desk {
+        display: block;
+    }
+
+    .benefit-frappe-mob {
+        display: none;
+    }
+
+    .frappe-healthcare-slide-mob {
+        display: none;
+    }
+
+    .why-frappe-health {
+        .item {
+            padding: 15pt;
+        }
+    }
+
+    .why-frappe-health {
+        .frappe-item {
+            img {
+                height: 10pt;
+                width: 10pt;
+            }
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10pt;
+            background-color: $color_3;
+            border-radius: 5px;
+            box-shadow: 2px 2px 5px;
+
+            span {
+                color: $color_25;
+            }
+        }
+    }
+
+    .frappe-erpnext-team {
+        h3 {
+            font-size: 28px;
+            color: $color_2;
+            font-weight: 900;
+        }
+    }
+
+    #frappe-health-erpnext {
+        background: linear-gradient(150.51deg, #A6D3FF 0%, #FFFFFF 0%, #A6D3FF 53%, #FFFFFF 93%);
+    }
+
+    .web-frappe-contactus {
+        p {
+            display: block;
+            color: $color_1;
+        }
+    }
+
+    .frequently_border_1 {
+        width: 50%;
+        margin-top: 1rem;
+        border-top: 4px solid red;
+    }
+
+    .frequently_border_2 {
+        width: 50%;
+        margin-top: 1rem;
+        border-top: 4px solid red;
+    }
+
+    .faq-main-head {
+        color: $color_2;
+        font-size: 28px !important;
+        margin-bottom: 15px;
+        margin-top: 0;
+        line-height: 1.1;
+    }
+
+    .faq_border {
+        border: 1px solid #cec7c7;
+        padding: 20pt;
+    }
+
+    .fw700 {
+        font-weight: 700;
+    }
+
+    .faq_button {
+        display: inline-block;
+        height: 30px;
+        padding: 0;
+        margin: 0;
+        vertical-align: top;
+        border: unset;
+        background: unset;
+
+        img {
+            display: block;
+            height: 30px;
+            width: 150px;
+            cursor: pointer;
+        }
+    }
+
+    @media only screen and (max-width: 767px) {
+        .frappe-health-banner {
+            padding-top: 30pt;
+            padding-bottom: 30pt;
+            background-size: cover;
+
+
+        }
+
+        .why-frappe-health {
+            .frappe-item {
+                img {
+                    height: 14pt;
+                    width: 14pt;
+                }
+
+                span {
+                    color: $color_25;
+                    font-size: 14pt;
+                }
+            }
+        }
+
+        .frappe-healthcare-slide {
+            display: none;
+        }
+
+        .frappe-healthcare-slide-mob {
+            display: block;
+
+            .owl-carousel {
+                .owl-nav {
+                    position: relative;
+                    bottom: 0;
+                    margin-top: 50px;
+
+                    .owl-next {
+                        position: absolute;
+                        top: unset;
+                        bottom: 0%;
+                        left: 18%;
+                        right: 0;
+                        margin: auto;
+                        height: 50px;
+                        width: 50px;
+                        border-radius: 50px;
+                        border: 1px solid #4C466A;
+                        background-color: $color_3;
+                        background-image: url(/website_kanak/static/src/img/frappe_healthcare/right.svg);
+                        background-repeat: no-repeat;
+                        background-size: 50%;
+                        background-position: center;
+                    }
+
+                    .owl-prev {
+                        position: absolute;
+                        top: unset;
+                        bottom: 0%;
+                        left: 0;
+                        right: 18%;
+                        margin: auto;
+                        height: 50px;
+                        width: 50px;
+                        border-radius: 50px;
+                        border: 1px solid #4C466A;
+                        background-color: $color_3;
+                        background-image: url(/website_kanak/static/src/img/frappe_healthcare/left.svg);
+                        background-repeat: no-repeat;
+                        background-size: 50%;
+                        background-position: center;
+                    }
+                }
+
+                .owl-dots {
+                    display: none;
+                }
+            }
+        }
+        .benefit-frappe-desk {
+            display: none;
+        }
+
+        .benefit-frappe-mob {
+            display: block;
+            .owl-carousel {
+                .item{
+                    img{
+                        height: 40px;
+                    }
+                }
+                .owl-nav {
+                    position: relative;
+                    bottom: 0;
+                    margin-top: 50px;
+
+                    .owl-next {
+                        position: absolute;
+                        top: unset;
+                        bottom: 0% !important;
+                        left: 18%;
+                        right: 0;
+                        margin: auto;
+                        height: 50px;
+                        width: 50px;
+                        border-radius: 50px;
+                        border: 1px solid #4C466A;
+                        background-color: $color_3;
+                        background-image: url(/website_kanak/static/src/img/frappe_healthcare/right.svg);
+                        background-repeat: no-repeat;
+                        background-size: 40%;
+                        background-position: center;
+                    }
+
+                    .owl-prev {
+                        position: absolute;
+                        top: unset;
+                        bottom: 0% !important;
+                        left: 0;
+                        right: 18%;
+                        margin: auto;
+                        height: 50px;
+                        width: 50px;
+                        border-radius: 50px;
+                        border: 1px solid #4C466A;
+                        background-color: $color_3;
+                        background-image: url(/website_kanak/static/src/img/frappe_healthcare/left.svg);
+                        background-repeat: no-repeat;
+                        background-size: 40%;
+                        background-position: center;
+                    }
+                }
+            }
+        }
+
+    }
+
+    @media (max-width: 1024px) {
+        .frappe-health-banner {
+            div {
+                div {
+                    div {
+                        &:first-child {
+                            img {
+                                height: auto;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

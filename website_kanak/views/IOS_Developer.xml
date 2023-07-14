@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="busineess_bi_mobile_ios" name="IOS">
+        <t t-set="additional_title">iOS App Development Comapny | iPhone Application Development
+            Services </t>
+        <t t-set="website_meta_description"> iphone (iOS) application development company offered by Us.
+            Our skilled iPhone app developers develop iOS apps creating robust Apps for your business.</t>
+        <t t-set="website_meta_keywords">kanak infosystems llp, ios app development, ios app development
+            company, iphone application development, best iphone app developers, ios mobile app
+            development </t>
+        <t t-call="website.layout">
+            <t t-set="pageName" t-value="'IOS kanak_ios_developer'" />
+            <div id="wrap" class="busineess_bi_mobile_ios_kanak">
+                <section id="main-odoo-ios-banner">
+                    <div class="overlay">
+                        <div class="main-kanak-banner">
+                            <div class="main-new-odoo-themes-banner">
+                                <span class="kanak-odoo-themes-bnr1"> IOS- </span>
+                                <span class="kanak-odoo-themes-bnr2"> Apps Development</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="workpage-home-work">
+                        <div class="container">
+                            <span>
+                                <a class="text-decoration-none" href="/"> Home </a>
+                            </span>
+                            <i class="fa fa-chevron-right" aria-hidden="true" />
+                            <span> IOS </span>
+                        </div>
+                    </div>
+                </section>
+                <section style="margin-top:5px">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 for-spacing-all">
+                                <h1 class="for-color-reso-1a"> iPhone Mobile Application Development Company – Kanak
+                                    Infosystems </h1>
+                                <p class="text-justify"> We are skilful in the region of iPhone <a href="https://kanakinfosystems.com/blog/mobile-app-development-process">app
+                                        development</a> and professional in developing quality rich mobile apps. We have
+                                    expert <a href="https://kanakinfosystems.com/contact-us">iPhone developers</a> who
+                                    fulfil the client’s requirements. We have successfully delivered number of <a href="https://play.google.com/store/apps/developer?id=Kanak+Infosystems+LLP.&amp;hl=en_GB&amp;gl=US">Android
+                                        Apps</a> and <a href="https://apps.apple.com/in/developer/kanak-info-systems-pvt-ltd/id1501795532">iPhone
+                                        Apps</a> . </p>
+                                <p class="text-justify"> We have created apps for all type of business for engaging customers and apps
+                                    for corporates to spice up their conferencing and meeting schedule experiences. We
+                                    always take care about user experience for ios <a href="https://kanakinfosystems.com/blog/mobile-app-development-for-your-business-can-enhance-the-reputation-of-your-brand">mobile
+                                        applications</a> so that users can get actually what they want. </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="main-ab-all-themes">
+                    <div id="parallex-home-odoo-ios2" class="parallex-ios-1">
+                        <div class="overlay-ab">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12 for-spacing-all">
+                                        <h2 class="different-odoo-erp-heading1111-1"> Take Our iOS iPhone App
+                                            Development Services into Considerations</h2>
+                                        <h3 class="different-odoo-erp-head1"> iPhone Mobile Game Apps Development -</h3>
+                                        <p class="ios-all-p"> We works in advanced framework to develop the multifarious
+                                            games mobile apps.</p>
+                                        <h3 class="different-odoo-erp-head1"> Educational Mobile Apps Development -</h3>
+                                        <p class="ios-all-p"> Our developers have a rich experience and expertise in
+                                            developing native education applications for all the iOS platforms.</p>
+                                        <h3 class="different-odoo-erp-head1"> iPhone Mobile Apps for Financial and
+                                            E-Commerce -</h3>
+                                        <p class="ios-all-p"> A special feature and we have potential in developing
+                                            iPhone application that can streamline the financial management and online
+                                            shopping effectively.</p>
+                                        <h3 class="different-odoo-erp-head1"> iPod and iPad Music Apps -</h3>
+                                        <p class="ios-all-p">Let's play music with superbly designed iPad and iPod
+                                            compatible music application.</p>
+                                        <h3 class="different-odoo-erp-head1">
+                                            <a href="https://kanakinfosystems.com/blog/social-media-tips">Social Media</a>
+                                            and Chat Messenger Apps -</h3>
+                                        <p class="ios-all-p"> Let's get social and connect with each other with
+                                            beautifully developed chat apps that can run on iPhone platforms.</p>
+                                        <h3 class="different-odoo-erp-head1"> Travel Booking Apps -</h3>
+                                        <p class="ios-all-p"> Online ticket/flight booking apps to simplify travel based
+                                            business and widens the gateway for the business to enhance revenue.</p>
+                                        <h3 class="different-odoo-erp-head1"> Online Hotel Booking Apps -</h3>
+                                        <p class="ios-all-p"> Well Versed Online booking apps for like Hotels,
+                                            Restaurants that can smoothen the online booking system and streamline the
+                                            business.</p>
+                                        <h3 class="different-odoo-erp-head1"> Social Media Integration Apps -</h3>
+                                        <p class="ios-all-p"> Well known in technology to create mobile apps for Social
+                                            media functionality.</p>
+                                        <h3 class="different-odoo-erp-head1"> Customer Support and Maintenance -</h3>
+                                        <p class="ios-all-p"> Our technical support team is always active to assist our
+                                            clients in all administering and deploying the iPhone applications.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="container">
+                        <div class="row main-row-ios3">
+                            <div class="col-md-4 col-sm-4">
+                                <div class="row ios-a1">
+                                    <div class="col-sm-8 d-none d-sm-block">
+                                        <p> Your Idea Our Vouching </p>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <img class="img-fluid mx-auto" src="/website_kanak/static/src/img/ios/1.webp" alt="your idea our vouching" />
+                                    </div>
+                                    <div class="col-sm-8 d-block d-sm-none">
+                                        <p> Your Idea Our Vouching </p>
+                                    </div>
+                                </div>
+                                <div class="row ios-a4">
+                                    <div class="col-sm-8 d-none d-sm-block">
+                                        <p> Project Planning </p>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <img class="img-fluid mx-auto" src="/website_kanak/static/src/img/ios/4.webp" alt="project planning" />
+                                    </div>
+                                    <div class="col-sm-8 d-block d-sm-none">
+                                        <p> Project Planning </p>
+                                    </div>
+                                </div>
+                                <div class="row ios-a2">
+                                    <div class="col-sm-8 d-none d-sm-block">
+                                        <p> UI and UX Design </p>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <img class="img-fluid mx-auto" src="/website_kanak/static/src/img/ios/2.webp" alt="UI and UX Design" />
+                                    </div>
+                                    <div class="col-sm-8 d-block d-sm-none">
+                                        <p> UI and UX Design </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-4">
+                                <img class="img-fluid mx-auto" src="/website_kanak/static/src/img/ios/iphonedevelop_image.webp" alt="ios web development" style="width: 444px;height: 380px;margin-top: 10%;" />
+                            </div>
+                            <div class="col-md-4 col-sm-4">
+                                <div class="row ios-a5">
+                                    <div class="col-sm-8 d-none d-sm-block">
+                                        <p> App Code Development </p>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <img class="img-fluid mx-auto" src="/website_kanak/static/src/img/ios/5.webp" alt="App Code Development" />
+                                    </div>
+                                    <div class="col-sm-8 d-block d-sm-none">
+                                        <p> App Code Development </p>
+                                    </div>
+                                </div>
+                                <div class="row ios-a3">
+                                    <div class="col-sm-8 d-none d-sm-block">
+                                        <p> iOS App Testing </p>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <img class="img-fluid mx-auto" src="/website_kanak/static/src/img/ios/3.webp" alt="ios App Testing" />
+                                    </div>
+                                    <div class="col-sm-8 d-block d-sm-none">
+                                        <p> iOS App Testing </p>
+                                    </div>
+                                </div>
+                                <div class="row ios-a3">
+                                    <div class="col-sm-8 d-none d-sm-block">
+                                        <p> iOS App Testing </p>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <img class="img-fluid mx-auto" src="/website_kanak/static/src/img/ios/6.webp" alt="ios App Testing" />
+                                    </div>
+                                    <div class="col-sm-8 d-block d-sm-none">
+                                        <p> iOS App Testing </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 for-spacing-all">
+                                <br />
+                                <p class="training-block23"> “Once our clients get satisfied our job has been
+                                    accomplished!”
+                                </p>
+                                <p class="training-block23"> Now, if you have an idea then its good enough to <a href="https://kanakinfosystems.com">start with us</a> and to develop a
+                                    successful iOS app for your business and to enhance your business! </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </t>
+    </template>
+</odoo>

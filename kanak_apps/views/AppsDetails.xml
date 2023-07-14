@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="appdetails" name='Apps Details'>
+        <t t-call="website.layout">
+            <t t-set="pageName" t-value="'knk_app_details_main'" />
+            <t t-set="title" t-value="product.name"/>
+            <div id="wrap" class="js_apps auto_pop">
+                <div class="container apps_page">
+                    <t t-set="combination_info" t-value="product._get_combination_info(combination, add_qty=1, pricelist=pricelist)"/>
+                    <t t-set="product_variant" t-value="product.env['product.product'].browse(combination_info['product_id'])"/>
+                    <div class="row">
+                        <div class="col-md-7 col-xl-6 mb32">
+                            <div class="loempia_app_cover deep-1" t-attf-style="background-image: url('/web/image/product.product/{{product_variant.id}}/banner_image') !important;"></div>
+                        </div>
+                        <div id="loempia_app_infos" class="col-md-5 col-xl-6 mb32 loempia_app_info_has_cover">
+                            <div class="d-flex">
+                                <img itemprop="image" class="deep-1 loempia_app_icon big" t-attf-src="/web/image/product.template/#{product.id}/image_128" loading="lazy" style="" />
+                                <div class="loempia_app_title">
+                                    <h1 class="mt0 mb0" itemprop="name"><b t-field="product.name"/></h1>
+                                    <div class="mb4">
+                                        <a href="#loempia-comments">
+                                            <t t-call="kanak_apps.rating_widget_stars_static">
+                                                <t t-set="rating_avg" t-value="product.rating_avg"/>
+                                                <t t-set="rating_count" t-value="product.rating_count"/>
+                                            </t>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="loempia_app_title ms-auto text-end">
+
+                                    <h1 class="mt0 mb0">
+                                        <t t-if="combination_info['price']">
+                                            <b t-esc="combination_info['price']" t-options="{'widget': 'monetary',  'display_currency': website.currency_id}"/>
+                                        </t>
+                                        <t t-else="">
+                                            <b>FREE</b>
+                                        </t>
+                                    </h1>
+                                </div>
+                            </div>
+                            <div class="loempia_tags">
+                                <span class="badge badge-violet-dark" itemprop="softwareVersion">
+                                    <b>
+                                        v <t t-esc="version"/>
+                                    </b>
+                                </span>
+                                <span title="Purchases" t-if="not combination_info['price']"><i class="fa fa-download"></i>
+                                                            <t t-esc="product.download_count"/></span>
+                                <span title="Purchases" t-if="combination_info['price']"><i class="fa fa-shopping-cart"></i> <t t-esc="int(product.sales_count)"/></span>
+                            </div>
+                            <form method="post" class="oe_import" action="/shop/cart/update">
+                                <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
+                                <input type="hidden" class="product_id" name="product_id" t-att-value="product_variant.id" />
+                                <input type="hidden" class="product_template_id" name="product_template_id" t-att-value="product.id" />
+                                <input t-if="product.public_categ_ids.ids" type="hidden" class="product_category_id" name="product_category_id" t-att-value="product.public_categ_ids.ids[0]" />
+                                <input type="hidden" name="add_qty" value="1"/>
+                                <button id="buy_button" type="submit" class="btn btn-primary mb16" t-if="combination_info['price']">
+                                    <i class="fa fa-shopping-cart"></i> Add to Cart
+                                </button>
+                                <a href="#" id="dlbtn" itemprop="downloadUrl" class="js_apps_download btn btn-primary mb16" t-att-data-version="version" t-if="not combination_info['price']">
+                                        Download for v <b><span><t t-esc="version"/></span></b>
+                                </a>
+                                <a rel="nofollow" class="btn btn-primary mb16" t-att-href="product.live_preview" t-if="product.live_preview">
+                                    Live Preview
+                                </a>
+                            </form>
+                            <form method="post" class="d-none" action="/download/app" id="download_apps_form" t-if="not combination_info['price']">
+                                <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
+                                <input type="hidden" class="product_id" name="product_id" t-att-value="product_variant.id" />
+                                <input type="hidden" class="module_name" name="module_name" t-att-value="product_variant.technical_name" />
+                                <input type="hidden" class="version_name" name="version" t-att-value="version"/>
+                            </form>
+                            <div class="p-0 col-12 d-md-none d-lg-block">
+                                <table style="word-wrap: break-word;" class="loempia_app_table table table-sm small mt16">
+                                    <tbody>
+                                        <tr>
+                                            <td><b>Technical Name</b></td>
+                                            <td><code t-esc="product_variant.technical_name"/></td>
+                                        </tr>
+                                        <tr>
+                                            <td><b>License</b></td>
+                                            <td>OPL-1</td>
+                                        </tr>
+                                        <tr t-if="len(product.product_variant_ids) > 1">
+                                            <td class="loempia_app_availability"><b>Also available in version</b></td>
+                                            <td>
+                                                <t t-foreach="product.product_variant_ids" t-as="pv_id">
+                                                    <a t-attf-href="/apps/{{mtype}}/{{pv_id.product_template_attribute_value_ids[0].name}}/{{product.technical_name}}">
+                                                        <span class="badge bg-beta mr8">
+                                                            v
+                                                            <t t-esc="pv_id.product_template_attribute_value_ids[0].name"/>
+                                                        </span>
+                                                    </a>
+                                                </t>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <small class="text-muted mb16">
+                                You bought this module and need <b>support</b>?
+                                <a rel="nofollow" href="/support/ticket/submit">
+                                    Click here!
+                                </a>
+                            </small>
+                        </div>
+                    </div>
+                    <div class="row d-none d-md-block d-lg-none">
+                        <div class="col-md-12">
+                            <table style="word-wrap: break-word;" class="loempia_app_table table table-sm small mt16">
+                               <tbody>
+                                        <tr>
+                                            <td><b>Technical Name</b></td>
+                                            <td><code t-esc="product_variant.technical_name"/></td>
+                                        </tr>
+                                        <tr>
+                                            <td><b>License</b></td>
+                                            <td>OPL-1</td>
+                                        </tr>
+                                        <tr t-if="len(product.product_variant_ids) > 1">
+                                            <td class="loempia_app_availability"><b>Also available in version</b></td>
+                                            <td>
+                                                <t t-foreach="product.product_variant_ids" t-as="pv_id">
+                                                    <a t-attf-href="/apps/{{mtype}}/{{pv_id.product_template_attribute_value_ids[0].name}}/{{product.technical_name}}">
+                                                        <span class="badge bg-beta mr8">
+                                                            v
+                                                            <t t-esc="pv_id.product_template_attribute_value_ids[0].name"/>
+                                                        </span>
+                                                    </a>
+                                                </t>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div id="module-description">
+                    <div id="loempia_tabs">
+                        <ul role="tablist" class="nav nav-tabs justify-content-center" data-bs-tabs="tabs">
+                            <li class="nav-item"><a href="#desc" class="nav-link active" data-bs-toggle="tab">Description</a></li>
+                            <li class="nav-item"><a href="#license" class="nav-link" data-bs-toggle="tab">License</a></li>
+                        </ul>
+                        <div id="loempia_tabs_content" class="tab-content">
+                            <div class="tab-pane active" id="desc">
+                                <div class="container">
+                                    <div class="oe_styling_v8">
+                                        <span rel="preconnect" href="https://fonts.googleapis.com"></span>
+                                        <span rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""></span>
+                                        <span href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"></span>
+                                        <section t-field="product_variant.description_rst_html"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="license">
+                                <div class="container">
+                                    <div class="col-lg-8 offset-lg-2">
+                                        <pre class="mt8" t-esc="product_variant.license"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <section id="loempia-comments" class="mb48 loempia_comments container">
+                   <div class="row">
+                      <div class="col-lg-8 offset-lg-2 mb32 css_editable_mode_hidden">
+                         <h2 class="mt64 fw_extralight">
+                            Comment on this module. <t t-if="user_id._is_public()">
+                                Please <a href="/web/login">Login</a>
+                            </t>
+                         </h2>
+                         <div id="o_product_page_reviews_content">
+                            <t t-call="portal.message_thread">
+                                <t t-set="object" t-value="product"/>
+                                <t t-set="display_rating" t-value="False"/>
+                                <t t-set="message_per_page" t-value="5"/>
+                                <t t-set="two_columns" t-value="False"/>
+                            </t>
+                        </div>
+                      </div>
+                   </div>
+                </section>
+            </div>
+        </t>
+    </template>
+</odoo>

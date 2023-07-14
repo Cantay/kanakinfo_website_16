@@ -1,0 +1,147 @@
+
+.kanak_testimonial {
+
+    .workpage-home-work {
+        .fa-chevron-right {
+            font-size: 12px;
+        }
+        background-color: $background-color_18;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        opacity: .5;
+    }
+
+    @media (max-width:767px) {
+        .testimonial_kanak_002 {
+            .test_box_001 {
+                p {
+                    max-height: auto !important;
+                    min-height: auto !important;
+                    }
+            }
+        }
+
+    }
+
+    #privacy_sec_001 {
+        background-position: 100% 27%;
+    }
+
+    .privacy_sec_banner {
+        .p1_cl_001 {
+            background: $color_15;
+            padding: 8% 0 8% 0;
+        }
+
+        h1.title_cl {
+            span {
+                margin-right: 12px;
+                font-weight: 900;
+            }
+
+            
+            text-align: center;
+            color: $color_3 !important;
+            font-weight: 700;
+        }
+    }
+
+    .breadcrumb_custom {
+        display: -webkit-box;
+        list-style: none;
+        padding-left: 0;
+
+        li {
+            padding: 6px 15px 5px 0;
+
+            a {}
+        }
+
+        li.active {
+            a {
+
+                font-weight: 700;
+            }
+
+            &:before {
+                content: ">";
+                position: absolute;
+                margin-left: -11px;
+                font-size: 12px;
+                margin-top: 3px;
+            }
+        }
+    }
+
+    h1.title_cl {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .testimonial_kanak_002 {
+        
+        .test_box_001 {
+            padding: 10pt;
+            margin-bottom:50pt;
+            border-radius: 33px;
+            margin-top: 64px;
+            -webkit-box-shadow: 0 10px 17px -7px rgba(0, 0, 0, .75);
+            -moz-box-shadow: 0 10px 17px -7px rgba(0, 0, 0, .75);
+            box-shadow: 0 10px 17px -7px rgba(0, 0, 0, .75);
+
+            .test_image {
+                display: flex;
+                justify-content: center;
+                .img-logo {
+                    height: 183px;
+                    width: 183px;
+                    background-color: $color_3;
+                    border: 1px solid #a6a6a6;
+                    margin-top: -95px;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    padding: 10pt;
+                    
+                    img {
+                        width: 150px;
+                        border-radius: 50%;
+                    }
+                }
+            }
+
+            h3 {
+                padding-top: 10pt;
+            }
+
+            p {
+                padding-left: 15px;
+                padding-right: 15px;
+                text-align: center;
+                max-height: 170px;
+                min-height: 170px;
+                overflow-y: scroll;
+            }
+
+            .text_sub_title {
+                display: block;
+                font-size: 19px;
+                padding-bottom: 15px;
+            }
+        }
+    }
+
+    h3 {
+
+        font-weight: 500;
+
+    }
+
+    .testimonial_kanak_001 {
+
+        margin-bottom: 81px;
+
+    }
+}

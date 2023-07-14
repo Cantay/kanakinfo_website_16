@@ -1,0 +1,292 @@
+
+.kanak_odoo_training {
+
+    #main-odoo-training-banner {
+        background-image: url(/website_kanak/static/src/img/odoo_Training/Training-bg.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        .container {
+            .row {
+                img {
+                    max-height: 400px;
+                }
+
+                display: flex;
+                align-items: center;
+            }
+        }
+
+        .training-banner-head {
+            color: #05416b;
+            line-height: 1.2;
+            font-size: 52px;
+            font-weight: 900;
+        }
+    }
+
+    .workpage-home-work {
+        .fa-chevron-right {
+            font-size: 12px;
+        }
+        background-color: $background-color_18;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        opacity: .5;
+    }
+
+    .for-spacing-all {
+        p.training-block19 {
+            text-align: center;
+        }
+    }
+
+    .heading-technical-trainng-hh {
+        color: $color_2;
+    }
+
+    .for-two-port-space {
+        background-color: $color_3;
+    }
+
+    #parallex-home-odoo-train2 {
+        >.overlay-ab {
+            top: 0;
+            bottom: -1px;
+            left: 0;
+            right: -1px;
+            transform: scale(1);
+            background-color: $background-color_20;
+            opacity: 0.8;
+        }
+
+        background-image: url(/website_kanak/static/src/img/odoo_Training/training-paralx.webp);
+        background-attachment: fixed;
+    }
+
+    .parallex-train-1 {
+        position: relative;
+        background: 50% 50%/cover;
+    }
+
+    .training-block14 {
+        color: #00deff;
+        font-weight: 700;
+        border-bottom: thick solid #00deff;
+        color: $border-color_3;
+        padding-bottom: 8px;
+    }
+
+    .training-block15 {
+        font-size: 17px;
+        color: $border-color_3;
+        font-weight: 700;
+    }
+
+    .training-block16 {
+        font-size: 17px;
+        font-weight: 700;
+        color: $border-color_3;
+        padding-top: 20px;
+    }
+
+    .training-block17 {
+        font-size: 17px;
+        font-weight: 700;
+        color: $border-color_3;
+        padding-top: 20px;
+    }
+
+    .training-block1 {
+        padding-top: 15px;
+    }
+
+    .training-block2 {
+        padding-top: 15px;
+    }
+
+    .training-img-block1 {
+        margin-right: auto;
+        margin-left: auto;
+        border: 3px solid $color_3;
+        border-radius: 150px;
+    }
+
+    .functional-training-class2 {
+        text-align: right;
+        color: $color_2;
+    }
+
+    .training-block11 {
+        font-size: 15px;
+        padding-bottom: 20px;
+        color: $color_2;
+    }
+
+    .training-block12 {
+        font-weight: bolder;
+        color: $color_2;
+        padding-top: 20px;
+    }
+
+    .training-block13 {
+        color: $color_2;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .chapter-toggle {
+        padding: 0;
+        border: 1px solid #cdcdcd;
+        border-radius: 3px;
+        background: $color_3;
+    }
+
+    .curriculum-chapter-header {
+        padding: 10px 15px;
+    }
+
+    .chapter-header {
+        color: $color_2;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 1;
+    }
+
+    .chapter-list {
+        padding: 5px 0;
+    }
+
+    .chapter-list-item {
+        position: relative;
+        padding: 5px 45px 5px 15px;
+    }
+
+    .chapter-list-item__title {
+        font-size: 15px;
+    }
+
+    .only-training-toggle {
+        .toggle-content {
+            text-align: center;
+            padding: 5px 0;
+            background: #f3f3f3;
+            font-weight: 600;
+            font-size: .813em;
+            cursor: pointer;
+        }
+    }
+
+    .themes-btn-main {
+        text-align: center;
+    }
+
+    .block-odoo-themes {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .btn-odoo-themes {
+        &:hover {
+            text-decoration: none;
+            color: $color_3;
+        }
+
+        border: 2px solid $color_2;
+        font-size: 20px;
+        color: $color_3;
+        background-color: $color_2;
+
+        
+        padding: 6px 18px;
+    }
+
+    .training-block19 {
+        color: $color_2;
+        text-align: center;
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    .only-insta-email {
+        text-align: center;
+        font-size: 24px;
+        padding-bottom: 25px;
+
+        a {
+            color: $color_2;
+        }
+    }
+
+    .insta-ph-num {
+        background-color: $color_2;
+
+        
+        padding: 4px;
+    }
+
+    .training-contactus {
+        a {
+            &:hover {
+                color: $color_3;
+                text-decoration: none;
+            }
+
+            background-color: $color_2;
+
+        
+            border-radius: 49px;
+            font-size: 25px;
+            color: $color_3;
+            padding: 5px 10px;
+        }
+
+        text-align: center;
+    }
+
+    .training-block111 {
+        font-size: 15px;
+        color: $color_2;
+    }
+
+    .functional-training-class1 {
+        color: $color_2;
+    }
+
+    .aaa-a1 {
+        color: $color_3;
+    }
+
+    .training-block18 {
+        color: $color_3;
+    }
+
+    @media (max-width:425px) {
+        .functional-training-class2 {
+            text-align: left;
+        }
+        .training-block111 {
+            text-align: left;
+        }
+    }
+
+    @media (max-width:768px) {
+        h2.training-block14 {
+            font-size: 22px;
+        }
+    }
+
+    @media (max-width:1024px) {
+        .training-block11 {
+            font-size: 14px;
+        }
+    }
+
+    @media (max-width:500px) {
+        .only-insta-email {
+            font-size: 16px;
+        }
+    }
+
+}

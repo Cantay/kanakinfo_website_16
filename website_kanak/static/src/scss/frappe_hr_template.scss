@@ -1,0 +1,927 @@
+
+.kanak_frappe_hr {
+
+    .text-justify {
+        text-align: justify;
+    }
+
+    .frappe-hr-banner {
+        background-image: url(/website_kanak/static/src/img/frappe_hrms/frappe-hr-banner.webp);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+
+        .main-head-banner {
+            color: $color_3;
+            font-weight: 900;
+            font-size: 36px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            line-height: 1.1;
+        }
+
+        div.container {
+            .main {
+                height: 500px;
+                display: flex;
+                align-items: center;
+
+                .banner-mob {
+                    display: block;
+                }
+            }
+        }
+    }
+
+    .quick-review {
+        h1 {
+            color: $color_25;
+            margin-top: 0;
+            font-weight: 900;
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+
+        .hidden-text {
+            width: auto;
+            margin-bottom: 10pt;
+        }
+    }
+
+    .spoiler {
+        a {
+            color: $color_25;
+            font-size: 12pt;
+            padding: 5px 0px;
+            cursor: pointer;
+        }
+    }
+
+    .frappe-hr-feature-desk {
+        display: block;
+        background: #5575BB;
+
+        .hr-feature-box {
+            height: 380px;
+            color: $color_25;
+            background-color: $color_3;
+            border-radius: 5px;
+            padding: 10pt;
+            background-position: right bottom;
+            background-repeat: no-repeat;
+
+            .hr-feature-head {
+                text-align: left;
+                font-size: 18px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                font-weight: 500;
+                line-height: 1.1;
+            }
+
+            p {
+                color: $color_25;
+                line-height: 130%;
+                font-size: 15px;
+            }
+        }
+
+        .frappe-feature-img {
+            img {
+                max-height: 470px;
+            }
+        }
+
+        .hr-feature-box.workflow {
+            background-image: url(/website_kanak/static/src/img/frappe_hrms/slack.svg);
+            background-size: 38px;
+            background-position: 96% 98%;
+        }
+
+        .hr-feature-box.recruitment {
+            background-image: url(/website_kanak/static/src/img/frappe_hrms/recruitment.svg);
+            background-size: 38px;
+        }
+
+        .hr-feature-box.payroll {
+            background-image: url(/website_kanak/static/src/img/frappe_hrms/payroll.svg);
+            background-size: 30px;
+        }
+
+        .hr-feature-box.self-service {
+            background-image: url(/website_kanak/static/src/img/frappe_hrms/self-service.svg);
+            background-size: 47px;
+        }
+
+        .hr-feature-box.performance {
+            background-image: url(/website_kanak/static/src/img/frappe_hrms/performance.svg);
+            background-size: 36px;
+        }
+
+        .hr-feature-box.training {
+            background-image: url(/website_kanak/static/src/img/frappe_hrms/training.svg);
+            background-size: 47px;
+        }
+
+        .hr-feature-box.administration {
+            background-image: url(/website_kanak/static/src/img/frappe_hrms/administration.svg);
+            background-size: 38px;
+        }
+
+        .hr-feature-box.entitlement {
+            background-image: url(/website_kanak/static/src/img/frappe_hrms/entitlement.svg);
+            background-size: 38px;
+        }
+    }
+
+    .frappe-hr-feature-mob {
+        display: none;
+        background: #5575BB;
+        padding: 10pt 0;
+
+        .hr-feature-box {
+            height: auto;
+            color: $color_25;
+            background-color: $color_3;
+            border-radius: 5px;
+            padding: 10pt;
+            background-position: right bottom;
+            background-repeat: no-repeat;
+
+            p {
+                color: $color_25;
+                line-height: 130%;
+                text-align: justify;
+                font-size: 15px;
+                margin-bottom: 30pt;
+            }
+        }
+
+        .hr-feature-box.workflow {
+            background-image: url(/website_kanak/static/src/img/frappe_hrms/slack.png);
+            background-size: 38px;
+        }
+
+        .hr-feature-box.recruitment {
+            background-image: url(/website_kanak/static/src/img/frappe_hrms/recruitment.png);
+            background-size: 38px;
+        }
+
+        .hr-feature-box.payroll {
+            background-image: url(/website_kanak/static/src/img/frappe_hrms/payroll.png);
+            background-size: 30px;
+        }
+
+        .hr-feature-box.self-service {
+            background-image: url(/website_kanak/static/src/img/frappe_hrms/self-service.png);
+            background-size: 47px;
+        }
+
+        .hr-feature-box.performance {
+            background-image: url(/website_kanak/static/src/img/frappe_hrms/performance.png);
+            background-size: 36px;
+        }
+
+        .hr-feature-box.training {
+            background-image: url(/website_kanak/static/src/img/frappe_hrms/training.png);
+            background-size: 47px;
+        }
+
+        .hr-feature-box.administration {
+            background-image: url(/website_kanak/static/src/img/frappe_hrms/administration.png);
+            background-size: 38px;
+        }
+
+        .hr-feature-box.entitlement {
+            background-image: url(/website_kanak/static/src/img/frappe_hrms/entitlement.png);
+            background-size: 38px;
+        }
+
+        .owl-carousel {
+            .owl-nav {
+                .owl-next {
+                    position: absolute;
+                    top: unset;
+                    bottom: 0% !important;
+                    left: 20%;
+                    right: 0;
+                    margin: auto;
+                    height: 50px;
+                    width: 50px;
+                    border: none;
+                    background-color: $background-color_16;
+                    background-image: url(/website_kanak/static/src/img/frappe_hrms/next.png);
+                    background-repeat: no-repeat;
+                    background-size: 40%;
+                    background-position: center;
+                }
+
+                .owl-prev {
+                    position: absolute;
+                    top: unset;
+                    bottom: 0% !important;
+                    left: 0;
+                    right: 20%;
+                    margin: auto;
+                    height: 50px;
+                    width: 50px;
+                    border: none;
+                    background-color: $background-color_16;
+                    background-image: url(/website_kanak/static/src/img/frappe_hrms/prev.png);
+                    background-repeat: no-repeat;
+                    background-size: 40%;
+                    background-position: center;
+                }
+            }
+            
+        }
+    }
+
+    .about-geo.free-trial {
+        background: linear-gradient(90deg, #294384 0%, #607FBD 100%);
+        font-size: 18px;
+    }
+
+    .choose-icon {
+        img {
+            width: 45px;
+            height: 45px;
+        }
+    }
+
+    .choose-frappe-desk {
+        display: block;
+        background: url(/website_kanak/static/src/img/frappe_hrms/choose-bg1.svg) no-repeat left top, url(/website_kanak/static/src/img/frappe_hrms/choose-bg2.svg) no-repeat right center;
+        background-size: 2% 20%, 40px 400pt;
+
+        h2 {
+            color: $color_25;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        .book-demo {
+            text-align: center;
+
+            div {
+                * {
+                    display: inline-block;
+                    vertical-align: middle;
+                }
+
+                img {
+                    margin: 0 30pt 0 5pt;
+                }
+            }
+
+            .btn.free-trial {
+                margin-top: 0;
+                margin-right: 0;
+                padding: 5pt 30pt;
+            }
+        }
+    }
+
+    .choose-frappe-mob {
+        display: none;
+    }
+
+    .choose-slide-box {
+        .choose-head {
+            color: $color_25;
+            font-size: 18px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-weight: 500;
+            line-height: 1.1;
+        }
+    }
+
+    .using-frappe {
+        background: #EFF4FB url(/website_kanak/static/src/img/frappe_hrms/using-frappe-bg.webp) no-repeat right bottom;
+        background-size: 12%;
+        background-position: 100% 80%;
+
+        .using-head {
+            font-weight: 900;
+            font-size: 28px;
+            margin-bottom: 15px;
+            margin-top: 20px;
+            line-height: 1.1;
+        }
+
+        h2 {
+            color: $color_25;
+        }
+
+        .free-trial-box {
+            width: 80%;
+            margin-top: 30%;
+            width: 80%;
+            margin-top: 30%;
+        }
+
+        .using-frappe-box {
+            .using-frappe-head {
+                color: $color_25;
+                font-weight: 500;
+                line-height: 1.1;
+                font-size: 18px;
+                margin: 0;
+            }
+
+            background-color: $color_3;
+            border-radius: 10px;
+            padding: 20pt;
+        }
+    }
+
+    .using-frappe-d-none {
+        display: block;
+        margin-top: 150pt;
+        display: block;
+        margin-top: 150pt;
+    }
+
+    .using-frappe-box {
+        ul {
+            margin-left: -30pt;
+            list-style-type: none;
+            margin-bottom: 0;
+
+            li {
+                display: inline-block;
+                vertical-align: middle;
+
+                h4 {
+                    margin: 0;
+                }
+            }
+        }
+
+        p {
+            margin-left: 30px;
+            text-align: justify;
+        }
+    }
+
+    .panel {
+        display: block;
+    }
+
+    .flip {
+        li {
+            img {
+                height: 30px;
+            }
+        }
+    }
+
+    .free-trial-box {
+        .btn.free-trial {
+            margin-top: 0;
+            margin-right: 0;
+        }
+    }
+
+    .erpnext-team-head {
+        font-weight: 900;
+        color: $color_25;
+        font-size: 28px;
+        margin-bottom: 15px;
+        margin-top: 20px;
+        line-height: 1.1;
+    }
+
+    .erpnext-team {
+        .team-head {
+            color: $color_25;
+            font-weight: 900;
+            font-size: 28px;
+            margin-bottom: 15px;
+            margin-top: 20px;
+            color: $color_25;
+            font-weight: 900;
+            font-size: 28px;
+            margin-bottom: 15px;
+            margin-top: 20px;
+            color: $color_25;
+            font-weight: 900;
+            font-size: 28px;
+            margin-bottom: 15px;
+            margin-top: 20px;
+        }
+
+        background: url(/website_kanak/static/src/img/frappe_hrms/exrnext-team.webp) no-repeat right top;
+        background-size: 30%;
+        background-position: 100% 20%;
+
+        ul {
+            li {
+                margin-bottom: 10pt;
+            }
+        }
+
+        .hr-solution {
+            background: url(/website_kanak/static/src/img/frappe_hrms/shape.webp) no-repeat;
+            padding: 40pt 40pt;
+            background-size: contain;
+            background-position: center;
+            width: 70%;
+            margin: 0 auto;
+
+            p {
+                font-weight: bold;
+                letter-spacing: 1px;
+            }
+        }
+    }
+
+    .frappe-erpnext-team {
+        h3 {
+            font-size: 28px;
+            color: $color_25;
+            font-weight: 900;
+        }
+    }
+
+    .owl-carousel {
+        .owl-stage-outer {
+            position: relative;
+            overflow: hidden;
+            -webkit-transform: translate3d(0, 0, 0);
+        }
+    }
+
+    .btn.free-trial {
+        span {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        background: linear-gradient(90deg, #10428E 0%, #DB4437 56.04%, #4B88D2 100%);
+        box-shadow: 0px 4px 4px #00000025;
+        border-radius: 64px;
+        color: $color_3;
+        margin-right: 20pt;
+    }
+
+
+    @media (max-width: 1024px) {
+        .frappe-hr-banner {
+            background-size: cover;
+        }
+    }
+
+    @media (max-width: 1000px) {
+        .frappe-hr-feature-mob {
+            display: block;
+
+            .hr-feature-box {
+                height: 300px;
+                color: #507EC5;
+                background-color: white;
+                border-radius: 5px;
+                padding: 10pt;
+                background-position: right bottom;
+                background-repeat: no-repeat;
+            }
+
+            .book-demo {
+                div {
+                    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 105.38%);
+                    border-radius: 16px;
+                    width: 80%;
+                    margin: 0 auto;
+                    margin-top: 20pt;
+                    padding: 20pt;
+                    text-align: center;
+
+                    a {
+                        margin-top: 10pt;
+                        margin-right: 0;
+                        margin-bottom: 0;
+                        display: block;
+                        margin-top: 10pt;
+                        margin-right: 0;
+                        margin-bottom: 0;
+                        display: block;
+                    }
+
+                    h4 {
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+
+        .using-frappe {
+            .free-trial-box {
+                width: auto;
+                margin-top: 52px;
+            }
+
+            background-color: #EFF4FB;
+            background-image: none;
+
+            .using-frappe-box {
+                padding: 20pt 10pt;
+            }
+
+            .using-frappe-d-none {
+                display: none;
+                margin-top: 0;
+            }
+        }
+
+        .choose-frappe-desk {
+            display: none;
+        }
+
+        .frappe-hr-banner {
+            div.container {
+                .main {
+                    div {
+                        position: relative;
+                        left: 0;
+                    }
+                }
+            }
+        }
+
+        img {
+            display: inline-block;
+        }
+
+        .choose-frappe-mob {
+            display: block;
+
+            h2 {
+                color: #507EC5;
+            }
+
+            .choose-slide-box {
+                padding: 10pt;
+
+                img {
+                    height: 30px;
+                    width: 30px;
+                    display: inline-block;
+                    vertical-align: middle;
+                    color: #3C86F7;
+                }
+
+                h4 {
+                    display: inline-block;
+                    vertical-align: middle;
+                    color: #3C86F7;
+                }
+
+                p {
+                    text-align: justify;
+                }
+            }
+
+            .owl-carousel {
+                .owl-nav {
+                    position: relative;
+                    bottom: 0;
+                    margin-top: 80px;
+
+                    .owl-next {
+                        position: absolute;
+                        top: unset;
+                        bottom: 0% !important;
+                        left: 20%;
+                        right: 0;
+                        margin: auto;
+                        height: 50px;
+                        width: 50px;
+                        border: none;
+                        background-color: transparent;
+                        background-image: url(/website_kanak/static/src/img/frappe_hrms/choose-next.svg);
+                        background-repeat: no-repeat;
+                        background-size: 40%;
+                        background-position: center;
+                    }
+
+                    .owl-prev {
+
+                        position: absolute;
+                        top: unset;
+                        bottom: 0% !important;
+                        left: 0;
+                        right: 20%;
+                        margin: auto;
+                        height: 50px;
+                        width: 50px;
+                        /*border-radius: 50px;*/
+                        border: none;
+                        background-color: transparent;
+                        background-image: url(/website_kanak/static/src/img/frappe_hrms/choose-prev.svg);
+                        background-repeat: no-repeat;
+                        background-size: 40%;
+                        background-position: center;
+                    }
+                }
+                .owl-dots {
+                    display: none;
+                }
+            }
+
+            background: url(/website_kanak/static/src/img/frappe_hrms/choose-bg1.svg) no-repeat left top,
+            url(/website_kanak/static/src/img/frappe_hrms/choose-bg2.svg) no-repeat right center;
+            background-size: 4% 20%,
+            40px 400pt;
+            background-position: 0% 60px,
+            103% 100%;
+        }
+
+        .frappe-hr-feature-desk {
+            display: none;
+        }
+
+        .erpnext-team {
+            .hr-solution {
+                width: auto;
+            }
+        }
+    }
+
+    @media (max-width: 880px) {
+        .about-geo.free-trial {
+            display: block;
+            margin-left: 0;
+            margin-bottom: 20pt;
+
+            img {
+                height: 22px;
+            }
+        }
+    }
+
+    @media (max-width: 768px) {
+        .faq_button {
+            width: auto !important;
+        }
+
+        .faq_border {
+            margin-left: 25px;
+        }
+
+        .frappe-hr-banner {
+            background-position: 0%;
+
+            div.container {
+                .main {
+                    height: 300px;
+                    height: 300px;
+
+                    div {
+                        h1 {
+                            font-size: 32px;
+                        }
+                    }
+                }
+            }
+
+            .about-geo {
+                margin-right: 0;
+                margin-left: 0;
+                display: inline-block;
+            }
+        }
+
+        img {
+            &:not(.cke_iframe) {
+                -webkit-transform: none !important;
+                -moz-transform: none !important;
+                -ms-transform: none !important;
+                -o-transform: none !important;
+                transform: none !important;
+            }
+        }
+
+        .media_iframe_video {
+            -webkit-transform: none !important;
+            -moz-transform: none !important;
+            -ms-transform: none !important;
+            -o-transform: none !important;
+            transform: none !important;
+        }
+
+        span.fa {
+            -webkit-transform: none !important;
+            -moz-transform: none !important;
+            -ms-transform: none !important;
+            -o-transform: none !important;
+            transform: none !important;
+        }
+
+        i.fa {
+            -webkit-transform: none !important;
+            -moz-transform: none !important;
+            -ms-transform: none !important;
+            -o-transform: none !important;
+            transform: none !important;
+        }
+
+        p {
+            font-size: 15px;
+            line-height: 140%;
+        }
+
+        .frappe-hr-feature-mob {
+            .hr-feature-box {
+                height: 350px;
+                color: #507EC5;
+                background-color: white;
+                border-radius: 5px;
+                padding: 10pt;
+                background-position: right bottom;
+                background-repeat: no-repeat;
+
+                .hr-feature-head {
+                    text-align: left;
+                    font-size: 18px;
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                    font-weight: 500;
+                    line-height: 1.1;
+                }
+
+                p {
+                    color: #507EC5;
+                    line-height: 130%;
+                    text-align: justify;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+
+    @media only screen and (max-width: 767px) {
+        .fp-panel {
+            display: none;
+        }
+    }
+
+    @media (max-width: 640px) {
+        .frappe-hr-banner {
+            div.container {
+                .main {
+                    .banner-mob {
+                        display: none;
+                    }
+                }
+            }
+        }
+
+        .using-frappe {
+            .panel {
+                display: none
+            }
+        }
+
+        .erpnext-team {
+            background: none;
+
+            .hr-solution {
+                background-image: none;
+                background-color: #7e8cc7;
+                padding: 20pt 20pt;
+                background-size: contain;
+                background-position: center;
+                width: auto;
+                margin: 0 auto;
+                border-radius: 16px;
+            }
+        }
+    }
+
+    @media (max-width: 425px) {
+        .frappe-hr-banner {
+            background-position: 0%;
+
+            .about-geo {
+                margin-right: 50pt;
+                margin-left: 50pt;
+            }
+
+            div.container {
+                .main {
+                    height: 350px !important;
+
+                    div {
+                        text-align: center;
+
+                        p {
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+
+        .using-frappe-box {
+            ul {
+                li {
+                    .using-frappe-head {
+                        display: block !important;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+
+        .frappe-hr-feature-mob {
+            .hr-feature-box {
+                height: auto !important;
+                color: #507EC5;
+                background-color: white;
+                border-radius: 5px;
+                padding: 10pt;
+                background-position: right bottom;
+                background-repeat: no-repeat;
+
+                .hr-feature-head {
+                    text-align: left;
+                    font-size: 18px;
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                    font-weight: 500;
+                    line-height: 1.1;
+                }
+
+                p {
+                    color: #507EC5;
+                    line-height: 130%;
+                    text-align: justify;
+                    font-size: 15px;
+                    margin-bottom: 30pt;
+                }
+            }
+        }
+
+        .erpnext-team {
+            .hr-solution {
+                background-image: none;
+                background-color: #7e8cc7;
+                padding: 20pt 20pt;
+                background-size: contain;
+                background-position: center;
+                width: auto;
+                margin: 0 auto;
+                border-radius: 16px;
+            }
+        }
+    }
+
+    .frequently_border_1 {
+        width: 50%;
+        margin-top: 1rem;
+        border-top: 4px solid red;
+    }
+
+    .frequently_border_2 {
+        width: 50%;
+        margin-top: 1rem;
+        border-top: 4px solid red;
+    }
+
+    .faq-main-head {
+        color: $color_2;
+        font-size: 28px !important;
+        margin-bottom: 15px;
+        margin-top: 0;
+        line-height: 1.1;
+    }
+
+    .faq_border {
+        border: 1px solid #cec7c7;
+        padding: 20pt;
+    }
+
+    .fw700 {
+        font-weight: 700;
+    }
+
+    .faq_button {
+        display: inline-block;
+        height: 30px;
+        padding: 0;
+        margin: 0;
+        vertical-align: top;
+        border: unset;
+        background: unset;
+
+        img {
+            display: block;
+            height: 30px;
+            width: 150px;
+            cursor: pointer;
+        }
+    }
+}

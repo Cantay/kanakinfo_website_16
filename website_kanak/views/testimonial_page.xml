@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="testimonial_page" name="testimonial">
+        <t t-call="website.layout">
+            <t t-set="pageName" t-value="'Testimonial kanak_testimonial'" />
+            <div id="wrap" class="testimonial_kanak">
+                <section id="privacy_sec_001" class="privacy_sec_banner oe_img_bg" style="background-image: url(/website_kanak/static/src/img/testimonial/Our-Testimonials-banner.webp);" data-scroll-background-ratio="1.6">
+                    <div class="p1_cl_001">
+                        <h1 class="title_cl">
+                            Our Testimonials </h1>
+                    </div>
+                </section>
+                <section>
+                    <div class="workpage-home-work">
+                        <div class="container">
+                            <span>
+                                <a class="text-decoration-none" href="/"> Home </a>
+                            </span>
+                            <i class="fa fa-chevron-right" aria-hidden="true" />
+                            <span> Testimonial </span>
+                        </div>
+                    </div>
+                </section>
+                <div class="container oe_structure">
+                    <div class="testimonial_kanak_001">
+                        <h1 class="title_cl">
+                            <span>What Our</span> Clients Say's </h1>
+                        <!-- <p class="text-center" /> -->
+                    </div>
+                    <div class="row testimonial_kanak_002">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="test_box_001">
+                                <div class="test_image">
+                                    <div class="img-logo">
+                                        <img class="img-fluid mx-auto" src="/website_kanak/static/src/img/testimonial/logo-ideenweberei.webp" />
+                                    </div>
+                                </div>
+                                <h3 class="text-center">Ideenweberei</h3>
+                                <p>One of our clients needed us to migrate their legacy system to
+                                    the latest version of Odoo. Kanak's team handled it with great
+                                    management &amp; skill. They are very good in Odoo Services and
+                                    we love to refer them to the other client.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="test_box_001">
+                                <div class="test_image">
+                                    <div class="img-logo">
+                                        <img class="img-fluid mx-auto" src="/website_kanak/static/src/img/testimonial/yellowmetals_testimonials.webp" />
+                                    </div>
+                                </div>
+                                <h3 class="text-center">Yellow Metals</h3>
+                                <p>We wanted to use Odoo for our ecommerce store. Kanak not only
+                                    supported us with a good Odoo theme but also recommended the
+                                    best practices for it.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="test_box_001">
+                                <div class="test_image">
+                                    <div class="img-logo">
+                                        <img class="img-fluid mx-auto" src="/website_kanak/static/src/img/testimonial/FS_Header_logo.webp" />
+                                    </div>
+                                </div>
+                                <h3 class="text-center">Forever Stoked</h3>
+                                <p>I've a magento Store and is running very well. I already had the
+                                    Odoo backend working but was not happy with the Odoo services
+                                    provided by the other vendor. Kanak took over and things fall in
+                                    place very well. I love their prompt response and Odoo
+                                    consultation.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="test_box_001">
+                                <div class="test_image">
+                                    <div class="img-logo">
+                                        <img class="img-fluid mx-auto" src="/website_kanak/static/src/img/testimonial/lioncode.webp" />
+                                    </div>
+                                </div>
+                                <h3 class="text-center">LionCode</h3>
+                                <p>One of our client required legal reports of Odoo to be exported
+                                    to excel. The task was not much difficult but a complex logic
+                                    change required in the reporting made it all the more difficult
+                                    and many developers failed to achieve it earlier but Kanak's
+                                    team made it all possible within a stipulated time.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="test_box_001">
+                                <div class="test_image">
+                                    <div class="img-logo">
+                                        <img class="img-fluid mx-auto" src="/website_kanak/static/src/img/testimonial/lotshub-testimonial.webp" />
+                                    </div>
+                                </div>
+                                <h3 class="text-center">LotsHub</h3>
+                                <p>Our clientele have increased after getting the IRAS approval for
+                                    Singapore. All this and more is only possible with Kanak's
+                                    support.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="test_box_001">
+                                <div class="test_image">
+                                    <div class="img-logo">
+                                        <img class="img-fluid mx-auto" src="/website_kanak/static/src/img/testimonial/adanath.webp" />
+                                    </div>
+                                </div>
+                                <h3 class="text-center">Adanath Agencies</h3>
+                                <p>We were facing many issues with the previous Odoo Implementation
+                                    and all that was built over a period of 3 years was near to
+                                    obsolete. I sincerely thanks "Kanak Infosystems LLP." for
+                                    building a new system within 2 months time. I couldn't be
+                                    happier.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="test_box_001">
+                                <div class="test_image">
+                                    <div class="img-logo">
+                                        <img class="img-fluid mx-auto" src="/website_kanak/static/src/img/testimonial/warm-wind.webp" />
+                                    </div>
+                                </div>
+                                <h3 class="text-center">Warms Winds</h3>
+                                <p>We have got a nice to team in “Kanak” to work with , to rely on.
+                                    They understand our business well, have got domain expertise
+                                    &amp; last but not the least a bunch of technical &amp;
+                                    functional experts.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="test_box_001">
+                                <div class="test_image">
+                                    <div class="img-logo">
+                                        <img class="img-fluid mx-auto" src="/website_kanak/static/src/img/testimonial/Home_Credit.webp" />
+                                    </div>
+                                </div>
+                                <h3 class="text-center">Home Credit</h3>
+                                <p>We’ve been using the Services of “Kanak Infosystems LLP.” since
+                                    the time it was called tinyERP &amp; our accounting relies on
+                                    Odoo. To handle the data and functions of such a large
+                                    organization &amp; that too accounting requires some commendable
+                                    Skills and that is what Kanak is upto.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="test_box_001">
+                                <div class="test_image">
+                                    <div class="img-logo">
+                                        <img class="img-fluid mx-auto" style="width:100px;border-radius:0;" src="/website_kanak/static/src/img/testimonial/leeasy_testimonial.webp" />
+                                    </div>
+                                </div>
+                                <h3 class="text-center">LEEASY Solutions</h3>
+                                <p style="overflow-y:scroll">LeEasy Solutions is an IT and Software
+                                    company with over a 20 years of IT experience. We have been
+                                    working with the OpenSource ERP program ODOO for a longer
+                                    period. Since 2017 we are ODOO Partner. ODOO is known for its
+                                    high user-friendliness as well as its high coverage of various
+                                    application areas. In Kanak Infosstems we found a strong program
+                                    team, which allows us to realize your wishes and needs best
+                                    possible. And we always speak your language. There are different
+                                    specialists in our team so that we can accompany and carry out a
+                                    complete introduction process, from inventory to the elaboration
+                                    of the flows up to the introduction and training of your
+                                    employees.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="test_box_001">
+                                <div class="test_image">
+                                    <div class="img-logo">
+                                        <img class="img-fluid mx-auto" src="/website_kanak/static/src/img/testimonial/skylight_testimonial.webp" />
+                                    </div>
+                                </div>
+                                <h3 class="text-center">Sky Light</h3>
+                                <p>Kanak's team has been a great asset for us for their outstanding
+                                    support &amp; services related to Odoo.Ashvin came personally to
+                                    make sure our Staff are well trained &amp; understand the
+                                    developments made as well as default Odoo ofcourse. They have
+                                    got the real expertise backed by phenomenal members.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </t>
+    </template>
+</odoo>

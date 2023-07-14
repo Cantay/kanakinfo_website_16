@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="odoo_shoppe_page" name="OdooShoppe">
+        <t t-call="website.layout">
+            <t t-set="pageName" t-value="'OdooShoppe kanak_odoo_shoppe'"/>
+            <div id="wrap" class="odoo_shoppe">
+                <section class="s_cover_1 oe_img_bg shoppe_header_banner">
+                    <div class="container">
+                        <div class="row s_header_text">
+                            <div class="col-lg-9 text-center">
+                                <p class="s_banner_head text-center"><span class="s_h_color1">Odoo</span><span class="s_h_color2">shoppe</span></p>
+                                <p class="text-center">Odooshoppe is an <span class="s_p_color2">application </span> meant to transform<br/> your online shopping experience.</p>
+                                <div>
+                                    <a type="button" class="btn btn-primary" href="/contactus"><!-- <img src="/website_kanak/static/src/img/odoo_shoppe/btn-monitor.svg" /> --><span>Get a free Trial</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="s_block_2">
+                    <div class="container">
+                        <div class="row s_block_2_1">
+                            <div class="col-lg-11">
+                                <p>Odooshoppe is an Online Shopping Application. It is an Ecommerce Marketplace where vendors can sell their products and customers can choose and buy. This online shopping app is based on the <a href="https://kanakinfosystems.com/blog/react-vs-react-native">React Native Framework</a>. It is a cross-platform <a href="https://kanakinfosystems.com/blog/mobile-app-development-process">mobile application</a>.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="s_block_3">
+                    <div class="container">
+                        <div class="row s_block_3_1">
+                            <div class="col-md-7 b3_center">
+                                <h1>What is so Distinctive<br/> About <span class="s_b_3_color_2">OdooShoppe?</span></h1>
+                                <p >This shopping app is based on <a href="https://kanakinfosystems.com/blog/odoo-review">Odoo Backend</a>. Whatever changes made in Odoo Backend will directly reflect in the Mobile App- Front End.</p>
+                            </div>
+                            <div class="col-md-5">
+                                <img src="/website_kanak/static/src/img/odoo_shoppe/Image2a1.svg" class="img-fluid  s_block_3_img_1" />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="s_block_4 mb16">
+                    <div class="container">
+                        <div class="row s_block_4_1">
+                            <div class="col-md-7">
+                                <p class="easy-head">Easy Management</p>
+                                <p class="s_p_4_1">You will be able to manage your products through putting them in Menus like <span class="s_b_4_color1">Shop by Categories and Shop By Brands.</span> This will help you segregate the products for a smooth surfing and shopping experience. You can add <span class="s_b_4_color1">Advertisement and Promotional Banners</span> to inform your audience and give them the Smart Search option to easily navigate.</p>
+                                <div class="whilte-line-left s_b4_line">    
+                                </div>
+                                <div class="s_b4_book_trail">
+                                    <p class="book-trail-head">Wanna know how odooshoppe works? Book a Trial Now.</p>
+                                    <a type="button" class="btn btn-default white-free-trial s_h_btn" href="/contactus"><img src="/website_kanak/static/src/img/odoo_shoppe/monitor.png" /><span>Get a free Trial</span></a>
+                                </div>
+                            </div>
+                            <div class="col-md-5 img_block_4">
+                                <div class="center_image">
+                                    <img src="/website_kanak/static/src/img/odoo_shoppe/Wood-Hand.svg" class="img-fluid  s_block_4_img_1" />
+
+                                    <img src="/website_kanak/static/src/img/odoo_shoppe/Wood-Hand_2.svg" class="img-fluid  s_block_4_img_2" />
+                                    <img src="/website_kanak/static/src/img/odoo_shoppe/Wooden_Hands_3.svg" class="img-fluid  s_block_4_img_3" />
+                                    <div class="s_block_4_img_big_line"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row s_block_4_2">
+                            <div class="col-md-12">
+                                <div class="whilte-line-left s_b4_line">    
+                                </div>
+                                <div class="s_b4_book_trail text-center">
+                                    <h4 class="book-trail-head">Wanna know how odooshoppe works? Book a Trial Now.</h4>
+                                    <a type="button" class="btn btn-default white-free-trial s_h_btn" href="/contactus"><img src="/website_kanak/static/src/img/odoo_shoppe/monitor.png" /><span>Get a free Trial</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="s_block_5 mt16">
+                    <div class="container">
+                        <div class="row s_block_5_1">
+                            <div class="col-md-7">
+                                <h2>Odoo Backend</h2>
+                                <p class="s_p_5_1">The app is based on the Odoo Backend. This will further help you in integrating the app with <span class="s_b_5_color1">multiple payment methods,</span> you can also perform sales analysis and make decisions which are in best favor of your business. It will also help you in <a href="https://kanakinfosystems.com/odoo-customization-implementation-services"><span class="s_b_5_color1">customizing the app.</span></a> Whatever changes made in the odoo backend will reflect in your app. You can <a href="https://apps.odoo.com/apps/themes/browse?author=Kanak%20Infosystems%20LLP.">pick a theme</a>, you can put your brand logo and make it completely personalized.<br/>
+                                Odoo Backend also helps in making your business <span class="s_b_5_color1">multi-lingual-</span> Opt for the language your customer base uses.</p>
+                                <div class="row mt32px s_block_5_11">
+                                    <div class="col-md-8">
+                                        <h4 class="trial-head">Odooshoppe is fit for every business. Book a Trial Now to find out how.</h4>
+                                    </div>
+                                    <div class="col-md-4 d-flex align-items-center">
+                                        <a type="button" class="btn btn-primary" href="/contactus">Get a free Trial</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-5 img_block_5">
+                                <div class="center_image">
+                                    <img src="/website_kanak/static/src/img/odoo_shoppe/iPhone_13Pro.svg" class="img-fluid  s_block_5_img_1" />
+
+                                    <img src="/website_kanak/static/src/img/odoo_shoppe/iPhone_13_Pro_2.svg" class="img-fluid  s_block_5_img_2" />
+                                    <img src="/website_kanak/static/src/img/odoo_shoppe/iPhone-13-Pro_3.svg" class="img-fluid  s_block_5_img_3" />
+                                    <div class="s_block_4_img_big_line"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row s_block_5_2">
+                            <div class="col-md-4"></div>
+                        </div>
+                    </div>
+                </section>
+                <section class="s_block_6">
+                    <div class="container">
+                        <div class="row s_block_6_1">
+                            <div class="col-md-7">
+                                <h3>Transform Your Way of Business</h3>
+                                <p class="s_p_6_1">Online businesses are making a breakthrough. It provides you and your customer with a sense of convenience that you can run your business from anywhere and your customers can shop from anywhere. You will be able to display all your product collections, out of which, your customers can choose and decide to buy.</p>
+                                <div class="row s_block_6_1_1 mt100px">
+                                    <div class="col-md-6"></div>
+                                </div>
+                                <div class="row mt32px s_block_6_1_2">
+                                    <div class="col-md-12 text-center">
+                                        <p class="trial-head">Explore the huge possibilities of Odooshoppe for your business by Booking a free trial now.</p>
+                                    </div>
+                                    <div class="col-md-12 text-center">
+                                        <a type="button" class="btn btn-default light-blue-free-trial s_h_btn" href="/contactus"><img src="/website_kanak/static/src/img/odoo_shoppe/btn-monitor.svg" /><span>Get a free Trial</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-5 img_block_6">
+                                <div class="center_image">
+                                    <img src="/website_kanak/static/src/img/odoo_shoppe/MacBook_Pro_6.svg" class="img-fluid  s_block_6_img_1" />
+
+                                    <img src="/website_kanak/static/src/img/odoo_shoppe/MacBook_Pro_17.svg" class="img-fluid  s_block_6_img_2" />
+                                    <img src="/website_kanak/static/src/img/odoo_shoppe/MacBook Pro 16.svg" class="img-fluid  s_block_6_img_3" />
+                                    <div class="s_block_4_img_big_line"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row s_block_6_2">
+                            <div class="row s_block_6_2_1 mt100px">
+                                <div class="col-3"></div>
+                            </div>
+                            <div class="row mt32px s_block_6_2_2">
+                                <div class="col-md-12 text-center">
+                                    <h4>Explore the huge possibilities of Odooshoppe for your business by Booking a free trial now.</h4>
+                                </div>
+                                <div class="col-md-12 text-center">
+                                    <a type="button" class="btn btn-default light-blue-free-trial s_h_btn" href="/contactus"><img src="/website_kanak/static/src/img/odoo_shoppe/btn-monitor.svg" /><span>Get a free Trial</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="s_block_7 odoo_shoppe_slider">
+                    <div class="container">
+                        <div class="row s_block_7_1">
+                            <div class="col-md-12 s_block_7_1_text"><p class="slider-head">More Features</p></div>
+                        </div>
+                        <div class="shoppe_slider owl-carousel owl-theme">
+                            <div class="item">
+                                <div class="card card_1 text-center">
+                                    <div class="row">
+                                        <div class="col-md-12 spacing1">
+                                            <p class="card-head">Burger Menu</p>
+                                        </div>
+                                        <div class="col-md-12 card_img">
+                                            <img src="/website_kanak/static/src/img/odoo_shoppe/card_1_img.png"  />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="card card_2 text-center">
+                                    <div class="row">
+                                        <div class="col-md-12 spacing1">
+                                            <p class="card-head">Delivery Method</p>
+                                        </div>
+                                        <div class="col-md-12 card_img">
+                                            <img src="/website_kanak/static/src/img/odoo_shoppe/card_img_2_1.png"  />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="card card_3 text-center">
+                                    <div class="row">
+                                        <div class="col-md-12 spacing1">
+                                            <p class="card-head">Personal Information</p>
+                                        </div>
+                                        <div class="col-md-12 card_img">
+                                            <img src="/website_kanak/static/src/img/odoo_shoppe/card_img_3.png"  />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="card card_4 text-center">
+                                    <div class="row">
+                                        <div class="col-md-12 spacing1">
+                                            <p class="card-head">Language</p>
+                                        </div>
+                                        <div class="col-md-12 card_img">
+                                            <img src="/website_kanak/static/src/img/odoo_shoppe/card_img_4.png"  />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="card card_5 text-center">
+                                    <div class="row">
+                                        <div class="col-md-12 spacing1">
+                                            <p class="card-head">Notification</p>
+                                        </div>
+                                        <div class="col-md-12 card_img">
+                                            <img src="/website_kanak/static/src/img/odoo_shoppe/card_img_5.png"  />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="s_block_8">
+                    <div class="container">
+                        <div class="row mt32px s_block_8_1">
+                            <div class="col-md-12 s_block_8_1_1">
+                                <h4 class="trial-head">Odooshoppe is fit for every business. Book a Trial Now to find out how.</h4>
+                            </div>
+                            <div class="col-md-12 s_block_8_1_2">
+                                <a type="button" class="btn btn-default blue-free-trial s_h_btn" href="/contactus"><img src="/website_kanak/static/src/img/odoo_shoppe/btn-monitor.svg" /><span>Get a free Trial</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="s_block_9">
+                    <div class="container">
+                        <div class="row s_block_9_1">
+                            <div class="col-md-12 s_block_9_1_1 text-center">
+                                <p class="download-head">Download it today!</p>
+                            </div>
+                            <div class="col-md-12 s_block_9_1_2 text-center">
+                                <div class="download_from_appstore">
+                                    <a href="https://apps.apple.com/in/app/odooshoppe/id1664675015"><img src="/website_kanak/static/src/img/odoo_shoppe/app_store.png" /></a>
+                                    <a href="https://play.google.com/store/apps/details?id=com.kanakinfosystems.odooshoppe"><img src="/website_kanak/static/src/img/odoo_shoppe/google_play_store.png" /></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </t>
+    </template>
+</odoo>

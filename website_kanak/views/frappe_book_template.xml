@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <template id="frappe_book_page" name="Frappe Book Page">
+            <t t-call="website.layout">
+                <t t-set="pageName" t-value="'frappe kanak_frappe_book'" />
+                <section id="main-frappe-banner" class="pt32 pb32">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="banner-text">
+                                    <p class="normal-head">Frappe Books<br /><span style="color:red;">Services</span></p>
+                                    <p class="">Your modern desktop book keeping software.</p>
+                                    <a type="button" class="btn btn-default about-geo free-trial" href="/contactus"><span>Book a Free Demo</span></a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 ">
+                                <img src="/website_kanak/static/src/img/frappe_book/frappe-book-banner.webp" class="img-fluid mx-auto" />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="pt16">
+                    <div class="container about-frappe">
+                        <div class="col-lg-12 spoiler">
+                            <h1 class="text-center erp_heading" style="font-weight:bolder;color:#003362;">Introduction About <span style="color:red;">Frappe Books</span></h1>
+                            <div class="hidden-text">
+                                <p class="text-justify para-1">The desktop accounting program Frappe Books is free and open-source. It is a contemporary,
+                                    functional option that is ideal for small enterprises. The tools to manage accounts, invoices,
+                                    customers, and cash flow are available here. You can use this <a href="https://kanakinfosystems.com/blog/types-of-mobile-apps">cross-platform</a> software in the
+                                    same way on Windows, MAC, and Linux because it operates on top of all versions of Windows.
+                                    It supports practically all currencies and GST, and managing accounts and invoicing with it is
+                                    very easy.</p>
+                                <p class="text-justify para-1">Frappe Book is a novel accounting program among the many others available. It uses an
+                                    SQLite database to preserve your data locally, which is advantageous. Additionally, the
+                                    essential tools are present in the software&#39;s user interface (UI), devoid of other unnecessary
+                                    features. Sales, purchases, suppliers, and bills can all be managed using specific tools. You can
+                                    easily produce invoices or bill customers by creating a list of them in it and filling in all the
+                                    necessary information, including images. Furthermore, it offers custom taxing, enabling you to
+                                    specify a certain taxing choice when billing clients.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="frappe-feature">
+                    <div class="container">
+                        <div class="row pt16 pb16">
+                            <h2 class="mt16 mb16 frappe-head">Frappe Books <span style="color:red;">Features</span></h2>
+                            <div class="col-md-4 frappe-main">
+                                <div class="frappe-detail">
+                                    <table>
+                                        <tr>
+                                            <td width="14%" class="position-relative">
+                                                <div class="frappe-img img-cross"></div>
+                                            </td>
+                                            <td>
+                                                <p class="frappe-detail-head">Cross-Platform</p>
+                                                <hr style="color:#05416b;" />
+                                                <p class="text-justify more">One of the best features is
+                                                    how easily it works on any
+                                                    platform. It is also not that big;
+                                                    you only need to download
+                                                    and start utilizing the
+                                                    application. It&#39;s a nice thing
+                                                    that the database it uses is
+                                                    kept locally.</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="col-md-4 frappe-main">
+                                <div class="frappe-detail">
+                                    <table>
+                                        <tr>
+                                            <td width="14%" class="position-relative">
+                                                <div class="frappe-img img-invoice"></div>
+                                            </td>
+                                            <td>
+                                                <p class="frappe-detail-head">Invoice Templates</p>
+                                                <hr style="color:#05416b;" />
+                                                <p class="text-justify more">Invoice templates are
+                                                    elegant, which you can
+                                                    further alter by adding your
+                                                    brand&#39;s color and logo.</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="col-md-4 frappe-main">
+                                <div class="frappe-detail">
+                                    <table>
+                                        <tr>
+                                            <td width="14%" class="position-relative">
+                                                <div class="frappe-img img-printable"></div>
+                                            </td>
+                                            <td>
+                                                <p class="frappe-detail-head">Printable Invoices</p>
+                                                <hr style="color:#05416b;" />
+                                                <p class="text-justify more">You can immediately print
+                                                    the invoices you generate
+                                                    with this accounting
+                                                    software. You have the
+                                                    option of immediately printing
+                                                    them or simply saving them
+                                                    as PDF files.</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 frappe-main">
+                                <div class="frappe-detail">
+                                    <table>
+                                        <tr>
+                                            <td width="14%" class="position-relative">
+                                                <div class="frappe-img img-financial"></div>
+                                            </td>
+                                            <td>
+                                                <p class="frappe-detail-head">Financial Reports</p>
+                                                <hr style="color:#05416b;" />
+                                                <p class="text-justify more">Standard financial reports like
+                                                    a profit and loss statement,
+                                                    trial balance, and balance
+                                                    sheet are included with Frappe
+                                                    Books.</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="col-md-4 frappe-main">
+                                <div class="frappe-detail">
+                                    <table>
+                                        <tr>
+                                            <td width="14%" class="position-relative">
+                                                <div class="frappe-img img-offline"></div>
+                                            </td>
+                                            <td>
+                                                <p class="frappe-detail-head">Works Offline</p>
+                                                <hr style="color:#05416b;" />
+                                                <p class="text-justify more">When you produce invoices
+                                                    in Frappe Books, it saves
+                                                    them locally on your
+                                                    computer in a local file.</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="col-md-4 frappe-main">
+                                <div class="frappe-detail">
+                                    <table>
+                                        <tr>
+                                            <td width="14%" class="position-relative">
+                                                <div class="frappe-img img-detail-financial"></div>
+                                            </td>
+                                            <td>
+                                                <p class="frappe-detail-head">Detailed Financial Reports</p>
+                                                <hr style="color:#05416b;" />
+                                                <p class="text-justify more">You can get answers to
+                                                    basic questions concerning
+                                                    total expenses, credit,
+                                                    balance sheet, profit &amp; loss,
+                                                    and general ledger in a part
+                                                    of the software devoted to
+                                                    reports.</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 frappe-main">
+                                <div class="frappe-detail">
+                                    <table>
+                                        <tr>
+                                            <td width="14%" class="position-relative">
+                                                <div class="frappe-img img-detail"></div>
+                                            </td>
+                                            <td>
+                                                <p class="frappe-detail-head">Detailed Dashboard</p>
+                                                <hr style="color:#05416b;" />
+                                                <p class="text-justify more">You can see a graphic
+                                                    representation of cash inflow
+                                                    and outflow from the
+                                                    dashboard. In addition to this,
+                                                    the software&#39;s dashboard
+                                                    displays a lot more
+                                                    information, such as earnings
+                                                    and losses, the highest-
+                                                    ranking expenses, and tools
+                                                    for swiftly creating sales and
+                                                    purchase invoices.</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="col-md-4 frappe-main">
+                                <div class="frappe-detail">
+                                    <table>
+                                        <tr>
+                                            <td width="14%" class="position-relative">
+                                                <div class="frappe-img img-journal"></div>
+                                            </td>
+                                            <td>
+                                                <p class="frappe-detail-head">Journal Entries</p>
+                                                <hr style="color:#05416b;" />
+                                                <p class="text-justify more">Keep track of ad hoc
+                                                    accounting entries for
+                                                    expenses, openings, and
+                                                    bank transfers.</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="col-md-4 frappe-main">
+                                <div class="frappe-detail">
+                                    <table>
+                                        <tr>
+                                            <td width="14%" class="position-relative">
+                                                <div class="frappe-img img-inventory-item"></div>
+                                            </td>
+                                            <td>
+                                                <p class="frappe-detail-head">Create An Inventory Of Items</p>
+                                                <hr style="color:#05416b;" />
+                                                <p class="text-justify more">You can build unique things
+                                                    using the software for both
+                                                    sales and purchases. An
+                                                    item can be created instantly
+                                                    while making an invoice. You
+                                                    can construct every item in
+                                                    advance using a user-
+                                                    friendly interface and all the
+                                                    necessary information,
+                                                    including tax, price, units,
+                                                    and other parameters.</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 frappe-main">
+                                <div class="frappe-detail">
+                                    <table>
+                                        <tr>
+                                            <td width="14%" class="position-relative">
+                                                <div class="frappe-img img-portable"></div>
+                                            </td>
+                                            <td>
+                                                <p class="frappe-detail-head">Portable</p>
+                                                <hr style="color:#05416b;" />
+                                                <p class="text-justify more">Frappe Books stores its data
+                                                    in a simple file format using
+                                                    the portable SQLite database.</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="col-md-4 frappe-main">
+                                <div class="frappe-detail">
+                                    <table>
+                                        <tr>
+                                            <td width="14%" class="position-relative">
+                                                <div class="frappe-img img-customization"></div>
+                                            </td>
+                                            <td>
+                                                <p class="frappe-detail-head">Customization</p>
+                                                <hr style="color:#05416b;" />
+                                                <p class="text-justify more">Several modification choices
+                                                    are provided in the software
+                                                    settings that you may find
+                                                    appealing. You can
+                                                    customize the invoices you
+                                                    produce in it by changing the
+                                                    typeface, invoice template,
+                                                    date format, and whether to
+                                                    include your logo.</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="col-md-4 frappe-main">
+                                <div class="frappe-detail">
+                                    <table>
+                                        <tr>
+                                            <td width="14%" class="position-relative">
+                                                <div class="frappe-img img-privacy"></div>
+                                            </td>
+                                            <td>
+                                                <p class="frappe-detail-head">Privacy By Default</p>
+                                                <hr style="color:#05416b;" />
+                                                <p class="text-justify more">Since Frappe Books is a
+                                                    local app, you are entitled to
+                                                    free data ownership and
+                                                    privacy.</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="mob-feature">
+                    <h2 class="mt16 mb16 frappe-head text-center">Frappe Books <span class="red">Features</span></h2>
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="frappe-main">
+                                <div class="frappe-detail">
+                                    <ul>
+                                        <li>
+                                            <div class="frappe-img img-cross"></div>
+                                        </li>
+                                        <li>
+                                            <p class="frappe-detail-head">Cross-Platform</p>
+                                            <hr style="color:#05416b;" />
+                                        </li>
+                                    </ul>
+                                    <p class="text-justify more">One of the best features is
+                                        how easily it works on any
+                                        platform. It is also not that big;
+                                        you only need to download
+                                        and start utilizing the
+                                        application. It&#39;s a nice thing
+                                        that the database it uses is
+                                        kept locally.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="frappe-main">
+                                <div class="frappe-detail">
+                                    <ul>
+                                        <li>
+                                            <div class="frappe-img img-invoice"></div>
+                                        </li>
+                                        <li>
+                                            <p class="frappe-detail-head">Invoice Templates</p>
+                                            <hr style="color:#05416b;" />
+                                        </li>
+                                    </ul>
+                                    <p class="text-justify more">Invoice templates are
+                                        elegant, which you can
+                                        further alter by adding your
+                                        brand&#39;s color and logo.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="frappe-main">
+                                <div class="frappe-detail">
+                                    <ul>
+                                        <li>
+                                            <div class="frappe-img img-printable"></div>
+                                        </li>
+                                        <li>
+                                            <p class="frappe-detail-head">Printable Invoices</p>
+                                            <hr style="color:#05416b;" />
+                                        </li>
+                                    </ul>
+                                    <p class="text-justify more">You can immediately print
+                                        the invoices you generate
+                                        with this accounting
+                                        software. You have the
+                                        option of immediately printing
+                                        them or simply saving them
+                                        as PDF files.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="frappe-main">
+                                <div class="frappe-detail">
+                                    <ul>
+                                        <li>
+                                            <div class="frappe-img img-financial"></div>
+                                        </li>
+                                        <li>
+                                            <p class="frappe-detail-head">Financial Reports</p>
+                                            <hr style="color:#05416b;" />
+                                        </li>
+                                    </ul>
+                                    <p class="text-justify more">Standard financial reports like
+                                        a profit and loss statement,
+                                        trial balance, and balance
+                                        sheet are included with Frappe
+                                        Books.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="frappe-main">
+                                <div class="frappe-detail">
+                                    <ul>
+                                        <li>
+                                            <div class="frappe-img img-offline"></div>
+                                        </li>
+                                        <li>
+                                            <p class="frappe-detail-head">Works Offline</p>
+                                            <hr style="color:#05416b;" />
+                                        </li>
+                                    </ul>
+                                    <p class="text-justify more">When you produce invoices
+                                        in Frappe Books, it saves
+                                        them locally on your
+                                        computer in a local file.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="frappe-main">
+                                <div class="frappe-detail">
+                                    <ul>
+                                        <li>
+                                            <div class="frappe-img img-detail-financial"></div>
+                                        </li>
+                                        <li>
+                                            <p class="frappe-detail-head">Detailed Financial Reports</p>
+                                            <hr style="color:#05416b;" />
+                                        </li>
+                                    </ul>
+                                    <p class="text-justify more">You can get answers to
+                                        basic questions concerning
+                                        total expenses, credit,
+                                        balance sheet, profit &amp; loss,
+                                        and general ledger in a part
+                                        of the software devoted to
+                                        reports.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="frappe-main">
+                                <div class="frappe-detail">
+                                    <ul>
+                                        <li>
+                                            <div class="frappe-img img-detail"></div>
+                                        </li>
+                                        <li>
+                                            <p class="frappe-detail-head">Detailed Dashboard</p>
+                                            <hr style="color:#05416b;" />
+                                        </li>
+                                    </ul>
+                                    <p class="text-justify more">You can see a graphic
+                                        representation of cash inflow
+                                        and outflow from the
+                                        dashboard. In addition to this,
+                                        the software&#39;s dashboard
+                                        displays a lot more
+                                        information, such as earnings
+                                        and losses, the highest-
+                                        ranking expenses, and tools
+                                        for swiftly creating sales and
+                                        purchase invoices.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="frappe-main">
+                                <div class="frappe-detail">
+                                    <ul>
+                                        <li>
+                                            <div class="frappe-img img-journal"></div>
+                                        </li>
+                                        <li>
+                                            <p class="frappe-detail-head">Journal Entries</p>
+                                            <hr style="color:#05416b;" />
+                                        </li>
+                                    </ul>
+                                    <p class="text-justify more">Keep track of ad hoc
+                                        accounting entries for
+                                        expenses, openings, and
+                                        bank transfers.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="frappe-main">
+                                <div class="frappe-detail">
+                                    <ul>
+                                        <li>
+                                            <div class="frappe-img img-inventory-item"></div>
+                                        </li>
+                                        <li>
+                                            <p class="frappe-detail-head">Create An Inventory Of Items</p>
+                                            <hr style="color:#05416b;" />
+                                        </li>
+                                    </ul>
+                                    <p class="text-justify more">You can build unique things
+                                        using the software for both
+                                        sales and purchases. An
+                                        item can be created instantly
+                                        while making an invoice. You
+                                        can construct every item in
+                                        advance using a user-
+                                        friendly interface and all the
+                                        necessary information,
+                                        including tax, price, units,
+                                        and other parameters.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="frappe-main">
+                                <div class="frappe-detail">
+                                    <ul>
+                                        <li>
+                                            <div class="frappe-img img-portable"></div>
+                                        </li>
+                                        <li>
+                                            <p class="frappe-detail-head">Portable</p>
+                                            <hr style="color:#05416b;" />
+                                        </li>
+                                    </ul>
+                                    <p class="text-justify more">Frappe Books stores its data
+                                        in a simple file format using
+                                        the portable SQLite database.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="frappe-main">
+                                <div class="frappe-detail">
+                                    <ul>
+                                        <li>
+                                            <div class="frappe-img img-customization"></div>
+                                        </li>
+                                        <li>
+                                            <p class="frappe-detail-head">Customization</p>
+                                            <hr style="color:#05416b;" />
+                                        </li>
+                                    </ul>
+                                    <p class="text-justify more">Several modification choices
+                                        are provided in the software
+                                        settings that you may find
+                                        appealing. You can
+                                        customize the invoices you
+                                        produce in it by changing the
+                                        typeface, invoice template,
+                                        date format, and whether to
+                                        include your logo.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="frappe-main">
+                                <div class="frappe-detail">
+                                    <ul>
+                                        <li>
+                                            <div class="frappe-img img-privacy"></div>
+                                        </li>
+                                        <li>
+                                            <p class="frappe-detail-head">Privacy By Default</p>
+                                            <hr style="color:black;" />
+                                        </li>
+                                    </ul>
+                                    <p class="text-justify more">Since Frappe Books is a
+                                        local app, you are entitled to
+                                        free data ownership and
+                                        privacy.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div><br />
+                </section>
+                <br />
+                <section>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-3 col-2">
+                            </div>
+                            <div class="col-md-9 col-sm-9 col-10 why-frappe-main">
+                                <div class="why-frappe col-md-3 col-sm-2 col-4 col-lg-3">
+                                    <h2 class="new_heading" style="font-weight:bolder;color:#003362;margin-top:10px;">Why Frappe <span style="color:red;">Books?</span></h2>
+                                </div>
+                                <div class="why-frappe-part col-md-10 col-sm-10 col-12 col-lg-12">
+                                    <p class="text-center">These days, it&#39;s hard to find desktop software that works offline. Especially so for offline <a href="https://kanakinfosystems.com/blog/freshbooks-vs-frappebooks-desktop-accounting-software-comparison">accounting software</a>. For this reason, we require Frappe Books.</p>
+                                    <div class="row why-frappe-detail">
+                                        <div class="col-md-6 col-6">
+                                            <div class="why-frappe-implement">
+                                                <img src="/website_kanak/static/src/img/frappe_book/why-icon-one.svg" class="img-responsive center-block" />
+                                                <p>Local App, Local Database</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-6">
+                                            <div class="why-frappe-implement">
+                                                <img src="/website_kanak/static/src/img/frappe_book/why-icon-two.svg" class="img-responsive center-block" />
+                                                <p>Simple and Clean User Interface</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-6">
+                                            <div class="why-frappe-implement">
+                                                <img src="/website_kanak/static/src/img/frappe_book/why-icon-three.svg" class="img-responsive center-block" />
+                                                <p>Insightful Financial Reports</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-6">
+                                            <div class="why-frappe-implement">
+                                                <img src="/website_kanak/static/src/img/frappe_book/why-icon-four.svg" class="img-responsive center-block" />
+                                                <p>Free and Open Source</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section><br />
+                <section class="build-principal pt16 pb16">
+                    <div class="container">
+                        <p class="build-head">Built On <span style="color:red;"> Principles</span></p>
+                        <div class="row">
+                            <div class="col-md-10 col-md-offset-1 mt16">
+                                <div class="mb16">
+                                    <ul class="flip">
+                                        <li><img src="/website_kanak/static/src/img/frappe_book/desktop-first.svg" class="img-responsive center-block" /></li>
+                                        <li>
+                                            <p class="principle-head">Desktop First</p>
+                                        </li>
+                                    </ul>
+                                    <p class="panel">Frappe Books operate on your computer.The use of it is not dependent on an internet connection.</p>
+                                </div>
+                                <div class="mb16">
+                                    <ul class="flip">
+                                        <li><img src="/website_kanak/static/src/img/frappe_book/no-cloud.svg" class="img-responsive center-block" /></li>
+                                        <li>
+                                            <p class="principle-head">No Cloud</p>
+                                        </li>
+                                    </ul>
+                                    <p class="panel">Frappe Books is independent of the cloud. You will know the situation if a <a href="https://kanakinfosystems.com/blog/best-cloud-server-for-small-business">cloud service provider</a> suspends operations.</p>
+                                </div>
+                                <div class="mb16">
+                                    <ul class="flip">
+                                        <li><img src="/website_kanak/static/src/img/frappe_book/privacy-principal.svg" class="img-responsive center-block" /></li>
+                                        <li>
+                                            <p class="principle-head">Privacy</p>
+                                        </li>
+                                    </ul>
+                                    <p class="panel">On your computer, Frappe Books keeps
+                                        your info. Your private financial
+                                        information does not have to be
+                                        disclosed.</p>
+                                </div>
+                                <div class="mb16">
+                                    <ul class="flip">
+                                        <li><img src="/website_kanak/static/src/img/frappe_book/open-source.svg" class="img-responsive center-block" /></li>
+                                        <li>
+                                            <p class="principle-head">Free and Open Source</p>
+                                        </li>
+                                    </ul>
+                                    <p class="panel">It&#39;s free and open source to use Frappe Books.
+                                        You are free to see its source code, alter it,
+                                        and even release for-profit variants of it.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="container">
+                        <h3 class="text-center erpnext-team-head">From The ERPNext Team <span style="color:red;">At Kanak Infosystems</span></h3>
+                        <p class="text-center text-justify para-2">We have been providing business software for more than ten years. Incorporating the most significant features of our flagship product <a href="https://kanakinfosystems.com/erpnext-services">ERPNext</a>, we developed a straightforward solution that excels at accounting by learning from our mistakes. We have a potent group of leading software experts who provide our customers with feature-rich, reliable, and <a href="https://kanakinfosystems.com/erp-solutions">cost-effective ERP solutions</a>. The combination of superior technical skill and competitive pricing is something that our staff takes great pride in. Value-added functionality and sophisticated, user-friendly interfaces are highly valued features of our systems.</p>
+                    </div>
+                </section>
+                <section>
+                    <div class="container">
+                        <div class="faq_border mb32" style="border: 1px solid #cec7c7;">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-3 col-md-3 col-sm-3 d-none d-lg-block d-md-block d-sm-block">
+                                    <div class="frequently_border_1 float-end" />
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                                    <p class="fw700 text-center faq-main-head">
+                                        <font style="font-size: 30px;text-transform: uppercase;">
+                                            <span class="dark_blue">frequently asked questions</span>
+                                        </font>
+                                    </p>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-3 d-none d-lg-block d-md-block d-sm-block">
+                                    <div class="frequently_border_2" />
+                                </div>
+                            </div>
+                            <div class="row faq_box">
+                                <div>
+                                    <h4><img id="faq_icon_1" class="faq_button_1 faq_button" src="/website_kanak/static/src/img/frappe_book/drop_down.svg" style="max-width: 40px;" /><strong style="color: #003362;margin-left: 10px;font-size: 19px;line-height: 1.5;" class="faq_button_1">What is Frappe ERP?</strong></h4>
+                                    <div id="faq_1" style="display:none;">
+                                        <p style="margin-top: 20px;margin-left: 40px;"><a href="https://frappe.io/">Frappe Technologies Pvt. Ltd.</a> developed ERPNext, an open-source integrated <a href="https://kanakinfosystems.com/blog/what-is-erp">enterprise resource planning (ERP) system</a> that uses Frappe, a Python server-side framework.</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h4><img class="faq_button faq_button_2" id="faq_icon_2" src="/website_kanak/static/src/img/frappe_book/drop_down.svg" style="max-width: 40px;" />
+                                        <strong style="color: #003362;margin-left: 10px;font-size: 19px;line-height: 1.5;" class="faq_button_2">What is Frappe in Python?</strong></h4>
+                                    <div id="faq_2" style="display:none;">
+                                        <p style="margin-top: 20px;margin-left: 40px;">Frappe is a full-stack, all-inclusive web framework written in JavaScript and Python that uses
+                                            MariaDB as the database. This framework powers ERPNext. It may be used to create
+                                            database-driven apps and is rather generic.</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h4><img class="faq_button faq_button_3" id="faq_icon_3" src="/website_kanak/static/src/img/frappe_book/drop_down.svg" style="max-width: 40px;" />
+                                        <strong style="color: #003362;margin-left: 10px;font-size: 19px;line-height: 1.5;" class="faq_button_3">What is the difference between Frappe and ERPNext?</strong></h4>
+                                    <div id="faq_3" style="display:none;">
+                                        <p style="margin-top: 20px;margin-left: 40px;">Erpnext is built on the Frappe framework. Frappe can be viewed as a framework, whereas
+                                            Erpnext is an application created with Frappe. Using Frappe, you could create a different
+                                            program named Erpnext-advanced. A collection of modules is called Erpnext.</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h4><img class="faq_button faq_button_4" id="faq_icon_4" src="/website_kanak/static/src/img/frappe_book/drop_down.svg" style="max-width: 40px;" />
+                                        <strong style="color: #003362;margin-left: 10px;font-size: 19px;line-height: 1.5;" class="faq_button_4">Is Frappe a good framework?</strong></h4>
+                                    <div id="faq_4" style="display:none;">
+                                        <p style="margin-top: 20px;margin-left: 40px;">The fact that batteries are included in Frappe Framework is the primary justification for using it.
+                                            Frappe Framework contains several files, including PDFs, emails, SMS, payment receipts, web
+                                            pages, and more.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </t>
+        </template>
+    </data>
+</odoo>

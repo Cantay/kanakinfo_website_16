@@ -1,0 +1,329 @@
+
+.kanak_odoo_integration {
+
+    @media (max-width: 768px) {
+
+        p.tag-line-integration8 {
+            text-align: justify;
+        }
+
+        p.tag-line-integration9 {
+            text-align: justify;
+        }
+
+        p {
+            font-size: 15px;
+            line-height: 140%;
+        }
+
+        h1 {
+            font-size: 22px;
+            padding-top: 11px;
+        }
+
+        h1.tag-line-integration {
+            font-size: 22px;
+            padding-top: 11px;
+        }
+
+        h2.tag-line-integration6 {
+            font-size: 22px;
+            padding-top: 11px;
+        }
+
+        .for-spacing-all {
+            letter-spacing: 0 !important;
+        }
+
+        .contain-integration {
+            .tag-line-integration3 {
+                text-align: justify;
+            }
+
+            span.tag-line-integration5 {
+                text-align: justify;
+            }
+        }
+    }
+
+    @media screen and (max-width: 400px) {
+        #main-odoo-integr-banner {
+            .integr-banner-head {
+                line-height: 1.2;
+                font-size: 22pt;
+            }
+        }
+    }
+
+
+    h1 {
+        font-size: 36px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .container {
+        max-width: 90%;
+    }
+
+    .h1 {
+        font-size: 36px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    #main-odoo-integr-banner {
+        background-image: url(/website_kanak/static/src/img/odoo_integration/integration-Bg.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        
+        .integr-banner-head {
+            color: $color_2;
+            text-transform: uppercase;
+            line-height: 62px;
+            font-size: 52px;
+            font-weight: 900;
+        }
+
+        .container {
+            .row {
+                display: flex;
+                align-items: center;
+
+                img {
+                    max-height: 400px;
+                }
+            }
+        }
+    }
+
+    .red {}
+
+    .center-block {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #main-odoo-inte-banner {
+        .overlay {
+            position: absolute;
+            opacity: .9;
+            transform: scale(1);
+            background-color: $background-color_17;
+            top: 0;
+            bottom: -1px;
+            left: 0;
+            right: -1px;
+            -webkit-transform: scale(1);
+        }
+    }
+
+    #parallex-home-odoo-inte2 {
+        >.overlay-ab {
+            top: 0;
+            bottom: -1px;
+            left: 0;
+            right: -1px;
+            -webkit-transform: scale(1);
+            min-height: 220px;
+            transform: scale(1);
+            background-color: $background-color_20;
+        }
+
+        background-image: url(/website_kanak/static/src/img/odoo_integration/intigration-paralx.webp);
+        background-attachment: fixed;
+    }
+
+    .main-new-odoo-imple-banner {
+        text-align: center;
+        padding-top: 200px;
+    }
+
+    .main-new-odoo-themes-banner {
+        text-align: center;
+        padding-top: 200px;
+    }
+
+    .kanak-odoo-themes-bnr1 {
+        font-weight: 700;
+        border-bottom: 1px solid $color_3;
+        font-size: 64px;
+
+    }
+
+    .kanak-odoo-themes-bnr2 {
+        font-weight: 700;
+        border-bottom: 1px solid $color_3;
+        font-size: 64px;
+
+    }
+
+    .workpage-home-work {
+        .fa-chevron-right {
+            font-size: 12px;
+        }
+        background-color: $background-color_18;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        opacity: .5;
+    }
+
+    
+    .contain-integration {
+        >.tag-line-integration {
+            font-weight: bolder;
+
+        }
+
+        >.tag-line-integration2 {
+            color: $color_2;
+            font-weight: bolder;
+            font-size: 20px;
+
+        }
+    }
+
+    .tag-line-integration4 {
+        font-weight: bolder;
+
+        font-size: 19px;
+        background: $background-color_4;
+        border-left: 3px solid $color_1;
+        padding: 15px 20px;
+    }
+
+    .tag-line-integration5 {
+        line-height: 170%;
+        letter-spacing: 1px;
+        font-weight: 400;
+        font-size: 15px;
+
+    }
+
+    .tag-line-integration8 {
+        line-height: 170%;
+        letter-spacing: 1px;
+
+    }
+
+    .tag-line-integration9 {
+        line-height: 170%;
+        letter-spacing: 1px;
+
+    }
+
+    .tag-line-integration6 {
+        font-weight: bolder;
+        color: $border-color_3 !important;
+    }
+
+    .tag-line-integration7 {
+
+        font-size: 16px;
+        font-weight: 700;
+
+        a {}
+    }
+
+    .tag-line-integration10 {
+        font-weight: bolder;
+
+        font-size: 19px;
+        border-bottom: thick solid $color_2;
+        padding-top: 25px;
+        line-height: 170%;
+        letter-spacing: 1px;
+    }
+
+    .parallex-inte-1 {
+        position: relative;
+        min-height: 220px;
+        background: 50% 50%/cover;
+    }
+
+    .inti-last-portion1 {
+        padding-top: 25px;
+    }
+
+    .inti-last-portion2 {
+        padding-top: 25px;
+        line-height: 170%;
+        letter-spacing: 1px;
+    }
+
+    .all-p-in {
+        transition: all .3s ease 0s;
+        background: $color_3;
+        border: 1px solid #ddd;
+        box-shadow: 1px 1px 1px #ddd;
+        font-weight: 700;
+        padding: 18px 10px;
+
+        &:hover {
+            transition: all .3s ease 0s;
+            transform: scale(1.01);
+            -webkit-transform: scale(1.01);
+        }
+    }
+
+    .all-p-in1 {
+        border-left: 4px solid $color_1;
+    }
+
+    .all-p-in2 {
+        border-left: 4px solid $color_24;
+    }
+
+    .all-p-in3 {
+        border-left: 4px solid $color_23;
+    }
+
+    .all-p-in4 {
+        border-left: 4px solid $color_16;
+    }
+
+    .all-p-in5 {
+        border-left: 4px solid $color_1;
+    }
+
+    .all-p-in6 {
+        border-left: 4px solid $color_24;
+    }
+
+    .all-p-in7 {
+        border-left: 4px solid $color_23;
+    }
+
+    .all-p-in8 {
+        border-left: 4px solid $color_16;
+    }
+
+    .all-p-in9 {
+        border-left: 4px solid $color_1;
+    }
+
+    .all-p-in10 {
+        border-left: 4px solid $color_5;
+    }
+
+    .custom_bttn_bgrd {
+        background-color: $color_3;
+        margin-bottom: 1.5em;
+    }
+
+    .block-odoo-themes {
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
+
+    .themes-btn-main {
+        text-align: center;
+    }
+
+    .btn_custom_dev {
+
+        font-size: 19px;
+    }
+}

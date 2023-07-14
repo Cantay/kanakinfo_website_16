@@ -1,0 +1,682 @@
+.kanak_frappe_book {
+
+    .para-1 {
+        font-size: 15px;
+        font-size: 17px;
+        color: $color_11;
+    }
+
+    #main-frappe-banner {
+        background-color: $background-color_26;
+        background: url(/website_kanak/static/src/img/frappe_book/frappe-bg.webp);
+        background-size: 100% 100%;
+        position: relative;
+
+        div.row {
+            display: flex;
+            align-items: center;
+        }
+
+        .banner-text {
+            padding-right: 50pt;
+        }
+
+        .normal-head {
+            color: $color_2;
+            font-size: 36pt;
+            font-weight: 700;
+            margin-bottom: 10px;
+            line-height: 1.1;
+        }
+
+        h1 {
+            margin-top: 0;
+        }
+
+        p {
+            margin: 10pt 0 20pt 0;
+        }
+
+        .btn.free-trial {
+            background: #db4437;
+            margin-right: 0;
+            padding: 6px 12px;
+        }
+
+    }
+
+    .frappe-banner {
+        width: 300px;
+        border-radius: 5px;
+
+        backdrop-filter: blur(21px);
+        border-left: 4px solid $color_25;
+        margin-top: 34%;
+        padding: 5pt 10pt;
+
+        p {
+            font-size: 18pt;
+            font-weight: bold;
+            color: $color_19;
+            margin: 0;
+
+            span {
+                color: $color_1;
+            }
+        }
+    }
+
+    .frappe-feature {
+        display: block;
+        background-color: $background-color_4;
+
+        .frappe-head {
+            font-weight: 900;
+            color: $color_2;
+            font-size: 36px;
+            line-height: 1.1;
+        }
+    }
+
+    .mob-feature {
+        display: none;
+
+        .frappe-head {
+            font-weight: 900;
+            color: $color_2;
+            font-size: 22px;
+            line-height: 1.1;
+        }
+    }
+
+    .frappe-detail {
+        padding: 10pt;
+
+        // ul {
+        //     margin-left: -30pt;
+        //     list-style-type: none;
+
+        //     li {
+        //         display: inline-block;
+
+
+        //     }
+        // }
+
+        .frappe-img {
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100%;
+            height: 30px;
+            width: 30px;
+            position: absolute;
+            top: 10px;
+        }
+
+        .frappe-detail-head {
+            margin: 0;
+            font-weight: 500;
+            color: $color_2;
+            font-size: 20px;
+        }
+
+        hr {
+            width: 30%;
+            margin: 0;
+            padding: 0;
+            border-top: 4px solid black;
+        }
+
+        .img-cross {
+            background-image: url(/website_kanak/static/src/img/frappe_book/cross-platform.svg);
+        }
+
+        .img-invoice {
+            background-image: url(/website_kanak/static/src/img/frappe_book/invoice-template.svg);
+        }
+
+        .img-printable {
+            background-image: url(/website_kanak/static/src/img/frappe_book/printable-invoice.svg);
+        }
+
+        .img-financial {
+            background-image: url(/website_kanak/static/src/img/frappe_book/financial-report.svg);
+        }
+
+        .img-offline {
+            background-image: url(/website_kanak/static/src/img/frappe_book/work-offline.svg);
+        }
+
+        .img-detail-financial {
+            background-image: url(/website_kanak/static/src/img/frappe_book/detail-financial.svg);
+        }
+
+        .img-detail {
+            background-image: url(/website_kanak/static/src/img/frappe_book/detail-dashboard.svg);
+        }
+
+        .img-journal {
+            background-image: url(/website_kanak/static/src/img/frappe_book/journal.svg);
+        }
+
+        .img-inventory-item {
+            background-image: url(/website_kanak/static/src/img/frappe_book/inventory-item.svg);
+        }
+
+        .img-portable {
+            background-image: url(/website_kanak/static/src/img/frappe_book/portable.svg);
+        }
+
+        .img-customization {
+            background-image: url(/website_kanak/static/src/img/frappe_book/customization.svg);
+        }
+
+        .img-privacy {
+            background-image: url(/website_kanak/static/src/img/frappe_book/privacy.svg);
+        }
+
+        p {
+            margin-top: 10pt;
+        }
+    }
+
+    .frappe-main {
+        &:hover {
+            .frappe-detail {
+                background-color: $color_3;
+                border: 1px solid $color_25;
+                border-radius: 5px;
+                cursor: pointer;
+
+                .img-cross {
+                    background-image: url(/website_kanak/static/src/img/frappe_book/cross-platform-blue.svg);
+                }
+
+                .img-invoice {
+                    background-image: url(/website_kanak/static/src/img/frappe_book/invoice-template-blue.svg);
+                }
+
+                .img-printable {
+                    background-image: url(/website_kanak/static/src/img/frappe_book/printable-invoice-blue.svg);
+                }
+
+                .img-financial {
+                    background-image: url(/website_kanak/static/src/img/frappe_book/financial-report-blue.svg);
+                }
+
+                .img-offline {
+                    background-image: url(/website_kanak/static/src/img/frappe_book/work-offline-blue.svg);
+                }
+
+                .img-detail-financial {
+                    background-image: url(/website_kanak/static/src/img/frappe_book/detail-financial-blue.svg);
+                }
+
+                .img-detail {
+                    background-image: url(/website_kanak/static/src/img/frappe_book/detail-dashboard-blue.svg);
+                }
+
+                .img-journal {
+                    background-image: url(/website_kanak/static/src/img/frappe_book/journal-blue.svg);
+                }
+
+                .img-inventory-item {
+                    background-image: url(/website_kanak/static/src/img/frappe_book/inventory-item-blue.svg);
+                }
+
+                .img-portable {
+                    background-image: url(/website_kanak/static/src/img/frappe_book/portable-blue.svg);
+                }
+
+                .img-customization {
+                    background-image: url(/website_kanak/static/src/img/frappe_book/customization-blue.svg);
+                }
+
+                .img-privacy {
+                    background-image: url(/website_kanak/static/src/img/frappe_book/privacy-blue.svg);
+                }
+            }
+        }
+    }
+
+    .why-frappe {
+        position: absolute;
+        background-color: $background-color_26;
+        border-radius: 5px;
+        left: -18%;
+        top: 50%;
+        transform: translateY(-50%);
+        margin: 0 auto;
+        z-index: 1;
+        padding: 10pt;
+    }
+
+    .why-frappe-main {
+        padding-right: 0;
+        position: relative;
+
+        .why-frappe-detail {
+            .why-frappe-implement {
+                img {
+                    display: inline-block;
+                    max-width: 20px;
+
+                }
+
+                p {
+                    display: contents;
+                    vertical-align: middle;
+                    margin: 0;
+                }
+            }
+        }
+    }
+
+    .why-frappe-part {
+        background-color: $background-color_25;
+        margin: 20pt 0;
+        border-radius: 5px;
+        padding: 20pt 40pt;
+
+        .why-frappe-detail {
+            padding: 0 40pt;
+        }
+    }
+
+
+    @media (max-width: 425px) {
+        .why-frappe-part {
+            .why-frappe-detail {
+                padding: 0 20pt;
+            }
+        }
+    }
+
+
+    .why-frappe-implement {
+        padding: 10pt 0;
+    }
+
+    .build-principal {
+        background-color: $background-color_4;
+
+        .build-head {
+            font-weight: 900;
+            color: $color_2;
+            font-size: 36px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            line-height: 1.1;
+            margin-left: 0;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            margin-left: -30pt;
+
+            li {
+                display: inline-block;
+                vertical-align: middle;
+
+                .principle-head {
+                    font-size: 18px;
+                    margin: 0;
+                    margin-left: 5pt;
+                    font-weight: 500;
+                    line-height: 1.1;
+                }
+            }
+        }
+
+        p {
+            vertical-align: middle;
+            margin: 0;
+            margin-left: 24pt;
+            margin-top: 5pt;
+            line-height: 120%;
+        }
+    }
+
+    .erpnext-team-head {
+        font-weight: 900;
+        color: $color_2;
+        font-size: 28px;
+        margin-bottom: 15px;
+        margin-top: 20px;
+        line-height: 1.1;
+    }
+
+    .web-frappe-contactus {
+        p {
+            display: block;
+            color: $color_1;
+        }
+    }
+
+    .morecontent {
+        span {
+            display: none;
+        }
+    }
+
+    .morelink {
+        display: inline-block;
+    }
+
+    .frappe-health-banner {
+        background-image: url(/website_kanak/static/src/img/frappe_book/frappe_healthcare/Frappe-bg.webp);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+
+        .frappe-banner-btn {
+            padding: 5pt 20pt;
+            color: $color_3;
+            border-radius: 5px;
+
+        }
+
+        div {
+            div.row {
+                display: flex;
+                align-items: center;
+            }
+
+            div {
+                div {
+                    &:first-child {
+                        img {
+                            height: 50px;
+                        }
+                    }
+
+                    &:last-child {
+                        padding: 50pt;
+                    }
+                }
+            }
+        }
+    }
+
+    .frappe-intro {
+        .read-more {
+            float: right;
+            margin: 10pt 0;
+        }
+
+        .hidden-text {
+            width: 100%;
+        }
+    }
+
+    .flip {
+        li {
+            img {
+                height: 30px;
+            }
+        }
+    }
+
+    .frappe-health-feature {
+        background-color: $background-color_4;
+
+        hr {
+            margin: 10pt auto;
+            width: 10%;
+            padding: 0;
+            border-top: 4px solid black;
+        }
+
+        h2 {
+            margin-top: 10px;
+            margin-bottom: 0;
+        }
+    }
+
+    .healthcare-main {
+        padding: 10pt;
+
+        .healthcare-main-head {
+            font-size: 18px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-weight: 500;
+            line-height: 1.1;
+        }
+
+        img {
+            height: 50px;
+            width: 50px !important;
+        }
+    }
+
+    .frappe-healthcare-slide {
+        .owl-carousel {
+            height: 270px;
+
+            .owl-nav {
+                position: relative;
+                bottom: 0;
+                margin-top: 50px;
+
+                .owl-next {
+                    position: absolute;
+                    top: unset;
+                    bottom: 0% !important;
+                    left: 8%;
+                    right: 0;
+                    margin: auto;
+                    height: 50px;
+                    width: 50px;
+                    border-radius: 50px;
+                    border: 1px solid #4C466A;
+                    background-color: $background-color_26;
+                    background-image: url(/website_kanak/static/src/img/v3/home/exp_solution/right.svg);
+                    background-repeat: no-repeat;
+                    background-size: 40%;
+                    background-position: center;
+                }
+
+                .owl-prev {
+                    position: absolute;
+                    top: unset;
+                    bottom: 0% !important;
+                    left: 0;
+                    right: 8%;
+                    margin: auto;
+                    height: 50px;
+                    width: 50px;
+                    border-radius: 50px;
+                    border: 1px solid #4C466A;
+                    background-color: $background-color_26;
+                    background-image: url(/website_kanak/static/src/img/v3/home/exp_solution/left.svg);
+                    background-repeat: no-repeat;
+                    background-size: 40%;
+                    background-position: center;
+                }
+            }
+        }
+    }
+
+    .benefit-frappe {
+        h3 {
+            font-size: 28px;
+            color: $color_2;
+            font-weight: 900;
+        }
+
+        .benefit-frappe-head {
+            font-size: 18px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-weight: 500;
+            line-height: 1.1;
+        }
+    }
+
+    .frappe-erpnext-team {
+        h3 {
+            font-size: 28px;
+            color: $color_2;
+            font-weight: 900;
+        }
+    }
+
+    .geolocation-banner {
+        background-image: url(/website_kanak/static/src/img/geo_location/geo-banner.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: right top;
+
+        height: 450px;
+        display: flex;
+        align-items: center;
+
+        .geo-banner-head {
+            font-weight: 900;
+            color: $color_2;
+            font-size: 36px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            line-height: 1.1;
+        }
+
+        .animate-h1 {
+            text-align: left;
+            color: $color_25;
+            font-weight: 600;
+            margin-bottom: 0;
+            font-size: 36px;
+            margin-top: 20px;
+            display: inline-block;
+        }
+
+        .animate-typing {
+            display: inline-block;
+            color: $color_2;
+            font-weight: 600;
+            font-size: 36px;
+        }
+
+        .animate-undeline {
+            color: $color_2;
+            text-decoration: underline;
+            margin-top: 0;
+        }
+
+        h3 {
+            color: $color_2;
+        }
+
+        ul {
+            margin-left: -15pt;
+
+            li {
+                color: $color_25;
+
+                p {
+                    color: $color_25;
+                }
+            }
+        }
+    }
+
+    .geo-mob-banner {
+        display: none;
+    }
+
+    .btn.free-trial {
+
+        border-radius: 64px;
+        color: $color_3;
+        margin-right: 20pt;
+        padding: 10pt 20pt;
+        margin-top: 20pt;
+
+        img {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        span {
+            display: inline-block;
+            vertical-align: middle;
+        }
+    }
+
+    .find-app.free-trial {
+        background: #FFFFFF;
+        color: $color_25;
+
+        border-radius: 64px;
+    }
+
+    #c1 {
+        display: block;
+        position: absolute;
+        left: 0px;
+        margin-top: 5pt;
+
+        img {
+            height: 70px;
+        }
+    }
+
+    #c2 {
+        display: block;
+        position: absolute;
+        right: 0px;
+        margin-top: 5pt;
+
+        img {
+            height: 70px;
+        }
+    }
+
+    .frequently_border_1 {
+        width: 50%;
+        margin-top: 1rem;
+        border-top: 4px solid red;
+    }
+
+    .frequently_border_2 {
+        width: 50%;
+        margin-top: 1rem;
+        border-top: 4px solid red;
+    }
+
+    .faq-main-head {
+        color: $color_2;
+        font-size: 28px !important;
+        margin-bottom: 15px;
+        margin-top: 0;
+        line-height: 1.1;
+    }
+
+    .faq_border {
+        border: 1px solid #cec7c7;
+        padding: 20pt;
+    }
+
+    .fw700 {
+        font-weight: 700;
+    }
+
+    .faq_button {
+        display: inline-block;
+        height: 30px;
+        padding: 0;
+        margin: 0;
+        vertical-align: top;
+        border: unset;
+        background: unset;
+
+        img {
+            display: block;
+            height: 30px;
+            width: 150px;
+            cursor: pointer;
+        }
+    }
+}

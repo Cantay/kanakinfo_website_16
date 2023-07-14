@@ -1,0 +1,231 @@
+
+.kanak_odoo_Implementation {
+
+    .workpage-home-work {
+        .fa-chevron-right {
+            font-size: 12px;
+        }
+        background-color: $background-color_18;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        opacity: .5;
+    }
+
+    #main-odoo-impl-banner {
+        background-image: url(/website_kanak/static/src/img/odoo_Implementation/implementation-Bg.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        .container {
+            .row {
+                display: flex;
+                align-items: center;
+
+                img {
+                    max-height: 400px;
+                }
+            }
+        }
+
+        .impl-banner-head {
+            color: $color_10;
+            line-height: 1.2;
+            font-size: 52px;
+            font-weight: 900;
+        }
+
+        .d-xs-none {
+            display: block;
+        }
+    }
+
+    #follow_step {
+        background-image: url(/website_kanak/static/src/img/odoo_Implementation/Line.png);
+        background-repeat: no-repeat;
+        background-position: top;
+        padding-top: 20pt;
+
+        .col-lg-6 {
+            div {
+                background-color: white;
+                padding: 10pt;
+                height: 160px;
+                margin-top: 20pt;
+                box-shadow: 1px 1px 5px 1px;
+
+                .follow-head {
+                    font-size: 18px !important;
+                    margin-top: 0 !important;
+                    font-weight: 500 !important;
+                    color: $color_2;
+                    margin-bottom: 15px;
+                    line-height: 1.1;
+                }
+
+                p {
+                    line-height: 1.2 !important;
+                }
+            }
+        }
+    }
+
+    #odoo_includes {
+        div {
+            .include-head {
+                font-size: 22px !important;
+                font-weight: 700 !important;
+                color: $color_2;
+                margin: 20px 0 15px 0;
+                line-height: 1.1;
+            }
+
+            p {
+                line-height: 1.2 !important;
+            }
+        }
+    }
+
+    #odoo_services {
+        .col-lg-4 {
+            padding: 10pt;
+
+            div {
+                background-color: #fbfbfb;
+                padding: 10pt;
+                height: 220px;
+                box-shadow: 1px 1px 5px 1px;
+
+                img {
+                    height: 60px;
+                }
+
+                .service-head {
+                    font-size: 18px !important;
+                    font-weight: 500 !important;
+                    color: $color_2;
+                    margin: 20px 0 15px 0;
+                    line-height: 1.1;
+                    text-align: center;
+                }
+
+                p {
+                    line-height: 1.2 !important;
+                }
+            }
+        }
+    }
+
+    .frequently_border_1 {
+        width: 50%;
+        margin-top: 1rem;
+        border-top: 4px solid red;
+    }
+
+    .frequently_border_2 {
+        width: 50%;
+        margin-top: 1rem;
+        border-top: 4px solid red;
+    }
+
+    .faq-main-head {
+        color: $color_2;
+        font-size: 28px !important;
+        margin-bottom: 15px;
+        margin-top: 0;
+        line-height: 1.1;
+    }
+
+    .faq_border {
+        border: 1px solid #cec7c7;
+        padding: 20pt;
+    }
+
+    .fw700 {
+        font-weight: 700;
+    }
+
+    .faq_button {
+        display: inline-block;
+        height: 30px;
+        padding: 0;
+        margin: 0;
+        vertical-align: top;
+        border: unset;
+        background: unset;
+
+        img {
+            display: block;
+            height: 30px;
+            width: 150px;
+            cursor: pointer;
+        }
+    }
+
+    #odoo_feature {
+        border-radius: 25pt;
+        background-color: $color_2;
+        padding: 10pt;
+        font-size: 30pt;
+        font-weight: bold;
+        margin: 40pt 0;
+    }
+
+    @media only screen and (max-width: 1024px) {
+        #follow_step {
+            .col-lg-6 {
+                div {
+                    height: 190px;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 768px) {
+        p {
+            font-size: 15px;
+            line-height: 140%;
+        }
+
+        #follow_step {
+            background-image: none !important;
+            padding-top: 0pt;
+            .col-lg-6 {
+                div {
+                    height: auto;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 425px) {
+        #main-odoo-impl-banner {
+            .impl-banner-head {
+                line-height: 1.2;
+                font-size: 22pt;
+            }
+        }
+    }
+
+    @media (max-width: 400px) {
+        section {
+            height: auto !important;
+        }
+
+        .parallax {
+            height: auto !important;
+        }
+
+        .row {
+            height: auto !important;
+        }
+
+        .hr {
+            height: auto !important;
+        }
+
+        .blockquote {
+            height: auto !important;
+        }
+    }
+}

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="kanak_blog_post_complete" inherit_id="website_blog.blog_post_complete" name="Blog Post" priority="250">
+        <xpath expr="//t[@t-call='website_blog.index']" position="replace">
+            <t t-call="website.layout">
+                <div id="wrap" class="js_blog website_blog">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 mb16 kanak-breadcrumb">
+                                <span><a href="/">Home</a></span>
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                <span><a href="/blog">Blog</a></span>
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                <span>
+                                    <t t-esc="blog_post.name" /></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-graycolor">
+                        <section class="container">
+                            <div class="row mt48">
+                                <div class="col-lg-8 col-md-8 col-sm-12">
+                                    <article class="mb48 single-article" name="post">
+                                        <img t-att-src="'/website/image/blog.post/%s/banner' % (blog_post.id)" t-att-alt="blog_post.name" t-att-title="blog_post.name" class="blog-feature img img-fluid" />
+                                        <div class="article-detail-box">
+                                            <div class="article-meta">
+                                                <img class="author-avatar" t-attf-src="data:image/*;base64,{{blog_post.author_id.sudo().image_128}}" />
+                                                <span t-esc="blog_post.author_id.sudo().name" />
+                                                <span class="dot-divide">·</span>
+                                                <span t-field="blog_post.post_date" t-options='{"format": "dd MMM yyyy"}' />
+                                                <t t-if="len(blog_post.message_ids) &gt; 0">
+                                                    <span class="dot-divide">·</span>
+                                                    <span>
+                                                        <a href="#comments">
+                                                            <t t-if="len(blog_post.message_ids) &lt;= 1">
+                                                                <t t-esc="len(blog_post.message_ids)" /> comment</t>
+                                                            <t t-if="len(blog_post.message_ids) > 1">
+                                                                <t t-esc="len(blog_post.message_ids)" /> comments</t>
+                                                        </a>
+                                                    </span>
+                                                </t>
+                                                <t t-if="blog_post.visits &gt; 0">
+                                                    <span class="dot-divide">·</span>
+                                                    <span>
+                                                        <t t-esc="blog_post.visits" />
+                                                        <t t-if="blog_post.visits &lt;= 1">view</t>
+                                                        <t t-if="blog_post.visits &gt; 1">views</t>
+                                                    </span>
+                                                </t>
+                                                <t t-if="not blog_post.website_published">
+                                                    <span class="dot-divide">·</span>
+                                                    <span class="label label-danger">unpublished</span>
+                                                </t>
+                                            </div>
+                                        </div>
+                                        <div id="blog_content" t-field="blog_post.content" class="blog_content" />
+                                        <div class="o_blog_post_complete o_sharing_links mt32 mb32">
+                                            <a class="fa fa-twitter-square o_twitter_complete" id="o_twitter_complete"></a>
+                                            <a class="fa fa-facebook-square o_facebook_complete" id="o_facebook_complete"></a>
+                                            <a class="fa fa-linkedin-square o_linkedin_complete" id="o_linkedin_complete"></a>
+                                        </div>
+                                        <h1 class="text-center">Leave a Comment</h1>
+                                        <hr />
+                                        <p style="text-align: center !important;">Your email address will not be published.</p>
+                                        <div class="text-center">
+                                            <button type="button" class="btn-primary btn-lg blog_add_comment">Add Comment</button>
+                                        </div>
+                                        <div class="row add-comment-box pt16 pb16">
+                                            <form action="" method="post" id="blog_post_comment">
+                                                <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()" />
+                                                <input type="hidden" name="blog_post_id" t-att-value="blog_post.id" />
+                                                <div class="form-group form-field row o_website_form_required_custom">
+                                                    <div class="col-md-3 col-sm-4 text-end text-end-not-xs mt16">
+                                                        <label class="control-label" for="description">Comment</label>
+                                                    </div>
+                                                    <div class="col-md-7 col-sm-8">
+                                                        <textarea class="form-control o_website_form_input" rows="5" name="description" required=""></textarea>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group form-field row o_website_form_required_custom">
+                                                    <div class="col-md-3 col-sm-4 text-end text-end-not-xs mt16">
+                                                        <label class="control-label" for="partner_name">Your Name</label>
+                                                    </div>
+                                                    <div class="col-md-7 col-sm-8 mt16">
+                                                        <input type="text" class="form-control o_website_form_input" name="partner_name" required="" />
+                                                    </div>
+                                                </div>
+                                                <div class="form-group form-field row o_website_form_required_custom">
+                                                    <div class="col-md-3 col-sm-4 text-end text-end-not-xs mt16">
+                                                        <label class="control-label" for="partner_email">Your Email</label>
+                                                    </div>
+                                                    <div class="col-md-7 col-sm-8 mt16">
+                                                        <input type="email" class="form-control o_website_form_input" name="partner_email" required="" />
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row">
+                                                    <div class="offset-md-3 offset-sm-4 col-sm-8 col-md-7 mt16">
+                                                        <span class="btn btn-primary btn-lg blog_comment_submit">Submit</span>
+                                                        <span id="o_website_form_result"></span>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div id="blog-comment" class="mt32">
+                                            <div class="alert alert-success">
+                                                <strong>Your comment is under review by our moderation team.</strong>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-8 offset-2 mt16 mb16">
+                                                <table>
+                                                    <tbody>
+                                                        <t t-foreach="request.env['blog.post.comment'].search([('blog_post_id', '=', blog_post.id),('comment_accept','=',True)])" t-as="comment">
+                                                            <div style="margin-top:10pt">
+                                                                <tr>
+                                                                    <td width="10%" style="position:relative">
+                                                                        <div class="profile">
+                                                                            <img class="img img-fluid" src="/website_custome_blog_url/static/src/img/user_blue.png" />
+                                                                        </div>
+                                                                    </td>
+                                                                    <td width="90%">
+                                                                        <div style="display: inline-block;padding-left: 15pt;padding-right: 15pt;padding-bottom: 15pt;vertical-align: top;">
+                                                                            <p style="font-size:14pt;font-weight:bold;line-height: 1.2;margin-bottom:0"><span t-esc="comment.name" /> - <span t-esc="comment.create_date" t-options='{"widget": "date","format": "dd MMM yyyy"}' /></p>
+                                                                            <p style="line-height: 1.2;margin-bottom:0px"><span t-esc="comment.comment_description" /></p>
+                                                                        </div>
+                                                                    </td>
+                                                                </tr>
+                                                            </div>
+                                                        </t>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <t t-set='head'>
+                                            <t t-out='head or ""' />
+                                            <!-- Facebook and linkedin sharing data -->
+                                            <meta property="og:type" content="website" />
+                                            <meta property="og:url" t-att-content="request.httprequest.url" />
+                                            <meta property="og:image" t-attf-content="#{request.httprequest.url_root+blog_post_cover_properties.get('background-image', 'none')[5:-1]}" />
+                                            <meta property="og:description" t-att-content="blog_post.subtitle" />
+                                            <!--  Twitter sharing data -->
+                                            <meta name="twitter:card" content="summary_large_image" />
+                                            <meta name="twitter:site" t-attf-content="@#{res_company.name}" />
+                                            <meta name="twitter:title" t-att-content="blog_post.name" />
+                                            <meta name="twitter:description" t-att-content="blog_post.subtitle" />
+                                            <meta name="twitter:image" t-attf-content="#{request.httprequest.url_root+blog_post_cover_properties.get('background-image', 'none')[5:-1]}" />
+                                            <t t-if="blog_post.custom_json_schema">
+                                                <t t-set="unique_schema" t-value="True" />
+                                                <t t-out="blog_post.json_schema" />
+                                            </t>
+                                        </t>
+                                    </article>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-12" id="blog_right_column">
+                                    <section class="side-section">
+                                        <h4 class="side-heading">Categories</h4>
+                                        <ul class="nav flex-column mt16 knk_list">
+                                            <t t-foreach="request.env['blog.blog'].search([])" t-as="post">
+                                                <li>
+                                                    <a class="nav-link" t-att-href="'/blog/category/%s' % (str(post.blog_url))">
+                                                        <i class="fa fa-angle-right arrow"></i> <span t-field="post.name" />
+                                                    </a>
+                                                </li>
+                                            </t>
+                                        </ul>
+                                    </section>
+                                    <section class="side-section most-views mt48">
+                                        <h4 class="side-heading">Latest Post</h4>
+                                        <ul class="nav flex-column mt16">
+                                            <t t-foreach="request.env['blog.post'].search([('website_published', '=', True)], limit=8, order='id DESC')" t-as="post">
+                                                <li>
+                                                    <i class="fa fa-angle-right arrow"></i>
+                                                    <a class="nav-link" t-att-href="'/blog/%s' % (str(post.url))">
+                                                        <span t-field="post.name" />
+                                                    </a>
+                                                </li>
+                                            </t>
+                                        </ul>
+                                    </section>
+                                    <section class="side-section most-views mt48">
+                                        <h4 class="side-heading">Most Viewed Post</h4>
+                                        <ul class="nav flex-column mt16">
+                                            <t t-foreach="request.env['blog.post'].search([('website_published', '=', True)], limit=8, order='visits DESC')" t-as="post">
+                                                <li>
+                                                    <i class="fa fa-angle-right arrow"></i>
+                                                    <a class="nav-link" t-att-href="'/blog/%s' % (str(post.url))">
+                                                        <span t-field="post.name" />
+                                                    </a>
+                                                </li>
+                                            </t>
+                                        </ul>
+                                    </section>
+                                    <section class="side-section mt48">
+                                        <h4 class="side-heading">Archives</h4>
+                                        <div class="list-group list-group-root archives">
+                                            <t t-foreach="all_nav_list" t-as="year">
+                                                <a t-attf-href="#archives_#{year}" class="list-group-item text-decoration-none" role="button" data-bs-toggle="collapse" aria-expanded="false" t-attf-aria-controls="archives_#{year}">
+                                                    <i class="fa fa-angle-right arrow"></i>
+                                                    <t t-esc="year" />
+                                                </a>
+                                                <div class="list-group collapse" t-attf-id="archives_#{year}">
+                                                    <t t-foreach="all_nav_list[year]" t-as="months">
+                                                        <t t-if="months['date_begin'] == date">
+                                                            <a t-ignore="True" class="list-group-item text-decoration-none active" t-att-href="'/blog/%s/%s' % (str(year), str(months['month']))">
+                                                                <t t-esc="months['month']" /> <span class="pull-right badge" t-esc="months['post_date_count']" />
+                                                            </a>
+                                                        </t>
+                                                        <t t-else="1">
+                                                            <a t-ignore="True" class="list-group-item text-decoration-none" t-att-href="'/blog/%s/%s' % (str(year), str(months['month']))">
+                                                                <t t-esc="months['month']" /> <span class="pull-right badge" t-esc="months['post_date_count']" />
+                                                            </a>
+                                                        </t>
+                                                    </t>
+                                                </div>
+                                            </t>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </t>
+        </xpath>
+    </template>
+</odoo>

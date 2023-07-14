@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="geomarking_page" name="Geomarking Page">
+        <t t-call="website.layout">
+            <t t-set="pageName" t-value="'geomarking kanak_geomarking'"/>
+            <section class="geolocation-banner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p class="geo-banner-head">GeoMarking</p>
+                            <p class="animate-h1">Punch In:&amp;nbsp; <span>
+                                    <div class="animate-typing" data-animate-loop="true" data-type-speed="200" data-type-delay="200" data-remove-speed="50" data-remove-delay="500" data-cursor-speed="200">
+                                        Home |
+                                        Office |
+                                    </div>
+                                </span></p>
+                            <p class="animate-undeline">In Location, On Time</p>
+                            <ul>
+                                <li>
+                                    <p>An app which is Biometric &amp; Analytical.</p>
+                                </li>
+                                <li>
+                                    <p>Two-Factor Authentication.</p>
+                                </li>
+                                <li>
+                                    <p>Tracking Attendance is now hassle-free, no chances of Proxies.</p>
+                                </li>
+                            </ul>
+                            <a type="button" class="btn btn-secondary free-trial" href="/contactus"><img src="/website_kanak/static/src/img/geomarking/btn-monitor.svg" />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<span>Get a free Trial</span></a>
+                            <!-- <a type="button" class="btn btn-secondary free-trial" href="/contactus" data-toggle="modal" data-target="#geoModal"><img src="/website_kanak/static/src/img/geomarking/btn-monitor.svg" />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<span>Get a free Trial</span></a> -->
+                                    
+                            <a href="https://play.google.com/store/apps/details?id=com.kanak.attendance&amp;hl=en_GB&amp;gl=US" type="button" class="btn btn-default find-app free-trial"><img src="/website_kanak/static/src/img/geomarking/btn-app.svg" />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<span>Find Our APP</span></a>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="/website_kanak/static/src/img/geomarking/geo-banner-mob.webp" class="img-fluid mx-auto geo-mob-banner" />
+                        </div>
+                    </div>
+                </div>
+                <div id="geoModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                        <!-- Modal content-->
+                        <div class="modal-content geo-modal-main">
+                            <div class="modal-header">
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-6 col-10">
+                                        <h4 class="text-center modal-title">Signup Here For Demo</h4>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-2">
+                                        <button type="button" class="btn btn-secondary float-end modal-close" data-dismiss="modal">X</button>
+                                    </div>
+                                </div>                                
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-12">
+                                        <form action="/geomarking"  method="post" class="form-horizontal">
+                                            <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label class="control-label" for="name">Name:</label>
+                                                    <input type="text" class="form-control" name="name" id="name" placeholder="Your Name" required=""/>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label class="control-label" for="email">Email</label>
+                                                    <input type="email" class="form-control custom-input" name="email" id="email" placeholder="Email" required=""/>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label class="control-label" for="mobile">Mobile Number</label>
+                                                    <input type="text" class="form-control" name="mobile" id="mobile" placeholder="Mobile Number" required=""/>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label class="control-label" for="industry">Industry</label>
+                                                    <select id="industry" name="industry" class="form-control custom-input" required="">
+                                                        <option>E-Commerce</option>
+                                                        <option>Healthcare</option>
+                                                        <option>Retail</option>
+                                                        <option>Telecom</option>
+                                                        <option>IT</option>
+                                                        <option>Hospitality</option>
+                                                        <option>Education</option>
+                                                        <option>Other</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label class="control-label" for="role">Role</label>
+                                                    <input type="text" class="form-control" name="role" id="role" placeholder="Role" required=""/>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label class="control-label" for="website">Website</label>
+                                                    <input type="url" class="form-control custom-input" name="website" id="website" placeholder="Website" />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label class="control-label" for="employee">Employee Size</label>
+                                                    <select id="employee" name="employee" class="form-control">
+                                                        <option>1-50</option>
+                                                        <option>51-100</option>
+                                                        <option>101-above</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label class="control-label" for="social-find">How you find us</label>
+                                                    <select id="social-find" name="social-find" class="form-control custom-input" required="">
+                                                        <option>Facebook</option>
+                                                        <option>Instagram</option>
+                                                        <option>Linkedin</option>
+                                                        <option>Our Website</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <!-- <div class="text-center">
+                                                <div class="g-recaptcha netsuite" style="text-align: center; text-align: -webkit-center;" t-att-data-sitekey="website.recaptcha_site_key" data-theme="red"></div>
+                                            </div> -->
+                                            <div class="col-md-12" style="margin-top:20pt">
+                                                <button type="submit" class="btn btn-default geo-modal-btn">Confirm</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="col-md-6">                                        
+                                    </div>
+                                </div>
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="geomarking-employee pt32 pb32">
+                <div class="container">
+                    <h1 class="text-left">GeoMarking - Employee <span class="red">Attendance Tracker</span></h1>
+                    <h2 class="cross">Cross Platform Application - An Odoo Framework Based Biometric Attendance app For
+                        Employees</h2>
+                    <div class="pt32 pb32" style="position:relative">
+                        <div id="c1"><img src="/website_kanak/static/src/img/geomarking/geoimg-side.svg" /></div>
+                        <div id="c2"><img src="/website_kanak/static/src/img/geomarking/geoimg-side.svg" /></div>
+                        <div class="geomark-desk">
+                            <div class="attendance-tracker">
+                                <div><img src="/website_kanak/static/src/img/geomarking/cross-platform.svg" /> <span>A Cross Platform</span></div>
+                            </div>
+                            <div class="attendance-tracker">
+                                <div><img src="/website_kanak/static/src/img/geomarking/biometric.svg" /> <span>Biometric</span></div>
+                            </div>
+                            <div class="attendance-tracker">
+                                <div><img src="/website_kanak/static/src/img/geomarking/location.svg" /> <span>GeoTracker</span></div>
+                            </div>
+                            <div class="attendance-tracker">
+                                <div><img src="/website_kanak/static/src/img/geomarking/setting.svg" /> <span>Odoo Framework</span></div>
+                            </div>
+                            <div class="attendance-tracker">
+                                <div><img src="/website_kanak/static/src/img/geomarking/group.svg" /> <span>Employees Friendly</span></div>
+                            </div>
+                        </div>
+                        <div class="geomark-mob">
+                            <div class="owl-carousel">
+                                <div class="item">
+                                    <div class="attendance-tracker">
+                                        <div><img src="/website_kanak/static/src/img/geomarking/cross-platform.svg" /> <span>A Cross Platform</span></div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="attendance-tracker">
+                                        <div><img src="/website_kanak/static/src/img/geomarking/biometric.svg" /> <span>Biometric</span></div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="attendance-tracker">
+                                        <div><img src="/website_kanak/static/src/img/geomarking/location.svg" /> <span>GeoTracker</span></div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="attendance-tracker">
+                                        <div><img src="/website_kanak/static/src/img/geomarking/setting.svg" /> <span>Odoo Framework</span></div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="attendance-tracker">
+                                        <div><img src="/website_kanak/static/src/img/geomarking/group.svg" /> <span>Employees Friendly</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row vertical-align-diving">
+                        <div class="col-md-6">
+                            <h2 class="custom-h2 text-left pb16">What’s New About Our <span class="red">Geotracker?</span></h2>
+                            <p style="color: #15456E;">The geotracker in GeoMarking is a customise feature. Since it is customizable, it is easy to use the app from all three work models- <span style="color: #db4437">Hybrid, Work from Office</span> and <span style="color: #db4437">Work from Home.</span></p>
+                            <a type="button" class="btn btn-default about-geo free-trial" href="/contactus"><img src="/website_kanak/static/src/img/geomarking/btn-monitor.svg" />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<span>Get a free Trial</span></a>
+                        </div>
+                        <div class="col-md-6 img-desk">
+                            <img src="/website_kanak/static/src/img/geomarking/about-geo.webp" class="img-fluid mx-auto d-block" />
+                        </div>
+                    </div>
+                    <div class="row vertical-align-diving">
+                        <div class="col-md-6 img-desk">
+                            <img src="/website_kanak/static/src/img/geomarking/backend-helpful.webp" class="img-fluid mx-auto d-block" />
+                        </div>
+                        <div class="col-md-6">
+                            <h3 class="custom-h2 text-left pb16">How Is Odoo Backend <span class="red">Helpful?</span></h3>
+                            <p style="color: #15456E;">Since the app is based on <a href="https://kanakinfosystems.com/blog/odoo-review">Odoo Framework</a>, You will further be able to customise it with <span style="color: #db4437"><a href="https://apps.odoo.com/apps/modules/browse?author=Kanak%20Infosystems%20LLP.">Odoo Modules</a></span> like <span style="color: #db4437">HR</span> and <span style="color: #db4437">Payroll</span> to ensure smoother management of the <span style="color: #db4437">HR Workflow.</span></p>
+                            <a type="button" class="btn btn-default about-geo free-trial" href="/contactus"><img src="/website_kanak/static/src/img/geomarking/btn-monitor.svg" />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<span>Get a free Trial</span></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="divine-geomarking">
+                <div class="container pt32">
+                    <div class="diving">
+                        <h3 class="text-left custom-h3">Diving into the World of <span style="color: #db4437">GeoMarking</span></h3>
+                    </div>
+                    <div class="row vertical-align-diving">
+                        <div class="col-md-4 img-mob">
+                            <img src="/website_kanak/static/src/img/geomarking/biometric-on-time.webp" class="img-fluid mx-auto d-block" />
+                        </div>
+                        <div class="col-md-8">
+                            <div class="diving-tracker mt32 col-md-10">
+                                <p class="diving-tracker-head">Biometric - On Time <span style="color: #db4437">Attendance Tracker</span></p>
+                                <p class="text-justify">GeoMarking is a Geographical <a href="https://kanakinfosystems.com/blog/employee-attendance">Employee Attendance</a> Tracking App which helps your employees
+                                    with the Daily CheckIns and CheckOuts. Using this app, your employees will be able to mark their
+                                    attendance by registering themselves with their selfie, time and location. It is based on the Odoo
+                                    Backend Framework.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 img-desk">
+                            <img src="/website_kanak/static/src/img/geomarking/biometric-on-time.webp" class="img-fluid mx-auto d-block" />
+                        </div>
+                    </div>
+                    <hr class="mob-line" />
+                    <div class="row vertical-align-diving">
+                        <div class="col-md-4">
+                            <img src="/website_kanak/static/src/img/geomarking/radius-check-in.webp" class="img-fluid mx-auto d-block" />
+                        </div>
+                        <div class="col-md-8">
+                            <div class="diving-tracker">
+                                <p class="diving-tracker-head">Within the Radius? <span style="color: #db4437">Click and Check-In!</span></p>
+                                <p class="text-justify">This app would use your desired location and the surrounding area to be the radius through
+                                    which your employees will be able to register their daily checkin and checkout on their employee
+                                    attendance calendar. It is also a personalised and safe attendance tracker since it uses each
+                                    person’s selfies. This would eradicate the chances of marking a proxy.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="mob-line" />
+                    <div class="row vertical-align-diving">
+                        <div class="col-md-4 img-mob">
+                            <img src="/website_kanak/static/src/img/geomarking/geo-automated.webp" class="img-fluid mx-auto d-block" />
+                        </div>
+                        <div class="col-md-8">
+                            <div class="diving-tracker">
+                                <p class="diving-tracker-head">Forget the Spreadsheets, We Have <span style="color: #db4437">Customized Reports</span></p>
+                                <p class="text-justify">GeoMarking will help keeping a detailed record of the Attendance. It will also provide you with analytical reports on the same. While registering, this app also uses a Two-Factor Authentication
+                                    to make it safer.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 img-desk">
+                            <img src="/website_kanak/static/src/img/geomarking/geo-automated.webp" class="img-fluid mx-auto d-block" />
+                        </div>
+                    </div>
+                    <hr class="mob-line" />
+                    <div class="row vertical-align-diving">
+                        <div class="col-md-4">
+                            <img src="/website_kanak/static/src/img/geomarking/android-and-ios.webp" class="img-fluid mx-auto d-block" />
+                        </div>
+                        <div class="col-md-8">
+                            <div class="diving-tracker">
+                                <p class="diving-tracker-head">No More Differences Over <span style="color: #db4437">Android and IOS!</span></p>
+                                <p class="text-justify">GeoMarking is an Android and IOS friendly biometric attendance tracking app with an extremely
+                                    user-friendly and aesthetic UI. Another remarkable fact about the app is that it offers smooth
+                                    functioning to the pre-existing Odoo users alongwith the new users.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="mob-line" />
+                    <div class="container text-center pb32">
+                        <a type="button" class="btn btn-default about-geo free-trial" href="/contactus"><img src="/website_kanak/static/src/img/geomarking/btn-monitor.svg" />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<span>Get a free Trial</span></a>
+                    </div>
+                </div>
+            </section>
+            <section class="key-feature pt32">
+                <div class="container geomarking-app">
+                    <h3>GeoMarking App - <span style="color: #db4437">Key Features</span></h3>
+                    <p>How will GeoMarking change your Attendance Management Game?</p>
+                    <div class="key-feature-box-desk">
+                    <div class="row justify-content-center ">
+                        <!-- <div> -->
+                            <div class="geo-key-feature-main">
+                                <img src="/website_kanak/static/src/img/geomarking/face-authentication.svg" class="img-fluid mx-auto d-block" style="margin-top: inherit;"/>
+                                <p class="geo-key-head">Face Authentication</p>
+                                <p class="text-center">Makes it more personalized and secure so that there are no errors of proxy.</p>
+                            </div>
+                        <!-- </div> -->
+                        <!-- <div> -->
+                            <div class="geo-key-feature-main">
+                                <img src="/website_kanak/static/src/img/geomarking/face-biometric.svg" class="img-fluid mx-auto d-block" style="margin-top: inherit;"/>
+                                <p class="geo-key-head">Fingerprint Authentication</p>
+                                <p class="text-center">Makes the entire process of check-in and check-out smoother and faster.</p>
+                            </div>
+                        <!-- </div> -->
+                        <!-- <div> -->
+                            <div class="geo-key-feature-main">
+                                <img src="/website_kanak/static/src/img/geomarking/geo-vector.svg" class="img-fluid mx-auto d-block" style="margin-top: inherit;"/>
+                                <p class="geo-key-head">Location Based</p>
+                                <p class="text-center">Define your own radius.</p>
+                            </div>
+                        <!-- </div> -->
+                        <!-- <div> -->
+                            <div class="geo-key-feature-main">
+                                <img src="/website_kanak/static/src/img/geomarking/attendance-calender.svg" style="margin-top: inherit;" class="img-fluid mx-auto d-block" />
+                                <p class="geo-key-head">Employee Attendance Calendar</p>
+                                <p class="text-center">Helps you view and create custom reports of your daily logs/ employee attendance calendar.</p>
+                            </div>
+                        <!-- </div> -->
+                        <!-- <div> -->
+                            <div class="geo-key-feature-main">
+                                <img src="/website_kanak/static/src/img/geomarking/automated-report.svg" style="margin-top: inherit;" class="img-fluid mx-auto d-block" />
+                                <p class="geo-key-head">Customized Report</p>
+                                <p class="text-center">You can Easily download the automated customised reports.</p>
+                            </div>
+                        <!-- </div> -->
+                        <!-- <div> -->
+                            <div class="geo-key-feature-main">
+                                <img src="/website_kanak/static/src/img/geomarking/geo-user-friendly.svg" style="margin-top: inherit;" class="img-fluid mx-auto d-block" />
+                                <p class="geo-key-head">User-Friendly Interface</p>
+                                <p class="text-center">App offers a User-friendly interface which is easy and efficient to use.</p>
+                            </div>
+                        <!-- </div> -->
+                        <!-- <div> -->
+                            <div class="geo-key-feature-main">
+                                <img src="/website_kanak/static/src/img/geomarking/geo-cross-platform.svg" style="margin-top: inherit;" class="img-fluid mx-auto d-block" />
+                                <p class="geo-key-head">Cross-Platform</p>
+                                <p class="text-center">Compatible with Android and IOS Devices.</p>
+                            </div>
+                        <!-- </div> -->
+                        <!-- <div> -->
+                            <div class="geo-key-feature-main">
+                                <img src="/website_kanak/static/src/img/geomarking/odoo-framework.svg" class="img-fluid mx-auto d-block" style="margin-top: inherit;"/>
+                                <p class="geo-key-head">Odoo Framework</p>
+                                <p class="text-center">This app is for existing Odoo Users and New Users.</p>
+                            </div>
+                        <!-- </div> -->
+                    </div>
+                </div>
+                    <div class="key-feature-box-mob">
+                        <div class="owl-carousel">
+                            <div class="item">
+                                <div class="geo-key-feature-main">
+                                    <img src="/website_kanak/static/src/img/geomarking/face-authentication.svg" style="margin-top: inherit;" class="img-fluid mx-auto d-block" />
+                                    <p class="geo-key-head">Face Authentication</p>
+                                    <p class="text-center">Makes it more personalized and secure so that there are no errors of proxy.</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="geo-key-feature-main">
+                                    <img src="/website_kanak/static/src/img/geomarking/face-biometric.svg" style="margin-top: inherit;" class="img-fluid mx-auto d-block" />
+                                    <p class="geo-key-head">Fingerprint Authentication</p>
+                                    <p class="text-center">Makes the entire process of check-in and check-out smoother and faster.</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="geo-key-feature-main">
+                                    <img src="/website_kanak/static/src/img/geomarking/geo-vector.svg" class="img-fluid mx-auto d-block" style="margin-top: inherit;"/>
+                                    <p class="geo-key-head">Location Based</p>
+                                    <p class="text-center">Define your own radius.</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="geo-key-feature-main">
+                                    <img src="/website_kanak/static/src/img/geomarking/attendance-calender.svg" class="img-fluid mx-auto d-block" style="margin-top: inherit;"/>
+                                    <p class="geo-key-head">Employee Attendance Calendar</p>
+                                    <p class="text-center">Helps you view and create custom reports of your daily logs/ employee attendance calendar.</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="geo-key-feature-main">
+                                    <img src="/website_kanak/static/src/img/geomarking/automated-report.svg" class="img-fluid mx-auto d-block" style="margin-top: inherit;"/>
+                                    <p class="geo-key-head">Customized Report</p>
+                                    <p class="text-center">You can Easily download the automated customised reports.</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="geo-key-feature-main">
+                                    <img src="/website_kanak/static/src/img/geomarking/geo-user-friendly.svg" class="img-fluid mx-auto d-block" style="margin-top: inherit;"/>
+                                    <p class="geo-key-head">User-Friendly Interface</p>
+                                    <p class="text-center">App offers a User-friendly interface which is easy and efficient to use.</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="geo-key-feature-main">
+                                    <img src="/website_kanak/static/src/img/geomarking/geo-cross-platform.svg" class="img-fluid mx-auto d-block" style="margin-top: inherit;"/>
+                                    <p class="geo-key-head">Cross-Platform</p>
+                                    <p class="text-center">Compatible with Android and IOS Devices.</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="geo-key-feature-main">
+                                    <img src="/website_kanak/static/src/img/geomarking/odoo-framework.svg" class="img-fluid mx-auto d-block" style="margin-top: inherit;"/>
+                                    <p class="geo-key-head">Odoo Framework</p>
+                                    <p class="text-center">This app is for existing Odoo Users and New Users.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="pt32 pb32 insight-download">
+                <div class="text-center">
+                    <div>
+                        <h4 class="insight-head">Insight of our <span style="color: #db4437">Application</span></h4>
+                        <a type="button" class="btn btn-default insight-free-trail" href="https://youtu.be/xV9mPI8shk4"><span>Get a free Trial</span> <img src="/website_kanak/static/src/img/geomarking/arrow.svg" class="arrow1" /></a>
+                    </div>
+                    <div class="download-pdf mt32">
+                        <img src="/website_kanak/static/src/img/geomarking/download-pdf.svg" class="img-fluid mx-auto d-block" />
+                        <a type="button" class="btn btn-default mt16" href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:6144da1d-bf2c-350f-be75-e23005ee633d"><img src="/website_kanak/static/src/img/geomarking/download.svg" /> <span>Download PDF</span></a>
+                    </div>
+                </div>
+            </section>
+            <section class="pb32">
+                <div class="container your-pocket">
+                    <div class="row vertical-align-diving">
+                        <div class="col-md-6 col-sm-12 pocket-group">
+                            <h4 class="pocket-group-head">An App That Won’t Burn A <span class="red">Hole in Your Pocket!</span></h4>
+                            <ul>
+                                <li>
+                                    <p>You can add unlimited users in the versions upto 15 of Odoo Backend Framework.</p>
+                                </li>
+                                <li>
+                                    <p>No hidden charges for adding users.</p>
+                                </li>
+                            </ul>
+                            <a type="button" class="btn btn-default free-trial" href="/contactus"><img src="/website_kanak/static/src/img/geomarking/btn-monitor.svg" />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<span>Get a free Trial</span></a>
+                        </div>
+                        <div class="col-md-6 pocket-group pocket-des">
+                            <img src="/website_kanak/static/src/img/geomarking/pocket-group.webp" class="img-fluid mx-auto d-block" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="s_block_9">
+                    <div class="container">
+                        <div class="row s_block_9_1">
+                            <div class="col-md-12 s_block_9_1_1 text-center">
+                                <p class="s_block_9_1_head text-center">Download it today!</p>
+                            </div>
+                            <div class="col-md-12 s_block_9_1_2 text-center">
+                                <div class="download_from_appstore">
+                                    <a href="https://apps.apple.com/in/app/geomarking/id1658642138"><img src="/website_kanak/static/src/img/geomarking/app_store.webp" class="optimiser_lazy optimiser_lazy_loading"/></a>
+                                    <a href="https://play.google.com/store/apps/details?id=com.kanak.attendance&amp;hl=en_GB&amp;gl=US"><img src="/website_kanak/static/src/img/geomarking/google_play_store.webp" class="optimiser_lazy optimiser_lazy_loading"/></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+        </t>
+    </template>
+</odoo>

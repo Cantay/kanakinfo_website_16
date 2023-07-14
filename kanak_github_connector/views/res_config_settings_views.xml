@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="res_config_settings_view_form" model="ir.ui.view">
+        <field name="name">res.config.settings.view.form.inherit.github</field>
+        <field name="model">res.config.settings</field>
+        <field name="inherit_id" ref="base_setup.res_config_settings_view_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//div[@name='integration']" position="after">
+                <h2>Appstore</h2>
+                <div class="row mt16 o_settings_container" groups="sales_team.group_sale_manager">
+                    <div class="col-xs-12 col-md-12 o_setting_box" id="crm_lead">
+                        <div class="o_setting_left_pane">
+                        </div>
+                        <div class="o_setting_right_pane">
+                            <label for="github_repo_local_path" class="mt16"/>
+                            <div class="text-muted">
+                                Local path for github repo
+                            </div>
+                            <div>
+                                <div class="content-group mt16">
+                                    <label for="github_repo_local_path" string="Path" class="o_light_label"/>
+                                    <field name="github_repo_local_path"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </xpath>
+        </field>
+    </record>
+    <record id="action_config_settings_github" model="ir.actions.act_window">
+        <field name="name">Settings</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">res.config.settings</field>
+        <field name="view_mode">form</field>
+        <field name="context">{'module' : 'github'}</field>
+        <field name="target">inline</field>
+    </record>
+</odoo>

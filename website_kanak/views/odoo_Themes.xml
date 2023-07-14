@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="busineess_odoo_openerp_theme" name="Odoo Themes">
+        <t t-set="additional_title">Design And Develop Odoo Themes | E-Commerce Themes | Shop Odoo
+            Themes </t>
+        <t t-set="website_meta_description">Kanak InfoSystems offering cost effective Odoo themes
+            design and development services. Shop stunning Odoo themes, ECommerce themes from our
+            odoo store </t>
+        <t t-set="website_meta_keywords">kanak infosystems llp, odoo themes, odoo theme development,
+            odoo themes download, odoo web templates, free odoo themes </t>
+        <t t-call="website.layout">
+            <t t-set="pageName" t-value="'OdooTheme kanak_odoo_theme'" />
+            <div id="wrap" class="busineess_odoo_openerp_theme_kanak">
+                <section id="main-odoo-theme-banner" class="pt32 pb32">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-6">
+                                <p class="themes-banner-head">Odoo <br /><span class="red">Themes</span></p>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-6">
+                                <img alt="" src="/website_kanak/static/src/img/odoo_Theme/Theme-graphic.webp" class="img-fluid mx-auto" />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="workpage-home-work">
+                        <div class="container">
+                            <span>
+                                <a class="text-decoration-none" href="/"> Home </a>
+                            </span>
+                            <i class="fa fa-chevron-right" aria-hidden="true" />
+                            <span> Odoo Themes </span>
+                        </div>
+                    </div>
+                </section>
+                <section id="main-themes-page ">
+                    <div class="container">
+                        <div class="row pt16 pb16">
+                            <div class="col-md-12">
+                                <h1> Odoo Theme Designing And
+                                    Development Service</h1>
+                                <p class="text-justify"> With aim to focus on providing low cost Odoo themes for all
+                                    E-Commerce and other business. We are here at Kanak Infosystems
+                                    working with professional Odoo theme developers who are
+                                    providing unique odoo theme development solutions to our
+                                    customers. </p>
+                                <p class="text-justify"> We have successfully delivered many
+                                    creative and useful Odoo functional templates to our happy
+                                    clients. Some of our most demanding odoo themes are <a target="_blank" class="text-decoration-none" href="https://apps.odoo.com/apps/themes/13.0/odoo_shoppe_backend_theme/">
+                                        "OdooShoppe Backend Theme" , </a> E-Commerce Theme <a target="_blank" href="https://apps.odoo.com/apps/themes/12.0/theme_progressive_kanak/">
+                                        "Theme Progressive" </a>
+                                </p>
+                            </div>
+                            <div class="col-md-12">
+                                <h2> Odoo E-Commerce and
+                                    Business Theme Store </h2>
+                                <P class="text-justify"> We are glad to inform our customers that we have our own Odoo
+                                    E-Shop where you can find awesome Odoo Themes for business and
+                                    E-commerce websites where you can purchase creative and fully
+                                    customizable Odoo Themes. </P>
+                                <p class="text-justify">
+                                    <a href="https://kanakinfosystems.com/contact-us">You can
+                                        request us for Demo</a> ; our team of odoo expert will
+                                    assist you with all functionality of your chosen theme. </p>
+                            </div>
+                            <div class="col-md-12 text-center">
+                                <a target="_blank" href="/shop/category/themes" class="btn btn-primary"> Shop Odoo Themes </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="main-ab-all-themes">
+                    <div id="parallex-home-odoo-themes2" class="parallex-themes-1">
+                        <div class="overlay-ab">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12 pt16 pb16">
+                                        <h3 class="themes-part1" style="color: #00deff !important;font-weight:700;">
+                                            Why Should You Choose Us? </h3>
+                                        <p class="themes-part2" style="color:white;"> We understand
+                                            our customers and web standards and always willing to
+                                            improve on all aspects of Odoo Services. </p>
+                                        <p style="color:white;">
+                                            <i class="fa fa-check" aria-hidden="true" /> Our team is
+                                            build-up of several senior Odoo experts, eCommerce
+                                            analysts and web designers. </p>
+                                        <p style="color:white;">
+                                            <i class="fa fa-check" aria-hidden="true" /> All our
+                                            Odoo themes are W3C Validated. </p>
+                                        <p style="color:white;">
+                                            <i class="fa fa-check" aria-hidden="true" /> You can
+                                            choose any theme from our Odoo E-Shop and our Odoo
+                                            backend experts will shape it according to your business
+                                            need and help you to implement your online store. </p>
+                                        <p style="color:white;">
+                                            <i class="fa fa-check" aria-hidden="true" /> We can
+                                            develop multi-layout themes. </p>
+                                        <p style="color:white;">
+                                            <i class="fa fa-check" aria-hidden="true" /> Our <a href="https://kanakinfosystems.com/odoo-development-services">Odoo
+                                                consultants</a> and Technical experts can integrate Odoo
+                                            eCommerce with marketplaces like eBay and Amazon. </p>
+                                        <p style="color:white;">
+                                            <i class="fa fa-check" aria-hidden="true" /> We are also
+                                            helping our customers to promote their business; Yes,
+                                            Our team of Odoo SEO experts helps you to rank an Odoo
+                                            ecommerce store higher in organic search results. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h4 class="text-center themes-part3 themes-part-333 mb32" style="color: #003362;font-size:20px;"> So, What are you waiting
+                                    for? Want to implement Odoo E-Commerce? </h4>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="theme-slider pb32">
+                    <div class="container">
+                        <div class="owl-carousel">
+                            <div class="item">
+                                <div class="panel panel-default-team text-center">
+                                    <div class="panel-heading-team">
+                                        <a target="_blank" class="thumbnail" href="https://apps.odoo.com/apps/themes/10.0/odoo_shoppe_backend_theme/">
+                                            <img alt="odoo themes" src="/website_kanak/static/src/img/odoo_Theme/image1.gif" />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="panel panel-default-team text-center">
+                                    <div class="panel-heading-team">
+                                        <a target="_blank" class="thumbnail" href="https://apps.odoo.com/apps/themes/9.0/material_odooshoppe_backend_theme/">
+                                            <img alt="odoo ecommerce themes" src="/website_kanak/static/src/img/odoo_Theme/image2.gif" />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="panel panel-default-team text-center">
+                                    <div class="panel-heading-team">
+                                        <a target="_blank" class="thumbnail" href="https://apps.odoo.com/apps/themes/10.0/shopaholic_theme/">
+                                            <img alt="odoo themes" src="/website_kanak/static/src/img/odoo_Theme/image3.webp" />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="panel panel-default-team text-center">
+                                    <div class="panel-heading-team">
+                                        <a target="_blank" class="thumbnail" href="https://apps.odoo.com/apps/themes/10.0/kinetic_theme/">
+                                            <img alt="odoo ecommerce themes" src="/website_kanak/static/src/img/odoo_Theme/image4.webp" />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </t>
+    </template>
+</odoo>

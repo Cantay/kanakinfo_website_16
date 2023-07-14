@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <template id="tmp_netsuit_consultant_page" name="NetSuite Consultant">
+            <t t-set="netsuite_consultant" t-value="value" />
+            <t t-call="website.layout">
+                <t t-set="pageName" t-value="'NetsuiteConsultant kanak_netsuit_consultant'" />
+                <section>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <img style="padding-left:0;padding-right:0;" src="/website_kanak/static/src/img/netsuite_consultant/Consultant_banner1.webp" class="img-fluid mx-auto" alt="" />
+                        </div>
+                    </div>
+                </section>
+                <section>
+                        <div class="workpage-home-work">
+                            <div class="container">
+                                <span>
+                                    <a class="text-decoration-none" href="/"> Home </a>
+                                </span>
+                                <i class="fa fa-chevron-right" aria-hidden="true" />
+                                <span> NetSuite Consultant </span>
+                            </div>
+                        </div>
+                    </section>
+                <section>
+                    <div class="container">
+                        <div class="row">
+                            <div style="margin: 20pt auto">
+                                <h1 style="font-size:28px;font-weight:revert;">Aggrandize your business transition with
+                                    an acclaimed NetSuite Consultant</h1>
+                                <p class="text-justify">NetSuite consultants offer their years of
+                                    experience and expertise across NetSuite ERP consulting, inspect
+                                    business operations thoroughly, and perform gap fit analysis.
+                                    Next, they select and suggest most apposite NetSuite <a href="https://kanakinfosystems.com/erp-solutions">ERP
+                                        solution</a> on the basis of their study and help aggrandize
+                                    business transition to the cloud seamlessly. A NetSuite
+                                    Consultant designs, develops solution, tests, migrates facts,
+                                    and puts in force apt <a href="https://www.netsuite.com/portal/resource/articles/erp/netsuite-modules.shtml">NetSuite
+                                        modules</a> successfully. Choosing the proper NetSuite
+                                    representative for NetSuite Implementation is the game-changer
+                                    of both small and large enterprise. Once you get in connection
+                                    with the expertise and experience of our Consultants, you can
+                                    begin schooling the NetSuite customers and remain available
+                                    every time you want assistance.</p>
+                                <p class="text-justify">A NetSuite Consultant inspects, comprehends,
+                                    explains, and proffers answers that align the commercial
+                                    enterprise necessities and commercial enterprise manner of <a href="https://kanakinfosystems.com/blog/what-is-netsuite">NetSuite
+                                        ERP</a> customers. Certified NetSuite specialists are able to
+                                    handing over first-class pointers that permit the commercial
+                                    enterprise to seamlessly put in force NetSuite with all their
+                                    particular commercial enterprise tactics.</p>
+                                <p class="text-justify">NetSuite representative enables to deliver
+                                    aggressive benefits to your agencies at some point of NetSuite
+                                    enablement at your enterprise in addition to post-implementation
+                                    hole in shape evaluation and answer making plans. A NetSuite
+                                    representative gives NetSuite implementation, customization,
+                                    integration, and optimization offerings to automate your
+                                    commercial enterprise operations, enhance the important thing
+                                    visibility on your commercial enterprise tactics, and boost up
+                                    your commercial enterprise increase and profitability.</p>
+                                <p class="text-justify">Hiring a NetSuite representative enables to
+                                    plan, design, and configure the proper answers for a commercial
+                                    enterprise with an assessment of the middle commercial
+                                    enterprise operations, mistakes withinside the tactics,
+                                    inefficiencies in performance, and scope of automation.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section style="background-image: url('/website_kanak/static/src/img/netsuite_consultant/bg.png'); background-repeat:no-repeat; background-position: center;background-size:cover;">
+                    <div class="container">
+                        <div class="row text-white">
+                            <div id="consult_list" style="margin: auto">
+                                <h2 class="text-white">NetSuite Consulting Services</h2>
+                                <h3 class="text-white">NetSuite Implementation Services</h3>
+                                <ul>
+                                    <li><b>Team of NetSuite solution consultant</b> — We deliver
+                                        group’s knowledge, in conjunction with our confirmed method
+                                        and task control technique.</li>
+                                    <li>
+                                        <b>Our Implementation Methodology</b>
+                                    </li>
+                                    <li><b>Initiate</b> — Define task objectives, agree on technique
+                                        and task group members.</li>
+                                    <li><b>Analyze</b> — Define current tactics, validate facts
+                                        sources, become aware of manner gaps and file necessities.</li>
+                                    <li><b>Configure</b> — Configure NetSuite primarily based
+                                        totally on necessities. Plan migration and trying out
+                                        activities.</li>
+                                    <li><b>Deploy</b> — Iterative, included trying out of go-stay
+                                        procedure. End consumer schooling. Data migration and
+                                        cutover execution into Production.</li>
+                                    <li><b>Optimize</b> — Transition to ongoing operations and
+                                        definition of destiny phases.</li>
+                                </ul>
+                                <p class="text-white text-justify">Using our confirmed method based
+                                    in heavy trying out and schooling, we’ve partnered with masses
+                                    of groups on <a href="https://kanakinfosystems.com/blog/factors-for-successful-erp-implementation">ERP
+                                        software program implementations</a>.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <br />
+                <section style="background-image: url('/website_kanak/static/src/img/netsuite_consultant/orange_shape.webp');background-repeat: no-repeat; background-size: 500px; height: 620px; margin-top: 120pt">
+                    <div class="container">
+                        <div class="row" style="margin-top: -140px">
+                            <div id="assessment" style=" margin: auto">
+                                <p class="assessment-head">Assessments</p>
+                                <p>To decide if you are making the most of your NetSuite investment,
+                                    we provide a SuiteAssessment service.</p>
+                                <p style="margin-top: 30pt">Through the evaluation, we'll review:</p>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="row well bg-white">
+                                            <div class="col-2">
+                                                <img alt="" src="/website_kanak/static/src/img/netsuite_consultant/Check_1.svg" />
+                                            </div>
+                                            <div class="col-10">
+                                                <p><b>Your business goals</b> — And how modern
+                                                    tactics and technology are hindering or helping</p>
+                                            </div>
+                                        </div>
+                                        <div class="row well bg-white">
+                                            <div class="col-2">
+                                                <img alt="" src="/website_kanak/static/src/img/netsuite_consultant/Check_2.svg" />
+                                            </div>
+                                            <div class="col-10">
+                                                <p><b>Business intelligence</b> — An assessment of
+                                                    reporting and analytics capabilities</p>
+                                            </div>
+                                        </div>
+                                        <div class="row well bg-white">
+                                            <div class="col-2">
+                                                <img alt="" src="/website_kanak/static/src/img/netsuite_consultant/Check_3.svg" />
+                                            </div>
+                                            <div class="col-10">
+                                                <p><b>A systems review</b> — An assessment of modern
+                                                    technology and system architecture</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="row well bg-white">
+                                            <div class="col-2">
+                                                <img alt="" src="/website_kanak/static/src/img/netsuite_consultant/Check_4.svg" />
+                                            </div>
+                                            <div class="col-10">
+                                                <p><b>Recommendations</b> — A roadmap for moving
+                                                    forward</p>
+                                            </div>
+                                        </div>
+                                        <div class="row well bg-white">
+                                            <div class="col-2">
+                                                <img alt="" src="/website_kanak/static/src/img/netsuite_consultant/Check_5.svg" />
+                                            </div>
+                                            <div class="col-10">
+                                                <p><b>Automation audit</b> — Manual tactics that
+                                                    have the potential for automation</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="text-justify">The evaluation will cover various topics
+                                    related to finance, accounting, and operations, as well as the
+                                    overall business. We'll also include timelines and expected
+                                    costs for implementing the recommended improvements.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <br />
+                <section>
+                    <div class="container">
+                        <div class="row">
+                            <div id="netsuite_support" style=" margin: auto;">
+                                <div class="col-12" style="padding: 20pt 0;">
+                                    <div class="row">
+                                        <div class="col-md-6" style="padding-left: 0; padding-top: 30pt;">
+                                            <h2>Support for NetSuite Users</h2>
+                                            <p class="text-justify" style="margin: 20pt 0;">DEDICATED,
+                                                CERTIFIED NETSUITE CONSULTANTS TO ASSIST YOUR TEAM.
+                                                We are a reputable NetSuite Solution provider. Our <a href="https://kanakinfosystems.com/netsuite-licensing">licensed
+                                                    NetSuite</a> consulting group gives SuiteAssist – a
+                                                managed services program only for NetSuite
+                                                customers. We can assist:</p>
+                                            <h4 class="support-head">Improve business processes</h4>
+                                            <ul>
+                                                <li>Build custom reports</li>
+                                                <li>Add new functionality</li>
+                                                <li>Optimize your current system</li>
+                                                <li>Train users</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6" style="padding-right: 0;">
+                                            <img alt="" src="/website_kanak/static/src/img/netsuite_consultant/Support_for_netsuite_users.webp" class="img-fluid mx-auto d-block" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <br />
+                <section style="background-image: url('/website_kanak/static/src/img/netsuite_consultant/Map_bg.webp');">
+                    <div class="container">
+                        <div class="row">
+                            <div id="professional_services" style="margin: auto; padding: 40pt 0;">
+                                <h3 class="professional-head">Professional Services</h3>
+                                <p class="text-justify">We flip our customers wish-listing tasks
+                                    into reality. Our deep industry expertise and experience enables
+                                    customers conquer something commercial enterprise demanding
+                                    situations they're facing.</p>
+                                <p class="special-head" style="margin-top: 30pt">Examples of Special
+                                    Projects</p>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <ul>
+                                                    <li>
+                                                        <p class="text-justify"><b>CUSTOM
+                                                                DEVELOPMENT AND NETSUITE
+                                                                INTEGRATIONS</b> — Reduce
+                                                            customizations and combine the programs
+                                                            you want.</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-lg-12">
+                                                <ul>
+                                                    <li>
+                                                        <p class="text-justify"><b>BUSINESS PROCESS
+                                                                RE-ENGINEERING</b> — Weed out
+                                                            inefficiencies and benefit new
+                                                            commercial enterprise blessings via
+                                                            re-wondering your tactics.</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <ul>
+                                                    <li>
+                                                        <p class="text-justify"><b>MERGERS &amp;
+                                                                ACQUISTIONS</b> — We assist agencies put
+                                                            into force NetSuite for brand spanking
+                                                            new subsidiaries and more.</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-lg-12">
+                                                <ul>
+                                                    <li>
+                                                        <p class="text-justify"><b>UPGRADES</b> —
+                                                            Evaluate how to take advantage of new
+                                                            functionality.</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section style="background: #f28e71;">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <img alt="" src="/website_kanak/static/src/img/netsuite_consultant/NetSuite_erp_consulting.webp" class="img-fluid" style="height:100%" />
+                            </div>
+                            <div class="col-lg-6 text-white pt16 pb16">
+                                <h3 class="user-head">NetSuite ERP Consulting</h3>
+                                <p class="text-justify">Enterprises folks who are
+                                    looking for to optimize their current gadget or
+                                    NetSuite consulting, <a href="https://kanakinfosystems.com/">Kanak
+                                        Infosystems</a> can assist them to construct a
+                                    sturdy commercial enterprise basis and rework their
+                                    whole workflow. By knowledge your middle commercial
+                                    enterprise requirements consisting of your
+                                    marketplace scope, operational tactics, client
+                                    outreach, and service or product adaptability, we
+                                    are able to carry out commercial enterprise-pushed
+                                    NetSuite implementation.</p>
+                                <p class="text-justify">We paintings in the direction of
+                                    allowing regular assessment with our NetSuite
+                                    offerings for each scale of the enterprise via our
+                                    proactive technique. We assist to maximize your ERP
+                                    funding with the usage of our confirmed method and
+                                    every year proficiency. We construct such an ERP
+                                    plan that assists your commercial enterprise to make
+                                    certain long-time period success.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="pt16 pb16">
+                    <div class="container">
+                        <div class="row">
+                                <div class="col-lg-6">
+                                    <h3 style="text-align: left; font-size: 28px; font-weight: 900; color: #003362;">
+                                        YOUR TRUSTWORTHY NETSUITE CONSULTING SERVICES
+                                    </h3>
+                                    <p class="text-justify" style="margin: 20pt 0;">
+                                        Our NetSuite specialists are committed enough to
+                                        make a green workflow by considering your current
+                                        gadget capabilities, business practices, and future
+                                        goals. Through our advanced result-driven
+                                        strategies, we recommend and implement the foremost
+                                        NetSuite solution that helps bridge the gap between
+                                        your business processes and the technology you have
+                                        chosen.
+                                    </p>
+                                </div>
+                                <div class="col-lg-6">
+                                    <img alt="" src="/website_kanak/static/src/img/netsuite_consultant/Your_trustworthy.webp" class="img-fluid mx-auto" />
+                                </div>
+                            </div>
+                    </div>
+                </section>
+                <section style="background-image: url('/website_kanak/static/src/img/netsuite_consultant/bg_shade.svg');background-repeat: no-repeat;background-position: top;">
+                    <div class="container">
+                        <div class="row">
+                            <div id="expect" style="margin: auto">
+                                <div class="col-lg-12 bg-white" style="margin-top: 60pt;padding: 40pt;">
+                                    <h3 style="font-size:28px;font-weight:900;color: #003362;">WHAT
+                                        YOU CAN EXPECT FROM OUR CONSULTANTS</h3>
+                                    <p class="text-justify">With deep marketplace publicity and huge
+                                        knowledge in NetSuite, our specialists assist in <a href="https://kanakinfosystems.com/netsuite-implementation">NetSuite
+                                            implementation</a> for the huge variety of industries and
+                                        commercial enterprise contexts. Acclaimed as one of the
+                                        maximum reputed NetSuite Consulting Firms, We provide an
+                                        exquisite deal in phrases of NetSuite consulting and
+                                        implementation that doesn’t simply assists you to remedy
+                                        your modern commercial enterprise demanding situations even
+                                        prepares for destiny prospects.</p>
+                                    <p class="text-justify">A certified and acclaimed NetSuite
+                                        Consultant conceptualizes, explores, modifies, and suggests
+                                        answers that align the commercial enterprise necessities and
+                                        commercial enterprise manner of NetSuite ERP customers.
+                                        Certified NetSuite specialists are able to handing over
+                                        first-class pointers that permit the commercial enterprise
+                                        to seamlessly put in force NetSuite with all their
+                                        particular commercial enterprise tactics.</p>
+                                    <p class="text-justify">NetSuite representative enables to
+                                        deliver aggressive benefits to your agencies at some point
+                                        of NetSuite enablement at your enterprise in addition to
+                                        post-implementation hole in shape evaluation and answer
+                                        making plans. A NetSuite representative gives NetSuite
+                                        implementation, customization, integration, and optimization
+                                        offerings to automate your commercial enterprise operations,
+                                        enhance the important thing visibility on your commercial
+                                        enterprise tactics, and boost up your commercial enterprise
+                                        increase and profitability.</p>
+                                    <p class="text-justify">Hiring a NetSuite representative enables
+                                        to plan, design, and configure the proper answers for a
+                                        commercial enterprise with an assessment of the middle
+                                        commercial enterprise operations, mistakes withinside the
+                                        tactics, inefficiencies in performance, and scope of
+                                        automation. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="pb16">
+                    <div class="container">
+                        <div id="multi_sector">
+                            <div class="row">
+                                <div id="order_management" class="col-lg-4 col-md-12">
+                                    <div></div>
+                                    <p class="management-head text-center">Order Management</p>
+                                    <hr />
+                                    <p class="text-center">We provide well-described plans for
+                                        agencies to deal with custom NetSuite order control gear and
+                                        functions as per unique commercial enterprise wishes.</p>
+                                </div>
+                                <div id="accounting" class="col-lg-4 col-md-12">
+                                    <div></div>
+                                    <p class="management-head text-center">Accounting</p>
+                                    <hr />
+                                    <p class="text-center">As per your economic and accounting
+                                        tactics and necessities, we plan for developing
+                                        NetSuite-based custom accounting software program and
+                                        answers.</p>
+                                </div>
+                                <div id="invoicing" class="col-lg-4 col-md-12">
+                                    <div></div>
+                                    <p class="management-head text-center">Invoicing</p>
+                                    <hr />
+                                    <p class="text-center">Based on your billing and invoicing
+                                        needs, we assist you with specific advice for implementing
+                                        NetSuite to handle the invoicing tasks.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div id="inventory_management" class="col-lg-4 col-md-12">
+                                    <div></div>
+                                    <p class="management-head text-center">Inventory Management</p>
+                                    <hr />
+                                    <p class="text-center">We plan and articulate scalable NetSuite
+                                        stock control software program answers as per your employer
+                                        necessities.</p>
+                                </div>
+                                <div id="purchasing_management" class="col-lg-4 col-md-12">
+                                    <div></div>
+                                    <p class="management-head text-center">Purchasing Management</p>
+                                    <hr />
+                                    <p class="text-center">We provide in-depth consultancy and
+                                        create plans to assist corporations manage purchases via
+                                        NetSuite-based solutions.</p>
+                                </div>
+                                <div id="netsuite_multi_currency" class="col-lg-4 col-md-12">
+                                    <div></div>
+                                    <p class="management-head text-center">NetSuite Multi-Currency</p>
+                                    <hr />
+                                    <p class="text-center">If you want to implement multiple
+                                        commercial enterprise entities, their tactics, and distinct
+                                        currencies, we assist you in developing the right plan and
+                                        strategy.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div id="netsuite_integrations" class="col-lg-4 col-md-12">
+                                    <div></div>
+                                    <p class="management-head text-center">NetSuite Integrations</p>
+                                    <hr />
+                                    <p class="text-center">For all the agencies already using legacy
+                                        software program, we create custom integration plans to
+                                        assist them use those existing software programs while
+                                        enjoying control via NetSuite.</p>
+                                </div>
+                                <div id="netsuite_billing" class="col-lg-4 col-md-12">
+                                    <div></div>
+                                    <p class="management-head text-center">NetSuite Billing</p>
+                                    <hr />
+                                    <p class="text-center">For streamlining the entire billing
+                                        process in any sector, we assist you in creating specific
+                                        plans for seamless NetSuite billing tactics.</p>
+                                </div>
+                                <div id="netsuite_website_builds" class="col-lg-4 col-md-12">
+                                    <div></div>
+                                    <p class="management-head text-center">NetSuite Website Builds</p>
+                                    <hr />
+                                    <p class="text-center">For employer web sites to take
+                                        benefit of the strong and feature-wealthy NetSuite
+                                        platform, we assist create plans for NetSuite internet
+                                        site builds.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div id="netsuite_administration" class="col-lg-4 col-md-12">
+                                    <div></div>
+                                    <p class="management-head text-center">NetSuite
+                                        Administration</p>
+                                    <hr />
+                                    <p class="text-center">We provide professional consultancy
+                                        and in-intensity strategic making plans to assist a
+                                        commercial enterprise live in complete manage of the
+                                        use, integration, and implementation of NetSuite gear.</p>
+                                </div>
+                                <div id="customer_service_training" class="col-lg-4 col-md-12">
+                                    <div></div>
+                                    <p class="management-head text-center">Customer Service
+                                        &amp; Training</p>
+                                    <hr />
+                                    <p class="text-center">We at VNMT create industry-unique
+                                        making plans to supply the maximum proactive client
+                                        service. We additionally provide corporations
+                                        professional schooling at the brand new NetSuite
+                                        offerings.</p>
+                                </div>
+                                <div id="ecommerce_web_analytics" class="col-lg-4 col-md-12">
+                                    <div></div>
+                                    <p class="management-head text-center">Ecommerce &amp; Web
+                                        Analytics</p>
+                                    <hr />
+                                    <p class="text-center">We assist your current e-trade save
+                                        or commercial enterprise internet site or current
+                                        internet analytics to get the maximum of the NetSuite
+                                        ERP platform and an entire array of gear.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="pb32">
+                    <div class="container">
+                        <div class="row">
+                            <div style="margin: auto">
+                                <div id="conclusion" class="col-lg-12 bg-danger text-center" style="padding: 20pt;border-radius:10px">
+                                    <p class="conclusion-head text-center">Conclusion</p>
+                                    <p class="text-justify">To avail of extensive NetSuite ERP
+                                        solutions and services, you can connect with an acclaimed
+                                        and accredited NetSuite Consultants, who holds rich industry
+                                        expertise and experience across managing post-implementation
+                                        operations. They can help you overcome bug fixes, reporting
+                                        issues, and more within the stipulated time. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </t>
+        </template>
+    </data>
+</odoo>

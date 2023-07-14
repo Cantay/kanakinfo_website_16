@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="frappe_healthcare_page" name="Frappe Book Page">
+        <t t-call="website.layout">
+            <t t-set="pageName" t-value="'FrappeHealthcare kanak_frappe_healthcare'" />
+            <section class="frappe-health-banner pt32 pb32">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div id='frappe-banner-info' class="col-lg-6 col-md-12">
+                            <img src="/website_kanak/static/src/img/frappe_healthcare/frappe-banner-text1.webp" class="img-fluid" />
+                            <p class="mt-4 text-justify">Empower your workflows with Frappe Healthcare for In-patient management, Out-patient management, Rehabilitation &amp; Physiotherapy, Laboratory management, and pharmacy management.</p>
+                            <a type="button" class="btn btn-primary mt16" href="/contactus" >Book a Demo</a>
+                        </div>
+                        <div class="col-lg-6 d-none d-lg-block">
+                            <img src="/website_kanak/static/src/img/frappe_healthcare/frappe-banner-men.webp" class="img-fluid mx-auto bg-img" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="pt16 pb16">
+                <div class="container frappe-intro">
+                    <div class="col-lg-12 spoiler">
+                        <h1 style="color:#003362">Introduction About <span class="red">Frappe Healthcare</span></h1>
+                        <div class="hidden-text">
+                            <p class="text-justify">Frappe Health is an open-source and user-friendly hospital information system (HIS) for all
+                                healthcare organizations. Healthcare providers, clinics, and hospitals can take advantage of the
+                                features provided by Frappe Healthcare to utilize ERPNext&#39;s Healthcare domain fully. It is built
+                                using Frappe, a full-stack, meta-data-driven web framework, and seamlessly incorporates
+                                ERPNext, the most <a href="https://kanakinfosystems.com/blog/project-management-methodologies">agile</a> ERP software. Most of the design for Frappe Healthcare is built on
+                                HL7 FHIR (Fast Health Interoperability Resources), which aids in effectively managing
+                                healthcare operations.</p>
+                            <p class="text-justify">By scheduling Appointments, obtaining Vitals, managing Medication Orders, and maintaining
+                                Investigation Orders by recording Patient Encounters, <a href="https://kanakinfosystems.com/blog/erpnext-for-healthcare-industry">ERPNext healthcare</a> assists you in
+                                managing your hospital, clinic, or practice effectively. You can quickly access a patient&#39;s medical
+                                history at any moment to review the patient&#39;s previous illnesses and medical interventions,
+                                supporting you in delivering efficient, high-quality care. You can handle various ICD 10
+                                standards for medical codes with ERPNext Healthcare, making it simple to search for medical
+                                codes. Additionally, a Laboratory module with prepared templates for typical Lab Tests is
+                                included with ERPNext Healthcare. You may obtain a complete understanding of the operations
+                                using reports like Appointment Analytics and Lab Test Report.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="frappe-health-feature pt32 pb32">
+                <div class="container text-center ">
+                    <h2 style="color:#003362">Frappe Healthcare <span class="red">Features</span></h2>
+                    <hr />
+                    <p class="text-center">Includes several contemporary and business-grade software features</p>
+                </div>
+            </section>
+            <section class="frappe-healthcare-slide pt32 pb32">
+                <div class="container">
+                    <div id="frappe-healthcare-feature" class="owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="healthcare-main">
+                                <div class="text-center">
+                                    <img src="/website_kanak/static/src/img/frappe_healthcare/health-practitinor.svg" class="img-fluid mx-auto d-block" />
+                                </div>
+                                <p class="text-center healthcare-main-head" style="color: #4B88D2">Healthcare Practitioners</p>
+                                <p class="text-center">Set up multiple practitioner information (like Doctors, Nurses, Lab Technicians, etc.). The level of granularity at which role permission.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="healthcare-main">
+                                <div class="text-center">
+                                    <img src="/website_kanak/static/src/img/frappe_healthcare/patient-appointment.svg" class="img-fluid mx-auto d-block" />
+                                </div>
+                                <p class="text-center healthcare-main-head" style="color: #FA8284">Patient Appointments</p>
+                                <p class="text-center">Users of Frappe Health can schedule appointments at any time and receive notifications via email or SMS.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="healthcare-main">
+                                <div class="text-center">
+                                    <img src="/website_kanak/static/src/img/frappe_healthcare/patient-master.svg" class="img-fluid mx-auto d-block" />
+                                </div>
+                                <p class="text-center healthcare-main-head" style="color: #92BB92">Patient Master Data</p>
+                                <p class="text-center">Interactions, patient information, background
+                                    information, documents, test results, billing information, IP information, and much more.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="healthcare-main">
+                                <div class="text-center">
+                                    <img src="/website_kanak/static/src/img/frappe_healthcare/patient-encounter.svg" class="img-fluid mx-auto d-block" />
+                                </div>
+                                <p class="text-center healthcare-main-head" style="color: #4B88D2">Patient Encounter</p>
+                                <p class="text-center">Through the Patient
+                                    Encounter document,
+                                    Frappe Health enables
+                                    medical professionals to
+                                    document every patient
+                                    interaction. The patient
+                                    encounter form retrieves
+                                    patient and doctor
+                                    information and asks the
+                                    doctor to add their thoughts
+                                    on medical coding,
+                                    diagnosis, symptoms,
+                                    treatment plan, drugs, lab
+                                    testing, clinical procedures,
+                                    and rehabilitation activities.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="healthcare-main">
+                                <div class="text-center">
+                                    <img src="/website_kanak/static/src/img/frappe_healthcare/patient-assesment.svg" class="img-fluid mx-auto d-block" />
+                                </div>
+                                <p class="text-center healthcare-main-head" style="color: #FA8284">Patient Assessment</p>
+                                <p class="text-center">The patient assessments
+                                    used in rehabilitation offer
+                                    data to back up the creation
+                                    of a rehabilitation plan
+                                    specific to the client&#39;s
+                                    needs, circumstances, and
+                                    objectives. The patient is
+                                    subjected to several
+                                    evaluations, including the
+                                    Motor Assessment Scale,
+                                    the Functional Mobility
+                                    Scale, and the Stroke
+                                    Rehabilitation Assessment
+                                    of Movement, among
+                                    others.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="healthcare-main">
+                                <div class="text-center">
+                                    <img src="/website_kanak/static/src/img/frappe_healthcare/clinical-procedure.svg" class="img-fluid mx-auto d-block" />
+                                </div>
+                                <p class="text-center healthcare-main-head" style="color: #92BB92">Patient History</p>
+                                <p class="text-center">The patient history report
+                                    enables viewing of the
+                                    patient&#39;s historical medical
+                                    information in a single wall
+                                    view, with timelines and all
+                                    drill-down connections to
+                                    specific views of the visit, lab,
+                                    or operation details.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="healthcare-main">
+                                <div class="text-center">
+                                    <img src="/website_kanak/static/src/img/frappe_healthcare/patient-history.svg" class="img-fluid mx-auto d-block" />
+                                </div>
+                                <p class="text-center healthcare-main-head" style="color: #4B88D2">Clinical Procedures</p>
+                                <p class="text-center">Users of Frappe Health can
+                                    set up clinical processes for
+                                    various patient services and
+                                    treatments. The use of
+                                    prescribed procedures
+                                    directly connects previous
+                                    patient contacts and patient
+                                    appointments, enabling
+                                    seamless transparency in
+                                    therapeutic activities.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="healthcare-main">
+                                <div class="text-center">
+                                    <img src="/website_kanak/static/src/img/frappe_healthcare/inpatient-facility.svg" class="img-fluid mx-auto d-block" />
+                                </div>
+                                <p class="text-center healthcare-main-head" style="color: #FA8284">Inpatient Facility</p>
+                                <p class="text-center">Users can easily set up their
+                                    inpatient facility with Frappe
+                                    Health, admit, discharge,
+                                    and transfer (ADT) patients,
+                                    and invoice the patient for
+                                    the care services provided.
+                                    With the aid of the inpatient
+                                    record, Frappe Health
+                                    significantly reduces the
+                                    difficulty of managing ADT
+                                    (Admission, Discharge, and
+                                    Transfer) in a busy hospital.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="healthcare-main">
+                                <div class="text-center">
+                                    <img src="/website_kanak/static/src/img/frappe_healthcare/laboratory-procedure.svg" class="img-fluid mx-auto d-block" />
+                                </div>
+                                <p class="text-center healthcare-main-head" style="color: #92BB92">Laboratory Procedures</p>
+                                <p class="text-center">Users of Frappe Health can
+                                    use pre-existing lab test
+                                    templates, create invoices,
+                                    manage samples that have
+                                    been collected, report test
+                                    results in the templates, get
+                                    the results verified/approved
+                                    by doctors, and print or email
+                                    test results. This makes it
+                                    possible for users to manage
+                                    clinical laboratories
+                                    effectively.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-shape"></div>
+            </section>
+            <section class="frappe-healthcare-slide-mob pt32 pb32">
+                <div class="container">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="healthcare-main">
+                                <div id="frappe-healthcare-feature" class="text-center">
+                                    <img src="/website_kanak/static/src/img/frappe_healthcare/health-practitinor.svg" class="img-fluid mx-auto d-block" />
+                                </div>
+                                <p class="text-center healthcare-main-head" style="color: #4B88D2">Healthcare Practitioners</p>
+                                <p class="text-center">Set up multiple practitioner information (like Doctors, Nurses, Lab Technicians, etc.). The level of granularity at which role permission.</p>
+                            </div>
+                            <div class="healthcare-main">
+                                <div id="frappe-healthcare-feature" class="text-center">
+                                    <img src="/website_kanak/static/src/img/frappe_healthcare/patient-appointment.svg" class="img-fluid mx-auto d-block" />
+                                </div>
+                                <p class="text-center healthcare-main-head" style="color: #FA8284">Patient Appointments</p>
+                                <p class="text-center more">Users of Frappe Health can schedule appointments at any time and receive notifications via email or SMS.</p>
+                            </div>
+                            <div id="frappe-healthcare-feature" class="healthcare-main">
+                                <div id="frappe-healthcare-feature" class="text-center">
+                                    <img src="/website_kanak/static/src/img/frappe_healthcare/patient-master.svg" class="img-fluid mx-auto d-block" />
+                                </div>
+                                <p class="text-center healthcare-main-head" style="color: #92BB92">Patient Master Data</p>
+                                <p class="text-center more">Interactions, patient information, background
+                                    information, documents, test results, billing information, IP information, and much more.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="healthcare-main">
+                                <div id="frappe-healthcare-feature" class="text-center">
+                                    <img src="/website_kanak/static/src/img/frappe_healthcare/patient-encounter.svg" class="img-fluid mx-auto d-block" />
+                                </div>
+                                <p class="text-center healthcare-main-head" style="color: #4B88D2">Patient Encounter</p>
+                                <p class="text-center more">Through the Patient
+                                    Encounter document,
+                                    Frappe Health enables
+                                    medical professionals to
+                                    document every patient
+                                    interaction. The patient
+                                    encounter form retrieves
+                                    patient and doctor
+                                    information and asks the
+                                    doctor to add their thoughts
+                                    on medical coding,
+                                    diagnosis, symptoms,
+                                    treatment plan, drugs, lab
+                                    testing, clinical procedures,
+                                    and rehabilitation activities.</p>
+                            </div>
+                            <div class="healthcare-main">
+                                <div id="frappe-healthcare-feature" class="text-center">
+                                    <img src="/website_kanak/static/src/img/frappe_healthcare/patient-assesment.svg" class="img-fluid mx-auto d-block" />
+                                </div>
+                                <p class="text-center healthcare-main-head" style="color: #FA8284">Patient Assessment</p>
+                                <p class="text-center more">The patient assessments
+                                    used in rehabilitation offer
+                                    data to back up the creation
+                                    of a rehabilitation plan
+                                    specific to the client&#39;s
+                                    needs, circumstances, and
+                                    objectives. The patient is
+                                    subjected to several
+                                    evaluations, including the
+                                    Motor Assessment Scale,
+                                    the Functional Mobility
+                                    Scale, and the Stroke
+                                    Rehabilitation Assessment
+                                    of Movement, among
+                                    others.</p>
+                            </div>
+                            <div class="healthcare-main">
+                                <div id="frappe-healthcare-feature" class="text-center">
+                                    <img src="/website_kanak/static/src/img/frappe_healthcare/clinical-procedure.svg" class="img-fluid mx-auto d-block" />
+                                </div>
+                                <p class="text-center healthcare-main-head" style="color: #92BB92">Patient History</p>
+                                <p class="text-center more">The patient history report
+                                    enables viewing of the
+                                    patient&#39;s historical medical
+                                    information in a single wall
+                                    view, with timelines and all
+                                    drill-down connections to
+                                    specific views of the visit, lab,
+                                    or operation details.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="healthcare-main">
+                                <div id="frappe-healthcare-feature" class="text-center">
+                                    <img src="/website_kanak/static/src/img/frappe_healthcare/patient-history.svg" class="img-fluid mx-auto d-block" />
+                                </div>
+                                <p class="text-center healthcare-main-head" style="color: #4B88D2">Clinical Procedures</p>
+                                <p class="text-center more">Users of Frappe Health can
+                                    set up clinical processes for
+                                    various patient services and
+                                    treatments. The use of
+                                    prescribed procedures
+                                    directly connects previous
+                                    patient contacts and patient
+                                    appointments, enabling
+                                    seamless transparency in
+                                    therapeutic activities.</p>
+                            </div>
+                            <div class="healthcare-main">
+                                <div id="frappe-healthcare-feature" class="text-center">
+                                    <img src="/website_kanak/static/src/img/frappe_healthcare/inpatient-facility.svg" class="img-fluid mx-auto d-block" />
+                                </div>
+                                <p class="text-center healthcare-main-head" style="color: #FA8284">Inpatient Facility</p>
+                                <p class="text-center more">Users can easily set up their
+                                    inpatient facility with Frappe
+                                    Health, admit, discharge,
+                                    and transfer (ADT) patients,
+                                    and invoice the patient for
+                                    the care services provided.
+                                    With the aid of the inpatient
+                                    record, Frappe Health
+                                    significantly reduces the
+                                    difficulty of managing ADT
+                                    (Admission, Discharge, and
+                                    Transfer) in a busy hospital.</p>
+                            </div>
+                            <div class="healthcare-main">
+                                <div id="frappe-healthcare-feature" class="text-center">
+                                    <img src="/website_kanak/static/src/img/frappe_healthcare/laboratory-procedure.svg" class="img-fluid mx-auto d-block" />
+                                </div>
+                                <p class="text-center healthcare-main-head" style="color: #92BB92">Laboratory Procedures</p>
+                                <p class="text-center more">Users of Frappe Health can
+                                    use pre-existing lab test
+                                    templates, create invoices,
+                                    manage samples that have
+                                    been collected, report test
+                                    results in the templates, get
+                                    the results verified/approved
+                                    by doctors, and print or email
+                                    test results. This makes it
+                                    possible for users to manage
+                                    clinical laboratories
+                                    effectively.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section style="background-color:#EFF4FB;">
+                <div class="shape"></div>
+                <div class="container why-frappe-health pt32 pb32">
+                    <h2 style="color:#003362">Why Frappe <span class="red">Healthcare?</span></h2>
+                    <p>In the upcoming years, the healthcare sector is predicted to grow to an astounding $1 billion. A
+                        growing awareness of healthcare&#39;s importance is directly responsible for this. The healthcare
+                        sector is in good shape because of recent government attempts to bring medical facilities to
+                        every corner of the globe.</p>
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="frappe-item"><img src="/website_kanak/static/src/img/frappe_healthcare/api-platform.svg" style="width:10pt" />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<span>API Based Platform</span></div>
+                        </div>
+                        <div class="item">
+                            <div class="frappe-item"><img src="/website_kanak/static/src/img/frappe_healthcare/in-patient-workflow.svg" style="width:10pt" />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<span>In-Patient Workflows</span></div>
+                        </div>
+                        <div class="item">
+                            <div class="frappe-item"><img src="/website_kanak/static/src/img/frappe_healthcare/device-integration.svg" style="width:10pt" />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<span>Device Integrations</span></div>
+                        </div>
+                        <div class="item">
+                            <div class="frappe-item"><img src="/website_kanak/static/src/img/frappe_healthcare/healthcare-unit.svg" style="width:10pt" />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<span>Healthcare Service Units</span></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="benefit-frappe-desk" style="background-color: #F5F5F5;">
+                <div class="container benefit-frappe pt32 pb32">
+                    <h3 class="mt16 mb16">Benefits Of <span style="color: #db4437 !important;">Frappe Healthcare</span></h3>
+                    <div class="row" style="border-top: 4px solid #4B88D2">
+                        <div class="col-md-4 col-sm-4">
+                            <div style="padding:10pt">
+                                <img src="/website_kanak/static/src/img/frappe_healthcare/improved-operational.svg" class="img-fluid" style="width:43px;" />
+                                <p class="benefit-frappe-head" style="color: #4B88D2">Improved Operational Effectiveness</p>
+                                <p class="text-justify">By integrating several
+                                    standardized operations,
+                                    Frappe Health raises the
+                                    operational efficiency of
+                                    healthcare facilities.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                            <div style="padding:10pt">
+                                <img src="/website_kanak/static/src/img/frappe_healthcare/paperless-workflows.svg" class="img-fluid" style="width:43px;" />
+                                <p class="benefit-frappe-head" style="color: #FF8686">Paperless Workflows</p>
+                                <p class="text-justify">By fully <a href="https://kanakinfosystems.com/blog/set-workflow-in-erpnext">automating the workflows</a>, they become
+                                    paperless, which increases
+                                    data availability and lowers the
+                                    chance of data loss.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                            <div style="padding:10pt">
+                                <img src="/website_kanak/static/src/img/frappe_healthcare/efficient-hospital.svg" class="img-fluid" style="width:43px;" />
+                                <p class="benefit-frappe-head" style="color: #92BB92">Efficient Hospital Visit</p>
+                                <p class="text-justify">Decreases the time
+                                    patients must wait while
+                                    receiving necessary care
+                                    at a hospital.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" style="border-bottom: 4px solid #5F8934">
+                        <div class="col-md-4 col-sm-4">
+                            <div style="border-top: 4px solid #FF8686;padding: 10pt;">
+                                <img src="/website_kanak/static/src/img/frappe_healthcare/incresed-productivity.svg" class="img-fluid" style="width:43px;" />
+                                <p class="benefit-frappe-head" style="color: #4B88D2">Increased Productivity</p>
+                                <p class="text-justify">By smoothly automating
+                                    inter-department
+                                    procedures, Frappe Health
+                                    enables higher productivity
+                                    in healthcare institutions.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                            <div style="border-top: 4px solid #FF8686;padding: 10pt;">
+                                <img src="/website_kanak/static/src/img/frappe_healthcare/improved-communication.svg" class="img-fluid" style="width:43px;" />
+                                <p class="benefit-frappe-head" style="color: #FF8686">Improved Communication</p>
+                                <p class="text-justify">Users can coordinate and
+                                    communicate amongst many
+                                    departments in real time
+                                    because of the intertwined
+                                    workflows.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                            <div style="border-top: 4px solid #FF8686;padding: 10pt;">
+                                <img src="/website_kanak/static/src/img/frappe_healthcare/easy-customized.svg" class="img-fluid" style="width:43px;" />
+                                <p class="benefit-frappe-head" style="color: #92BB92">Easy to be customized</p>
+                                <p class="text-justify">Since Frappe Health is an
+                                    open-source program, it is
+                                    simple to modify it to meet
+                                    the unique needs of
+                                    healthcare facilities.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="benefit-frappe-mob pt32 pb32" style="background-color: #F5F5F5;">
+                <div class="container benefit-frappe">
+                    <h3 class="mt16 mb16">Benefits Of <span style="color: #db4437 !important;">Frappe Healthcare</span></h3>
+                    <div class="owl-carousel">
+                        <div class="item">
+                            <div style="padding:10pt" class="text-center">
+                                <img src="/website_kanak/static/src/img/frappe_healthcare/improved-operational.svg" class="img-responsive center-block" />
+                                <p class="benefit-frappe-head text-center" style="color: #4B88D2">Improved Operational Effectiveness</p>
+                                <p class="text-center">By integrating several
+                                    standardized operations,
+                                    Frappe Health raises the
+                                    operational efficiency of
+                                    healthcare facilities.</p>
+                            </div>
+                            <div style="padding:10pt" class="text-center">
+                                <img src="/website_kanak/static/src/img/frappe_healthcare/paperless-workflows.svg" class="img-responsive center-block" />
+                                <p class="benefit-frappe-head text-center" style="color: #FF8686">Paperless Workflows</p>
+                                <p class="text-center">By fully automating the
+                                    workflows, they become
+                                    paperless, which increases
+                                    data availability and lowers the
+                                    chance of data loss.</p>
+                            </div>
+                            <div style="padding:10pt" class="text-center">
+                                <img src="/website_kanak/static/src/img/frappe_healthcare/efficient-hospital.svg" class="img-responsive center-block" />
+                                <p class="benefit-frappe-head text-center" style="color: #92BB92">Efficient Hospital Visit</p>
+                                <p class="text-center">Decreases the time
+                                    patients must wait while
+                                    receiving necessary care
+                                    at a hospital.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div style="padding: 10pt;" class="text-center">
+                                <img src="/website_kanak/static/src/img/frappe_healthcare/incresed-productivity.svg" class="img-responsive center-block" />
+                                <p class="benefit-frappe-head text-center" style="color: #4B88D2">Increased Productivity</p>
+                                <p class="text-center">By smoothly automating
+                                    inter-department
+                                    procedures, Frappe Health
+                                    enables higher productivity
+                                    in healthcare institutions.</p>
+                            </div>
+                            <div style="padding: 10pt;" class="text-center">
+                                <img src="/website_kanak/static/src/img/frappe_healthcare/improved-communication.svg" class="img-responsive center-block" />
+                                <p class="benefit-frappe-head text-center" style="color: #FF8686">Improved Communication</p>
+                                <p class="text-center">Users can coordinate and
+                                    communicate amongst many
+                                    departments in real time
+                                    because of the intertwined
+                                    workflows.</p>
+                            </div>
+                            <div style="padding: 10pt;" class="text-center">
+                                <img src="/website_kanak/static/src/img/frappe_healthcare/easy-customized.svg" class="img-responsive center-block" />
+                                <p class="benefit-frappe-head text-center" style="color: #92BB92">Easy to be customized</p>
+                                <p class="text-center">Since Frappe Health is an
+                                    open-source program, it is
+                                    simple to modify it to meet
+                                    the unique needs of
+                                    healthcare facilities.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="container frappe-erpnext-team">
+                    <div style="border-left: 4px solid #15456E;padding-left:5pt" class="mt32 mb32">
+                        <h3 class="mt32 mb32">From The ERPNext Team <span style="color: #db4437 !important;">At Kanak Infosystems</span></h3>
+                    </div>
+                </div>
+            </section>
+            <section id="frappe-health-erpnext" class=" pt32 pb32">
+                <div class="container">
+                    <p class="text-justify">Building the Healthcare module by extending other enterprise capabilities of <a href="https://kanakinfosystems.com/erpnext-services">ERPNext</a> was
+                        deemed the best option by the <a href="https://kanakinfosystems.com/contact-us">development team</a>. The HMS includes every other enterprise-
+                        level operational necessity for managing a healthcare facility. With ERPNext healthcare, you
+                        receive access to the other elements of ERPNext, such as financial accounting, multi-company
+                        setup, MIS reporting, etc., in contrast to other point solutions with the ERM or any other
+                        specialized clinical function. Dashboards include graphs and charts, excel-downloadable
+                        reports, a chart of accounts, and support for several languages and regions: emails,
+                        conversations, and much more.</p>
+                </div>
+            </section>
+            <section class="pt16">
+                <div class="container">
+                    <div class="faq_border mb32" style="border: 1px solid #cec7c7;">
+                        <br />
+                        <div class="row justify-content-center">
+                            <div class="col-lg-3 col-md-3 col-sm-3 d-none d-lg-block d-md-block d-sm-block">
+                                <div class="frequently_border_1 float-end" />
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                                <p class="fw700 text-center faq-main-head">
+                                    <font style="font-size: 30px;text-transform: uppercase;">
+                                        <span class="dark_blue">frequently asked questions</span>
+                                    </font>
+                                </p>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3 d-none d-lg-block d-md-block d-sm-block">
+                                <div class="frequently_border_2" />
+                            </div>
+                        </div>
+                        <div class="row faq_box">
+                            <div>
+                                <h4><img id="faq_icon_1" class="faq_button_1 faq_button" src="/website_kanak/static/src/img/frappe_healthcare/drop_down.svg" /><strong style="color: #003362;margin-left: 10px;font-size: 19px;line-height: 1.5;" class="faq_button_1">Can Frappe Healthcare be integrated with other ERP features like supplies, inventory, etc.?</strong></h4>
+                                <div id="faq_1" style="display:none;">
+                                    <p style="margin-top: 20px;margin-left: 40px;">Frappe Healthcare is the industry specific version offered by ERPNext and has various features that will help healthcare practitioners, clinics, and hospitals. And since it is an <a href="https://kanakinfosystems.com/blog/what-is-erp">open-source ERP Software</a>
+                                        , you can integrate with other features.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <h4><img class="faq_button faq_button_2" id="faq_icon_2" src="/website_kanak/static/src/img/frappe_healthcare/drop_down.svg" />
+                                    <strong style="color: #003362;margin-left: 10px;font-size: 19px;line-height: 1.5;" class="faq_button_2">Is there any payment, or customer portal as well where patients can see their history, and download reports?</strong></h4>
+                                <div id="faq_2" style="display:none;">
+                                    <p style="margin-top: 20px;margin-left: 40px;">Yes, there is a payment, or customer portal as well where patients can see their history by logging into the portal and finding the information relevant to them. Through this software, you can trace the communication history of their emails.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <h4><img class="faq_button faq_button_3" id="faq_icon_3" src="/website_kanak/static/src/img/frappe_healthcare/drop_down.svg" />
+                                    <strong style="color: #003362;margin-left: 10px;font-size: 19px;line-height: 1.5;" class="faq_button_3">Is there any Demo?</strong></h4>
+                                <div id="faq_3" style="display:none;">
+                                    <p style="margin-top: 20px;margin-left: 40px;">Yes, Kanak Infosystems LLP offers a <a href="https://kanakinfosystems.com/contact-us">consultation and demo with the industry experts</a>. You can even get a price quote for the implementation after the demo.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <h4><img class="faq_button faq_button_4" id="faq_icon_4" src="/website_kanak/static/src/img/frappe_healthcare/drop_down.svg" />
+                                    <strong style="color: #003362;margin-left: 10px;font-size: 19px;line-height: 1.5;" class="faq_button_4">Can this be easily integrated with country/region-specific labs &amp; other government-approved systems?</strong></h4>
+                                <div id="faq_4" style="display:none;">
+                                    <p style="margin-top: 20px;margin-left: 40px;">Frappe Healthcare is an Open-source ERP Software, You can customize it and integrate it with all the country-specific requirements and needs.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </t>
+    </template>
+</odoo>

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="search_blog_results" name="blog search results">
+        <div class="blog_search_result_containts" t-if="blogs_posts">
+            <ul>
+            <t t-foreach="blogs_posts" t-as="post">
+                <li class="blog_pos_info_cl">
+                    <a t-att-href="'/blog/%s' % (str(post.url))">
+                        <t t-esc="post.name"/>
+                    </a>
+                </li> 
+            </t>
+            </ul>
+        </div>
+    </template>
+
+    <!-- <template id="blog_post_short_url" inherit_id="website_blog.blog_post_short" name="Blog Posts URL">
+        <xpath expr="//div[@name='blog_post']" position="replace">
+            <div t-foreach="blog_posts" t-as="blog_post" class="mb32" name="blog_post">
+            <t t-set="count" t-value="0" />
+
+            <article class="mb48 article-list" name="post">
+                
+                <a t-att-href="'/blog/%s' % (str(blog_post.url))">
+                    <img t-att-src="'/website/image/blog.post/%s/banner' % (blog_post.id)" t-att-alt="blog_post.name" t-att-title="blog_post.name" class="blog-feature" />
+                </a>
+                <div class="article-detail-box">
+                    <div class="article-meta">
+                        <img class="author-avatar" t-attf-src="data:image/*;base64,{{blog_post.author_id.sudo().image}}" />
+                        <span t-esc="blog_post.author_id.sudo().name" />
+                        <span class="dot-divide">·</span>
+                        <span t-field="blog_post.post_date" t-options='{"format": "dd MMM yyyy"}' />
+                        <t t-if="len(blog_post.message_ids) &gt; 0">
+                            <span class="dot-divide">·</span>
+                            <span>
+                                <a t-attf-href="#{blog_url('', ['blogpost'], blogpost=post)}#comments">
+                                    <t t-if="len(blog_post.message_ids) &lt;= 1">
+                                        <t t-esc="len(blog_post.message_ids)" /> comment</t>
+                                    <t t-if="len(blog_post.message_ids) > 1">
+                                        <t t-esc="len(blog_post.message_ids)" /> comments</t>
+                                </a>
+                            </span>
+                        </t>
+                        <t t-if="blog_post.visits &gt; 0">
+                            <span class="dot-divide">·</span>
+                            <span>
+                                <t t-esc="blog_post.visits" />
+                                <t t-if="blog_post.visits &lt;= 1">view</t>
+                                <t t-if="blog_post.visits &gt; 1">views</t>
+                            </span>
+                        </t>
+                        <t t-if="not blog_post.website_published">
+                            <span class="dot-divide">·</span>
+                            <span class="label label-danger">unpublished</span>
+                        </t>
+                    </div>
+                    <div class="clearfix" />
+                    <a class="article-title" t-att-href="'/blog/%s' % (str(blog_post.url))">
+                        <h2 t-field="blog_post.name" class="mt32 o_blog_post_title">Untitled Post</h2>
+                    </a>
+                    <p t-field="blog_post.teaser" class="mt32 mb32 o_blog_post_teaser" />
+                    <a class="read-more" t-att-href="'/blog/%s' % (blog_post.url)">Read More</a>
+                </div>
+            </article>
+            <t t-set="count" t-value="count+1" />
+            <div class="clearfix" t-if="(count % 1) == 0" />
+            </div>
+        </xpath>
+
+        <xpath expr="//div[@id='blog_right_column']//h2" position="replace">
+            <h1 class="mt4">
+                <a class="fa fa-twitter-square" t-att-href="website.social_twitter" t-if="website.social_twitter"></a>
+                <a class="fa fa-facebook-square" t-att-href="website.social_facebook" t-if="website.social_facebook"></a>
+                <a class="fa fa-linkedin-square" t-att-href="website.social_linkedin" t-if="website.social_linkedin"></a>
+                <a class="fa fa-youtube-play" t-att-href="website.social_youtube" t-if="website.social_youtube"></a>
+            </h1>
+        </xpath>
+    </template> -->
+
+    <template id="latest_blogs" name="Latest Blogs">
+        <t t-call="website.layout">
+            <div id="wrap" class="js_blog website_blog">
+                <div class="oe_structure" />
+                <section class="blog-banner-top">
+                    <div class="container">
+                    <img src="/website_custome_blog_url/static/src/img/blog-image.png" alt="Latest Post" class="img-fluid mx-auto"/>
+                    <p class="text-center text-white">Here's a compilation of our deeply researched and carefully curated blogs.</p>
+                </div>
+                </section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 mb16 kanak-breadcrumb">
+                            <span><a href="/">Home</a></span>
+                            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                            <span><a href="/blog">Blog</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-graycolor">
+                    <section class="container">
+                        <div class="row ">
+                            <div class="col-lg-4 offset-lg-4 col-md-4 offset-md-4 col-sm-4 offset-sm-4 mt16">
+                                <form action="/blog" method="get" class="custom_blog_search" id="blog_search">
+                                    <div class="input-group">
+                                        <div class="oe_search">
+                                            <input type="text" id="search_blog" name="search" class="search-query form-control oe_search_box" placeholder="Search..." t-att-value="search" />
+                                        </div>
+                                        <span class="input-group-btn">
+                                            <button type="submit" class="btn btn-default oe_search_button"><i class="fa fa-search" /></button>
+                                        </span>
+                                    </div>
+                                </form>
+                                <div class="blog_result_main_cl"/>
+                            </div>
+                        </div>
+                        <div class="row mt64" id="kanak_custome_blog_post">
+                            <t t-set="count" t-value="0" />
+                            <div class="col-lg-8 col-md-8 col-sm-12 blog-container" id="main_column">
+                                <t t-foreach="posts" t-as="post">
+                                    <article class="mb48 article-list" name="post">
+                                        <a t-att-href="'/blog/%s' % (str(post.url))">
+                                            <img t-att-src="'/website/image/blog.post/%s/banner' % (post.id)" t-att-alt="post.name" t-att-title="post.name" class="blog-feature img img-fluid" />
+                                        </a>
+                                        <div class="article-detail-box">
+                                            <div class="article-meta">
+                                                <img class="author-avatar" t-attf-src="data:image/*;base64,{{post.author_id.sudo().image_128}}" />
+                                                <span t-esc="post.author_id.sudo().name"/>
+                                                <span class="dot-divide">·</span>
+                                                <span t-field="post.post_date" t-options='{"format": "dd MMM yyyy"}' />
+                                                <t t-if="len(post.message_ids) &gt; 0">
+                                                    <span class="dot-divide">·</span>
+                                                    <span>
+                                                        <a t-attf-href="#{blog_url('', ['blogpost'], blogpost=post)}#comments">
+                                                            <t t-if="len(post.message_ids) &lt;= 1">
+                                                                <t t-esc="len(post.message_ids)" /> comment</t>
+                                                            <t t-if="len(post.message_ids) > 1">
+                                                                <t t-esc="len(post.message_ids)" /> comments</t>
+                                                        </a>
+                                                    </span>
+                                                </t>
+                                                <t t-if="post.visits &gt; 0">
+                                                    <span class="dot-divide">·</span>
+                                                    <span>
+                                                        <t t-esc="post.visits" />
+                                                        <t t-if="post.visits &lt;= 1">view</t>
+                                                        <t t-if="post.visits &gt; 1">views</t>
+                                                    </span>
+                                                </t>
+                                                <t t-if="not post.website_published">
+                                                    <span class="dot-divide">·</span>
+                                                    <span class="label label-danger">unpublished</span>
+                                                </t>
+                                            </div>
+                                            <div class="clearfix" />
+                                            <a class="article-title" t-att-href="'/blog/%s' % (str(post.url))">
+                                                <h2 t-field="post.name" class="mt32 o_blog_post_title">Untitled Post</h2>
+                                            </a>
+                                            <p t-field="post.teaser" class="mt32 mb32 o_blog_post_teaser" />
+                                            <a class="read-more" t-att-href="'/blog/%s' % (post.url)">Read More</a>
+                                        </div>
+                                    </article>
+                                    <t t-set="count" t-value="count+1" />
+                                    <div class="clearfix" t-if="(count % 1) == 0" />
+                                </t>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-12" id="blog_right_column">
+                                <section class="side-section">
+                                    <h4 class="side-heading">Categories</h4>
+                                    <ul class="nav flex-column mt16 knk_list">
+                                        <t t-foreach="request.env['blog.blog'].search([])" t-as="post">
+                                            <li>
+                                                <a class="nav-link" t-att-href="'/blog/category/%s' % (str(post.blog_url))">
+                                                    <i class="fa fa-angle-right arrow"></i> <span t-field="post.name" />
+                                                </a>
+                                            </li>
+                                        </t>
+                                    </ul>
+                                </section>
+                                <section class="side-section most-views mt48">
+                                    <h4 class="side-heading">Most Viewed Post</h4>
+                                    <ul class="nav flex-column mt16">
+                                        <t t-foreach="request.env['blog.post'].search([('website_published', '=', True)], limit=8, order='visits DESC')" t-as="post">
+                                            <li>
+                                                <i class="fa fa-angle-right arrow"></i>
+                                                <a class="nav-link" t-att-href="'/blog/%s' % (str(post.url))">
+                                                    <span t-field="post.name" />
+                                                </a>
+                                            </li>
+                                        </t>
+                                    </ul>
+                                </section>
+                                <section class="side-section mt48">
+                                    <h4 class="side-heading">Archives</h4>
+                                    <div class="list-group list-group-root archives">
+                                        <t t-foreach="all_nav_list" t-as="year">
+                                            <a t-attf-href="#archives_#{year}" class="list-group-item text-decoration-none" role="button" data-bs-toggle="collapse" aria-expanded="false" t-attf-aria-controls="archives_#{year}">
+                                                <i class="fa fa-angle-right arrow"></i>
+                                                <t t-esc="year" />
+                                            </a>
+                                            <div class="list-group collapse" t-attf-id="archives_#{year}">
+                                                <t t-foreach="all_nav_list[year]" t-as="months">
+                                                    <t t-if="months['date_begin'] == date">
+                                                        <a t-ignore="True" class="list-group-item text-decoration-none active" t-att-href="'/blog/%s/%s' % (str(year), str(months['month']))">
+                                                            <t t-esc="months['month']" /> <span class="pull-right badge" t-esc="months['post_date_count']" />
+                                                        </a>
+                                                    </t>
+                                                    <t t-else="1">
+                                                        <a t-ignore="True" class="list-group-item text-decoration-none" t-att-href="'/blog/%s/%s' % (str(year), str(months['month']))">
+                                                            <t t-esc="months['month']" /> <span class="pull-right badge" t-esc="months['post_date_count']" />
+                                                        </a>
+                                                    </t>
+                                                </t>
+                                            </div>
+                                        </t>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </section>
+                    <div class="oe_structure" />
+                    <section class="container">
+                        <t t-call="website.pager">
+                            <t t-set="classname">pull-left mb32</t>
+                        </t>
+                    </section>
+                </div>
+            </div>
+        </t>
+    </template>
+</odoo>

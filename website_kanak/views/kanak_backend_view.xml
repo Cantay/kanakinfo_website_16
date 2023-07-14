@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	
+	<record id="homepage_our_recent_work_form_view" model="ir.ui.view">
+        <field name="name">our.recent.work.form</field>
+        <field name="model">our.recent.work</field>
+        <field name="field_parent" eval="False"/>
+        <field name="arch" type="xml">
+            <form string="Our Recent Work">
+                <sheet>
+                    <field name="image" widget='image' class="oe_avatar"/>
+                    <div class="oe_left">
+                        <group>
+                            <field name="name"/>
+                            <field name="description"/>
+                            <field name="link" widget="url"/>
+                            <field name="date"/>
+                        </group>
+                    </div>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <record id="homepage_our_recent_work_tree_view" model="ir.ui.view">
+        <field name="name">our.recent.work.tree</field>
+        <field name="model">our.recent.work</field>
+        <field name="field_parent" eval="False"/>
+        <field name="arch" type="xml">
+            <tree string="Our Recent Work">
+                <field name="sequence" widget="handle"/>
+                <field name="description"/>
+                <field name="link"/>
+                <field name="date"/>
+            </tree>
+        </field>
+    </record>
+    <record id="menu_our_recent_work_action" model="ir.actions.act_window">
+        <field name="name">Our Recent Work</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">our.recent.work</field>
+        <field name="view_mode">tree,form</field>
+        <field name="view_id" ref="homepage_our_recent_work_tree_view"/>
+        <field name="help" type="html">
+          <p class="oe_view_nocontent_create">
+            Click to add recent work.
+          </p><p>
+          </p>
+        </field>
+    </record>
+    <menuitem id="menu_our_recent_work"
+        action="menu_our_recent_work_action"
+        parent="website.menu_website_global_configuration" sequence="80"/>
+</odoo>

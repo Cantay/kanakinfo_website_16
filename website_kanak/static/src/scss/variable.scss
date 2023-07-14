@@ -1,0 +1,126 @@
+
+@font-face {
+    font-family: aileron;
+    src: url(/website_kanak/static/src/fonts/Aileron/Aileron-UltraLight.woff) format('woff');
+    font-weight: 100;
+    font-style: normal
+}
+
+@font-face {
+    font-family: aileron;
+    src: url(/website_kanak/static/src/fonts/Aileron/Aileron-Thin.woff) format('woff');
+    font-weight: 200;
+    font-style: normal
+}
+
+@font-face {
+    font-family: aileron;
+    src: url(/website_kanak/static/src/fonts/Aileron/Aileron-Regular.woff) format('woff');
+    font-weight: 300;
+    font-style: normal
+}
+
+@font-face {
+    font-family: aileron;
+    src: url(/website_kanak/static/src/fonts/Aileron/Aileron-SemiBold.woff) format('woff');
+    font-weight: 500;
+    font-style: normal
+}
+
+@font-face {
+    font-family: aileron;
+    src: url(/website_kanak/static/src/fonts/Aileron/Aileron-Bold.woff) format('woff');
+    font-weight: 700;
+    font-style: normal
+}
+
+@font-face {
+    font-family: aileron;
+    src: url(/website_kanak/static/src/fonts/Aileron/Aileron-Black.woff) format('woff');
+    font-weight: 900;
+    font-style: normal
+}
+
+// body {
+//     font-family: aileron, Roboto, sans-serif
+// }
+
+
+$o-color-palettes: map-merge($o-color-palettes,
+    (
+        'base-1': map-merge(map-get($o-color-palettes, 'base-1'), (
+            'o-color-1': #003362,
+            'o-color-2': #5e5e5d,
+            'o-color-3': #ceccc8,
+            'o-color-4': #FFFFFF,
+            'o-color-5': #212529,
+        )),
+    )
+);
+
+$color_1: #db4437; //red
+$color_2: #003362; //blue
+$color_3: #fff;    //white
+// $color_4: #fff;
+$color_5: #01a2a6; //cyan
+$color_6: #fcaebb; //pink
+$color_7: #f36371; //lightred
+$color_8: #8C82BE; //lightblue
+$color_9: #000;     //black
+$color_10: #05416b; //blue
+$color_11: #565656; //gray
+$color_12: #f44152; //red
+$color_13: #878787; //gray
+$color_14: #c2d6dc; //lightsky
+$color_15: #367a9dad; //lightblue
+$color_16: #2a6496; //blue
+$color_17: #808080; //gray
+$color_18: #cfcccc; //lightgrey
+$color_19: #15456E; //blue
+$color_20: #8d4f80; //purple
+$color_21: #5a696e; //lightgray
+$color_22: #9ccb2d; //green
+$color_23: #eec44c; //yellow
+$color_24: #336e7b; //darkcyan
+$color_25: #4B88D2; //lightblue
+$color_26: #714B67; //purple
+$color_27: #14caf3; //lightcyan
+
+
+//$background-color_1: #fff; //white
+// $background-color_2: #003362; //blue
+// $background-color_3: #000; //black
+$background-color_4: #f6f6f6; //lightgray
+$background-color_5: #eeffff; //lightsky
+// $background-color_6: #01a2a6; //cyan
+$background-color_7: #fff5f7; //lightpink
+// $background-color_8: #fcaebb; //pink***
+$background-color_9: #fff6f7; //lightpink
+// $background-color_10: #f36371; //red
+$background-color_11: #f7f5ff; //lightgray
+// $background-color_12: #8C82BE; //lightblue
+$background-color_13: #2a4d69; //darkblue
+$background-color_14: #fcfafb; //lightgray
+$background-color_15: #dd1c1d; //darkred
+$background-color_16: transparent;
+$background-color_17: #022a46c9; //blue
+$background-color_18: #d3d3d3; //lightgray
+$background-color_19: #efe9e9; //lightgray
+$background-color_20: #2a4d69cc; //blue
+// $background-color_21: #d3d3d3; //lightgray
+$background-color_22: #ffffff; //white
+$background-color_23: #ffa53a; //yellow
+$background-color_24: #0c9ee7; //skyblue
+$background-color_25: #4b88d217; //skyblue
+$background-color_26: #92C7F7; //lightcyan
+$background-color_27: #d9e3c0; //lightgreen
+$background-color_28: #f0ebb4; //lightyellow
+$background-color_29: #faebd7; //lightpink
+$background-color_30: #F4F7FC; //lightcyan
+$background-color_31: #d5e0f3; //lightblue
+
+// $border-color_1: #2a4d69;
+// $border-color_2: #dd1c1d;
+$border-color_3: #00deff;
+$border-color_4: #01a2a6;
+

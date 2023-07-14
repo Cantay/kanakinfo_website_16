@@ -1,0 +1,65 @@
+.privacy_policy_kanakinfo {
+
+    .workpage-home-work {
+        .fa-chevron-right {
+            font-size: 12px;
+        }
+        background-color: $background-color_18;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        opacity: .5;
+    }
+
+    .privacy_sec_banner {
+        .p1_cl_001 {
+            background: $color_15;
+            overflow: hidden;
+            text-align: center;
+            color: $color_15;
+        }
+
+        h1.title_cl {
+            span {
+                margin-right: 12px;
+                font-weight: 900;
+            }
+
+            padding: 8% 0 8% 0;
+            text-align: center;
+            color: $color_3 !important;
+            font-weight: 900;
+        }
+    }
+
+    #privacy_sec_001 {
+        background-position: 100% 40%;
+    }
+
+    p {
+        font-size: 17px;
+        line-height: 160%;
+        letter-spacing: 0;
+        text-align: left;
+        font-weight: 300;
+    }
+
+    h1.title_cl {
+        text-transform: uppercase;
+        font-size: 34px !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    strong {
+        font-weight: bold;
+    }
+
+    @media screen and (max-width: 768px) {
+        h1.title_cl {
+            font-size: 20px !important;
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+        }
+    }
+
+}

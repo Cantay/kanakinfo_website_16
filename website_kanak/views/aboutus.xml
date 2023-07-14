@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="kanak_aboutus" name="kanak aboutus">
+        <t t-set="additional_title"> Kanak Infosystems - A Leading IT Business Solution &amp;
+            Service Provider</t>
+        <t t-set="website_meta_description">We are leading IT business solution provider company
+            helping our clients in all IT services from development &amp; designing to web
+            promotion. Contact us! </t>
+        <t t-set="website_meta_keywords">kanak infosystems llp, web development services, erp
+            solution, web designing services, digital marketing, mobile app development, business
+            analytics, data integration, odoo development </t>
+        <t t-call="website.layout">
+            <t t-set="pageName" t-value="'aboutus kanak_aboutus'" />
+            <div id="wrap" class="oe_structure oe_empty">
+                <div class="oe_structure">
+                    <section id="main-ab-banner">
+                        <div class="overlay">
+                            <div class="main-kanak-banner">
+                                <div class="main-new-ab-banner text-center ">
+                                    <span class="kanak-ab-bnr1"> About </span>
+                                    <span class="kanak-ab-bnr2"> Kanak </span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="workpage-home-work">
+                            <div class="container">
+                            <span>
+                                <a class="text-decoration-none" href="/"> Home </a>
+                            </span>
+                            <i class="fa fa-chevron-right" aria-hidden="true" />
+                            <span> About Us </span>
+                        </div>
+                        </div>
+                    </section>
+                    <section id="ab-class-all1">
+                        <div class="container all-section-ab-class1">
+                            <div class="row for-spacing-all">
+                                <div class="col-md-12">
+                                    <h1 class="whoweare"> Who We Are? </h1>
+                                </div>
+                                <div class="col-md-6 col-sm-6 mine-ab-class11">
+                                    <p class="text-justify">We are a team of creative talented, passionate and experienced
+                                        individuals to service our worldwide clients with our wide range
+                                        of IT solutions! Know why and how we're different! </p>
+                                    <p class="text-justify"> We are dreamers with clear and focused vision! We offer
+                                        customized and result-oriented business IT solutions and
+                                        services to enterprises and enhance their business performance!
+                                        We provide wide services like Biggest Open Source <a href="https://kanakinfosystems.com/blog/what-is-erp" target="_blank">ERP</a>
+                                        <a href="https://kanakinfosystems.com/odoo-development-services" target="_blank">ODOO Development</a> , Implementation and
+                                        Installation, E-Commerce Development (Magento, WordPress,
+                                        Drupal, Joomla, PrestaShop), Mobile Apps Development (Android
+                                        &amp; iOS), Web Design &amp; Development, Business Intelligence
+                                        &amp; Analytics, Data Integration and Big Data Management,
+                                        Digital Marketing (SEO, SMO, Link Building). with primary focus
+                                        on <a href="https://kanakinfosystems.com/erp-solutions" target="_blank">ERP solution</a> &amp; services based on
+                                        Odoo. </p>
+                                </div>
+                                <div class="col-md-6 col-sm-6 mine-ab-class12">
+                                    <img class="img-fluid mx-auto" src="/website_kanak/static/src/img/about_us/img-1.webp" alt="about kanak infosystems llp" />
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="main-ab-all2">
+                        <div class="container all-section-ab-class2 text-center">
+                            <div class="row for-spacing-all">
+                                <div class="col-md-4 col-sm-4">
+                                    <img class="img-fluid mx-auto ab-page-class2 mt16 mb16" src="/website_kanak/static/src/img/about_us/icon-1.webp" alt=" kanak infosystems llp icons" />
+                                    <p class="ab-page-class3 text-center"> Odoo ERP Development </p>
+                                    <p class="ab-page-class4 text-center"> Being Open Source it is Cost
+                                        Effective
+                                        and Customized Business Solution to Your Specific Business
+                                        Needs.</p>
+                                </div>
+                                <div class="col-md-4 col-sm-4">
+                                    <img class="img-fluid mx-auto ab-page-class2 mt16 mb16" src="/website_kanak/static/src/img/about_us/icon-2.webp" alt=" kanak infosystems llp icons" />
+                                    <p class="ab-page-class3 text-center"> Web Design &amp; Development </p>
+                                    <p class="ab-page-class4 text-center"> Our web Design and
+                                        Development Expertise
+                                        spans over a range of industries and services! We build websites
+                                        to drive best ROI and play around with technology!</p>
+                                </div>
+                                <div class="col-md-4 col-sm-4">
+                                    <img class="img-fluid mx-auto ab-page-class2 mt16 mb16" src="/website_kanak/static/src/img/about_us/icon-1.webp" alt=" kanak infosystems llp icons" />
+                                    <p class="ab-page-class3 text-center"> Mobile App Development </p>
+                                    <p class="ab-page-class4 text-center"> Mobile Apps - The Most
+                                        Promising and
+                                        Upcoming Trend Used by All Business! Reach to Your Customer in a
+                                        New Way!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <br />
+                    <br />
+                    <section id="main-ab-all3">
+                        <div class="container all-section-ab-class3">
+                            <div class="row for-spacing-all">
+                                <div class="col-md-6 col-sm-6">
+                                    <img class="img-fluid mx-auto" src="/website_kanak/static/src/img/about_us/img-2.webp" alt="kanak infosystems llp" />
+                                </div>
+                                <div class="col-md-6 col-sm-6 hidden-xs row">
+                                    <h2 class="ab-page-class5"> Your Business Needs, Our Errorless Solutions!</h2>
+                                    <div class="col-sm-10 col-10">
+                                        <p class="ab-page-class6">Our Commitment to Clients </p>
+                                        <p class="ab-page-class7"> Our commitment to offer a high-level
+                                            end business solution to clients!</p>
+                                    </div>
+                                    <div class="col-sm-2 col-2">
+                                        <img class="ab-page-class8" src="/website_kanak/static/src/img/about_us/icon-4.webp" />
+                                    </div>
+                                    <div class="col-sm-10 col-10">
+                                        <p class="ab-page-class6">Our Passion for Technology</p>
+                                        <p class="ab-page-class7">Technology is in our nerves which
+                                            makes us responsive, flexible and puckish which shows in our
+                                            work</p>
+                                    </div>
+                                    <div class="col-sm-2 col-2">
+                                        <img class="ab-page-class8" src="/website_kanak/static/src/img/about_us/icon-5.webp" alt=" kanak infosystems llp icons" />
+                                    </div>
+                                    <div class="col-sm-10 col-10">
+                                        <p class="ab-page-class6">Our Team Strength</p>
+                                        <p class="ab-page-class7"> We value our employees and help them
+                                            to grow with our clients, nurturing trust and honesty.</p>
+                                    </div>
+                                    <div class="col-sm-2 col-2">
+                                        <img class="ab-page-class8" src="/website_kanak/static/src/img/about_us/icon-6.webp" alt=" kanak infosystems llp icons" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="main-ab-all-deve" class="for-two-port-space">
+                        <div id="parallex-home-odoo-ab-new2" class="parallex-ab-new-1">
+                            <div class="overlay-ab">
+                                <div class="container skill-container-main">
+                                    <div class="row for-spacing-all">
+                                        <div class="skill-class-main">
+                                            <p class="text-center text-white skill-ab-class "> OUR SKILL </p>
+                                        </div>
+                                        <div class="col-md-3 col-sm-12 mine-progrssbar">
+                                            <div class="progress blue">
+                                                <span class="progress-left">
+                                                    <span class="progress-bar" />
+                                                </span>
+                                                <span class="progress-right">
+                                                    <span class="progress-bar" />
+                                                </span>
+                                                <div class="progress-value">90%</div>
+                                            </div>
+                                            <p class="text-white aboutus-pro-name"> ANALYSE </p>
+                                        </div>
+                                        <div class="col-md-3 col-sm-12 mine-progrssbar">
+                                            <div class="progress yellow">
+                                                <span class="progress-left">
+                                                    <span class="progress-bar" />
+                                                </span>
+                                                <span class="progress-right">
+                                                    <span class="progress-bar" />
+                                                </span>
+                                                <div class="progress-value">75%</div>
+                                            </div>
+                                            <p class="text-white aboutus-pro-name"> DESIGN </p>
+                                        </div>
+                                        <div class="col-md-3 col-sm-12 mine-progrssbar">
+                                            <div class="progress blue">
+                                                <span class="progress-left">
+                                                    <span class="progress-bar" />
+                                                </span>
+                                                <span class="progress-right">
+                                                    <span class="progress-bar" />
+                                                </span>
+                                                <div class="progress-value">90%</div>
+                                            </div>
+                                            <p class="text-white aboutus-pro-name"> DEVELOPMENT </p>
+                                        </div>
+                                        <div class="col-md-3 col-sm-12 mine-progrssbar">
+                                            <div class="progress yellow">
+                                                <span class="progress-left">
+                                                    <span class="progress-bar" />
+                                                </span>
+                                                <span class="progress-right">
+                                                    <span class="progress-bar" />
+                                                </span>
+                                                <div class="progress-value">75%</div>
+                                            </div>
+                                            <p class="text-white aboutus-pro-name"> MAINTENANCE </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="main-symbol-all">
+                        <p class="text-center symbol-heading"> Trusted By </p>
+                        <div class="container main-symbol1">
+                            <div class="row">
+                                <div id="myCarousel111" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="carousel-item active">
+                                            <div class="col-md-2 col-sm-2 ">
+                                                <div class="main-symbol text-center">
+                                                    <div class="main-symbol-img">
+                                                        <img class="img-fluid mx-auto" src="/website_kanak/static/src/img/testimonial/lotshub_log-1.webp" alt="kanak infosystems llp clients logo" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2 col-sm-2 ">
+                                                <div class="main-symbol text-center">
+                                                    <div class="main-symbol-img">
+                                                        <img class="img-fluid mx-auto" src="/website_kanak/static/src/img/about_us/home-credit.webp" alt="kanak infosystems llp clients logo" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2 col-sm-2 ">
+                                                <div class="main-symbol text-center">
+                                                    <div class="main-symbol-img">
+                                                        <img class="img-fluid mx-auto" src="/website_kanak/static/src/img/about_us/cl14.webp" alt="kanak infosystems llp partners logo" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2 col-sm-2 ">
+                                                <div class="main-symbol text-center">
+                                                    <div class="main-symbol-img">
+                                                        <img class="img-fluid mx-auto" src="/website_kanak/static/src/img/testimonial/logo111.webp" alt="kanak infosystems llp clients logo" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2 col-sm-2 ">
+                                                <div class="main-symbol text-center">
+                                                    <div class="main-symbol-img">
+                                                        <img class="img-fluid mx-auto" src="/website_kanak/static/src/img/about_us/warm-wind.webp" alt="kanak infosystems llp clients logo" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2 col-sm-2 ">
+                                                <div class="main-symbol text-center">
+                                                    <div class="main-symbol-img">
+                                                        <img class="img-fluid mx-auto" src="/website_kanak/static/src/img/about_us/lioncode.webp" alt="kanak infosystems llp clients logo" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="col-md-2 col-sm-2 col-xs-2">
+                                                <div class="main-symbol text-center">
+                                                    <div class="main-symbol-img">
+                                                        <img class="img-fluid mx-auto" src="/website_kanak/static/src/img/testimonial/logo113.webp" alt="kanak infosystems llp clients logo" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-2 col-xs-2">
+                                                <div class="main-symbol text-center">
+                                                    <div class="main-symbol-img">
+                                                        <img class="img-fluid mx-auto" src="/website_kanak/static/src/img/testimonial/logo114.webp" alt="kanak infosystems llp clients logo" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2 col-sm-2 col-xs-2">
+                                                <div class="main-symbol text-center">
+                                                    <div class="main-symbol-img">
+                                                        <img class="img-fluid mx-auto" src="/website_kanak/static/src/img/testimonial/logo117.webp" alt="kanak infosystems llp partners logo" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2 col-sm-2 col-xs-2">
+                                                <div class="main-symbol text-center">
+                                                    <div class="main-symbol-img">
+                                                        <img class="img-fluid mx-auto" src="/website_kanak/static/src/img/testimonial/logo118.webp" alt="kanak infosystems llp clients logo" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="new_carousel_ind">
+                                        <ol class="carousel-indicators">
+                                            <li data-bs-target="#myCarousel111" data-bs-slide-to="0" class="active"></li>
+                                            <li data-bs-target="#myCarousel111" data-bs-slide-to="1"></li>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </t>
+    </template>
+</odoo>

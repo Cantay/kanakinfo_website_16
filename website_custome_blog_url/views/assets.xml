@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <data>
+  	<template id="assets_custom_blog_url_frontend" inherit_id="website_blog.assets_frontend" name="Website Assets js">
+      <xpath expr="link[last()]" position="after">
+        <link rel="stylesheet" type="text/css" href="/website_custome_blog_url/static/src/css/custom_blog_style.min.css" />
+      </xpath>
+      <xpath expr=".">
+        <script type="text/javascript" src="/website_custome_blog_url/static/src/js/blog_script.js"/>
+        <script type="text/javascript" src="/website_custome_blog_url/static/src/js/blog_search.js"/>
+      </xpath>
+  </template>
+  </data>
+</odoo>

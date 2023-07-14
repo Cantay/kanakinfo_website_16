@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    
+    <template id="frappe_hr_page" name="Frappe Hr Page">
+        <t t-call="website.layout">
+            <t t-set="pageName" t-value="'FrappeHr kanak_frappe_hr'"/>
+            <section class="frappe-hr-banner">
+                <div class="container ">
+                    <div class="main row">
+                        <div class="col-md-6">
+                            <p class="main-head-banner text-center" style="text-shadow: 1px 2px 7px black;">Frappe HR Services</p>
+                            <p class="mt16 text-center" style="font-size:22px;font-weight:900;color:#fff;text-shadow: 1px 2px 7px black;">A HR and Payroll Software- Crafted as per Your Needs</p>
+                            <div class="text-center pt32">
+                            <a type="button" class="btn btn-light btn-lg" href="/contactus" style="padding: 10pt 20pt !important;border-radius:10px;font-weight:900;font-size:20px">Book a free Trial !</a>
+                        </div>
+                        </div>
+                        <div class="col-md-6 banner-mob">
+                            <img src="/website_kanak/static/src/img/frappe_hrms/frappe-hr-banner1.webp" class="img-fluid mx-auto " />
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="pt32 pb32 quick-review">
+                <div class="container spoiler">
+                    <h1>Frappe HR: <span class="text-danger">A Quick Overview</span></h1>
+                    <div class="hidden-text">
+                        <p class="text-justify">The Human Resources (HR) module discusses the procedures pertaining to an organization&#39;s
+                            HR division. Managing human resources is one of the most crucial aspects of any firm. Effective
+                            hiring procedures, good staff management, and a successful HR process is necessary to build
+                            an effective and efficient workforce. The <a href="https://kanakinfosystems.com/blog/erpnext-everything-you-need-to-know-about-it">ERPNext</a> Human Resource Module is comprehensive.
+                            To <a href="https://kanakinfosystems.com/contact-us">assist HR organizations in managing</a> employee lifecycles, leaves, attendance, recruitment,
+                            and training within one module, it offers a variety of settings, documents, and resources.</p>
+                        <p class="text-justify">It keeps up with a comprehensive personnel database that includes contact information, salary
+                            information, attendance, performance reviews, leaves of absence, and appraisal records.
+                            Processing the payroll using Payroll Entry to produce Salary Slips is the crucial component
+                            here. Most nations have intricate tax regulations that outline the charges the business can pay
+                            for its employees. The business must follow the rules to withhold taxes and social security from
+                            employee paychecks. ERPNext supports all tax calculations and types.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="frappe-hr-feature-desk pt32 pb32 ">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h2 class="text-white">Features of Frappe HR </h2>
+                            <p class="text-white">Pick and select the functionality you need with today&#39;s HR systems</p>
+                            <div class="row mt32">
+                                <div class="col-md-6">
+                                    <div class="hr-feature-box workflow">
+                                        <p class="hr-feature-head">Workflows</p>
+                                        <p>The majority of the repetitive,
+                                            routine tasks that reduce the
+                                            effectiveness of HR
+                                            administration can be
+                                            automated by firms using
+                                            workflows. To keep everyone
+                                            updated, the technology
+                                            allows sending automated
+                                            notifications to each
+                                            participant. HRMS lowers the
+                                            significant cost element
+                                            associated with manual paper-
+                                            pushing by evaluating the
+                                            data.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="hr-feature-box recruitment">
+                                        <p class="hr-feature-head">Recruitment &amp; Hiring</p>
+                                        <p>A data study on peer roles
+                                            may be automated,
+                                            optimized, and the system
+                                            can pitch the right salary.
+                                            With simple-to-use templates
+                                            and follow-up on recruiting,
+                                            the automated recruitment
+                                            module of HRMS(Human
+                                            Resource Management
+                                            Software) streamlines the
+                                            employment process.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 frappe-feature-img">
+                            <img src="/website_kanak/static/src/img/frappe_hrms/feature-background1.webp" class="img-fluid mx-auto" />
+                        </div>
+                    </div>
+                    <div class="row mt32">
+                        <div class="col-md-3">
+                            <div class="hr-feature-box payroll">
+                                <p class="hr-feature-head">Payroll Systems</p>
+                                <p>Payroll&#39;s primary
+                                    responsibilities include
+                                    determining and paying
+                                    salaries, computing the
+                                    proper taxes and deductions,
+                                    and planning the printing and
+                                    distribution of paychecks. Its
+                                    well-stated equations cover
+                                    all previous compensation
+                                    and benefits systems,
+                                    including salary, allowances,
+                                    and overtime rates in an
+                                    organization.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="hr-feature-box self-service">
+                                <p class="hr-feature-head">Employee Self-Service</p>
+                                <p>Employee self-service is a
+                                    component of HR systems
+                                    that are highly valued by
+                                    many businesses. Employee
+                                    self-service may allow them to see and update their
+                                    personal information, request
+                                    time off, connect with
+                                    coworkers and HR experts,
+                                    and view their schedule
+                                    information. The ease and
+                                    speed with which employees
+                                    and supervisors can use self-
+                                    service portals via any
+                                    mobile device are often
+                                    increased.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="hr-feature-box performance">
+                                <p class="hr-feature-head">Performance Reviews</p>
+                                <p>The scope and usefulness of
+                                    paper performance reviews
+                                    are rather constrained, and
+                                    they can be a bother.
+                                    Performance data is continuously gathered while
+                                    utilizing an HR system to
+                                    manage performance.
+                                    Managers don&#39;t need to
+                                    wade through paperwork to
+                                    access this information; they
+                                    can even complete
+                                    assessment forms within the
+                                    system.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="hr-feature-box training">
+                                <p class="hr-feature-head">Employee Training</p>
+                                <p>Every person must update
+                                    their skill sets in light of the
+                                    changes in technology and
+                                    business procedures. In
+                                    addition to assisting in managing employees&#39; training
+                                    needs and keeping track of
+                                    the significant costs
+                                    associated with training and
+                                    development, HRMS also
+                                    helps identify this skills gap.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt32">
+                        <div class="col-md-6">
+                            <img src="/website_kanak/static/src/img/frappe_hrms/feature-background2.webp" class="img-fluid mx-auto" />
+                        </div>
+                        <div class="col-md-3">
+                            <div class="hr-feature-box administration">
+                                <p class="hr-feature-head">Employee Benefits Administration</p>
+                                <p>Open enrollment periods for
+                                    benefits can be complicated
+                                    and busy. Investing in an HR
+                                    system that includes benefits
+                                    administration can reduce
+                                    confusion and wasted time.
+                                    This function guides staff
+                                    members through enrollment,
+                                    streamlining the process and
+                                    clarifying any potentially
+                                    confusing elements of the
+                                    policies. Employees can
+                                    frequently modify their
+                                    benefits quite easily when
+                                    their lives change, thanks to
+                                    aspects of benefits
+                                    administration.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="hr-feature-box entitlement">
+                                <p class="hr-feature-head">Time Tracking and Leave Entitlement</p>
+                                <p>The ATS, or applicant
+                                    tracking system, is taking the
+                                    place of the thick folders in
+                                    closets where dozens of
+                                    resumes are kept. It
+                                    automates the process of
+                                    looking for applicants,
+                                    enables you to assess the
+                                    efficiency of different
+                                    recruitment channels, and
+                                    lets you choose which of
+                                    them is sufficient and where
+                                    it would be wiser to put more
+                                    effort and resources.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="frappe-hr-feature-mob pt32 pb32">
+                <div class="container">
+                    <h2 class="text-white">Features of Frappe HR </h2>
+                    <p class="text-white">Pick and select the functionality you need with today's HR systems</p>
+                    <div class="owl-carousel owl-theme pt32">
+                        <div class="item">
+                            <div class="hr-feature-box workflow">
+                                <p class="hr-feature-head">Workflows</p>
+                                <p>The majority of the repetitive,
+                                    routine tasks that reduce the
+                                    effectiveness of HR
+                                    administration can be
+                                    automated by firms using
+                                    workflows. To keep everyone
+                                    updated, the technology
+                                    allows sending automated
+                                    notifications to each
+                                    participant. HRMS lowers the
+                                    significant cost element
+                                    associated with manual paper-
+                                    pushing by evaluating the
+                                    data.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="hr-feature-box recruitment">
+                                <p class="hr-feature-head">Recruitment &amp; Hiring</p>
+                                <p>A data study on peer roles
+                                    may be automated,
+                                    optimized, and the system
+                                    can pitch the right salary.
+                                    With simple-to-use templates
+                                    and follow-up on recruiting,
+                                    the automated recruitment
+                                    module of HRMS(Human
+                                    Resource Management
+                                    Software) streamlines the
+                                    employment process.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="hr-feature-box payroll">
+                                <p class="hr-feature-head">Payroll Systems</p>
+                                <p>Payroll&#39;s primary
+                                    responsibilities include
+                                    determining and paying
+                                    salaries, computing the
+                                    proper taxes and deductions,
+                                    and planning the printing and
+                                    distribution of paychecks. Its
+                                    well-stated equations cover
+                                    all previous compensation
+                                    and benefits systems,
+                                    including salary, allowances,
+                                    and overtime rates in an
+                                    organization.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="hr-feature-box self-service">
+                                <p class="hr-feature-head">Employee Self-Service</p>
+                                <p>Employee self-service is a
+                                    component of HR systems
+                                    that are highly valued by
+                                    many businesses. Employee
+                                    self-service may allow them to see and update their
+                                    personal information, request
+                                    time off, connect with
+                                    coworkers and HR experts,
+                                    and view their schedule
+                                    information. The ease and
+                                    speed with which employees
+                                    and supervisors can use self-
+                                    service portals via any
+                                    mobile device are often
+                                    increased.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="hr-feature-box performance">
+                                <p class="hr-feature-head">Performance Reviews</p>
+                                <p>The scope and usefulness of
+                                    paper performance reviews
+                                    are rather constrained, and
+                                    they can be a bother.
+                                    Performance data is continuously gathered while
+                                    utilizing an HR system to
+                                    manage performance.
+                                    Managers don&#39;t need to
+                                    wade through paperwork to
+                                    access this information; they
+                                    can even complete
+                                    assessment forms within the
+                                    system.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="hr-feature-box training">
+                                <p class="hr-feature-head">Employee Training</p>
+                                <p>Every person must update
+                                    their skill sets in light of the
+                                    changes in technology and
+                                    business procedures. In
+                                    addition to assisting in managing employees&#39; training
+                                    needs and keeping track of
+                                    the significant costs
+                                    associated with training and
+                                    development, HRMS also
+                                    helps identify this skills gap.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="hr-feature-box administration">
+                                <p class="hr-feature-head">Employee Benefits Administration</p>
+                                <p>Open enrollment periods for
+                                    benefits can be complicated
+                                    and busy. Investing in an HR
+                                    system that includes benefits
+                                    administration can reduce
+                                    confusion and wasted time.
+                                    This function guides staff
+                                    members through enrollment,
+                                    streamlining the process and
+                                    clarifying any potentially
+                                    confusing elements of the
+                                    policies. Employees can
+                                    frequently modify their
+                                    benefits quite easily when
+                                    their lives change, thanks to
+                                    aspects of benefits
+                                    administration.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="hr-feature-box entitlement">
+                                <p class="hr-feature-head">Time Tracking &amp; Leave Entitlement</p>
+                                <p>The ATS, or applicant
+                                    tracking system, is taking the
+                                    place of the thick folders in
+                                    closets where dozens of
+                                    resumes are kept. It
+                                    automates the process of
+                                    looking for applicants,
+                                    enables you to assess the
+                                    efficiency of different
+                                    recruitment channels, and
+                                    lets you choose which of
+                                    them is sufficient and where
+                                    it would be wiser to put more
+                                    effort and resources.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row book-demo mt16">
+                        <div>
+                            <p style="font-size: 18px;font-weight: 500;line-height: 1.1;text-align:center"><span style="color: #FF4A4A">Talk to us</span></p>
+                            <img src="/website_kanak/static/src/img/frappe_hrms/head-icon.svg" style="height: 45px;width: 45px;"/>
+                            <a type="button" class="btn btn-light about-geo free-trial" href="/contactus">Book a Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="mt32 mb32 choose-frappe-desk">
+                <div class="container ">
+                    <h2>Why Do You Prefer <span class="text-danger">Frappe HR?</span></h2>
+                    <p>A complete redesign of your current HR systems may be a wise course of action if your
+                        operations are carried out manually via a mix of manual and electronic systems.</p>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="/website_kanak/static/src/img/frappe_hrms/choose-frappe.webp" class="img-fluid mx-auto " />
+                            <div class="row book-demo mt16">
+                                <div>
+                                    <p style="font-size: 18px;font-weight: 500;line-height: 1.1;"><span style="color: #FF4A4A">Talk to us</span></p>
+                                    <img src="/website_kanak/static/src/img/frappe_hrms/head-icon.svg" style="height: 45px;width: 45px;"/>
+                                    <a type="button" class="btn btn-default about-geo free-trial" href="/contactus">Book a Demo</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-8 choose-icon">
+                            <div class="row mt16">
+                                <div class="col-md-6">
+                                    <img src="/website_kanak/static/src/img/frappe_hrms/open-source.svg" />
+                                    <p class="choose-head">100% open source</p>
+                                    <p>Every action we take is in the open. There will
+                                        never be a fight for solutions with the freedom
+                                        that <a href="https://kanakinfosystems.com/blog/open-source-crm-software">Open Source software</a> offers, supported by
+                                        a community that will help you.</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <img src="/website_kanak/static/src/img/frappe_hrms/clutter-free.svg" />
+                                    <p class="choose-head">Clutter-free experience</p>
+                                    <p>Frappe HR offers a pleasant experience by
+                                        making processes less intimidating with a
+                                        straightforward user interface, robust
+                                        navigation, and simple communication
+                                        tracking.</p>
+                                </div>
+                            </div>
+                            <div class="row mt16">
+                                <div class="col-md-6">
+                                    <img src="/website_kanak/static/src/img/frappe_hrms/choice.svg" />
+                                    <p class="choose-head">We believe in the freedom of choice</p>
+                                    <p>Frappe HR allows for configuration and
+                                        customization at your discretion and is built on
+                                        the adaptable Frappe Framework. Create
+                                        reports, forms, customized fields, and print
+                                        formats, and instantly alter layouts!</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <img src="/website_kanak/static/src/img/frappe_hrms/perfect.svg" />
+                                    <p class="choose-head">The perfect brew of me and you</p>
+                                    <p>We go above and above to deliver the
+                                        product you require with frequent updates,
+                                        constant support, and a user-first
+                                        philosophy.</p>
+                                </div>
+                            </div>
+                            <div class="row mt16">
+                                <div class="col-md-6">
+                                    <img src="/website_kanak/static/src/img/frappe_hrms/affordable.svg" />
+                                    <p class="choose-head">Affordable and Inclusive</p>
+                                    <p>Frappe HR is designed with the needs of the
+                                        company, team, and <a href="https://kanakinfosystems.com/blog/employee-attendance-tracking-ap-geomarking">employees</a>. Deliver the
+                                        optimum HR and employee experience at a
+                                        reasonable price.</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <img src="/website_kanak/static/src/img/frappe_hrms/manage.svg" />
+                                    <p class="choose-head">Easy to use, easier to manage</p>
+                                    <p>Take control of your processes by
+                                        automating tedious procedures. Frappe
+                                        HR makes it simple to set up payroll,
+                                        structure assignments, and <a href="https://kanakinfosystems.com/blog/set-workflow-in-erpnext">handle complex workflows</a>.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="choose-frappe-mob pt32 pb32">
+                <div class="container">
+                    <h2>Why Do You Prefer <span class="text-danger">Frappe HR?</span></h2>
+                    <p>A complete redesign of your current HR systems may be a wise course of action if your
+                        operations are carried out manually via a mix of manual and electronic systems.</p>
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="choose-slide-box">
+                                <img src="/website_kanak/static/src/img/frappe_hrms/open-source.svg" />
+                                <p class="choose-head">100% open source</p>
+                                <p>Every action we take is in the open. There will
+                                    never be a fight for solutions with the freedom
+                                    that Open Source software offers, supported by
+                                    a community that will help you.</p>
+                            </div>
+                            <div class="choose-slide-box">
+                                <img src="/website_kanak/static/src/img/frappe_hrms/clutter-free.svg" />
+                                <p class="choose-head">Clutter-free experience</p>
+                                <p>Frappe HR offers a pleasant experience by
+                                    making processes less intimidating with a
+                                    straightforward user interface, robust
+                                    navigation, and simple communication
+                                    tracking.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="choose-slide-box">
+                                <img src="/website_kanak/static/src/img/frappe_hrms/choice.svg" />
+                                <p class="choose-head">We believe in freedom of choice</p>
+                                <p>Frappe HR allows for configuration and
+                                    customization at your discretion and is built on
+                                    the adaptable Frappe Framework. Create
+                                    reports, forms, customized fields, and print
+                                    formats, and instantly alter layouts!</p>
+                            </div>
+                            <div class="choose-slide-box">
+                                <img src="/website_kanak/static/src/img/frappe_hrms/perfect.svg" />
+                                <p class="choose-head">The perfect brew of me and you</p>
+                                <p>We go above and above to deliver the
+                                    product you require with frequent updates,
+                                    constant support, and a user-first
+                                    philosophy.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="choose-slide-box">
+                                <img src="/website_kanak/static/src/img/frappe_hrms/affordable.svg" />
+                                <p class="choose-head">Affordable and Inclusive</p>
+                                <p>Frappe HR is designed with the needs of the
+                                    company, team, and employees. Deliver the
+                                    optimum HR and employee experience at a
+                                    reasonable price.</p>
+                            </div>
+                            <div class="choose-slide-box">
+                                <img src="/website_kanak/static/src/img/frappe_hrms/manage.svg" />
+                                <p class="choose-head">Easy to use, easier to manage</p>
+                                <p>Take control of your processes by
+                                    automating tedious procedures. Frappe
+                                    HR makes it simple to set up payroll,
+                                    structure assignments, and <a href="https://kanakinfosystems.com/blog/set-workflow-in-erpnext">handle complex workflows</a>.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="using-frappe pt32 pb32">
+                <div class="container">
+                    <h3 class="using-head">Take A Look At These Top 6 <span class="text-danger">Benefits Of Using Frappe HR</span></h3>
+                    <p class="pb32">Pick and select the functionality you need with today's HR systems</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="using-frappe-box">
+                                <div class="pb16">
+                                    <ul class="flip">
+                                        <li><img src="/website_kanak/static/src/img/frappe_hrms/using-icon1.svg" class="img-fluid mx-auto" /></li>
+                                        <li>
+                                            <p class="using-frappe-head"><span style="color: #FF4A4A">Efficiency and productivity</span></p>
+                                        </li>
+                                    </ul>
+                                    <p class="fp-panel">According to a Sierra-Cedar
+                                        study, about 80% of
+                                        businesses use HR software
+                                        to speed up information
+                                        gathering or improve
+                                        operational efficiency. Without
+                                        a doubt, businesses with
+                                        advanced HRMS systems
+                                        enjoy considerable increases
+                                        in talent retention, freeing up
+                                        HR professionals for projects
+                                        that provide value and
+                                        reducing audit findings.</p>
+                                </div>
+                                <div class="pb16">
+                                    <ul class="flip">
+                                        <li><img src="/website_kanak/static/src/img/frappe_hrms/using-icon2.svg" class="img-fluid mx-auto center-block" /></li>
+                                        <li>
+                                            <p class="using-frappe-head">Provides Actionable Insights</p>
+                                        </li>
+                                    </ul>
+                                    <p class="fp-panel">Making informed decisions
+                                        with the help of <a href="https://kanakinfosystems.com/blog/best-data-analytics-tools">analytics and reporting</a> is a smart way to use
+                                        business data. Your
+                                        organization might be able to
+                                        enhance HR operations by
+                                        evaluating labor statistics from
+                                        prior years and months,
+                                        turnover data, and hiring data.
+                                        In addition to saving money
+                                        and increasing productivity,
+                                        this will improve your
+                                        company&#39;s appeal as a
+                                        workplace.</p>
+                                </div>
+                                <div class="pb16">
+                                    <ul class="flip">
+                                        <li><img src="/website_kanak/static/src/img/frappe_hrms/using-icon3.svg" class="img-fluid mx-auto center-block" /></li>
+                                        <li>
+                                            <p class="using-frappe-head"><span style="color: #FF4A4A">Reduced errors</span></p>
+                                        </li>
+                                    </ul>
+                                    <p class="fp-panel">Automating payroll is highly
+                                        valuable for small firms
+                                        because human data entry
+                                        causes the majority of
+                                        payroll problems. Errors in
+                                        tax withholding expose the
+                                        company to IRS fines in
+                                        addition to the time needed
+                                        to fix them.</p>
+                                </div>
+                                <div class="pb16">
+                                    <ul class="flip">
+                                        <li><img src="/website_kanak/static/src/img/frappe_hrms/using-icon4.svg" class="img-fluid mx-auto center-block" /></li>
+                                        <li>
+                                            <p class="using-frappe-head">Improves Security of Sensitive Information</p>
+                                        </li>
+                                    </ul>
+                                    <p class="fp-panel">Data breaches can cost a firm
+                                        money in many different ways.
+                                        Customers and staff members
+                                        could become hesitant to work
+                                        for the firm if they lose
+                                        confidence in the
+                                        organization&#39;s ability to protect
+                                        their information. Businesses
+                                        will also need to fix any
+                                        problems that breaches bring
+                                        about and put new security measures in place to prevent
+                                        violations in the future.</p>
+                                </div>
+                                <div class="pb16">
+                                    <ul class="flip">
+                                        <li><img src="/website_kanak/static/src/img/frappe_hrms/using-icon5.svg" class="img-fluid mx-auto center-block" /></li>
+                                        <li>
+                                            <p class="using-frappe-head"><span style="color: #FF4A4A">Attendance monitoring</span></p>
+                                        </li>
+                                    </ul>
+                                    <p class="fp-panel">Organizations lose time and
+                                        money as a result of timecard
+                                        fraud. The spectrum of fraud
+                                        can include billing for hours
+                                        that weren&#39;t worked, taking
+                                        excessively extended lunch
+                                        breaks, &quot;buddy punching,&quot;
+                                        where a friend logs in for an
+                                        employee who is running late,
+                                        and more. Some of these
+                                        problems are resolved by time
+                                        clock systems that require employees to swipe their
+                                        employee IDs to check-in.</p>
+                                </div>
+                                <div>
+                                    <ul class="flip">
+                                        <li><img src="/website_kanak/static/src/img/frappe_hrms/using-icon6.svg" class="img-fluid mx-auto center-block" /></li>
+                                        <li>
+                                            <p class="using-frappe-head">Creates More Stringent Hiring Practices</p>
+                                        </li>
+                                    </ul>
+                                    <p class="fp-panel">A company might
+                                        drastically benefit from
+                                        hiring the proper people.
+                                        Strict recruiting procedures
+                                        might weed out individuals
+                                        who won&#39;t add value to the
+                                        company&#39;s bottom line.
+                                        Background checks,
+                                        resume processing, and
+                                        screening are all ATS
+                                        functions that can be utilized to increase hiring
+                                        standards.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="/website_kanak/static/src/img/frappe_hrms/using-frappe.webp" class="img-fluid mx-auto center-block using-frappe-d-none" />
+                            <div class="text-center free-trial-box">
+                                <img src="/website_kanak/static/src/img/frappe_hrms/hr-devider.svg"  style="width:40%;height:35px" class="img-fluid mx-auto center-block" />
+                                <p class="text-center mt16">Wish to dive deep into the world of Frappe HR?</p>
+                                <a type="button" class="btn btn-default about-geo free-trial" href="/contactus"><img src="/website_kanak/static/src/img/frappe_hrms/btn-monitor.svg" style="width: 30px;height: 30px;"/>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<span>Get a free Trial</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="erpnext-team">
+                <div class="container pt32">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <h3 class="team-head">From The Frappe HR Team <span style="color: #FF4A4A">At Kanak Infosystems</span></h3>
+                            <p class="mt32 mb32 text-justify">A new set of tools, strategies, and corporate cultures should be made available through the
+                                digitization of HR and recruiting. This will result in less time and money being spent on repetitive
+                                chores and more on attracting, inspiring, and developing experts.</p>
+                            <ul>
+                                <li>
+                                    <p>An HRMS can assist in utilizing technology to automate laborious HR activities, enhance
+                                        current HR operations, and create an administration that adheres to modern trends.</p>
+                                </li>
+                                <li>
+                                    <p>The future growth and success of the business can be significantly impacted by
+                                        choosing good HR management software and integrating it into your current operations.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="hr-solution mt32 mb32">
+                        <p class="text-white text-center">Looking for a HR  solution for your management project then Frappe HR could be a good choice. Get
+                            in touch with us immediately to start experiencing a more direct and superior experience with
+                            our products, services, and expertise.</p>
+                    </div>
+                </div>
+            </section>
+            
+            <section>
+                <div class="container">
+                    <div class="faq_border mb32" style="border: 1px solid #cec7c7;">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3 col-sm-3 d-none d-lg-block d-md-block d-sm-block">
+                                <div class="frequently_border_1 float-end" />
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                                <p class="fw700 text-center faq-main-head">
+                                    <font style="font-size: 30px;text-transform: uppercase;">
+                                        <span class="dark_blue">frequently asked questions</span>
+                                    </font>
+                                </p>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3 d-none d-lg-block d-md-block d-sm-block">
+                                <div class="frequently_border_2" />
+                            </div>
+                        </div>
+                        <div class="row faq_box">
+                            <div class="pb-1">
+                                <img id="faq_icon_1" class="faq_button_1 faq_button" src="/website_kanak/static/src/img/frappe_hrms/drop_down.svg" /><strong style="color: #003362;margin-left: 10px;font-size: 19px;line-height: 1.5;">Can we customize Frappe HR?</strong>
+                                <div id="faq_1" style="display:none;">
+                                    <p style="margin-top: 20px;margin-left: 40px;">Yes, because of its Flexible frappe framework, the Frappe HR module lets you do customization and configuration according to your business workflow. Such as, you can able to customize reports, fields, and print formats, as well as make changes in layouts.
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <div class="pb-1">
+                                <img class="faq_button faq_button_2" id="faq_icon_2" src="/website_kanak/static/src/img/frappe_hrms/drop_down.svg" />
+                                <strong style="color: #003362;margin-left: 10px;font-size: 19px;line-height: 1.5;" >What are the advantages of Frappe HR? </strong>
+                                <div id="faq_2" style="display:none;">
+                                    <p style="margin-top: 20px;margin-left: 40px;">There are many advantages of the Frappe HR Module, some of these include Complete open-source, Easy to customize, Cost Affordable, Frequent updates &amp; consistent support, Uncomplicated UI, powerful navigation, &amp; easy communication, and managing complex workflows.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="pb-1">
+                                <img class="faq_button faq_button_3" id="faq_icon_3" src="/website_kanak/static/src/img/frappe_hrms/drop_down.svg" />
+                                <strong style="color: #003362;margin-left: 10px;font-size: 19px;line-height: 1.5;">Is frappe HR completely open source?</strong>
+                                <div id="faq_3" style="display:none;">
+                                    <p style="margin-top: 20px;margin-left: 40px;">Yes, Frappe HR is completely open-source, and you can customize it according to your business needs.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </t>
+    </template>
+</odoo>

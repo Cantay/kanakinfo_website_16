@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <template id="tmp_netsuit_implementation_page" name="NetSuite Implementation">
+            <t t-call="website.layout">
+                <t t-set="pageName" t-value="'NetsuiteImplementation kanak_netsuit_implementation'" />
+                <div id="wrap" class="oe_structure" style="font-size:15px;color: black;">
+                    <section class="s_carousel_wrapper" data-vxml="001">
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators" style="display:none">
+                                <li data-target="#myCarousel" data-slide-to="0" class="active" style="width: 30px;height:7px;margin: 1px;"></li>
+                                <li data-target="#myCarousel" data-slide-to="1" style="width: 30px;height:7px;margin: 1px;"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="responsive item active oe_img_bg net-implement" data-name="Slide">
+                                    <div class="container">
+                                        <div class="row content">
+                                            <div class="remove_padding carousel-content col-lg-6 col-md-7 col-sm-8" style="padding:  40pt;">
+                                                <h2 class="fw700 text-left">
+                                                    <font class="title_1" style="font-size: 35px;font-weight:900;">
+                                                        <span class="text-white">NetSuite Implementation</span>
+                                                    </font>
+                                                </h2>
+                                                <p class="text-white text-justify">When it comes to business transition via cloud-native technologies, <a href='https://kanakinfosystems.com/netsuite-services'>NetSuite</a> implementation is one such service that has helped many companies do it with the least hassle. The world’s most widely deployed cloud ERP solution-NetSuite- comes with adaptive technology that fits into businesses of all sizes, particularly SMEs, and helps unlock more growth opportunities.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Left and right controls -->
+                            <a class="left carousel-control" href="#myCarousel" data-slide="prev" style="display:none">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#myCarousel" data-slide="next" style="display:none">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="workpage-home-work">
+                            <div class="container">
+                                <span>
+                                    <a class="text-decoration-none" href="/"> Home </a>
+                                </span>
+                                <i class="fa fa-chevron-right" aria-hidden="true" />
+                                <span> Netsuite Implementation </span>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-5 col-md-5 col-sm-5">
+                                    <img style="width: 85%;margin-top: 20px;" src="/website_kanak/static/src/img/netsuite-implementation/Key_step.png" class="run_your_business img-fluid " alt="" />
+                                </div>
+                                <div id="key_step" class="col-lg-7 col-md-7 col-sm-7">
+                                    <h1 class="fw700">
+                                        <font style="font-size: 30px;">
+                                            <span class="text-black" style="font-weight:revert;">Key Steps to NetSuite Implementation</span>
+                                        </font>
+                                    </h1>
+                                    <div>
+                                        <p class="text-justify">Every business operation is identical and different from one another, and hence, every ERP implementation is disparate. However, it follows a similar strategy, phases, and technology base to assist organizations in going through the post-purchase and adapting to an inventive cloud <a href="https://kanakinfosystems.com/erp-solutions">ERP solution</a>. With every segment, there are some steps involved which companies need to follow to aggrandize business transition without any impediments and ensure continued success.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="sb">
+                        <div class="container">
+                            <div id="steps" class="row">
+                                <div class="col-lg-6" style="padding: 20px;">
+                                    <div class="text-justify" style="padding: 30px; border-radius: 5px; background: #edd6ff url('/website_kanak/static/src/img/netsuite-implementation/Engage.png') no-repeat; background-size: 150px 150px; background-position: 90% 90%">
+                                        <p class="steps-head">Step 1: Engage</p>
+                                        <p class="text-justify">This is a primary, inevitable, and highly crucial step were engaging with teams is involved. This forms the outline of your NetSuite implementation strategy. At this point, NetSuite implementation services cover engaging with ERP project teams of project managers, engineers, and management. They can go ahead with kick-off calls to discuss <a href="https://kanakinfosystems.com/netsuite-licensing">NetSuite implementation cost</a>, timelines, and change management plans.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6" style="padding: 20px;">
+                                    <div class="text-justify" style="padding: 30px; border-radius: 5px; background: #ffd6d8 url('/website_kanak/static/src/img/netsuite-implementation/Drive.png') no-repeat; background-size: 150px 150px; background-position: 90% 90%">
+                                        <p class="steps-head">Step 2: Drive</p>
+                                        <p class="text-justify">This step involves creating actionable plans for the future deployment of the <a href="https://kanakinfosystems.com/blog/what-is-netsuite">NetSuite ERP</a> solution. For example, if you need customizations around your ERP, you can connect with a certified NetSuite implementation partner. They can develop a personalized or tailor-made solution to help you meet unique requirements across your business operations. Also, at this point, these partners plan for cloud-based applications provisions or licensing and build a training plan as well.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6" style="padding: 20px;">
+                                    <div class="text-justify" style="padding: 30px; border-radius: 5px; background: #d2ebff url('/website_kanak/static/src/img/netsuite-implementation/Enable.png') no-repeat; background-size: 150px 150px; background-position: 90% 90%">
+                                        <p class="steps-head">Step 3: Enable</p>
+                                        <p class="text-justify">The key objective in this step is to prepare the team and move ahead to the go-live event. At this point, your <a href="https://kanakinfosystems.com/">NetSuite partner</a> can go with migrating critical data and putting the plans developed in the ‘Drive’ stage into action. These actions cover training of the in-house team, installation of the newly designed software solution, and test NetSuite implementation.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6" style="padding: 20px;">
+                                    <div class="text-justify" style="padding: 30px; border-radius: 5px; background: #ffeddf url('/website_kanak/static/src/img/netsuite-implementation/Convert.png') no-repeat; background-size: 150px 150px; background-position: 90% 90%">
+                                        <p class="steps-head">Step 4: Convert</p>
+                                        <p class="text-justify">This final step across NetSuite ERP implementation is upturning the switch. As a result, businesses can complete their final data migrations before they go-live date and grab ownership of the systems from their NetSuite implementation partner.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br />
+                    </section>
+                    <section>
+                        <div class="container">
+                            <div class="row good_netsuite">
+                                <div class="col-lg-12">
+                                    <h2 class="text-white text-left" style="padding-bottom:30px">What Can Be A Good NetSuite Implementation Plan?</h2>
+                                    <p class="text-white text-justify" style="padding-bottom:15px">Any effective <a href='https://www.netsuite.com/portal/resource/articles/erp/erp-implementation-phases.shtml'>ERP execution plan</a> requires a guide, which frequently comes as an agenda of errands that helps keep the venture plan moving along, from pre-execution exercises like exploration and necessities working to definite execution stages like upkeep and backing.</p>
+                                    <p class="text-white text-justify" style="padding-bottom:15px">The client and seller need to work through the agenda components to guarantee that the ERP execution moves along as planned and gets the association ready for action proficiently.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="implementation_check">
+                        <div class="container" id="implementation_checklist">
+                            <div class="row">
+                                <h3 class="implement-head" style="text-align: center">NetSuite Implementation Checklist</h3>
+                                <div class="col-lg-10 col-xs-12 tab">
+                                    <a class="tablinks" onclick="openList(event, 'tabcontent_research')" id="defaultOpen"><img src="/website_kanak/static/src/img/netsuite-implementation/Research.png" alt="" /> &amp;nbsp;&amp;nbsp;<font>Research</font></a>
+                                    <div class="tabcontent" id="tabcontent_research">
+                                        <ul>
+                                            <li>Engage with seller and association to begin post-buy actives.</li>
+                                            <li>Develop an ERP execution project group post-buy.</li>
+                                            <li>Document and inspect the current state of business cycles to distinguish usual issues and superfluous endeavors.</li>
+                                            <li>Set up opening shot assembles and repeating project conferences.</li>
+                                            <li>Initiate project plan advancement by laying out explicit objectives and destinations for the ERP execution.</li>
+                                        </ul>
+                                    </div>
+                                    <a class="tablinks" onclick="openList(event, 'tabcontent_requirements')" id="defaultOpen"><img src="/website_kanak/static/src/img/netsuite-implementation/Requirements.png" alt="" /> &amp;nbsp;&amp;nbsp;<font>Requirements</font></a>
+                                    <div class="tabcontent" id="tabcontent_requirements">
+                                        <ul>
+                                            <li>Finalize the task plan with the ERP project group.</li>
+                                            <li>Confirm execution availability with signoff of the task plan by the venture group and guiding panel.</li>
+                                            <li>Develop an information relocation system to guarantee that information is spotless and usable for the new ERP arrangement.</li>
+                                            <li>Develop a reinforcement and business coherence system for information.</li>
+                                            <li>Develop client enablement system for the preparation, everything being equal, and client gatherings.</li>
+                                        </ul>
+                                    </div>
+                                    <a class="tablinks" onclick="openList(event, 'tabcontent_installation')" id="defaultOpen"><img src="/website_kanak/static/src/img/netsuite-implementation/Installation.png" alt="" /> &amp;nbsp;&amp;nbsp;<font>Installation</font></a>
+                                    <div class="tabcontent" id="tabcontent_installation">
+                                        <ul>
+                                            <li>Start ERP establishment of arrangement relevant to the new business process created through arranging exercises.</li>
+                                            <li>Start relocation of static starter information.</li>
+                                            <li>If necessary, get ready equipment and facilitate foundation and foster designs for information streams between offices.</li>
+                                            <li>Finish the establishment of programming and customizations.</li>
+                                        </ul>
+                                    </div>
+                                    <a class="tablinks" onclick="openList(event, 'tabcontent_migration')" id="defaultOpen"><img src="/website_kanak/static/src/img/netsuite-implementation/Migration.png" alt="" /> &amp;nbsp;&amp;nbsp;<font>Migration</font></a>
+                                    <div class="tabcontent" id="tabcontent_migration">
+                                        <ul>
+                                            <li>Survey the precision of information being moved, guarantee that information is forward-thinking and clean without copies or mistakes.</li>
+                                            <li>Start information planning to stream uninhibitedly among offices and business fragments for forthcoming testing and go-live undertakings.</li>
+                                        </ul>
+                                    </div>
+                                    <a class="tablinks" onclick="openList(event, 'tabcontent_testing')" id="defaultOpen"><img src="/website_kanak/static/src/img/netsuite-implementation/Testing.png" alt="" /> &amp;nbsp;&amp;nbsp;<font>Testing</font></a>
+                                    <div class="tabcontent" id="tabcontent_testing">
+                                        <ul>
+                                            <li>Start tests for all interfaces with client information to give an unmistakable comprehension of cycles.</li>
+                                            <li>Approve the acknowledgment of business cycles to guarantee all capacities and client bunches are running as arranged.</li>
+                                            <li>Investigate any unanticipated examples of mistakes that start through testing of framework and arrangement.</li>
+                                        </ul>
+                                    </div>
+                                    <a class="tablinks" onclick="openList(event, 'tabcontent_training')" id="defaultOpen"><img src="/website_kanak/static/src/img/netsuite-implementation/Training.png" alt="" /> &amp;nbsp;&amp;nbsp;<font>Training</font></a>
+                                    <div class="tabcontent" id="tabcontent_training">
+                                        <ul>
+                                            <li>Lead end-client preparing dependent on preparing plans laid out in the change the board plan.</li>
+                                            <li>Take charge of client change meetings with the merchant after the preparation to support reception and proprietorship.</li>
+                                        </ul>
+                                    </div>
+                                    <a class="tablinks" onclick="openList(event, 'tabcontent_deployment')" id="defaultOpen"><img src="/website_kanak/static/src/img/netsuite-implementation/Deployment.png" alt="" /> &amp;nbsp;&amp;nbsp;<font>Deployment</font></a>
+                                    <div class="tabcontent" id="tabcontent_deployment">
+                                        <ul>
+                                            <li>Plan for go-live occasion with definite cycle walkthroughs.</li>
+                                            <li>Design any extra parts and lead a cutover meeting for go-live.</li>
+                                            <li>Progress responsibility for from the seller with a go-live occasion.</li>
+                                            <li>Post-go-live subsequent preparation ought to be directed to guarantee complete client reception of the new frameworks.</li>
+                                            <li>Venture closeout meeting to be led present go-live on giving to post-execution support groups.</li>
+                                        </ul>
+                                    </div>
+                                    <a class="tablinks" onclick="openList(event, 'tabcontent_support')" id="defaultOpen"><img src="/website_kanak/static/src/img/netsuite-implementation/Support.png" alt="" /> &amp;nbsp;&amp;nbsp;<font>Support</font></a>
+                                    <div class="tabcontent" id="tabcontent_support">
+                                        <ul>
+                                            <li>Progress task to close out with help groups and change to the post-execution support groups.</li>
+                                            <li>Keep up with progressing upkeep and backing of programming through clients and clients preparing.</li>
+                                            <li>Post-execution steps start with assessing the task through KPI enhancements.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <br />
+                        </div>
+                        <script>
+                        function openList(evt, listId) {
+                            var i, tabcontent, tablinks;
+                            tabcontent = document.getElementsByClassName("tabcontent");
+                            for (i = 0; i &lt; tabcontent.length; i++) {
+                                tabcontent[i].style.display = "none";
+                            }
+                            tablinks = document.getElementsByClassName("tablinks");
+                            for (i = 0; i &lt; tablinks.length; i++) {
+                                tablinks[i].className = tablinks[i].className.replace(" active", "");
+                            }
+                            document.getElementById(listId).style.display = "block";
+                            evt.currentTarget.className += " active";
+                        }
+
+                        // Get the element with id="defaultOpen" and click on it
+                        document.getElementById("defaultOpen").click();
+                        </script>
+                    </section>
+                    <section class="pt16 pb16">
+                        <div class="container">
+                            <div id="overcome" class="row">
+                                <div class="col-lg-5 col-md-5 col-sm-5 pb16">
+                                    <img src="/website_kanak/static/src/img/netsuite-implementation/Bg_Overcome.jpg" class="img-fluid mx-auto" alt="" />
+                                </div>
+                                <div class="col-lg-7 col-md-7 col-sm-7">
+                                    <h3 class="fw700">
+                                        <font style="font-size: 18pt;">
+                                            <span class="text-black">Overcome ERP Implementation Challenges with NetSuite implementation consultant</span>
+                                        </font>
+                                    </h3>
+                                    <div>
+                                        <p class="text-justify">NetSuite implementation involves both human resources and technology. Accordingly, it may come across human-related challenges, including resistance to change and technical obstacles.</p>
+                                        <p class="text-justify">You can overcome the following implementation challenges in stipulated time if you connect with a <a href="https://kanakinfosystems.com/contact-us">certified NetSuite implementation partner</a> and make the most of their expertise and experience.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section style="background-color: #f4f6fe;padding: 30pt 0;">
+                        <div class="container mt-3">
+                        <!-- Nav pills -->
+                        <ul class="nav nav-pills nav-fill" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" data-bs-toggle="pill" href="#project_management_content">Project management</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="pill" href="#project_planning_content">Project planning</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="pill" href="#integration_of_data_content">Data Integration</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="pill" href="#quality_of_the_data_content">Data Quality</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="pill" href="#change_management_content">Change management</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="pill" href="#cost_invades_content">Cost Invades</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="pill" href="#ceaseless_improvement_content">Ceaseless Improvement</a>
+                            </li>
+                        </ul>
+                        <!-- Tab panes -->
+                        <div class="tab-content tab-content-box mt32">
+                            <div id="project_management_content" class="container tab-pane active">
+                                <p class="project-head">Project Management</p>
+                                <p class="text-justify">NetSuite implementation involves various stages: disclosure and arranging, plan, advancement, information movement, testing, arrangement, backing, and post-dispatch revives. Each step comes with fundamental assignments, and every aspect must be focused, which requires careful venture the board. Furthermore, fruitful ERP executions require interest from every one of the gatherings that will be associated with creating and utilizing the framework. That can be unbelievably difficult on the grounds that every division is shuffling its ERP project liabilities with different needs.</p>
+                            </div>
+                            <div class="container tab-pane fade" id="project_planning_content">
+                                <p class="project-head">Project Planning</p>
+                                <p class="text-justify">Business associations regularly think little of the time and spending plan fundamental for effective execution. However, a reasonable task plan that identifies conceivable obstacles and low on-pocket expense overwhelms and fixes the issues before the given deadline usually works on that dynamic interaction between the vendor and the customer. Also, it helps keep track and undertaking on target as well.</p>
+                            </div>
+                            <div class="container tab-pane fade" id="integration_of_data_content">
+                                <p class="project-head">Integration Of Data</p>
+                                <p class="text-justify">One of the key advantages of ERP is that it renders a solitary, exact wellspring of information for the entire association. Thus, a critical stage in ERP execution is information relocation, which usually includes moving information from various more seasoned frameworks into the NetSuite ERP system. On the bigger picture, you need to explore and scrutinize the authenticity of your data. This might be substantially more testing than you anticipate.</p>
+                            </div>
+                            <div class="container tab-pane fade" id="quality_of_the_data_content">
+                                <p class="project-head">Quality of the Data</p>
+                                <p class="text-justify">When the association has found all information sources, it can begin contemplating moving it to the ERP framework. Yet, that might include genuine information cleanliness work out. Since different divisions collaborate with similar clients, items, and orders, businesses regularly have copy variants of similar information in their NetSuite system. These key pieces of information might be put away in various configurations; there might be irregularities, as in addresses or name spellings; some data might be mistaken, and it might incorporate old data.</p>
+                                <p class="text-justify">Guaranteeing data quality helps transform into a considerable and substantial undertaking by yourself, including approving the pieces of information, eliminating copies, and adding missing qualities before you plan to relocate information to the NetSuite ERP framework. The new information ought to be totally inspected before going live with the newly deployed cloud ERP solution. You can ascertain that your group comprehends the importance of cleaning up data and relegate clear liabilities in doing so. For example, the bookkeeping group can handle every monetary datum, and the client assistance gathering will follow the clean-up for client information.</p>
+                            </div>
+                            <div class="container tab-pane fade" id="change_management_content">
+                                <p class="project-head">Change management</p>
+                                <p class="text-justify">An ERP implementation covers additional capabilities rather than just modifying the product or switching to another application. It regularly implies re-designing business cycles to exploit the proficiency and usefulness enhancements conceivable with the inventive framework. This demands modifications in perceptions and an adjustment of regular work processes for some representatives, which presents the commonplace change in the executive’s challenges.</p>
+                                <p class="text-justify">Protection from change can be a considerable road obstruction; getting purchase in from administration and partners across offices right off the bat in the execution interaction is critical to a fruitful execution. Convey the provisions and benefits of the new ERP to all partners all through the execution cycle, particularly end clients on the forefronts. Furthermore, ensure all clients get extensive preparation and backing to assist with smoothing their ways to the reception of the framework.</p>
+                            </div>
+                            <div class="container tab-pane fade" id="cost_invades_content">
+                                <p class="project-head">Cost Invades</p>
+                                <p class="text-justify">ERP projects are scandalous for cruising past spending plans after the execution starts. Numerous associations think little of the measure of the task required to move to another business framework, resulting in encountering more business outlay than normal assumptions. This cost overwhelms frequently appear in a couple of various regions.</p>
+                                <p class="text-justify">When inward assets come up short, organizations often utilize a product seller's administrations group or outsider advisors more than arranged. This is particularly obvious if the arrangement requires massive customization to address your organization's issues. Experienced ERP advisors, regardless of whether given by the seller or part of an outsider consultancy, ordinarily run about $150-175 every hour, in addition to travel costs. Another spending plan breaker is information movement, which can address as much as 10-15% of the all-out project cost, as per ERP Focus. Preparing costs are another cost to consider—ERP sellers frequently offer free essential preparation to clients. Yet, you might have to pay for extended preparing hours or classes during or post-NetSuite implementation process.</p>
+                                <p class="text-justify">To try not to reveal the financial planning and projections, the business ought to ponder these and other neglected costs and spending plans more than they might suspect. Coming in under a spending plan is consistently desirable over the other option.</p>
+                            </div>
+                            <div class="container tab-pane fade" id="ceaseless_improvement_content">
+                                <p class="project-head">Ceaseless Improvement</p>
+                                <p class="text-justify">An ERP implementation is certifiably not a peculiar stretch that ends if the new implementation comes in. The arrangement encompasses the motive to develop new business requests and work for innovation. Surprisingly, the partner group is required to continue dealing with the task after sending, fixing issues, and supporting new prerequisites.</p>
+                            </div>
+                        </div>
+                    </div>
+                    </section>
+                    <section>
+                        <div class="container"><br />
+                            <div class="row">
+                                <div class="col-lg-12" id="advantages">
+                                    <h3 class="fw700" style="margin-bottom:40px">
+                                        <font style="font-size: 24pt;">
+                                            <span class="text-black">Are There Real Advantages of NetSuite Implementation</span>
+                                        </font>
+                                    </h3>
+                                    <ul>
+                                        <li>Business Intelligence Capacities</li>
+                                        <li>Increased Data Security</li>
+                                        <li>Quick adaptation to Innovation</li>
+                                        <li>Industry-specific solutions</li>
+                                        <li>Support for 190 currencies, 27 languages, and tax compliance for 100+ countries</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="pb16">
+                        <div class="container">
+                            <div class="faq_border" style="border: 1px solid #cec7c7;">
+                                <br />
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-3 col-md-3 col-sm-3 d-none d-lg-block d-md-block d-sm-block">
+                                        <div class="frequently_border_1 float-end" />
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                                        <p class="fw700 text-center faq-main-head">
+                                            <font style="font-size: 30px;text-transform: uppercase;">
+                                                <span class="dark_blue">frequently asked questions</span>
+                                            </font>
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-3 col-md-3 col-sm-3 d-none d-lg-block d-md-block d-sm-block">
+                                        <div class="frequently_border_2" />
+                                    </div>
+                                </div>
+                                <div class="row faq_box">
+                                    <div class="pb-1">
+                                        <img id="faq_icon_1" class="faq_button_1 faq_button" src="/website_kanak/static/src/img/netsuite-implementation/drop_down.png" alt="" /><strong class="netsuite-implementation-questions-text">How Much Time does it take for a NetSuite Implementation?</strong>
+                                        <div id="faq_1" style="display:none;">
+                                            <p style="margin-top: 20px;margin-left: 40px;">According to experts or NetSuite consultants, it can take 2 to 3 days to understand the requirements and initiate further.</p>
+                                        </div>
+                                    </div>
+                                    <div class="pb-1">
+                                        <img class="faq_button faq_button_2" id="faq_icon_2" src="/website_kanak/static/src/img/netsuite-implementation/drop_down.png" alt="" />
+                                        <strong class="netsuite-implementation-questions-text">Can NetSuite Implementation be done without any help?</strong>
+                                        <div id="faq_2" style="display:none;">
+                                            <p style="margin-top: 20px;margin-left: 40px;">It involves many technological processes and demands expertise around the same. One can do it if they feel confident enough to ensure its success. Else, it is better to connect with experts and save both time and cost.</p>
+                                        </div>
+                                    </div>
+                                    <div class="pb-1">
+                                        <img class="faq_button faq_button_3" id="faq_icon_3" src="/website_kanak/static/src/img/netsuite-implementation/drop_down.png" alt="" />
+                                        <strong class="netsuite-implementation-questions-text">How does NetSuite implementation fail?</strong>
+                                        <div id="faq_3" style="display:none;">
+                                            <p style="margin-top: 20px;margin-left: 40px;">In most cases, a lack of cohesive communication between the vendor and the customer leads to failure. If you can avert it, there are no loopholes left to let you will face trouble across NetSuite implementation success.</p>
+                                        </div>
+                                    </div>
+                                    <div class="pb-1">
+                                        <img class="faq_button faq_button_4" id="faq_icon_4" src="/website_kanak/static/src/img/netsuite-implementation/drop_down.png" alt="" />
+                                        <strong class="netsuite-implementation-questions-text">Who is a NetSuite Partner?</strong>
+                                        <div id="faq_4" style="display:none;">
+                                            <p style="margin-top: 20px;margin-left: 40px;">NetSuite partner or NetSuite implementation partner renders extensive consulting services across NetSuite ERP covering implementation, integration, customization, and training. These are usually experts in their field and hold a deep understanding of business transitions to the cloud.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </t>
+        </template>
+    </data>
+</odoo>

@@ -1,0 +1,1018 @@
+.kanak_android {
+
+
+    .workpage-home-work {
+        .fa-chevron-right {
+            font-size: 12px;
+        }
+        background-color: $background-color_18;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        opacity: .5;
+    }
+
+    #main-odoo-andro-banner {
+        .overlay {
+            top: 0;
+            bottom: -1px;
+            left: 0;
+            right: -1px;
+            -webkit-transform: scale(1);
+            position: absolute;
+            opacity: .9;
+            transform: scale(1);
+            background-color: $background-color_17;
+        }
+
+        background: url(/website_kanak/static/src/img/android-apps/android-bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+
+        div.row {
+            display: flex;
+            align-items: center;
+            padding: 30pt 0;
+
+            p {
+                margin: 20pt 0;
+            }
+
+            .android-main {
+                font-size: 48px;
+                font-weight: 900;
+                line-height: 100%;
+                margin: 0;
+            }
+
+            .mob {
+                display: block;
+                padding-top: 20pt;
+            }
+        }
+
+        .btn-android-appointment {
+            border-radius: 5px;
+        }
+    }
+
+    #parallex-home-odoo-hire-magento-joomla-dev {
+        >.overlay-ab {
+            top: 0;
+            bottom: -1px;
+            left: 0;
+            right: -1px;
+            -webkit-transform: scale(1);
+        }
+    }
+
+    .btn-android-appointment {
+        &:hover {
+            border-radius: 5px;
+        }
+    }
+
+    .busineess_bi_mobile_android_kanak {
+        .inner_accr {
+            display: inline-block;
+            position: relative;
+            text-align: center;
+            z-index: 0;
+            margin-top: 25px;
+
+            ul {
+                border: 10px solid #eee;
+                padding: 10px;
+                text-align: center;
+                z-index: 0;
+                background: $color_3;
+                margin: 0;
+            }
+
+            li {
+                display: inline-block;
+
+                figure {
+                    height: 50px;
+                    margin-top: 16px;
+                }
+            }
+
+            figure {
+                &:before {
+                    height: 100%;
+                    content: "";
+                    display: inline-block;
+                    vertical-align: middle;
+                    margin-right: -0.25em;
+                }
+
+                img {
+                    display: inline-block;
+                    vertical-align: middle;
+                    max-width: 98%;
+                }
+            }
+        }
+
+        .score {
+            background-color: $background-color_27;
+            width: 204px;
+            height: 116px;
+            margin-left: 2px;
+            margin-top: -10px;
+            margin-bottom: -13px;
+            border-top: 6px solid #00677a;
+        }
+
+        .score1 {
+            background-color: $background-color_18;
+            width: 204px;
+            height: 116px;
+            margin-left: 0px;
+            margin-top: -10px;
+            margin-bottom: -13px;
+            border-top: 6px solid #a08981;
+        }
+
+        .score2 {
+            background-color: $background-color_5;
+            width: 204px;
+            height: 116px;
+            margin-left: -1px;
+            margin-top: -10px;
+            margin-bottom: -13px;
+            border-top: 6px solid #6a73aa;
+        }
+
+        .score3 {
+            background-color: $background-color_28;
+            width: 204px;
+            height: 116px;
+            margin-left: -1px;
+            margin-top: -10px;
+            margin-bottom: -13px;
+            border-top: 6px solid #63ba97;
+        }
+
+        .darkc {
+            color: $color_9;
+        }
+
+        .mshome-sec {
+            .sec-head {
+                position: relative;
+                padding-left: 30px;
+                position: relative;
+                padding-left: 30px;
+            }
+        }
+
+        .sec-head {
+            &:before {
+                content: "";
+                width: 11px;
+                height: 60px;
+                background-color: $color_12;
+                position: absolute;
+            }
+        }
+
+        .mshome-desc {
+            position: relative;
+            width: revert;
+            text-align: justify;
+        }
+
+        .mshome-heading {
+            font-size: 45px;
+            font-weight: bold;
+            color: $color_2;
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+
+        .box-wrapper {
+            h3 {
+                font-size: 24px;
+                font-weight: 600;
+                color: $color_2;
+                margin-left: 76px;
+                margin-top: 48px;
+            }
+
+            .android-apps-head {
+                font-size: 24px;
+                font-weight: 600;
+                color: $color_2;
+
+            }
+        }
+
+        .icon-wrap {
+            width: 68px;
+            height: 68px;
+            border: 1px dashed #0000005e;
+            vertical-align: middle;
+            text-align: center;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+
+        .exp-one {
+            margin-top: 6px;
+            margin-left: 2px;
+        }
+
+        .icon-sprite.exp-one {
+            background-position: -37px -53px;
+        }
+
+        .heading2 {
+
+            color: $color_9;
+            font-size: 35px;
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            margin-top: 55px;
+            margin-left: -10px;
+        }
+
+        .heading5 {
+            font-size: 16px;
+            margin-left: 112px;
+            width: 87%;
+        }
+
+        .border_box2 {
+            border: 1px solid #e6e6e6;
+            position: relative;
+            padding: 30px 20px;
+            text-align: left;
+            overflow: hidden;
+            margin: 10px;
+            width: 212px;
+            height: 195px;
+            margin-top: 26px;
+
+            .heading6 {
+
+                color: $color_9;
+                font-size: 20px;
+                position: relative;
+                z-index: 1;
+                margin-top: 30px;
+
+            }
+        }
+
+        .border_box {
+            border: 2px solid #e6e6e6;
+            position: relative;
+            padding: 30px 20px;
+            text-align: left;
+            overflow: hidden;
+            margin: 10px;
+            height: 303px;
+            margin-top: 26px;
+            border-radius: 10px;
+            background-color: $background-color_29;
+
+            .heading6 {
+
+                color: $color_9;
+                font-size: 20px;
+                position: relative;
+                z-index: 1;
+                margin-left: 0;
+            }
+        }
+
+        .makes {
+            background-image: url(/website_kanak/static/src/img/android-apps/bg-android.jpg);
+            background-image: url(/website_kanak/static/src/img/android-apps-development-services/bg-android.jpg);
+        }
+
+        .different {
+
+            color: $color_9;
+            font-size: 38px;
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            margin-top: 55px;
+            margin-bottom: 46px;
+        }
+
+        .make {
+            font-weight: 500;
+            font-size: 23px;
+            color: $color_9;
+            text-align: left;
+
+        }
+
+        .paragraph {
+
+            font-size: 17px;
+            font-weight: 400;
+
+        }
+
+        .post-content {
+            font-size: 18px;
+            text-align: center;
+            margin-top: -31px;
+            margin-bottom: 32px;
+        }
+
+        .space {
+            margin-top: 27px;
+        }
+
+        .android {
+            h1 {
+                font-size: 57px;
+                margin-left: 250px;
+                text-align: left;
+                color: $color_9;
+                margin-top: -190px;
+            }
+
+            .img-android {
+                margin-left: 54px;
+                height: 216px;
+                margin-top: 94px;
+                margin-bottom: -14px;
+            }
+
+            .decor-line {
+                width: 80px;
+                height: 10px;
+                border-radius: 5px;
+                background: #bbb;
+                margin-left: 257px;
+            }
+
+            p {
+                margin-left: 79px;
+                margin-top: 17px;
+                font-size: 20px;
+            }
+
+            .banner_quote {
+                max-width: 560px;
+                margin-left: 73px;
+                margin-right: auto;
+                position: relative;
+                margin-top: 17px;
+
+                input[type="email"] {
+                    border: 0;
+                    box-shadow: 0px 0px 9.7px 0.3px $color_9;
+                    background-color: $color_3;
+                    height: 45px;
+                    width: 100%;
+                    padding: 0 180px 0 20px;
+                    border-radius: 14px;
+                    outline: 0;
+                    color: $color_9;
+                }
+
+                input[type="submit"] {
+                    position: absolute;
+                    right: -1px;
+                    top: 0;
+                    height: 100%;
+                    background: $color_9;
+                    color: $color_3;
+                    text-align: center;
+                    text-transform: uppercase;
+                    border: 0;
+                    width: 180px;
+                    font-weight: 700;
+                    border-radius: 0 14px 14px 0;
+                    outline: 0;
+                    transition: all 0.3s linear 0s;
+                }
+            }
+        }
+
+        .shape {
+            height: 486px;
+            width: 642px;
+            margin-left: 25px;
+            margin-top: -14px;
+            z-index: -1;
+        }
+
+        .shape1 {
+            width: 451px;
+            margin-left: 124px;
+            margin-top: -385px;
+        }
+
+        .textc-aaa {
+            color: $color_23;
+        }
+
+        .fonts-18 {
+            font-size: 18px;
+            ;
+        }
+
+        .w-700 {
+            font-weight: 700;
+        }
+
+        .heading7 {
+            font-size: 23px;
+            margin-left: 100px;
+
+            .common_link {
+                color: $color_9;
+                border-bottom: 1px solid $color_9;
+            }
+        }
+
+        .heading {
+
+            color: $color_9;
+            font-size: 40px;
+            position: relative;
+            z-index: 1;
+            margin-left: 198px;
+            margin-top: 50px;
+            margin-bottom: 30px;
+        }
+
+        .different1 {
+
+            color: $color_9;
+            font-size: 40px;
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            height: 50px;
+            background-color: $color_23;
+        }
+
+        .paragraphe {
+            margin-left: 109px;
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        .handmake {
+            margin-left: 109px;
+            margin-top: 21px;
+            font-size: 23px;
+            color: $color_9;
+        }
+
+        .paragraph12 {
+            font-size: 18px;
+            font-weight: 400;
+        }
+    }
+
+
+
+    input {
+        &:checked {
+            + {
+                .box {
+                    .box-title {
+                        border-bottom: 1px solid $color_9;
+                    }
+
+                    .box-close {
+                        display: inline-block;
+                    }
+                }
+
+                .box1 {
+                    .box-title1 {
+                        border-bottom: 1px solid $color_9;
+                    }
+
+                    .box-close1 {
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+    }
+
+
+    @media (max-width: 425px) {
+        .busineess_bi_mobile_android_kanak {
+            .border_box {
+                width: 90%;
+            }
+        }
+
+        .score {
+            margin-top: 0px !important;
+        }
+
+        .score1 {
+            margin-top: 0px !important;
+        }
+
+        .score2 {
+            margin-top: 0px !important;
+        }
+
+        .score3 {
+            margin-top: 0px !important;
+        }
+
+        .make {
+            text-align: center !important;
+        }
+    }
+
+    @media only screen and (max-width: 1024px) {
+        #main-odoo-banner {
+            height: 400px;
+        }
+
+        .navbar-default {
+            .navbar-nav {
+                >li {
+                    >a {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+
+        .odoo_apps {
+            a {
+                font-size: 15px;
+            }
+        }
+
+        .social-login {
+            float: right;
+            margin: 0;
+            display: flex;
+            margin-top: 0px;
+
+            .signinup {
+                a {
+                    font-size: 22px;
+                }
+
+                padding: 7px 7px;
+            }
+
+            img {
+                height: 22px;
+            }
+
+            .support {
+                margin-left: 5px;
+            }
+
+            .navbar-nav {
+                >li {
+                    float: left;
+                    height: 35px;
+                }
+            }
+        }
+
+        #proficiency-odoo {
+            .new-odoo-customization {
+                height: 380px;
+            }
+        }
+
+        .busineess_bi_mobile_android_kanak {
+            .android {
+                .img-android {
+                    height: 181px;
+                }
+
+                h1 {
+                    font-size: 43px;
+                    margin-left: 224px;
+                    text-align: left;
+                    color: $color_9;
+                    margin-top: -190px;
+                }
+            }
+
+            .shape1 {
+                width: 451px;
+                margin-left: 67px;
+                margin-top: -385px;
+            }
+
+            .inner_accr {
+                ul {
+                    border: 10px solid #eee;
+                    padding: 10px;
+                    text-align: center;
+                    z-index: 0;
+                    background: $color_3;
+                    margin: 0;
+                    margin-left: 50px;
+                }
+            }
+
+            .icon-wrap {
+                margin-left: 40px;
+            }
+
+            .heading5 {
+                font-size: 16px;
+                margin-left: 0px;
+                width: auto;
+            }
+
+            .border_box1 {
+                margin-left: 48px;
+            }
+
+            .makeover {
+                width: auto;
+                margin-left: 0px;
+            }
+
+            .makeover {
+                width: auto;
+                margin-left: 0px;
+            }
+
+            #footer {
+                h2 {
+                    font-size: 24px;
+                }
+            }
+
+            .icon-wrap {
+                margin-left: 40px;
+            }
+
+            .inner_accr {
+                ul {
+                    border: 10px solid #eee;
+                    padding: 10px;
+                    text-align: center;
+                    z-index: 0;
+                    background: $color_3;
+                    margin: 0;
+                    margin-left: 50px;
+                }
+            }
+
+
+            .busineess_bi_mobile_android_kanak {
+                .border_box1 {
+                    margin-left: 186px;
+                }
+            }
+
+            .busineess_bi_mobile_android_kanak {
+                .android {
+                    h1 {
+                        font-size: 57px;
+                        margin-left: 250px;
+                        text-align: left;
+                        color: $color_9;
+                        margin-top: -190px;
+                    }
+
+                    .img-android {
+                        margin-left: 54px;
+                        height: 216px;
+                        margin-top: 94px;
+                        margin-bottom: -14px;
+                    }
+
+                    .decor-line {
+                        width: 80px;
+                        height: 10px;
+                        border-radius: 5px;
+                        background: #bbb;
+                        margin-left: 257px;
+                    }
+
+                    p {
+                        margin-left: 79px;
+                        margin-top: 17px;
+                        font-size: 20px;
+                    }
+
+                    .banner_quote {
+                        max-width: 560px;
+                        margin-left: 73px;
+                        margin-right: auto;
+                        position: relative;
+                        margin-top: 17px;
+
+                        input[type="email"] {
+                            border: 0;
+                            box-shadow: 0px 0px 9.7px 0.3px $color_9;
+                            background-color: $color_3;
+                            height: 45px;
+                            width: 100%;
+                            padding: 0 180px 0 20px;
+                            border-radius: 14px;
+                            outline: 0;
+                            color: $color_9;
+                        }
+
+                        input[type="submit"] {
+                            position: absolute;
+                            right: -1px;
+                            top: 0;
+                            height: 100%;
+                            background: $color_9;
+                            color: $color_3;
+                            text-align: center;
+                            text-transform: uppercase;
+                            border: 0;
+                            width: 180px;
+                            font-weight: 700;
+                            border-radius: 0 14px 14px 0;
+                            outline: 0;
+                            transition: all 0.3s linear 0s;
+                        }
+                    }
+                }
+
+                .shape {
+                    height: 486px;
+                    width: 642px;
+                    margin-left: 25px;
+                    margin-top: -14px;
+                    z-index: -1;
+                }
+
+                .shape1 {
+                    width: 451px;
+                    margin-left: 124px;
+                    margin-top: -385px;
+                }
+
+                .inner_accr {
+                    display: inline-block;
+                    position: relative;
+                    text-align: center;
+                    z-index: 0;
+                    margin-top: 25px;
+
+                    ul {
+                        border: 10px solid #eee;
+                        padding: 10px;
+                        text-align: center;
+                        z-index: 0;
+                        background: $color_3;
+                        margin: 0;
+                    }
+
+                    li {
+                        display: inline-block;
+
+                        figure {
+                            height: 50px;
+                            margin-top: 16px;
+                            height: 50px;
+                        }
+                    }
+
+                    figure {
+                        &:before {
+                            height: 100%;
+                            content: "";
+                            display: inline-block;
+                            vertical-align: middle;
+                            margin-right: -0.25em;
+                        }
+
+                        img {
+                            display: inline-block;
+                            vertical-align: middle;
+                            max-width: 98%;
+                        }
+                    }
+                }
+
+                .textc-aaa {
+                    color: $color_23;
+                }
+
+                .fonts-18 {
+                    font-size: 18px;
+                }
+
+                .darkc {
+                    color: $color_9;
+                }
+
+                .w-700 {
+                    font-weight: 700;
+                }
+
+                .mshome-sec {
+                    .sec-head {
+                        position: relative;
+                        padding-left: 30px;
+                    }
+                }
+
+                .sec-head {
+                    &:before {
+                        content: "";
+                        width: 11px;
+                        height: 60px;
+                        background-color: $color_1;
+                    }
+                }
+
+                .mshome-heading {
+                    font-size: 45px;
+                    font-weight: bold;
+                    color: $color_2;
+                    margin-left: 18px;
+                }
+
+                .mshome-desc {
+                    position: relative;
+                    width: revert;
+                    text-align: justify;
+                }
+
+                .icon-wrap {
+                    width: 68px;
+                    height: 68px;
+                    border: 1px dashed #0000005e;
+                    vertical-align: middle;
+                    text-align: center;
+                    border-radius: 8px;
+                    margin-bottom: 30px;
+                }
+
+                .icon-sprite.exp-one {
+                    background-position: -37px -53px;
+                }
+
+                .box-wrapper {
+                    h3 {
+                        font-size: 24px;
+                        font-weight: 600;
+                        color: $color_2;
+                        margin-left: 76px;
+                        margin-top: 48px;
+                    }
+                }
+
+                .exp-one {
+                    margin-top: 6px;
+                    margin-left: 2px;
+                }
+
+                .heading2 {
+                    color: $color_9;
+                    font-size: 35px;
+                    position: relative;
+                    z-index: 1;
+                    text-align: center;
+                    margin-top: 55px;
+                    margin-left: -10px;
+                }
+
+                .heading5 {
+                    font-size: 16px;
+                    margin-left: 112px;
+                    width: 996px;
+                }
+
+                .border_box {
+                    border: 2px solid #E6E6E6;
+                    position: relative;
+                    padding: 30px 20px;
+                    text-align: left;
+                    overflow: hidden;
+                    margin: 10px;
+                    height: 303px;
+                    margin-top: 26px;
+                    border-radius: 10px;
+                    background-color: $background-color_9;
+
+                    .heading6 {
+                        color: $color_9;
+                        font-size: 20px;
+                        position: relative;
+                        z-index: 1;
+                        margin-left: 0;
+                    }
+                }
+
+                .border_box1 {
+                    margin-left: 186px;
+                }
+
+                .heading7 {
+                    font-size: 23px;
+                    margin-left: 100px;
+
+                    .common_link {
+                        color: $color_9;
+                        border-bottom: 1px solid $color_9;
+                    }
+                }
+
+                .border_box2 {
+                    border: 1px solid #E6E6E6;
+                    position: relative;
+                    padding: 30px 20px;
+                    text-align: left;
+                    overflow: hidden;
+                    margin: 10px;
+                    width: 212px;
+                    height: 195px;
+                    margin-top: 26px;
+
+                    .heading6 {
+                        color: $color_9;
+                        font-size: 20px;
+                        position: relative;
+                        z-index: 1;
+                        margin-top: 30px;
+                    }
+                }
+
+                .heading {
+                    color: $color_9;
+                    font-size: 40px;
+                    position: relative;
+                    z-index: 1;
+                    margin-left: 198px;
+                    margin-top: 50px;
+                    margin-bottom: 30px;
+                }
+
+                .different {
+                    color: $color_9;
+                    font-size: 38px;
+                    position: relative;
+                    z-index: 1;
+                    text-align: center;
+                    margin-top: 55px;
+                    margin-bottom: 46px;
+                }
+
+                .make {
+                    font-size: 23px;
+                    color: $color_9;
+                }
+
+                .paragraph {
+                    font-size: 17px;
+                    font-weight: 400;
+                }
+
+                .post-content {
+                    font-size: 18px;
+                    text-align: center;
+                    margin-top: -31px;
+                    margin-bottom: 32px;
+                }
+
+                .makeover {
+                    width: 988px;
+                }
+
+                .paragraphe {
+                    margin-left: 109px;
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+
+                .handmake {
+                    margin-left: 109px;
+                    margin-top: 21px;
+                    font-size: 23px;
+                    color: $color_9;
+                }
+
+                .space {
+                    margin-top: 27px;
+                }
+
+                .paragraph12 {
+                    font-size: 18px;
+                    font-weight: 400;
+                }
+            }
+
+        }
+    }
+}

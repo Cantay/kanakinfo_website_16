@@ -1,0 +1,544 @@
+
+.kanak_careers {
+
+    #career-main-banner {
+        background-image: url(/website_kanak/static/src/img/careers/Building-bg.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        img {
+            height: 400px;
+        }
+    }
+
+    #career-sec002 {
+        div {
+            .main {
+                background-image: url(/website_kanak/static/src/img/careers/box-bg.webp);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                padding: 30pt;
+                border-radius: 10px;
+            }
+        }
+    }
+
+    #our-team-sec003 {
+        display: block;
+
+        .our-team-main {
+            position: relative;
+            display: flex;
+            justify-content: space-around;
+            padding-bottom: 30pt;
+
+            span {
+                display: none;
+                position: absolute;
+                bottom: 0;
+                font-size: 17px;
+                line-height: 130%;
+                letter-spacing: 0;
+                color: $color_11;
+                margin-left: 15pt;
+                margin-right: 15pt;
+            }
+        }
+
+        .our-team {
+            &:hover {
+                + {
+                    span {
+                        display: block;
+                    }
+                }
+
+                .team-icon {
+                    + {
+                        p {
+                            color: $color_9;
+                        }
+                    }
+                }
+
+                .team-icon.development {
+                    background-image: url(/website_kanak/static/src/img/careers/development.webp);
+                }
+
+                .team-icon.marketing {
+                    background-image: url(/website_kanak/static/src/img/careers/Marketing.webp);
+                }
+
+                .team-icon.bussiness {
+                    background-image: url(/website_kanak/static/src/img/careers/Business_Dev.webp);
+                }
+
+                .team-icon.HR {
+                    background-image: url(/website_kanak/static/src/img/careers/HR.webp);
+                }
+
+                .team-icon.research {
+                    background-image: url(/website_kanak/static/src/img/careers/Research.webp);
+                }
+            }
+
+            .team-icon {
+                background-repeat: no-repeat;
+                background-size: 100%;
+                background-position: center;
+                height: 100px;
+                width: 100px;
+
+                + {
+                    p {
+                        color: $color_18;
+                    }
+                }
+            }
+
+            .team-icon.development {
+                background-image: url(/website_kanak/static/src/img/careers/development_gray.webp);
+            }
+
+            .team-icon.marketing {
+                background-image: url(/website_kanak/static/src/img/careers/Marketing_gray.webp);
+            }
+
+            .team-icon.bussiness {
+                background-image: url(/website_kanak/static/src/img/careers/Business_gray.webp);
+            }
+
+            .team-icon.HR {
+                background-image: url(/website_kanak/static/src/img/careers/HR_gray.webp);
+            }
+
+            .team-icon.research {
+                background-image: url(/website_kanak/static/src/img/careers/Research_gray.webp);
+            }
+        }
+    }
+
+    #our-team-slider-sec003 {
+        display: none;
+
+        .our-team {
+            .team-icon {
+                margin-bottom: 10pt;
+
+                img {
+                    height: 100px;
+                    width: auto;
+                }
+            }
+
+            .description {
+                line-height: 1.2;
+            }
+        }
+    }
+
+    #hire-our-team-desk {
+        display: block;
+    }
+
+    #hire-our-team-mob {
+        display: none;
+
+        .item {
+            .gradi-border {
+                height: auto;
+            }
+        }
+    }
+
+    .gradi-border {
+        border-radius: 10px;
+        padding: 20pt;
+        display: inline-block;
+        position: relative;
+        background: transparent;
+        border: none;
+        height: 350px;
+        box-shadow: 4px 4px 4px #e8e8e8;
+
+        &::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            padding: 2px;
+            border-radius: 10px;
+            background: linear-gradient(180deg, #dd3232, #15456e), linear-gradient(0deg, #FFFFFF, #FFFFFF);
+            -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            -webkit-mask-composite: xor;
+            mask-composite: exclude;
+        }
+
+        .gradi-head {
+            font-weight: 500;
+            color: $color_2;
+            font-size: 1.3rem;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            line-height: 1.1;
+        }
+    }
+
+    .jd_details {
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+
+    .skills_container {
+        .row {
+            .skills_head {
+                display: flex;
+            }
+        }
+    }
+
+    .skills_tags {
+        display: flex;
+        padding-top: 20px;
+        margin-bottom: 15px;
+
+        p {
+            border-radius: 5px;
+            background-color: $background-color_18;
+            color: $color_9;
+            margin-left: 5px;
+            margin-top: 5px;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+    }
+
+    .container_summary {
+        background: aliceblue;
+        border-radius: 5px;
+        padding: 10px;
+
+        p {
+            font-style: italic;
+        }
+    }
+
+    .Note {
+        background: aliceblue;
+        border-radius: 5px;
+        padding: 10px;
+
+        h3 {
+            cite {
+                span {
+                    color: $color_1;
+                }
+
+                color: $color_19;
+            }
+        }
+    }
+
+    .job_text {
+        .container {
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+    }
+
+    .jobs_detail {
+        .container {
+            h3 {
+                color: $color_19;
+                font-weight: 900;
+                font-size: 28px;
+                margin-bottom: 15px;
+                margin-top: 20px;
+
+                span {
+                    color: $color_1;
+                }
+            }
+        }
+    }
+
+    #job_perks_text {
+        .container {
+            padding-left: 50px;
+            padding-right: 50px;
+
+            h3 {
+                color: $color_19;
+                font-weight: 900;
+                font-size: 28px;
+                margin-bottom: 15px;
+                margin-top: 20px;
+
+                span {
+                    color: $color_1;
+                }
+            }
+        }
+    }
+
+    .job_perks_card_row {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .job_perks_card {
+        border-radius: 2px;
+        margin-top: 20px;
+        margin-right: 12px;
+        margin-left: 12px;
+        height: 120px;
+        width: 185px;
+
+        .job-perk-img {
+            background-repeat: no-repeat;
+            background-size: 50%;
+            background-position: center;
+            height: 100px;
+        }
+
+        p {
+            font-size: 15px;
+            line-height: 100%;
+            padding-top: 10pt;
+            font-weight: bold;
+            color: $color_18;
+        }
+
+        &:hover {
+            p {
+                color: $color_9;
+            }
+
+            .job-perk-img.Flexible {
+                background-image: url(/website_kanak/static/src/img/careers/Flexible-Working-Hours.webp);
+            }
+
+            .job-perk-img.Family {
+                background-image: url(/website_kanak/static/src/img/careers/family-bliss.webp);
+            }
+
+            .job-perk-img.Awesome {
+                background-image: url(/website_kanak/static/src/img/careers/Awesome.webp);
+            }
+
+            .job-perk-img.Activities {
+                background-image: url(/website_kanak/static/src/img/careers/company-activies.webp);
+            }
+
+            .job-perk-img.Swag {
+                background-image: url(/website_kanak/static/src/img/careers/Kanak-swag.webp);
+            }
+
+            .job-perk-img.Growth {
+                background-image: url(/website_kanak/static/src/img/careers/Growth.webp);
+            }
+
+            .job-perk-img.Transparency {
+                background-image: url(/website_kanak/static/src/img/careers/Transparency.webp);
+            }
+
+            .job-perk-img.Competitive {
+                background-image: url(/website_kanak/static/src/img/careers/Competitive.webp);
+            }
+
+            .job-perk-img.days {
+                background-image: url(/website_kanak/static/src/img/careers/working.webp);
+            }
+        }
+
+        .job-perk-img.Flexible {
+            background-image: url(/website_kanak/static/src/img/careers/Flexible-Working-Hours-gray.webp);
+        }
+
+        .job-perk-img.Family {
+            background-image: url(/website_kanak/static/src/img/careers/family-bliss_gray.webp);
+        }
+
+        .job-perk-img.Awesome {
+            background-image: url(/website_kanak/static/src/img/careers/Awesome_gray.webp);
+        }
+
+        .job-perk-img.Activities {
+            background-image: url(/website_kanak/static/src/img/careers/company-activies_gray.webp);
+        }
+
+        .job-perk-img.Swag {
+            background-image: url(/website_kanak/static/src/img/careers/Kanak-swag_gray.webp);
+        }
+
+        .job-perk-img.Growth {
+            background-image: url(/website_kanak/static/src/img/careers/Growth_gray.webp);
+        }
+
+        .job-perk-img.Transparency {
+            background-image: url(/website_kanak/static/src/img/careers/Transparency_gray.webp);
+        }
+
+        .job-perk-img.Competitive {
+            background-image: url(/website_kanak/static/src/img/careers/Competitive_gray.webp);
+        }
+
+        .job-perk-img.days {
+            background-image: url(/website_kanak/static/src/img/careers/working_gray.webp);
+        }
+    }
+
+    .open_job_jd {
+        .job-detail {
+            border-radius: 5px;
+            margin: 5px;
+            padding: 10px;
+            display: inline-block;
+
+            h4 {
+                text-align: left;
+            }
+        }
+    }
+
+    .job_apply_form_text_align {
+        text-align: right;
+    }
+
+    @media (max-width: 768px) {
+        .gradi-border {
+            height: auto;
+        }
+    }
+
+    @media (max-width: 425px) {
+        .jobs_detail {
+            .col-lg-offset-3 {
+                padding-top: unset;
+                padding-bottom: unset;
+                margin-top: 15px;
+            }
+        }
+
+        .container_summary {
+            padding: 15px;
+        }
+    }
+
+    @media (max-width: 500px) {
+        #career-main-banner {
+            img {
+                height: auto;
+            }
+        }
+
+        #our-team-sec003 {
+            display: none;
+        }
+
+        #our-team-slider-sec003 {
+            display: block;
+        }
+
+        #hire-our-team-desk {
+            display: none;
+        }
+
+        #hire-our-team-mob {
+            display: block;
+        }
+
+        .job_perks_card {
+            .job-perk-img.Flexible {
+                background-image: url(/website_kanak/static/src/img/careers/Flexible-Working-Hours.webp);
+            }
+
+            .job-perk-img.Family {
+                background-image: url(/website_kanak/static/src/img/careers/family-bliss.webp);
+            }
+
+            .job-perk-img.Awesome {
+                background-image: url(/website_kanak/static/src/img/careers/Awesome.webp);
+            }
+
+            .job-perk-img.Activities {
+                background-image: url(/website_kanak/static/src/img/careers/company-activies.webp);
+            }
+
+            .job-perk-img.Swag {
+                background-image: url(/website_kanak/static/src/img/careers/Kanak-swag.webp);
+            }
+
+            .job-perk-img.Growth {
+                background-image: url(/website_kanak/static/src/img/careers/Growth.webp);
+            }
+
+            .job-perk-img.Transparency {
+                background-image: url(/website_kanak/static/src/img/careers/Transparency.webp);
+            }
+
+            .job-perk-img.Competitive {
+                background-image: url(/website_kanak/static/src/img/careers/Competitive.webp);
+            }
+
+            .job-perk-img.days {
+                background-image: url(/website_kanak/static/src/img/careers/working.webp);
+            }
+
+            p {
+                color: $color_9;
+            }
+
+            border-radius: 2px;
+            margin-top: 5px;
+            margin-right: 5px;
+            margin-left: 5px;
+            margin-bottom: 15pt;
+            height: 120px;
+            width: 46%;
+        }
+
+        .owl-carousel {
+            .owl-nav {
+                .owl-prev {
+                    display: none;
+                }
+
+                .owl-next {
+                    display: none;
+                }
+            }
+        }
+
+        .jobs_vacancy {
+            display: initial;
+        }
+
+        .skills_tags {
+            p {
+                border-radius: 5px;
+                background-color: $background-color_18;
+                color: $color_9;
+                margin-left: 5px;
+                margin-top: 3px;
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+        }
+
+        .bday_card_none {
+            display: none;
+        }
+
+        .job_apply_form_text_align {
+            text-align: left;
+        }
+    }
+}

@@ -1,0 +1,163 @@
+
+
+.kanak_netsuite_page {
+
+    .netsuite-carousel-text {
+        font-size: 15px;
+        color: $color_2;
+    }
+
+    .netsuite-reasons-text {
+        font-size: 16px;
+        text-align: center;
+    }
+
+
+    .netsuite-accelerate-growth-images {
+        width: 2%;
+        display: unset;
+        margin-top: -5px;
+    }
+
+    .netsuite-key-steps-heading {
+        font-size: 20px;
+        color: #565656;
+        // padding: 11px;
+    }
+
+    .netsuite-experts-help-images {
+        width: 3%;
+        display: unset;
+        margin-top: -10px;
+    }
+
+    .netsuite-questions-text {
+        color: $color_2;
+        margin-left: 10px;
+        font-size: 19px;
+    }
+
+    .netsuite-answers-text {
+        font-size: 17px;
+        font-family: aileron, Roboto, sans-serif;
+        text-align: left;
+    }
+
+    .carousel {
+        position: relative;
+    }
+
+    .carousel-inner {
+        overflow: hidden;
+        height: 100%;
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .bl-slider {
+        padding-left: 8px;
+        font-size: 17px;
+        border-left: 8px solid #00546e;
+        margin-bottom: 0px;
+        text-align: justify;
+        padding-left: 8px;
+        font-size: 17px;
+        border-left: 8px solid #00546e;
+        margin-bottom: 0px;
+        text-align: justify;
+    }
+
+    .faq_button {
+        display: inline-block;
+        height: 30px;
+        padding: 0;
+        margin: 0;
+        vertical-align: top;
+        background: unset;
+    }
+
+    .dark_blue {
+        color: $color_2;
+    }
+
+    .red {
+        color: $color_2;
+    }
+
+    .frequently_border_1 {
+        width: 50%;
+        margin-top: 1rem;
+        border-top: 4px solid red;
+    }
+
+    .frequently_border_2 {
+        width: 50%;
+        margin-top: 1rem;
+        border-top: 4px solid red;
+    }
+
+    .faq-main-head {
+        color: $color_2;
+        font-size: 28px !important;
+        margin-bottom: 15px;
+        margin-top: 0;
+        line-height: 1.1;
+    }
+
+    .faq_border {
+        border: 1px solid #cec7c7;
+        padding: 20pt;
+    }
+
+    .fw700 {
+        font-weight: 700;
+    }
+
+    .faq_button {
+        display: inline-block;
+        height: 30px;
+        padding: 0;
+        margin: 0;
+        vertical-align: top;
+        border: unset;
+        background: unset;
+
+        img {
+            display: block;
+            height: 30px;
+            width: 150px;
+            cursor: pointer;
+        }
+    }
+
+    .key_setup {
+        img {
+            margin-top: -7px;
+            height: 18px;
+        }
+    }
+
+
+    @media only screen and (max-width: 768px) {
+        .faq_button {
+            width: auto;
+        }
+
+        .specific_reasons {
+            padding: 12px;
+            margin-bottom: -25px;
+        }
+
+        .erp_box {
+            width: auto;
+            height: auto;
+            margin-bottom: 25px;
+        }
+
+        .remove_margin_erp_box {
+            margin-bottom: 25px;
+        }
+    }
+
+}

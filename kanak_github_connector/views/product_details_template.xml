@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="product_details" inherit_id="website_sale.product" name="Product Details">
+        <xpath expr="//div[@id='product_full_description']" position="replace">
+            <div itemprop="description" t-field="product.website_description" class="oe_structure mt16 mb32" id="product_full_description" />
+            <t t-foreach="product.product_variant_ids" t-as="variant">
+                <div itemprop="description" t-raw="variant.description_rst_html" class="oe_structure mt16 mb32 hidden" t-att-product_id="variant.id" />
+            </t>
+        </xpath>
+    </template>
+</odoo>

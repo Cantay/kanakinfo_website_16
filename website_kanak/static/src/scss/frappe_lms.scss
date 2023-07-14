@@ -1,0 +1,241 @@
+.kanak_frappe_lms {
+
+    .text-justify {
+        text-align: justify;
+    }
+
+    .para-new {
+        font-size: 17px;
+        width: 200px;
+        display: contents;
+    }
+
+    img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+
+    $box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    .summary-lms {
+        padding: 20pt 0;
+        margin: 10pt;
+        margin-top: -80pt;
+        padding-top: 80pt;
+        border-radius: 10pt;
+        background: $color_3;
+        box-shadow: $box-shadow;
+
+        border-radius: 8px;
+
+        .summary-img {
+            display: block;
+        }
+
+        div h1 {
+            margin-top: 0;
+        }
+    }
+
+    .sec-choose {
+        background: url(/website_kanak/static/src/img/frappe_lms/choose-bg.webp) no-repeat right center;
+        background-size: 30%;
+    }
+
+    .circle-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .circle-box {
+        position: absolute;
+        width: 200px;
+        // top: 20%;
+        // padding: 20pt 50pt;
+    }
+
+    .lms-feature-desk {
+        display: block;
+    }
+
+    .lms-feature-mob {
+        display: none;
+
+        .owl-carousel .owl-item img {
+            width: 10%;
+        }
+    }
+
+    .choose-lms-box {
+        padding: 20pt;
+        border-radius: 10px;
+        margin: 0 50pt;
+    }
+
+    .ring-slider-desk {
+        display: block;
+    }
+
+    .ring-slider-mob {
+        display: none;
+
+        .circle-box img {
+            height: 30px;
+            width: 30px;
+        }
+    }
+
+    .choose-lms-desk {
+        display: block;
+    }
+
+    .choose-lms-mob {
+        display: none;
+
+        .choose-lms-box img {
+            width: 50%;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .main-frappe-lms-banner {
+            background: url(/website_kanak/static/src/img/frappe_lms/frappe-lms-banner.webp);
+            background-size: cover;
+            position: relative;
+            padding: 50pt 0;
+            z-index: -1;
+        }
+
+        .summary-lms {
+            .summary-img {
+                display: none;
+            }
+        }
+
+        .sec-choose {
+            background: none;
+        }
+
+        .choose-lms-box {
+            padding: 20pt;
+            border-radius: 10px;
+            margin: 0 0pt;
+        }
+    }
+
+    @media (max-width: 525px) {
+        .circle-main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+
+        .circle-box {
+            position: absolute;
+            width: 50%;
+        }
+
+        .lms-feature-desk {
+            display: none;
+        }
+
+        .lms-feature-mob {
+            display: block;
+
+            .owl-carousel {
+                .owl-dots{
+                    display: none;
+                }
+                .owl-nav {
+                    display: none;
+                }
+            }
+
+        }
+
+        .ring-slider-desk {
+            display: none;
+        }
+
+        .ring-slider-mob {
+            display: block;
+        }
+
+        .choose-lms-desk {
+            display: none;
+        }
+
+        .choose-lms-mob {
+            display: block;
+
+            .owl-carousel {
+                .owl-dots{
+                    display: none;
+                }
+                .owl-nav {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 375px) {
+        .ring-slider-mob {
+            .item .circle-box p {
+                font-size: 12px;
+            }
+        }
+    }
+
+    .frequently_border_1 {
+        width: 50%;
+        margin-top: 1rem;
+        border-top: 4px solid red;
+    }
+
+    .frequently_border_2 {
+        width: 50%;
+        margin-top: 1rem;
+        border-top: 4px solid red;
+    }
+
+    .faq-main-head {
+        color: $color_2;
+        font-size: 28px !important;
+        margin-bottom: 15px;
+        margin-top: 0;
+        line-height: 1.1;
+    }
+
+    .faq_border {
+        border: 1px solid #cec7c7;
+        padding: 20pt;
+    }
+
+    .fw700 {
+        font-weight: 700;
+    }
+
+    .faq_button {
+        display: inline-block;
+        height: 30px;
+        padding: 0;
+        margin: 0;
+        vertical-align: top;
+        border: unset;
+        background: unset;
+
+        img {
+            display: block;
+            height: 30px;
+            width: 150px;
+            cursor: pointer;
+        }
+    }
+}

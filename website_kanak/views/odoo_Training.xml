@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="odoo_training_form_view" name="Odoo Training">
+        <t t-call="website.layout">
+            <t t-set="pageName" t-value="'OdooTraining kanak_odoo_training'" />
+            <div id="wrap" class="busineess_odoo_openerp_training_kanak">
+                <section id="main-odoo-training-banner">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <p class="training-banner-head">Odoo <br /><span class="red">Training</span></p>
+                            </div>
+                            <div class="col-lg-6">
+                                <img src="/website_kanak/static/src/img/odoo_Training/Training-graphic.webp" class="img-fluid mx-auto" />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="workpage-home-work">
+                        <div class="container">
+                            <span>
+                                <a class="text-decoration-none" href="/"> Home </a>
+                            </span>
+                            <i class="fa fa-chevron-right" aria-hidden="true" />
+                            <span> Odoo Training </span>
+                        </div>
+                    </div>
+                </section>
+                <section class="pt16 pb16">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 for-spacing-all">
+                                <h1 class="heading-technical-trainng-hh"> Odoo Official Functional and Technical Training </h1>
+                                <p class="text-justify"> By taking the initiative, we are providing Odoo official training to anyone so that you can have best understanding of Odoo frameworks and modules both functionally and technically. We have a team of Odoo experts and <a href="https://kanakinfosystems.com/hire-odoo-developer">professional odoo developers</a> who will help to get better understanding of Odoo.
+                                </p>
+                                <p class="text-justify">
+                                    As Odoo is a biggest ERP so sometimes it happens that you may stuck somewhere to manage or configure the desired <a href="https://apps.odoo.com/apps/modules/browse?author=Kanak%20Infosystems%20LLP.">odoo modules</a> in that case our experts will help to get the issue resolve either at your place or at our office and more on that we also offer Odoo Online Training to our clients so that they can save their time and money.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="main-ab-all-deve" class="for-two-port-space ">
+                    <div id="parallex-home-odoo-train2" class="parallex-train-1">
+                        <div class="overlay-ab">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12 for-spacing-all pt16 pb16">
+                                        <h2 class="training-block14">Odoo Training Course Description </h2>
+                                        <p class="training-block15"> Purpose of Odoo Training </p>
+                                        <p class="aaa-a1 text-justify"> Get trained with the Odoo Open <a href="https://kanakinfosystems.com/blog/what-is-erp">ERP System</a> enables Students, Partners, IT Professionals, Developers, Integrators and Clients to get better understanding of “How Odoo Works” in his defined modules and to handle professional challenges you may face in your business environment and workflow.
+                                        </p>
+                                        <p class="training-block16"> Odoo Training Objective </p>
+                                        <p class="aaa-a1 text-justify"> Our affordable Odoo Training Programs will be delivered by Odoo Domain Experts who have the rich experience in all aspects of <a href="https://kanakinfosystems.com/blog/odoo-review">Odoo/Open ERP</a>
+                                            . Most of the time during training will be spent in learning the different modules and their interaction between <a href="https://kanakinfosystems.com/shop">Odoo Apps</a>.
+                                        </p>
+                                        <p class="training-block17">
+                                            Benefits, If You Get Training from Us! </p>
+                                        <p class="training-block18">
+                                            <i class="fa fa-check" aria-hidden="true"></i> Training will be given by Odoo professionals who have extensive experience in their domain!
+                                        </p>
+                                        <p class="training-block18">
+                                            <i class="fa fa-check" aria-hidden="true"></i> Get Trained as per your flexibility at your place or in our office or online – It's your choice!
+                                        </p>
+                                        <p class="training-block18">
+                                            <i class="fa fa-check" aria-hidden="true"></i> Complete practical training on live projects!
+                                        </p>
+                                        <p class="training-block18">
+                                            <i class="fa fa-check" aria-hidden="true"></i> Wide range of training programs as per your need!
+                                        </p>
+                                        <p class="training-block18">
+                                            <i class="fa fa-check" aria-hidden="true"></i> Last but not least very affordable course cost!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="pt16 pb16">
+                    <div class="container">
+                        <!-- <div class="row"> -->
+                        <div class="row">
+                            <div class="col-md-3 col-sm-3 d-flex align-items-center">
+                                <img class="img-fluid mx-auto" src="/website_kanak/static/src/img/odoo_Training/Optimization-256.svg" style="height:131px;" alt="Open Erp Odoo Function Training" />
+                            </div>
+                            <div class="col-md-9 col-sm-9">
+                                <h3 class="functional-training-class1" style="font-size:28px;font-weight:900;"> Open ERP Odoo Functional Training </h3>
+                                <p class="training-block11 text-justify">
+                                    Odoo Functional Training will be provided by our Odoo domain Experts. This functional training program includes – “Individual Training Program” and “Group Training Program”. Odoo functional knowledge helps you to know about the usability of the software. Our main objective of offering this functional training that you can gain overview of all features of <a href="https://www.odoo.com/">Odoo Open ERP System</a>.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-9 col-sm-9 order-lg-1 order-md-1 order-sm-1 order-2">
+                                <h3 class="functional-training-class2" style="font-size:28px;font-weight:900;"> Open ERP Odoo Technical Training </h3>
+                                <p class="training-block111 text-justify">
+                                    Odoo technical training will be provided by our professional odoo developers. This technical training also includes – “Individual Training Program” and “Group Training Program”. This program is specially designed for developers who wants to get complete knowledge about <a href="https://kanakinfosystems.com/odoo-development-services">odoo development</a> system. This program will help IT professionals to learn a leading biggest ERP system.
+                                </p>
+                            </div>
+                            <div class="col-md-3 col-sm-3 order-lg-2 order-md-2 order-sm-2 order-1 d-flex align-items-center">
+                                <img class="img-fluid mx-auto" src="/website_kanak/static/src/img/odoo_Training/SEO_Training-256.svg" style="height:131px;" alt="Open Erp Odoo Technical Training" />
+                            </div>
+                        </div>
+                        <!-- </div> -->
+                    </div>
+                </section>
+                <section>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 for-spacing-all">
+                                <h3 class="training-block12 text-center" style="font-size:28px;font-weight:900;"> Our Curriculum for All Odoo Training Programs </h3>
+                                <p class="training-block13"> “Browse the Program According to Your Need” </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 training-show1">
+                                <div class="curriculum-chapter">
+                                    <div class="chapter-toggle">
+                                        <div class="curriculum-chapter-header">
+                                            <div class="row">
+                                                <div class="col-sm-12">
+                                                    <div class="row">
+                                                        <div class="col-sm-9">
+                                                            <span class="chapter-header">
+                                                                Odoo Technical Training Curriculum
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12 chapter-description"></div>
+                                        </div>
+                                        <div class="row in ha" id="collapse2">
+                                            <div class="col-sm-12">
+                                                <div class="chapter-list">
+                                                    <div class="chapter-list-item__link training-border1">
+                                                        <div class="chapter-list-item">
+                                                            <span class="chapter-list-item__title">
+                                                                Odoo Installation Basics
+                                                            </span>
+                                                            <i class="icon-pdf"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="chapter-list-item__link training-border2">
+                                                        <div class="chapter-list-item">
+                                                            <span class="chapter-list-item__title">
+                                                                Deployment Practices
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="chapter-list-item__link training-border3">
+                                                        <div class="chapter-list-item">
+                                                            <span class="chapter-list-item__title">
+                                                                Learning the Basics of the following:
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="chapter-list-item__link">
+                                                        <div class="chapter-list-item">
+                                                            <span class="chapter-list-item__title">
+                                                                ORM
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="chapter-list-item__link">
+                                                        <div class="chapter-list-item">
+                                                            <span class="chapter-list-item__title">
+                                                                Data Files
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="chapter-list-item__link">
+                                                        <div class="chapter-list-item">
+                                                            <span class="chapter-list-item__title">
+                                                                Actions
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="chapter-list-item__link">
+                                                        <div class="chapter-list-item">
+                                                            <span class="chapter-list-item__title">
+                                                                View
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="chapter-list-item__link">
+                                                        <div class="chapter-list-item">
+                                                            <span class="chapter-list-item__title">
+                                                                Module Structure
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="chapter-list-item__link">
+                                                        <div class="chapter-list-item">
+                                                            <span class="chapter-list-item__title">
+                                                                Command Lines Interface
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="chapter-list-item__link">
+                                                        <div class="chapter-list-item">
+                                                            <span class="chapter-list-item__title">
+                                                                Security
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="chapter-list-item__link">
+                                                        <div class="chapter-list-item">
+                                                            <span class="chapter-list-item__title">
+                                                                Web Controllers
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="chapter-list-item__link">
+                                                        <div class="chapter-list-item">
+                                                            <span class="chapter-list-item__title">
+                                                                JS (Java Script)
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="chapter-list-item__link">
+                                                        <div class="chapter-list-item">
+                                                            <span class="chapter-list-item__title">
+                                                                Translation
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="chapter-list-item__link">
+                                                        <div class="chapter-list-item">
+                                                            <span class="chapter-list-item__title">
+                                                                Workflows
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="chapter-list-item__link training-border1">
+                                                        <div class="chapter-list-item">
+                                                            <span class="chapter-list-item__title">
+                                                                Theme Design And Web Development
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="chapter-list-item__link training-border2">
+                                                        <div class="chapter-list-item">
+                                                            <span class="chapter-list-item__title">
+                                                                POS Development
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="chapter-list-item__link training-border3">
+                                                        <div class="chapter-list-item">
+                                                            <span class="chapter-list-item__title">
+                                                                3rd Party Integration
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-12 only-training-toggle">
+                                                <div class="toggle-content" data-toggle="collapse" data-target="#collapse2">Hide Content</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 training-show2">
+                                <div class="curriculum-chapter">
+                                    <div class="chapter-toggle">
+                                        <div class="curriculum-chapter-header">
+                                            <div class="row">
+                                                <div class="col-sm-12">
+                                                    <div class="row">
+                                                        <div class="col-sm-9">
+                                                            <span class="chapter-header">
+                                                                Odoo Functional Training Curriculum
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12 chapter-description"></div>
+                                        </div>
+                                        <div class="row in ha" id="collapse1">
+                                            <div class="col-sm-12">
+                                                <div class="chapter-list">
+                                                    <div class="chapter-list-item__link training-border1">
+                                                        <div class="chapter-list-item">
+                                                            <span class="chapter-list-item__title">
+                                                                Odoo Installation and Configuration
+                                                            </span>
+                                                            <i class="icon-pdf"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="chapter-list-item__link training-border2">
+                                                        <div class="chapter-list-item">
+                                                            <span class="chapter-list-item__title">
+                                                                Master Data SetUp
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="chapter-list-item__link training-border3">
+                                                        <div class="chapter-list-item">
+                                                            <span class="chapter-list-item__title">
+                                                                Import Procedure
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="chapter-list-item__link">
+                                                        <div class="chapter-list-item">
+                                                            <span class="chapter-list-item__title">
+                                                                Sale
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="chapter-list-item__link">
+                                                        <div class="chapter-list-item">
+                                                            <span class="chapter-list-item__title">
+                                                                Purchase
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="chapter-list-item__link">
+                                                        <div class="chapter-list-item">
+                                                            <span class="chapter-list-item__title">
+                                                                CRM
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="chapter-list-item__link">
+                                                        <div class="chapter-list-item">
+                                                            <span class="chapter-list-item__title">
+                                                                Website
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="chapter-list-item__link">
+                                                        <div class="chapter-list-item">
+                                                            <span class="chapter-list-item__title">
+                                                                E-Commerce
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="chapter-list-item__link">
+                                                        <div class="chapter-list-item">
+                                                            <span class="chapter-list-item__title">
+                                                                Accounting
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="chapter-list-item__link">
+                                                        <div class="chapter-list-item">
+                                                            <span class="chapter-list-item__title">
+                                                                HR
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="chapter-list-item__link">
+                                                        <div class="chapter-list-item">
+                                                            <span class="chapter-list-item__title">
+                                                                Payrolls
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="chapter-list-item__link">
+                                                        <div class="chapter-list-item">
+                                                            <span class="chapter-list-item__title">
+                                                                Warehouse and Inventory Management
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="chapter-list-item__link">
+                                                        <div class="chapter-list-item">
+                                                            <span class="chapter-list-item__title">
+                                                                Project Management
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="chapter-list-item__link">
+                                                        <div class="chapter-list-item">
+                                                            <span class="chapter-list-item__title">
+                                                                Discuss
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="chapter-list-item__link training-border1">
+                                                        <div class="chapter-list-item">
+                                                            <span class="chapter-list-item__title">
+                                                                Users and Role Management
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="chapter-list-item__link training-border2">
+                                                        <div class="chapter-list-item">
+                                                            <span class="chapter-list-item__title">
+                                                                Database Management
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="chapter-list-item__link training-border3">
+                                                        <div class="chapter-list-item">
+                                                            <span class="chapter-list-item__title">
+                                                                Basic Development from the Odoo UI
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-12 only-training-toggle">
+                                                <div class="toggle-content" data-toggle="collapse" data-target="#collapse1">Hide Content</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 for-spacing-all pt16 ">
+                                <p class="training-block19"> "So, let's get trained with us!" </p>
+                            </div>
+                            <div class="col-md-12 only-insta-email">
+                                E-mail -
+                                <a target="_blank" href="mailto:info@kanakinfosystems.com"> sales@kanakinfosystems.com </a>
+                            </div>
+                            <div class="text-center pb16">
+                                <a href="/contactus" class="btn btn-primary"> Contact Us </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </t>
+    </template>
+</odoo>

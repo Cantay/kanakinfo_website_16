@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="engagement_model_page" name="engagement models">
+        <t t-call="website.layout">
+            <t t-set="pageName" t-value="'engagement kanak_engagement'" />
+            <div id="wrap" class="engagement_model_kanak">
+                <div class="oe_structure" />
+                <section id="privacy_sec_001" class="privacy_sec_banner oe_img_bg position-relative" style="background-image: url(/website_kanak/static/src/img/engagement/Engagement-Models-banner.webp);" data-scroll-background-ratio="1.6">
+                    <div class="overlay"></div>
+                    <div class="p1_cl_001 position-relative">
+                        <h1 class="title_cl"><span>Come along with us on the route of success. Together!</span></h1>
+                    </div>
+                </section>
+                <section>
+                    <div class="workpage-home-work">
+                        <div class="container">
+                            <span>
+                                <a class="text-decoration-none" href="/"> Home </a>
+                            </span>
+                            <i class="fa fa-chevron-right" aria-hidden="true" />
+                            <span> Engagement Models </span>
+                        </div>
+                    </div>
+                </section>
+                <div class="container oe_structure">
+                    <div class="title_cla pb16">
+                        <span>Engagement Models</span>
+                        <p class="text-center">Engagement is a step towards collaborative success. The goal of Engagement models is to best align an execution strategy based on corresponding technology and client's business needs. We offer flexible engagement models those are designed to fulfill varied requirements and establish lifelong relationships with customers. These are the proven models industry wide to provide operational efficiency and quality at reduced cost.</p>
+                    </div>
+                </div>
+                <div class="container oe_structure">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="eng_1001">
+                                        <img src="/website_kanak/static/src/img/engagement/ENGAGEMENT-Models-icon1.svg" />
+                                        <h4>Client</h4>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="eng_1002">
+                                        <h4>Requirements</h4>
+                                        <img src="/website_kanak/static/src/img/engagement/ENGAGEMENT-Models-icon2.svg" />
+                                        <h4>Delivery</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-xs-12 mb32 custom_enge_mar">
+                            <div class="eng_1003" style="position:relative;">
+                                <img class="eng_img_001" src="/website_kanak/static/src/img/engagement/ENGAGEMENT-Models-icon3.svg" />
+                                <img class="eng_img_002" src="/website_kanak/static/src/img/engagement/ENGAGEMENT-Models-icon5.svg" />
+                                <img class="eng_img_003" src="/website_kanak/static/src/img/engagement/ENGAGEMENT-Models-icon4.svg" />
+                            </div>
+                            <div class="eng_1004">
+                                <h4 class="eng_h1_001">Offshore Project Manager</h4>
+                                <h4 class="eng_h1_002">Offshore Team</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container oe_structure">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="eng_box_001">
+                                <h2>Hybrid<span>Model</span></h2>
+                            </div>
+                            <div class="eng_box_002">
+                                <p>
+                                    Hybrid model as the name suggests is a "hybrid" approach which provides local project management and offshore development. Clients can have the benefit of local project management and communication by having a project manager in their own country and leverage cost-effective development by having offshore development from India.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-md-6">
+                            <div class="eng_box_003">
+                                <ul>
+                                    <li>Communication in your timezone locally</li>
+                                    <li>Zero Communication Gap</li>
+                                    <li>Cost Effective offshore development</li>
+                                    <li>Flexibility to scale team as needed</li>
+                                    <li>Greater Operational Benefits</li>
+                                    <li>Increased Quality Control</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <div class="bgeng-light mt-16"><br />
+                    <div class="container oe_structure">
+                        <div class="row">
+                            <div class="col-lg-8 col-md-6">
+                                <div class="eng_box_003">
+                                    <ul>
+                                        <li>Flexibility to scale up or down team as per business needs</li>
+                                        <li>Work can be done on single or multiple projects</li>
+                                        <li>Complete control over costing</li>
+                                        <li>Detailed transparency and control over project progress</li>
+                                        <li>Accommodate changing requirements easily</li>
+                                        <li>Stay up to date with the progress of the project and deliverables</li>
+                                        <li>Agile Implementation with well-defined Sprints</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="eng_box_001">
+                                    <h2>Time &amp;<span>Material Model</span></h2>
+                                </div>
+                                <div class="eng_box_002">
+                                    <p>
+                                        Time and Material model is basically when you hire skilled experts - Designers, Developers, or Quality Analysts on hourly, monthly, or long-term contracts. It's a very cost-effective and agile model mostly suited for midsize and enterprise projects.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><br />
+                <div class="bgeng-light_wt mt-16">
+                    <div class="container oe_structure">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6">
+                                <div class="eng_box_001">
+                                    <h2>Fixed Cost<span>Model</span></h2>
+                                </div>
+                                <div class="eng_box_002">
+                                    <p>
+                                        Fixed cost model is when project requirements and specifications are well defined based on which a fixed time and cost estimation is provided. Once the project starts, an entire team of Project Manager, Designers, Front-End Developers, Sr. Developers, Database Experts, Quality Assurance Engineers are assigned for the project execution. This model is well suited for small-size projects.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-8 col-md-6">
+                                <div class="eng_box_003">
+                                    <ul>
+                                        <li>Benefits of fixed time and cost estimation</li>
+                                        <li>Suited when project scope is well defined</li>
+                                        <li>Milestone wise payment structure</li>
+                                        <li>Measurable provision to alter the scope and add changes</li>
+                                        <li>Turnkey solution as per your Vision</li>
+                                        <li>Recommended for small-size projects</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div><br />
+                </div>
+                <br />
+                <div class="bgeng-light mt-16"><br />
+                    <div class="container oe_structure">
+                        <div class="row">
+                            <div class="col-lg-8 col-md-6">
+                                <div class="eng_box_003">
+                                    <ul>
+                                        <li>Highest cost advantages and ROI of the investment</li>
+                                        <li>Great collaboration of two efficient teams</li>
+                                        <li>Expansion of technical vertices to find best solutions</li>
+                                        <li>Added infrastructure for better quality assurance</li>
+                                        <li>Shared responsibility to minimize risk</li>
+                                        <li>Complete transparency and security</li>
+                                        <li>Most suited for enterprise projects</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="eng_box_001">
+                                    <h2>Offshore<span>Development Center</span></h2>
+                                </div>
+                                <div class="eng_box_002">
+                                    <p>
+                                        Offshore Development Centers (ODCs) are comprised of highly skilled Technical experts from KANAK in collaboration with your team. Our in-house team functions as an extended part of your own team. We assist companies in setting up and operating their teams in India and provide a turnkey solution for the same.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><br />
+            </div>
+        </t>
+    </template>
+</odoo>

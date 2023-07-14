@@ -1,0 +1,159 @@
+.kanak_netsuit_licensing {
+
+    .netsuite-license-bg {
+        background-image: url(/website_kanak/static/src/img/netsuite_licensing/Bg_banner.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .workpage-home-work {
+        .fa-chevron-right {
+            font-size: 12px;
+        }
+        background-color: $background-color_18;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        opacity: .5;
+    }
+
+    .heading-netsuite-license {
+        font-weight: 900;
+        color: $color_2;
+        font-size: 36px;
+    }
+
+    .img-responsive {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .card-text {
+        font-size: 15px;
+        font-size: 17px;
+    }
+
+    .card-title {
+        font-size: 17px;
+        color: $color_11;
+        text-align: left;
+        font-weight: bold;
+    }
+
+    .card {
+        height: auto !important;
+        width: auto !important;
+    }
+
+    .card-img-top {
+        height: auto;
+    }
+
+    .para-2 {
+        font-size: 17px;
+        text-align: left;
+    }
+
+    .para-3 {
+        border-left: 4px solid $color_2;
+        font-weight: normal;
+        font-size: 32px;
+    }
+
+    .main-content-wrap {
+        border-radius: 10px;
+        box-shadow: 3px 3px 20px -3px $color_9;
+        overflow: hidden;
+        margin: 0 0 25px;
+        width: 100%;
+    }
+
+    #conclusion {
+        background-color: #f33c53;
+        -webkit-box-shadow: 3px 3px 5px 0px;
+        box-shadow: 3px 3px 10px 0px;
+
+        * {
+            color: white !important;
+        }
+    }
+
+    #license_cost {
+        padding-bottom: 40pt;
+
+        ul {
+            li {
+                list-style-type: none;
+                background-image: url(/website_kanak/static/src/img/netsuite_licensing/point_icon.svg);
+                background-repeat: no-repeat;
+                margin-left: -40px;
+                padding-left: 40px;
+                background-position: left 12%;
+                background-size: 12px;
+            }
+        }
+    }
+
+    #licensing_edition {
+        margin: 20pt auto;
+
+        &>div {
+            padding: 20pt;
+
+            .bg-white {
+                border-radius: 16px 16px 0 0;
+                -webkit-box-shadow: 3px 3px 5px 0px;
+                box-shadow: 3px 3px 10px 0px;
+            }
+        }
+
+        div {
+            div {
+                div {
+                    &:last-child {
+                        height: 320px;
+                    }
+                }
+            }
+        }
+    }
+
+    #named_user {
+        margin: 20pt 0;
+        div {
+            background-color: white;
+            margin: auto;
+            padding: 30pt;
+            border-radius: 5px;
+            -webkit-box-shadow: 3px 3px 5px 0px;
+            box-shadow: 3px 3px 10px 0px;
+        }
+    }
+
+
+
+    @media (max-width: 425px) {
+        #licensing_edition {
+            div {
+                div {
+                    div {
+                        &:last-child {
+                            height: auto;
+                        }
+                    }
+                }
+            }
+        }
+
+        #named_user {
+        div {
+            padding: 12pt !important;
+        }
+    }
+    }
+
+}

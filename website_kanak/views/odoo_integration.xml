@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="busineess_odoo_openerp_int" name="Odoo Integration">
+        <t t-set="additional_title">Odoo ERP Integration | ERP Integration with Magento | Odoo
+            Integration </t>
+        <t t-set="website_meta_description">Kanak InfoSystems is well qualified in integrating Odoo
+            ERP with Magento or any other application. Low cost Odoo intgration services offered by
+            us. </t>
+        <t t-set="website_meta_keywords">kanak infosystems llp, odoo integration, odoo integration
+            with magento, odoo magento integration, magento erp integration, erp integration with
+            magento </t>
+        <t t-call="website.layout">
+            <t t-set="pageName" t-value="'OdooIntegration kanak_odoo_integration'" />
+            <div id="wrap">
+                <section id="main-odoo-integr-banner" class="pt32 pb32">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <p class="integr-banner-head">Odoo <br /><span class="red">
+                                        Integration</span></p>
+                            </div>
+                            <div class="col-lg-6 d-none d-lg-block">
+                                <img src="/website_kanak/static/src/img/odoo_integration/Integration-graphic.webp" class="img-fluid mx-auto" />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="workpage-home-work">
+                        <div class="container">
+                            <span>
+                                <a class="text-decoration-none" href="/"> Home </a>
+                            </span>
+                            <i class="fa fa-chevron-right" aria-hidden="true" />
+                            <span> Odoo Integration </span>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="container">
+                        <div class="row for-spacing-all">
+                            <div class="col-md-12 contain-integration">
+                                <h1 class="tag-line-integration"> Odoo Integration Made Easy </h1>
+                                <p class="tag-line-integration2"> Our <a href="https://kanakinfosystems.com/blog/how-ecommerce-grow-with-odoo-integration">Odoo
+                                        ERP Integration</a> services made your business modernize,
+                                    consolidate, and coordinate operations in your enterprise. </p>
+                                <p class="text-justify"> We need to understand the need of
+                                    ERP integration. An <a href="https://kanakinfosystems.com/blog/what-is-erp">ERP
+                                        System</a> has primary purpose the primary purpose of an ERP
+                                    system is to automate the business workflow and make the process
+                                    easy and less time consuming to increase business efficiency and
+                                    provide better visibility. And one more primary need of
+                                    companies to integrate ERP system is they want to meet growing
+                                    business needs. </p>
+                                <h2 class="tag-line-integration4 text-justify"> “ Kanak Info System's Service to
+                                    Integrate <a href="https://kanakinfosystems.com/odoo-development-services">Odoo
+                                        ERP</a> with Other Applications: <span class="tag-line-integration5"> Our approach to integrate
+                                        Odoo ERP ensures that your entire business applications
+                                        integrated and developed within the context of the business
+                                        rather than in isolation! Our aim is to fulfil the business
+                                        requirements within the level of the enterprise.” </span>
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="main-ab-all-themes">
+                    <div id="parallex-home-odoo-inte2" class="parallex-inte-1">
+                        <div class="overlay-ab">
+                            <div class="container">
+                                <div class="row for-spacing-all">
+                                    <div class="col-sm-12 pt16 pb16">
+                                        <h2 class="tag-line-integration6"> E-Commerce Integration
+                                            with Odoo </h2>
+                                        <p class="tag-line-integration7 text-white"> Our Odoo ERP Integration
+                                            with <a href="https://en.wikipedia.org/wiki/Magento">
+                                                Magento</a>
+                                        </p>
+                                        <p class="tag-line-integration8 text-white text-justify"> Today whatever retail or
+                                            manufacturing business looking for unified solution for
+                                            their ecommerce business to manage their business
+                                            offline process and E-Store. Here we have the ability of
+                                            an E-Commerce ERP integration solution. </p>
+                                        <p class="tag-line-integration9 text-white text-justify"> Odoo Integration with
+                                            Magento has produced excellent results when implemented
+                                            for retailers or manufacturers, it gives the flexibility
+                                            provides to tune the system for a customized workflow. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="container">
+                        <div class="row for-spacing-all">
+                            <h3 class="tag-line-integration10" style="color: #003362;font-size: 19px;"> Some of the main features
+                                to choose Odoo for your E-Shop </h3>
+                            <div class="col-sm-6 inti-last-portion1">
+                                <p class="all-p-in all-p-in1">Synchronization Data like Customers
+                                    details, products, stocks, sales, orders, etc </p>
+                                <p class="all-p-in all-p-in2">It Automates all workflow like
+                                    logistics and financial workflows related to order processing </p>
+                                <p class="all-p-in all-p-in3">Easy to manage Import and Export of
+                                    product and product categories </p>
+                                <p class="all-p-in all-p-in4">Easy to import carrier and tracking
+                                    references of order to Magento </p>
+                                <p class="all-p-in all-p-in5">Easy to manage import and export of
+                                    multiple images of products between Magento and Odoo </p>
+                            </div>
+                            <div class="col-sm-6 inti-last-portion2">
+                                <p class="all-p-in all-p-in6">Real time tracking of import status of
+                                    shipping and invoice address </p>
+                                <p class="all-p-in all-p-in7">Real time tracking of order status
+                                    update/export to Magento </p>
+                                <p class="all-p-in all-p-in8">Real time tracking of all sale orders
+                                    imported from Magento </p>
+                                <p class="all-p-in all-p-in9">Real time tracking of inventory sync </p>
+                                <p class="all-p-in all-p-in10">Also, manual import/export facility
+                                    available </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <br />
+                <div class="text-center pb16">
+                    <a target="_blank" href="/hire-odoo-developer" class="btn btn-primary"> Hire Odoo Developer </a>
+                </div>
+            </div>
+        </t>
+    </template>
+</odoo>

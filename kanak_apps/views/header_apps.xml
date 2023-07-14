@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="layout" inherit_id="website.layout" priority="200">
+        <xpath expr="//header" position="attributes">
+                <attribute name="t-attf-class" add="#{'loempia_sub_nav' if is_apps_header else ''}" separator=" "/>
+        </xpath>
+        <xpath expr="//header" position="inside">
+            <div id="loempia_navbar" t-if="is_apps_header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-4 col-lg-3 col-xl-2 loempia_navbar_btn">
+                            <a href="/apps/modules" t-attf-class="loempia_btn loempia_btn_modules #{'active' if mtype == 'modules' else ''}">
+                                <i class="fa fa-cube"></i> APPS
+                            </a>
+                            <a href="/apps/themes" t-attf-class="loempia_btn #{'active' if mtype == 'themes' else ''}">
+                                <i class="fa fa-paint-brush"></i> THEMES
+                            </a>
+                        </div>
+                        <div class="clearfix d-block d-md-none"></div>
+                        <div class="col-md-6 col-lg-6 order-md-1 order-lg-1 offset-xl-1">
+                            <form method="get" class="navbar-search form-inline input-group" t-att-action="vkeep('/apps/%s/browse' %(mtype))">
+                                <input type="text" name="search" class="search-query form-control" placeholder="Your search..." t-att-value="search or ''"/>
+                                <span class="input-group-append">
+                                    <button type="submit" class="btn btn-link"><i class="fa fa-search"></i></button>
+                                </span>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav id="loempia_sub_menu" class="mb0 navbar navbar-light bg-white  navbar-expand-lg" t-if="is_apps_header">
+                <div class="container">
+                    <ul class="nav align-items-center pl-3 pl-lg-0">
+                        <li class="nav-item dropdown loempia_category_dropdown">
+                            <a href="#" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">
+                                <span class="d-inline-block d-md-none">
+                                    <t t-if="category">
+                                        <t t-esc="category"/>
+                                    </t>
+                                    <t t-else="">
+                                        Categories
+                                    </t>
+                                </span>
+                                <span class="d-none d-md-inline">
+                                    <t t-if="category">
+                                        <t t-esc="category"/>
+                                    </t>
+                                    <t t-else="">
+                                        Categories
+                                    </t>
+                                </span>
+                            </a>
+                            <div class="dropdown-menu">
+                                <a href="/apps/modules/browse" class="dropdown-item active">All</a>
+                                <t t-foreach="categories" t-as="appcategory">
+                                    <a t-att-href="vkeep('/apps/%s/category/%s/browse' %(mtype, appcategory.name))" class="dropdown-item">
+                                        <t t-esc="appcategory.name"/>
+                                    </a>
+                                </t>
+                            </div>
+                        </li>
+                        <li class="nav-item divider"></li>
+                        <li class="nav-item loempia_top_charts_btn d-md-inline-block">
+                            <a class="nav-link" t-att-href="vkeep('%s' %(is_top_chart_url))" t-if="is_browser_record">
+                                <i class="fa fa-star"></i> Top charts
+                            </a>
+                            <a class="nav-link" t-att-href="vkeep('%s' %(is_top_chart_url))" t-if="not is_browser_record">
+                                <i class="fa fa-th"></i> Thumbnail view
+                            </a>
+                        </li>
+                        <li class="nav-item divider d-none d-lg-block"></li>
+                    </ul>
+                    <button class="navbar-toggler btn btn-sm ml-auto mr-3 mr-lg-0 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-expanded="false"> <span class="navbar-toggler-icon"></span></button>
+                    <div class="navbar-collapse collapse" id="navbarNavDropdown" aria-expanded="false" style="">
+                        <ul class="navbar-nav loempia_price_nav flex-row">
+                            <li class="d-inline-block d-lg-none"><label>Price: </label></li>
+                            <li class="nav-item condensed d-inline-block">
+                                <a t-att-href="vkeep(price='')" class="nav-link active">All</a>
+                            </li>
+                            <li class="nav-item condensed d-inline-block">
+                                <a t-att-href="vkeep(price='Free')" class="nav-link">Free</a>
+                            </li>
+                            <li class="nav-item condensed d-inline-block">
+                                <a t-att-href="vkeep(price='Paid')" class="nav-link">Paid</a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav loempia_version_nav align-items-lg-center">
+                            <li class="nav-item divider d-none d-lg-block"></li>
+                            <li class="nav-item dropdown loempia_version_dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                    <t t-if="series">
+                                        v <t t-esc="series"/>
+                                    </t>
+                                    <t t-else="">
+                                        All versions
+                                    </t>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-left" role="menu">
+                                    <a t-att-href="vkeep(series='')" class="dropdown-item active">All versions</a>
+                                    <a t-att-href="vkeep(series='16.0')" class="dropdown-item">
+                                        16.0
+                                    </a>
+                                    <a t-att-href="vkeep(series='15.0')" class="dropdown-item">
+                                        15.0
+                                    </a>
+                                    <a t-att-href="vkeep(series='14.0')" class="dropdown-item">
+                                        14.0
+                                    </a>
+                                    <a t-att-href="vkeep(series='13.0')" class="dropdown-item">
+                                        13.0
+                                    </a>
+                                    <a t-att-href="vkeep(series='12.0')" class="dropdown-item">
+                                        12.0
+                                    </a>
+                                    <a t-att-href="vkeep(series='11.0')" class="dropdown-item">
+                                        11.0
+                                    </a>
+                                    <a t-att-href="vkeep(series='10.0')" class="dropdown-item">
+                                        10.0
+                                    </a>
+                                    <a t-att-href="vkeep(series='9.0')" class="dropdown-item">
+                                        9.0
+                                    </a>
+                                    <a t-att-href="vkeep(series='8.0')" class="dropdown-item">
+                                        8.0
+                                    </a>
+                                    <a t-att-href="vkeep(series='7.0')" class="dropdown-item">
+                                        7.0
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav navbar-right">
+                            
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </xpath>
+    </template>
+</odoo>

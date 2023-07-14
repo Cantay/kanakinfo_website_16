@@ -1,0 +1,927 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="kanak_homepage" inherit_id="website.homepage" name="Home">
+        <xpath expr="//div[@id='wrap']" position="replace">
+            <t t-set="pageName" t-value="'homepage kanak_main_homepage'" />
+            <div id="wrap" class="oe_structure oe_empty">
+                <section class="s_carousel_wrapper" data-vxml="001">
+                    <t t-set="uniq" t-value="datetime.datetime.now().microsecond" />
+                    <div t-attf-id="myCarousel{{uniq}}" class="s_carousel s_carousel_default carousel slide carousel-fade" data-bs-interval="10000">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li t-attf-data-bs-target="#myCarousel{{uniq}}" data-bs-slide-to="0" class="active" />
+                            <li t-attf-data-bs-target="#myCarousel{{uniq}}" data-bs-slide-to="1" />
+                            <li t-attf-data-bs-target="#myCarousel{{uniq}}" data-bs-slide-to="2" />
+                        </ol>
+                        <!-- Content -->
+                        <!-- TODO in master: remove the `content` classes in the div with
+                the class `row`, to avoid having unwanted dropzones when
+                dragging inner content. -->
+                        <div class="carousel-inner">
+                            <!-- #01 -->
+                            <div class="carousel-item active oe_img_bg o_bg_img_center pt152 pb152" style="background-image: url('/website_kanak/static/src/img/home/home-banner1.webp');" data-name="Slide">
+                                <div class="container oe_unremovable">
+                                    <div class="row content">
+                                        <div class="carousel-content col-lg-6">
+                                            <h2 class="text-white">
+                                                <font style="font-size: 62px;">ERP Solutions</font>
+                                            </h2>
+                                            <p class="text-white lead">Get a perfect solutions to manage your workflow on a single platform.</p>
+                                            <p>
+                                                <a href="/contactus" class="btn btn-primary mb-2">Contact us</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- #02 -->
+                            <div class="carousel-item oe_img_bg o_bg_img_center pt96 pb96" style="background-image: url('/website_kanak/static/src/img/home/home-banner2.webp');" data-name="Slide">
+                                <div class="container oe_unremovable">
+                                    <div class="row content">
+                                        <div class="carousel-content col-lg-6 ">
+                                            <h2 style="font-size: 32px;" class="text-white">Stay Ahead By Making Better Decisions Using NetSuite Financials</h2>
+                                            <p class="lead text-white">Transform your bussiness with world class cloud solutions using Oracle Netsuite.</p>
+                                            <p><a href="/contactus" class="btn btn-primary mb-2">Start your journey</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- #03 -->
+                            <div class="carousel-item oe_img_bg o_bg_img_center pt128 pb128" style="background-image: url('/website_kanak/static/src/img/home/home-banner3.webp');" data-name="Slide">
+                                <div class="container oe_unremovable">
+                                    <div class="row content">
+                                        <div class="carousel-content col-lg-7 offset-lg-5">
+                                            <h2 class="text-white">
+                                                <font style="font-size: 42px; ">Odoo Development Services</font>
+                                            </h2>
+                                            <p class="lead text-white">Get a tailor made app developed for yourself to meet all bussiness requirements.</p>
+                                            <p><a href="/contactus" class="btn btn-primary mb-2">Contact us</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Controls -->
+                        <a class="carousel-control-prev o_not_editable" contenteditable="false" t-attf-href="#myCarousel{{uniq}}" data-bs-slide="prev" role="img" aria-label="Previous" title="Previous">
+                            <span class="carousel-control-prev-icon" />
+                            <span class="visually-hidden">Previous</span>
+                        </a>
+                        <a class="carousel-control-next o_not_editable" contenteditable="false" t-attf-href="#myCarousel{{uniq}}" data-bs-slide="next" role="img" aria-label="Next" title="Next">
+                            <span class="carousel-control-next-icon" />
+                            <span class="visually-hidden">Next</span>
+                        </a>
+                    </div>
+                </section>
+                <section id="kanak_sec_103">
+                    <div class="container">
+                        <div class="row">
+                            <p class="text-uppercase head-103 mt16">Be Ahead of your Competitors with <span class="red">Kanak Infosystems LLP.</span></p>
+                            <p class="text-justify">We are a group of hardworking and skilled people. <a href="/"><span>Kanak Infosystems LLP.</span></a> is one of the leading software and IT companies in India. We provide top-notch services such as <span><a href="/odoo-development-services">Odoo Development</a>, <a href="https://kanakinfosystems.com/netsuite-services">NetSuite</a>, <a href="/erpnext-services">ERPNext</a>, <a href="/erp-solutions">ERP Solutions</a>, <a href="/php-development-services">PHP</a> &amp; <a href="/javascript-development-services">Java Script </a>Development, <a href="/android-apps-development-services">Android</a> &amp; <a href="/ios-apps-development-services">IOS</a> Apps, <a href="/website-designing-services">Web Designing</a></span>, and <span><a href="/seo-services">SEO</a> &amp; <a href="/smo-services">SMO</a> Services</span>. Customer satisfaction is our top priority which makes us a reliable IT solutions company in India.</p>
+                            <div class="text-center mb16">
+                                <a href="/contact-us" class="btn btn-primary rounded-5 mx-auto">Book a Consultation Call</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="exp_solution_services">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 col-md-8">
+                                <p class="text-white solution-head">Our Services <span style="display:inline-block"><img src="/website_kanak/static/src/img/home/arrow.webp" alt="arrow.webp" /></span></p>
+                                <h1 class="text-white text-left">Our streamlined solution can manage your business.</h1>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="exp_solution pt16">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 col-md-8 row">
+                                <div class="col-lg-6 col-md-6 col-sm-6 mb16 position-relative">
+                                    <div class="main_block">
+                                        <div class="icon_main">
+                                            <div>
+                                                <img src="/website_kanak/static/src/img/home/Odoo.webp" alt="Odoo.webp" />
+                                            </div>
+                                        </div>
+                                        <div class="block_content">
+                                            <p class="block-head">Odoo</p>
+                                            <div class="main_content">
+                                                <p>Odoo is an open-source business app. We help you to achieve your goals with our best Odoo development services.</p>
+                                            </div>
+                                            <p class="">
+                                                <a target="_blank" href="/odoo-development-services">Read More...</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 mb16 position-relative">
+                                    <div class="main_block">
+                                        <div class="icon_main">
+                                            <div>
+                                                <img src="/website_kanak/static/src/img/home/NetSuite.webp" alt="NetSuite.webp" />
+                                            </div>
+                                        </div>
+                                        <div class="block_content">
+                                            <p class="block-head">NetSuite</p>
+                                            <div class="main_content">
+                                                <p>Netsuite is a cloud-based ERP business software suite enabling companies to streamline their business process.</p>
+                                            </div>
+                                            <p class="">
+                                                <a target="_blank" href="https://kanakinfosystems.com/netsuite-services">Read More...</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 mb16 position-relative">
+                                    <div class="main_block">
+                                        <div class="icon_main">
+                                            <div>
+                                                <img src="/website_kanak/static/src/img/home/ERPNext.webp" alt="ERPNext.webp" />
+                                            </div>
+                                        </div>
+                                        <div class="block_content">
+                                            <p class="block-head">ERPNext</p>
+                                            <div class="main_content">
+                                                <p>ERPNext is another opensource enterprise application that can be used to manage a small to medium sized business.</p>
+                                            </div>
+                                            <p class="">
+                                                <a target="_blank" href="/erpnext-services">Read More...</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 mb16 position-relative">
+                                    <div class="main_block">
+                                        <div class="icon_main">
+                                            <div>
+                                                <img src="/website_kanak/static/src/img/home/Mobile-App.webp" alt="Mobile-App.webp" />
+                                            </div>
+                                        </div>
+                                        <div class="block_content">
+                                            <p class="block-head">Mobile App</p>
+                                            <div class="main_content">
+                                                <p>Gone are the days when people used to spend long hours on websites. An Android or IOS app can make your business bloom. We at Kanak Infosystems will make sure you have an elegant app which goes hand in hand with your website.</p>
+                                            </div>
+                                            <p class="">
+                                                <a target="_blank" href="/android-apps-development-services">Read More...</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 mb16 position-relative">
+                                    <div class="main_block">
+                                        <div class="icon_main">
+                                            <div>
+                                                <img src="/website_kanak/static/src/img/home/Digital-Marketing.webp" alt="Digital-Marketing.webp" />
+                                            </div>
+                                        </div>
+                                        <div class="block_content">
+                                            <p class="block-head">Digital Marketing</p>
+                                            <div class="main_content">
+                                                <p>Digital marketing is one of the most essential things for a successful online business.</p>
+                                            </div>
+                                            <p class="">
+                                                <a target="_blank" href="/seo-services">Read More...</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 mb16 position-relative">
+                                    <div class="main_block">
+                                        <div class="icon_main">
+                                            <div>
+                                                <img src="/website_kanak/static/src/img/home/Web-Development.webp" alt="Web-Development.webp" />
+                                            </div>
+                                        </div>
+                                        <div class="block_content">
+                                            <p class="block-head">Web Development</p>
+                                            <div class="main_content">
+                                                <p>A website is the direct representation of your business. Thus, choosing the best domain according to your business is must.</p>
+                                            </div>
+                                            <p class="">
+                                                <a target="_blank" href="/php-development-services">Read More...</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 " style="margin-top:-15%">
+                                <img src="/website_kanak/static/src/img/home/Image.webp" alt="Image.webp" class="img-fluid" />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="exp_solution exp_mob">
+                    <div class="container mt16 mb16">
+                        <div class="owl-carousel owl-theme">
+                            <div class="item mb16">
+                                <div class="main_block">
+                                    <div class="icon_main">
+                                        <div>
+                                            <img src="/website_kanak/static/src/img/home/Odoo.webp" alt="Odoo.webp" />
+                                        </div>
+                                    </div>
+                                    <div class="block_content">
+                                        <p class="block-head">Odoo</p>
+                                        <div class="main_content">
+                                            <p>Odoo is an open-source business app. We help you to achieve your goals with our best Odoo development services.</p>
+                                        </div>
+                                        <p class="">
+                                            <a target="_blank" href="/odoo-development-services">Read More...</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item mb16">
+                                <div class="main_block">
+                                    <div class="icon_main">
+                                        <div>
+                                            <img src="/website_kanak/static/src/img/home/NetSuite.webp" alt="NetSuite.webp" />
+                                        </div>
+                                    </div>
+                                    <div class="block_content">
+                                        <p class="block-head">NetSuite</p>
+                                        <div class="main_content">
+                                            <p>Netsuite is a cloud-based ERP business software suite enabling companies to streamline their business process.</p>
+                                        </div>
+                                        <p class="">
+                                            <a target="_blank" href="https://kanakinfosystems.com/netsuite-services">Read More...</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item mb16">
+                                <div class="main_block">
+                                    <div class="icon_main">
+                                        <div>
+                                            <img src="/website_kanak/static/src/img/home/ERPNext.webp" alt="ERPNext.webp" />
+                                        </div>
+                                    </div>
+                                    <div class="block_content">
+                                        <p class="block-head">ERPNext</p>
+                                        <div class="main_content">
+                                            <p>ERPNext is another opensource enterprise application that can be used to manage a small to medium sized business.</p>
+                                        </div>
+                                        <p class="">
+                                            <a target="_blank" href="/erpnext-services">Read More...</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item mb16">
+                                <div class="main_block">
+                                    <div class="icon_main">
+                                        <div>
+                                            <img src="/website_kanak/static/src/img/home/Mobile-App.webp" alt="Mobile-App.webp" />
+                                        </div>
+                                    </div>
+                                    <div class="block_content">
+                                        <p class="block-head">Mobile App</p>
+                                        <div class="main_content">
+                                            <p>Gone are the days when people used to spend long hours on websites. An Android or IOS app can make your business bloom. We at Kanak Infosystems will make sure you have an elegant app which goes hand in hand with your website.</p>
+                                        </div>
+                                        <p class="">
+                                            <a target="_blank" href="/android-apps-development-services">Read More...</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item mb16">
+                                <div class="main_block">
+                                    <div class="icon_main">
+                                        <div>
+                                            <img src="/website_kanak/static/src/img/home/Digital-Marketing.webp" alt="Digital-Marketing.webp" />
+                                        </div>
+                                    </div>
+                                    <div class="block_content">
+                                        <p class="block-head">Digital Marketing</p>
+                                        <div class="main_content">
+                                            <p>Digital marketing is one of the most essential things for a successful online business.</p>
+                                        </div>
+                                        <p class="">
+                                            <a target="_blank" href="/seo-services">Read More...</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item mb16">
+                                <div class="main_block">
+                                    <div class="icon_main">
+                                        <div>
+                                            <img src="/website_kanak/static/src/img/home/Web-Development.webp" alt="Web-Development.webp" />
+                                        </div>
+                                    </div>
+                                    <div class="block_content">
+                                        <p class="block-head">Web Development</p>
+                                        <div class="main_content">
+                                            <p>A website is the direct representation of your business. Thus, choosing the best domain according to your business is must.</p>
+                                        </div>
+                                        <p class="">
+                                            <a target="_blank" href="/php-development-services">Read More...</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="we_serve">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 ">
+                                <p class="we-serve-head" style="color:#ff3e50">Industries <span class="text-white">We Serve</span></p>
+                            </div>
+                            <div class="col-lg-8 col-md-8 " style="border-left: 2px solid #ff3e50;">
+                                <p class="text-white">Our industry specifics and process segments can solve your complex business barriers. Thus, the needs of the industries differ.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3 col-sm-12">
+                                <div class="col-lg-12 col-md-12 col-sm-6">
+                                    <div class="serve_content">
+                                        <img src="/website_kanak/static/src/img/home/Agriculture.webp" alt="Agriculture.webp" class="img-fluid" />
+                                        <p class="text-center">Agriculture</p>
+                                        <div class="img_overlay img_overlay1">
+                                            <img src="/website_kanak/static/src/img/home/white-Agriculture.webp" alt="white-Agriculture.webp" class="img-responsive center-block img_hover" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-6">
+                                    <div class="serve_content">
+                                        <img src="/website_kanak/static/src/img/home/Professional-Services.webp" alt="Professional-Services.webp" class="img-fluid" />
+                                        <p class="text-center">Professional Services</p>
+                                        <div class="img_overlay img_overlay1">
+                                            <img src="/website_kanak/static/src/img/home/white-Profession-service.webp" alt="white-Profession-service.web" class="img-responsive center-block img_hover" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-9 col-md-9 col-sm-12">
+                                <div class="row">
+                                    <div class="col-lg-5 col-md-5 col-sm-5">
+                                        <div class="serve_content">
+                                            <img src="/website_kanak/static/src/img/home/Ecommerce.webp" alt="" class="img-fluid" />
+                                            <p class="text-center">E-commerce</p>
+                                            <div class="img_overlay img_overlay2">
+                                                <img src="/website_kanak/static/src/img/home/white-E-commerce.webp" alt="" class="img-responsive center-block img_hover" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-7 col-md-7 col-sm-7">
+                                        <div class="serve_content">
+                                            <img src="/website_kanak/static/src/img/home/School-and-University.webp" alt="" class="img-fluid" />
+                                            <p class="text-center">School &amp; University</p>
+                                            <div class="img_overlay img_overlay3">
+                                                <img src="/website_kanak/static/src/img/home/white-School-And-University.webp" alt="" class="img-responsive center-block img_hover" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-7 col-md-7 col-sm-7">
+                                        <div class="serve_content">
+                                            <img src="/website_kanak/static/src/img/home/Hotel-and-Restaurant.webp" alt="" class="img-fluid" />
+                                            <p class="text-center">Hotel &amp; Restaurant</p>
+                                            <div class="img_overlay img_overlay3">
+                                                <img src="/website_kanak/static/src/img/home/white-Hotel.webp" alt="" class="img-responsive center-block img_hover" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-5 col-md-5 col-sm-5">
+                                        <div class="serve_content">
+                                            <img src="/website_kanak/static/src/img/home/Manufacturing-and-Distribution.webp" alt="" class="img-fluid" />
+                                            <p class="text-center">Manufacturing &amp; Distribution</p>
+                                            <div class="img_overlay img_overlay2">
+                                                <img src="/website_kanak/static/src/img/home/white-Manufacturing.webp" alt="" class="img-responsive center-block img_hover" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-5 col-md-5 col-sm-5">
+                                        <div class="serve_content">
+                                            <img src="/website_kanak/static/src/img/home/Retail.webp" alt="" class="img-fluid" />
+                                            <p class="text-center">Retail</p>
+                                            <div class="img_overlay img_overlay2">
+                                                <img src="/website_kanak/static/src/img/home/white-Retail.webp" class="img-responsive center-block img_hover" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-7 col-md-7 col-sm-7">
+                                        <div class="serve_content">
+                                            <img src="/website_kanak/static/src/img/home/Health-care.webp" alt="" class="img-fluid" />
+                                            <p class="text-center">Health Care</p>
+                                            <div class="img_overlay img_overlay3">
+                                                <img src="/website_kanak/static/src/img/home/white-Health-care.webp" alt="" class="img-responsive center-block img_hover" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="industries_we_serve">
+                    <div class="">
+                        <p class="text-center text-white industries-title-head">Industries We Serve</p>
+                        <div class="owl-carousel owl-theme">
+                            <div class="item">
+                                <div class="we-serve-item">
+                                    <img src="/website_kanak/static/src/img/home/slide-school_university.webp" alt="" class="img-fluid mx-auto" />
+                                    <div style="height:30pt">
+                                        <p class="text-center">School &amp; University</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="we-serve-item">
+                                    <img src="/website_kanak/static/src/img/home/slide-Agricultre.webp" alt="" class="img-fluid mx-auto" />
+                                    <div style="height:30pt">
+                                        <p class="text-center">Agriculture</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="we-serve-item">
+                                    <img src="/website_kanak/static/src/img/home/slide-Retail.webp" alt="" class="img-fluid mx-auto" />
+                                    <div style="height:30pt">
+                                        <p class="text-center">Retail</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="we-serve-item">
+                                    <img src="/website_kanak/static/src/img/home/slide-Hotel_Restaurant.webp" alt="" class="img-fluid mx-auto" />
+                                    <div style="height:30pt">
+                                        <p class="text-center">Hotel &amp; Restaurant</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="we-serve-item">
+                                    <img src="/website_kanak/static/src/img/home/slide-Manufacturing_Distribution.webp" alt="" class="img-fluid mx-auto" />
+                                    <div style="height:30pt">
+                                        <p class="text-center">Manufacturing &amp; Distribution</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="we-serve-item">
+                                    <img src="/website_kanak/static/src/img/home/slide-Professional_Services.webp" alt="" class="img-fluid mx-auto" />
+                                    <div style="height:30pt">
+                                        <p class="text-center">Professional Services</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="we-serve-item">
+                                    <img src="/website_kanak/static/src/img/home/slide-Health_Care.webp" alt="" class="img-fluid mx-auto" />
+                                    <div style="height:30pt">
+                                        <p class="text-center">Health Care</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+                </section>
+                <section class="motivate_us">
+                    <div class="container">
+                        <p class="mb16 text-center motivate-head">What Motivates us to Move Forward</p>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 mb32 service-desc spoiler main">
+                                <p class="hidden-text text-justify">We believe in client satisfaction, and it is our top priority. Our principles make us work hard and follow a path of progress every day. Today, we are one of the leading software companies in India. But we did not start from where we are today, we started from the basics and kept on improving every day. It is the continuous <a href="https://kanakinfosystems.com/testimonial">feedback of our clients</a> that encourages us to be better than we were yesterday.<br /><br />We are a <a href="https://kanakinfosystems.com/our-team">team of professionals</a> who believe in moving ahead of the pace of others. Keeping yesterday in mind, we plan our tomorrow and work accordingly in the present. Setting goals and following them is what we do. When our efforts bring success to our clients, it motivates us to do even a more efficient job in future.</p>
+                                <div class="clearfix" />
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 main_detail">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-6 mb16 position-relative">
+                                        <div class="main_motivate_block Our_Transparency">
+                                            <div class="icon_main_motivate">
+                                                <div></div>
+                                            </div>
+                                            <div class="block_content_motivate ">
+                                                <p class="block-head">Our Transparency</p>
+                                                <!-- <div class="mob_motivate">
+                                                        <p class=" text-justify"> We believe in providing reliable and trustworthy services. That is why we keep our clients updated with the progress that we make every day. We never keep anything hidden from them. Our clients are more than customers to us, and we don't treat them as people who pay us money to do their work.</p>
+                                                    </div> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-6 mb16 position-relative ">
+                                        <div class="main_motivate_block Our_Fairness">
+                                            <div class="icon_main_motivate">
+                                                <div></div>
+                                            </div>
+                                            <div class="block_content_motivate  ">
+                                                <p class="block-head">Our Fairness</p>
+                                                <!-- <div class="mob_motivate">
+                                                        <p class=""> We stay fair to all our clients. All the clients are equal to us, and we give them undivided attention. We never treat a project as small or big, every project is equal to us, and that is exactly how we treat it. All small and big projects are equally important to us. </p>
+                                                    </div> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-6 mb16 position-relative">
+                                        <div class="main_motivate_block Our_Liability">
+                                            <div class="icon_main_motivate">
+                                                <div></div>
+                                            </div>
+                                            <div class="block_content_motivate  ">
+                                                <p class="block-head">Our Liability</p>
+                                                <!-- <div class="mob_motivate">
+                                                        <p class=""> We treat every client's work as our own work and believe that having a trustworthy relationship is the cornerstone of any business. </p>
+                                                    </div> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-6 mb16 position-relative">
+                                        <div class="main_motivate_block Our_Attention">
+                                            <div class="icon_main_motivate">
+                                                <div></div>
+                                            </div>
+                                            <div class="block_content_motivate  ">
+                                                <p class="block-head">Our Attention</p>
+                                                <!-- <div class="mob_motivate">
+                                                        <p class=""> We are known for our top-notch customer satisfactory services as we pay equal attention to our clients and treat them as our family members. </p>
+                                                    </div> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="kanak_11_0_1_002">
+                    <div class="container">
+                        <p class="mt16 mb16 kanak_11_0_1_002-head">our recent <span class="orabg">work</span></p>
+                    </div>
+                    <div class="container owl-carousel owl-theme">
+                        <t t-foreach="website.get_our_recent_work()" t-as="work">
+                            <div class="item">
+                                <div class="item_block">
+                                    <div class="recent_image">
+                                        <img t-attf-src="/website/image/our.recent.work/{{work.id}}/image" class="w-100" />
+                                    </div>
+                                    <div class="recent_title">
+                                        <t t-esc="work.name" />
+                                    </div>
+                                    <div class="recent-detail">
+                                        <p class="recent_desc">
+                                            <t t-esc="work.description" />
+                                        </p>
+                                        <!-- <a t-att-href="work.link" class="btn btn-primary readmore_btn">Read More <i class="fa fa-caret-right" t-if="work.link"></i></a> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </t>
+                    </div>
+                </section>
+                <section id="kanak_11_client_cust" class="mt16 pb48">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 col-6 our-partner">
+                                <p class="mt0 partners-head">Our <span class="red">Partners</span></p>
+                                <p class="text-center mb32">We believe in client satisfaction, and it is our top priority.</p>
+                                <div class="row">
+                                    <div class="col-sm-4 col-xs-12">
+                                        <img src="/website_kanak/static/src/img/home/partners/soludoo-partner.webp" alt="Soludoo" class="img-fluid" />
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12">
+                                        <img src="/website_kanak/static/src/img/home/partners/yellowmetals-partner.webp" alt="Yellowmetals" class="img-fluid" />
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12">
+                                        <img src="/website_kanak/static/src/img/home/partners/warmwinds-partner.webp" alt="Warmwinds" class="img-fluid" />
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12">
+                                        <img src="/website_kanak/static/src/img/home/partners/homecredit-partner.webp" alt="Homecredit" class="img-fluid" />
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12">
+                                        <img src="/website_kanak/static/src/img/home/partners/lioncode-partner.webp" alt="Lioncode partner" class="img-fluid" />
+                                    </div>
+                                    <div class="col-sm-4 col-xs-6 mob_motivate">
+                                        <img src="/website_kanak/static/src/img/home/partners/am8ze-partner.webp" alt="Am8ze partner" class="img-fluid" />
+                                    </div>
+                                    <div class="col-lg-2 col-md-2 col-sm-2 d-xs-none"></div>
+                                    <div class="col-sm-4 col-xs-6 mob_motivate">
+                                        <img src="/website_kanak/static/src/img/home/partners/deenweberari-partner.webp" alt="Deenweberari" class="img-fluid" />
+                                    </div>
+                                    <div class="col-sm-4 col-xs-6 mob_motivate">
+                                        <img src="/website_kanak/static/src/img/home/partners/limitless-partner.webp" alt="Limitless partner" class="img-fluid" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-6 client-says">
+                                <p class="mt0 client-says-head">Clients' <span class="red">Says</span></p>
+                                <img class="talk mx-auto mt16" src="/website_kanak/static/src/img/home/talk-icon.webp" alt="clients say" />
+                                <div id="myCarousel025" class="carousel slide s_banner" data-bs-interval="5000">
+                                    <ol class="carousel-indicators">
+                                        <li data-bs-target="#myCarousel025" data-bs-slide-to="0" class="active" />
+                                        <li data-bs-target="#myCarousel025" data-bs-slide-to="1" />
+                                        <li data-bs-target="#myCarousel025" data-bs-slide-to="2" />
+                                        <li data-bs-target="#myCarousel025" data-bs-slide-to="3" />
+                                        <li data-bs-target="#myCarousel025" data-bs-slide-to="4" />
+                                        <li data-bs-target="#myCarousel025" data-bs-slide-to="5" />
+                                        <li data-bs-target="#myCarousel025" data-bs-slide-to="6" />
+                                        <li data-bs-target="#myCarousel025" data-bs-slide-to="7" />
+                                        <li data-bs-target="#myCarousel025" data-bs-slide-to="8" />
+                                        <li data-bs-target="#myCarousel025" data-bs-slide-to="9" />
+                                    </ol>
+                                    <div class="carousel-inner mt32">
+                                        <div class="carousel-item oe_img_bg active">
+                                            <div class="container">
+                                                <div class="content">
+                                                    <div class="carousel-content">
+                                                        <div class="row">
+                                                            <div class="col-md-3">
+                                                                <div class="text-center">
+                                                                    <div class="client-img">
+                                                                        <img src="/website_kanak/static/src/img/home/clients/deenweberei.webp" alt="" class="img-fluid" />
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-9">
+                                                                <p class="cust-title-head">Ideenweberei</p>
+                                                                <p>One of our clients needed us to migrate their legacy system to the latest version of Odoo. Kanak's team handled it with great management &amp; skill. They are very good in Odoo Services and we love to refer them to the other client.</p>
+                                                                <div class="grey-line-end"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item oe_img_bg">
+                                            <div class="container">
+                                                <div class="content">
+                                                    <div class="carousel-content">
+                                                        <div class="row">
+                                                            <div class="col-md-3">
+                                                                <div class="text-center">
+                                                                    <div class="client-img">
+                                                                        <img src="/website_kanak/static/src/img/home/clients/yellowmetals.webp" alt="" class="img-fluid" />
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-9">
+                                                                <p class="cust-title-head">Yellow Metals</p>
+                                                                <p>We wanted to use Odoo for our ecommerce store. Kanak not only supported us with a good Odoo theme but also recommended the best practices for it.</p>
+                                                                <div class="grey-line-end"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item oe_img_bg">
+                                            <div class="container">
+                                                <div class="content">
+                                                    <div class="carousel-content">
+                                                        <div class="row">
+                                                            <div class="col-md-3">
+                                                                <div class="text-center">
+                                                                    <div class="client-img">
+                                                                        <img src="/website_kanak/static/src/img/home/clients/adnath.webp" alt="" class="img-fluid" />
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-9">
+                                                                <p class="cust-title-head">Adanath Agencies</p>
+                                                                <p>We were facing many issues with the previous Odoo Implementation and all that was built over a period of 3 years was near to obsolete. I sincerely thanks "Kanak Infosystems LLP." for building a new system within 2 months time. I couldn't be happier.</p>
+                                                                <div class="grey-line-end"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item oe_img_bg">
+                                            <div class="container">
+                                                <div class="content">
+                                                    <div class="carousel-content">
+                                                        <div class="row">
+                                                            <div class="col-md-3">
+                                                                <div class="text-center">
+                                                                    <div class="client-img">
+                                                                        <img src="/website_kanak/static/src/img/home/clients/Forever.webp" alt="" class="img-fluid" />
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-9">
+                                                                <p class="cust-title-head">Forever Stoked</p>
+                                                                <p>I've a magento Store and is running very well. I already had the Odoo backend working but was not happy with the Odoo services provided by the other vendor. Kanak took over and things fall in place very well. I love their prompt response and Odoo consultation.</p>
+                                                                <div class="grey-line-end"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item oe_img_bg">
+                                            <div class="container">
+                                                <div class="content">
+                                                    <div class="carousel-content">
+                                                        <div class="row">
+                                                            <div class="col-md-3">
+                                                                <div class="text-center">
+                                                                    <div class="client-img">
+                                                                        <img src="/website_kanak/static/src/img/home/clients/cl11.webp" alt="" class="img-fluid" />
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-9">
+                                                                <p class="cust-title-head">LionCode</p>
+                                                                <p>One of our client required legal reports of Odoo to be exported to excel. The task was not much difficult but a complex logic change required in the reporting made it all the more difficult and many developers failed to achieve it earlier but Kanak's team made it all possible within a stipulated time.</p>
+                                                                <div class="grey-line-end"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item oe_img_bg">
+                                            <div class="container">
+                                                <div class="content">
+                                                    <div class="carousel-content">
+                                                        <div class="row">
+                                                            <div class="col-md-3">
+                                                                <div class="text-center">
+                                                                    <div class="client-img small_img">
+                                                                        <img src="/website_kanak/static/src/img/home/clients/cl12.webp" alt="" class="img-fluid" />
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-9">
+                                                                <p class="cust-title-head">LotsHub</p>
+                                                                <p>Our clientele have increased after getting the IRAS approval for Singapore. All this and more is only possible with Kanak's support.</p>
+                                                                <div class="grey-line-end"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item oe_img_bg">
+                                            <div class="container">
+                                                <div class="content">
+                                                    <div class="carousel-content">
+                                                        <div class="row">
+                                                            <div class="col-md-3">
+                                                                <div class="text-center">
+                                                                    <div class="client-img small_img">
+                                                                        <img src="/website_kanak/static/src/img/home/clients/cl3.webp" alt="" class="img-fluid" />
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-9">
+                                                                <p class="cust-title-head">Warms Winds</p>
+                                                                <p>We have got a nice to team in “Kanak” to work with , to rely on. They understand our business well, have got domain expertise &amp; last but not the least a bunch of technical &amp; functional experts.</p>
+                                                                <div class="grey-line-end"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item oe_img_bg">
+                                            <div class="container">
+                                                <div class="content">
+                                                    <div class="carousel-content">
+                                                        <div class="row">
+                                                            <div class="col-md-3">
+                                                                <div class="text-center">
+                                                                    <div class="client-img">
+                                                                        <img src="/website_kanak/static/src/img/home/clients/home-credit.webp" alt="" class="img-fluid" />
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-9">
+                                                                <p class="cust-title-head">Home Credit</p>
+                                                                <p>We’ve been using the Services of Kanak Infosystems LLP. since the time it was called tinyERP &amp; our accounting relies on Odoo. To handle the data and functions of such a large organization &amp; that too accounting requires some commendable Skills and that is what Kanak is upto.</p>
+                                                                <div class="grey-line-end"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item oe_img_bg">
+                                            <div class="container">
+                                                <div class="content">
+                                                    <div class="carousel-content">
+                                                        <div class="row">
+                                                            <div class="col-md-3">
+                                                                <div class="text-center">
+                                                                    <div class="client-img big_img_logo">
+                                                                        <img src="/website_kanak/static/src/img/home/clients/partner.webp" alt="" class="img-fluid" />
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-9">
+                                                                <p class="cust-title-head">LEEASY Solutions</p>
+                                                                <p>In Kanak Infosytems we found a strong program team, which allows us to realize your wishes and needs best possible. And we always speak your language. There are different specialists in our team so that we can accompany and carry out a complete introduction process, from inventory to the elaboration of the flows up to the introduction and training of your employees.</p>
+                                                                <div class="grey-line-end"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item oe_img_bg">
+                                            <div class="container">
+                                                <div class="content">
+                                                    <div class="carousel-content">
+                                                        <div class="row">
+                                                            <div class="col-md-3">
+                                                                <div class="text-center">
+                                                                    <div class="client-img skylight_logo">
+                                                                        <img src="/website_kanak/static/src/img/home/clients/skylight.webp" alt="" class="img-fluid" />
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-9">
+                                                                <p class="cust-title-head">Sky Light</p>
+                                                                <p>Kanak's team has been a great asset for us for their outstanding support &amp; services related to Odoo.Ashvin came personally to make sure our Staff are well trained &amp; understand the developments made as well as default Odoo ofcourse. They have got the real expertise backed by phenomenal members.</p>
+                                                                <div class="grey-line-end"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-control-prev left hidden" data-bs-target="#myCarousel025" data-bs-slide="prev" style="width: 10%"><i class="fa fa-chevron-left" /></div>
+                                    <div class="carousel-control-next right hidden" data-bs-target="#myCarousel025" data-bs-slide="next" style="width: 10%"><i class="fa fa-chevron-right" /></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="kanak_sec_107">
+                    <div class="container">
+                        <p class="mt32 mb32 creative-head">Creative <span class="red">Blogs</span></p>
+                        <div class="row">
+                            <t t-foreach="website.latest_blog_posts()[:2]" t-as="post">
+                                <div class="col-md-4 col-xs-12">
+                                    <img t-att-src="'/website/image/blog.post/%s/banner_medium' % (post.id)" t-att-alt="post.name" t-att-title="post.name" class="blog-feature img-fluid" />
+                                    <div class="hblog_003">
+                                        <span class="hblog_004">
+                                            <span class="author" t-esc="post.author_id.sudo().name" />
+                                        </span>
+                                        <span class="hblog_005">
+                                            <i class="fa fa-calendar" aria-hidden="true" />
+                                            <span class="hblog_008 time" t-field="post.post_date" t-options="{&quot;format&quot;: &quot;MMMM dd yyyy&quot;}" />
+                                        </span>
+                                    </div>
+                                    <div class="line_draw"></div>
+                                    <div class="hblog_002">
+                                        <p class="blog-head">
+                                            <a t-att-href="post.website_url"><span t-field="post.name" /></a>
+                                        </p>
+                                    </div>
+                                    <div class="hblog_006">
+                                        <p t-field="post.teaser" />
+                                        <a t-att-href="post.website_url" class="btn btn-primary readmore_btn">Read More</a>
+                                    </div>
+                                </div>
+                            </t>
+                            <div class="col-md-4 col-xs-12">
+                                <div class="box-post">
+                                    <ul class="latest-post">
+                                        <t t-foreach="website.latest_blog_posts()[2:5]" t-as="post">
+                                            <li>
+                                                <div class="dflexlist">
+                                                    <div class="post-image">
+                                                        <a t-att-href="post.website_url">
+                                                            <img t-att-src="'/website/image/blog.post/%s/banner_thumbnail' % (post.id)" t-att-alt="post.name" t-att-title="post.name" class="blog-feature img-fluid" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="post-item-text">
+                                                        <p class="author" t-esc="post.author_id.sudo().name" />
+                                                        <p class="post-item-text-h4 mt0 mb0">
+                                                            <a t-att-href="post.website_url" t-att-title="post.name"><span t-field="post.name" /></a>
+                                                        </p>
+                                                        <div class="post_teaser">
+                                                            <p t-field="post.teaser" />
+                                                        </div>
+                                                        <div class="v_draw_line" t-if="not post_last" />
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </t>
+                                    </ul>
+                                </div>
+                                <div class="text-right view_all mt16 mb32">
+                                    <a class="btn btn-default" href="/blog">View All</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </xpath>
+    </template>
+
+</odoo>

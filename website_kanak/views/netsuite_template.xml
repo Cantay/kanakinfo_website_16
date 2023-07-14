@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="tmp_netsuit_page" name="NetSuite Services">
+        <t t-call="website.layout">
+            <t t-set="pageName" t-value="'Netsuite kanak_netsuite_page'" />
+            <div id="wrap" class="oe_structure netsuite-carousel-text">
+                <section class="s_carousel_wrapper" data-vxml="001">
+                    <div t-attf-id="myCarousel{{uniq}}" class="s_carousel s_carousel_default carousel slide" data-bs-interval="10000">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li t-attf-data-bs-target="#myCarousel{{uniq}}" data-bs-slide-to="0" class="active" />
+                            <li t-attf-data-bs-target="#myCarousel{{uniq}}" data-bs-slide-to="1" />
+                        </ol>
+                        <!-- Content -->
+                        <div class="carousel-inner">
+                            <!-- #01 -->
+                            <div class="carousel-item active oe_img_bg o_bg_img_center pt152 pb152" style="background-image: url('/website_kanak/static/src/img/netsuite/slider1.webp');" data-name="Slide">
+                                <div class="container oe_unremovable">
+                                    <div class="row content">
+                                        <div class="carousel-content col-lg-5">
+                                            <h2 class="text-uppercase fw-bold text-left">
+                                                <font class="title_1" style="font-size: 52px;">
+                                                    <span class="text-danger">Net</span> <span style="color:#003362">Suite Services</span>
+                                                </font>
+                                            </h2>
+                                            <p class="bl-slider" style="font-size: 1.125rem;">Netsuite is a software suite designed to enable SMBs and mid-market companies to run their business effectively from a single platform. This most customer-friendly ERP software suite will provide you simultaneous benefits with multiple business solutions with its shared database.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- #02 -->
+                            <div class="carousel-item oe_img_bg o_bg_img_center pt96 pb96" style="background-image: url('/website_kanak/static/src/img/netsuite/slider2.webp');" data-name="Slide">
+                                <div class="container oe_unremovable">
+                                    <div class="row content">
+                                        <div class="carousel-content col-lg-5">
+                                            <h2 class="text-uppercase fw-bold text-left">
+                                                <font class="title_1" style="font-size: 52px;">
+                                                    <span class="red">Net</span><span style="color:#003362">Suite Consultant</span>
+                                                </font>
+                                            </h2>
+                                            <p class="bl-slider" style="font-size: 1.125rem;">A cloud-native, integrated, and scalable software suite to streamline key processes encompassing ERP or Financials, CRM, and E-Commerce. This most widely deployed and unified business management suite delivers extensive capabilities to steer greater operational efficiency and gain substantial business growth.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Controls -->
+                        <a class="carousel-control-prev o_not_editable" contenteditable="false" t-attf-href="#myCarousel{{uniq}}" data-bs-slide="prev" role="img" aria-label="Previous" title="Previous">
+                            <span class="carousel-control-prev-icon" />
+                            <span class="visually-hidden">Previous</span>
+                        </a>
+                        <a class="carousel-control-next o_not_editable" contenteditable="false" t-attf-href="#myCarousel{{uniq}}" data-bs-slide="next" role="img" aria-label="Next" title="Next">
+                            <span class="carousel-control-next-icon" />
+                            <span class="visually-hidden">Next</span>
+                        </a>
+                    </div>
+                </section>
+                <section class="pt16 pb16">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-5 col-md-5 col-sm-5 pb16">
+                                <img style="width: 85%;margin-top: 20px;" src="/website_kanak/static/src/img/netsuite/run-your-business.svg" class="img-fluid mx-auto" data-was-processed="true" />
+                                <!-- class="run_your_business" -->
+                            </div>
+                            <div class="col-lg-7 col-md-7 col-sm-7">
+                                <h1 class="fw-bold">
+                                    <font style="font-size: 30px;">
+                                        <span style="color:#003362;">Run Your Business on the World</span> <span class="red" style="border-bottom: 3px solid red;">No.1 Cloud ERP</span>
+                                    </font>
+                                </h1>
+                                <div>
+                                    <p class="text-justify">Are you looking for an efficient NetSuite partner for your business? Well, we bringtogether flexibility, scalability, and expertise to cater to businesses of variable sizes. We neither over-promise nor cut corners. Our talented team of highly skilled developers delivers flawless projects to clients with all the necessary customizations.</p>
+                                    <p class="text-justify">As a leading IT Consulting firm and top NetSuite solutions provider, our team of NetSuite Consultants and developers have the experience and capabilities to service all your NetSuite and related technology needs.</p>
+                                    <p class="text-justify">From new implementations to ongoing assistance, we offer industry-leading NetSuite services such as:</p>
+                                    <ul>
+                                        <li><a href="https://kanakinfosystems.com/netsuite-consultant" class="text-decoration-none">NetSuite Consultation</a></li>
+                                        <li><a href="https://kanakinfosystems.com/netsuite-implementation" class="text-decoration-none">NetSuite Implementations</a></li>
+                                        <li><a href="https://kanakinfosystems.com/netsuite-support" class="text-decoration-none">NetSuite Support</a></li>
+                                        <li><a href="https://kanakinfosystems.com/netsuite-licensing" class="text-decoration-none">NetSuite Licensing</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section style="background: #f9f9f9;" class="sb">
+                    <br />
+                    <div class="container">
+                        <div class="row">
+                            <h3 class="fw-bold text-center">
+                                <font style="font-size: 30px;">
+                                    <span style="color:#003362;">Oracle NetSuite </span> <span class="red">Features</span>
+                                </font>
+                            </h3>
+                            <p style="text-align: center !important;" class="nf">Let’s Explore <a href="https://kanakinfosystems.com/blog/what-is-netsuite" class="text-decoration-none">what NetSuite offers</a>
+                                and how we can help you as one of the foremost NetSuite consulting firms.</p>
+                        </div>
+                        <br />
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 col-sm-4">
+                                <p class="fw-bold text-center features-head">
+                                    <font style="font-size: 25px;">
+                                        <span style="color:#003362;">NetSuite ERP</span>
+                                    </font>
+                                </p>
+                                <p class="netsuite-reasons-text"><a href="https://kanakinfosystems.com/blog/signs-which-signify-your-business-need-erp-like-netsuite" class="text-decoration-none">NetSuite ERP helps enterprises</a>
+                                    to achieve progress and business growth by
+                                    effectively optimizing business processes. It also helps to systematize the business
+                                    processes and activities in a cloud platform with high-ranking benefits.</p>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4">
+                                <p class="fw-bold text-center features-head">
+                                    <font style="font-size: 25px;">
+                                        <span style="color:#003362;">NetSuite CRM+</span>
+                                    </font>
+                                </p>
+                                <p class="netsuite-reasons-text">NetSuite CRM+ software delivers robust customer relationship management (CRM)
+                                    capabilities, including marketing automation, sales force automation (SFA), customer
+                                    service and support, and flexible customization, all in a web-based CRM solution.</p>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4">
+                                <p class="fw-bold text-center features-head">
+                                    <font style="font-size: 25px;">
+                                        <span style="color:#003362;">NetSuite SRP</span>
+                                    </font>
+                                </p>
+                                <p class="netsuite-reasons-text">NetSuite Service Resource Planning (SRP) enables you to complete projects faster,
+                                    generate invoices more effectively and efficiently, and shorten accounts receivable
+                                    times, resulting in reduced revenue leakage and improved cash flow.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 col-sm-4">
+                                <p class="fw-bold text-center features-head">
+                                    <font style="font-size: 25px;">
+                                        <span class="red">SuiteCommerce</span>
+                                    </font>
+                                </p>
+                                <p class="netsuite-reasons-text"><a href="https://kanakinfosystems.com/blog/netsuite-suitecommerce-guide" class="text-decoration-none">SuiteCommerce</a> is the option for NetSuite e-Commerce. It’s easy to set up and
+                                    comes with pre-designed templates, and quick drag-and-drop directing functionality.
+                                    It combines inventory, CRM, order management, and financials to create an
+                                    engaging shopping experience.</p>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4">
+                                <p class="fw-bold text-center features-head">
+                                    <font style="font-size: 25px;">
+                                        <span style="color:#003362;">NetSuite OneWorld</span>
+                                    </font>
+                                </p>
+                                <p class="netsuite-reasons-text">NetSuite OneWorld is a wide-ranging financial suite that helps organizations solve elaborate multi-company and multi-national business needs. By using OneWorld ERP functionalities such as taxation compliance coverage, employees can do more in less time.</p>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4">
+                                <p class="fw-bold text-center features-head">
+                                    <font style="font-size: 25px;">
+                                        <span class="red">NetSuite Open Air</span>
+                                    </font>
+                                </p>
+                                <p class="netsuite-reasons-text">NetSuite OpenAir is the world's most popular professional services automation
+                                    software for resource management, project management, cost monitoring, project-
+                                    based accounting, advanced billing, and invoicing.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+                </section>
+                <br /><br />
+                <section>
+                    <div class="container">
+                        <div class="row">
+                            <h3 class="fw-bold bgr">
+                                <font style="font-size: 30px;">
+                                    <span style="color:#003362;">How can you use NetSuite’s cloud-based ERP solutions to accelerate</span> <br /><span class="red">Business growth?</span>
+                                </font>
+                            </h3>
+                            <div class="col-lg-8 col-md-8 col-sm-8">
+                                <ul class="hc" style="font-size: 30px;list-style-type: none;">
+                                    <li>
+                                        <img style="height:18px" class="ca netsuite-accelerate-growth-images" src="/website_kanak/static/src/img/netsuite/cross_arrow.svg"><span style="margin-left: 10px;font-size: 19px;word-spacing: -1px;">Generate budgeting, forecasting, and intuitive planning with financial planning features.</span></img>
+                                    </li>
+                                    <li>
+                                        <img style="height:18px" class="ca netsuite-accelerate-growth-images" src="/website_kanak/static/src/img/netsuite/cross_arrow.svg"><span style="margin-left: 10px;font-size: 19px;">Merge robust financial management with business intelligence.</span></img>
+                                    </li>
+                                    <li>
+                                        <img style="height:18px" class="ca netsuite-accelerate-growth-images" src="/website_kanak/static/src/img/netsuite/cross_arrow.svg"><span style="margin-left: 10px;font-size: 19px;">Get real-time visibility of your production management processes.</span></img>
+                                    </li>
+                                    <li>
+                                        <img style="height:18px" class="ca netsuite-accelerate-growth-images" src="/website_kanak/static/src/img/netsuite/cross_arrow.svg"><span style="margin-left: 10px;font-size: 19px;">Simplify, execute, and support supply chain or distribution plans.</span></img>
+                                    </li>
+                                    <li>
+                                        <img style="height:18px" class="ca netsuite-accelerate-growth-images" src="/website_kanak/static/src/img/netsuite/cross_arrow.svg"><span style="margin-left: 10px;font-size: 19px;">Manage inventory and logistics in real-time.</span></img>
+                                    </li>
+                                    <li>
+                                        <img style="height:18px" class="ca netsuite-accelerate-growth-images" src="/website_kanak/static/src/img/netsuite/cross_arrow.svg"><span style="margin-left: 10px;font-size: 19px;">Enhance the exactness of procure-to-pay processes.</span></img>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4">
+                                <img src="/website_kanak/static/src/img/netsuite/use_netsuite.svg" class="img-fluid mx-auto" />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <br />
+                <section style="background: #f9f9f9;">
+                    <br />
+                    <div class="container">
+                        <div class="row">
+                            <h3 class="fw-bold text-center">
+                                <font style="font-size: 30px;">
+                                    <span style="color:#003362;">NetSuite Implementation</span> <span class="red">Services</span>
+                                </font>
+                            </h3>
+                            <p style="text-align: center !important;">Are you wondering to grow your business? Well, NetSuite has the best tools in the market. From sales to accounting, this leading ERP business system is a one-stop solution. If you want to know exactly, what a possible NetSuite implementation entails, you’ve landed in the right place.</p>
+                            <img class="netsuite_impl" style="width: 50%;margin:auto;margin-top:18px;" src="/website_kanak/static/src/img/netsuite/netsuite_implementation_services.svg" />
+                            <h3 class="fw-bold text-center" style="margin:26px 0">
+                                <font style="font-size: 25px;">
+                                    <span style="color:#003362;">Key Steps we Practice for NetSuite Implementation</span>
+                                </font>
+                            </h3>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6 key_setup">
+                                    <table>
+                                        <tr>
+                                            <td class="d-flex">
+                                                <img src="/website_kanak/static/src/img/netsuite/check_icon.svg" style="height:18px;margin-right:12px;margin-top:7px;"></img></td>
+                                            <td>
+                                                <p class="m-0"><strong class="netsuite-key-steps-heading">Initiate</strong></p>
+                                                <p>To begin the process, figure out the client’s goals and key challenges.</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 key_setup">
+                                    <table>
+                                        <tr>
+                                            <td class="d-flex">
+                                                <img src="/website_kanak/static/src/img/netsuite/check_icon.svg" style="height:18px;margin-right:12px;margin-top:7px;"></img></td>
+                                            <td>
+                                                <p class="m-0"><strong class="netsuite-key-steps-heading">Requirement Analysis</strong></p>
+                                                <p>Identify existing processes, validate data sources, identify process gaps, and document requirements.</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6 key_setup">
+                                    <table>
+                                        <tr>
+                                            <td class="d-flex">
+                                                <img src="/website_kanak/static/src/img/netsuite/check_icon.svg" style="height:18px;margin-right:12px;margin-top:7px;"></img></td>
+                                            <td>
+                                                <p class="m-0"><strong class="netsuite-key-steps-heading">NetSuite Configuration</strong></p>
+                                                <p>Configure NetSuite based on requirements.</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 key_setup">
+                                    <table>
+                                        <tr>
+                                            <td class="d-flex">
+                                                <img src="/website_kanak/static/src/img/netsuite/check_icon.svg" style="height:18px;margin-right:12px;margin-top:7px;"></img></td>
+                                            <td>
+                                                <p class="m-0"><strong class="netsuite-key-steps-heading">NetSuite Implementation</strong></p>
+                                                <p>Implement NetSuite functionality and add client-specific settings as well as the content.</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6 key_setup">
+                                    <table>
+                                        <tr>
+                                            <td class="d-flex">
+                                                <img src="/website_kanak/static/src/img/netsuite/check_icon.svg" style="height:18px;margin-right:12px;margin-top:7px;"></img></td>
+                                            <td>
+                                                <p class="m-0"><strong class="netsuite-key-steps-heading">Data Migration</strong></p>
+                                                <p>You can Import key data, such as clients and vendors in NetSuite.</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 key_setup">
+                                    <table>
+                                        <tr>
+                                            <td class="d-flex">
+                                                <img src="/website_kanak/static/src/img/netsuite/check_icon.svg" style="height:18px;margin-right:12px;margin-top:7px;"></img></td>
+                                            <td>
+                                                <p class="m-0"><strong class="netsuite-key-steps-heading">Testing</strong></p>
+                                                <p>Develop customized User Acceptance Testing (UAT) Documentation for NetSuite business processes.</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <br />
+                <section>
+                    <div class="container">
+                        <div class="row">
+                            <h3 class="fw-bold text-center">
+                                <font style="font-size: 30px;">
+                                    <span style="color:#003362;">Specific Reasons Businesses Choose</span> <span class="red">NetSuite</span>
+                                </font>
+                            </h3>
+                            <p style="text-align: center !important;" class="specific_reasons">It is a digital business platform that allows companies to handle everything in one place.</p>
+                            <br /><br />
+                            <br />
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-lg-4 col-md-4 col-sm-4">
+                                <div style="background: #f9f9f9;" class="erp_box">
+                                    <div style="padding: 30px;">
+                                        <img style="width:15%;display: unset;" src="/website_kanak/static/src/img/netsuite/global_erp.svg"><strong style="font-size: 16px;color: #565656;margin-left: 10px;    font-weight: revert;">Global ERP</strong></img>
+                                        <p>It is a digital business platform that allows companies to handle everything in one place.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4">
+                                <div style="background: #f9f9f9;" class="erp_box">
+                                    <div style="padding: 30px;">
+                                        <img style="width:15%;display: unset;" src="/website_kanak/static/src/img/netsuite/true_omnichannel.svg"><strong style="font-size: 16px;color: #565656;margin-left: 10px;word-break: break-all;font-weight: revert;">True Omnichannel Commerce</strong></img>
+                                        <p>Put your customers at the cutting-edge of everything you do. Every touch point should be optimized.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4">
+                                <div style="background: #f9f9f9;" class="erp_box">
+                                    <div style="padding: 30px;">
+                                        <img style="width:15%;display: unset;" src="/website_kanak/static/src/img/netsuite/unified_data_model.svg"><strong style="font-size: 16px;color: #565656;margin-left: 10px;font-weight: revert;">Unified Data Model</strong></img>
+                                        <p>With real-time business intelligence, you can maximize the use of data to overcome rivals and achieve business goals.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4 mt32">
+                                <div style="background: #f9f9f9;" class="erp_box">
+                                    <div style="padding: 30px;">
+                                        <img style="width:15%;display: unset;" src="/website_kanak/static/src/img/netsuite/industry_specifications.svg"><strong style="font-size: 16px;color: #565656;margin-left: 10px;font-weight: revert;">Industry Specifications</strong></img>
+                                        <p>NetSuite is a broad solution that has been tailored for key industries with the requisite functionality, reporting, <a href='https://www.netsuite.com/portal/resource/articles/erp/key-performance-indicators-kpis.shtml'>KPIs</a>, integrations, and other features, resulting in faster deployments and a faster return on investment.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4 mt32">
+                                <div style="background: #f9f9f9;" class="erp_box">
+                                    <div style="padding: 30px;">
+                                        <img style="width:15%;display: unset;" src="/website_kanak/static/src/img/netsuite/industry_best_cloud.svg"><strong style="font-size: 16px;color: #565656;margin-left: 10px;word-break: break-all;font-weight: revert;">Industry's Best Cloud Platform</strong></img>
+                                        <p>A true Platform as a Service (PaaS) that enables incomparable flexibility.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <br /><br />
+                <section class="overlay" style="background-image: url('/website_kanak/static/src/img/netsuite/our-netsuite_experts_help_you.webp');background-repeat: no-repeat;background-attachment: fixed;background-size: cover;">
+                    <div style="transform: scale(1);background-color: rgba(2,42,70,.79);">
+                        <br />
+                        <div class="container">
+                            <h3 class="fw-bold text-center">
+                                <font style="font-size: 30px;">
+                                    <span class="text-white">Why Should You Collaborate with</span> <span class="red">Kanak Infosystems LLP?</span>
+                                </font>
+                            </h3>
+                            <p style="text-align: center !important;color:white;">Kanak Infosystems LLP. is a NetSuite Solution Provider, we’re dedicated to ensuring that our clients receive the best NetSuite implementation. We will assist your business with everything from buying a NetSuite license to completely customizing the platform to meet your specific needs. We've helped our clients streamline business processes and the flow of critical information through custom business software creation, implementation, services, and management.</p>
+                            <br />
+                            <p style="text-align: center !important;color:white;">If you're looking for NetSuite products or services, we'd be happy to answer questions or queries you may have! Feel free to <a href="https://kanakinfosystems.com/contact-us" class="text-decoration-none">get in touch with us</a> at any time, and we'll be happy to offer you a customizable NetSuite price quote, for what you're looking for, as well as other suggestions that will best fit your business.</p>
+                            <p style="text-align: center !important;color:white;">Feel free to get in touch with us at any time, and we'll be happy to offer you a customizable NetSuite price quote.</p>
+                        </div>
+                        <br />
+                    </div>
+                </section>
+                <br /><br />
+                <section>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <img src="/website_kanak/static/src/img/netsuite/our-netsuite_experts_help_you.webp" class="img-fluid mx-auto"/>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <h4 class="fw-bold">
+                                    <font style="font-size: 30px;color: #003362;">
+                                        <span style="color:#003362;">Our </span> <span class="red">NetSuite Experts</span> <span style="color:#003362;">Help You:</span>
+                                    </font>
+                                </h4>
+                                <br />
+                                <div>
+                                    <img class="netsuite-experts-help-images" src="/website_kanak/static/src/img/netsuite/cross_arrow.svg"><span style="margin-left: 10px;font-size: 19px;">Get better business planning and increased productivity.</span></img>
+                                </div>
+                                <br />
+                                <div>
+                                    <img class="netsuite-experts-help-images" src="/website_kanak/static/src/img/netsuite/cross_arrow.svg"><span style="margin-left: 10px;font-size: 19px;">Enhance and <a href="https://kanakinfosystems.com/blog/netsuite-suitesuccess-upgrade-to-increase-operational-efficiency" class="text-decoration-none">manage operations</a>
+                                        , processes, and information.</span></img>
+                                </div>
+                                <br />
+                                <div>
+                                    <img class="netsuite-experts-help-images" src="/website_kanak/static/src/img/netsuite/cross_arrow.svg"><span style="margin-left: 10px;font-size: 19px;">Achieve visibility across the business in one single platform.</span></img>
+                                </div>
+                                <br />
+                                <div>
+                                    <img class="netsuite-experts-help-images" src="/website_kanak/static/src/img/netsuite/cross_arrow.svg"><span style="margin-left: 10px;font-size: 19px;">Streamline Your business.</span></img>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <br /><br />
+                <section style="background: #f9f9f9;">
+                    <br />
+                    <div class="container">
+                        <div class="row">
+                            <h4 class="fw-bold text-center">
+                                <font style="font-size: 30px;color: #003362;">
+                                    <span style="color:#003362;">Kanak Infosystems Opinion</span> <span class="red">for NetSuite Consulting Services</span> <span style="color:#003362;">Include</span>
+                                </font>
+                            </h4>
+                        </div>
+                        <br />
+                        <div class="row" style="font-size: 18px;">
+                            <div class="col-lg-4 col-md-4 col-sm-4">
+                                <div style="background: white;width: 90%;display: block;margin-bottom: 70px;" class="margin_bottom_20px">
+                                    <div style="padding: 30px;">
+                                        <img style="width:8%;display: unset;margin-top: -10px;" src="/website_kanak/static/src/img/netsuite/double-check-icon.svg"><span style="margin-left: 10px;"><a href="https://kanakinfosystems.com/blog/netsuite-vs-tally" class="text-decoration-none">Accounting and Financials</a></span></img>
+                                        <br />
+                                        <img style="width:8%;display: unset;margin-top: -10px;" src="/website_kanak/static/src/img/netsuite/double-check-icon.svg"><span style="margin-left: 10px;">Order management</span></img>
+                                        <br />
+                                        <img style="width:8%;display: unset;margin-top: -10px;" src="/website_kanak/static/src/img/netsuite/double-check-icon.svg"><span style="margin-left: 10px;">Invoicing</span></img>
+                                        <br />
+                                        <img style="width:8%;display: unset;margin-top: -10px;" src="/website_kanak/static/src/img/netsuite/double-check-icon.svg"><span style="margin-left: 10px;">Purchasing management</span></img>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4 remove_margin_erp_box">
+                                <div class="margin_bottom_20px" style="background: white;width: 90%;">
+                                    <div style="padding: 30px;">
+                                        <img style="width:8%;display: unset;margin-top: -10px;" src="/website_kanak/static/src/img/netsuite/double-check-icon.svg"><span style="margin-left: 10px;">Inventory management</span></img>
+                                        <br />
+                                        <img style="width:8%;display: unset;margin-top: -10px;" src="/website_kanak/static/src/img/netsuite/double-check-icon.svg"><span style="margin-left: 10px;">NetSuite multi-currency and</span><br /><span style="margin-left: 35px;">Multi-Company</span></img>
+                                        <br />
+                                        <img style="width:8%;display: unset;margin-top: -10px;" src="/website_kanak/static/src/img/netsuite/double-check-icon.svg"><span style="margin-left: 10px;">NetSuite Billing</span></img>
+                                        <br />
+                                        <img style="width:8%;display: unset;margin-top: -10px;" src="/website_kanak/static/src/img/netsuite/double-check-icon.svg"><span style="margin-left: 10px;"><a href="https://kanakinfosystems.com/blog/power-of-netsuite-kpis" class="text-decoration-none">NetSuite Integrations</a>
+                                        </span></img>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4">
+                                <div class="margin_bottom_20px" style="background: white;width: 90%;">
+                                    <div style="padding: 30px;">
+                                        <img style="width:8%;display: unset;margin-top: -10px;" src="/website_kanak/static/src/img/netsuite/double-check-icon.svg"><span style="margin-left: 10px;">E-commerce, Web Analytics, <br /><span style="margin-left: 35px;">and web store</span></span></img>
+                                        <br />
+                                        <img style="width:8%;display: unset;margin-top: -10px;" src="/website_kanak/static/src/img/netsuite/double-check-icon.svg"><span style="margin-left: 10px;">NetSuite Website builds</span></img>
+                                        <br />
+                                        <img style="width:8%;display: unset;margin-top: -10px;" src="/website_kanak/static/src/img/netsuite/double-check-icon.svg"><span style="margin-left: 10px;">NetSuite Administration</span></img>
+                                        <br />
+                                        <img style="width:8%;display: unset;margin-top: -10px;" src="/website_kanak/static/src/img/netsuite/double-check-icon.svg"><span style="margin-left: 10px;">Customer Service and Training</span></img>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <br /><br /><br />
+                <section>
+                    <div class="container">
+                        <div class="faq_border" style="border: 1px solid #cec7c7;">
+                            <br />
+                            <div class="row justify-content-center">
+                                <div class="col-lg-3 col-md-3 col-sm-3 d-none d-lg-block d-md-block d-sm-block">
+                                    <div class="frequently_border_1 float-end" />
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                                    <p class="fw700 text-center faq-main-head">
+                                        <font style="font-size: 30px;text-transform: uppercase;">
+                                            <span class="dark_blue">frequently asked questions</span>
+                                        </font>
+                                    </p>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-3 d-none d-lg-block d-md-block d-sm-block">
+                                    <div class="frequently_border_2" />
+                                </div>
+                            </div>
+                            <br />
+                            <div class="row faq_box">
+                                <div>
+                                    <h5><img id="faq_icon_1" class="faq_button_1 faq_button" src="/website_kanak/static/src/img/netsuite/drop_down.svg" /><strong class="netsuite-questions-text">What are the Hardware requirements of NetSuite?</strong></h5>
+                                    <div id="faq_1" style="display:none;">
+                                        <p style="margin-top: 20px;margin-left: 40px;" class="netsuite-answers-text">NetSuite is a fully cloud-based, all you need is a browser on your mobile phone, PC, and tablet to access from anywhere.</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5><img class="faq_button faq_button_2" id="faq_icon_2" src="/website_kanak/static/src/img/netsuite/drop_down.svg" />
+                                        <strong class="netsuite-questions-text">How much does NetSuite Cost?</strong></h5>
+                                    <div id="faq_2" style="display:none;">
+                                        <p style="margin-top: 20px;margin-left: 40px;" class="netsuite-answers-text">The cost of a NetSuite license is determined by the modules used and the number of users needed. Internal users (Full users, Employee users) and external users come in several types (Partners, Customers, Suppliers). We can normally make a reasonably reliable estimation of the licenses (and implementation) costs for your company after a 15-minute phone call.</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5><img class="faq_button faq_button_3" id="faq_icon_3" src="/website_kanak/static/src/img/netsuite/drop_down.svg" />
+                                        <strong class="netsuite-questions-text">How long does it take to implement NetSuite?</strong></h5>
+                                    <div id="faq_3" style="display:none;">
+                                        <p style="margin-top: 20px;margin-left: 40px;" class="netsuite-answers-text">Kanak Infosystems LLP, can implement a NetSuite solution, depending on the exact requirement of the clients.</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5><img class="faq_button faq_button_4" id="faq_icon_4" src="/website_kanak/static/src/img/netsuite/drop_down.svg" />
+                                        <strong class="netsuite-questions-text">Is it Easy to Integrate NetSuite?</strong></h5>
+                                    <div id="faq_4" style="display:none;">
+                                        <p style="margin-top: 20px;margin-left: 40px;" class="netsuite-answers-text">Yes. NetSuite was built for the cloud as well as integrations. It has good capabilities to integrate with other systems.</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5><img class="faq_button faq_button_5" id="faq_icon_5" src="/website_kanak/static/src/img/netsuite/drop_down.svg" />
+                                        <strong class="netsuite-questions-text">Is NetSuite hosted (On-Demand) Service?</strong></h5>
+                                    <div id="faq_5" style="display:none;">
+                                        <p style="margin-top: 20px;margin-left: 40px;" class="netsuite-answers-text">Yes, NetSuite is a hosted (On Demand) subscription-based service offered via Internet.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <br />
+        </t>
+    </template>
+</odoo>

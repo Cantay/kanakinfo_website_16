@@ -1,1 +1,0 @@
-All modules documentation are store on this directory.

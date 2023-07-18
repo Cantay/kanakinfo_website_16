@@ -59,7 +59,7 @@ class KanakApp(WebsiteSale):
         '/apps/<string:mtype>/category/<string:category>/browse',
         '/apps/<string:mtype>/category/<string:category>/browse/page/<int:page>',
     ], type='http', auth="public", website=True, sitemap=False)
-    def kanakapps(self, mtype='', price='', series='', category='', search='', page=0, ppg=5, order='', **post):
+    def kanakapps(self, mtype='', price='', series='', category='', search='', page=0, ppg=20, order='', **post):
         if not self.check_is_found_or_not(mtype, category):
             raise NotFound()
         if not mtype:

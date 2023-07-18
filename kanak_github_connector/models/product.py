@@ -69,7 +69,7 @@ class ProductProduct(models.Model):
         module_version = self.search([
             ('technical_name', '=', str(technical_name)),
             ('product_template_variant_value_ids', 'in', rec_ids.ids)], limit=1)
-        print("===========module ===", module_version)
+        _logger.info('===========module_version====%s', module_version.name)
         return module_version
 
     @api.model
@@ -92,7 +92,7 @@ class ProductProduct(models.Model):
             'name': info['name'],
             'technical_name': info['technical_name'],
             'website_published': True,
-            'description': info['description'],
+            'description': info.get('description', ''),
             'public_categ_ids': [(6, 0, self.get_module_category(info) or [])],
             'list_price': info.get('price') or 0,
             'url': info['name'].lower().replace(' ', '-'),

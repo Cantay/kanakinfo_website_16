@@ -75,7 +75,6 @@ class GithubRepository(models.Model):
                     
                     if module_info.get('images'):
                         full_current_banner_path = os.path.join(full_module_path, module_info['images'][0])
-                        _logger.info('banner_image_path==%s', full_current_banner_path)
                         if os.path.exists(full_current_banner_path):
                             banner_path = full_current_banner_path
                         

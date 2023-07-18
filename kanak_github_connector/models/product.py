@@ -57,10 +57,8 @@ class ProductProduct(models.Model):
         technical_name = info['technical_name']
         product_id = ProductTemplate.search([('technical_name', '=', technical_name)])
         if not product_id:
-            _logger.info('===========not found====')
             product_id = ProductTemplate.create(self.product_on_manifest(info, branch))
         else:
-            _logger.info('===========found====%s', product_id.name)
             product_id.write(self.product_on_manifest(info, branch, product_id))
         attribut_value_id = False
         if branch:
@@ -69,7 +67,6 @@ class ProductProduct(models.Model):
         module_version = self.search([
             ('technical_name', '=', str(technical_name)),
             ('product_template_variant_value_ids', 'in', rec_ids.ids)], limit=1)
-        _logger.info('===========module_version====%s', module_version.name)
         return module_version
 
     @api.model

@@ -57,10 +57,10 @@ class ProductProduct(models.Model):
         technical_name = info['technical_name']
         product_id = ProductTemplate.search([('technical_name', '=', technical_name)])
         if not product_id:
-            print("===========not===")
+            _logger.info('===========not found====')
             product_id = ProductTemplate.create(self.product_on_manifest(info, branch))
         else:
-            print("===========write has===")
+            _logger.info('===========found====%s', product_id.name)
             product_id.write(self.product_on_manifest(info, branch, product_id))
         attribut_value_id = False
         if branch:

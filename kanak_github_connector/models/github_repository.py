@@ -3,11 +3,16 @@
 import ast
 import logging
 import os
+import git
+import tempfile
+import base64
+import shutil
+import re
+import lxml.html
 from os.path import join as opj
-from odoo import _, api, exceptions, fields, models, modules
+from odoo import fields, models, tools
 from odoo.modules.module import MANIFEST_NAMES
-from datetime import datetime
-from subprocess import check_output
+
 _logger = logging.getLogger(__name__)
 try:
     from git import Repo
@@ -21,60 +26,139 @@ class GithubRepository(models.Model):
 
     sequence = fields.Integer(default=1)
     github_url = fields.Char(string='Github URL', required=True)
-    is_clone = fields.Boolean()
-    last_analyze_date = fields.Datetime(string='Last Sync', readonly=True, store=True)
-    size = fields.Char(readonly=True, store=True)
-    local_path = fields.Char(string='Local Path', compute='_compute_local_path')
-
-    @api.depends('github_url')
-    def _compute_local_path(self):
-        get_param = self.env['ir.config_parameter'].sudo().get_param
-        source_path = get_param('github_repo_local_path')
-        if not source_path:
-            raise exceptions.Warning(_(
-                "github_repo_local_path should be defined in your "
-                " configuration file"))
-        for repo in self:
-            if repo.github_url:
-                branch = self.github_url.split('#')[1]
-                repo.local_path = os.path.join(source_path, branch)
 
     def action_branch_clone(self):
-        url = self.github_url.split('#')[0]
-        branch = self.github_url.split('#')[1]
-        if not os.path.exists(self.local_path):
-            _logger.info(
-                "Cloning new branch into %s ..." % self.local_path)
-            # Cloning the self
-            try:
-                os.makedirs(self.local_path)
-            except Exception:
-                raise exceptions.Warning(_(
-                    "Error when trying to create the folder %s\n"
-                    " Please check Odoo Access Rights.") % (
-                        self.local_path))
-
-            os.system("git clone -b %s --depth 1 %s %s" % (branch, url, self.local_path))
-            self.write({
-                'is_clone': True
-            })
-
-    def action_git_pull(self):
-        branch = self.github_url.split('#')[1]
+        owner_match = re.search(r'github\.com:(.*)/', self.github_url)
+        owner = owner_match.group(1)
+        get_param = self.env['ir.config_parameter'].sudo().get_param
+        token = get_param('git_token')
+        branch_match = re.search(r'#(.*)', self.github_url)
+        branch = branch_match.group(1)
+        repo_match = re.search(r'github\.com:.*/(.*).git', self.github_url)
+        repo = repo_match.group(1)
+        repo_url = f'https://{token}@github.com/{owner}/{repo}.git'
+        product_product_obj = self.env['product.product'].sudo()
         try:
-            res = check_output(
-                ['git', 'pull', 'origin', branch],
-                cwd=self.local_path)
-            res = res.decode("utf-8")
-        except Exception:
-            # Trying to clean the local folder
-            _logger.warning(_(
-                "Error when updating the branch %s in the local folder"
-                " %s.\n Deleting the local folder and trying"
-                " again."), branch, self.local_path)
-            command = "rm -rf %s" % self.local_path
-            os.system(command)
-            self.action_branch_clone()
+            temp_dir = tempfile.mkdtemp(prefix=f"kanak_apps_{branch}_")
+            repo = git.Repo.clone_from(repo_url, temp_dir, branch=branch)
+            contents = os.listdir(temp_dir)
+            for item in contents:
+                item_path = os.path.join(temp_dir, item)  # Get the full path of the item
+                if os.path.isdir(item_path) and not item.startswith('.'):
+                    full_module_path = os.path.join(temp_dir, item)
+                    module_info = {}
+                    _ICON_PATH = [
+                        'static/src/img/',
+                        'static/description/',
+                    ]
+                    _INDEX_HTML_PATH = 'static/description/'
+                    manifest_path = next((opj(full_module_path, name) for name in MANIFEST_NAMES if os.path.exists(opj(full_module_path, name))), None)
+                    if manifest_path:
+                        if os.path.isfile(manifest_path):
+                            with open(manifest_path, 'rb') as f:
+                                module_info.update(ast.literal_eval(f.read().decode()))
+                        module_info['technical_name'] = item
+                        module_version = product_product_obj.create_or_update_variants(module_info, branch)
+                        theme_image_path = False
+                        banner_path = False
+                        icon_path = False
+                        resize = False
+                        product_image = False
+                        theme_image = False
+                        banner_image = False
+                        license = False
+                        if module_info.get('images', False):
+                            full_current_icon_path = os.path.join(
+                                full_module_path, module_info.get('images')[0])
+                            if os.path.exists(full_current_icon_path):
+                                banner_path = full_current_icon_path
+                            if module_info.get('images', False) and len(module_info.get('images', False)) > 1:
+                                full_current_theme_image_path = os.path.join(full_module_path, module_info.get('images', False)[1])
+                                if os.path.exists(full_current_theme_image_path):
+                                    theme_image_path = full_current_theme_image_path
+                        for current_icon_path in _ICON_PATH:
+                            full_current_icon_path = os.path.join(
+                                full_module_path, current_icon_path, 'icon.png')
+                            if os.path.exists(full_current_icon_path):
+                                icon_path = full_current_icon_path
+                                resize = True
+                                break
+                        if theme_image_path:
+                            image_enc = False
+                            try:
+                                with open(theme_image_path, 'rb') as f:
+                                    image = f.read()
+                                image_enc = base64.b64encode(tools.image_process(image, output_format='gif'))
+                            except Exception:
+                                _logger.warning("Unable to read or resize %s", banner_path)
+                            theme_image = image_enc
+                        if banner_path:
+                            image_enc = False
+                            try:
+                                with open(banner_path, 'rb') as f:
+                                    image = f.read()
+                                image_enc = base64.b64encode(tools.image_process(image, output_format='gif'))
+                            except Exception:
+                                _logger.warning("Unable to read or resize %s", banner_path)
+                            banner_image = image_enc
+                        if icon_path:
+                            image_enc = False
+                            try:
+                                with open(icon_path, 'rb') as f:
+                                    image = f.read()
+                                if resize:
+                                    image_enc = base64.b64encode(tools.image_process(image, output_format='png'))
+                                else:
+                                    image_enc = base64.b64encode(image)
+                            except Exception:
+                                _logger.warning("Unable to read or resize %s", icon_path)
+                            product_image = image_enc
+                        else:
+                            # Set the default icon
+                            try:
+                                with open(os.path.join(
+                                        os.path.dirname(__file__),
+                                        '../data/kanak.png'), 'rb') as f:
+                                    image = base64.b64encode(f.read())
+                                    product_image = image
+                            except Exception as e:
+                                _logger.error(
+                                    'Unable to read the icon image, error is %s', e)
+
+                        index_path = False
+                        description_rst_html = False
+                        full_current_index_path = os.path.join(full_module_path, _INDEX_HTML_PATH, 'index.html')
+                        license_path = os.path.join(full_module_path, 'LICENSE')
+                        if os.path.exists(full_current_index_path):
+                            index_path = full_current_index_path
+                        if index_path:
+                            with open(index_path, 'rb') as desc_file:
+                                doc = desc_file.read()
+                                html = lxml.html.document_fromstring(doc)
+                                for element, attribute, link, pos in html.iterlinks():
+                                    if element.get('src') and not '//' in element.get('src') and not 'static/' in element.get('src'):
+                                        element.set('src', "//apps.odoocdn.com/apps/assets/%s/%s/%s" % (branch, module_info['technical_name'], element.get('src')))
+                                description_rst_html = tools.html_sanitize(lxml.html.tostring(html))
+                        else:
+                            description_rst_html = module_info['description']
+
+                        if os.path.exists(license_path):
+                            with open(license_path, 'rb') as desc_file:
+                                license = desc_file.read()
+                        module_version.write({
+                            'repository_id': self.id,
+                            'version': branch,
+                            'description_rst_html': description_rst_html,
+                            'image_1920': product_image,
+                            'banner_image': banner_image,
+                            'theme_image': theme_image,
+                            'description_sale': module_info.get('summary', ''),
+                            'license': license or ''
+                        })
+
+            shutil.rmtree(temp_dir)
+        except Exception as e:
+            _logger.error(e)
 
     def listdir(self, dir):
         def clean(name):
@@ -89,99 +173,3 @@ class GithubRepository(models.Model):
                     return True
 
         return map(clean, filter(is_really_module, os.listdir(dir)))
-
-    def _get_analyzable_files(self):
-        res = []
-        for root, dirs, files in os.walk(self.local_path):
-            if '/.git' not in root:
-                for fic in files:
-                    if fic != '.gitignore':
-                        res.append(os.path.join(root, fic))
-        return res
-
-    def _analyze_module_name(self, path, module_name):
-        ProductProduct = self.env['product.product'].sudo()
-        try:
-            full_module_path = os.path.join(path, module_name)
-            module_info = {}
-            manifest_path = next((opj(full_module_path, name) for name in MANIFEST_NAMES if os.path.exists(opj(full_module_path, name))), None)
-            if manifest_path:
-                if os.path.isfile(manifest_path):
-                    with open(manifest_path, 'rb') as f:
-                        module_info.update(ast.literal_eval(f.read().decode()))
-
-            # Create module version, if the module is installable
-            # in the serie
-            if module_info.get('installable', False):
-                module_info['technical_name'] = module_name
-                ProductProduct.create_or_update_from_manifest(module_info, self, full_module_path)
-        except Exception as e:
-            _logger.error('Cannot process module with name %s, error '
-                          'is: %s', module_name, e)
-
-    def _sync(self):
-        self.ensure_one()
-        # Change log level to avoid warning, when parsing odoo manifests
-        self.action_git_pull()
-        logger1 = logging.getLogger('odoo.modules.module')
-        logger2 = logging.getLogger('odoo.addons.base.module.module')
-        currentLevel1 = logger1.level
-        currentLevel2 = logger2.level
-        logger1.setLevel(logging.ERROR)
-        logger2.setLevel(logging.ERROR)
-
-        # add github_repo_local_path in module path list
-        source_path = self.env['ir.config_parameter'].get_param('github_repo_local_path')
-
-        try:
-            paths = [self.local_path]
-
-            # Scan each path, if exists
-            for path in paths:
-                if not os.path.exists(path):
-                    _logger.warning(
-                        "Unable to analyse %s. Source code not found.", path
-                    )
-                else:
-                    # Analyze folders and create module versions
-                    _logger.info("Analyzing repository %s ...", path)
-                    for module_name in self.listdir(path):
-                        self._analyze_module_name(path, module_name)
-        finally:
-            # Reset Original level for module logger
-            logger1.setLevel(currentLevel1)
-            logger2.setLevel(currentLevel2)
-
-        path = self.local_path
-        # Compute Files Sizes
-        size = 0
-        for file_path in self._get_analyzable_files():
-            try:
-                size += os.path.getsize(file_path)
-            except Exception:
-                _logger.warning(
-                    "Warning : unable to eval the size of '%s'.", file_path)
-
-        try:
-            Repo(path)
-        except Exception:
-            # If it's not a correct repository, we flag the branch
-            # to be downloaded again
-            return {'size': 0}
-
-        return {'size': "%.2f" % ((float(size) / 1024.00) / 1024.00) + " MB"}
-
-    def action_branch_sync(self):
-        path = self.local_path
-        if not os.path.exists(path):
-            _logger.warning("Warning Folder %s not found: Analysis skipped.", path)
-        else:
-            _logger.info("Analyzing Source Code in %s ...", path)
-            # try:
-            vals = self._sync()
-            vals.update({
-                'last_analyze_date': datetime.today(),
-            })
-            self.write(vals)
-            # except Exception as e:
-            #     _logger.warning('Cannot analyze branch so skipping it, error is: %s' % e)

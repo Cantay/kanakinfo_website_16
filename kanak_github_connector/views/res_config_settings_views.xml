@@ -12,14 +12,14 @@
                         <div class="o_setting_left_pane">
                         </div>
                         <div class="o_setting_right_pane">
-                            <label for="github_repo_local_path" class="mt16"/>
+                            <label for="git_token" class="mt16"/>
                             <div class="text-muted">
-                                Local path for github repo
+                                Git Token
                             </div>
                             <div>
                                 <div class="content-group mt16">
-                                    <label for="github_repo_local_path" string="Path" class="o_light_label"/>
-                                    <field name="github_repo_local_path"/>
+                                    <label for="git_token" string="Token" class="o_light_label"/>
+                                    <field name="git_token"/>
                                 </div>
                             </div>
                         </div>

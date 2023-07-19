@@ -232,6 +232,7 @@ class KanakApp(WebsiteSale):
                     version = post.get('version', '')
                     # get_param = request.env['ir.config_parameter'].sudo().get_param
                     # repo_path = get_param('github_repo_local_path')
+                    product_id.product_tmpl_id.sudo().download_count = product_id.product_tmpl_id.sudo().download_count + 1
                     url = "https://team.kanakinfosystems.com/api/download/app"
                     headers = {
                         'Authorization': 'Bearer 2fffeffc83024c6bbc0354751698be58cd3997e8',

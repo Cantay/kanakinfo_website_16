@@ -38,7 +38,7 @@
         <field name="arch" type="xml">
             <form string="Github repository">
                 <header>
-                    <button name="action_branch_clone" type="object" string="CLONE" class="btn btn-primary" />
+                    <button name="action_branch_clone" type="object" string="Sync" class="btn btn-primary" />
                 </header>
                 <sheet>
                     <group>
@@ -55,7 +55,7 @@
             <tree string='description' editable="bottom">
                 <field name="sequence" widget="handle" />
                 <field name='github_url' />
-                <button name="action_branch_clone" type="object" string="CLONE" class="btn btn-primary" />
+                <button name="action_branch_clone" type="object" string="Sync" class="btn btn-primary" />
             </tree>
         </field>
     </record>

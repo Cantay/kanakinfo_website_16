@@ -22,11 +22,7 @@ class ProductProduct(models.Model):
     banner_image = fields.Image(string="App Banner")
     theme_image = fields.Image(string="Theme Banner")
     license = fields.Text(string="License")
-    _ICON_PATH = [
-        'static/src/img/',
-        'static/description/',
-    ]
-    _INDEX_HTML_PATH = 'static/description/'
+    app_timestamp = fields.Char(string="Last Time")
 
     @api.model
     def get_module_category(self, info):

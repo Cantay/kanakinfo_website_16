@@ -295,13 +295,3 @@ class CustomerPortal(portal.CustomerPortal):
                         ])
         except (AccessError, MissingError):
             return request.redirect('/apps')
-
-    def skcreate_app_zip(self, repo_path, version, modulename):
-        modulepath = "%s/%s/%s" % (repo_path, version, modulename)
-        zip_path = modulepath + "-%s" % version
-
-        if not os.path.exists(modulepath):
-            raise UserError("No module available!")
-        shutil.make_archive(zip_path, 'zip', modulepath)
-
-        return zip_path

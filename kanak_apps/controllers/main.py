@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-
+import logging
 import os
 import shutil
-
+import requests
 from odoo import http
 from odoo.http import request
 from werkzeug.exceptions import NotFound
@@ -12,6 +12,7 @@ from odoo.exceptions import UserError, AccessError, MissingError
 from odoo.http import content_disposition
 from odoo.addons.portal.controllers import portal
 AVALABLE_VERSION = ['6.0', '7.0', '8.0', '9.0', '10.0', '11.0', '12.0', '13.0', '14.0', '15.0', '16.0', '17.0', '18.0', '19.0']
+_logger = logging.getLogger(__name__)
 
 
 class KanakApp(WebsiteSale):
@@ -223,34 +224,31 @@ class KanakApp(WebsiteSale):
     def DownloadAPPS(self, **post):
         product_id = request.env['product.product'].browse(int(post.get('product_id')))
         if product_id:
-            if not product_id.list_price and product_id.product_template_attribute_value_ids and \
-                product_id.product_template_attribute_value_ids[0].name == post.get('version', '') and \
-                    product_id.technical_name == post.get('module_name', ''):
-                modulename = post.get('module_name', '')
-                version = post.get('version', '')
-                get_param = request.env['ir.config_parameter'].sudo().get_param
-                repo_path = get_param('github_repo_local_path')
-
-                path = self.create_app_zip(repo_path, version, modulename)
-                if os.path.exists(path + '.zip'):
-                    product_tmp_id = product_id.product_tmpl_id
-                    counter = product_id.product_tmpl_id.download_count + 1
-                    product_tmp_id.sudo().write({
-                        'download_count': counter
-                    })
-                    filename = "%s-%s.zip" % (modulename, version)
-                    zippath = '%s.zip' % (path)
-
-                    bytes_data = ''
-                    with open(zippath, "rb") as f:
-                        bytes_data = f.read()
-                    os.remove(zippath)
+            try:
+                if not product_id.list_price and product_id.product_template_attribute_value_ids and \
+                    product_id.product_template_attribute_value_ids[0].name == post.get('version', '') and \
+                        product_id.technical_name == post.get('module_name', ''):
+                    modulename = post.get('module_name', '')
+                    version = post.get('version', '')
+                    # get_param = request.env['ir.config_parameter'].sudo().get_param
+                    # repo_path = get_param('github_repo_local_path')
+                    url = "https://team.kanakinfosystems.com/api/download/app"
+                    headers = {
+                        'Authorization': 'Bearer 2fffeffc83024c6bbc0354751698be58cd3997e8',
+                    }
+                    payload = {
+                        "technical_name": modulename,
+                        "version": version,
+                    }
+                    response = requests.request("GET", url, headers=headers, data=payload)
                     return request.make_response(
-                        bytes_data,
+                        response.content,
                         headers=[
                             ('Content-Type', 'application/zip'),
-                            ('Content-Disposition', content_disposition(filename))
+                            ('Content-Disposition', content_disposition(f"{modulename}-{version}.zip"))
                         ])
+            except Exception as e:
+                _logger.info("Download Apps error: %s ", e)
         raise NotFound()
 
     def create_app_zip(self, repo_path, version, modulename):
@@ -279,24 +277,21 @@ class CustomerPortal(portal.CustomerPortal):
                 if not product_id:
                     return request.redirect('/apps')
                 if product_id:
-                    get_param = request.env['ir.config_parameter'].sudo().get_param
-                    repo_path = get_param('github_repo_local_path')
-
-                    path = self.skcreate_app_zip(repo_path, product_id.version, product_id.technical_name)
-                    if os.path.exists(path + '.zip'):
-                        filename = "%s-%s.zip" % (product_id.version, product_id.technical_name)
-                        zippath = '%s.zip' % (path)
-
-                        bytes_data = ''
-                        with open(zippath, "rb") as f:
-                            bytes_data = f.read()
-                        os.remove(zippath)
-                        return request.make_response(
-                            bytes_data,
-                            headers=[
-                                ('Content-Type', 'application/zip'),
-                                ('Content-Disposition', content_disposition(filename))
-                            ])
+                    url = "https://team.kanakinfosystems.com/api/download/app"
+                    headers = {
+                        'Authorization': 'Bearer 2fffeffc83024c6bbc0354751698be58cd3997e8',
+                    }
+                    payload = {
+                        "technical_name": product_id.technical_name,
+                        "version": product_id.version,
+                    }
+                    response = requests.request("GET", url, headers=headers, data=payload)
+                    return request.make_response(
+                        response.content,
+                        headers=[
+                            ('Content-Type', 'application/zip'),
+                            ('Content-Disposition', content_disposition(f"{product_id.technical_name}-{product_id.version}.zip"))
+                        ])
         except (AccessError, MissingError):
             return request.redirect('/apps')
 

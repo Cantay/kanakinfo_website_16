@@ -5,7 +5,7 @@
         <t t-set="val_decimal" t-value="round(rating_avg % 1, 1)"/>
         <t t-set="val_integer" t-value="int(rating_avg)"/>
         <t t-set="empty_star" t-value="5 - (val_integer+1) if val_decimal else 5 - val_integer"/>
-        <span class="loempia_rating_stars" t-att-title="rating_avg">
+        <span class="loempia_rating_stars" t-att-title="rating_avg" t-if="int(rating_count) &gt; 0">
             <t t-if="rating_style_compressed">
                 <t t-if="rating_avg &lt;= 2">
                     <span class="fa fa-star-o rating_star_active"></span>

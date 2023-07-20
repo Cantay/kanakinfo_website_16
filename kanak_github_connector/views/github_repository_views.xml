@@ -38,12 +38,22 @@
         <field name="arch" type="xml">
             <form string="Github repository">
                 <header>
-                    <button name="action_branch_clone" type="object" string="Sync" class="btn btn-primary" />
+                    <button name="get_apps" type="object" string="GET APPS" class="btn btn-primary" />
                 </header>
                 <sheet>
                     <group>
-                        <field name="github_url" />
+                        <field name="github_url" string="Version" />
                     </group>
+                    <notebook>
+                        <page string="Apps">
+                            <field name="app_lines">
+                                <tree>
+                                    <field name="name" />
+                                    <field name="timestamp" />
+                                </tree>
+                            </field>
+                        </page>
+                    </notebook>
                 </sheet>
             </form>
         </field>
@@ -52,10 +62,9 @@
         <field name='name'>github.repository.tree</field>
         <field name='model'>github.repository</field>
         <field name='arch' type='xml'>
-            <tree string='description' editable="bottom">
+            <tree string='description'>
                 <field name="sequence" widget="handle" />
-                <field name='github_url' />
-                <button name="action_branch_clone" type="object" string="Sync" class="btn btn-primary" />
+                <field name='github_url' string="Version" />
             </tree>
         </field>
     </record>

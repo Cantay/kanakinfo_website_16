@@ -34,18 +34,20 @@ class ProductProduct(models.Model):
         """
         category_obj = self.env['product.public.category']
         category = info.get('category', False)
-        categorys = category.split("/")
-        category_ids = []
-        if categorys:
-            for categ in categorys:
-                category_search = category_obj.search([('name', '=', categ)], limit=1)
-                if not category_search:
-                    category_search = category_obj.create({'name': categ})
+        if category:
+            categorys = category.split("/")
+            category_ids = []
+            if categorys:
+                for categ in categorys:
+                    category_search = category_obj.search([('name', '=', categ)], limit=1)
+                    if not category_search:
+                        category_search = category_obj.create({'name': categ})
+                    category_ids.append(category_search.id)
+            else:
+                category_search = category_obj.search([('name', '=', category)], limit=1)
                 category_ids.append(category_search.id)
-        else:
-            category_search = category_obj.search([('name', '=', category)], limit=1)
-            category_ids.append(category_search.id)
-        return category_ids
+            return category_ids
+        return []
 
     @api.model
     def create_or_update_variants(self, info, branch):

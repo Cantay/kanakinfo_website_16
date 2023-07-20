@@ -1,2 +1,3 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
 access_github_repository,access_github_repository,model_github_repository,base.group_system,1,1,1,1
+access_github_repository_line,access_github_repository_line,model_github_repository_line,base.group_system,1,1,1,1

@@ -3,5 +3,4 @@
     <menuitem id="menu_github" name="Github" web_icon="kanak_github_connector,static/description/icon.png" />
     <menuitem id="menu_github_configuration" parent="menu_github" sequence="50" name="Configuration" />
     <menuitem id="menu_github_repository" parent="menu_github" sequence="1" name="Github Repository" action="github_repository_view_action" />
-    <menuitem id="menu_github_settings" parent="menu_github_configuration" sequence="1" name="Settings" action="action_config_settings_github" groups="base.group_system" />
 </odoo>

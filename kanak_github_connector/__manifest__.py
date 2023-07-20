@@ -14,7 +14,6 @@
     'data': [
             'security/ir.model.access.csv',
             'views/github_repository_views.xml',
-            'views/res_config_settings_views.xml',
             'views/menus.xml',
             'views/product_details_template.xml',
             ],

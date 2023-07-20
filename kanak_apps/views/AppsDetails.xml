@@ -46,7 +46,7 @@
                                 </span>
                                 <span title="Purchases" t-if="not combination_info['price']"><i class="fa fa-download"></i>
                                                             <t t-esc="product.download_count"/></span>
-                                <span title="Purchases" t-if="combination_info['price']"><i class="fa fa-shopping-cart"></i> <t t-esc="int(product.sales_count)"/></span>
+                                <span title="Purchases" t-if="combination_info['price']"><i class="fa fa-shopping-cart"></i> <t t-esc="int(product.app_sale_count)"/></span>
                             </div>
                             <form method="post" class="oe_import" action="/shop/cart/update">
                                 <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>

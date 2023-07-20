@@ -124,7 +124,7 @@
                                                         </span>
                                                         <span t-if="combination_info['price']">
                                                             <i class="fa fa-shopping-cart"></i>
-                                                            <t t-esc="int(product.sales_count)"/>
+                                                            <t t-esc="int(product.app_sale_count)"/>
                                                         </span>
                                                     </span>
                                                 </div>
@@ -191,7 +191,7 @@
                                                         </span>
                                                         <span t-if="combination_info['price']">
                                                             <i class="fa fa-shopping-cart"></i>
-                                                            <t t-esc="int(product.sales_count)"/>
+                                                            <t t-esc="int(product.app_sale_count)"/>
                                                         </span>
                                                     </span>
                                                 </div>
@@ -258,7 +258,7 @@
                                                         </span>
                                                         <span t-if="combination_info['price']">
                                                             <i class="fa fa-shopping-cart"></i>
-                                                            <t t-esc="int(product.sales_count)"/>
+                                                            <t t-esc="int(product.app_sale_count)"/>
                                                         </span>
                                                     </span>
                                                 </div>
@@ -429,7 +429,7 @@
                                                                 </span>
                                                                 <span t-if="combination_info['price']">
                                                                     <i class="fa fa-shopping-cart"></i>
-                                                                    <t t-esc="int(product.sales_count)"/>
+                                                                    <t t-esc="int(product.app_sale_count)"/>
                                                                 </span>
                                                             </span>
                                                         </div>

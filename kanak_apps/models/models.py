@@ -7,6 +7,7 @@ class ProductTemplate(models.Model):
     _inherit = 'product.template'
 
     download_count = fields.Integer(string="Download Count", default=0)
+    app_sale_count = fields.Integer(string="Apps Sale Count", default=0)
 
 
 class ProductProduct(models.Model):
@@ -29,6 +30,13 @@ class ProductProduct(models.Model):
 
 class SaleOrder(models.Model):
     _inherit = 'sale.order'
+
+    def _action_confirm(self):
+        super(SaleOrder, self)._action_confirm()
+        for order in self:
+            for line in order.order_line:
+                if line.product_id and line.product_id.product_tmpl_id:
+                    line.product_id.product_tmpl_id.app_sale_count = line.product_id.product_tmpl_id.app_sale_count + 1
 
     def get_download_module_links(self):
         self.ensure_one()

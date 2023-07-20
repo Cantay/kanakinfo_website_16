@@ -8,6 +8,7 @@
         <field name="arch" type="xml">
             <field name="default_code" position="after">
                 <field name="download_count"/>
+                <field name="app_sale_count"/>
             </field>
         </field>
     </record>

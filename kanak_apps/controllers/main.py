@@ -124,7 +124,7 @@ class KanakApp(WebsiteSale):
         values['search_count'] = len(products)
         values['combination'] = combination
         if '/browse' not in request.httprequest.path:
-            values['top_sales_apps'] = products.sorted(lambda p: p.sudo().sales_count, reverse=True)[:4]
+            values['top_sales_apps'] = products.sorted(lambda p: p.sudo().app_sale_count, reverse=True)[:4]
             values['news_apps'] = products.sorted(lambda p: p.create_date, reverse=True)[:4]
             values['most_downloads'] = products.sorted(lambda p: p.sudo().download_count, reverse=True)[:4]
             return request.render('kanak_apps.top_carts_tmpl', values)
@@ -188,7 +188,7 @@ class KanakApp(WebsiteSale):
             xorder = request.env['website'].get_current_website().shop_default_sort
             return 'is_published desc, %s, id desc' % xorder
         if order == 'Relevance':
-            return 'sales_count desc'
+            return 'app_sale_count desc'
         if order == 'Newest':
             return 'create_date desc'
         if order == 'Downloads':

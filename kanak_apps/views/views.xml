@@ -15,6 +15,18 @@
                 <field name="kanak_apps_sale_count"/>
                 <field name="app_sale_count"/>
             </field>
+            <xpath expr="//page[last()]" position="after">
+                <page string="SEO">
+                    <group>
+                        <field name="is_seo_optimized"/>
+                        <field name="seo_name"/>
+                        <field name="website_meta_title"/>
+                        <field name="website_meta_description"/>
+                        <field name="website_meta_keywords"/>
+                        <field name="website_meta_og_img"/>
+                    </group>
+                </page>
+            </xpath>
         </field>
     </record>
 </odoo>

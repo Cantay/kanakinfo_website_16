@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
+
+    <record id="action_get_app_purchase_count" model="ir.actions.server">
+        <field name="name">Get Purchase Count</field>
+        <field name="model_id" ref="product.model_product_template"/>
+        <field name="binding_model_id" ref="product.model_product_template"/>
+        <field name="binding_view_types">list</field>
+        <field name="state">code</field>
+        <field name="code">
+            action = records.action_odoo_apps_count()
+        </field>
+        <field name="groups_id" eval="[(4, ref('base.group_erp_manager'))]"/>
+    </record>
+
     <data noupdate="0">
         <function name="write" model="ir.model.data">
             <function name="search" model="ir.model.data">

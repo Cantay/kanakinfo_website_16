@@ -1,7 +1,9 @@
 # -*- coding: utf-8 -*-
 
-from odoo import fields, models, api
 import requests
+from bs4 import BeautifulSoup
+
+from odoo import fields, models, api
 
 
 class ProductTemplate(models.Model):
@@ -18,14 +20,23 @@ class ProductTemplate(models.Model):
             rec.app_sale_count = rec.kanak_apps_sale_count + rec.odoo_apps_sale_count
 
     def action_odoo_apps_count(self):
-        count_url = "https://team.kanakinfosystems.com/api/app/count/%s" % (self.technical_name)
-        headers = {
-            'Authorization': 'Bearer 2fffeffc83024c6bbc0354751698be58cd3997e8'
-        }
-        apps_response = requests.request("GET", count_url, headers=headers)
-        count_info = apps_response.json()
-        if count_info.get('count', False):
-            self.odoo_apps_sale_count = int(count_info.get('count', 0))
+        for product_tmpl in self:
+            version = ''
+            if product_tmpl.product_variant_ids:
+                versions = product_tmpl.product_variant_ids.mapped('version')
+                if versions:
+                    version = versions[0]
+            if version:
+                app_url = "https://apps.odoo.com/apps/modules/%s/%s" % (version, product_tmpl.technical_name)
+                content_page = requests.get(app_url)
+                if content_page.status_code == 200:
+                    soup = BeautifulSoup(content_page.text, 'html.parser')
+                    purchase_count = soup.find("span", attrs={"title": 'Purchases'})
+                    if purchase_count:
+                        product_tmpl.odoo_apps_sale_count = purchase_count.text.strip() or 0
+                    download_count = soup.find("span", attrs={"title": 'Downloads'})
+                    if download_count:
+                        product_tmpl.download_count = download_count.text.strip() or 0
 
 
 class ProductProduct(models.Model):

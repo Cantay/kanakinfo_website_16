@@ -1,13 +1,31 @@
 # -*- coding: utf-8 -*-
 
 from odoo import fields, models, api
+import requests
 
 
 class ProductTemplate(models.Model):
     _inherit = 'product.template'
 
     download_count = fields.Integer(string="Download Count", default=0)
-    app_sale_count = fields.Integer(string="Apps Sale Count", default=0)
+    odoo_apps_sale_count = fields.Integer(string="Odoo Apps Sale Count", default=0)
+    kanak_apps_sale_count = fields.Integer(string="Kanak Apps Sale Count", default=0)
+    app_sale_count = fields.Integer(string="Apps Sale Count", default=0, compute="compute_app_sale_count", store=True)
+
+    @api.depends('odoo_apps_sale_count', 'kanak_apps_sale_count')
+    def compute_app_sale_count(self):
+        for rec in self:
+            rec.app_sale_count = rec.kanak_apps_sale_count + rec.odoo_apps_sale_count
+
+    def action_odoo_apps_count(self):
+        count_url = "https://team.kanakinfosystems.com/api/app/count/%s" % (self.technical_name)
+        headers = {
+            'Authorization': 'Bearer 2fffeffc83024c6bbc0354751698be58cd3997e8'
+        }
+        apps_response = requests.request("GET", count_url, headers=headers)
+        count_info = apps_response.json()
+        if count_info.get('count', False):
+            self.odoo_apps_sale_count = int(count_info.get('count', 0))
 
 
 class ProductProduct(models.Model):
@@ -36,7 +54,7 @@ class SaleOrder(models.Model):
         for order in self:
             for line in order.order_line:
                 if line.product_id and line.product_id.product_tmpl_id:
-                    line.product_id.product_tmpl_id.app_sale_count = line.product_id.product_tmpl_id.app_sale_count + 1
+                    line.product_id.product_tmpl_id.kanak_apps_sale_count = line.product_id.product_tmpl_id.kanak_apps_sale_count + 1
 
     def get_download_module_links(self):
         self.ensure_one()

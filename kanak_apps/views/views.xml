@@ -6,8 +6,15 @@
         <field name="inherit_id" ref="product.product_template_only_form_view" />
         <field name="priority">100</field>
         <field name="arch" type="xml">
+            <xpath expr="//header" position="inside">
+                <header>
+                    <button string="Get Odoo Apps Count" type="object" name="action_odoo_apps_count"/>
+                </header>
+            </xpath>
             <field name="default_code" position="after">
                 <field name="download_count"/>
+                <field name="odoo_apps_sale_count"/>
+                <field name="kanak_apps_sale_count"/>
                 <field name="app_sale_count"/>
             </field>
         </field>

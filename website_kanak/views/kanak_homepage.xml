@@ -7,18 +7,12 @@
                 <section class="s_carousel_wrapper" data-vxml="001">
                     <t t-set="uniq" t-value="datetime.datetime.now().microsecond" />
                     <div t-attf-id="myCarousel{{uniq}}" class="s_carousel s_carousel_default carousel slide carousel-fade" data-bs-interval="10000">
-                        <!-- Indicators -->
                         <ol class="carousel-indicators">
                             <li t-attf-data-bs-target="#myCarousel{{uniq}}" data-bs-slide-to="0" class="active" />
                             <li t-attf-data-bs-target="#myCarousel{{uniq}}" data-bs-slide-to="1" />
                             <li t-attf-data-bs-target="#myCarousel{{uniq}}" data-bs-slide-to="2" />
                         </ol>
-                        <!-- Content -->
-                        <!-- TODO in master: remove the `content` classes in the div with
-                the class `row`, to avoid having unwanted dropzones when
-                dragging inner content. -->
                         <div class="carousel-inner">
-                            <!-- #01 -->
                             <div class="carousel-item active oe_img_bg o_bg_img_center pt152 pb152" style="background-image: url('/website_kanak/static/src/img/home/home-banner1.webp');" data-name="Slide">
                                 <div class="container oe_unremovable">
                                     <div class="row content">
@@ -34,7 +28,6 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- #02 -->
                             <div class="carousel-item oe_img_bg o_bg_img_center pt96 pb96" style="background-image: url('/website_kanak/static/src/img/home/home-banner2.webp');" data-name="Slide">
                                 <div class="container oe_unremovable">
                                     <div class="row content">
@@ -46,7 +39,6 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- #03 -->
                             <div class="carousel-item oe_img_bg o_bg_img_center pt128 pb128" style="background-image: url('/website_kanak/static/src/img/home/home-banner3.webp');" data-name="Slide">
                                 <div class="container oe_unremovable">
                                     <div class="row content">
@@ -61,7 +53,6 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- Controls -->
                         <a class="carousel-control-prev o_not_editable" contenteditable="false" t-attf-href="#myCarousel{{uniq}}" data-bs-slide="prev" role="img" aria-label="Previous" title="Previous">
                             <span class="carousel-control-prev-icon" />
                             <span class="visually-hidden">Previous</span>
@@ -503,9 +494,6 @@
                                             </div>
                                             <div class="block_content_motivate ">
                                                 <p class="block-head">Our Transparency</p>
-                                                <!-- <div class="mob_motivate">
-                                                        <p class=" text-justify"> We believe in providing reliable and trustworthy services. That is why we keep our clients updated with the progress that we make every day. We never keep anything hidden from them. Our clients are more than customers to us, and we don't treat them as people who pay us money to do their work.</p>
-                                                    </div> -->
                                             </div>
                                         </div>
                                     </div>
@@ -516,9 +504,6 @@
                                             </div>
                                             <div class="block_content_motivate  ">
                                                 <p class="block-head">Our Fairness</p>
-                                                <!-- <div class="mob_motivate">
-                                                        <p class=""> We stay fair to all our clients. All the clients are equal to us, and we give them undivided attention. We never treat a project as small or big, every project is equal to us, and that is exactly how we treat it. All small and big projects are equally important to us. </p>
-                                                    </div> -->
                                             </div>
                                         </div>
                                     </div>
@@ -531,9 +516,6 @@
                                             </div>
                                             <div class="block_content_motivate  ">
                                                 <p class="block-head">Our Liability</p>
-                                                <!-- <div class="mob_motivate">
-                                                        <p class=""> We treat every client's work as our own work and believe that having a trustworthy relationship is the cornerstone of any business. </p>
-                                                    </div> -->
                                             </div>
                                         </div>
                                     </div>
@@ -544,9 +526,6 @@
                                             </div>
                                             <div class="block_content_motivate  ">
                                                 <p class="block-head">Our Attention</p>
-                                                <!-- <div class="mob_motivate">
-                                                        <p class=""> We are known for our top-notch customer satisfactory services as we pay equal attention to our clients and treat them as our family members. </p>
-                                                    </div> -->
                                             </div>
                                         </div>
                                     </div>
@@ -573,7 +552,6 @@
                                         <p class="recent_desc">
                                             <t t-esc="work.description" />
                                         </p>
-                                        <!-- <a t-att-href="work.link" class="btn btn-primary readmore_btn">Read More <i class="fa fa-caret-right" t-if="work.link"></i></a> -->
                                     </div>
                                 </div>
                             </div>

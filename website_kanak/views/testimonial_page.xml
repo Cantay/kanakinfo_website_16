@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
     <template id="testimonial_page" name="testimonial">
+        <t t-set="additional_title"> Testimonials and Reviews from Satisfied Customers | Kanak Infosystems</t>
+        <t t-set="website_meta_description"> Discover a collection of genuine testimonials and reviews from our satisfied customers. Hear their stories and experiences with our products/services, and find out why they choose us.</t>
+        <t t-set="website_meta_keywords"> kanakinfosystems testimonial, kanakinfosystems customer reviews, kanakinfosystems customers rating, kanakinfosystems review, kanakinfosystems employee review, kanakinfosystems client review, review of kanak infosystems llp, kanak reviews, review and rating of kanakinfosystems, client testimonial of kanak, kanak infosystems reviews</t>
         <t t-call="website.layout">
             <t t-set="pageName" t-value="'Testimonial kanak_testimonial'" />
             <div id="wrap" class="testimonial_kanak">

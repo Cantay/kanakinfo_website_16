@@ -24,6 +24,9 @@
                 })" />
             </xpath>
             <xpath expr="//section[hasclass('s_text_block')]" position="replace">
+                <t t-set="additional_title"> Book an ERP Demo | Contact Us - KanakInfosystems | Call @+91-9818108884</t>
+                <t t-set="website_meta_description"> Kanakinfosystems Offering top-notch ERP solutions like Odoo, ERPNext &amp; Oracle Netsuite, Web Development, Digital Marketing, Ecommerce Solution &amp; more. Call Now!</t>
+                <t t-set="website_meta_keywords">kanak infosystems llp, open erp, odoo, ecommerce development, mobile apps, odoo development company, odoo service provider, connect us, erp, software, odoo customer support</t>
                 <section class="s_text_block pt40 pb40 o_colored_level " data-snippet="s_text_block">
                     <div class="container s_allow_columns">
                         <div class="row">

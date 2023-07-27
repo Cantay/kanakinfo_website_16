@@ -2,6 +2,9 @@
 <odoo>
     <data>
         <template id="tmp_netsuit_implementation_page" name="NetSuite Implementation">
+            <t t-set="additional_title"> NetSuite Implementation: Key Steps, Planning, Checklist &amp; Advantages</t>
+            <t t-set="website_meta_description"> NetSuite Implementation will assist you in planning and preparing for your new ERP system. Get support 24*7 from experts who do an implementation of NetSuite.</t>
+            <t t-set="website_meta_keywords">netsuite implementation, implementation of netsuite, netsuite erp implementation, netsuite erp implementations, netsuite implementation company, netsuite services, implement netsuite, netsuite implementation consultants, erp implementation, netsuite implementation services, netsuite implementation guide, netsuite implementation timeline, netsuite project implementation, netsuite implementation cost, netsuite implementation project plan, oracle netsuite implementation, erp implementation checklist, netsuite erp solutions</t>
             <t t-call="website.layout">
                 <t t-set="pageName" t-value="'NetsuiteImplementation kanak_netsuit_implementation'" />
                 <div id="wrap" class="oe_structure" style="font-size:15px;color: black;">

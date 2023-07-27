@@ -2,6 +2,9 @@
 <odoo>
     <data>
         <template id="tmp_netsuit_licensing_page" name="NetSuite Licensing">
+            <t t-set="additional_title"> NetSuite Licensing Cost &amp; Pricing Per User - Kanak Infosystems LLP.</t>
+            <t t-set="website_meta_description"> NetSuite Licensing Cost is based on the annual license fee. If you want to know the NetSuite licenses cost or NetSuite Pricing per user...Contact us now!</t>
+            <t t-set="website_meta_keywords">netsuite licensing, netsuite pricing, netsuite cost, netsuite license, netsuite user license types, how much does netsuite cost, netsuite implementation cost, netsuite pricing model, netsuite cost per user, netsuite license cost, what does netsuite cost, cost of netsuite, oracle netsuite price, netsuite erp price, netsuite software price, cost to implement netsuite, netsuite licenses, netsuite small business pricing</t>
             <t t-call="website.layout">
                 <t t-set="pageName" t-value="'NetsuiteLicensing kanak_netsuit_licensing'" />
                 <section class="netsuite-license-bg pt64 pb64">

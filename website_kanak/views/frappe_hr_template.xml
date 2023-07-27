@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
-    
     <template id="frappe_hr_page" name="Frappe Hr Page">
+        <t t-set="additional_title">Simplify Human Resource Management with Frappe HR | Book a Free Demo</t>
+        <t t-set="website_meta_description">Frappe HR offers a range of streamlined solution to help businesses optimize their Human Resource operations. From recruitment to employee management, Frappe HR makes managing HR simple and efficient. Book a free consultation now.</t>
+        <t t-set="website_meta_keywords">frappe hr, erp hr, human resources, frappe human resources, hr erp, erp for hr, human resource management, hr module, modules of hrms, erp hris, erp hr module, hrms module in erp, erp hr modules, manage human resource operations, human resource management system, hr management software, hrms erp software, best human resource solutions</t>
         <t t-call="website.layout">
-            <t t-set="pageName" t-value="'FrappeHr kanak_frappe_hr'"/>
+            <t t-set="pageName" t-value="'FrappeHr kanak_frappe_hr'" />
             <section class="frappe-hr-banner">
                 <div class="container ">
                     <div class="main row">
@@ -11,8 +13,8 @@
                             <p class="main-head-banner text-center" style="text-shadow: 1px 2px 7px black;">Frappe HR Services</p>
                             <p class="mt16 text-center" style="font-size:22px;font-weight:900;color:#fff;text-shadow: 1px 2px 7px black;">A HR and Payroll Software- Crafted as per Your Needs</p>
                             <div class="text-center pt32">
-                            <a type="button" class="btn btn-light btn-lg" href="/contactus" style="padding: 10pt 20pt !important;border-radius:10px;font-weight:900;font-size:20px">Book a free Trial !</a>
-                        </div>
+                                <a type="button" class="btn btn-light btn-lg" href="/contactus" style="padding: 10pt 20pt !important;border-radius:10px;font-weight:900;font-size:20px">Book a free Trial !</a>
+                            </div>
                         </div>
                         <div class="col-md-6 banner-mob">
                             <img src="/website_kanak/static/src/img/frappe_hrms/frappe-hr-banner1.webp" class="img-fluid mx-auto " />
@@ -364,7 +366,7 @@
                     <div class="row book-demo mt16">
                         <div>
                             <p style="font-size: 18px;font-weight: 500;line-height: 1.1;text-align:center"><span style="color: #FF4A4A">Talk to us</span></p>
-                            <img src="/website_kanak/static/src/img/frappe_hrms/head-icon.svg" style="height: 45px;width: 45px;"/>
+                            <img src="/website_kanak/static/src/img/frappe_hrms/head-icon.svg" style="height: 45px;width: 45px;" />
                             <a type="button" class="btn btn-light about-geo free-trial" href="/contactus">Book a Demo</a>
                         </div>
                     </div>
@@ -381,7 +383,7 @@
                             <div class="row book-demo mt16">
                                 <div>
                                     <p style="font-size: 18px;font-weight: 500;line-height: 1.1;"><span style="color: #FF4A4A">Talk to us</span></p>
-                                    <img src="/website_kanak/static/src/img/frappe_hrms/head-icon.svg" style="height: 45px;width: 45px;"/>
+                                    <img src="/website_kanak/static/src/img/frappe_hrms/head-icon.svg" style="height: 45px;width: 45px;" />
                                     <a type="button" class="btn btn-default about-geo free-trial" href="/contactus">Book a Demo</a>
                                 </div>
                             </div>
@@ -644,9 +646,9 @@
                         <div class="col-md-6">
                             <img src="/website_kanak/static/src/img/frappe_hrms/using-frappe.webp" class="img-fluid mx-auto center-block using-frappe-d-none" />
                             <div class="text-center free-trial-box">
-                                <img src="/website_kanak/static/src/img/frappe_hrms/hr-devider.svg"  style="width:40%;height:35px" class="img-fluid mx-auto center-block" />
+                                <img src="/website_kanak/static/src/img/frappe_hrms/hr-devider.svg" style="width:40%;height:35px" class="img-fluid mx-auto center-block" />
                                 <p class="text-center mt16">Wish to dive deep into the world of Frappe HR?</p>
-                                <a type="button" class="btn btn-default about-geo free-trial" href="/contactus"><img src="/website_kanak/static/src/img/frappe_hrms/btn-monitor.svg" style="width: 30px;height: 30px;"/>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<span>Get a free Trial</span></a>
+                                <a type="button" class="btn btn-default about-geo free-trial" href="/contactus"><img src="/website_kanak/static/src/img/frappe_hrms/btn-monitor.svg" style="width: 30px;height: 30px;" />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<span>Get a free Trial</span></a>
                             </div>
                         </div>
                     </div>
@@ -679,7 +681,6 @@
                     </div>
                 </div>
             </section>
-            
             <section>
                 <div class="container">
                     <div class="faq_border mb32" style="border: 1px solid #cec7c7;">
@@ -706,15 +707,13 @@
                                     </p>
                                 </div>
                             </div>
-                            
                             <div class="pb-1">
                                 <img class="faq_button faq_button_2" id="faq_icon_2" src="/website_kanak/static/src/img/frappe_hrms/drop_down.svg" />
-                                <strong style="color: #003362;margin-left: 10px;font-size: 19px;line-height: 1.5;" >What are the advantages of Frappe HR? </strong>
+                                <strong style="color: #003362;margin-left: 10px;font-size: 19px;line-height: 1.5;">What are the advantages of Frappe HR? </strong>
                                 <div id="faq_2" style="display:none;">
                                     <p style="margin-top: 20px;margin-left: 40px;">There are many advantages of the Frappe HR Module, some of these include Complete open-source, Easy to customize, Cost Affordable, Frequent updates &amp; consistent support, Uncomplicated UI, powerful navigation, &amp; easy communication, and managing complex workflows.</p>
                                 </div>
                             </div>
-                            
                             <div class="pb-1">
                                 <img class="faq_button faq_button_3" id="faq_icon_3" src="/website_kanak/static/src/img/frappe_hrms/drop_down.svg" />
                                 <strong style="color: #003362;margin-left: 10px;font-size: 19px;line-height: 1.5;">Is frappe HR completely open source?</strong>

@@ -4,9 +4,9 @@
         <template id="tmp_odoo_Implementation" name="Odoo Implementation">
             <t t-call="website.layout">
                 <t t-set="pageName" t-value="'OdooImplement kanak_odoo_Implementation'" />
-                <t t-set="additional_title">Odoo ERP Customization And Implementation Service Provider Company </t>
-                <t t-set="website_meta_description">Kanak InfoSystems a leading Odoo domain expert. We are offering flawless <a href="/odoo-development-services">Odoo Open source ERP</a> implementation &amp; customization services across world. </t>
-                <t t-set="website_meta_keywords"> kanak infosystems llp, odoo customization, odoo implementation, odoo erp customization, odoo customization services, odoo customization company</t>
+                <t t-set="additional_title">Odoo Implementation &amp; Customization Services | Kanak Infosystems</t>
+                <t t-set="website_meta_description">Kanak Infosystems provides Odoo implementation and customization services to help businesses streamline their operations. We have a team of experienced consultants who can tailor Odoo to your specific needs. Contact us today for a free consultation.</t>
+                <t t-set="website_meta_keywords"> odoo customization, odoo implementation, odoo erp customization, odoo customization services, odoo customization company, odoo implementation services, odoo erp implementation company, odoo erp implementation, customizing odoo, odoo implementation company, odoo implementation partner, odoo erp customization services, odoo implementation cost, best odoo customization, implement odoo, odoo customization in us, odoo implementation in us, odoo implementation for business</t>
                 <div id="wrap">
                     <section id="main-odoo-impl-banner" class="pt32 pb32">
                         <div class="container">

@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
     <template id="busineess_odoo_openerp_int" name="Odoo Integration">
-        <t t-set="additional_title">Odoo ERP Integration | ERP Integration with Magento | Odoo
-            Integration </t>
-        <t t-set="website_meta_description">Kanak InfoSystems is well qualified in integrating Odoo
-            ERP with Magento or any other application. Low cost Odoo intgration services offered by
-            us. </t>
-        <t t-set="website_meta_keywords">kanak infosystems llp, odoo integration, odoo integration
-            with magento, odoo magento integration, magento erp integration, erp integration with
-            magento </t>
+        <t t-set="additional_title">Odoo ERP Integration | ERP Integration with Magento | Odoo Integration  | Kanak Infosystems LLP</t>
+        <t t-set="website_meta_description">Kanak InfoSystems is well qualified in integrating Odoo ERP with Magento or any other application. Low cost Odoo intgration services offered by us.</t>
+        <t t-set="website_meta_keywords">kanak infosystems llp, odoo integration, odoo integration with magento, odoo magento integration, magento erp integration, erp integration with magento </t>
         <t t-call="website.layout">
             <t t-set="pageName" t-value="'OdooIntegration kanak_odoo_integration'" />
             <div id="wrap">

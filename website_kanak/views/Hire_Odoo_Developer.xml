@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <template id="tmp_odoo_developer" name="Odoo Developer">
+        <t t-set="additional_title"> Hire Odoo Developer &amp; Certified ERP Consultant – Kanak Infosystems</t>
+        <t t-set="website_meta_description"> Kanak Infosystems has a team of certified Odoo developers and ERP consultants who can help you with all your Odoo development and implementation needs. Contact us today for a free consultation.</t>
+        <t t-set="website_meta_keywords"> hire odoo developer, hire an odoo developer, hire odoo specialist, open erp developer, hire odoo expert, odoo developer, odoo specialist, open source developer, python odoo developer, best odoo developer, odoo web developer, odoo for developers, hire erp developer</t>
         <t t-call="website.layout">
             <t t-set="pageName" t-value="'HireOdooDeveloper kanak_hire_odoo_developer'"/>
             <section class="main-hire-banner pt32 pb32">

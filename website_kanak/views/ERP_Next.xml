@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
     <template id="busineess_bi_erp_sol_next" name="ERP Next">
-        <t t-set="additional_title">ERPNext, ERPNext Customization, ERPNext Implementation, Frappe Maker </t>
-        <t t-set="website_meta_description">ERPNext installation, implementation and customization service offered by Kanak Infosystems LLP. We are providing best and professional ERPNext CRM &amp; Frappe services in Delhi,India </t>
-        <t t-set="website_meta_keywords">Frappe, Erpnext Customization, Erpnext India, Erpnext Delhi, Erpnext Development, Erpnext, Frappe Maker, Erpnext Install, Erpnext Hosting, Erpnext Crm, Frappe Erpnext, Erpnext Integration, Erpnext Implementation. </t>
+        <t t-set="additional_title">ERPNext Services | Best Cloud ERP Software Service Provider | Kanak Infosystems</t>
+        <t t-set="website_meta_description">Get the best ERPNext installation, implementation, and customization services with kanak Infosystems. We provide top-notch ERPNext CRM and Frappe services to ensure your business runs smoothly &amp; efficiently. </t>
+        <t t-set="website_meta_keywords">frappe, erpnext customization, erpnext india, erpnext delhi, erpnext development, erpnext, frappe maker, erpnext install, erpnext hosting, erpnext crm, frappe erpnext, erpnext integration, erpnext implementation, erpnext open source services, leading erpnext solution, erpnext install service provider, demo erpnext, erpnext partner</t>
         <t t-call="website.layout">
             <t t-set="pageName" t-value="'erpnext kanak_erpnext'"/>
             <section id="main-odoo-next-banner">

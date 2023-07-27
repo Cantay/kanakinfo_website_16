@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
     <template id="busineess_bi_mobile_ios" name="IOS">
-        <t t-set="additional_title">iOS App Development Comapny | iPhone Application Development
-            Services </t>
-        <t t-set="website_meta_description"> iphone (iOS) application development company offered by Us.
-            Our skilled iPhone app developers develop iOS apps creating robust Apps for your business.</t>
-        <t t-set="website_meta_keywords">kanak infosystems llp, ios app development, ios app development
-            company, iphone application development, best iphone app developers, ios mobile app
-            development </t>
+        <t t-set="additional_title">iOS App Development Company | Hire iPhone Application Developer | Contact us</t>
+        <t t-set="website_meta_description">Get the best app development services from the business's top iOS App Development Company! Contact us today for a consultation.</t>
+        <t t-set="website_meta_keywords">kanak infosystems llp, ios app development, ios app development company, iphone application development, best iphone app developers, ios mobile app development, ios development company, ios app development services, ios developers, developing apps for iphone, iphone development, iphone app development services, create apps for ios, building apps for ios</t>
         <t t-call="website.layout">
             <t t-set="pageName" t-value="'IOS kanak_ios_developer'" />
             <div id="wrap" class="busineess_bi_mobile_ios_kanak">

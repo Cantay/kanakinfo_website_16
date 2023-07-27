@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
     <template id="frappe_healthcare_page" name="Frappe Book Page">
+        <t t-set="additional_title">Frappe Healthcare - Open Source Hospital Management System</t>
+        <t t-set="website_meta_description">If you're looking for an open-source hospital management system, Frappe Healthcare has you covered. With everything from patient records to billing, staff management, and scheduling appointments, Frappe Healthcare has you covered.</t>
+        <t t-set="website_meta_keywords">frappe healthcare, healthcare management system, healthcare, healthcare information system, healthcare management, hims, erp for healthcare, hospital management, healthcare solutions, healthcare industry, healthcare technology, healthcare professional, healthcare software, open source hospital management system, hospital management system, healthcare management solutions, open source erp for healthcare, erp software for healthcare industry</t>
         <t t-call="website.layout">
             <t t-set="pageName" t-value="'FrappeHealthcare kanak_frappe_healthcare'" />
             <section class="frappe-health-banner pt32 pb32">

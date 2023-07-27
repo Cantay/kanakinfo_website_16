@@ -2,6 +2,9 @@
 <odoo>
     <data>
         <template id="frappe_book_page" name="Frappe Book Page">
+            <t t-set="additional_title"> FrappeBooks - Powerful Desktop Accounting System</t>
+            <t t-set="website_meta_description"> FrappeBooks is a powerful accounting tool that is perfect for small businesses and startups. With FrappeBooks, you can easily track your finances, create invoices, and manage your accounts receivable and payable. Book a Demo to Get started...</t>
+            <t t-set="website_meta_keywords">accounting software open source, open source accounting software, accounting software for desktop, desktop accounting software, desktop accounts software, accounting open source, open source accounting, offline accounting software free download, financial software open source, open source bookkeeping software, what is open source accounting, desktop bookkeeping software, free accounting book, free accounting books, frappe handbook, frappe books, accounting system, accounting software</t>
             <t t-call="website.layout">
                 <t t-set="pageName" t-value="'frappe kanak_frappe_book'" />
                 <section id="main-frappe-banner" class="pt32 pb32">

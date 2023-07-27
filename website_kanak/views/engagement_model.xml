@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
     <template id="engagement_model_page" name="engagement models">
+        <t t-set="additional_title"> Engagement Models | Kanak Infosystems</t>
+        <t t-set="website_meta_description"> See our engagement models to know about how we can process or achieve the best results with fulfill your project requirement.</t>
+        <t t-set="website_meta_keywords"> </t>
         <t t-call="website.layout">
             <t t-set="pageName" t-value="'engagement kanak_engagement'" />
             <div id="wrap" class="engagement_model_kanak">

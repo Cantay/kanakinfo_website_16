@@ -1,5 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
+    <template id="layoutmeta_kanak" inherit_id="web.frontend_layout" name="name layout">
+        <xpath expr="//meta[@name='viewport']" position="after">
+            <meta t-if="main_object and 'website_indexed' in main_object and not main_object.website_indexed" name="robots" content="noindex" />
+            <t t-set="meta_description" t-value="main_object and 'website_meta_description' in main_object and main_object.website_meta_description or website_meta_description" />
+            <t t-set="con_url" t-value="request.httprequest.url.replace('http', 'https')" />
+            <t t-set="prod_url" t-value="request.httprequest.url" />
+            <t t-set="base_url" t-value="request.env['ir.config_parameter'].sudo().get_param('web.base.url').replace('https', 'http')" />
+            <t t-if="'/shop' not in con_url and '/blog' not in con_url">
+                <!-- Google Site Verification -->
+                <meta name="google-site-verification" content="nvIkUNC8nXgSh87WZ8vX64j7P2oy9Kp03_IyoD93iAM" />
+                <!-- Facebook -->
+                <meta property="og:locale" content="en_US" />
+                <meta property="og:type" content="website" />
+                <meta property="og:image:width" content="1200" />
+                <meta property="og:image:height" content="630" />
+                <meta property="og:url" t-att-content="con_url" />
+                <meta property="fb:app_id" content="359051279318119" />
+                <meta property="og:title" t-att-content="title" />
+                <meta property="og:description" t-att-content="meta_description" />
+                <meta property="og:site_name" t-att-content="res_company.name" />
+                <t t-if="main_object and 'plain_content' in main_object and main_object.plain_content">
+                    <t t-set="og_description" t-value="main_object.plain_content[0:500]" />
+                    <meta property="og:description" t-att-content="og_description" />
+                    <meta property="og:url" t-att-content="request.httprequest.url_root+request.httprequest.path[1:end]" />
+                </t>
+                <!-- Twitter -->
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:site" content="@KanakInfosys" />
+                <meta name="twitter:title" t-att-content="title" />
+                <meta name="twitter:description" t-att-content="meta_description" />
+            </t>
+            <t t-if="'?' in con_url">
+                <meta name="robots" content="noindex, nofollow" />
+            </t>
+            <t t-if="'shop/category' in con_url and '?' not in con_url">
+                <meta name="robots" content="noindex, nofollow" />
+            </t>
+            <t t-if="'shop/page' in con_url and '?' not in con_url">
+                <meta name="robots" content="noindex, nofollow" />
+            </t>
+            <t t-if="'blog/page' in con_url and '?' not in con_url">
+                <meta name="robots" content="noindex, nofollow" />
+            </t>
+            <t t-if="'our-services' in con_url and '?' not in con_url">
+                <meta name="robots" content="noindex, nofollow" />
+            </t>
+            <t t-if="'kanak-Business-Solutions' in con_url and '?' not in con_url">
+                <meta name="robots" content="noindex, nofollow" />
+            </t>
+            <t t-if="'support/account/create' in con_url and '?' not in con_url">
+                <meta name="robots" content="noindex, nofollow" />
+            </t>
+            <t t-if="'support/ticket/submit' in con_url and '?' not in con_url">
+                <meta name="robots" content="noindex, nofollow" />
+            </t>
+        </xpath>
+    </template>
     <template id="footer_custom_kanak" inherit_id="website.footer_custom" name="Kanak Footer" active="True">
         <xpath expr="//div[@id='footer']" position="replace">
             <div id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer">
@@ -82,10 +139,10 @@
         </xpath>
     </template>
     <template id="copyright" inherit_id="website.layout">
-       <xpath expr="//div[hasclass('o_footer_copyright')]" position="replace">
-          <div class="o_footer_copyright text-center pt16 pb16" data-name="Copyright">
-             <span class="o_footer_copyright_name me-2">Copyright &amp;copy; 2023 Kanak Infosystems LLP. All Rights Reserved. </span>
-          </div>
-       </xpath>
-</template>
+        <xpath expr="//div[hasclass('o_footer_copyright')]" position="replace">
+            <div class="o_footer_copyright text-center pt16 pb16" data-name="Copyright">
+                <span class="o_footer_copyright_name me-2">Copyright &amp;copy; 2023 Kanak Infosystems LLP. All Rights Reserved. </span>
+            </div>
+        </xpath>
+    </template>
 </odoo>

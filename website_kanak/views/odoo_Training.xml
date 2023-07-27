@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
     <template id="odoo_training_form_view" name="Odoo Training">
+        <t t-set="additional_title"> Odoo Official Functional, Technical Training | Odoo Developer Training  | Kanak Infosystems LLP</t>
+        <t t-set="website_meta_description"> We are providing official Odoo functional, technical training programme for odoo developers with all essential odoo learning videos, pdfs, documents. </t>
+        <t t-set="website_meta_keywords"> kanak infosystems llp, odoo functional training, odoo technical training, odoo official training, odoo training, odoo technical training videos, odoo technical training pdf, odoo developer training</t>
         <t t-call="website.layout">
             <t t-set="pageName" t-value="'OdooTraining kanak_odoo_training'" />
             <div id="wrap" class="busineess_odoo_openerp_training_kanak">

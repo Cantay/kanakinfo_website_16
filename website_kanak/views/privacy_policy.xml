@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
     <template id="privacy_policy_page" name="privacy policy">
+        <t t-set="additional_title"> Privacy Policy, Read T&amp;C | Kanak Infosystems</t>
+        <t t-set="website_meta_description"> Read this Privacy Policy Carefully to understand what information we can store and how can we use your information.</t>
         <t t-call="website.layout">
             <t t-set="pageName" t-value="'privacy_policy privacy_policy_kanakinfo'"/>
             <div id="wrap" class="privacy_policy_kanak">

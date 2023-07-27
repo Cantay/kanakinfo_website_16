@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
     <template id="tmp_netsuit_page" name="NetSuite Services">
+        <t t-set="additional_title"> NetSuite ERP Services for Small &amp; Large Businesses</t>
+        <t t-set="website_meta_description"> We are  NetSuite ERP Service Provider which will help you to manage your global business processes. We provide remarkable and extensible NetSuite ERP Solutions.</t>
+        <t t-set="website_meta_keywords"> netsuite services, netsuite service, netsuite customer service, netsuite development services, netsuite services provider, netsuite service providers, netsuite professional services, business software, netsuite erp, netsuite solution provider, netsuite erp services, netsuite expert, top netsuite solution companies, netsuite for service companies, netsuite customization services, best netsuite solution providers, netsuite solution, official netsuite partner</t>
         <t t-call="website.layout">
             <t t-set="pageName" t-value="'Netsuite kanak_netsuite_page'" />
             <div id="wrap" class="oe_structure netsuite-carousel-text">

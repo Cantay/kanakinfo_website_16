@@ -2,6 +2,9 @@
 <odoo>
     <data>
         <template id="tmp_netsuit_support_page" name="NetSuite Support">
+            <t t-set="additional_title"> NetSuite Customer Support Services | Kanak Infosystems LLP</t>
+            <t t-set="website_meta_description"> With NetSuite customer support services, Kanak Infosystems can help you with any technical or product issues you may have. Our team of experts is available 24/7 to answer your questions and help you get the most out of your NetSuite investment.</t>
+            <t t-set="website_meta_keywords"> netsuite customer support, netsuite support, netsuite technical support, netsuite support services, services, cloud erp solution, netsuite solution provider partner, netsuite</t>
             <t t-set="netsuite_support" t-value="tmp_netsuit_support_page"/>
             <t t-call="website.layout">
                 <t t-set="pageName" t-value="'NetsuiteSupport kanak_netsuit_support'"/>

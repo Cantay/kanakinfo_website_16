@@ -1,13 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <odoo>
     <template id="busineess_bi_mobile_android" name="Android Mobile">
-        <t t-set="additional_title"> Android Mobile App Development Company, Android Phone App
-            Developer</t>
-        <t t-set="website_meta_description"> Professional Android mobile apps development company
-            Kanak offering android apps design and develop services by highly skilled android app
-            developers</t>
-        <t t-set="website_meta_keywords">kanak infosystems llp, android phone apps, android app
-            developer, android app development, best android apps, best apps for android, android
-            app development compan </t>
+        <t t-set="additional_title"> Top Android App Development Company – Kanak Infosystems LLP.</t>
+        <t t-set="website_meta_description"> We are a leading Android App Development Company with 10+ years of experience. With a team of experience developers, we can create the best custom apps that fit every business's needs.</t>
+        <t t-set="website_meta_keywords">android phone apps, android app developer, android app development, best android apps, best apps for android, android app development company, android operating system, android application development services, mobile app development company, mobile app development services</t>
         <t t-call="website.layout">
             <t t-set="pageName" t-value="'android kanak_android'" />
             <div id="wrap" class="busineess_bi_mobile_android_kanak">

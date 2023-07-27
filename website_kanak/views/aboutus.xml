@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
     <template id="kanak_aboutus" name="kanak aboutus">
-        <t t-set="additional_title"> Kanak Infosystems - A Leading IT Business Solution &amp;
-            Service Provider</t>
-        <t t-set="website_meta_description">We are leading IT business solution provider company
-            helping our clients in all IT services from development &amp; designing to web
-            promotion. Contact us! </t>
-        <t t-set="website_meta_keywords">kanak infosystems llp, web development services, erp
-            solution, web designing services, digital marketing, mobile app development, business
-            analytics, data integration, odoo development </t>
+        <t t-set="additional_title"> Read Our Story - Kanak Infosystems</t>
+        <t t-set="website_meta_description">Kanak Infosystems provide best Odoo Open Source, ERP Solution &amp; IT Services to various clients in India, USA, UK, Middle East &amp; Europe with 100% assistance.</t>
+        <t t-set="website_meta_keywords">kanak infosystems llp, web development services, erp solution, web designing services, digital marketing, mobile app development, business analytics, data integration, odoo development, software</t>
         <t t-call="website.layout">
             <t t-set="pageName" t-value="'aboutus kanak_aboutus'" />
             <div id="wrap" class="oe_structure oe_empty">

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
     <template id="odoo_shoppe_page" name="OdooShoppe">
+        <t t-set="additional_title"> Best Ecommerce Mobile App for Online Business – OdooShoppe</t>
+        <t t-set="website_meta_description"> Odooshoppe is the best eCommerce mobile app for online businesses. Our platform is designed to give businesses the ability to sell their products &amp; services online with lots of features that businesses can use to grow their online presence.</t>
+        <t t-set="website_meta_keywords"> online shopping marketplace, shopping app online, ecommerce mobile app, ecommerce platform for small businesses, apps for online shopping, odooshoppe, odoo ecommerce mobile app, odoo ecommerce responsive theme, mobile app for odoo ecommerce, best ecommerce mobile app, online business mobile apps, best ecommerce mobile apps, mobile app for ecommerce vendors, odoo shoppe online shopping app, odooshoppe responsive ecommerce app, odoo shoppe mobile application, odoo shoppe online shopping, odooshoppe wholesale ecommerce platforms</t>
         <t t-call="website.layout">
             <t t-set="pageName" t-value="'OdooShoppe kanak_odoo_shoppe'"/>
             <div id="wrap" class="odoo_shoppe">

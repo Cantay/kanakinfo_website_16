@@ -2,6 +2,9 @@
 <odoo>
     <data>
         <template id="frappe_lms_page" name="Frappe LMS Page">
+            <t t-set="additional_title">Frappe LMS - Empower Your Learners with Modern Learning Management</t>
+            <t t-set="website_meta_description">Discover the power of Frappe LMS, the free and open-source learning management system. Empower your learners with a platform designed for the modern age. Try it today!</t>
+            <t t-set="website_meta_keywords">frappe lms, module lms, what lms, moodle alternative, learning management system modules, open source learning platform, open source learning management system, open source lms, free learning management system, erpnext lms, best lms portal, free elearning software, free lms system, learning management system platforms, open source learning, best elearning software, talant lms alternative, best lms software</t>
             <t t-call="website.layout">
                 <t t-set="pageName" t-value="'FrappeLms kanak_frappe_lms'" />
                 <section style="background: linear-gradient(99.13deg, rgba(206, 232, 245, 0.42) 0%, rgba(154, 198, 241, 0) 100%);">

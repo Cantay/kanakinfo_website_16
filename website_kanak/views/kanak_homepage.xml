@@ -4,6 +4,9 @@
         <xpath expr="//div[@id='wrap']" position="replace">
             <t t-set="pageName" t-value="'homepage kanak_main_homepage'" />
             <div id="wrap" class="oe_structure oe_empty">
+                <t t-set="additional_title"> ERP Consultant (Odoo, ERPNext &amp; Netsuite) &amp; Mobile App Development Company</t>
+                <t t-set="website_meta_description"> Looking for an ERP solution like Odoo, ERPNext, or Oracle NetSuite that offers you the best quality, support, &amp; price? Kanak Infosystems is a one-stop shop for all your business needs. Contact us today for a free consultation.</t>
+                <t t-set="website_meta_keywords"> odoo erp, odoo development, odoo services, odoo consulting services, erp solutions, customized software development, web development, mobile app development, crm software, it consulting, business process automation, it outsourcing services, erp consultant, mobile app development company, erp consulting company, odoo ready partner, erpnext partner, oracle netsuite partner</t>
                 <section class="s_carousel_wrapper" data-vxml="001">
                     <t t-set="uniq" t-value="datetime.datetime.now().microsecond" />
                     <div t-attf-id="myCarousel{{uniq}}" class="s_carousel s_carousel_default carousel slide carousel-fade" data-bs-interval="10000">

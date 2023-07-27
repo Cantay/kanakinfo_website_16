@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 	<template id="our_team_page" name="our team">
+        <t t-set="additional_title"> Our Team - Meet the Experts Behind Our Company | Kanak Infosystems LLP.</t>
+        <t t-set="website_meta_description"> Meet our extraordinary team of experts at Kanak Infosystems LLP. Discover the diverse talents, skills, and passion that drive us to deliver exceptional results. Get to know us and let us help you achieve your goals!</t>
+        <t t-set="website_meta_keywords"> team members, expertise, company culture, skills and talents, meet the team, dedicated professionals, team profiles, collaborative work, teamwork, industry experts, join our team, kanak infosystems team, kanak team, kanak infosystems musketeers</t>
         <t t-call="website.layout">
             <t t-set="pageName" t-value="'OurTeam kanak_our_team'"/>
             <div id="wrap" class="our_team_kanak">

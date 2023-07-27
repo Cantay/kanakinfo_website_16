@@ -2,6 +2,9 @@
 <odoo>
     <data>
         <template id="tmp_netsuit_consultant_page" name="NetSuite Consultant">
+            <t t-set="additional_title"> NetSuite Consultant Services: Hire Professionals Now!</t>
+            <t t-set="website_meta_description"> Hire Professional NetSuite Consultant Now from Kanak Infosystems LLP. We Provide expertise in CRM, financials, accounting, manufacturing, supply chain, etc.</t>
+            <t t-set="website_meta_keywords">netsuite consultant, netsuite consultants, netsuite erp consulting, netsuite consulting, netsuite solution consultant, netsuite erp consultant, netsuite modules, netsuite erp modules, netsuite standard modules, netsuite training modules, consultant, erp consultants, erp, netsuite consulting services, netsuite consulting companies, netsuite consulting firms, netsuite consultancy, netsuite consulting company</t>
             <t t-set="netsuite_consultant" t-value="value" />
             <t t-call="website.layout">
                 <t t-set="pageName" t-value="'NetsuiteConsultant kanak_netsuit_consultant'" />

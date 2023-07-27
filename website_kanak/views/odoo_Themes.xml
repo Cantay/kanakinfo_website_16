@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
     <template id="busineess_odoo_openerp_theme" name="Odoo Themes">
-        <t t-set="additional_title">Design And Develop Odoo Themes | E-Commerce Themes | Shop Odoo
-            Themes </t>
-        <t t-set="website_meta_description">Kanak InfoSystems offering cost effective Odoo themes
-            design and development services. Shop stunning Odoo themes, ECommerce themes from our
-            odoo store </t>
-        <t t-set="website_meta_keywords">kanak infosystems llp, odoo themes, odoo theme development,
-            odoo themes download, odoo web templates, free odoo themes </t>
+        <t t-set="additional_title"> Design And Develop Odoo Themes | E-Commerce Themes | Shop Odoo Themes  | Kanak Infosystems LLP</t>
+        <t t-set="website_meta_description"> Kanak InfoSystems offering cost effective Odoo themes design and development services. Shop stunning Odoo themes, ECommerce themes from our odoo store </t>
+        <t t-set="website_meta_keywords"> kanak infosystems llp, odoo themes, odoo theme development, odoo themes download, odoo web templates, free odoo themes</t>
         <t t-call="website.layout">
             <t t-set="pageName" t-value="'OdooTheme kanak_odoo_theme'" />
             <div id="wrap" class="busineess_odoo_openerp_theme_kanak">

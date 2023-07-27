@@ -3,9 +3,9 @@
     <template id="busineess_odoo_openerp_dev" name="Odoo Development">
         <t t-call="website.layout">
             <t t-set="pageName" t-value="'OdooDevelopment kanak_odoo_development'" />
-            <t t-set="additional_title">Odoo Open Source ERP System Development Services | Odoo CRM Consultant </t>
-            <t t-set="website_meta_description">We are dealing in Odoo open source ERP development services offering Odoo CRM, Module development, ERP system development and consultancy services. </t>
-            <t t-set="website_meta_keywords"> kanak infosystems llp, odoo development, odoo open erp, odoo documentation, odoo erp system, odoo erp development, odoo module development, odoo consultant</t>
+            <t t-set="additional_title">Odoo Development Services | OdooERP Consultant | Kanak Infosystems</t>
+            <t t-set="website_meta_description">Odoo Development Services from the leading OdooERP company. We provide custom Odoo development, integration, migration, and consultancy services. Get in touch for a free consultation.</t>
+            <t t-set="website_meta_keywords">odoo development, odoo open erp, odoo erp system, odoo erp development, odoo module development, odoo consultant, odoo open source modules, odoo development services, odoo service provider, odoo consultancy, opensource erp, odoo themes development, odoo web development, odoo development company, open source erp software, odoo erp documentation, odoo vendor, odoo ready partner</t>
             <div id="wrap" class="oe_structure">
                 <section id="main-odoo-banner" class="odoo-dev-banner">
                     <div class="container">

@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
     <template id="busineess_odoo_openerp_install" name="Odoo Installation">
-        <t t-set="additional_title"> Odoo Open ERP Installation | Install Odoo Ubuntu | Install Odoo</t>
-        <t t-set="website_meta_description">Our wide range of Odoo services includes Odoo ERP
-            installation with 24*7 support. We are offering technical &amp; functional ODOO
-            Installation services. </t>
+        <t t-set="additional_title"> Odoo Open ERP Installation | Install Odoo Ubuntu | Install Odoo | Kanak Infosystems LLP</t>
+        <t t-set="website_meta_description">Our wide range of Odoo services includes Odoo ERP installation with 24*7 support. We are offering technical &amp; functional ODOO Installation services.</t>
         <t t-set="website_meta_keywords">kanak infosystems llp </t>
         <t t-call="website.layout">
             <t t-set="pageName" t-value="'OdooInstallation kanak_odoo_installation'" />

@@ -3,6 +3,9 @@
     <data>
         <template id="website_kanak_hr_jobs" inherit_id="website_hr_recruitment.index" name="Kanak Jobs">
             <xpath expr="//div[@id='wrap']" position="replace">
+                <t t-set="additional_title"> Job Openings | We Are Hiring | Kanak Infosystems</t>
+                <t t-set="website_meta_description">  Find Job Opportunities to give your career a boost with Kanakinfosystems. We hire for different positions like Odoo Developers, erpnext developers, React Native developers, ERP Sales Executive, ERP Functional Consultant, UI/UX designers &amp; many more..</t>
+                <t t-set="website_meta_keywords"> kanak job openings, web development jobs, developers jobs, odoo developers job, erp developers job, expert developers, hiring fresher web developers, hiring react native developer, erp sales executive, erpnext developer, erp functional consultant, hiring ui/ux designer, business development executive, we are hiring, join our team</t>
                 <t t-set="pageName" t-value="'careers kanak_careers'"/>
                 <section>
                     <div class="container">

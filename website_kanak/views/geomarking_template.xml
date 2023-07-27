@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
     <template id="geomarking_page" name="Geomarking Page">
+        <t t-set="additional_title">GeoMarking Employee Attendance Tracker | Get a Free Trial Now!!</t>
+        <t t-set="website_meta_description">Geomarking is the perfect attendance tracker app for businesses of all sizes. With Geomarking, you can track employee attendance, locations, and hours worked. Geomarking is easy to use and comes with a free trial. Get started today!</t>
+        <t t-set="website_meta_keywords">geomarking, employee attendance tracker, geomarking employee attendance app, employee attendance mobile app, attendance tracking, apps to track attendance, biometric attendance system, attendance tracker apps, employee attendance sheet, employee attendance calendar, odoo attendance mobile app, employee location tracking app, track employee, employee tracking app</t>
         <t t-call="website.layout">
             <t t-set="pageName" t-value="'geomarking kanak_geomarking'"/>
             <section class="geolocation-banner">

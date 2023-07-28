@@ -80,13 +80,3 @@ class Lead(models.Model):
          string='Type Your Subject')
 
 
-
-class CustomSeoMetadata(models.AbstractModel):
-    _inherit = 'website.seo.metadata'
-
-
-    def _default_website_meta(self):
-        res = super(CustomSeoMetadata, self)._default_website_meta()
-        res['default_opengraph']['og:image'] = self.env['website'].image_url(self, 'image')
-        res['default_twitter']['twitter:image'] = self.env['website'].image_url(self, 'image')
-        return res

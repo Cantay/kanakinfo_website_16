@@ -2,6 +2,7 @@
 <odoo>
     <template id="kanak_blog_post_complete" inherit_id="website_blog.blog_post_complete" name="Blog Post" priority="250">
         <xpath expr="//t[@t-call='website_blog.index']" position="replace">
+            <t t-set="seo_object" t-value="blog_post"/>
             <t t-call="website.layout">
                 <div id="wrap" class="js_blog website_blog">
                     <div class="container">
@@ -131,24 +132,6 @@
                                                 </table>
                                             </div>
                                         </div>
-                                        <t t-set='head'>
-                                            <t t-out='head or ""' />
-                                            <!-- Facebook and linkedin sharing data -->
-                                            <meta property="og:type" content="website" />
-                                            <meta property="og:url" t-att-content="request.httprequest.url" />
-                                            <meta property="og:image" t-attf-content="#{request.httprequest.url_root+blog_post_cover_properties.get('background-image', 'none')[5:-1]}" />
-                                            <meta property="og:description" t-att-content="blog_post.subtitle" />
-                                            <!--  Twitter sharing data -->
-                                            <meta name="twitter:card" content="summary_large_image" />
-                                            <meta name="twitter:site" t-attf-content="@#{res_company.name}" />
-                                            <meta name="twitter:title" t-att-content="blog_post.name" />
-                                            <meta name="twitter:description" t-att-content="blog_post.subtitle" />
-                                            <meta name="twitter:image" t-attf-content="#{request.httprequest.url_root+blog_post_cover_properties.get('background-image', 'none')[5:-1]}" />
-                                            <t t-if="blog_post.custom_json_schema">
-                                                <t t-set="unique_schema" t-value="True" />
-                                                <t t-out="blog_post.json_schema" />
-                                            </t>
-                                        </t>
                                     </article>
                                 </div>
                                 <div class="col-lg-4 col-md-4 col-sm-12" id="blog_right_column">

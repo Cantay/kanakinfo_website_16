@@ -56,12 +56,12 @@
                                     E-commerce websites where you can purchase creative and fully
                                     customizable Odoo Themes. </P>
                                 <p class="text-justify">
-                                    <a href="https://kanakinfosystems.com/contact-us">You can
+                                    <a href="/contactus">You can
                                         request us for Demo</a> ; our team of odoo expert will
                                     assist you with all functionality of your chosen theme. </p>
                             </div>
                             <div class="col-md-12 text-center">
-                                <a target="_blank" href="/shop/category/themes" class="btn btn-primary"> Shop Odoo Themes </a>
+                                <a target="_blank" href="/apps/themes" class="btn btn-primary"> Shop Odoo Themes </a>
                             </div>
                         </div>
                     </div>
@@ -93,7 +93,7 @@
                                             <i class="fa fa-check" aria-hidden="true" /> We can
                                             develop multi-layout themes. </p>
                                         <p style="color:white;">
-                                            <i class="fa fa-check" aria-hidden="true" /> Our <a href="https://kanakinfosystems.com/odoo-development-services">Odoo
+                                            <i class="fa fa-check" aria-hidden="true" /> Our <a href="/odoo-development-services">Odoo
                                                 consultants</a> and Technical experts can integrate Odoo
                                             eCommerce with marketplaces like eBay and Amazon. </p>
                                         <p style="color:white;">

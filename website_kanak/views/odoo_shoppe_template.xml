@@ -24,7 +24,7 @@
                     <div class="container">
                         <div class="row s_block_2_1">
                             <div class="col-lg-11">
-                                <p>Odooshoppe is an Online Shopping Application. It is an Ecommerce Marketplace where vendors can sell their products and customers can choose and buy. This online shopping app is based on the <a href="https://kanakinfosystems.com/blog/react-vs-react-native">React Native Framework</a>. It is a cross-platform <a href="https://kanakinfosystems.com/blog/mobile-app-development-process">mobile application</a>.</p>
+                                <p>Odooshoppe is an Online Shopping Application. It is an Ecommerce Marketplace where vendors can sell their products and customers can choose and buy. This online shopping app is based on the <a href="/blog/react-vs-react-native">React Native Framework</a>. It is a cross-platform <a href="/blog/mobile-app-development-process">mobile application</a>.</p>
                             </div>
                         </div>
                     </div>
@@ -34,7 +34,7 @@
                         <div class="row s_block_3_1">
                             <div class="col-md-7 b3_center">
                                 <h1>What is so Distinctive<br/> About <span class="s_b_3_color_2">OdooShoppe?</span></h1>
-                                <p >This shopping app is based on <a href="https://kanakinfosystems.com/blog/odoo-review">Odoo Backend</a>. Whatever changes made in Odoo Backend will directly reflect in the Mobile App- Front End.</p>
+                                <p >This shopping app is based on <a href="/blog/odoo-review">Odoo Backend</a>. Whatever changes made in Odoo Backend will directly reflect in the Mobile App- Front End.</p>
                             </div>
                             <div class="col-md-5">
                                 <img src="/website_kanak/static/src/img/odoo_shoppe/Image2a1.svg" class="img-fluid  s_block_3_img_1" />
@@ -82,7 +82,7 @@
                         <div class="row s_block_5_1">
                             <div class="col-md-7">
                                 <h2>Odoo Backend</h2>
-                                <p class="s_p_5_1">The app is based on the Odoo Backend. This will further help you in integrating the app with <span class="s_b_5_color1">multiple payment methods,</span> you can also perform sales analysis and make decisions which are in best favor of your business. It will also help you in <a href="https://kanakinfosystems.com/odoo-customization-implementation-services"><span class="s_b_5_color1">customizing the app.</span></a> Whatever changes made in the odoo backend will reflect in your app. You can <a href="https://apps.odoo.com/apps/themes/browse?author=Kanak%20Infosystems%20LLP.">pick a theme</a>, you can put your brand logo and make it completely personalized.<br/>
+                                <p class="s_p_5_1">The app is based on the Odoo Backend. This will further help you in integrating the app with <span class="s_b_5_color1">multiple payment methods,</span> you can also perform sales analysis and make decisions which are in best favor of your business. It will also help you in <a href="/odoo-customization-implementation-services"><span class="s_b_5_color1">customizing the app.</span></a> Whatever changes made in the odoo backend will reflect in your app. You can <a href="https://apps.odoo.com/apps/themes/browse?author=Kanak%20Infosystems%20LLP.">pick a theme</a>, you can put your brand logo and make it completely personalized.<br/>
                                 Odoo Backend also helps in making your business <span class="s_b_5_color1">multi-lingual-</span> Opt for the language your customer base uses.</p>
                                 <div class="row mt32px s_block_5_11">
                                     <div class="col-md-8">

@@ -30,7 +30,7 @@
                             <div class="hidden-text">
                                 <p class="text-justify para-1">The desktop accounting program Frappe Books is free and open-source. It is a contemporary,
                                     functional option that is ideal for small enterprises. The tools to manage accounts, invoices,
-                                    customers, and cash flow are available here. You can use this <a href="https://kanakinfosystems.com/blog/types-of-mobile-apps">cross-platform</a> software in the
+                                    customers, and cash flow are available here. You can use this <a href="/blog/types-of-mobile-apps">cross-platform</a> software in the
                                     same way on Windows, MAC, and Linux because it operates on top of all versions of Windows.
                                     It supports practically all currencies and GST, and managing accounts and invoicing with it is
                                     very easy.</p>
@@ -588,7 +588,7 @@
                                     <h2 class="new_heading" style="font-weight:bolder;color:#003362;margin-top:10px;">Why Frappe <span style="color:red;">Books?</span></h2>
                                 </div>
                                 <div class="why-frappe-part col-md-10 col-sm-10 col-12 col-lg-12">
-                                    <p class="text-center">These days, it&#39;s hard to find desktop software that works offline. Especially so for offline <a href="https://kanakinfosystems.com/blog/freshbooks-vs-frappebooks-desktop-accounting-software-comparison">accounting software</a>. For this reason, we require Frappe Books.</p>
+                                    <p class="text-center">These days, it&#39;s hard to find desktop software that works offline. Especially so for offline <a href="/blog/freshbooks-vs-frappebooks-desktop-accounting-software-comparison">accounting software</a>. For this reason, we require Frappe Books.</p>
                                     <div class="row why-frappe-detail">
                                         <div class="col-md-6 col-6">
                                             <div class="why-frappe-implement">
@@ -641,7 +641,7 @@
                                             <p class="principle-head">No Cloud</p>
                                         </li>
                                     </ul>
-                                    <p class="panel">Frappe Books is independent of the cloud. You will know the situation if a <a href="https://kanakinfosystems.com/blog/best-cloud-server-for-small-business">cloud service provider</a> suspends operations.</p>
+                                    <p class="panel">Frappe Books is independent of the cloud. You will know the situation if a <a href="/blog/best-cloud-server-for-small-business">cloud service provider</a> suspends operations.</p>
                                 </div>
                                 <div class="mb16">
                                     <ul class="flip">
@@ -673,7 +673,7 @@
                 <section>
                     <div class="container">
                         <h3 class="text-center erpnext-team-head">From The ERPNext Team <span style="color:red;">At Kanak Infosystems</span></h3>
-                        <p class="text-center text-justify para-2">We have been providing business software for more than ten years. Incorporating the most significant features of our flagship product <a href="https://kanakinfosystems.com/erpnext-services">ERPNext</a>, we developed a straightforward solution that excels at accounting by learning from our mistakes. We have a potent group of leading software experts who provide our customers with feature-rich, reliable, and <a href="https://kanakinfosystems.com/erp-solutions">cost-effective ERP solutions</a>. The combination of superior technical skill and competitive pricing is something that our staff takes great pride in. Value-added functionality and sophisticated, user-friendly interfaces are highly valued features of our systems.</p>
+                        <p class="text-center text-justify para-2">We have been providing business software for more than ten years. Incorporating the most significant features of our flagship product <a href="/erpnext-services">ERPNext</a>, we developed a straightforward solution that excels at accounting by learning from our mistakes. We have a potent group of leading software experts who provide our customers with feature-rich, reliable, and <a href="/erp-solutions">cost-effective ERP solutions</a>. The combination of superior technical skill and competitive pricing is something that our staff takes great pride in. Value-added functionality and sophisticated, user-friendly interfaces are highly valued features of our systems.</p>
                     </div>
                 </section>
                 <section>
@@ -698,7 +698,7 @@
                                 <div>
                                     <h4><img id="faq_icon_1" class="faq_button_1 faq_button" src="/website_kanak/static/src/img/frappe_book/drop_down.svg" style="max-width: 40px;" /><strong style="color: #003362;margin-left: 10px;font-size: 19px;line-height: 1.5;" class="faq_button_1">What is Frappe ERP?</strong></h4>
                                     <div id="faq_1" style="display:none;">
-                                        <p style="margin-top: 20px;margin-left: 40px;"><a href="https://frappe.io/">Frappe Technologies Pvt. Ltd.</a> developed ERPNext, an open-source integrated <a href="https://kanakinfosystems.com/blog/what-is-erp">enterprise resource planning (ERP) system</a> that uses Frappe, a Python server-side framework.</p>
+                                        <p style="margin-top: 20px;margin-left: 40px;"><a href="https://frappe.io/">Frappe Technologies Pvt. Ltd.</a> developed ERPNext, an open-source integrated <a href="/blog/what-is-erp">enterprise resource planning (ERP) system</a> that uses Frappe, a Python server-side framework.</p>
                                     </div>
                                 </div>
                                 <div>

@@ -170,4 +170,3 @@ class WebsiteKanak(http.Controller):
             }
             crm.sudo().create(values)
             return request.render("website_kanak.tmp_thank_you_form", {})
-        return request.redirect('/odoo-erp-services')

@@ -211,7 +211,7 @@
                         </div>
                         <div class="col-md-6">
                             <h3 class="custom-h2 text-left pb16">How Is Odoo Backend <span class="red">Helpful?</span></h3>
-                            <p style="color: #15456E;">Since the app is based on <a href="https://kanakinfosystems.com/blog/odoo-review">Odoo Framework</a>, You will further be able to customise it with <span style="color: #db4437"><a href="https://apps.odoo.com/apps/modules/browse?author=Kanak%20Infosystems%20LLP.">Odoo Modules</a></span> like <span style="color: #db4437">HR</span> and <span style="color: #db4437">Payroll</span> to ensure smoother management of the <span style="color: #db4437">HR Workflow.</span></p>
+                            <p style="color: #15456E;">Since the app is based on <a href="/blog/odoo-review">Odoo Framework</a>, You will further be able to customise it with <span style="color: #db4437"><a href="https://apps.odoo.com/apps/modules/browse?author=Kanak%20Infosystems%20LLP.">Odoo Modules</a></span> like <span style="color: #db4437">HR</span> and <span style="color: #db4437">Payroll</span> to ensure smoother management of the <span style="color: #db4437">HR Workflow.</span></p>
                             <a type="button" class="btn btn-default about-geo free-trial" href="/contactus"><img src="/website_kanak/static/src/img/geomarking/btn-monitor.svg" />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<span>Get a free Trial</span></a>
                         </div>
                     </div>
@@ -229,7 +229,7 @@
                         <div class="col-md-8">
                             <div class="diving-tracker mt32 col-md-10">
                                 <p class="diving-tracker-head">Biometric - On Time <span style="color: #db4437">Attendance Tracker</span></p>
-                                <p class="text-justify">GeoMarking is a Geographical <a href="https://kanakinfosystems.com/blog/employee-attendance">Employee Attendance</a> Tracking App which helps your employees
+                                <p class="text-justify">GeoMarking is a Geographical <a href="/blog/employee-attendance">Employee Attendance</a> Tracking App which helps your employees
                                     with the Daily CheckIns and CheckOuts. Using this app, your employees will be able to mark their
                                     attendance by registering themselves with their selfie, time and location. It is based on the Odoo
                                     Backend Framework.</p>

@@ -76,10 +76,10 @@
                                     <p class="text-justify">As a leading IT Consulting firm and top NetSuite solutions provider, our team of NetSuite Consultants and developers have the experience and capabilities to service all your NetSuite and related technology needs.</p>
                                     <p class="text-justify">From new implementations to ongoing assistance, we offer industry-leading NetSuite services such as:</p>
                                     <ul>
-                                        <li><a href="https://kanakinfosystems.com/netsuite-consultant" class="text-decoration-none">NetSuite Consultation</a></li>
-                                        <li><a href="https://kanakinfosystems.com/netsuite-implementation" class="text-decoration-none">NetSuite Implementations</a></li>
-                                        <li><a href="https://kanakinfosystems.com/netsuite-support" class="text-decoration-none">NetSuite Support</a></li>
-                                        <li><a href="https://kanakinfosystems.com/netsuite-licensing" class="text-decoration-none">NetSuite Licensing</a></li>
+                                        <li><a href="/netsuite-consultant" class="text-decoration-none">NetSuite Consultation</a></li>
+                                        <li><a href="/netsuite-implementation" class="text-decoration-none">NetSuite Implementations</a></li>
+                                        <li><a href="/netsuite-support" class="text-decoration-none">NetSuite Support</a></li>
+                                        <li><a href="/netsuite-licensing" class="text-decoration-none">NetSuite Licensing</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -95,7 +95,7 @@
                                     <span style="color:#003362;">Oracle NetSuite </span> <span class="red">Features</span>
                                 </font>
                             </h3>
-                            <p style="text-align: center !important;" class="nf">Let’s Explore <a href="https://kanakinfosystems.com/blog/what-is-netsuite" class="text-decoration-none">what NetSuite offers</a>
+                            <p style="text-align: center !important;" class="nf">Let’s Explore <a href="/blog/what-is-netsuite" class="text-decoration-none">what NetSuite offers</a>
                                 and how we can help you as one of the foremost NetSuite consulting firms.</p>
                         </div>
                         <br />
@@ -106,7 +106,7 @@
                                         <span style="color:#003362;">NetSuite ERP</span>
                                     </font>
                                 </p>
-                                <p class="netsuite-reasons-text"><a href="https://kanakinfosystems.com/blog/signs-which-signify-your-business-need-erp-like-netsuite" class="text-decoration-none">NetSuite ERP helps enterprises</a>
+                                <p class="netsuite-reasons-text"><a href="/blog/signs-which-signify-your-business-need-erp-like-netsuite" class="text-decoration-none">NetSuite ERP helps enterprises</a>
                                     to achieve progress and business growth by
                                     effectively optimizing business processes. It also helps to systematize the business
                                     processes and activities in a cloud platform with high-ranking benefits.</p>
@@ -139,7 +139,7 @@
                                         <span class="red">SuiteCommerce</span>
                                     </font>
                                 </p>
-                                <p class="netsuite-reasons-text"><a href="https://kanakinfosystems.com/blog/netsuite-suitecommerce-guide" class="text-decoration-none">SuiteCommerce</a> is the option for NetSuite e-Commerce. It’s easy to set up and
+                                <p class="netsuite-reasons-text"><a href="/blog/netsuite-suitecommerce-guide" class="text-decoration-none">SuiteCommerce</a> is the option for NetSuite e-Commerce. It’s easy to set up and
                                     comes with pre-designed templates, and quick drag-and-drop directing functionality.
                                     It combines inventory, CRM, order management, and financials to create an
                                     engaging shopping experience.</p>
@@ -370,7 +370,7 @@
                             </h3>
                             <p style="text-align: center !important;color:white;">Kanak Infosystems LLP. is a NetSuite Solution Provider, we’re dedicated to ensuring that our clients receive the best NetSuite implementation. We will assist your business with everything from buying a NetSuite license to completely customizing the platform to meet your specific needs. We've helped our clients streamline business processes and the flow of critical information through custom business software creation, implementation, services, and management.</p>
                             <br />
-                            <p style="text-align: center !important;color:white;">If you're looking for NetSuite products or services, we'd be happy to answer questions or queries you may have! Feel free to <a href="https://kanakinfosystems.com/contact-us" class="text-decoration-none">get in touch with us</a> at any time, and we'll be happy to offer you a customizable NetSuite price quote, for what you're looking for, as well as other suggestions that will best fit your business.</p>
+                            <p style="text-align: center !important;color:white;">If you're looking for NetSuite products or services, we'd be happy to answer questions or queries you may have! Feel free to <a href="/contact-us" class="text-decoration-none">get in touch with us</a> at any time, and we'll be happy to offer you a customizable NetSuite price quote, for what you're looking for, as well as other suggestions that will best fit your business.</p>
                             <p style="text-align: center !important;color:white;">Feel free to get in touch with us at any time, and we'll be happy to offer you a customizable NetSuite price quote.</p>
                         </div>
                         <br />
@@ -395,7 +395,7 @@
                                 </div>
                                 <br />
                                 <div>
-                                    <img class="netsuite-experts-help-images" src="/website_kanak/static/src/img/netsuite/cross_arrow.svg"><span style="margin-left: 10px;font-size: 19px;">Enhance and <a href="https://kanakinfosystems.com/blog/netsuite-suitesuccess-upgrade-to-increase-operational-efficiency" class="text-decoration-none">manage operations</a>
+                                    <img class="netsuite-experts-help-images" src="/website_kanak/static/src/img/netsuite/cross_arrow.svg"><span style="margin-left: 10px;font-size: 19px;">Enhance and <a href="/blog/netsuite-suitesuccess-upgrade-to-increase-operational-efficiency" class="text-decoration-none">manage operations</a>
                                         , processes, and information.</span></img>
                                 </div>
                                 <br />
@@ -426,7 +426,7 @@
                             <div class="col-lg-4 col-md-4 col-sm-4">
                                 <div style="background: white;width: 90%;display: block;margin-bottom: 70px;" class="margin_bottom_20px">
                                     <div style="padding: 30px;">
-                                        <img style="width:8%;display: unset;margin-top: -10px;" src="/website_kanak/static/src/img/netsuite/double-check-icon.svg"><span style="margin-left: 10px;"><a href="https://kanakinfosystems.com/blog/netsuite-vs-tally" class="text-decoration-none">Accounting and Financials</a></span></img>
+                                        <img style="width:8%;display: unset;margin-top: -10px;" src="/website_kanak/static/src/img/netsuite/double-check-icon.svg"><span style="margin-left: 10px;"><a href="/blog/netsuite-vs-tally" class="text-decoration-none">Accounting and Financials</a></span></img>
                                         <br />
                                         <img style="width:8%;display: unset;margin-top: -10px;" src="/website_kanak/static/src/img/netsuite/double-check-icon.svg"><span style="margin-left: 10px;">Order management</span></img>
                                         <br />
@@ -445,7 +445,7 @@
                                         <br />
                                         <img style="width:8%;display: unset;margin-top: -10px;" src="/website_kanak/static/src/img/netsuite/double-check-icon.svg"><span style="margin-left: 10px;">NetSuite Billing</span></img>
                                         <br />
-                                        <img style="width:8%;display: unset;margin-top: -10px;" src="/website_kanak/static/src/img/netsuite/double-check-icon.svg"><span style="margin-left: 10px;"><a href="https://kanakinfosystems.com/blog/power-of-netsuite-kpis" class="text-decoration-none">NetSuite Integrations</a>
+                                        <img style="width:8%;display: unset;margin-top: -10px;" src="/website_kanak/static/src/img/netsuite/double-check-icon.svg"><span style="margin-left: 10px;"><a href="/blog/power-of-netsuite-kpis" class="text-decoration-none">NetSuite Integrations</a>
                                         </span></img>
                                     </div>
                                 </div>

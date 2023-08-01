@@ -29,11 +29,11 @@
                                 healthcare organizations. Healthcare providers, clinics, and hospitals can take advantage of the
                                 features provided by Frappe Healthcare to utilize ERPNext&#39;s Healthcare domain fully. It is built
                                 using Frappe, a full-stack, meta-data-driven web framework, and seamlessly incorporates
-                                ERPNext, the most <a href="https://kanakinfosystems.com/blog/project-management-methodologies">agile</a> ERP software. Most of the design for Frappe Healthcare is built on
+                                ERPNext, the most <a href="/blog/project-management-methodologies">agile</a> ERP software. Most of the design for Frappe Healthcare is built on
                                 HL7 FHIR (Fast Health Interoperability Resources), which aids in effectively managing
                                 healthcare operations.</p>
                             <p class="text-justify">By scheduling Appointments, obtaining Vitals, managing Medication Orders, and maintaining
-                                Investigation Orders by recording Patient Encounters, <a href="https://kanakinfosystems.com/blog/erpnext-for-healthcare-industry">ERPNext healthcare</a> assists you in
+                                Investigation Orders by recording Patient Encounters, <a href="/blog/erpnext-for-healthcare-industry">ERPNext healthcare</a> assists you in
                                 managing your hospital, clinic, or practice effectively. You can quickly access a patient&#39;s medical
                                 history at any moment to review the patient&#39;s previous illnesses and medical interventions,
                                 supporting you in delivering efficient, high-quality care. You can handle various ICD 10
@@ -392,7 +392,7 @@
                             <div style="padding:10pt">
                                 <img src="/website_kanak/static/src/img/frappe_healthcare/paperless-workflows.svg" class="img-fluid" style="width:43px;" />
                                 <p class="benefit-frappe-head" style="color: #FF8686">Paperless Workflows</p>
-                                <p class="text-justify">By fully <a href="https://kanakinfosystems.com/blog/set-workflow-in-erpnext">automating the workflows</a>, they become
+                                <p class="text-justify">By fully <a href="/blog/set-workflow-in-erpnext">automating the workflows</a>, they become
                                     paperless, which increases
                                     data availability and lowers the
                                     chance of data loss.</p>
@@ -519,8 +519,8 @@
             </section>
             <section id="frappe-health-erpnext" class=" pt32 pb32">
                 <div class="container">
-                    <p class="text-justify">Building the Healthcare module by extending other enterprise capabilities of <a href="https://kanakinfosystems.com/erpnext-services">ERPNext</a> was
-                        deemed the best option by the <a href="https://kanakinfosystems.com/contact-us">development team</a>. The HMS includes every other enterprise-
+                    <p class="text-justify">Building the Healthcare module by extending other enterprise capabilities of <a href="/erpnext-services">ERPNext</a> was
+                        deemed the best option by the <a href="/contactus">development team</a>. The HMS includes every other enterprise-
                         level operational necessity for managing a healthcare facility. With ERPNext healthcare, you
                         receive access to the other elements of ERPNext, such as financial accounting, multi-company
                         setup, MIS reporting, etc., in contrast to other point solutions with the ERM or any other
@@ -552,7 +552,7 @@
                             <div>
                                 <h4><img id="faq_icon_1" class="faq_button_1 faq_button" src="/website_kanak/static/src/img/frappe_healthcare/drop_down.svg" /><strong style="color: #003362;margin-left: 10px;font-size: 19px;line-height: 1.5;" class="faq_button_1">Can Frappe Healthcare be integrated with other ERP features like supplies, inventory, etc.?</strong></h4>
                                 <div id="faq_1" style="display:none;">
-                                    <p style="margin-top: 20px;margin-left: 40px;">Frappe Healthcare is the industry specific version offered by ERPNext and has various features that will help healthcare practitioners, clinics, and hospitals. And since it is an <a href="https://kanakinfosystems.com/blog/what-is-erp">open-source ERP Software</a>
+                                    <p style="margin-top: 20px;margin-left: 40px;">Frappe Healthcare is the industry specific version offered by ERPNext and has various features that will help healthcare practitioners, clinics, and hospitals. And since it is an <a href="/blog/what-is-erp">open-source ERP Software</a>
                                         , you can integrate with other features.</p>
                                 </div>
                             </div>
@@ -567,7 +567,7 @@
                                 <h4><img class="faq_button faq_button_3" id="faq_icon_3" src="/website_kanak/static/src/img/frappe_healthcare/drop_down.svg" />
                                     <strong style="color: #003362;margin-left: 10px;font-size: 19px;line-height: 1.5;" class="faq_button_3">Is there any Demo?</strong></h4>
                                 <div id="faq_3" style="display:none;">
-                                    <p style="margin-top: 20px;margin-left: 40px;">Yes, Kanak Infosystems LLP offers a <a href="https://kanakinfosystems.com/contact-us">consultation and demo with the industry experts</a>. You can even get a price quote for the implementation after the demo.</p>
+                                    <p style="margin-top: 20px;margin-left: 40px;">Yes, Kanak Infosystems LLP offers a <a href="/contactus">consultation and demo with the industry experts</a>. You can even get a price quote for the implementation after the demo.</p>
                                 </div>
                             </div>
                             <div>

@@ -29,14 +29,14 @@
                             <h1 class="erp_heading">ERPNext : A Comprehensive &amp; Customizable ERP Solution</h1>
                             <p class="text-justify">ERPNext provides various business modules, including CRM, sales, manufacturing, project
                                 management, purchases, and human resource management. It also has industry-specific modules
-                                that address the education, <a href="https://kanakinfosystems.com/blog/erpnext-for-healthcare-industry">healthcare</a>
-                                , <a href="https://kanakinfosystems.com/blog/erp-implementation-for-nonprofit-organizations">nonprofit</a>
+                                that address the education, <a href="/blog/erpnext-for-healthcare-industry">healthcare</a>
+                                , <a href="/blog/erp-implementation-for-nonprofit-organizations">nonprofit</a>
                                 , and agriculture sectors and the primary module
                                 that every organization needs.</p>
                             <p class="text-justify">Built on the MariaDB database system and a server-side framework based on Python, ERPNext is an
-                                integrated <a href="https://kanakinfosystems.com/blog/what-is-erp">Enterprise Resource Planning (ERP)</a>
+                                integrated <a href="/blog/what-is-erp">Enterprise Resource Planning (ERP)</a>
                                 program created by <a href="https://frappe.io/">Frappe Technologies Pvt. Ltd.</a></p>
-                            <p class="text-justify">Python was used to build the <a href="https://kanakinfosystems.com/blog/why-replace-your-legacy-software-with-erp-systems">open-source ERP software</a> built on the MariaDB database. The
+                            <p class="text-justify">Python was used to build the <a href="/blog/why-replace-your-legacy-software-with-erp-systems">open-source ERP software</a> built on the MariaDB database. The
                                 program is made available under GNU GPLv3 licensing. According to your business demands and
                                 requirements, ERPNext lets you completely customize the modules. ERPNext can be used to
                                 manage every aspect of your business operations as an alternative to other proprietary software.
@@ -112,7 +112,7 @@
                                     <p>Vendor LockIn</p>
                                 </li>
                             </ul>
-                            <p class="text-justify"><a href="https://kanakinfosystems.com/blog/erpnext-everything-you-need-to-know-about-it">ERPNext software</a>
+                            <p class="text-justify"><a href="/blog/erpnext-everything-you-need-to-know-about-it">ERPNext software</a>
                                 , unlike other proprietary tools, does not require vendor lock-in, allowing you to switch vendors as needed.</p>
                         </div>
                         <div class="col-md-4 mt16 mb16">
@@ -273,7 +273,7 @@
                         </div>
                         <div class="col-md-10 offset-md-1">
                             <h4 class="implement-head"><span><img src="/website_kanak/static/src/img/erp-next/icon2.png" alt="" /></span> ERPNext Customization</h4>
-                            <p class="text-justify">Since <a href="https://kanakinfosystems.com/blog/set-workflow-in-erpnext">every business has different workflows</a>
+                            <p class="text-justify">Since <a href="/blog/set-workflow-in-erpnext">every business has different workflows</a>
                                 and business processes, as was already mentioned,
                                 ERPNext consists of several modules that can be used on default or out-of-the-box vanilla
                                 implementation. As such, we offer you customization services since being Open Source - they can be
@@ -291,7 +291,7 @@
                         </div>
                         <div class="col-md-10 offset-md-1">
                             <h4 class="implement-head"><span><img src="/website_kanak/static/src/img/erp-next/icon4.png" alt="" /></span> ERPNext AMC &amp; Support</h4>
-                            <p class="text-justify"><a href="https://kanakinfosystems.com/contact-us">Our team provides assistance</a>, which can be a continuous process. Depending on the need, our
+                            <p class="text-justify"><a href="/contactus">Our team provides assistance</a>, which can be a continuous process. Depending on the need, our
                                 support programs are based on quarterly, half-yearly, and annual intervals. To make sure the
                                 software runs without a hitch, we undertake and provide you with complete project support. We
                                 also make sure that our client&#39;s questions are quickly answered. Therefore, our resource operates
@@ -304,7 +304,7 @@
                         <div class="col-md-10 offset-md-1">
                             <h4 class="implement-head"><span><img src="/website_kanak/static/src/img/erp-next/icon6.png" alt="" /></span> ERPNext Consultancy</h4>
                             <p class="text-justify">Our staff also provides consultations as a service. The range of consultation services offered by ERPNext includes the implementation of modules, customization, industry-specific advice, and
-                                more. Our consulting staff has extensive knowledge of deploying many <a href="https://kanakinfosystems.com/blog/erp-benefits-for-manufacturing-industry">ERP systems in manufacturing</a>, trading, and other industries.</p>
+                                more. Our consulting staff has extensive knowledge of deploying many <a href="/blog/erp-benefits-for-manufacturing-industry">ERP systems in manufacturing</a>, trading, and other industries.</p>
                         </div>
                     </div>
                 </div>
@@ -341,7 +341,7 @@
                         <div class="col-md-6">
                             <ul>
                                 <li class="mb16">
-                                    <p class="text-justify">The manufacturing and <a href="https://kanakinfosystems.com/blog/inventory-planning">inventory management</a> features of ERPNext, which let users control
+                                    <p class="text-justify">The manufacturing and <a href="/blog/inventory-planning">inventory management</a> features of ERPNext, which let users control
                                         stocks, valuations, and inventory warehouses, will be valued by businesses engaged in
                                         distribution and logistics management.</p>
                                 </li>
@@ -359,13 +359,13 @@
                     <div class="row">
                         <div class="col-md-6 pt16">
                             <h3 class="text-left erp_heading">Kanak <span class="red">Infosystems</span> – ERPNext Solution Partner</h3>
-                            <p class="text-justify">ERPNext is GNU (General Public License v3) licensed, free, and open-source software. We (<a href="https://kanakinfosystems.com/">Kanak InfoSystems LLP.</a>) are a premier provider of ERPNext solutions (Installation, development, and
+                            <p class="text-justify">ERPNext is GNU (General Public License v3) licensed, free, and open-source software. We (<a href="/">Kanak InfoSystems LLP.</a>) are a premier provider of ERPNext solutions (Installation, development, and
                                 implementation) with a track record of assisting businesses with internal process improvements
                                 using ERPNext products and solutions to cut costs and increase effectiveness.</p>
                             <p class="text-justify">We offer the customization and deployment of ERPNext. Our team can set up, implement, and
-                                <a href="https://kanakinfosystems.com/contact-us">configure ERPNext for your company</a>. We&#39;ve got you covered, no matter how complicated your
+                                <a href="/contactus">configure ERPNext for your company</a>. We&#39;ve got you covered, no matter how complicated your
                                 workflow is. We&#39;ve put much effort into ERPNext, working on things like Tally integration and
-                                adding voice capabilities (using Amazon Alexa). Our open-source ERPNext Platform-based <a href="https://kanakinfosystems.com/erp-solutions">ERP Solutions</a> optimize your company&#39;s processes throughout the entire business life cycle, increase
+                                adding voice capabilities (using Amazon Alexa). Our open-source ERPNext Platform-based <a href="/erp-solutions">ERP Solutions</a> optimize your company&#39;s processes throughout the entire business life cycle, increase
                                 visibility, fortify your company, and ultimately increase profitability.</p>
                                 <div class="text-center pb16">
                                     <a type="button" class="btn btn-primary mx-auto" href="/contactus">Get a Free Consultation</a>

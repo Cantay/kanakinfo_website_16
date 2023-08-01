@@ -117,7 +117,7 @@
             'website_kanak/static/src/js/script.js',
             'website_kanak/static/src/js/faq.js',
             'website_kanak/static/src/js/career_search.js',
-            
+            'https://www.google.com/recaptcha/api.js',
         ],
         'web._assets_primary_variables':[
             ('after', 'website/static/src/scss/primary_variables.scss','website_kanak/static/src/scss/variable.scss')

@@ -188,7 +188,7 @@
         </record>
         <record id="menu_web_netsuite_support" model="website.menu">
 			<field name="name">Netsuite Support</field>
-			<field name="url">/netsuite_support</field>
+			<field name="url">/netsuite-support</field>
 			<field name="website_id">1</field>
 			<field name="parent_id" ref="website_kanak.menu_netsuite"/>
 			<field name="sequence">50</field>
@@ -212,7 +212,7 @@
         </record>
         <record id="menu_frappe_healthcare" model="website.menu">
             <field name="name">Frappe Healthcare</field>
-            <field name="url">/frappe_healthcare</field>
+            <field name="url">/frappe-healthcare</field>
             <field name="website_id">1</field>
             <field name="parent_id" ref="website_kanak.menu_erpnext" />
             <field name="sequence" type="int">30</field>

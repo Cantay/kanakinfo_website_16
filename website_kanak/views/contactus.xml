@@ -146,6 +146,9 @@
                                                         </div>
                                                     </div>
                                                 </div>
+                                                <div class="mb-0 py-2 col-12 d-flex justify-content-end  s_website_form_field">
+                                                    <div class="g-recaptcha contactus-recapcha" t-att-data-sitekey="website.recaptcha_site_key" data-theme="red"></div>
+                                                </div>
                                                 <div class="mb-0 py-2 col-12 s_website_form_submit" data-name="Submit Button">
                                                     <div style="width: 200px;" class="s_website_form_label" />
                                                     <a href="#" role="button" class="btn btn-primary btn-lg s_website_form_send">Submit</a>

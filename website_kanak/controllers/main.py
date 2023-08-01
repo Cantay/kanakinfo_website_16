@@ -3,6 +3,8 @@
 from odoo import http, _
 from odoo.http import request
 from odoo.addons.portal.controllers import portal
+from odoo.addons.website_crm.controllers.website_form import WebsiteForm
+import json
 
 
 class WebsiteKanak(http.Controller):
@@ -61,7 +63,7 @@ class WebsiteKanak(http.Controller):
     def frappe_books(self, **post):
         return request.render('website_kanak.frappe_book_page', {})
 
-    @http.route('/frappe_healthcare', auth="public", website=True)
+    @http.route('/frappe-healthcare', auth="public", website=True)
     def frappe_healthcare(self, **kw):
         return http.request.render('website_kanak.frappe_healthcare_page', {})
 
@@ -84,7 +86,7 @@ class WebsiteKanak(http.Controller):
     def netsuite_webpage(self, **kw):
         return http.request.render('website_kanak.tmp_netsuit_page',{})
 
-    @http.route('/netsuite_support', auth='public', website=True)
+    @http.route('/netsuite-support', auth='public', website=True)
     def netsuite_support_webpage(self, **kw):
         return http.request.render('website_kanak.tmp_netsuit_support_page',{})
         
@@ -170,3 +172,16 @@ class WebsiteKanak(http.Controller):
             }
             crm.sudo().create(values)
             return request.render("website_kanak.tmp_thank_you_form", {})
+
+
+class WebsiteForm(WebsiteForm):
+    @http.route('/website_form/<string:model_name>', type='http', auth="public", methods=['POST'], website=True)
+    def website_form(self, model_name, **kwargs):
+        if model_name == 'crm.lead':
+            if 'g-recaptcha-response' in kwargs and request.website.is_captcha_valid(kwargs['g-recaptcha-response']):
+                res = super(WebsiteForm, self).website_form(model_name, **kwargs)
+            else:
+                return json.dumps(False)
+        if model_name != 'crm.lead':
+            res = super(WebsiteForm, self).website_form(model_name, **kwargs)
+        return res

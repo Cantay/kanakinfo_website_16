@@ -6,7 +6,7 @@ from odoo.http import request
 
 class KanakErpNextWebsite(http.Controller):
 
-	@http.route(['/erpnext-services'], type='http', auth="public", website=True)
+	@http.route(['/erpnext-frappe-services'], type='http', auth="public", website=True)
 	def erp_next_page(self, **post):
 		return request.render("kanak_website_erpnext.erpnext_services", {})
 

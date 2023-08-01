@@ -160,7 +160,7 @@
 
         <record id="menu_web_netsuite" model="website.menu">
 			<field name="name">Netsuite</field>
-			<field name="url">/netsuite_webpage</field>
+			<field name="url">/netsuite-services</field>
 			<field name="website_id">1</field>
 			<field name="parent_id" ref="website_kanak.menu_netsuite"/>
 			<field name="sequence">10</field>

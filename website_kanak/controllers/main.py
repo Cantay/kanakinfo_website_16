@@ -80,7 +80,7 @@ class WebsiteKanak(http.Controller):
         return http.request.render('website_kanak.odoo_training_form_view',{})
 
     
-    @http.route('/netsuite_webpage' , auth="public", website=True)
+    @http.route('/netsuite-services' , auth="public", website=True)
     def netsuite_webpage(self, **kw):
         return http.request.render('website_kanak.tmp_netsuit_page',{})
 

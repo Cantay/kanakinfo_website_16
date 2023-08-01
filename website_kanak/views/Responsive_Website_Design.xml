@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <template id="service_web_responsive" name="Responsive Website Design">
+    <t t-set="additional_title">Responsive Website Design Services | Responsive Web Design Company </t>
+    <t t-set="website_meta_description">We are offering flawless responsive website design services at unbeatable prices. Best responsive websites we design and deliver on time. </t>
+    <t t-set="website_meta_keywords">kanak infosystems llp, best responsive websites, responsive web designs, responsive web design services </t>
+    <t t-call="website.layout">
+      <div id="wrap" class="service_web_responsive_kanak">
+        <div class="oe_structure" />
+        <section id="main-odoo-resweb-banner">
+          <div class="overlay">
+            <div class="main-kanak-banner">
+              <div class="main-new-odoo-themes-banner">
+                <span class="kanak-odoo-themes-bnr1"> RESPONSIVE</span>
+                <span class="kanak-odoo-themes-bnr2"> WEBSITE DESIGN </span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="oe_structure" />
+        <div class="clearfix" />
+        <section id="main-odoo-deve2">
+          <div class="col-md-12 workpage-home-work">
+            <span class="all-home-colour">
+              <a href="/"> Home </a>
+            </span>
+            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+            <span class="all-home-colour">
+              <a href="/our-services"> Our Services </a>
+            </span>
+            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+            <span class="all-home-colour">
+              <a> Web Designing </a>
+            </span>
+            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+            <span class="all-work-colour">Responsive Website Design</span>
+          </div>
+        </section>
+        <div class="oe_structure" />
+        <div class="clearfix" />
+        <section>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 for-spacing-all">
+                <h1 class="for-color-reso-1a mt8"> Best Responsive Website Design Services </h1>
+                <p>
+                  Responsive Website Designing is an advanced approach towards web design and development which is depend on the user’s action behaviour like device size (Desktop, Tablet, Mobile), Orientations (Landscape / Portrait) or Platform (Windows, Android, Ios). According to this high tech world prediction Statista says
+                  <span class="resweb-class1"> “The mobile users are forecasted to grow to 5.07 billion across the globe by 2019.” </span>
+                </p>
+                <p>
+                  As this is time of increasing access of smartphones the Responsive Web Design is not just a trend now but it becomes necessity. Your website design must be flexible according to all devices, orientations and platforms. It is most important to make your website responsive and must be optimized page widths, layout, colors, fonts, graphics, texts and designs get auto-adjusted from the desktop to any other device.
+                </p>
+                <p> Kanak InfoSystems is a leading web design and development company who is also offering a professional Responsive website designing services. Our aim is to deliver best out of best and upto 100% customer satisfaction, our professionals design and develop your website is such a way that it would be accessible on all devices and platforms. </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="oe_structure" />
+        <div class="clearfix" />
+        <section id="main-ab-all-themes">
+          <div id="parallex-home-odoo-resweb2" class="parallex-resweb-1">
+            <div class="overlay-ab">
+              <div class="container">
+                <div class="row for-spacing-all">
+                  <div class="col-md-12 social-a1 for-spacing-all">
+                    <h2 class="for-color-resweb-1aa mt8"> Why Should We Use Responsive Website Design </h2>
+                    <p class="for-color-social-1aa">
+                      Your business customers or your website visitors can visit your website from any device may be from their Desktop, Mobile or Tablets so, in order to ensure that your website is looks good and easy to use on any device it is mandatory to have responsive website design.
+                    </p>
+                    <p class="resweb-class2 mb0">Increasing Usage of Mobile! </p>
+                    <p class="resweb-class3"> This is the time when mobile usage is rapidly growing at an extremely high rate, so if your website is not responsive you may have lost your potential customers and lot of business opportunities.</p>
+                    <p class="resweb-class2 mb0"> Responsive Website is Efficient in Terms of Cost and Time!</p>
+                    <p class="resweb-class3"> Responsive web development helps you in to save your time and money as well. As responsive web development allows you to optimize your website in all aspects with in a single go, which comes into save your time and off course money also.</p>
+                    <p class="resweb-class2 mb0"> Best for Mobile Search Results!</p>
+                    <p class="resweb-class3"> If you have a responsive website then it is a good practise to get high search engine ranking as well as Mobile search results when we talk in terms of SEO. A responsive website helps you take benefit of search engine credibility. </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="oe_structure" />
+        <div class="clearfix" />
+        <section>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 for-spacing-all">
+                <h3 class="resweb-class4"> Our Responsive Web Design Service Includes: </h3>
+                <div class="row-fluid list-features">
+                  <div class="col-md-1 col-sm-1"></div>
+                  <div class="col-md-2 col-sm-2">
+                    <div class="feature">
+                      <img class="img-responsive pngpng" src="/website_kanak/static/src/img/all-new/our_sevices/web-design/Responsive Website Design/resweb1.png" alt="easy to use responsive web designs"/>
+                      <p class="custom_features_text1">Flexible And Easy to Use Designs</p>
+                    </div>
+                  </div>
+                  <div class="col-md-2 col-sm-2">
+                    <div class="feature">
+                      <img class="img-responsive pngpng" src="/website_kanak/static/src/img/all-new/our_sevices/web-design/Responsive Website Design/resweb2.png" alt="user friendly interface web design services"/>
+                      <p class="custom_features_text1">User Friendly Interface</p>
+                    </div>
+                  </div>
+                  <div class="col-md-2 col-sm-2">
+                    <div class="feature">
+                      <img class="img-responsive pngpng" src="/website_kanak/static/src/img/all-new/our_sevices/web-design/Responsive Website Design/resweb3.png" alt="custom website layout services"/>
+                      <p class="custom_features_text1">Custom Website Layouts And Features</p>
+                    </div>
+                  </div>
+                  <div class="col-md-2 col-sm-2">
+                    <div class="feature">
+                      <img class="img-responsive pngpng" src="/website_kanak/static/src/img/all-new/our_sevices/web-design/Responsive Website Design/resweb4.png" alt="responsive design support &amp; maintenance services"/>
+                      <p class="custom_features_text1">Responsive Design Support And Maintenance</p>
+                    </div>
+                  </div>
+                  <div class="col-md-2 col-sm-2">
+                    <div class="feature">
+                      <img class="img-responsive pngpng" src="/website_kanak/static/src/img/all-new/our_sevices/web-design/Responsive Website Design/resweb5.png" alt="cost effective services"/>
+                      <p class="custom_features_text1">Cost Effective Services</p>
+                    </div>
+                  </div>
+                  <div class="col-md-1 col-sm-1"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="oe_structure" />
+        <div class="clearfix" />
+        <section>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 process-img-hire for-spacing-all">
+                <p class="hire-contactus mt16 mb16">
+                  <a target="_blank" href="/contactus"> Hire Website Developer </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="oe_structure"/>
+        <div class="clearfix" />
+      </div>
+    </t>
+  </template>
+</odoo>

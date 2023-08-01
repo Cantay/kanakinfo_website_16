@@ -46,7 +46,7 @@
                                 </p>
                                 <section class="s_website_form" data-vcss="001" data-snippet="s_website_form">
                                     <div class="container">
-                                        <form id="contactus_form" action="/website/form/" method="post" enctype="multipart/form-data" class="o_mark_required" data-mark="*" data-model_name="crm.lead" data-success-mode="redirect" data-success-page="/contactus-thank-you" data-pre-fill="true">
+                                        <form id="contactus_form" action="/website_form/" method="post" enctype="multipart/form-data" class="o_mark_required" data-mark="*" data-model_name="crm.lead" data-success-mode="redirect" data-success-page="/contactus-thank-you" data-pre-fill="true">
                                             <div class="s_website_form_rows row s_col_no_bgcolor">
                                                 <div class="mb-0 py-2 col-12 s_website_form_field s_website_form_custom s_website_form_required" data-type="char" data-name="Field">
                                                     <div class="row s_col_no_resize s_col_no_bgcolor">
@@ -147,7 +147,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="mb-0 py-2 col-12 d-flex justify-content-end  s_website_form_field">
-                                                    <div class="g-recaptcha contactus-recapcha" t-att-data-sitekey="website.recaptcha_site_key" data-theme="red"></div>
+                                                    <div class="g-recaptcha contactus-recapcha" t-att-data-sitekey="website.recaptcha_site_key" data-theme="red" data-name="g-recaptcha-response"></div>
                                                 </div>
                                                 <div class="mb-0 py-2 col-12 s_website_form_submit" data-name="Submit Button">
                                                     <div style="width: 200px;" class="s_website_form_label" />

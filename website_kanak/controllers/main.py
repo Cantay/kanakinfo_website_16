@@ -3,7 +3,7 @@
 from odoo import http, _
 from odoo.http import request
 from odoo.addons.portal.controllers import portal
-from odoo.addons.website_crm.controllers.website_form import WebsiteForm
+from odoo.addons.website.controllers.form import WebsiteForm
 import json
 
 

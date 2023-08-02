@@ -118,7 +118,8 @@
             'website_kanak/static/src/js/faq.js',
             'website_kanak/static/src/js/career_search.js',
             'https://www.google.com/recaptcha/api.js',
-            '//code.tidio.co/yc9lvfu5o10j8k6vh5s6atk9zuhkqdil.js'
+            '//code.tidio.co/yc9lvfu5o10j8k6vh5s6atk9zuhkqdil.js',
+            'http://static.getbutton.io/widget-send-button/js/init.js',
         ],
         'web._assets_primary_variables':[
             ('after', 'website/static/src/scss/primary_variables.scss','website_kanak/static/src/scss/variable.scss')

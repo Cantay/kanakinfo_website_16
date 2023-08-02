@@ -61,7 +61,7 @@
 
         'views/odoo_erp_services.xml',
         'views/template.xml',
-        
+        'views/header.xml',
     ],
     'demo': [
     ],
@@ -110,7 +110,7 @@
             'website_kanak/static/src/scss/netsuite_consultant.scss',
             'website_kanak/static/src/scss/netsuite_licensing.scss',
             'website_kanak/static/src/scss/netsuite_support.scss',  
-
+            'website_kanak/static/src/scss/top_header.scss',
             'website_kanak/static/src/scss/contactus.scss',
             'website_kanak/static/src/scss/odoo_website.scss',
             
@@ -118,6 +118,7 @@
             'website_kanak/static/src/js/faq.js',
             'website_kanak/static/src/js/career_search.js',
             'https://www.google.com/recaptcha/api.js',
+            '//code.tidio.co/yc9lvfu5o10j8k6vh5s6atk9zuhkqdil.js'
         ],
         'web._assets_primary_variables':[
             ('after', 'website/static/src/scss/primary_variables.scss','website_kanak/static/src/scss/variable.scss')

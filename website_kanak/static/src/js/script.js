@@ -120,7 +120,8 @@ odoo.define('website_kanak.script', function(require) {
         items: 2,
         loop: true,
         margin: 20,
-        nav: true,
+        dots: false,
+        nav: false,
         autoplay: true,
         autoplayTimeout: 3000,
         autoplayHoverPause: false,
@@ -132,8 +133,8 @@ odoo.define('website_kanak.script', function(require) {
         }
     });
 
-    $(".industries_we_serve .owl-carousel .owl-prev").html('');
-    $(".industries_we_serve .owl-carousel .owl-next").html('');
+    // $(".industries_we_serve .owl-carousel .owl-prev").html('');
+    // $(".industries_we_serve .owl-carousel .owl-next").html('');
 
 
     $('.frappe-healthcare-slide .owl-carousel').owlCarousel({
@@ -550,6 +551,4 @@ odoo.define('website_kanak.script', function(require) {
                 height: '321px',
         }, 1000);
     });
-
-
 });

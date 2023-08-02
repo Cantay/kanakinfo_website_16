@@ -147,9 +147,9 @@ class WebsiteKanak(http.Controller):
         return jobs_list
 
 
-    @http.route(['/odoo-erp-services'], type='http', auth="public", website=True)
-    def odoo_developer(self, **post):
-        return request.render("website_kanak.odoo_erp_services", {})
+    # @http.route(['/odoo-erp-services'], type='http', auth="public", website=True)
+    # def odoo_developer(self, **post):
+    #     return request.render("website_kanak.odoo_erp_services", {})
 
     @http.route(['/odooservice-thankyou'], type='http', auth="public", methods=['POST'], website=True)
     def odoo_erp_service(self, **post):

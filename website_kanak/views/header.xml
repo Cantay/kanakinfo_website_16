@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="custom_header" inherit_id="web.frontend_layout" priority="15">
+        <xpath expr="//div[@id='wrapwrap']/header/img" position="before">
+            <div class="wraper_header_top d-none d-lg-block">
+               <div class="container">
+                  <div class="row header_top">
+                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 text-left">
+                        <div class="header_top_item">
+                           <div class="header-data-social">
+                              <ul class="social">
+                                 <li class="facebook"><a href="https://www.facebook.com/kanakinfosystems/" target="&quot;_blank&quot;"><i class="fa fa-facebook"></i></a></li>
+                                 <li class="twitter"><a href="https://twitter.com/KanakInfosys" target="&quot;_blank&quot;"><i class="fa fa-twitter"></i></a></li>
+                                 <li class="linkedin"><a href="https://www.linkedin.com/company/kanak-infosystems-llp./" target="&quot;_blank&quot;"><i class="fa fa-linkedin"></i></a></li>
+                                 <li class="pinterest"><a href="https://www.instagram.com/kanakinfosystemsllp/" target="&quot;_blank&quot;"><i class="fa fa-instagram"></i></a></li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 text-right">
+                        <div class="header_top_item">
+                           <ul class="contact">
+                              <li class="phone"><i class="fa fa-phone"></i> 
+                                <img src="/website_kanak/static/src/img/india-icon.png" alt="INDIA ICON" data-no-retina=""/> &amp;nbsp; +91 981-810-8884, +91 114-214-3250 &amp;nbsp; &amp;nbsp;</li>
+                              <li class="email"><i class="fa fa-envelope"></i> info@kanakinfosystems.com</li>
+                           </ul>
+                           <div class="header_main_action_buttons float-end">
+                              <a class="btn btn-one" href="/apps"><i class="fa fa-check-square-o"></i> Apps</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+        </xpath>
+    </template>
+</odoo>

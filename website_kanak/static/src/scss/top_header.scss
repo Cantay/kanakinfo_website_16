@@ -1,0 +1,92 @@
+.wraper_header_top{
+    background-color: #003362;
+    width: 100%;
+    .header_top_item {
+        .header-data-social {
+            display: inline-block;
+            vertical-align: top;
+            ul.social {
+                display: inline-block;
+                vertical-align: top;
+                text-align: center;
+                font-size: 0;
+                margin-bottom: 2px;
+                li {
+                    display: inline-block;
+                    vertical-align: top;
+                    a {
+                        display: block;
+                        padding-left: 12px;
+                        padding-right: 12px;
+                        border-left: 1px rgba(74,74,74,.55) solid;
+                        cursor: pointer;
+                        transition: all 0.3s ease-in-out;
+                        -webkit-transition: all 0.3s ease-in-out;
+                        i {
+                            font-size: 13px;
+                            color: #fff !important;
+                            line-height: 43px;
+                        }
+                    }
+                    &:last-child {
+                        a {
+                            border-right: 1px rgba(74,74,74,.55) solid;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .header_top_item {
+        ul.contact {
+            display: inline-block;
+            vertical-align: top;
+            margin-top: 10px;
+            font-size: 0;
+            margin-bottom: 2px;
+            li {
+                display: inline-block;
+                vertical-align: top;
+                margin-right: 24px;
+                font-weight: 400;
+                font-size: 14px;
+                color: #fff;
+                line-height: 28px;
+                &:last-child {
+                    margin-right: 0;
+                }
+                i {
+                    margin-right: 10px;
+                }
+            }
+        }
+        .header_main_action_buttons {
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 24px;
+            .btn {
+                display: inline-block;
+                vertical-align: top;
+                padding: 9px 20px 8px 20px;
+                border: none;
+                border-radius: 0;
+                font-weight: 400;
+                font-size: 14px;
+                color: #fff !important;
+                line-height: 28px;
+                i {
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+    .header_main_action_buttons {
+        .btn.btn-one {
+            background-color: #db4437;
+        }
+    }
+
+}
+#tidio-chat iframe {
+    inset: auto -10px 0px auto !important;
+}

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="request_customization" name="Customization Request">
+        <t t-call="website.layout">
+            <div id="wrap" class="oe_structure oe_empty">
+                <section class="kanak-request-customization pt40 pb40">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8 col-md-12">
+                                <form action="/website_form/" method="post" data-model_name="crm.lead" data-success_page="/contactus-thank-you" class="s_website_form mt32 kanak_contactus_from" enctype="multipart/form-data" data-editable-form="false">
+                                    <div class="row">
+                                        <t t-if="not user_id._is_public()">
+                                            <div class="form-group col-md-6" >
+                                                <input type="hidden" name="name" value="Customization Request"/>
+                                                <label for="name">Your Name</label>
+                                                <input type="text" class="form-control" id="name" name="contact_name" placeholder="Your name" t-att-value="request.env.user.name"/>
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                <label for="email">Email</label>
+                                                <input type="email" class="form-control" id="email" name="email_from" placeholder="Email..." t-att-value="request.env.user.login"/>
+                                            </div>
+                                        </t>
+                                        <t t-if="user_id._is_public()">
+                                            <div class="form-group col-md-6">
+                                                <input type="hidden" name="name" value="Customization Request"/>
+                                                <label for="name">Your Name</label>
+                                                <input type="text" class="form-control" id="name" name="contact_name" placeholder="Your name"/>
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                <label for="email">Email</label>
+                                                <input type="email" class="form-control" id="email" name="email_from" placeholder="Email..."/>
+                                            </div>
+                                        </t>
+                                    </div>
+                                    <div class="form-group col-md-12">
+                                        <label for="skype_hangout">Skype/Hangout</label>
+                                        <input type="text" class="form-control" id="skype_hangout" name="skype_hangout" placeholder="Skype or Hangout id" />
+                                    </div>
+                                    <div class="form-group col-md-12">
+                                        <label for="custom_requirements">Custom Requirements</label>
+                                        <textarea class="form-control" id="custom_requirements" name="description" placeholder="Custom Requirements"></textarea>
+                                    </div>
+                                    <div class="row">
+                                        <div class="form-group col-md-6">
+                                            <label for="version">Odoo Version</label>
+                                            <select class="form-select form-control o_website_form_input" name="odoo_version">
+                                                <option value="v11">v11</option>
+                                                <option value="v10">v10</option>
+                                                <option value="v9">v9</option>
+                                                <option value="v8">v8</option>
+                                                <option value="v7">v7</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label for="version">Type</label>
+                                            <select class="form-select form-control o_website_form_input" name="subject_type">
+                                                <option value="web_designing">Web Designing</option>
+                                                <option value="odoo_developer">Odoo Developer</option>
+                                                <option value="back-end_developer">Back-end Developer </option>
+                                                <option value="mobile_apps">Mobile Apps</option>
+                                                <option value="wordpress">Wordpress</option>
+                                                <option value="magento">Magento</option>
+                                                <option value="shopify">Shopify</option>
+                                                <option value="designing_job">Designing Job</option>
+                                                <option value="any_other">Any Other</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="row align-items-center">
+                                        <div class="form-group col-md-6">
+                                            <div class="form-check">
+                                                <div class="g-recaptcha" t-att-data-sitekey="website.recaptcha_site_key" data-theme="red" data-name="g-recaptcha-response"></div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <button class="btn btn-primary o_website_form_send" id="my-send-btn">Submit</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </t>
+    </template>
+</odoo>

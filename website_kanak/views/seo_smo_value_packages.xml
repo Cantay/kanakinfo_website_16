@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="service_digital_seo-smo-value-packages" name="seo smo value packages">
+        <t t-set="additional_title"> Best SEO SMO Value Packages | Custom SEO Packages | Custom SEO SMO Plan</t>
+        <t t-set="website_meta_description"> We offer effective and low budget seo smo value packages. With our custom seo smo plans we generate organic, social and referral traffic to ypur website.</t>
+        <t t-set="website_meta_keywords">seo plans, smo packages, seo packages, custo seo smo packages, search engine optimization packages, affordable seo packages </t>
+        <t t-call="website.layout">
+            <div id="wrap" class="oe_structure oe_empty">
+                <section id="main-service-ecommerce" style="background-image: url(/website_kanak/static/src/img/seo-smo/seosmo-bnr.jpg);">
+                    <div class="overlay"/>
+                    <div class="container">
+                        <div class="row justify-content-center text-center">
+                            <div class="col-md-12">
+                                <div class="main-team-banner">
+                                    <div class="main-service-ecommerce-banner">
+                                        <span class="kanak-main-service-ecommerce-bnr1"> SEO-SMO </span>
+                                        <span class="kanak-main-service-ecommerce-bnr2"> Value Packages </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="service-home-work">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-md-12">
+                                <span class="all-home-colour">
+                                  <a class="text-muted" href="/"> Home </a>
+                                </span>
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                <span class="all-home-colour">
+                                  <a class="text-muted" href="/our-services">  Our Services </a>
+                                </span>
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                <span class="all-home-colour">
+                                  <a class="text-muted"> Digital Marketing </a>
+                                </span>
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                <span class="all-work-colour">seo-smo value Packages</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="service-text-odoo-deve">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-md-12 for-spacing-all">
+                                <h1> SEO - SMO Service Packages </h1>
+                                <p>Kanak InfoSystems LLP., a leading Digital Marketing Company offering SEO and SMO services which are meant to create your business "A BRAND". Search Engine Marketing and Social Media Marketing strategy is changing with time as buyer’s preferences are getting changed. Here, we have come up with a team of experienced SEO and SMO professionals. Let's stay on top of your industry, enhance the traffic inflow and increase your brand awareness with our Digital Marketing Services. We are offering budgeted and affordable SEO/SMO/Link Building packages to improve your website’s search engine ranking.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="service-seo-smo-pack">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="tabbable-panel">
+                                    <h2 class="text-center" style="font-weight:500;font-size: 24px;">Our SEO Packages</h2>
+                                    <div class="tabbable-line">
+                                        <ul class="nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
+                                            <li>
+                                                <a href="#tab_default_1" data-bs-toggle="tab" class="btn">
+                                                Local SEO </a>
+                                            </li>
+                                            <li>
+                                                <a href="#tab_default_2" data-bs-toggle="tab" class="btn active">
+                                                National SEO </a>
+                                            </li>
+                                            <li>
+                                                <a href="#tab_default_3" data-bs-toggle="tab" class="btn">
+                                                Ecommerce SEO </a>
+                                            </li>
+                                        </ul>
+                                        <div class="tab-content">
+                                            <div class="tab-pane" id="tab_default_1">
+                                                <div class="demo11">
+                                                    <div class="container">
+                                                        <div class="row">
+                                                            <div class="col-md-4 col-sm-6">
+                                                                <div class="pricingTable11 blue text-center">
+                                                                    <div class="pricingTable-header">
+                                                                        <img class="img img-fluid" src="/website_kanak/static/src/img/package_icon/GoldLevel-Better.png"/>
+                                                                    </div>
+                                                                    <p class="heading text-center">GOLD</p>
+                                                                    <div class="pricing-content">
+                                                                        <ul>
+                                                                            <li>Local SEO Audit</li>
+                                                                            <li>Keywords Research</li>
+                                                                            <li>Competitive Analysis</li>
+                                                                            <li>30 Keywords</li>
+                                                                            <li>Upto 3 Location</li>
+                                                                            <li>Onpage Optimization</li>
+                                                                            <li>Google Search Console Setup and Maintenance</li>
+                                                                            <li>Schema on home page and service landing pages</li>
+                                                                            <li>Online Review Monitoring</li>
+                                                                            <li>3 Map Stack per Month</li>
+                                                                            <li>200+ Google Map Embeds per Month</li>
+                                                                            <li>Bing, Apple &amp; Facebook listings</li>
+                                                                            <li>10 Primary Citations per Months</li>
+                                                                        </ul>
+                                                                    </div>
+                                                                    <div class="pricingTable-signup btn">
+                                                                        <a class="btn" href="/contact-us" target="_blank">Contact Us</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-4 col-sm-6">
+                                                                <div class="pricingTable11 green text-center">
+                                                                    <div class="pricingTable-header">
+                                                                        <img class="pck_img" src="/website_kanak/static/src/img/package_icon/Silver-Better.png"/>
+                                                                    </div>
+                                                                    <p class="heading text-center">SILVER</p>
+                                                                    <div class="pricing-content">
+                                                                        <ul>
+                                                                            <li>Local SEO Audit</li>
+                                                                            <li>Keywords Research</li>
+                                                                            <li>Competitive Analysis</li>
+                                                                            <li>20 Keywords</li>
+                                                                            <li>Upto 2 Location</li>
+                                                                            <li>Onpage Optimization</li>
+                                                                            <li>Google Search Console Setup and Maintenance</li>
+                                                                            <li>Schema on home page and service landing pages</li>
+                                                                            <li>Online Review Monitoring</li>
+                                                                            <li>2 Map Stack per Month</li>
+                                                                            <li>100+ Google Map Embeds per Month</li>
+                                                                            <li>Bing, Apple &amp; Facebook listings</li>
+                                                                            <li>5 Primary Citations per Months</li>
+                                                                        </ul>
+                                                                    </div>
+                                                                    <div class="pricingTable-signup">
+                                                                        <a class="btn" href="/contact-us" target="_blank">Contact Us</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-4 col-sm-6">
+                                                                <div class="pricingTable11 text-center">
+                                                                    <div class="pricingTable-header">
+                                                                        <img class="pck_img" src="/website_kanak/static/src/img/package_icon/Bronze-Better.png"/>
+                                                                    </div>
+                                                                    <p class="heading text-center">BRONZE</p>
+                                                                    <div class="pricing-content">
+                                                                        <ul>
+                                                                            <li>Local SEO Audit</li>
+                                                                            <li>Keywords Research</li>
+                                                                            <li>Competitive Analysis</li>
+                                                                            <li>10 Keywords</li>
+                                                                            <li>Upto 1 Location</li>
+                                                                            <li>Onpage Optimization</li>
+                                                                            <li>Google Search Console Setup and Maintenance</li>
+                                                                            <li>Schema on home page</li>
+                                                                            <li>Online Review Monitoring</li>
+                                                                            <li>1 Map Stack per Month</li>
+                                                                            <li>50+ Google Map Embeds per Month</li>
+                                                                            <li>Bing, Apple &amp; Facebook listings</li>
+                                                                            <li>5 Primary Citations per Months</li>
+                                                                        </ul>
+                                                                    </div>
+                                                                    <div class="pricingTable-signup">
+                                                                        <a class="btn" href="/contact-us" target="_blank">Contact Us</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane active" id="tab_default_2">
+                                                <div class="demo6">
+                                                    <div class="container">
+                                                        <div class="row">
+                                                            <div class="col-md-4 col-sm-6">
+                                                                <div class="pricingTable6 green text-center">
+                                                                    <p class="title text-center">GOLD</p>
+                                                                    <div class="price-value">
+                                                                        <img class="img img-fluid" src="/website_kanak/static/src/img/package_icon/GoldLevel-Better.png"/>
+                                                                    </div>
+                                                                    <ul class="pricing-content">
+                                                                        <li> <i class="fa fa-check" aria-hidden="true"></i> Total Keywords: <i class="fa fa-question-circle" aria-hidden="true"></i> <span style="color: #f75115e6;">60</span></li>
+                                                                        <li> <i class="fa fa-check" aria-hidden="true"></i> SEO Audit</li>
+                                                                        <li> <i class="fa fa-check" aria-hidden="true"></i> On-Page Optimization</li>
+                                                                        <li> <i class="fa fa-check" aria-hidden="true"></i> Content Marketing</li>
+                                                                        <li> <i class="fa fa-check" aria-hidden="true"></i> Link Building</li>
+                                                                        <li> <i class="fa fa-check" aria-hidden="true"></i> Social Media Marketing</li>
+                                                                        <li> <i class="fa fa-check" aria-hidden="true"></i> Standard SEO</li>
+                                                                        <li> <i class="fa fa-check" aria-hidden="true"></i> Video Marketing</li>
+                                                                        <li> <i class="fa fa-check" aria-hidden="true"></i> Local Search Optimization</li>
+                                                                        <li> <i class="fa fa-check" aria-hidden="true"></i> Weekly Reporting</li>
+                                                                    </ul>
+                                                                    <a href="/contact-us" target="_blank" class="pricingTable-signup btn green">Contact Us</a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-4 col-sm-6">
+                                                                <div class="pricingTable6 blue text-center">
+                                                                    <div class="ribbon ribbon-top-right">
+                                                                        <span>POPULAR</span>
+                                                                    </div>
+                                                                    <p class="title text-center">SILVER</p>
+                                                                    <div class="price-value">
+                                                                        <img class="img img-fluid" src="/website_kanak/static/src/img/package_icon/Silver-Better.png"/>
+                                                                    </div>
+                                                                    <ul class="pricing-content">
+                                                                        <li> <i class="fa fa-check" aria-hidden="true"></i> Total Keywords: <i class="fa fa-question-circle" aria-hidden="true"></i> <span style="color: #f75115e6;">40</span></li>
+                                                                        <li> <i class="fa fa-check" aria-hidden="true"></i> SEO Audit</li>
+                                                                        <li> <i class="fa fa-check" aria-hidden="true"></i> On-Page Optimization</li>
+                                                                        <li> <i class="fa fa-check" aria-hidden="true"></i> Content Marketing</li>
+                                                                        <li> <i class="fa fa-check" aria-hidden="true"></i> Link Building</li>
+                                                                        <li> <i class="fa fa-check" aria-hidden="true"></i> Social Media Marketing</li>
+                                                                        <li> <i class="fa fa-check" aria-hidden="true"></i> Standard SEO</li>
+                                                                        <li> <i class="fa fa-check" aria-hidden="true"></i> Video Marketing</li>
+                                                                        <li> <i class="fa fa-check" aria-hidden="true"></i> Local Search Optimization</li>
+                                                                        <li> <i class="fa fa-check" aria-hidden="true"></i> Weekly Reporting</li>
+                                                                    </ul>
+                                                                    <a href="/contact-us" target="_blank" class="pricingTable-signup btn blue">Contact Us</a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-4 col-sm-6">
+                                                                <div class="pricingTable6 text-center">
+                                                                    <p class="title text-center">BRONZE</p>
+                                                                    <div class="price-value">
+                                                                        <img class="img img-fluid" src="/website_kanak/static/src/img/package_icon/Bronze-Better.png"/>
+                                                                    </div>
+                                                                    <ul class="pricing-content">
+                                                                        <li> <i class="fa fa-check" aria-hidden="true"></i> Total Keywords: <i class="fa fa-question-circle" aria-hidden="true"></i> <span style="color: #f75115e6;">25</span></li>
+                                                                        <li> <i class="fa fa-check" aria-hidden="true"></i> SEO Audit</li>
+                                                                        <li> <i class="fa fa-check" aria-hidden="true"></i> On-Page Optimization</li>
+                                                                        <li> <i class="fa fa-check" aria-hidden="true"></i> Content Marketing</li>
+                                                                        <li> <i class="fa fa-check" aria-hidden="true"></i> Link Building</li>
+                                                                        <li> <i class="fa fa-check" aria-hidden="true"></i> Social Media Marketing</li>
+                                                                        <li> <i class="fa fa-check" aria-hidden="true"></i> Basic SEO</li>
+                                                                        <li> <i class="fa fa-check" aria-hidden="true"></i> Local Search Optimization</li>
+                                                                        <li> <i class="fa fa-check" aria-hidden="true"></i> Monthly Reporting</li>
+                                                                    </ul>
+                                                                    <a href="/contact-us" target="_blank" class="pricingTable-signup btn">Contact Us</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="tab_default_3" style="overflow-x: auto;">
+                                                <table class="table package-table">
+                                                    <tbody>
+                                                    <tr>
+                                                        <td>E-Commerce SEO Package</td>
+                                                        <td><div>100</div> Keywords Plan</td>
+                                                        <td><div>200</div> Keywords Plan</td>
+                                                        <td><div>300</div> Keywords Plan</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="package-table-head" colspan="4"><span>SEO Pre Audit</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Detail Site Analysis</td>
+                                                        <td class="two"><span class="fa fa-check ok-cross"></span></td>
+                                                        <td class="three"><span class="fa fa-check ok-cross"></span></td>
+                                                        <td class="four"><span class="fa fa-check ok-cross"></span></td>
+                                                    </tr>
+                                                    <tr> 
+                                                        <td>Competition Analysis</td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                    </tr>
+                                                    <tr> 
+                                                        <td>Keyword Research</td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                    </tr>
+                                                    <tr> 
+                                                        <td>Initial Rank Report</td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                    </tr>
+                                                    <tr> 
+                                                        <td>Narration (Overview)</td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                    </tr>
+                                                    <tr> 
+                                                        <td>Set Targeted Location in WMT</td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                    </tr>
+                                                    <tr> 
+                                                        <td>Google Panelty Check</td>
+                                                        <td><span class="fa fa-times ok-cross"></span></td>
+                                                        <td><span class="fa fa-times ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="package-table-head" colspan="4"><span>On Page Optimization</span></td>
+                                                    </tr>
+                                                    <tr> 
+                                                        <td>Canonicalization</td>
+                                                        <td><span class="fa fa-times ok-cross"></span></td>
+                                                        <td><span class="fa fa-times ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                    </tr>
+                                                    <tr> 
+                                                        <td>Broken Links (No. to be specified)</td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                    </tr>
+                                                    <tr> 
+                                                        <td>Header Tags Optimization</td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                    </tr>
+                                                    <tr> 
+                                                        <td>Website Speed Optimization</td>
+                                                        <td><span class="fa fa-times ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                    </tr>
+                                                    <tr> 
+                                                        <td>Title &amp; Meta Tags Optimization (HTML Improvements)</td>
+                                                        <td><span> <b>5</b> </span></td>
+                                                        <td><span> <b>10</b> </span></td>
+                                                        <td><span> <b>10</b> </span></td>
+                                                    </tr>
+                                                    <tr> 
+                                                        <td>URL Structure Analysis</td>
+                                                        <td><span class="fa fa-times ok-cross"></span></td>
+                                                        <td><span class="fa fa-times ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                    </tr>
+                                                    <tr> 
+                                                        <td>Internal Link Structuring &amp; Optimization</td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                    </tr>
+                                                    <tr> 
+                                                        <td>Product Image &amp; Hyperlink Optimization</td>
+                                                        <td><span class="fa fa-times ok-cross"></span></td>
+                                                        <td><span class="fa fa-times ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                    </tr>
+                                                    <tr> 
+                                                        <td>Robots.Txt Creation/Analysis</td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                    </tr>
+                                                    <tr> 
+                                                        <td>Xml Sitemap Generation/Analysis</td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                    </tr>
+                                                    <tr> 
+                                                        <td>HTTPS Upgradation/Migration</td>
+                                                        <td><span class="fa fa-times ok-cross"></span></td>
+                                                        <td><span class="fa fa-times ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                    </tr>
+                                                    <tr> 
+                                                        <td>Product Uploading</td>
+                                                        <td><span> <b>5</b> </span></td>
+                                                        <td><span> <b>8</b> </span></td>
+                                                        <td><span> <b>10</b> </span></td>
+                                                    </tr>
+                                                    <tr> 
+                                                        <td>Product Markup - Schema HTML tags</td>
+                                                        <td><span class="fa fa-times ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                    </tr>
+                                                    <tr> 
+                                                        <td>Shopping Cart Funnel Analysis &amp; Recommendations</td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                    </tr>
+                                                    <tr> 
+                                                        <td>Google Webmaster Tools Set Up (if not set up)</td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                    </tr>
+                                                    <tr> 
+                                                        <td>Google Analytics Set Up (if not setup)</td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                    </tr>
+                                                    <tr> 
+                                                        <td>Tag Manager</td>
+                                                        <td><span class="fa fa-times ok-cross"></span></td>
+                                                        <td><span class="fa fa-times ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                    </tr>
+                                                    <tr> 
+                                                        <td>Cache Control</td>
+                                                        <td><span class="fa fa-times ok-cross"></span></td>
+                                                        <td><span class="fa fa-times ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                    </tr>
+                                                    <tr> 
+                                                        <td>Mobile Usability Check</td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                    </tr>
+                                                    <tr> 
+                                                        <td>Accelerated Mobile Pages</td>
+                                                        <td><span class="fa fa-times ok-cross"></span></td>
+                                                        <td><span class="fa fa-times ok-cross"></span></td>
+                                                        <td><span class="fa fa-times ok-cross"></span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="package-table-head" colspan="4"><span>Off Page Submission</span></td>
+                                                    </tr>
+                                                    <tr> 
+                                                        <td>Social Bookmarking</td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                    </tr>
+                                                    <tr> 
+                                                        <td>Article Submission</td>
+                                                        <td><span> <b>5</b> </span></td>
+                                                        <td><span> <b>10</b> </span></td>
+                                                        <td><span> <b>10</b> </span></td>
+                                                    </tr>
+                                                    <tr> 
+                                                        <td>Coupon Distribution</td>
+                                                        <td><span> <b>2 sites</b> </span></td>
+                                                        <td><span> <b>3 sites</b> </span></td>
+                                                        <td><span> <b>5 sites</b> </span></td>
+                                                    </tr>
+                                                    <tr> 
+                                                        <td>Review Submission</td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                    </tr>
+                                                    <tr> 
+                                                        <td>Blog Submission</td>
+                                                        <td><span class="fa fa-times ok-cross"></span></td>
+                                                        <td><span> <b>1</b> </span></td>
+                                                        <td><span> <b>2</b> </span></td>
+                                                    </tr>
+                                                    <tr> 
+                                                        <td>PDF/ Doc Submission</td>
+                                                        <td><span class="fa fa-times ok-cross"></span></td>
+                                                        <td><span class="fa fa-times ok-cross"></span></td>
+                                                        <td><span> <b>2</b> </span></td>
+                                                    </tr>
+                                                    <tr> 
+                                                        <td>PPT Submission</td>
+                                                        <td><span class="fa fa-times ok-cross"></span></td>
+                                                        <td><span class="fa fa-times ok-cross"></span></td>
+                                                        <td><span> <b>2</b> </span></td>
+                                                    </tr>
+                                                    <tr> 
+                                                        <td>Press Release Submission</td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                    </tr>
+                                                    <tr> 
+                                                        <td>Guest Posting</td>
+                                                        <td><span class="fa fa-times ok-cross"></span></td>
+                                                        <td><span> <b>2</b> </span></td>
+                                                        <td><span> <b>5</b> </span></td>
+                                                    </tr>
+                                                    <tr> 
+                                                        <td>Wesite Directory</td>
+                                                        <td><span> <b>2</b> </span></td>
+                                                        <td><span> <b>5</b> </span></td>
+                                                        <td><span> <b>7</b> </span></td>
+                                                    </tr>
+                                                    <tr> 
+                                                        <td>PPT Promotion</td>
+                                                        <td><span class="fa fa-times ok-cross"></span></td>
+                                                        <td><span class="fa fa-times ok-cross"></span></td>
+                                                        <td><span> <b>2</b> </span></td>
+                                                    </tr>
+                                                    <tr> 
+                                                        <td>Blog Commenting</td>
+                                                        <td><span class="fa fa-times ok-cross"></span></td>
+                                                        <td><span> <b>2</b> </span></td>
+                                                        <td><span> <b>5</b> </span></td>
+                                                    </tr>
+                                                    <tr> 
+                                                        <td>Search Engine Submission</td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                    </tr>
+                                                    <tr> 
+                                                        <td>Web 2.0</td>
+                                                        <td><span class="fa fa-times ok-cross"></span></td>
+                                                        <td><span> <b>1</b> </span></td>
+                                                        <td><span> <b>1</b> </span></td>
+                                                    </tr>
+                                                    <tr> 
+                                                        <td>Video Submission</td>
+                                                        <td><span class="fa fa-times ok-cross"></span></td>
+                                                        <td><span class="fa fa-times ok-cross"></span></td>
+                                                        <td><span class="fa fa-times ok-cross"></span></td>
+                                                    </tr>
+                                                    <tr> 
+                                                        <td>Image Submission</td>
+                                                        <td><span class="fa fa-times ok-cross"></span></td>
+                                                        <td><span> <b>2</b> </span></td>
+                                                        <td><span> <b>5</b> </span></td>
+                                                    </tr>
+                                                    <tr> 
+                                                        <td>infographic Submission</td>
+                                                        <td><span class="fa fa-times ok-cross"></span></td>
+                                                        <td><span class="fa fa-times ok-cross"></span></td>
+                                                        <td><span> <b>1</b> </span></td>
+                                                    </tr>
+                                                    <tr> 
+                                                        <td>RSS Feeds</td>
+                                                        <td><span class="fa fa-times ok-cross"></span></td>
+                                                        <td><span> <b>1</b> </span></td>
+                                                        <td><span> <b>2</b> </span></td>
+                                                    </tr>
+                                                    <tr> 
+                                                        <td>Forum Posting</td>
+                                                        <td><span class="fa fa-times ok-cross"></span></td>
+                                                        <td><span class="fa fa-times ok-cross"></span></td>
+                                                        <td><span> <b>1</b> </span></td>
+                                                    </tr>
+                                                    <tr> 
+                                                        <td>Competitor Analysis</td>
+                                                        <td><span> <b>1</b> </span></td>
+                                                        <td><span> <b>3</b> </span></td>
+                                                        <td><span> <b>5</b> </span></td>
+                                                    </tr>
+                                                    <tr> 
+                                                        <td>Link Detox / Backlinks Checker</td>
+                                                        <td><span class="fa fa-times ok-cross"></span></td>
+                                                        <td><span class="fa fa-times ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="package-table-head" colspan="4"><span>Monthly Reporting</span></td>
+                                                    </tr>
+                                                    <tr> 
+                                                        <td>Search Engine Rank Report</td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                    </tr>
+                                                    <tr> 
+                                                        <td>SEO Reports</td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                    </tr>
+                                                    <tr> 
+                                                        <td>Google Business Page &amp; Analytics Report</td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                    </tr>
+                                                    <tr> 
+                                                        <td>Activity Report</td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                    </tr>
+                                                    <tr> 
+                                                        <td>Monthly Action Plan</td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                    </tr>
+                                                    <tr> 
+                                                        <td>SEO Health Check - Every 15 days</td>
+                                                        <td><span class="fa fa-times ok-cross"></span></td>
+                                                        <td><span class="fa fa-times ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                    </tr>
+                                                    <tr> 
+                                                        <td>On Call SEO Manager - Max 30 mins</td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                    </tr>
+                                                    <tr> 
+                                                        <td>Customer Support</td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                        <td><span class="fa fa-check ok-cross"></span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="package-table-head"></td>
+                                                        <td class="package-table-head"><a href="/contact-us" target="_blank" type="button" class="btn btn-default bttn-custom">Get A Quote</a></td>
+                                                        <td class="package-table-head"><a href="/contact-us" target="_blank" type="button" class="btn btn-default bttn-custom">Get A Quote</a></td>
+                                                        <td class="package-table-head"><a href="/contact-us" target="_blank" type="button" class="btn btn-default bttn-custom">Get A Quote</a></td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </t>
+    </template>
+</odoo>

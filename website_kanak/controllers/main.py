@@ -173,6 +173,50 @@ class WebsiteKanak(http.Controller):
             crm.sudo().create(values)
             return request.render("website_kanak.tmp_thank_you_form", {})
 
+    @http.route(['/joomla-development-services'], type='http', auth="public", website=True)
+    def busineess_bi_joomla(self, **post):
+        return request.render("website_kanak.busineess_bi_joomla", {})
+
+    @http.route(['/request-customization'],
+                type='http', auth="public", website=True)
+    def request_customization(self, **post):
+        return request.render('website_kanak.request_customization', {})
+
+    @http.route(['/kanak-Our-Services'],
+                type='http', auth="public", website=True)
+    def kanak_Our_Services(self, **post):
+        return request.redirect('/our-services')
+
+    @http.route(['/our-services'],
+                type='http', auth="public", website=True)
+    def Our_Services(self, **post):
+        return request.render('website_kanak.kanak_Our_Services', {})
+
+    @http.route(['/php-development-services'],
+                type='http', auth="public", website=True)
+    def service_web_php(self, **post):
+        return request.render("website_kanak.service_web_php", {})
+
+    @http.route(['/prestashop-development-services'],
+                type='http', auth="public", website=True)
+    def busineess_bi_presta(self, **post):
+        return request.render("website_kanak.busineess_bi_presta", {})
+
+    @http.route(['/seo-services'],
+                type='http', auth="public", website=True)
+    def service_digital_seo(self, **post):
+        return request.render("website_kanak.service_digital_seo", {})
+
+    @http.route(['/seo-smo-service-packages'],
+                type='http', auth="public", website=True)
+    def service_digital_seo_smo_value_packages(self, **post):
+        return request.render("website_kanak.service_digital_seo-smo-value-packages", {})
+
+    @http.route(['/smo-services'],
+                type='http', auth="public", website=True)
+    def service_digital_smo(self, **post):
+        return request.render("website_kanak.service_digital_smo", {})
+
 
 class WebsiteForm(WebsiteForm):
     @http.route('/website_form/<string:model_name>', type='http', auth="public", methods=['POST'], website=True)
@@ -180,6 +224,17 @@ class WebsiteForm(WebsiteForm):
         if model_name == 'crm.lead':
             if 'g-recaptcha-response' in kwargs and request.website.is_captcha_valid(kwargs['g-recaptcha-response']):
                 res = super(WebsiteForm, self).website_form(model_name, **kwargs)
+                if kwargs.get('g-recaptcha-response', False):
+                    kwargs.pop('g-recaptcha-response')
+                if request.session.get('form_builder_id'):
+                    crm_id = request.env['crm.lead'].sudo().browse(int(request.session.get('form_builder_id')))
+                    crm_id.sudo().write({'odoo_version': kwargs.get('odoo_version', False),
+                                         'subject_type': kwargs.get('subject_type', False),
+                                         'skype_hangout': kwargs.get('skype_hangout', '')
+                                         })
+                    return res
+                else:
+                    return json.dumps(False)
             else:
                 return json.dumps(False)
         if model_name != 'crm.lead':

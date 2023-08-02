@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="service_digital_smo" name="Social Network Marketing">
+        <t t-set="additional_title">Professional Social Media Optimization, Social Media Marketing Comapny </t>
+        <t t-set="website_meta_description">We are leading Social Media Optimization(SMO) and Social Media Marketing(SMM) service provider comapny offering out source SMO/SMM services. </t>
+        <t t-set="website_meta_keywords"> kanak infosystems llp, outsource social media marketi, social media marketing outsour, social media consultant, social media management</t>
+        <t t-call="website.layout">
+            <div id="wrap" class="oe_structure oe_empty">
+                <section id="main-service-ecommerce" style="background-image: url(/website_kanak/static/src/img/social-media-marketing/social-midea-banner.jpg);">
+                    <div class="overlay"/>
+                    <div class="container">
+                        <div class="row justify-content-center text-center">
+                            <div class="col-md-12">
+                                <div class="main-team-banner">
+                                    <div class="main-service-ecommerce-banner">
+                                        <span class="kanak-main-service-ecommerce-bnr1"> SOCIAL </span>
+                                        <span class="kanak-main-service-ecommerce-bnr2"> MEDIA MARKETING </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="service-home-work">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-md-12">
+                                <span class="all-home-colour">
+                                  <a class="text-muted" href="/"> Home </a>
+                                </span>
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                <span class="all-home-colour">
+                                  <a class="text-muted" href="/our-services">  Our Services </a>
+                                </span>
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                <span class="all-home-colour">
+                                  <a class="text-muted"> Digital Marketing </a>
+                                </span>
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                <span class="all-work-colour"> Social Network Marketing </span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="service-text-odoo-deve">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-md-12 for-spacing-all">
+                                <h1>Social Media Optimization (SMO), Marketing and Management Services</h1>
+                                <p>In this era of advanced marketing world, the power of social media optmization(SMO) services for business marketing and success is not hidden. What is Social Media? How can it help your business? Are the big questions, but we have the answers and we are here to help in to grow your business to the highest level of success.
+                                </p>
+                                <p>Now, a day every business requires 100% support of a reliable social media platforms which is capable of generating web traffic, brand awareness and later on generating leads.
+                                </p>
+                                <p>Our social media marketing service is designed to help all small and big scale business. For new business Social Media Marketing (SMM) works like rocket to boast brand awareness.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="parallex-home-odoo-service-ecommerce" class="parallex-deve-joomla-1 pb24" style="background-image: url(/website_kanak/static/src/img/social-media-marketing/social-midea-banner-middle.jpg);">
+                    <div class="overlay-ab"></div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h2 class="magento-block2">
+                                  How Can We Help You with Social Media Marketing?
+                                </h2>
+                                <div class="magento-block-all-li row">
+                                    <p>Our SMM services help you quickly pinpoint your potential audience and helps you to reach to them. We first understand about what is important for your audience and how they use social media. Our strategy varies from business to business. We create and share images, text, videos, product images and many more activities are there to do on Social media platforms.</p>
+                                    <p>Our professional Social Media team will take care and optimize your all social business accounts on all platforms like Facebook, Twitter, LinkedIn, Google+, Pinterest, Instagram, YouTube, Category specific Forums, Quora and more depend on business type.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="custom_features">
+                    <div class="container">
+                        <div class="row">
+                            <h3 class="joomla-class-a1 fw-normal mb24">As part of our social media marketing service we provide help and guidance with:</h3>
+                        </div>
+                        <div class="row list-features">
+                            <div class="col-lg-6 col-md-12 p-md-0 px-3">
+                                <div class="row">
+                                    <div class="col-md-2 col-sm-2">
+                                        <img class="img img-fluid mb16" src="/website_kanak/static/src/img/social-media-marketing/1.png" alt="kanak infosystems llp seo services"/>
+                                    </div>
+                                    <div class="col-md-9 col-sm-9 social-smalltext">
+                                        <h4>Social Media Consultancy</h4>
+                                        <p>We will help to plan a professional a SMM strategy based on your end goals. This service help you when you already have in-house marketing teams who just require guidance, or you may need us to help build your social presence. We will apply our best approach</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12 p-md-0 px-3">
+                                <div class="row">
+                                    <div class="col-md-2 col-sm-2">
+                                        <img class="img img-fluid mb16" src="/website_kanak/static/src/img/social-media-marketing/2.png" alt="kanak infosystems llp seo services"/>
+                                    </div>
+                                    <div class="col-md-9 col-sm-9 social-smalltext">
+                                        <h4> Brand Management</h4>
+                                        <p>We will be taking care of your brand dignity and make the best brand name on all Social channels. As your brand name is obviously important.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12 p-md-0 px-3">
+                                <div class="row">
+                                    <div class="col-md-2 col-sm-2">
+                                        <img class="img img-fluid mb16" src="/website_kanak/static/src/img/social-media-marketing/3.png" alt="kanak infosystems llp seo services"/>
+                                    </div>
+                                    <div class="col-md-9 col-sm-9 social-smalltext">
+                                        <h4>Social Media Monitoring</h4>
+                                        <p> Full time monitoring on your social network accounts, we will take care about who is talking about and what they are say and ensures that you are always ahead of the conversation, ready to contribute whenever you need to. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12 p-md-0 px-3">
+                                <div class="row">
+                                    <div class="col-md-2 col-sm-2">
+                                        <img class="img img-fluid mb16" src="/website_kanak/static/src/img/social-media-marketing/4.png" alt="kanak infosystems llp seo services"/>
+                                    </div>
+                                    <div class="col-md-9 col-sm-9 social-smalltext">
+                                        <h4>Social PR</h4>
+                                        <p> Our close relationships and contacts with some of the most authoritative publishers, bloggers, journalists and influencers can help to make a bridge so that offline and online content gets the coverage it deserves. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12 p-md-0 px-3">
+                                <div class="row">
+                                    <div class="col-md-2 col-sm-2">
+                                        <img class="img img-fluid mb16" src="/website_kanak/static/src/img/social-media-marketing/5.png" alt="kanak infosystems llp seo services"/>
+                                    </div>
+                                    <div class="col-md-9 col-sm-9 social-smalltext">
+                                        <h4>Creative Discussion</h4>
+                                        <p>Our social team will help you create fast, reactive updates that completely hits the mark and sparks further conversation that gets your brand coverage outside of your immediate industry.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12 p-md-0 px-3">
+                                <div class="row">
+                                    <div class="col-md-2 col-sm-2">
+                                        <img class="img img-fluid mb16" src="/website_kanak/static/src/img/social-media-marketing/5.png" alt="kanak infosystems llp seo services"/>
+                                    </div>
+                                    <div class="col-md-9 col-sm-9 social-smalltext">
+                                        <h4>Reporting and Analysis</h4>
+                                        <p> We love data and our social media reporting will help identify and inform future activity not only in your social circles but across all your marketing channels. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="service-dev-hiring pb32">
+                    <div class="container">
+                        <div class="row justify-content-center text-center">
+                            <div class="block-odoo-themes">
+                                <a target="_blank" href="/seo-smo-service-packages" class="btn btn-primary">
+                                  SEO SMO Service Package </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </t>
+    </template>
+</odoo>

@@ -61,6 +61,14 @@
 
         'views/odoo_erp_services.xml',
         'views/template.xml',
+        'views/joomla_development.xml',
+        'views/kanak_request_customization.xml',
+        'views/our_services.xml',
+        'views/PHP_development.xml',
+        'views/prestashop_developer.xml',
+        'views/SEO_optimization.xml',
+        'views/social_network_marketing.xml',
+        'views/seo_smo_value_packages.xml',
         'views/header.xml',
     ],
     'demo': [
@@ -113,7 +121,9 @@
             'website_kanak/static/src/scss/top_header.scss',
             'website_kanak/static/src/scss/contactus.scss',
             'website_kanak/static/src/scss/odoo_website.scss',
-            
+            'website_kanak/static/src/scss/service-subpages.scss',
+            'website_kanak/static/src/scss/request-customization.scss',
+            'website_kanak/static/src/scss/our-services.scss',
             'website_kanak/static/src/js/script.js',
             'website_kanak/static/src/js/faq.js',
             'website_kanak/static/src/js/career_search.js',

@@ -5,6 +5,8 @@
             <value>crm.lead</value>
             <value eval="[
                 'subject_type',
+                'odoo_version',
+                'skype_hangout',
             ]" />
         </function>
         <record id="website_crm_form_inherit" model="ir.ui.view">
@@ -12,8 +14,19 @@
             <field name="model">crm.lead</field>
             <field name="inherit_id" ref="crm.crm_lead_view_form" />
             <field name="arch" type="xml">
-                <xpath expr="//field[@name='partner_id']" position="after">
-                    <field name="subject_type" string="Category" />
+                <xpath expr="//page[@name='lead']//field[@name='function']" position="after">
+                    <label for="subject_type"/>
+                    <div class="o_row">
+                        <field name="subject_type" string="Category" id="subject_type"/>
+                    </div>
+                    <label for="odoo_version"/>
+                    <div class="o_row">
+                        <field name="odoo_version" id="odoo_version"/>
+                    </div>
+                    <label for="skype_hangout"/>
+                    <div class="o_row">
+                       <field name="skype_hangout" id="skype_hangout"/>
+                    </div>
                 </xpath>
             </field>
         </record>

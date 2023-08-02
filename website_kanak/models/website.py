@@ -79,4 +79,5 @@ class Lead(models.Model):
          ('oracle_netsuite', 'Oracle Netsuite')],
          string='Type Your Subject')
 
-
+    odoo_version = fields.Selection([('v11', 'v11'), ('v10', 'v10'), ('v9', 'v9'), ('v8', 'v8'), ('v7', 'v7')], string='Odoo Version')
+    skype_hangout = fields.Char(string="Skype / Hangout")

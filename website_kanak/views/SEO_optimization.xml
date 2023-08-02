@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="service_digital_seo" name="SEO Optimization">
+        <t t-set="additional_title">Search Engine Optimization (SEO) Services | Out Source SEO Services </t>
+        <t t-set="website_meta_description">Outsource search engine optimization services &amp; seo consultancy by digital marketing experts. We are leading outsource SEO service provider. </t>
+        <t t-set="website_meta_keywords"> kanak infosystems llp, outsource seo, outsource seo company, outsource seo india, outsource seo company india</t>
+        <t t-call="website.layout">
+            <div id="wrap" class="oe_structure oe_empty">
+                <section id="main-service-ecommerce" style="background-image: url(/website_kanak/static/src/img/seo/SEO-banner.jpg);">
+                    <div class="overlay"/>
+                    <div class="container">
+                        <div class="row justify-content-center text-center">
+                            <div class="col-md-12">
+                                <div class="main-team-banner">
+                                    <div class="main-service-ecommerce-banner">
+                                        <span class="kanak-main-service-ecommerce-bnr1"> SEARCH ENGINE </span>
+                                        <span class="kanak-main-service-ecommerce-bnr2"> OPTIMIZATION </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="service-home-work">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-md-12">
+                                <span class="all-home-colour">
+                                  <a class="text-muted" href="/"> Home </a>
+                                </span>
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                <span class="all-home-colour">
+                                  <a class="text-muted" href="/our-services">  Our Services </a>
+                                </span>
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                <span class="all-home-colour">
+                                  <a class="text-muted"> Digital Marketing </a>
+                                </span>
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                <span class="all-work-colour"> Search Engine Optimization </span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="service-text-odoo-deve">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-md-12 for-spacing-all">
+                                <h1> Search Engine Optimization (SEO) Services </h1>
+                                <p><span class="text-black"> “Enlarge the Boundaries of Your Business!” </span> With a valuable experience, we are offering professional SEO services all across globe. Our SEO service defined as Complete Website Optimization. SEO helps in making a website search engine and user friendly. SEO is an important part of digital marketing so we know how to help our clients to gain from our utmost service of search engine optimization.
+                                </p>
+                                <p>We are offering all affordable SEO packages and have been designed by keeping all search engine optimization requirements in mind.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="parallex-home-odoo-service-ecommerce" class="parallex-deve-joomla-1" style="background-image: url(/website_kanak/static/src/img/seo/SEO-banner-Middle.jpg);">
+                    <div class="overlay-ab"></div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h2 class="magento-block2">
+                                  What SEO Can Do for Your Business
+                                </h2>
+                                <div class="magento-block-all-li row">
+                                    <div class="col-md-6 col-sm-6">
+                                        <p>
+                                          <i class="fa fa-check fa-blue" /> Create a better and more user-friendly website
+                                        </p>
+                                        <p>
+                                          <i class="fa fa-check fa-blue" /> Find new customers and assist growth
+                                        </p>
+                                        <p>
+                                          <i class="fa fa-check fa-blue" /> Build brand awareness through better rankings
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6">
+                                        <p>
+                                          <i class="fa fa-check fa-blue" /> Better ROI (Retun on Investment) Than Normal Ads
+                                        </p>
+                                        <p>
+                                          <i class="fa fa-check fa-blue" /> Higher Search Engine Ranking Positions (SERPs) = More Leads = More Sales
+                                        </p>
+                                        <p>
+                                          <i class="fa fa-check fa-blue" /> Take Your Business to the Next Level
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="custom_features">
+                    <div class="container">
+                        <div class="row">
+                            <h3 class="joomla-class-a1 fw-normal mb24">Our Unique SEO Strategy Differ for Every Business Type - Choose the correct SEO Strategy for Your Own Business Type</h3>
+                        </div>
+                        <div class="row list-features">
+                            <div class="col-lg-6 col-md-12 p-md-0 px-3">
+                                <div class="row">
+                                    <div class="col-md-2 col-sm-2">
+                                        <img class="img img-fluid mb16" src="/website_kanak/static/src/img/seo/11.png" alt="kanak infosystems llp seo services"/>
+                                    </div>
+                                    <div class="col-md-9 col-sm-9 social-smalltext">
+                                        <h4>Local Search Engine Optimization </h4>
+                                        <p> Local SEO meant to optimize your business searches from a specific geographical location targeted and local area potential customers who are not only potential, but also showing interest in the services. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12 p-md-0 px-3">
+                                <div class="row">
+                                    <div class="col-md-2 col-sm-2">
+                                        <img class="img img-fluid mb16" src="/website_kanak/static/src/img/seo/12.png" alt="kanak infosystems llp seo services"/>
+                                    </div>
+                                    <div class="col-md-9 col-sm-9 social-smalltext">
+                                        <h4> Mobile Search Engine Optimization</h4>
+                                        <p>Our Mobile SEO Services helps you to optimize your website as Mobile friendly with a Responsive website design which can interact mobile users to access on their mobiles, tablets etc not lose mobile user and to keep mobile visitors intact.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12 p-md-0 px-3">
+                                <div class="row">
+                                    <div class="col-md-2 col-sm-2">
+                                        <img class="img img-fluid mb16" src="/website_kanak/static/src/img/seo/13.png" alt="kanak infosystems llp seo services"/>
+                                    </div>
+                                    <div class="col-md-9 col-sm-9 social-smalltext">
+                                        <h4>International Search Engine Optimization </h4>
+                                        <p> It will help you to target global audiences through a design of international stature. We will optimize your website target the audiences in different countries on different user’s interest. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12 p-md-0 px-3">
+                                <div class="row">
+                                    <div class="col-md-2 col-sm-2">
+                                        <img class="img img-fluid mb16" src="/website_kanak/static/src/img/seo/14.png" alt="kanak infosystems llp seo services"/>
+                                    </div>
+                                    <div class="col-md-9 col-sm-9 social-smalltext">
+                                        <h4>Multi-lingual Search Engine Optimization</h4>
+                                        <p> We will Optimize your website in multiple languages and to register your online presence on the global platform. This strategy rightly starts with the translation of your website with the right local language. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12 p-md-0 px-3">
+                                <div class="row">
+                                    <div class="col-md-2 col-sm-2">
+                                        <img class="img img-fluid mb16" src="/website_kanak/static/src/img/seo/15.png" alt="kanak infosystems llp seo services"/>
+                                    </div>
+                                    <div class="col-md-9 col-sm-9 social-smalltext">
+                                        <h4>E-Commerce Search Engine Optimization </h4>
+                                        <p> It is very hard to optimize e-commerce platforms which are not generally are not search engine friendly, but we have skilful specialization in to optimize E-Commerce website which is also includes optimization of each and every product. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="custom_features">
+                    <div class="container">
+                        <div class="row">
+                            <h3 class="joomla-class-a1 text-center text-md-start">Our service includes following specialized and skilful SEO factors:</h3>
+                        </div>
+                        <div class="row center list-features">
+                            <div class="col-lg-3 col-md-6">
+                                <div class="feature text-center">
+                                    <img class="img-responsive pngpng" src="/website_kanak/static/src/img/seo/21.png" alt="kanak infosystems llp seo services"/>
+                                    <p class="custom_features_text">Competitive Analysis</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="feature text-center">
+                                    <img class="img-responsive pngpng" src="/website_kanak/static/src/img/seo/22.png" alt="kanak infosystems llp seo services"/>
+                                    <p class="custom_features_text">Meta Tag Optimization Research</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="feature text-center">
+                                    <img class="img-responsive pngpng" src="/website_kanak/static/src/img/seo/23.png" alt="kanak infosystems llp seo services"/>
+                                    <p class="custom_features_text">Infographics and Interactive Content</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="feature text-center">
+                                    <img class="img-responsive pngpng" src="/website_kanak/static/src/img/seo/24.png" alt="kanak infosystems llp seo services"/>
+                                    <p class="custom_features_text">Schema- Mark-up</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="feature text-center">
+                                    <img class="img-responsive pngpng" src="/website_kanak/static/src/img/seo/25.png" alt="kanak infosystems llp seo services"/>
+                                    <p class="custom_features_text">Content Marketing</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="feature text-center">
+                                    <img class="img-responsive pngpng" src="/website_kanak/static/src/img/seo/26.png" alt="kanak infosystems llp seo services"/>
+                                    <p class="custom_features_text">Blogging &amp; PR</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="feature text-center">
+                                    <img class="img-responsive pngpng" src="/website_kanak/static/src/img/seo/27.png" alt="kanak infosystems llp seo services"/>
+                                    <p class="custom_features_text">Find broken links</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="feature text-center">
+                                    <img class="img-responsive pngpng" src="/website_kanak/static/src/img/seo/28.png" alt="kanak infosystems llp seo services"/>
+                                    <p class="custom_features_text">Consider Social Media</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="feature text-center">
+                                    <img class="img-responsive pngpng" src="/website_kanak/static/src/img/seo/31.png" alt="kanak infosystems llp seo services"/>
+                                    <p class="custom_features_text">Technical SEO Audit</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="feature text-center">
+                                    <img class="img-responsive pngpng" src="/website_kanak/static/src/img/seo/32.png" alt="kanak infosystems llp seo services"/>
+                                    <p class="custom_features_text">Keyword and Market</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="feature text-center">
+                                    <img class="img-responsive pngpng" src="/website_kanak/static/src/img/seo/33.png" alt="kanak infosystems llp seo services"/>
+                                    <p class="custom_features_text">CMS Optimization</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="feature text-center">
+                                    <img class="img-responsive pngpng" src="/website_kanak/static/src/img/seo/34.png" alt="kanak infosystems llp seo services"/>
+                                    <p class="custom_features_text">Penalty Recovery</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="feature text-center">
+                                    <img class="img-responsive pngpng" src="/website_kanak/static/src/img/seo/35.png" alt="kanak infosystems llp seo services"/>
+                                    <p class="custom_features_text">Link Baiting</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="feature text-center">
+                                    <img class="img-responsive pngpng" src="/website_kanak/static/src/img/seo/36.png" alt="kanak infosystems llp seo services"/>
+                                    <p class="custom_features_text">Forum Postings</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="feature text-center">
+                                    <img class="img-responsive pngpng" src="/website_kanak/static/src/img/seo/37.png" alt="kanak infosystems llp seo services"/>
+                                    <p class="custom_features_text">Audience Building</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="feature text-center">
+                                    <img class="img-responsive pngpng" src="/website_kanak/static/src/img/seo/38.png" alt="kanak infosystems llp seo services"/>
+                                    <p class="custom_features_text">Content Based Link Building</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="service-dev-hiring pb32">
+                    <div class="container">
+                        <div class="row justify-content-center text-center">
+                            <div class="block-odoo-themes">
+                                <a target="_blank" href="/seo-smo-service-packages" class="btn btn-primary">
+                                  SEO SMO Service Package </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </t>
+    </template>
+</odoo>

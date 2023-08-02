@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="service_web_php" name="PHP Web Development">
+        <t t-set="additional_title">Offshore PHP Web Development | Custom PHP Web Development Services </t>
+        <t t-set="website_meta_description">We are offering offshore custom PHP web development services all across the world. Outsource our best PHP web design &amp; development services. </t>
+        <t t-set="website_meta_keywords">kanak infosystems llp, php development, php development services, custom php development, php development india, outsource php development </t>
+        <t t-call="website.layout">
+            <div id="wrap" class="oe_structure oe_empty">
+                <section id="main-service-ecommerce" style="background-image: url(/website_kanak/static/src/img/php/php-bnr.jpg);">
+                    <div class="overlay"/>
+                    <div class="container">
+                        <div class="row justify-content-center text-center">
+                            <div class="col-md-12">
+                                <div class="main-team-banner">
+                                    <div class="main-service-ecommerce-banner">
+                                        <span class="kanak-main-service-ecommerce-bnr1"> PHP </span>
+                                        <span class="kanak-main-service-ecommerce-bnr2"> Development </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="service-home-work">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-md-12">
+                                <span class="all-home-colour">
+                                  <a class="text-muted" href="/"> Home </a>
+                                </span>
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                <span class="all-home-colour">
+                                  <a class="text-muted" href="/our-services">  Our Services </a>
+                                </span>
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                <span class="all-home-colour">
+                                  <a class="text-muted">  Web Development  </a>
+                                </span>
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                <span class="all-work-colour"> PHP </span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="service-text-odoo-deve">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-md-12 for-spacing-all">
+                                <h1> Offshore Custom PHP Web Development Services </h1>
+                                <p> A website is what we say is the mirror image to showcase our work, provide information about us to the outer world. with the advancement of technology and changing trends it becomes almost necessity for every business to have a nice-looking website which speaks in itself. We as a team take care of all aspects of <a target="_blank" href="/website-designing-services">website designing</a>, development, making it easily searchable and at the same time make it affordable with the use of latest technology and trends.
+                                </p>
+                                <p> We are offering scalable, interactive and custom PHP web development solutions; gaining expertise from years of rich experience in PHP development. We do innovative development from dynamic websites to interactive business applications; development of customized software to E-Commerce solutions; open source implementation to rapid application framework development. Our team of professional PHP developers work with LAMP stack (Linux, Apache, MySQL, PHP); all advanced Ajax, Web 2.0 and 3.0 technologies to add interactivity to your web applications and to make them highly secure, reliable and effective.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="service-text-odoo-deve">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-md-12 for-spacing-all">
+                                <h2> Our PHP Development Services Includes: </h2>
+                                <p>We have PHP specialist team who provide a range of services on PHP application development with the support of our deep web application development expertise. Here are some of the services that we provide:
+                                </p>
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6 col-xs-12">
+                                        <ul class="my-all-php-deve">
+                                            <li> Custom PHP Application Development</li>
+                                            <li> Custom PHP Programming and Scripting</li>
+                                            <li> Custom PHP Product Development</li>
+                                            <li> Existing Application Porting and Migration</li>
+                                            <li> PHP And Flash/Flex Integration</li>
+                                            <li> PHP And Active Directory Integration Services</li>
+                                            <li> PHP Web Application QA Testing Services</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-xs-12">
+                                        <ul class="my-all-php-deve">
+                                            <li> PHP And Python/Django Integration Services</li>
+                                            <li> Responsive Web Development with the PHP, HTML5 And Javascript</li>
+                                            <li> Python and ASP .NET Integration Services</li>
+                                            <li> Migration of Existing Perl Application To PHP</li>
+                                            <li> Custom Content Management System Development</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-xs-12">
+                                        <ul class="my-all-php-deve">
+                                            <li> Custom Document Management System Development</li>
+                                            <li> Responsive Web Development Using PHP Frameworks</li>
+                                            <li> PHP Consulting Services</li>
+                                            <li> Existing Application Support and Maintenance</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="parallex-home-odoo-service-ecommerce" class="parallex-deve-joomla-1" style="background-image: url(/website_kanak/static/src/img/php/php-prlx.jpg);">
+                    <div class="overlay-ab"></div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h2 class="magento-block2">
+                                  Why We Recommend PHP for Web Development Projects:
+                                </h2>
+                                <ul class="magento-block-all-li row">
+                                    <div class="col-md-6 col-sm-6">
+                                        <li> PHP is an open Source.</li>
+                                        <li> PHP is extendible.</li>
+                                        <li> It supports large number of databases.</li>
+                                        <li> PHP is an independent platform. It will run on most of the platforms.</li>
+                                        <li> It is compatible with servers like IIS and APACHE.</li>
+                                        <li> It has low development and maintenance cost.</li>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6">
+                                        <li> It supports extended Object-Oriented Programming.</li>
+                                        <li> It has Improved support for MySQL with a new MySQL extension.</li>
+                                        <li> It has new error handling module.</li>
+                                        <li> It has new extension for SOAP implementation.</li>
+                                    </div>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="custom_features">
+                    <div class="container">
+                        <div class="row">
+                            <h3 class="joomla-class-a1 text-center text-md-start">Being the leading best PHP web development service provider company, we serve miscellaneous services in PHP including</h3>
+                        </div>
+                        <div class="row center list-features">
+                            <div class="col-lg-2 col-md-4 col-sm-6">
+                                <div class="feature text-center">
+                                    <img src="/website_kanak/static/src/img/php/1.png" alt=" kanak infosystems llp services" class="img img-fluid"/>
+                                    <p class="custom_features_text">Custom Application</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-4 col-sm-6">
+                                <div class="feature text-center">
+                                    <img src="/website_kanak/static/src/img/php/2.png" alt=" kanak infosystems llp services" class="img img-fluid"/>
+                                    <p class="custom_features_text">Dynamic Website </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-4 col-sm-6">
+                                <div class="feature text-center">
+                                    <img src="/website_kanak/static/src/img/php/3.png" alt=" kanak infosystems llp services" class="img img-fluid"/>
+                                    <p class="custom_features_text">Cms Development</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-4 col-sm-6">
+                                <div class="feature text-center">
+                                    <img src="/website_kanak/static/src/img/php/4.png" alt=" kanak infosystems llp services" class="img img-fluid"/>
+                                    <p class="custom_features_text"> PHP based E-commerce</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-4 col-sm-6">
+                                <div class="feature text-center">
+                                    <img src="/website_kanak/static/src/img/php/5.png" alt=" kanak infosystems llp services" class="img img-fluid"/>
+                                    <p class="custom_features_text"> API integration</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-4 col-sm-6">
+                                <div class="feature text-center">
+                                    <img src="/website_kanak/static/src/img/php/6.png" alt=" kanak infosystems llp services" class="img img-fluid"/>
+                                    <p class="custom_features_text"> Cloud (SaaS, PaaS) </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="service-dev-hiring pb32">
+                    <div class="container">
+                        <div class="row justify-content-center text-center">
+                            <div class="block-odoo-themes">
+                                <a target="_blank" href="/contact-us" class="btn btn-primary">
+                                  Hire PHP Developer </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </t>
+    </template>
+</odoo>

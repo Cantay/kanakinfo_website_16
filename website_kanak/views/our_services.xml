@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="kanak_Our_Services" name="Our Services page">
+        <t t-set="additional_title">Innovative IT Business Solutions And Services - Kanak InfoSysyems LLP</t>
+        <t t-set="website_meta_description"> We are at Kanak providing complete range of IT business solution and services from web development to promotion with professional ERP services. </t>
+        <t t-set="website_meta_keywords"> kanak infosystems llp, web designing, web development, digital marketing, link building, seo, smo </t>
+        <t t-call="website.layout">
+            <div id="wrap" class="oe_structure oe_empty">
+                <section id="kanak-our-services" style="background-image: url(/website_kanak/static/src/img/our_services/our-services-banners.jpg);">
+                    <div class="overlay"/>
+                    <div class="container">
+                        <div class="row justify-content-center text-center">
+                            <div class="col-md-12">
+                                <div class="main-team-banner">
+                                    <div class="main-service-banner">
+                                        <span class="service-bnr1"> Our </span>
+                                        <span class="service-bnr2"> Services</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="service-home-work">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-md-12">
+                                <span class="all-home-colour">
+                                  <a class="text-muted" href="/"> Home </a>
+                                </span>
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                <span class="all-work-colour"> Our Services </span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="kanak-services-content pt32 pb32">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-xs-12">
+                                <div class="service-section">
+                                    <div class="img-bs1-img4 text-center">
+                                        <img class="img img-fluid mine-img-bs1" src="/website_kanak/static/src/img/our_services/odoo-openerp.png" />
+                                    </div>
+                                    <div class="all-part-1-bsq1">
+                                        <p class="tag1-bs1"> Odoo - OpenERP </p>
+                                        <a href="/odoo-development-services">
+                                            <p class="tag1-bs2"> Odoo Development </p>
+                                        </a>
+                                        <a href="/odoo-customization-implementation-services">
+                                            <p class="tag1-bs2"> Odoo Implementation</p>
+                                        </a>
+                                        <a href="/odoo-themes">
+                                            <p class="tag1-bs2"> Odoo Themes</p>
+                                        </a>
+                                        <a href="/odoo-integration-services">
+                                            <p class="tag1-bs2"> Odoo Integration</p>
+                                        </a>
+                                        <a href="/odoo-installation-services">
+                                            <p class="tag1-bs2"> Odoo Installation</p>
+                                        </a>
+                                        <a href="/odoo-training">
+                                            <p class="tag1-bs2"> Odoo Training</p>
+                                        </a>
+                                        <a href="/odoo-resources">
+                                            <p class="tag1-bs2"> Odoo Resources</p>
+                                        </a>
+                                        <a href="/hire-odoo-developer">
+                                            <p class="tag1-bs2"> Hire Odoo Developer</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-xs-12">
+                                <div class="service-section">
+                                    <div class="img-bs2-img text-center">
+                                        <img class="img-responsive mine-img-bs2" src="/website_kanak/static/src/img/our_services/Business-Intelligence.png" />
+                                    </div>
+                                    <div class="all-part-1-bsq1">
+                                        <p class="tag1-bs1"> Business Intelligence </p>
+                                        <a href="/business-intelligence-analytics-services">
+                                            <p class="tag1-bs2"> Business Analytics </p>
+                                        </a>
+                                        <a href="/data-integration-services">
+                                            <p class="tag1-bs2"> Data Integration </p>
+                                        </a>
+                                        <a href="/big-data-management-services">
+                                            <p class="tag1-bs2"> Big Data Management </p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-xs-12">
+                                <div class="service-section">
+                                    <div class="img-bs1-img4 text-center">
+                                        <img class="img-responsive mine-img-bs3" src="/website_kanak/static/src/img/our_services/ecommerce.png" />
+                                    </div>
+                                    <div class="all-part-1-bsq1">
+                                        <p class="tag1-bs1"> Ecommerce Solution </p>
+                                        <a href="/magento-development-services">
+                                            <p class="tag1-bs2"> Magento </p>
+                                        </a>
+                                        <a href="/joomla-development-services ">
+                                            <p class="tag1-bs2"> Joomla </p>
+                                        </a>
+                                        <a href="/wordpress-development-services">
+                                            <p class="tag1-bs2"> Wordpress</p>
+                                        </a>
+                                        <a href="/drupal-development-services">
+                                            <p class="tag1-bs2"> Drupal</p>
+                                        </a>
+                                        <a href="/prestashop-development-services">
+                                            <p class="tag1-bs2"> Prestashop</p>
+                                        </a>
+                                        <a href="/hire-magento-joomla-developer">
+                                            <p class="tag1-bs2"> Hire Magento/Joomla Developer</p>
+                                        </a>
+                                        <a href="/hire-wordpress-prestashop-developer">
+                                            <p class="tag1-bs2"> Hire WordPress/Prestashop Developer</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-xs-12">
+                                <div class="service-section">
+                                    <div class="img-bs1-img4 text-center">
+                                        <img class="img-responsive mine-img-bs1" src="/website_kanak/static/src/img/our_services/mobile-app.png" />
+                                    </div>
+                                    <div class="all-part-1-bsq1">
+                                        <p class="tag1-bs1"> Mobile Apps </p>
+                                        <a href="/android-apps-development-services">
+                                            <p class="tag1-bs2"> Android </p>
+                                        </a>
+                                        <a href="/ios-apps-development-services">
+                                            <p class="tag1-bs2"> iOS</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-xs-12">
+                                <div class="service-section">
+                                    <div class="img-bs2-img text-center">
+                                        <img class="img-responsive mine-img-bs2" src="/website_kanak/static/src/img/our_services/erp-solution.png" />
+                                    </div>
+                                    <div class="all-part-1-bsq1">
+                                        <p class="tag1-bs1"> ERP Solutions </p>
+                                        <a href="/erp-solutions">
+                                            <p class="tag1-bs2"> ERP Solutions </p>
+                                        </a>
+                                        <a href="/erpnext-services">
+                                            <p class="tag1-bs2"> ERP Next </p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-xs-12">
+                                <div class="service-section">
+                                    <div class="img-bs1-img4 text-center">
+                                        <img class="img-responsive mine-img-bs3" src="/website_kanak/static/src/img/our_services/Web-designing.png" />
+                                    </div>
+                                    <div class="all-part-1-bsq1">
+                                        <p class="tag1-bs1"> Web Designing </p>
+                                        <a href="/website-designing-services">
+                                            <p class="tag1-bs2"> Website Design </p>
+                                        </a>
+                                        <a href="/website-redesigning-services">
+                                            <p class="tag1-bs2"> Website Redesigning </p>
+                                        </a>
+                                        <a href="/responsive-web-design-services">
+                                            <p class="tag1-bs2"> Responsive Website Design</p>
+                                        </a>
+                                        <a href="/logo-brochure-design-services">
+                                            <p class="tag1-bs2"> Logo, Brochure Designing</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-4 col-xs-12 bs-section-1">
+                                <div class="service-section">
+                                    <div class="img-bs1-img4 text-center">
+                                        <img class="img-responsive mine-img-bs1" src="/website_kanak/static/src/img/our_services/web-development.png" />
+                                    </div>
+                                    <div class="all-part-1-bsq1">
+                                        <p class="tag1-bs1"> Web Development </p>
+                                        <a href="/php-development-services">
+                                            <p class="tag1-bs2"> PHP </p>
+                                        </a>
+                                        <a href="/javascript-development-services">
+                                            <p class="tag1-bs2"> Java Script</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-4 col-xs-12 bs-section-1">
+                                <div class="service-section">
+                                    <div class="img-bs2-img text-center">
+                                        <img class="img-responsive mine-img-bs2" src="/website_kanak/static/src/img/our_services/digital-marketing.png" />
+                                    </div>
+                                    <div class="all-part-1-bsq1">
+                                        <p class="tag1-bs1"> Digital Marketing </p>
+                                        <a href="/smo-services/">
+                                            <p class="tag1-bs2"> Social Media Marketing </p>
+                                        </a>
+                                        <a href="/seo-services">
+                                            <p class="tag1-bs2"> Search Engine Optimization </p>
+                                        </a>
+                                        <a href="/linkbuilding-services">
+                                            <p class="tag1-bs2"> Link Building </p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </t>
+    </template>
+</odoo>

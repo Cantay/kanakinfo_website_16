@@ -22,11 +22,11 @@
                                     <li><a href="/contactus">Contact us</a></li>
                                 </ul>
                             </div>
-                            <div class="col-lg-5 order-1 order-md-2 pt24 pb24">
+                            <div class="col-lg-5 order-1 order-md-2 d-none d-md-block pt24 pb24">
                                 <h5 class="mb-3">About us</h5>
                                 <p>With the onset of 2012, Kanak Infosystems LLP has emerged as a prominent IT company providing services such as Odoo ERP, ERPNext, Oracle NetSuite, and Mobile Applications to small and medium enterprises, facilitating process transformations for their clients.</p>
                             </div>
-                            <div id="connect" class="col-lg-4 offset-lg-1 order-3  pt24 pb24 d-none d-md-block">
+                            <div id="connect" class="col-lg-4 offset-lg-1 order-3  pt24 pb24">
                                 <h5 class="mb-3">Connect with us</h5>
                                 <ul class="list-unstyled">
                                     <li><i class="fa fa-comment fa-fw me-2" /><span><a href="/contactus">Contact us</a></span></li>
@@ -55,7 +55,7 @@
                         </div>
                     </div>
                 </section>
-                <section style="background-color:#ededed">
+                <section style="background-color:#ededed" class="d-none d-md-block">
                     <div class="container">
                         <div class="brand_icon">
                             <a href="https://www.odoo.com/partners/kanak-infosystems-llp-19492?country_id=101">

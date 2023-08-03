@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <template id="service_digital_linkbuilding" name="Link Building">
+    <t t-set="additional_title"> Professional SEO Link Building Company | SEO Link Building Service</t>
+    <t t-set="pageName" t-value="'service_digital_linkbuilding'"/>
+    <t t-set="website_meta_description"> We are leading professional SEO link building service provider company. Outsource our genuine SEO link building service at affordable price.</t>
+    <t t-set="website_meta_keywords">kanak infosystems llp, link building service, seo link building, best link building service, backlink building services, link building outsource </t>
+    <t t-call="website.layout">
+      <div id="wrap" class="service_digital_linkbuilding_kanak">
+        <section id="main-odoo-build-banner">
+          <div class="overlay">
+            <div class="main-kanak-banner">
+              <div class="main-new-odoo-themes-banner">
+                <span class="kanak-odoo-themes-bnr1"> LINK</span>
+                <span class="kanak-odoo-themes-bnr2"> BUILDING </span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="service-home-work">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-12">
+                        <span class="all-home-colour">
+                          <a href="/"> Home </a>
+                        </span>
+                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        <span class="all-home-colour">
+                          <a href="/our-services"> Our Services </a>
+                        </span>
+                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        <span class="all-home-colour">
+                          <a> Digital Marketing </a>
+                        </span>
+                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        <span class="all-work-colour">Link Building</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 for-spacing-all mb16">
+                <h1 class="for-color-reso-1a"> Professional Link Building Service Provider Company </h1>
+                <p>
+                  We are here at Kanak Infosystems, taking initiative to help your business to receive coverage, links and referrals in front of your right audience. Active link juice and social signals are very important for all web business who wants to stand on top at the competitive in the search results.
+                </p>
+                <p>
+                  “Link Building” is term which has actual meaning is to attract LINKS. Effective link building requires good strategy and domain knowledge. This process involves lot of factors like Optimization of your website, worth content to link to get high quality link juice, social connections by persisting on all Google webmaster guidelines.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="main-ab-all-themes">
+            <div id="parallex-home-odoo-build2" class="parallex-build-1">
+              <div class="overlay-ab">
+                <div class="container">
+                  <div class="row gy-4 social-a1"> 
+                    <!-- <div class="col-md-12 social-a1"> -->
+                      <h2 class="for-color-social-1aaaaqq1"> Our Methodology to Build Effective Backlinks for Your Website </h2>
+                      <p class="for-color-social-1aa">
+                        Our Link Building service is actually an efficiency to create natural and organic traffic on major search engines. We provide you the result-oriented link building strategy that assure one-way inbound genuine links from trusted websites. Our strategy of Link Building strictly following the rules as
+                      </p>
+                      <div class="col-md-6 col-sm-6 my-right-tick1">
+                        <p>
+                          <i class="fa fa-check"></i> No links from Link Farms.
+                        </p>
+                        <p>
+                          <i class="fa fa-check"></i> Sufficient implementation of anchor text.
+                        </p>
+                        <p>
+                          <i class="fa fa-check"></i> Strict to No SPAM.
+                        </p>
+                        <p>
+                          <i class="fa fa-check"></i> No framed site Links.
+                        </p>
+                        <p>
+                          <i class="fa fa-check"></i> No links from PRN.
+                        </p>
+                        <p>
+                          <i class="fa fa-check"></i> Determining Keywords in the Anchor Text.
+                        </p>
+                      </div>
+                      <div class="col-md-6 col-sm-6 my-right-tick1">
+                        <p>
+                          <i class="fa fa-check"></i> Link to your site must be from High PR, genuine and relevant sites.
+                        </p>
+                        <p>
+                          <i class="fa fa-check"></i> Links from good domain authority sites.
+                        </p>
+                        <p>
+                          <i class="fa fa-check"></i> Unnatural links recovery, technical SEO and content.
+                        </p>
+                        <p>
+                          <i class="fa fa-check"></i> Google Panda recovery &amp; content marketing.
+                        </p>
+                        <p>
+                          <i class="fa fa-check"></i> SEO &amp; content strategy
+                        </p>
+                      </div>
+                    </div>
+                  <!-- </div> -->
+                </div>
+              </div>
+            </div>
+          </section>
+    
+        
+        
+        
+        <section>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 for-spacing-all">
+                <h3> How We Can Help You </h3>
+                <p> Our link building service is a basic part of <a target="_blank" href="/seo-services">Search Engine Optimization Service</a>. Our team of SEO Expert help you in achieving the goal of quality back links, identify key audiences &amp; develop a strategy to attract them through content, PR, Graphics &amp; other. we make following activities in our practice to achieve our goal </p>
+                <p class="build-class1"> Link Audits:</p>
+                <p> Firstly, we do a review of your existing links and other Social profile, before move to our link bilding process. We try to remove manipulative tactics and unnatural links from work in the past which may cause the problem or may create problem in the future.</p>
+                <p class="build-class1"> Content Marketing:</p>
+                <p> "Content is King!" and the backbone of marketing strategy, so our team of creatives and professional content writers develop unique content strategies for leading brands. Our content team includes writers, designers &amp; developers who manage all type of content requirement. </p>
+                <p class="build-class1"> Digital PR:</p>
+                <p> Our online PR consultants have contacts with key publishers, bloggers, journalists &amp; influencers in various industries &amp; sectors across the world. They help develop PR strategies that work online to attract links, as well as in the offline world.</p>
+                <p class="build-class1">Blogging &amp; Writing: </p>
+                <p> Blogging and writing is one of the other most effective practice of which helps in building natural and effective links. We have professional content writers who help in all way. </p>
+                <p class="build-class1"> Infographics:</p>
+                <p> Visual content sharing always shows the big impact so creative and appealing Infographics and images plays very good role in process of building links. Our team of professional and creatives designers helps to design &amp; create stunning infographics, Graphic images that get shared across the web.</p>
+                <p class="build-class1"> Social Media Promotion:</p>
+                <p> Social platforms also help get useful link juice. So, we have a dedicated team for <a target="_blank" href="/smo-services">Social Media Marketing</a> who help us in overall process of link building. </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        <section>
+          <div class="container">
+            <div class="row for-spacing-all building-last-a1">
+              
+                <h3 class="last-a22"> Our Service Features and Benefits </h3>
+                <div class="col-md-6 col-sm-6">
+                  <p>
+                    <i class="fa fa-check light-green"></i> We create only genuine links - no link farms or networks!
+                  </p>
+                  <p>
+                    <i class="fa fa-check light-green"></i> We build natural or organic links that are highly website specific.
+                  </p>
+                  <p>
+                    <i class="fa fa-check light-green"></i> "Link building" is legal, Google approved and permanent.
+                  </p>
+                  <p>
+                    <i class="fa fa-check light-green"></i>User specific creation of high quality content, Infographics and images.
+                  </p>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                  <p>
+                    <i class="fa fa-check light-green"></i> Anchor Text on brand name as well as keywords.
+                  </p>
+                  <p>
+                    <i class="fa fa-check light-green"></i> Old unwanted backlinks removal and links recovery.
+                  </p>
+                  <p>
+                    <i class="fa fa-check light-green"></i> Enhance and improve your website internal linking and page structure.
+                  </p>
+                  <p>
+                    <i class="fa fa-check light-green"></i> Last but not least a deep competitive analysis.
+                  </p>
+                </div>
+              
+            </div>
+          </div>
+        </section>      
+        <div class="col-md-12 themes-btn-main for-spacing-all custom_bttn_bgrd">
+          <div class="block-odoo-themes">
+            <a target="_blank" href="https://kanakinfosystems.com/seo-smo-service-packages" class="btn-odoo-themes" style="color:white !important">
+              SEO SMO Service Package </a>
+          </div>
+        </div>
+      </div>
+    </t>
+  </template>
+</odoo>

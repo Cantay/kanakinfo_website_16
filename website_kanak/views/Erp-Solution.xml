@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <template id="busineess_bi_erp_sol" name="ERP Solutions">
+    <t t-set="additional_title">Professional ERP Solutions | Best Enterprise Resource Planning Service </t>
+    <t t-set="pageName" t-value="'busineess_bi_erp_sol'"/>
+    <t t-set="website_meta_description">Kanak Infosystems ia a professional and best Open ERP solution provider company offering ERP solutions for all business accros the globe. </t>
+    <t t-set="website_meta_keywords">kanak infosystems llp, erp solutions, enterprise resource planning, erp solution providers, erp solutions for small busine, erp solutions company, best erp solutions, erp solutions india </t>
+    <t t-call="website.layout">
+      <div class="wrap " id="kanak_bg">
+        
+        <section id="main-erp-solution">
+          <div class='container'>
+            <div class="row">
+              <div class="col-lg-6 main-erp">
+                <p class="main-erp-head">ERP <span class="red">Solutions</span></p>
+                <p>Ditch the Multiple Sheets, Software and Apps, Automate your Business with Our ERP Solutions. All your Business Workflows in one Database!</p>
+                <a href="/contact-us" type="button" class="btn btn-danger btn-erp-appointment" style="color:white !important">Book an Appointment</a>
+              </div>
+              <div class="col-lg-6 mob">
+                <img src="/website_kanak/static/src/img/erp_solution/erp-solution-bg.svg" class="img-responsive center-block" style="height:400px"/>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="service-home-work">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-12">
+                        <span class="all-home-colour">
+                          <a href="/"> Home </a>
+                        </span>
+                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        <span class="all-home-colour">
+                          <a href="/kanak-Business-Solutions"> Bussiness Solution </a>
+                        </span>
+                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        <span class="all-work-colour"> ERP Solutions </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="middel-text-odoo-deve">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 for-spacing-all" style="margin-top: 1%;">
+                <h1>Enterprise Resource Planning (ERP) Business Solutions</h1>
+                <p class="magento-block1">“Explore Our ERP Business Solutions for Small to Big Sized Business”</p>
+                <p class="for-deve-middletext1"> Kanak InfoSystems is one of the leading ERP solution provider company; a team of highly qualified and experienced professionals who delivers effective business solutions. We are providing <a href="https://kanakinfosystems.com/blog/erp-benefits-for-manufacturing-industry">ERP solutions to all manufactures</a>
+, Traders, Hotel Dealers, Transporters, Real Estate Companies, Software Companies and many more big sectors. We are also offering <a href="https://kanakinfosystems.com/contact-us">ERP consulting services</a>
+ by our experts of this domain.
+                </p>
+                <p class="for-deve-middletext2"> It is very difficult to choose which is the best software amongst all available <a href="https://kanakinfosystems.com/blog/odoo-review">open ERP software</a>
+; so before to choose best for your business we need to understand first why every business actually needs an automatic business management solution.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        
+        <section id="middel-text-odoo-deve">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 for-spacing-all">
+                <h2 class="why-every-bs-a1">Why Every Business Needs <a href="https://kanakinfosystems.com/contact-us">ERP Integration</a>
+ and ERP Technologies Software</h2>
+                <p class="for-deve-middletext1"> In today's world of highly competitive world, to stay at top in the market every business needs a systematic business management solution for smooth business workflow and cost-effective business and better-quality work experience. We know a streamlined business process produce maximum output.
+                </p>
+                <p class="for-deve-middletext2"> Our <a href="https://kanakinfosystems.com/blog/what-is-erp">ERP software</a>
+ provides you and assure you best control over your business management needs. And the most important "Customer Handling" part is need to handle them with utmost care. To improve the customer relation in a fruitful manner we need to offer a streamlined service and the sales process with proficiency and professionalism on your part and this is understood that it cannot be achieved by any manual or incapable systems.
+                </p>
+                <p class="for-deve-middletext2"> We believe and let believe us our ERP business management solution and software assure you that with <a href="https://kanakinfosystems.com/blog/factors-for-successful-erp-implementation">implementation of our ERP software</a> your business and relation with your customer will be one thing you will be proud off.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        
+        <section id="main-ab-all-deve">
+          <div id="parallex-home-odoo-erp" class="parallex-deve-erpsolution-1">
+            <div class="overlay-ab">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-12 main-new-deve-paralx for-spacing-all">
+                    <h2 class="deve-opensource"> What can a best ERP solution do for you </h2>
+                    <!-- <p class="deve-odoo-company"> ERP-Odoo Development Company </p> -->
+                    <p class="main-new-odoo-deve-cn1"> The best ERP solutions are the ones that are fully integrated with all your systems across the enterprise, hence delivering value to every functional area right from finance to customer service and management. You can consolidate business data to avoid duplication of effort, Speedily respond to customer demand with effective, fast, and flexible processes, Outperform the competition with improved financial insights and results, Simplify business processes with constant, reliable information &amp; real-time transparency, Transform without interruption by updating &amp; activating specific business functions on demand with our ERP solutions.
+                    </p>
+                    <p class="main-new-odoo-deve-cn2">
+                      What benefits you can get you can increase business revenue, can cut overall business cost, improve efficiency, easy to upgrade, easy to maintain, interactive and user-friendly features, one can easily manage our ERP solution. More over all benefits with the right decision and right tools in hands, you can take your business to the next level with minimum effort.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        <section>
+          <div class="col-md-12 for-spacing-all">
+            <div class="container">
+              <div class="row text-center customcontainer">
+                <h3 style="margin-top:2%;margin-bottom:2%">ERP Solutions</h3>
+                <div class="row list-features">
+                  <div class="col-md-4 col-sm-12">
+                    <div class="feature">
+                      <span class="icon-circled icon-circled-lg">
+                        <img src="/website_kanak/static/src/img/erp_solution/Enterprise.svg" alt="Enterprise"/>
+                      </span>
+                      <p class="magento-block11">Enterprise</p>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-12">
+                    <div class="feature">
+                      <span class="icon-circled icon-circled-lg">
+                        <img src="/website_kanak/static/src/img/erp_solution/Apparel.svg" alt="Apparel"/>
+                      </span>
+                      <p class="magento-block11">Apparel &amp; Footwear</p>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-12">
+                    <div class="feature">
+                      <span class="icon-circled icon-circled-lg">
+                        <img src="/website_kanak/static/src/img/erp_solution/FMCG.svg" alt="FMCG" />
+                      </span>
+                      <p class="magento-block11">FMCG</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="row list-features">
+                  <div class="col-md-4 col-sm-12">
+                    <div class="feature">
+                      <span class="icon-circled icon-circled-lg">
+                        <img src="/website_kanak/static/src/img/erp_solution/Pharmaceutical.svg" alt="Pharmaceutical"/>
+                      </span>
+                      <p class="magento-block11">Pharmaceutical</p>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-12">
+                    <div class="feature">
+                      <span class="icon-circled icon-circled-lg">
+                        <img src="/website_kanak/static/src/img/erp_solution/Electronics-Telecom.svg" alt="Electronics and Telecom"/>
+                      </span>
+                      <p class="magento-block11">Electronics &amp; Telecom</p>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-12">
+                    <div class="feature">
+                      <span class="icon-circled icon-circled-lg">
+                        <img src="/website_kanak/static/src/img/erp_solution/Wellness_Spa-Salon.svg" alt="Wellness Spa Salon"/>
+                      </span>
+                      <p class="magento-block11">Wellness, Spa &amp; Salon</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="row list-features">
+                  <div class="col-md-4 col-sm-12">
+                    <div class="feature">
+                      <span class="icon-circled icon-circled-lg">
+                        <img src="/website_kanak/static/src/img/erp_solution/Food-Beverages.svg" alt="Food Beverages"/>
+                      </span>
+                      <p class="magento-block11">Food &amp; Beverages</p>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-12">
+                    <div class="feature">
+                      <span class="icon-circled icon-circled-lg">
+                        <img src="/website_kanak/static/src/img/erp_solution/E-Commerce.svg" alt="E-Commerce"/>
+                      </span>
+                      <p class="magento-block11">E-Commerce - B2C</p>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-12">
+                    <div class="feature">
+                      <span class="icon-circled icon-circled-lg">
+                        <img src="/website_kanak/static/src/img/erp_solution/B2B_Online-Order-Booking.svg" alt="B2B Online Order Booking"/>
+                      </span>
+                      <p class="magento-block11">B2B Online Order Booking</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        
+        <section>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 process-img-hire for-spacing-all">
+                <p class="hire-contactus mt16 mb16">
+                  <a target="_blank" href="/contact-us"> Contact US </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="oe_structure"/>
+        
+      </div>
+    </t>
+  </template>
+</odoo>

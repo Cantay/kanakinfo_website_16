@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="terms_and_condition" name="terms and condition">
+        <t t-set="pageName" t-value="'terms_and_condition'"/>
+        <t t-call="website.layout">
+            <div id="wrap" class="terms_condition_kanak">                
+                <section id="privacy_sec_001" class="privacy_sec_banner oe_img_bg" style="background-image: url(/website_kanak/static/src/img/privacy-policy.webp);" data-scroll-background-ratio="1.6">
+                    <div class="p1_cl_001">
+                        
+                        <h1 class="title_cl mb0"><span>Terms &amp;</span>Conditions</h1>
+                        
+                    </div>
+                </section>
+                <section class="service-home-work">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-md-12">
+                                <span class="all-home-colour">
+                                  <a href="/"> Home </a>
+                                </span>
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                <span class="all-work-colour">Terms &amp; Conditions</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="container oe_structure">
+                    <br />
+                    <p lang="en-US"><strong>TERMS AND CONDITIONS</strong></p>
+                    <p lang="en-US">Last updated: 2022-01-01</p>
+                    <p lang="en-US"><u><strong>General User Term</strong></u></p>
+                    <p lang="en-US"><strong>WELCOME TO KANAK INFOSYSTEMS LLP. PLEASE TAKE TIME TO READ OUR GENERAL TERMS AND CONDITIONS </strong></p>
+                    <p lang="en-US"><strong>Introduction</strong></p>
+                    <p lang="en-US"><strong>Kanak Infosystems LLP.</strong> (&amp;ldquo;Company,&amp;rdquo; &amp;ldquo;we,&amp;rdquo; &amp;ldquo;our,&amp;rdquo; &amp;ldquo;us&amp;rdquo;)! shares your concerns about the protection of your personal information online. These <strong>Terms &amp; Conditions </strong>describe our practices regarding using and collecting data through our website. By using this site or obtaining any support/service through (This Site), you agree to this information as explained in this privacy. If you do not agree with the website located at <strong>kanakinfosystems.com</strong> (together or individually &amp;ldquo;Service&amp;rdquo;), please do not use this site.</p>
+                    <p lang="en-US">By accessing and utilizing the site&amp;rsquo;s services, the (User) accepts, without limitation or qualification, all the terms in using these <strong>&amp;ldquo;Terms &amp; Conditions.&amp;rdquo; </strong>Kanak Infosystems reserves the right to modify or amend the Terms without notice at any time. You can continue to access or use our website shall be deemed your acceptance of these changes and the reasonableness of these standards for notice of changes.</p>
+                    <p lang="en-US">Kanak Infosystems LLP shall not be liable for any damages or injury resulting from the Users&amp;rsquo; access to or inability to access the site.</p>
+                    <p lang="en-US">The Site contains information where content is protected under applicable terms and conditions that may or may not be available in a particular country or region of the world. You should not be liable for any damages or injury resulting from Users&amp;rsquo; access to or inability to access the Site or from reliance on any information at this Site. Links to other sites are provided only as a convenience to Users of the site, and the inclusion of the site does not imply endorsement of the linked site by Kanak Infosystems LLP.</p>
+                    <p lang="en-US">If you do not agree with (or cannot comply with) Agreements, then you may not use the Service; let us know by emailing <strong>sales@kanakinfosystems.com</strong> so we can try to find a solution. These Terms apply to all visitors, users, and others who wish to access or use the Service.</p>
+                    <p lang="en-US">In consideration of the premises set forth above, you, the User, at this moment, should agree to the terms mentioned below:</p>
+                    <p lang="en-US"><strong>Definition:</strong></p>
+                    <p lang="en-US">For a glossary of definitions used in these General User Terms, check the pointers mentioned below:</p>
+                    <ul>
+                        <li>
+                            <p lang="en-US"><strong>Accounts: </strong>The individual is responsible for maintaining the confidentiality of your account and password, including but not limited to restricting access to your computer and account. User Accounts are mainly used and created by the individual and can be removed at the User&amp;rsquo;s convenience. Thus, the information is collected and maintained as company records for the purpose of administration of the services of our Site. This Site reserve the right to refuse service, terminate accounts, remove, or edit content, or cancel the services at our sole discretion.</p>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <p lang="en-US"><strong>Affiliate: </strong>Any organization that, directly or indirectly through one or more intermediaries, controls, is controlled by, or is under common control.</p>
+                        </li>
+                        <li>
+                            <p lang="en-US"><strong>Conversion Tracking: </strong>Proprietary technology used to determine if a Click has converted into a lead.</p>
+                        </li>
+                        <li>
+                            <p lang="en-US"><strong>Editorial Guidelines: </strong>This rule governs the posting of Product Listings in our software directory.</p>
+                        </li>
+                        <li>
+                            <p lang="en-US"><strong>Leads: </strong>All the information of or pertaining to a User interested in using the Upgraded product, which is collected or otherwise secured by us in accordance with the applicable law, which is owned and managed by us.</p>
+                        </li>
+                        <li>
+                            <p lang="en-US"><strong>Modified Product Listings: </strong>Product Listings that have been changed or updated by the professionals or us in accordance with the Guidelines for Product Listings.</p>
+                        </li>
+                        <li>
+                            <p lang="en-US"><strong>Our Content: </strong>Content found on or through this Service are the property of Kanak Infosystems LLP. or used with permission. You may not distribute, modify, transmit, reuse, download, repost, copy, or use said Content, whether in whole or in part, for commercial purposes or personal gain, without express advance written permission from us.</p>
+                        </li>
+                        <li>
+                            <p lang="en-US"><strong>Limitations:</strong> Any third party with which we cooperate to deploy the Programs and Services, including, without any limitation: Partners, Service Providers, and Affiliates.</p>
+                        </li>
+                    </ul>
+                    <p lang="en-US"><strong>Note:</strong> You may not use the name of another person or entity as a username, or that is not lawfully available for use, a name or trademark that is subject to any rights of another person or entity other than you, without appropriate authorization. You may not use as a username any name that is offensive, vulgar, or obscene.</p>
+                    <p lang="en-US"><strong>Eligibility: </strong></p>
+                    <p lang="en-US">The Site and Services intended are solely preferred for Users 18 years or older. An individual or any User accessing our Site and Services under 18 years is strictly prohibited. Accessing or using the Sites and Services requires a warrant of 18 years of age.</p>
+                    <p lang="en-US"><strong>Use of Website </strong></p>
+                    <p lang="en-US">By accessing and using of Site. You agree and acknowledge the Service only for lawful purposes and by Terms. You represent and warrant, to the best of your knowledge:</p>
+                    <p lang="en-US">0.1. That You have all necessary rights, power, and authority to enter these applicable laws. In any way that violates any applicable national or international law or regulation.</p>
+                    <p lang="en-US">0.2. In case of exploiting, harming, or attempting to exploit or harm minors in any way by exposing them to inappropriate content or otherwise.</p>
+                    <p lang="en-US">0.3. That the User can transmit, or procure the sending of, any advertising or promotional material, including any &amp;ldquo;junk mail,&amp;rdquo; &amp;ldquo;chain letter,&amp;rdquo; &amp;ldquo;spam,&amp;rdquo; or any other similar solicitation.</p>
+                    <p lang="en-US">0.4. That impersonate or attempt to impersonate a Company employee, another user, or any other person or entity.</p>
+                    <p lang="en-US">0.5. If, in any case, infringes upon the rights of others, or in any way is illegal, threatening, fraudulent, or harmful, or in connection with any unlawful, illegal, fraudulent, or harmful purpose or activity.</p>
+                    <p lang="en-US">0.6. That engage in any other conduct that restricts or inhibits anyone&amp;rsquo;s use or enjoyment of Service, or which, as determined by us, may harm, or offend Company or users of Service or expose them to liability.</p>
+                    <p lang="en-US">Additionally, you agree not to:</p>
+                    <p lang="en-US">0.1. Use Service in any manner that could disable, overburden, damage, or impair Service or interfere with any other party&amp;rsquo;s use of Service, including their ability to engage in real time activities through Service.</p>
+                    <p lang="en-US">0.2. Use any robot, spider, or another automatic device, process, or means to access Service for any purpose, including monitoring or copying any of the material on Service.</p>
+                    <p lang="en-US">0.3. Use any manual process to monitor or copy any of the material on Service or for any other unauthorized purpose without our prior written consent.</p>
+                    <p lang="en-US">0.4. Use any device, software, or routine that interferes with the proper working of the Service.</p>
+                    <p lang="en-US">0.5. Introduce any viruses, trojan horses, worms, logic bombs, or other malicious or technologically harmful material.</p>
+                    <p lang="en-US">0.6. Attempt to gain unauthorized access to, interfere with, damage, or disrupt any parts of Service, the server on which Service is stored, or any server, computer, or database connected to Service.</p>
+                    <p lang="en-US">0.7. Attack Service via a denial-of-service attack or a distributed denial-of-service attack.</p>
+                    <p lang="en-US">0.8. Take any action that may damage or falsify the Company rating.</p>
+                    <p lang="en-US">0.9. Otherwise, attempt to interfere with the proper working of Service.</p>
+                    <p lang="en-US"><strong>Purpose of the website: </strong></p>
+                    <p lang="en-US">This website is made to provide information regarding professional service providers offering software development and outsourcing services like:</p>
+                    <ul>
+                        <li>
+                            <p lang="en-US">Open-Source development</p>
+                        </li>
+                        <li>
+                            <p lang="en-US">CMS</p>
+                        </li>
+                        <li>
+                            <p lang="en-US">ERP</p>
+                        </li>
+                        <li>
+                            <p lang="en-US">E-Commerce</p>
+                        </li>
+                        <li>
+                            <p lang="en-US">Enterprise Services</p>
+                        </li>
+                        <li>
+                            <p lang="en-US">Mobile App Development</p>
+                        </li>
+                        <li>
+                            <p lang="en-US">Design Creativity</p>
+                        </li>
+                        <li>
+                            <p lang="en-US">CRM</p>
+                        </li>
+                        <li>
+                            <p lang="en-US">PHP Development</p>
+                        </li>
+                        <li>
+                            <p lang="en-US">Magento Development</p>
+                        </li>
+                        <li>
+                            <p lang="en-US">Android Development</p>
+                        </li>
+                        <li>
+                            <p lang="en-US">Odoo Development</p>
+                        </li>
+                        <li>
+                            <p lang="en-US">iOS Development</p>
+                        </li>
+                        <li>
+                            <p lang="en-US">Hire Web Development</p>
+                        </li>
+                    </ul>
+                    <p lang="en-US">In the points mentioned above, we have specified our detailed list of services on our website&amp;rsquo;s homepage. You should agree and acknowledge the list of our services and accordingly select appropriate services as per your business requirements. You agree and understand that these terms are only used for general purposes while you access/use our website accordingly.</p>
+                    <p lang="en-US"><strong>Prohibited Uses</strong></p>
+                    <p lang="en-US">You may use Service only for lawful purposes and by Terms. You agree not to use Service:</p>
+                    <p lang="en-US">0.1. In any way that violates any applicable national or international law or regulation.</p>
+                    <p lang="en-US">0.2. to exploit, harm, or attempt to exploit or harm minors by exposing them to inappropriate content or otherwise.</p>
+                    <p lang="en-US">0.3. To transmit, or procure the sending of, any advertising or promotional material, including any &amp;ldquo;junk mail,&amp;rdquo; &amp;ldquo;chain letter,&amp;rdquo; &amp;ldquo;spam,&amp;rdquo; or any other similar solicitation.</p>
+                    <p lang="en-US">0.4. To impersonate or attempt to impersonate Company, a Company employee, another user, or any other person or entity.</p>
+                    <p lang="en-US">0.5. In any way that infringes upon the rights of others, or in any form is illegal, threatening, fraudulent, or harmful, or in connection with any unlawful, illegal, fraudulent, or harmful purpose or activity.</p>
+                    <p lang="en-US">0.6. To engage in any other conduct that restricts or inhibits anyone&amp;rsquo;s use or enjoyment of Service, or which, as determined by us, may harm or offend Company or users of Service or expose them to liability.</p>
+                    <p lang="en-US">Additionally, you agree not to:</p>
+                    <p lang="en-US">0.1. Use Service in any manner that could disable, overburden, damage, or impair Service or interfere with any other party&amp;rsquo;s use of Service, including their ability to engage in real time activities through Service.</p>
+                    <p lang="en-US">0.2. Use any robot, spider, or other automatic devices, process, or means to access Service for any purpose, including monitoring or copying any of the material on Service.</p>
+                    <p lang="en-US">0.3. Use any manual process to monitor or copy any of the material on Service or for any other unauthorized purpose without our prior written consent.</p>
+                    <p lang="en-US">0.4. Use any device, software, or routine that interferes with the proper working of the Service.</p>
+                    <p lang="en-US">0.5. Introduce any viruses, trojan horses, worms, logic bombs, or other malicious or technologically harmful material.</p>
+                    <p lang="en-US">0.6. Attempt to gain unauthorized access to, interfere with, damage, or disrupt any parts of Service, the server on which Service is stored, or any server, computer, or database connected to Service.</p>
+                    <p lang="en-US">0.7. Attack Service via a denial-of-service attack or a distributed denial-of-service attack.</p>
+                    <p lang="en-US">0.8. Take any action that may damage or falsify Company&amp;rsquo;s rating.</p>
+                    <p lang="en-US">0.9. Otherwise, attempt to interfere with the proper working of Service.</p>
+                    <p lang="en-US"><strong>Intellectual Property Rights</strong></p>
+                    <p lang="en-US">Our website comprises original Content, features, and functionality created by the exclusive property of Kanak Infosystems LLP and its licensors.</p>
+                    <p lang="en-US"><strong>Copyright Infringement Claims:</strong></p>
+                    <p lang="en-US">We respect the intellectual property rights of others, and we restrict infringing activity on our Site. It is our policy to respond to any claim that Content posted on Service infringes on the copyright or other intellectual property rights (&amp;ldquo;Infringement&amp;rdquo;) of any person or entity.</p>
+                    <p lang="en-US">If You are a copyright owner or authorized on behalf of one, and you believe that the copyrighted work has been copied in a way that constitutes copyright infringement, please submit your claim via email to sales@kanakinfosystems.com, with the subject line: &amp;ldquo;Copyright Infringement&amp;rdquo; and include in your claim a detailed description of the alleged Infringement as detailed below, under &amp;ldquo;DMCA Notice and Procedure for Copyright Infringement Claims&amp;rdquo;.</p>
+                    <p lang="en-US">You may be held accountable for damages (including costs and attorneys&amp;rsquo; fees) for misrepresentation or bad-faith claims on the infringement of any Content found on and/or through Service on your copyright.</p>
+                    <p lang="en-US"><strong>DMCA Notice and Procedure for Copyright Infringement Claims</strong></p>
+                    <p lang="en-US">You may submit a notification under the Digital Millennium Copyright Act (DMCA) by providing our Copyright Agent with the following information in writing (see 17 U.S.C 512(c)(3) for further detail):</p>
+                    <p lang="en-US">0.1. an electronic or physical signature of the person authorized to act on behalf of the owner of the copyright&amp;rsquo;s interest;</p>
+                    <p lang="en-US">0.2. a description of the copyrighted work that you claim has been infringed, including the URL (i.e., web page address) of the location where the copyrighted work exists or a copy of the copyrighted work;</p>
+                    <p lang="en-US">0.3. identification of the URL or other specific location on Service where the material that you claim is infringing is located;</p>
+                    <p lang="en-US">0.4. your address, telephone number, and email address;</p>
+                    <p lang="en-US">0.5. a statement by you that you have a good faith belief that the disputed use is not authorized by the copyright owner, its agent, or the law.</p>
+                    <p lang="en-US">0.6. a statement by you, made under penalty of perjury, that the above information in your notice is accurate and that you are the copyright owner or authorized to act on the copyright owner&amp;rsquo;s behalf.</p>
+                    <p lang="en-US"><strong>* </strong>We reserve the right to seek damages from any person who knowingly, or materially submits a DMCA notification claim under this section in violation of law and which comes under the law. You can contact our Copyright Agent via email at sales@kanakinfosystems.com.</p>
+                    <p lang="en-US"><strong>Error Reporting and Feedback</strong></p>
+                    <p lang="en-US">You may provide us directly at sales@kanakinfosystems.com or via third-party sites and tools with information and feedback concerning errors, suggestions for improvements, ideas, problems, complaints, and other matters related to our Service (&amp;ldquo;Feedback&amp;rdquo;). You acknowledge and agree that: (i) you shall not retain, acquire or assert any intellectual property right or other rights, title, or interest in or to the Feedback; (ii) Company may have developed ideas similar to the Feedback; (iii) Feedback does not contain confidential information or proprietary information from you or any third party, and (iv) Company is not under any obligation of confidentiality concerning the Feedback. In the event the transfer of the ownership to the Feedback is not possible due to applicable mandatory laws, you grant Company and its affiliates an exclusive, transferable, irrevocable, free-of-charge, sub-licensable, unlimited, and perpetual right to use (including copy, modify, create derivative works, publish, distribute and commercialize) Feedback in any manner and for any purpose.</p>
+                    <p lang="en-US"><strong>Refund Policy </strong></p>
+                    <p lang="en-US">Refund policies are maintained to safeguard a client&amp;rsquo;s interests to ensure a transparent process of exchange. In the given document, we provide quality support to our customers and clients where we share and consider the cancellation and refund policy. Our plan for each service divides works into milestones.</p>
+                    <p lang="en-US">If he/she clearly specify the reason for the cancellation of the order that he or she had placed and contact our support team to inform them for the same.</p>
+                    <p lang="en-US">The entire services begin with a complete discovery/analysis and creation of a scope of work document. This can be done, when we make sure that both parties have a complete understanding of the work required and thus eliminate the potential for service cancellations, reversals, or disputes.</p>
+                    <p lang="en-US">In the case of customization, implementation, or any other related service being terminated on a mutual basis, the client has control of all completed tasks, and any further payment will become void. No previous payment or deposit would be refunded.</p>
+                    <p lang="en-US">However, no payment will be refunded once the client approves support and moves further processes.</p>
+                    <p lang="en-US"><strong>Please note: It is noted that our team reserves all rights to warrant such a cancellation request if it is deemed to fit. </strong></p>
+                    <p lang="en-US"><strong>Links To Other Web Sites</strong></p>
+                    <p lang="en-US">Our Service may contain links to third-party websites or services not owned or controlled by Kanak Infosystems LLP.</p>
+                    <p lang="en-US">Kanak Infosystems LLP. has no control over and assumes no responsibility for any third-party websites or services' content, privacy policies, or practices. We do not warrant the offerings of any of these entities/individuals or their websites.</p>
+                    <p lang="en-US"><strong>Disclaimer </strong></p>
+                    <p lang="en-US">THESE SERVICES ARE PROVIDED BY THE COMPANY ON AN &amp;ldquo;AS IS&amp;rdquo; AND &amp;ldquo;AS AVAILABLE&amp;rdquo; BASIS. THE COMPANY MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, AS TO THE OPERATION OF THEIR SERVICES OR THE INFORMATION, CONTENT, OR MATERIALS INCLUDED THEREIN. YOU EXPRESSLY AGREE THAT YOUR USE OF THESE SERVICES, THEIR CONTENT, AND ANY SERVICES OR ITEMS OBTAINED FROM US IS AT YOUR SOLE RISK.</p>
+                    <p lang="en-US">NOR ANY PERSON ASSOCIATED WITH THE COMPANY MAKES ANY WARRANTY OR REPRESENTATION WITH RESPECT TO THE COMPLETENESS, SECURITY, RELIABILITY, QUALITY, ACCURACY, OR AVAILABILITY OF THE SERVICES. WITHOUT LIMITING THE FOREGOING, NEITHER COMPANY NOR ANYONE ASSOCIATED WITH THE COMPANY REPRESENTS OR WARRANTS THAT THE SERVICES, THEIR CONTENT, OR ANY SERVICES OR ITEMS OBTAINED THROUGH THE SERVICES WILL BE ACCURATE, RELIABLE, ERROR-FREE, OR UNINTERRUPTED, THAT DEFECTS WILL BE CORRECTED, THAT THE SERVICES OR THE SERVER THAT MAKES IT AVAILABLE ARE FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS OR THAT THE SERVICES OR ANY SERVICES OR ITEMS OBTAINED THROUGH THE SERVICES WILL OTHERWISE MEET YOUR NEEDS OR EXPECTATIONS.</p>
+                    <p lang="en-US">THE COMPANY HEREBY DISCLAIMS ALL WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED, STATUTORY, OR OTHERWISE, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, NON-INFRINGEMENT, AND FITNESS FOR A PARTICULAR PURPOSE.</p>
+                    <p lang="en-US">THE PRECEDING DOES NOT AFFECT ANY WARRANTIES, WHICH CAN NOT BE EXCLUDED OR LIMITED UNDER APPLICABLE LAW.</p>
+                    <p lang="en-US"><strong>Limitation Of Liability</strong></p>
+                    <p lang="en-US">EXCEPT AS PROHIBITED BY LAW, YOU WILL HOLD US. OUR OFFICERS, DIRECTORS, EMPLOYEES, AND AGENTS HARMLESS FOR ANY INDIRECT, PUNITIVE, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGE, HOWEVER, IT ARISES (INCLUDING ATTORNEYS&amp;rsquo; FEES AND ALL RELATED COSTS AND EXPENSES OF LITIGATION AND ARBITRATION, OR AT TRIAL OR ON APPEAL, IF ANY, WHETHER OR NOT LITIGATION OR ARBITRATION IS INSTITUTED), WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE, OR OTHER TORTIOUS ACTION, OR ARISING OUT OF OR IN CONNECTION WITH THIS AGREEMENT, INCLUDING WITHOUT LIMITATION ANY CLAIM FOR PERSONAL INJURY OR PROPERTY DAMAGE, ARISING FROM THIS AGREEMENT AND ANY VIOLATION BY YOU OF ANY FEDERAL, STATE, OR LOCAL LAWS, STATUTES, RULES, OR REGULATIONS, EVEN IF COMPANY HAS BEEN PREVIOUSLY ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. EXCEPT AS PROHIBITED BY LAW, IF THERE IS LIABILITY FOUND ON THE PART OF THE COMPANY, IT WILL BE LIMITED TO THE AMOUNT PAID FOR THE PRODUCTS AND SERVICES, AND UNDER NO CIRCUMSTANCES WILL THERE BE CONSEQUENTIAL OR PUNITIVE DAMAGES. SOME STATES DO NOT ALLOW THE EXCLUSION OR LIMITATION OF PUNITIVE, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, SO THE PRIOR LIMITATION OR EXCLUSION MAY NOT APPLY TO YOU.</p>
+                    <p lang="en-US"><strong>Termination</strong></p>
+                    <p lang="en-US">We reserve the right to terminate or suspend your account and bar access to Service immediately, without prior notice or liability, under our sole discretion, for any reason whatsoever and without limitation, including but not limited to a breach of Terms.</p>
+                    <p lang="en-US">If you wish to terminate your account, you may simply discontinue using the Service.</p>
+                    <p lang="en-US">All provisions of Terms which by their nature should survive termination shall survive termination, including, without limitation, ownership provisions, warranty disclaimers, indemnity, and limitations of liability.</p>
+                    <p lang="en-US"><strong>Force Majeure:</strong></p>
+                    <p lang="en-US">Neither party will be liable for any failure or delay of performance under governed law and General User Terms resulting from a force majeure event beyond the reasonable control of a party which includes, without limitation, natural disasters, acts of God, government regulations, war, terrorism, labor disputes, and power failures.</p>
+                    <p lang="en-US"><strong>Governing Law:</strong></p>
+                    <p lang="en-US">The General User Terms are governed and construed by the laws of India, which governing law applies to an agreement without regard to its conflict of law provisions. All claims relating to these General User Terms will be litigated exclusively in India, and each Software Advice and User consents of personal jurisdiction in those courts.</p>
+                    <p lang="en-US"><strong>Indemnification: </strong></p>
+                    <p lang="en-US">In the content, each of Us and the User (in its capacity as &amp;ldquo;Indemnitor&amp;rdquo;) agrees to indemnify, defend and hold harmless our company and its employees (in its capacity as &amp;ldquo;Indemnitee&amp;rdquo;) from and against any third-party claims liabilities losses, and expenses arising out of your respective violation of these General User Terms, except to the extent such losses and expenses arising from the negligence or willful misconduct of indemnitee.</p>
+                    <p lang="en-US"><strong>Amendments To Terms</strong></p>
+                    <p lang="en-US">We may amend Terms at any time by posting the amended terms on this site. It is your responsibility to review these Terms periodically.</p>
+                    <p lang="en-US">Your continued use of the Platform following the posting of revised Terms means that you accept and agree to the changes. You are expected to check this page frequently to be aware of any changes, as they are binding on you.</p>
+                    <p lang="en-US">By continuing to access or use our Service after any revisions become effective, you agree to be bound by the revised terms. You are no longer authorized to use Service if you do not agree to the new terms.</p>
+                    <p lang="en-US"><strong>Waiver And Severability:</strong></p>
+                    <p lang="en-US">No waiver by Company of any term or condition set forth in Terms shall be deemed a further or continuing waiver of such term or condition or a waiver of any other term or condition, and any failure of Company to assert a right or provision under Terms shall not constitute a waiver of such right or provision.</p>
+                    <p lang="en-US">If any provision of Terms is held by a court or other tribunal of competent jurisdiction to be invalid, illegal, or unenforceable for any reason, such provision shall be eliminated or limited to the minimum extent such that the remaining provisions of Terms will continue in full force and effect.</p>
+                    <p lang="en-US"><strong>Acknowledgment</strong></p>
+                    <p lang="en-US">BY USING SERVICE OR OTHER SERVICES PROVIDED BY US, YOU ACKNOWLEDGE THAT YOU HAVE READ THESE TERMS OF SERVICE AND AGREE TO BE BOUND BY THEM.</p>
+                    <p lang="en-US"><strong>Contact Us</strong></p>
+                    <p lang="en-US">Please send your feedback, comments, and requests for technical support by email: <strong>sales@kanakinfosystems.com</strong>.</p>
+                    <br /><br />
+                </div>
+            </div>
+        </t>
+    </template>
+</odoo>

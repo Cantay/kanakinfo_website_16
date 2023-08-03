@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <template id="service_web_design" name="Website Design">
+    <t t-set="pageName" t-value="'service_web_design'"/>
+
+    <t t-set="additional_title">Custom Website Design Company | Professional Web Design Services </t>
+    <t t-set="website_meta_description">We are offering affordable custom web design services. Professional web design service for all type of business websites. Avail best service. </t>
+    <t t-set="website_meta_keywords">kanak infosystems llp, website design services, web design services, affordable web design, custom website design, business website design </t>
+    <t t-call="website.layout">
+      <div id="wrap" class="service_web_design_kanak">
+       
+        <section id="main-odoo-wd1-banner">
+          <div class="overlay">
+            <div class="main-kanak-banner">
+              <div class="main-new-odoo-themes-banner">
+                <span class="kanak-odoo-themes-bnr1"> WEBSITE</span>
+                <span class="kanak-odoo-themes-bnr2"> DESIGN </span>
+              </div>
+            </div>
+          </div>
+        </section>
+       
+        <section class="service-home-work">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-12">
+                        <span class="all-home-colour">
+                          <a href="/"> Home </a>
+                        </span>
+                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        <span class="all-home-colour">
+                          <a href="/our-services"> Our Services </a>
+                        </span>
+                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        <span class="all-work-colour">Website Design</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 for-spacing-all">
+                <h1 class="for-color-reso-1a"> Offshore Professional Website Designing Services </h1>
+                <p>
+                  <span class='inner-wd-class1'> Here, you can get best professional website designing services, if you are looking for a reliable web design company. We are trusted and certified company to accomplish the custom website design requirements. </span>
+                </p>
+                <p>
+                  Why a good looking and professional web design is necessary for a business? And, the answer is A greatly designed website is most important for every business and for the business owner also who wants to offer 100% satisfaction to his customers.
+                </p>
+                <p class="wd-class1">
+                  A stunning website is your first step towards set up your online business
+                </p>
+                <p class="wd-class2">
+                  If you are also among those business owners, then we provider of affordable and professional custom website designing to grow your online business at a rapid pace. We have professional designers and experts who are specialized in building websites with perplexed designs that automatically attract the target customers. We have successfully delivered 1000+ projects till date. All designs are fresh, meaningful, unique, stylish and user-friendly; we deliver on time, and within the client´s budget.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+       
+        
+        <!-- <section id="main-ab-all-themes">
+          <div id="parallex-home-odoo-wd12" class="parallex-wd1-1">
+            <div class="overlay-ab">
+              <div class="container">
+                <div class="row for-spacing-all">
+                  <div class="col-sm-12">
+                    <h2 class="social-heading-h11"> Our Affordable Custom Website Design Services Includes </h2>
+                  </div>
+                  <div class="col-md-12 col-sm-12">
+                    <div class="col-md-1 col-sm-2 impli-smallimg11">
+                      <img class="social-small-img" src="/website_kanak/static/src/img/all-new/our_sevices/web-design/website-design/wd1.svg" alt="kanak infosystems graphic design services"/>
+                    </div>
+                    <div class="col-md-5 col-sm-4 social-smalltext-wd">
+                      <h4> Graphic Design Services </h4>
+                      <p>We are responsible to create all graphics required to define your business services in a best possible way. Keeping your design, branding and overall marketing up to speed with what your clients/customers expect with creative graphic designs. </p>
+                    </div>
+                    <div class="col-md-1 col-sm-2 impli-smallimg11">
+                      <img class="social-small-img" src="/website_kanak/static/src/img/all-new/our_sevices/web-design/website-design/wd5.svg" alt="kanak infosystems llp dynamic &amp; static web designing services"/>
+                    </div>
+                    <div class="col-md-5 col-sm-4 social-smalltext-wd">
+                      <h4> Dynamic and Static Website Designing Services</h4>
+                      <p> We offer both professional static and dynamic web designs creation. Static and Dynamic web designs endeavour to showcase your business services whether they required frequent updates or not. </p>
+                    </div>
+                  </div>
+                  <div class="col-md-12 col-sm-12">
+                    <div class="col-md-1 col-sm-2 impli-smallimg11">
+                      <img class="social-small-img" src="/website_kanak/static/src/img/all-new/our_sevices/web-design/website-design/wd2.svg" alt="kanak infosystems llp social media monitoring services"/>
+                    </div>
+                    <div class="col-md-5 col-sm-4 social-smalltext-wd">
+                      <h4><a target="_blank" href="/seo-services">Social Media Monitoring </a></h4>
+                      <p> Full time monitoring on your social network accounts, we will take care about who is talking about and what they are say and ensures that you are always ahead of the conversation, ready to contribute whenever you need to. </p>
+                    </div>
+                    <div class="col-md-1 col-sm-2 impli-smallimg11">
+                      <img class="social-small-img" src="/website_kanak/static/src/img/all-new/our_sevices/web-design/website-design/wd6.svg" alt="kanak infosystems llp responsive web designing services"/>
+                    </div>
+                    <div class="col-md-5 col-sm-4 social-smalltext-wd">
+                      <h4><a target="_blank" href="/responsive-web-design-services">Responsive Website Design Services</a></h4>
+                      <p>Our professional designers have rich experience in to featuring your websites over desktop, smartphones tablets alike with responsive website designing services.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-md-12 col-sm-12">
+                    <div class="col-md-1 col-sm-2 impli-smallimg11">
+                      <img class="social-small-img" src="/website_kanak/static/src/img/all-new/our_sevices/web-design/website-design/wd3.svg" alt="kanak infosystems llp custom web designing services"/>
+                    </div>
+                    <div class="col-md-5 col-sm-4 social-smalltext-wd">
+                      <h4>Custom Website Designing Services</h4>
+                      <p>Under this service our aim is to provide the best suited design as per your custom requirements in the most creative way. </p>
+                    </div>
+                    <div class="col-md-1 col-sm-2 impli-smallimg11">
+                      <img class="social-small-img" src="/website_kanak/static/src/img/all-new/our_sevices/web-design/website-design/wd7.svg" alt="kanak infosystems llp corporate website designing services"/>
+                    </div>
+                    <div class="col-md-5 col-sm-4 social-smalltext-wd">
+                      <h4>Corporate Website Designing Services</h4>
+                      <p>Some business has their own specific website design requirements; we fulfil that client’s requirement under this corporate web designing services up to 100% customer satisfaction.</p>
+                    </div>
+                  </div>
+                  <div class="col-md-12 col-sm-12">
+                    <div class="col-md-1 col-sm-2 impli-smallimg11">
+                      <img class="social-small-img" src="/website_kanak/static/src/img/all-new/our_sevices/web-design/website-design/wd4.svg" alt="kanak infosystems llp logo, brouchure &amp; template designing services" />
+                    </div>
+                    <div class="col-md-5 col-sm-4 social-smalltext-wd">
+                      <h4><a target="_blank" href="/logo-brochure-design-services">Logo, Brochure and Template Designing Services</a></h4>
+                      <p>Logo Designing is one of the very first and the most important art to expertise. We know the importance of a logo for any web business as it has to create the brand identity and our professional and creative designers are always like to take this challenge. They all have spectacular and engaging ideas to create a aristocratic LOGO your business. </p>
+                    </div>
+                    <div class="col-md-1 col-sm-2 impli-smallimg11">
+                      <img class="social-small-img" src="/website_kanak/static/src/img/all-new/our_sevices/web-design/website-design/wd8.svg" alt="kanak infosystems llp website redesigning services"/>
+                    </div>
+                    <div class="col-md-5 col-sm-4 social-smalltext-wd">
+                      <h4><a target="_blank" href="/website-redesigning-services">Website Redesigning Services</a></h4>
+                      <p>If you don't like your current website design then we are here to redesign your old website design into a contemporary look without changing its functionality.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section> -->
+        <section id="main-ab-all-themes">
+            <div id="parallex-home-odoo-wd12" class="parallex-wd1-1">
+            <div class="overlay-ab">
+            <div class="container">
+            <div class="row for-spacing-all text-center text-sm-start">
+            <div class="col-sm-12">
+            <h2 class="social-heading-h11"> Our Affordable Custom Website Design Services Includes </h2>
+            </div>
+            <div class="col-md-12 col-sm-12 row">
+            <div class="col-md-1 col-sm-2 impli-smallimg11">
+            <img class="social-small-img" src="website_kanak/static/src/img/all-new/our_sevices/web-design/website-design/wd1.svg" alt="kanak infosystems graphic design services"/>
+            </div>
+            <div class="col-md-5 col-sm-4 social-smalltext-wd ">
+            <h4> Graphic Design Services </h4>
+            <p>We are responsible to create all graphics required to define your business services in a best possible way. Keeping your design, branding and overall marketing up to speed with what your clients/customers expect with creative graphic designs. </p>
+            </div>
+            <div class="col-md-1 col-sm-2 impli-smallimg11">
+            <img class="social-small-img" src="website_kanak/static/src/img/all-new/our_sevices/web-design/website-design/wd5.svg" alt="kanak infosystems llp dynamic and static web designing services"/>
+            </div>
+            <div class="col-md-5 col-sm-4 social-smalltext-wd">
+            <h4> Dynamic and Static Website Designing Services</h4>
+            <p> We offer both professional static and dynamic web designs creation. Static and Dynamic web designs endeavour to showcase your business services whether they required frequent updates or not. </p>
+            </div>
+            </div>
+            <div class="col-md-12 col-sm-12 row">
+            <div class="col-md-1 col-sm-2 impli-smallimg11 ">
+            <img class="social-small-img" src="website_kanak/static/src/img/all-new/our_sevices/web-design/website-design/wd2.svg" alt="kanak infosystems llp social media monitoring services"/>
+            </div>
+            <div class="col-md-5 col-sm-4 social-smalltext-wd ">
+            <h4>
+            <a target="_blank" href="/seo-services" style="display: contents;">Social Media Monitoring </a>
+            </h4>
+            <p> Full time monitoring on your social network accounts, we will take care about who is talking about and what they are say and ensures that you are always ahead of the conversation, ready to contribute whenever you need to. </p>
+            </div>
+            <div class="col-md-1 col-sm-2 impli-smallimg11">
+            <img class="social-small-img" src="website_kanak/static/src/img/all-new/our_sevices/web-design/website-design/wd6.svg" alt="kanak infosystems llp responsive web designing services"/>
+            </div>
+            <div class="col-md-5 col-sm-4 social-smalltext-wd">
+            <h4>
+            <a target="_blank" href="/responsive-web-design-services" style="display: contents;">Responsive Website Design Services</a>
+            </h4>
+            <p>Our professional designers have rich experience in to featuring your websites over desktop, smartphones tablets alike with responsive website designing services. </p>
+            </div>
+            </div>
+            <div class="col-md-12 col-sm-12 row">
+            <div class="col-md-1 col-sm-2 impli-smallimg11 ">
+            <img class="social-small-img" src="website_kanak/static/src/img/all-new/our_sevices/web-design/website-design/wd3.svg" alt="kanak infosystems llp custom web designing services"/>
+            </div>
+            <div class="col-md-5 col-sm-4 social-smalltext-wd ">
+            <h4>Custom Website Designing Services</h4>
+            <p>Under this service our aim is to provide the best suited design as per your custom requirements in the most creative way. </p>
+            </div>
+            <div class="col-md-1 col-sm-2 impli-smallimg11">
+            <img class="social-small-img" src="website_kanak/static/src/img/all-new/our_sevices/web-design/website-design/wd7.svg" alt="kanak infosystems llp corporate website designing services"/>
+            </div>
+            <div class="col-md-5 col-sm-4 social-smalltext-wd">
+            <h4>Corporate Website Designing Services</h4>
+            <p>Some business has their own specific website design requirements; we fulfil that client’s requirement under this corporate web designing services up to 100% customer satisfaction.</p>
+            </div>
+            </div>
+            <div class="col-md-12 col-sm-12 row">
+            <div class="col-md-1 col-sm-2 impli-smallimg11 ">
+            <img class="social-small-img" src="website_kanak/static/src/img/all-new/our_sevices/web-design/website-design/wd4.svg" alt="kanak infosystems llp logo, brouchure and template designing services"/>
+            </div>
+            <div class="col-md-5 col-sm-4 social-smalltext-wd ">
+            <h4>
+            <a target="_blank" href="/logo-brochure-design-services" style="display: contents;">Logo, Brochure and Template Designing Services</a>
+            </h4>
+            <p>Logo Designing is one of the very first and the most important art to expertise. We know the importance of a logo for any web business as it has to create the brand identity and our professional and creative designers are always like to take this challenge. They all have spectacular and engaging ideas to create a aristocratic LOGO your business. </p>
+            </div>
+            <div class="col-md-1 col-sm-2 impli-smallimg11">
+            <img class="social-small-img" src="website_kanak/static/src/img/all-new/our_sevices/web-design/website-design/wd8.svg" alt="kanak infosystems llp website redesigning services"/>
+            </div>
+            <div class="col-md-5 col-sm-4 social-smalltext-wd">
+            <h4>
+            <a target="_blank" href="/website-redesigning-services" style="display: contents;">Website Redesigning Services</a>
+            </h4>
+            <p>If you don't like your current website design then we are here to redesign your old website design into a contemporary look without changing its functionality.</p>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </section>
+       
+        
+        <section>
+          <div class="container">
+            <div class="row for-spacing-all">
+              <div class="col-sm-12">
+                <h3 class="last-wd-class"> Why Choose Kanak InfoSystems for Website Designing Services </h3>
+                <p class="last-wd-class2"> We understand the fact and importance of great web design, the choice ofright colors, the correct layout and an airtight code to maximize web traffic towards your website. With Kanak, you can be assured of working with </p>
+              </div>
+              <div class="col-md-6 col-sm-6 my-right-tickkk">
+                <p>
+                  <i class="fa fa-check light-green"></i> Professional and Creative Team of web designers
+                </p>
+                <p>
+                  <i class="fa fa-check light-green"></i> Project Management System with full Plan
+                </p>
+                <p>
+                  <i class="fa fa-check light-green"></i> Personalized and Consultative Approach
+                </p>
+              </div>
+              <div class="col-md-6 col-sm-6 my-right-tickkk">
+                <p>
+                  <i class="fa fa-check light-green"></i> On Time Delivery and Best Quality
+                </p>
+                <p>
+                  <i class="fa fa-check light-green"></i> Experienced Team in the Industry
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+       
+        
+        <section>
+            <div class="container">
+            <div class="row">
+            <div class="col-md-12 process-img-hire for-spacing-all">
+            <p class="hire-contactus text-center mt16 mb16">
+            <a target="_blank" class="btn btn-primary" href="/contact-us"> Hire Website Developer </a>
+            </p>
+            </div>
+            </div>
+            </div>
+            </section>
+        <div class="oe_structure"/>
+        
+      </div>
+    </t>
+  </template>
+</odoo>

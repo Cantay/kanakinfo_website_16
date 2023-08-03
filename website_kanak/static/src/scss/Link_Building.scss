@@ -1,0 +1,232 @@
+.service_digital_linkbuilding {
+$color_1: #fff;
+$color_2: #00deff;
+$color_3: gray;
+$color_4: #000;
+$color_5: #003662;
+$color_6: #003362;
+$font-family_1: Roboto, sans-serif;
+$background-color_1: rgba(2, 42, 70, .79);
+$background-color_2: #d3d3d3;
+$background-color_3: rgba(42, 77, 105, .8);
+$background-color_4: #003362;
+
+#main-odoo-build-banner {
+	background: url(/website_kanak/static/src/img/Link_Building/Link-Building-banner.webp);
+	height: 500px !important;
+	background-size: 100% 100%;
+	position: relative;
+	.overlay {
+		top: 0;
+		bottom: -1px;
+		left: 0;
+		right: 0px;
+		-webkit-transform: scale(1);
+		position: absolute;
+		opacity: .9;
+		transform: scale(1);
+		background-color: $background-color_1;
+	}
+}
+.main-new-odoo-themes-banner {
+	text-align: center;
+	padding-top: 200px;
+}
+.kanak-odoo-themes-bnr1 {
+	font-weight: 700;
+	border-bottom: 1px solid #fff;
+	font-size: 64px;
+	color: $color_1;
+}
+.kanak-odoo-themes-bnr2 {
+	font-weight: 700;
+	border-bottom: 1px solid #fff;
+	font-size: 64px;
+	color: $color_2;
+}
+#main-odoo-deve2 {
+	font-family: $font-family_1 !important;
+}
+.workpage-home-work {
+	.fa-chevron-right {
+		font-size: 10px;
+		color: $color_3;
+	}
+	background-color: $background-color_2;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	opacity: .5;
+}
+.all-home-colour {
+	a {
+		text-decoration: none;
+		color: $color_3;
+	}
+	padding-left: 7px;
+}
+.all-work-colour {
+	text-decoration: none;
+	color: $color_4;
+}
+.for-spacing-all {
+	h1 {
+		color: $color_5;
+	}
+	h3 {
+		color: $color_5;
+	}
+	line-height: 170%;
+	letter-spacing: 1px;
+}
+.for-color-reso-1a {
+	color: $color_6;
+}
+#parallex-home-odoo-build2 {
+	>.overlay-ab {
+		top: 0;
+		bottom: -1px;
+		left: 0;
+		right: -1px;
+		-webkit-transform: scale(1);
+		padding-bottom: 25px;
+		transform: scale(1);
+		background-color: $background-color_3;
+	}
+	background-image: url(/website_kanak/static/src/img/Link_Building/Link-Building-banner-middle.webp);
+	background-attachment: fixed;
+}
+.parallex-build-1 {
+	position: relative;
+	background: 50% 50%/cover;
+	position: relative;
+	background: 50% 50%/cover;
+}
+.social-a1 {
+	padding-top: 15px;
+}
+.for-color-social-1aaaaqq1 {
+	color: $color_2;
+}
+.for-color-social-1aa {
+	color: $color_1;
+}
+.my-right-tick1 {
+	p {
+		color: $color_2;
+	}
+}
+.build-class1 {
+	color: $color_6;
+	font-weight: 700;
+}
+.building-last-a1 {
+	padding-bottom: 25px;
+}
+.last-a22 {
+	color: $color_6;
+}
+.themes-btn-main {
+	text-align: center;
+}
+.block-odoo-themes {
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+.btn-odoo-themes {
+	&:hover {
+		color: $color_1;
+		text-decoration: none !important;
+	}
+	border: 2px solid #003362;
+	font-size: 20px;
+	background-color: $background-color_4;
+	color: $color_1;
+	padding: 6px 18px;
+}
+.light-green {
+	color: $color_6;
+}
+
+.process-img-hire {
+    padding-bottom: 15px;
+    padding-top: 15px
+}
+.hire-contactus {
+    text-align: center
+}
+.hire-contactus a {
+    font-size: 25px;
+    background-color: #003362;
+    border-radius: 49px;
+    color: #fff;
+    padding: 5px 10px
+}
+
+.hire-contactus a:hover {
+    color: #fff
+}
+
+
+
+@media (max-width:420px) {
+
+    #main-odoo-build-banner{
+       height: 250px !important
+    }
+
+    .main-new-odoo-themes-banner {
+        text-align: center;
+        padding-top: 88px;
+        
+    }
+
+    .kanak-odoo-themes-bnr1,
+    .kanak-odoo-themes-bnr2 {
+        font-size: 40px
+    }
+}
+
+@media (max-width:400px) {
+	.kanak-odoo-themes-bnr1 {
+		font-size: 30px !important;
+	}
+	.kanak-odoo-themes-bnr2 {
+		font-size: 30px !important;
+	}
+	.main-new-odoo-themes-banner {
+		padding-top: 70px !important;
+	}
+}
+@media only screen and (max-width:768px) {
+	h2.for-color-social-1aaaaqq1 {
+		font-size: 22px;
+	}
+	h3.last-a22 {
+		font-size: 22px;
+	}
+	.service_digital_linkbuilding_kanak {
+		.for-spacing-all {
+			p {
+				text-align: justify;
+			}
+		}
+	}
+	#main-odoo-wd1-banner{
+		height: 500px !important;
+	}
+}
+@media only screen and (max-width: 425px) {
+	.kanak-odoo-themes-bnr1 {
+		font-size: 32px;
+	}
+	.kanak-odoo-themes-bnr2 {
+		font-size: 32px;
+	}
+}
+@media only screen and (max-width: 320px) {
+	.main-new-odoo-themes-banner {
+		text-align: center;
+		padding-top: 100px !important;
+	}
+}
+}

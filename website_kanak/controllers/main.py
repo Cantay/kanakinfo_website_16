@@ -217,6 +217,26 @@ class WebsiteKanak(http.Controller):
     def service_digital_smo(self, **post):
         return request.render("website_kanak.service_digital_smo", {})
 
+    @http.route(['/erp-solutions'],
+                type='http', auth="public", website=True)
+    def busineess_bi_erp_sol(self, **post):
+        return request.render("website_kanak.busineess_bi_erp_sol", {})
+
+    @http.route(['/terms-and-condition'],
+                type='http', auth="public", website=True)
+    def terms_condition(self, **post):
+        return request.render('website_kanak.terms_and_condition', {})
+
+    @http.route(['/linkbuilding-services'],
+                type='http', auth="public", website=True)
+    def service_digital_linkbuilding(self, **post):
+        return request.render("website_kanak.service_digital_linkbuilding", {})
+
+    @http.route(['/website-designing-services'],
+                type='http', auth="public", website=True)
+    def service_web_design(self, **post):
+        return request.render("website_kanak.service_web_design", {})
+
 
 class WebsiteForm(WebsiteForm):
     @http.route('/website_form/<string:model_name>', type='http', auth="public", methods=['POST'], website=True)

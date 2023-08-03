@@ -173,7 +173,7 @@
         </section>      
         <div class="col-md-12 themes-btn-main for-spacing-all custom_bttn_bgrd">
           <div class="block-odoo-themes">
-            <a target="_blank" href="https://kanakinfosystems.com/seo-smo-service-packages" class="btn-odoo-themes" style="color:white !important">
+            <a target="_blank" href="/seo-smo-service-packages" class="btn-odoo-themes" style="color:white !important">
               SEO SMO Service Package </a>
           </div>
         </div>

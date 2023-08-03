@@ -5,264 +5,266 @@
         <t t-set="website_meta_description"> Kanak Infosystems has a team of certified Odoo developers and ERP consultants who can help you with all your Odoo development and implementation needs. Contact us today for a free consultation.</t>
         <t t-set="website_meta_keywords"> hire odoo developer, hire an odoo developer, hire odoo specialist, open erp developer, hire odoo expert, odoo developer, odoo specialist, open source developer, python odoo developer, best odoo developer, odoo web developer, odoo for developers, hire erp developer</t>
         <t t-call="website.layout">
-            <t t-set="pageName" t-value="'HireOdooDeveloper kanak_hire_odoo_developer'"/>
-            <section class="main-hire-banner pt32 pb32">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-6">
-                            <p class="main-head-hire">Hire a Odoo Developer</p>
-                            <p>Give Your Worries A Stop, Let the Experts Do What They Do The Best!</p>
-                            <a href="/contactus" type="button" class="btn btn-primary btn-appointment">Book an Appointment</a>
-                        </div>
-                        <div class="col-lg-6 mob"><img src="/website_kanak/static/src/img/hire-odoo-developer/hire-bg1.png" alt="" class="img-fluid mx-auto" /></div>
-                    </div>
-                </div>
-            </section>
-            <section>
-                        <div class="workpage-home-work">
-                            <div class="container">
-                            <span>
-                                <a class="text-decoration-none" href="/"> Home </a>
-                            </span>
-                            <i class="fa fa-chevron-right" aria-hidden="true" />
-                            <span> Hire Odoo Developer </span>
-                        </div>
-                        </div>
-                    </section>
-            <section style="background-color: #fbfbfb " class="pt32 pb32">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-4 d-flex align-items-center">
-                            <img src="/website_kanak/static/src/img/hire-odoo-developer/Hire_Odoo.png" alt="" class="img-fluid mx-auto" />
-                        </div>
-                        <div class="col-lg-8">
-                            <h1 style="font-size:28px;font-weight: 900;color: #003362;">Hire Odoo (Open Source <a href="/blog/what-is-erp">ERP</a>) <span class="red">Developer</span></h1>
-                            <p class="text-justify">In modern times, technology is growing at a rapid pace, and so are the number of companies trying to capture a part of the market revenue. Due to the growth in the number of startups, there is also a growth in the demand for enterprise-wide solutions such as <a href="/blog/what-is-erp">ERP</a> and CRM applications.</p>
-                            <p class="text-justify"><a href="/blog/odoo-review">Odoo is one such open-source application</a> that contains a variety of enterprise management application. Some areas that Odoo can easily streamline for your company are manufacturing, Finance and Accounting, Sale and Purchase, Customer Relationship Management, Human Resource, Planning, Point of Sale, E-commerce, Project Management, and so much more. Apart from its basic <a href="https://apps.odoo.com/apps/modules/browse?order=Latest+Updated&amp;search=kanak">modules</a>, Odoo has more than 14,000 third party apps/plugins on its play store.</p>
-                            <p class="text-justify">In the past, IT professionals who had either only technical skills or functional skills were enough. Today, however, companies require an individual that possesses both technical as well as functional skills (a.k.a. techno-functional professional). Therefore, it is important to hire Odoo Expert for proper development and implementation.</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="pt32 pb32">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h2>What our Dedicated Odoo Developer <span class="red">Do for You?</span></h2>
-                            <p class="text-justify">If you have decided to implement a <a href="/odoo-customization-implementation-services">customized Odoo solution</a> in your organization, you know that it is important that the solution should be reliable, robust, error-free and secure. Creating and maintaining a full-fledged Enterprise system is very high quality as well as a high-risk task. </p>
-                            <p class="text-justify">To be able to create customized applications that are easily scalable, it is crucial to <a href="/contactus">hire professional Odoo Developer</a>. It requires a professional to be highly skilled in Odoo Development, has deep knowledge of the tools, technologies, and methodologies of the system, as well as has the ability to handle and mitigate risks. </p>
-                            <p class="text-justify">Therefore, it is always recommended to always hire Odoo Expert who has tons of experience as the future of your company lies in their hands. If you hire Odoo Specialist, they can help you build business integrations and apps that are best suited for the needs of your company.</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section style="background-color: #fbfbfb " class="pt32 pb32">
-                <div class="container">
-                    <div class="col-lg-12 text-center">
-                        <h3 class="who-we-head">Who We Are?</h3>
-                        <p class="text-justify">Kanak Infosystems LLP. is a leading <a href="/odoo-development-services">Odoo Development company</a> and our team is filled with talented individuals who have a great experience with Odoo Development. Founded in 2012 and has over 7 years of industry experience, Kanak Infosystems LLP. has helped numerous companies in the past with successful Odoo Development projects.</p>
-                        <p class="text-justify">We provide you with the best Open ERP Developer as well as the best Odoo ERP Techno Functionalist. We understand that time, security, budget, as well as protection of your data is very important to you. Therefore, when you hire Odoo Specialist from Kanak Infosystem LLP, you get assured great quality service from trained professionals.</p>
-                    </div>
-                </div>
-            </section>
-            <section class="pt32 pb32">
-                <div class="container">
-                    <div class="col-lg-12 text-center">
-                        <h3 class="text-center text-uppercase" style="font-size:28px;font-weight: 900;color: #003362;">Our Odoo Expert <span class="red">Team</span></h3>
-                        <p class="text-center">Our <a href="/odoo-development-services">Odoo Development</a> team is trained to understand the business model of a company before offering a solution. After years of experience in the industry, we make sure to hire the very hard-working and talented individuals in our company.</p>
-                        <div class="col-lg-8 offset-lg-2">
-                            <table class="table table-bordered table-striped">
-                                <thead>
-                                    <tr class="bg-primary">
-                                        <th colspan="2" class="text-white text-center">
-                                            After you start working with our Odoo Developer, you will see that our team is highly trained in all required Odoo Development skills such as: -
-                                        </th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>Understanding of Business Processes</td>
-                                        <td>In Depth Python Knowledge</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Creation of Business Flow Models</td>
-                                        <td>Expertise in HTML, CSS, JavaScript, XML, and CSV</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Comprehensive knowledge of <a href="https://apps.odoo.com/apps/modules/browse?author=Kanak%20Infosystems%20LLP.">Odoo App Store</a></td>
-                                        <td><a href="/blog/why-choose-postgresql">PostgreSQL</a></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Knowledge of API and Frameworks</td>
-                                        <td>Testing and Debugging <a href="/odoo-customization-implementation-services">Odoo Implementations</a></td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section style="background-color: #fbfbfb " class="pt32 pb32">
-                <div class="container">
-                    <div class="col-lg-12">
-                        <h4 class="method-head">Our Methodology</h4>
-                        <p>Our Odoo Expert team will help you and your company to plan and develop an open-source Odoo system without much friction and in a relatively short time. We do this by following a standard guideline as follows: -</p>
-                        <p><span style="background-image: url(/website_kanak/static/src/img/hire-odoo-developer/Blue_arrow.png); background-repeat: no-repeat; background-size: 16px; background-position: left;">&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;</span>Sketching the entire Business Process Flow Diagram</p>
-                        <p><span style="background-image: url(/website_kanak/static/src/img/hire-odoo-developer/Red_arrow.png); background-repeat: no-repeat; background-size: 16px; background-position: left;">&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;</span>Providing a chart of the application that must be installed</p>
-                        <p><span style="background-image: url(/website_kanak/static/src/img/hire-odoo-developer/Blue_arrow.png); background-repeat: no-repeat; background-size: 16px; background-position: left;">&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;</span>Helping you develop and implement this technology in your company</p>
-                        <p><span style="background-image: url(/website_kanak/static/src/img/hire-odoo-developer/Red_arrow.png); background-repeat: no-repeat; background-size: 16px; background-position: left;">&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;</span>Integrating it with your company’s existing workflow</p>
-                        <p><span style="background-image: url(/website_kanak/static/src/img/hire-odoo-developer/Blue_arrow.png); background-repeat: no-repeat; background-size: 16px; background-position: left;">&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;</span>Testing and debugging of the <a href="/kanak/member/appointment/836">custom Odoo solution.</a></p>
-                        <p>Our Expert Odoo Professionals can even edit, enhance, and customize existing source code as per your requirements.</p><br />
-                    </div>
-                </div>
-            </section>
-            <section class="pt32 pb32">
-                <div class="container">
-                    <h4 class="text-center" style="font-size:28px;font-weight: 900;color: #003362;">Contact Us for The Following <span class="red">Odoo Services</span></h4>
-                    <img src="/website_kanak/static/src/img/hire-odoo-developer/Odoo_Services.png" alt="" class="img-fluid mx-auto" /><br />
-                    <p class="text-center"><b>Hire Odoo Developer from Kanak Infosystems LLP. and get your custom Open <a href="/erp-solutions">ERP solution</a> designed today!</b></p>
-                </div>
-            </section>
-            <section class="pb32">
-                <div class="container">
-                    <div class="faq_border" style="border: 1px solid #cec7c7;">
-                        <br />
-                        <div class="row justify-content-center">
-                            <div class="col-lg-3 col-md-3 col-sm-3 d-none d-lg-block d-md-block d-sm-block">
-                                <div class="frequently_border_1 float-end" />
+            <div id="wrap">
+                <t t-set="pageName" t-value="'HireOdooDeveloper kanak_hire_odoo_developer'"/>
+                <section class="main-hire-banner pt32 pb32">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6">
+                                <p class="main-head-hire">Hire a Odoo Developer</p>
+                                <p>Give Your Worries A Stop, Let the Experts Do What They Do The Best!</p>
+                                <a href="/contactus" type="button" class="btn btn-primary btn-appointment">Book an Appointment</a>
                             </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-12">
-                                <p class="fw700 text-center faq-main-head">
-                                    <font style="font-size: 30px;text-transform: uppercase;">
-                                        <span class="dark_blue">frequently asked questions</span>
-                                    </font>
-                                </p>
+                            <div class="col-lg-6 mob"><img src="/website_kanak/static/src/img/hire-odoo-developer/hire-bg1.png" alt="" class="img-fluid mx-auto" /></div>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                            <div class="workpage-home-work">
+                                <div class="container">
+                                <span>
+                                    <a class="text-decoration-none" href="/"> Home </a>
+                                </span>
+                                <i class="fa fa-chevron-right" aria-hidden="true" />
+                                <span> Hire Odoo Developer </span>
                             </div>
-                            <div class="col-lg-3 col-md-3 col-sm-3 d-none d-lg-block d-md-block d-sm-block">
-                                <div class="frequently_border_2" />
+                            </div>
+                        </section>
+                <section style="background-color: #fbfbfb " class="pt32 pb32">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4 d-flex align-items-center">
+                                <img src="/website_kanak/static/src/img/hire-odoo-developer/Hire_Odoo.png" alt="" class="img-fluid mx-auto" />
+                            </div>
+                            <div class="col-lg-8">
+                                <h1 style="font-size:28px;font-weight: 900;color: #003362;">Hire Odoo (Open Source <a href="/blog/what-is-erp">ERP</a>) <span class="red">Developer</span></h1>
+                                <p class="text-justify">In modern times, technology is growing at a rapid pace, and so are the number of companies trying to capture a part of the market revenue. Due to the growth in the number of startups, there is also a growth in the demand for enterprise-wide solutions such as <a href="/blog/what-is-erp">ERP</a> and CRM applications.</p>
+                                <p class="text-justify"><a href="/blog/odoo-review">Odoo is one such open-source application</a> that contains a variety of enterprise management application. Some areas that Odoo can easily streamline for your company are manufacturing, Finance and Accounting, Sale and Purchase, Customer Relationship Management, Human Resource, Planning, Point of Sale, E-commerce, Project Management, and so much more. Apart from its basic <a href="https://apps.odoo.com/apps/modules/browse?order=Latest+Updated&amp;search=kanak">modules</a>, Odoo has more than 14,000 third party apps/plugins on its play store.</p>
+                                <p class="text-justify">In the past, IT professionals who had either only technical skills or functional skills were enough. Today, however, companies require an individual that possesses both technical as well as functional skills (a.k.a. techno-functional professional). Therefore, it is important to hire Odoo Expert for proper development and implementation.</p>
                             </div>
                         </div>
-                        <br />
-                        <div class="row faq_box">
-                            <div>
-                                <h5><img id="faq_icon_1" class="faq_button_1 faq_button" src="/website_kanak/static/src/img/hire-odoo-developer/drop_down.png" /><strong style="color: #003362;margin-left: 10px;font-size: 19px;">1. Why hire from Kanak ?</strong></h5>
-                                <div id="faq_1" style="display:none;">
-                                    <p style="margin-top: 20px;margin-left: 40px;">
-                                        <i class="fa fa-angle-double-right"></i> An expert team with developers ranging from mediocre to high level of expertise not only in odoo but overall.<br />
-                                        <i class="fa fa-angle-double-right"></i> Prompt support and personalised assistance<br />
-                                        <i class="fa fa-angle-double-right"></i> Domain expertise<br />
-                                        <i class="fa fa-angle-double-right"></i> Indepth understanding of the framework<br />
-                                        <i class="fa fa-angle-double-right"></i> The whole team follows the recommended coding standards and best practices<br />
-                                        <i class="fa fa-angle-double-right"></i> Secured work environment. We respect client privacy and it is of utmost importance for us.
+                    </div>
+                </section>
+                <section class="pt32 pb32">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h2>What our Dedicated Odoo Developer <span class="red">Do for You?</span></h2>
+                                <p class="text-justify">If you have decided to implement a <a href="/odoo-customization-implementation-services">customized Odoo solution</a> in your organization, you know that it is important that the solution should be reliable, robust, error-free and secure. Creating and maintaining a full-fledged Enterprise system is very high quality as well as a high-risk task. </p>
+                                <p class="text-justify">To be able to create customized applications that are easily scalable, it is crucial to <a href="/contactus">hire professional Odoo Developer</a>. It requires a professional to be highly skilled in Odoo Development, has deep knowledge of the tools, technologies, and methodologies of the system, as well as has the ability to handle and mitigate risks. </p>
+                                <p class="text-justify">Therefore, it is always recommended to always hire Odoo Expert who has tons of experience as the future of your company lies in their hands. If you hire Odoo Specialist, they can help you build business integrations and apps that are best suited for the needs of your company.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section style="background-color: #fbfbfb " class="pt32 pb32">
+                    <div class="container">
+                        <div class="col-lg-12 text-center">
+                            <h3 class="who-we-head">Who We Are?</h3>
+                            <p class="text-justify">Kanak Infosystems LLP. is a leading <a href="/odoo-development-services">Odoo Development company</a> and our team is filled with talented individuals who have a great experience with Odoo Development. Founded in 2012 and has over 7 years of industry experience, Kanak Infosystems LLP. has helped numerous companies in the past with successful Odoo Development projects.</p>
+                            <p class="text-justify">We provide you with the best Open ERP Developer as well as the best Odoo ERP Techno Functionalist. We understand that time, security, budget, as well as protection of your data is very important to you. Therefore, when you hire Odoo Specialist from Kanak Infosystem LLP, you get assured great quality service from trained professionals.</p>
+                        </div>
+                    </div>
+                </section>
+                <section class="pt32 pb32">
+                    <div class="container">
+                        <div class="col-lg-12 text-center">
+                            <h3 class="text-center text-uppercase" style="font-size:28px;font-weight: 900;color: #003362;">Our Odoo Expert <span class="red">Team</span></h3>
+                            <p class="text-center">Our <a href="/odoo-development-services">Odoo Development</a> team is trained to understand the business model of a company before offering a solution. After years of experience in the industry, we make sure to hire the very hard-working and talented individuals in our company.</p>
+                            <div class="col-lg-8 offset-lg-2">
+                                <table class="table table-bordered table-striped">
+                                    <thead>
+                                        <tr class="bg-primary">
+                                            <th colspan="2" class="text-white text-center">
+                                                After you start working with our Odoo Developer, you will see that our team is highly trained in all required Odoo Development skills such as: -
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Understanding of Business Processes</td>
+                                            <td>In Depth Python Knowledge</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Creation of Business Flow Models</td>
+                                            <td>Expertise in HTML, CSS, JavaScript, XML, and CSV</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Comprehensive knowledge of <a href="https://apps.odoo.com/apps/modules/browse?author=Kanak%20Infosystems%20LLP.">Odoo App Store</a></td>
+                                            <td><a href="/blog/why-choose-postgresql">PostgreSQL</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Knowledge of API and Frameworks</td>
+                                            <td>Testing and Debugging <a href="/odoo-customization-implementation-services">Odoo Implementations</a></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section style="background-color: #fbfbfb " class="pt32 pb32">
+                    <div class="container">
+                        <div class="col-lg-12">
+                            <h4 class="method-head">Our Methodology</h4>
+                            <p>Our Odoo Expert team will help you and your company to plan and develop an open-source Odoo system without much friction and in a relatively short time. We do this by following a standard guideline as follows: -</p>
+                            <p><span style="background-image: url(/website_kanak/static/src/img/hire-odoo-developer/Blue_arrow.png); background-repeat: no-repeat; background-size: 16px; background-position: left;">&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;</span>Sketching the entire Business Process Flow Diagram</p>
+                            <p><span style="background-image: url(/website_kanak/static/src/img/hire-odoo-developer/Red_arrow.png); background-repeat: no-repeat; background-size: 16px; background-position: left;">&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;</span>Providing a chart of the application that must be installed</p>
+                            <p><span style="background-image: url(/website_kanak/static/src/img/hire-odoo-developer/Blue_arrow.png); background-repeat: no-repeat; background-size: 16px; background-position: left;">&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;</span>Helping you develop and implement this technology in your company</p>
+                            <p><span style="background-image: url(/website_kanak/static/src/img/hire-odoo-developer/Red_arrow.png); background-repeat: no-repeat; background-size: 16px; background-position: left;">&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;</span>Integrating it with your company’s existing workflow</p>
+                            <p><span style="background-image: url(/website_kanak/static/src/img/hire-odoo-developer/Blue_arrow.png); background-repeat: no-repeat; background-size: 16px; background-position: left;">&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;</span>Testing and debugging of the <a href="/contactus">custom Odoo solution.</a></p>
+                            <p>Our Expert Odoo Professionals can even edit, enhance, and customize existing source code as per your requirements.</p><br />
+                        </div>
+                    </div>
+                </section>
+                <section class="pt32 pb32">
+                    <div class="container">
+                        <h4 class="text-center" style="font-size:28px;font-weight: 900;color: #003362;">Contact Us for The Following <span class="red">Odoo Services</span></h4>
+                        <img src="/website_kanak/static/src/img/hire-odoo-developer/Odoo_Services.png" alt="" class="img-fluid mx-auto" /><br />
+                        <p class="text-center"><b>Hire Odoo Developer from Kanak Infosystems LLP. and get your custom Open <a href="/erp-solutions">ERP solution</a> designed today!</b></p>
+                    </div>
+                </section>
+                <section class="pb32">
+                    <div class="container">
+                        <div class="faq_border" style="border: 1px solid #cec7c7;">
+                            <br />
+                            <div class="row justify-content-center">
+                                <div class="col-lg-3 col-md-3 col-sm-3 d-none d-lg-block d-md-block d-sm-block">
+                                    <div class="frequently_border_1 float-end" />
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                                    <p class="fw700 text-center faq-main-head">
+                                        <font style="font-size: 30px;text-transform: uppercase;">
+                                            <span class="dark_blue">frequently asked questions</span>
+                                        </font>
                                     </p>
                                 </div>
-                            </div>
-                            <div>
-                                <h5><img class="faq_button faq_button_2" id="faq_icon_2" src="/website_kanak/static/src/img/hire-odoo-developer/drop_down.png" />
-                                    <strong style="color: #003362;margin-left: 10px;font-size: 19px;">2. Benefits of hiring a dedicated resource ?</strong></h5>
-                                <div id="faq_2" style="display:none;">
-                                    <p style="margin-top: 20px;margin-left: 40px;">
-                                        <i class="fa fa-angle-double-right"></i> A dedicated mind and good understanding on overall project<br />
-                                        <i class="fa fa-angle-double-right"></i> Backed by a team and a project manager<br />
-                                        <i class="fa fa-angle-double-right"></i> Responsibility and accountability is well set<br />
-                                        <i class="fa fa-angle-double-right"></i> Priority and preference <br />
-                                        <i class="fa fa-angle-double-right"></i> Replacement of resource in case not satisfied<br />
-                                        <i class="fa fa-angle-double-right"></i> Miscellaneous FAQ's
-                                    </p>
+                                <div class="col-lg-3 col-md-3 col-sm-3 d-none d-lg-block d-md-block d-sm-block">
+                                    <div class="frequently_border_2" />
                                 </div>
                             </div>
-                            <div>
-                                <h5><img class="faq_button faq_button_3" id="faq_icon_3" src="/website_kanak/static/src/img/hire-odoo-developer/drop_down.png" />
-                                    <strong style="color: #003362;margin-left: 10px;font-size: 19px;">3. Who has the source code ownership and reselling rights?</strong></h5>
-                                <div id="faq_3" style="display:none;">
-                                    <p style="margin-top: 20px;margin-left: 40px;">
-                                        It is the client who pays for the dedicated resource who has the rights of source code ownership and reselling.
-                                    </p>
+                            <br />
+                            <div class="row faq_box">
+                                <div>
+                                    <h5><img id="faq_icon_1" class="faq_button_1 faq_button" src="/website_kanak/static/src/img/hire-odoo-developer/drop_down.png" /><strong style="color: #003362;margin-left: 10px;font-size: 19px;">1. Why hire from Kanak ?</strong></h5>
+                                    <div id="faq_1" style="display:none;">
+                                        <p style="margin-top: 20px;margin-left: 40px;">
+                                            <i class="fa fa-angle-double-right"></i> An expert team with developers ranging from mediocre to high level of expertise not only in odoo but overall.<br />
+                                            <i class="fa fa-angle-double-right"></i> Prompt support and personalised assistance<br />
+                                            <i class="fa fa-angle-double-right"></i> Domain expertise<br />
+                                            <i class="fa fa-angle-double-right"></i> Indepth understanding of the framework<br />
+                                            <i class="fa fa-angle-double-right"></i> The whole team follows the recommended coding standards and best practices<br />
+                                            <i class="fa fa-angle-double-right"></i> Secured work environment. We respect client privacy and it is of utmost importance for us.
+                                        </p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div>
-                                <h5><img class="faq_button faq_button_4" id="faq_icon_4" src="/website_kanak/static/src/img/hire-odoo-developer/drop_down.png" />
-                                    <strong style="color: #003362;margin-left: 10px;font-size: 19px;">4. How many hrs. in a month a resource usually spends?</strong></h5>
-                                <div id="faq_4" style="display:none;">
-                                    <p style="margin-top: 20px;margin-left: 40px;">160 hrs. or 20 days in a month.</p>
+                                <div>
+                                    <h5><img class="faq_button faq_button_2" id="faq_icon_2" src="/website_kanak/static/src/img/hire-odoo-developer/drop_down.png" />
+                                        <strong style="color: #003362;margin-left: 10px;font-size: 19px;">2. Benefits of hiring a dedicated resource ?</strong></h5>
+                                    <div id="faq_2" style="display:none;">
+                                        <p style="margin-top: 20px;margin-left: 40px;">
+                                            <i class="fa fa-angle-double-right"></i> A dedicated mind and good understanding on overall project<br />
+                                            <i class="fa fa-angle-double-right"></i> Backed by a team and a project manager<br />
+                                            <i class="fa fa-angle-double-right"></i> Responsibility and accountability is well set<br />
+                                            <i class="fa fa-angle-double-right"></i> Priority and preference <br />
+                                            <i class="fa fa-angle-double-right"></i> Replacement of resource in case not satisfied<br />
+                                            <i class="fa fa-angle-double-right"></i> Miscellaneous FAQ's
+                                        </p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div>
-                                <h5><img class="faq_button faq_button_5" id="faq_icon_5" src="/website_kanak/static/src/img/hire-odoo-developer/drop_down.png" />
-                                    <strong style="color: #003362;margin-left: 10px;font-size: 19px;">5. What timings are followed by the resources?</strong></h5>
-                                <div id="faq_5" style="display:none;">
-                                    <p style="margin-top: 20px;margin-left: 40px;">The resoures usually follow the timings of their workplace and holidays too..but we can make special arrangements to make the resource available for meetings, discussions sometimes in the non-working hrs. when it is urgently required General timings:
-                                        10:00 a.m. to 07:00 p.m, IST (Monday through Friday)</p>
+                                <div>
+                                    <h5><img class="faq_button faq_button_3" id="faq_icon_3" src="/website_kanak/static/src/img/hire-odoo-developer/drop_down.png" />
+                                        <strong style="color: #003362;margin-left: 10px;font-size: 19px;">3. Who has the source code ownership and reselling rights?</strong></h5>
+                                    <div id="faq_3" style="display:none;">
+                                        <p style="margin-top: 20px;margin-left: 40px;">
+                                            It is the client who pays for the dedicated resource who has the rights of source code ownership and reselling.
+                                        </p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div>
-                                <h5><img class="faq_button faq_button_6" id="faq_icon_6" src="/website_kanak/static/src/img/hire-odoo-developer/drop_down.png" />
-                                    <strong style="color: #003362;margin-left: 10px;font-size: 19px;">6. Can you also provide resources onsite?</strong></h5>
-                                <div id="faq_6" style="display:none;">
-                                    <p style="margin-top: 20px;margin-left: 40px;">We do provide resources for onsite but the cost of them is different and we can share the same through email contact only based on your requirements.</p>
+                                <div>
+                                    <h5><img class="faq_button faq_button_4" id="faq_icon_4" src="/website_kanak/static/src/img/hire-odoo-developer/drop_down.png" />
+                                        <strong style="color: #003362;margin-left: 10px;font-size: 19px;">4. How many hrs. in a month a resource usually spends?</strong></h5>
+                                    <div id="faq_4" style="display:none;">
+                                        <p style="margin-top: 20px;margin-left: 40px;">160 hrs. or 20 days in a month.</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div>
-                                <h5><img class="faq_button faq_button_7" id="faq_icon_7" src="/website_kanak/static/src/img/hire-odoo-developer/drop_down.png" />
-                                    <strong style="color: #003362;margin-left: 10px;font-size: 19px;">7. Do you sign an NDA ?</strong></h5>
-                                <div id="faq_7" style="display:none;">
-                                    <p style="margin-top: 20px;margin-left: 40px;">Yes, we have no problems in sigining the NDA and client secrecy and privacy is of high importance for us.</p>
+                                <div>
+                                    <h5><img class="faq_button faq_button_5" id="faq_icon_5" src="/website_kanak/static/src/img/hire-odoo-developer/drop_down.png" />
+                                        <strong style="color: #003362;margin-left: 10px;font-size: 19px;">5. What timings are followed by the resources?</strong></h5>
+                                    <div id="faq_5" style="display:none;">
+                                        <p style="margin-top: 20px;margin-left: 40px;">The resoures usually follow the timings of their workplace and holidays too..but we can make special arrangements to make the resource available for meetings, discussions sometimes in the non-working hrs. when it is urgently required General timings:
+                                            10:00 a.m. to 07:00 p.m, IST (Monday through Friday)</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div>
-                                <h5><img class="faq_button faq_button_8" id="faq_icon_8" src="/website_kanak/static/src/img/hire-odoo-developer/drop_down.png" />
-                                    <strong style="color: #003362;margin-left: 10px;font-size: 19px;">8. How long does it takes usually to get things started supposingly we pay today ?</strong></h5>
-                                <div id="faq_8" style="display:none;">
-                                    <p style="margin-top: 20px;margin-left: 40px;">We can reserve the resource immediately upon payment confirmation and can start things.</p>
+                                <div>
+                                    <h5><img class="faq_button faq_button_6" id="faq_icon_6" src="/website_kanak/static/src/img/hire-odoo-developer/drop_down.png" />
+                                        <strong style="color: #003362;margin-left: 10px;font-size: 19px;">6. Can you also provide resources onsite?</strong></h5>
+                                    <div id="faq_6" style="display:none;">
+                                        <p style="margin-top: 20px;margin-left: 40px;">We do provide resources for onsite but the cost of them is different and we can share the same through email contact only based on your requirements.</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div>
-                                <h5><img class="faq_button faq_button_9" id="faq_icon_9" src="/website_kanak/static/src/img/hire-odoo-developer/drop_down.png" />
-                                    <strong style="color: #003362;margin-left: 10px;font-size: 19px;">9. Can we use any tracker to track the hrs. ?</strong></h5>
-                                <div id="faq_9" style="display:none;">
-                                    <p style="margin-top: 20px;margin-left: 40px;">We have no problems in using an hourly tracker like hubstaff, screenshotmonitor or any else as specified by the client.</p>
+                                <div>
+                                    <h5><img class="faq_button faq_button_7" id="faq_icon_7" src="/website_kanak/static/src/img/hire-odoo-developer/drop_down.png" />
+                                        <strong style="color: #003362;margin-left: 10px;font-size: 19px;">7. Do you sign an NDA ?</strong></h5>
+                                    <div id="faq_7" style="display:none;">
+                                        <p style="margin-top: 20px;margin-left: 40px;">Yes, we have no problems in sigining the NDA and client secrecy and privacy is of high importance for us.</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div>
-                                <h5><img class="faq_button faq_button_10" id="faq_icon_10" src="/website_kanak/static/src/img/hire-odoo-developer/drop_down.png" />
-                                    <strong style="color: #003362;margin-left: 10px;font-size: 19px;">10. What are the ways of communication with the developer ?</strong></h5>
-                                <div id="faq_10" style="display:none;">
-                                    <p style="margin-top: 20px;margin-left: 40px;">We can use Skype, email, zoom or team viewer if at all required.</p>
+                                <div>
+                                    <h5><img class="faq_button faq_button_8" id="faq_icon_8" src="/website_kanak/static/src/img/hire-odoo-developer/drop_down.png" />
+                                        <strong style="color: #003362;margin-left: 10px;font-size: 19px;">8. How long does it takes usually to get things started supposingly we pay today ?</strong></h5>
+                                    <div id="faq_8" style="display:none;">
+                                        <p style="margin-top: 20px;margin-left: 40px;">We can reserve the resource immediately upon payment confirmation and can start things.</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div>
-                                <h5><img class="faq_button faq_button_11" id="faq_icon_11" src="/website_kanak/static/src/img/hire-odoo-developer/drop_down.png" />
-                                    <strong style="color: #003362;margin-left: 10px;font-size: 19px;">11. Can the resource work on team viewer ?</strong></h5>
-                                <div id="faq_11" style="display:none;">
-                                    <p style="margin-top: 20px;margin-left: 40px;">No, unfortunately we don't work using remote tools like team viewer but it is okay for demo or a session.</p>
+                                <div>
+                                    <h5><img class="faq_button faq_button_9" id="faq_icon_9" src="/website_kanak/static/src/img/hire-odoo-developer/drop_down.png" />
+                                        <strong style="color: #003362;margin-left: 10px;font-size: 19px;">9. Can we use any tracker to track the hrs. ?</strong></h5>
+                                    <div id="faq_9" style="display:none;">
+                                        <p style="margin-top: 20px;margin-left: 40px;">We have no problems in using an hourly tracker like hubstaff, screenshotmonitor or any else as specified by the client.</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div>
-                                <h5><img class="faq_button faq_button_12" id="faq_icon_12" src="/website_kanak/static/src/img/hire-odoo-developer/drop_down.png" />
-                                    <strong style="color: #003362;margin-left: 10px;font-size: 19px;">12. What are payment terms ?</strong></h5>
-                                <div id="faq_12" style="display:none;">
-                                    <p style="margin-top: 20px;margin-left: 40px;">The payment for the resource is all upfront before start of the project.</p>
+                                <div>
+                                    <h5><img class="faq_button faq_button_10" id="faq_icon_10" src="/website_kanak/static/src/img/hire-odoo-developer/drop_down.png" />
+                                        <strong style="color: #003362;margin-left: 10px;font-size: 19px;">10. What are the ways of communication with the developer ?</strong></h5>
+                                    <div id="faq_10" style="display:none;">
+                                        <p style="margin-top: 20px;margin-left: 40px;">We can use Skype, email, zoom or team viewer if at all required.</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div>
-                                <h5><img class="faq_button faq_button_13" id="faq_icon_13" src="/website_kanak/static/src/img/hire-odoo-developer/drop_down.png" />
-                                    <strong style="color: #003362;margin-left: 10px;font-size: 19px;">13. Do you provide any test period to try the dedicated resource services ?</strong></h5>
-                                <div id="faq_13" style="display:none;">
-                                    <p style="margin-top: 20px;margin-left: 40px;">We do no provide any test period for the resources but we can surely replace the resource if not liked upon by the client.</p>
+                                <div>
+                                    <h5><img class="faq_button faq_button_11" id="faq_icon_11" src="/website_kanak/static/src/img/hire-odoo-developer/drop_down.png" />
+                                        <strong style="color: #003362;margin-left: 10px;font-size: 19px;">11. Can the resource work on team viewer ?</strong></h5>
+                                    <div id="faq_11" style="display:none;">
+                                        <p style="margin-top: 20px;margin-left: 40px;">No, unfortunately we don't work using remote tools like team viewer but it is okay for demo or a session.</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div>
-                                <h5><img class="faq_button faq_button_14" id="faq_icon_14" src="/website_kanak/static/src/img/hire-odoo-developer/drop_down.png" />
-                                    <strong style="color: #003362;margin-left: 10px;font-size: 19px;">14. Can Kanak take gurantee to refund the whole amount if the services are not at
-                                        all satisfying ?</strong></h5>
-                                <div id="faq_14" style="display:none;">
-                                    <p style="margin-top: 20px;margin-left: 40px;">The decision has to be made within a week and we charge full payment for that week worked and refund the whole balance if the services are not at all liked.</p>
+                                <div>
+                                    <h5><img class="faq_button faq_button_12" id="faq_icon_12" src="/website_kanak/static/src/img/hire-odoo-developer/drop_down.png" />
+                                        <strong style="color: #003362;margin-left: 10px;font-size: 19px;">12. What are payment terms ?</strong></h5>
+                                    <div id="faq_12" style="display:none;">
+                                        <p style="margin-top: 20px;margin-left: 40px;">The payment for the resource is all upfront before start of the project.</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5><img class="faq_button faq_button_13" id="faq_icon_13" src="/website_kanak/static/src/img/hire-odoo-developer/drop_down.png" />
+                                        <strong style="color: #003362;margin-left: 10px;font-size: 19px;">13. Do you provide any test period to try the dedicated resource services ?</strong></h5>
+                                    <div id="faq_13" style="display:none;">
+                                        <p style="margin-top: 20px;margin-left: 40px;">We do no provide any test period for the resources but we can surely replace the resource if not liked upon by the client.</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5><img class="faq_button faq_button_14" id="faq_icon_14" src="/website_kanak/static/src/img/hire-odoo-developer/drop_down.png" />
+                                        <strong style="color: #003362;margin-left: 10px;font-size: 19px;">14. Can Kanak take gurantee to refund the whole amount if the services are not at
+                                            all satisfying ?</strong></h5>
+                                    <div id="faq_14" style="display:none;">
+                                        <p style="margin-top: 20px;margin-left: 40px;">The decision has to be made within a week and we charge full payment for that week worked and refund the whole balance if the services are not at all liked.</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>
+                </section>
+            </div>
         </t>
     </template>
 </odoo>

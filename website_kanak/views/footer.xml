@@ -11,10 +11,10 @@
                                 <h5 class="mb-3">Useful Links</h5>
                                 <ul class="list-unstyled">
                                     <li><a href="/">Home</a></li>
-                                    <li><a href="/jobs">Careers</a></li>
                                     <li><a href="/odoo-development-services">Odoo</a></li>
                                     <li><a href="/netsuite-services">NetSuite</a></li>
                                     <li><a href="/erpnext-services">ERPNext</a></li>
+                                    <li><a href="/jobs">Careers</a></li>
                                     <t t-set="configurator_footer_links" t-value="[]" />
                                     <li t-foreach="configurator_footer_links" t-as="link">
                                         <a t-att-href="link['href']" t-esc="link['text']" />
@@ -29,7 +29,7 @@
                             <div id="connect" class="col-lg-4 offset-lg-1 order-3  pt24 pb24">
                                 <h5 class="mb-3">Connect with us</h5>
                                 <ul class="list-unstyled">
-                                    <li><i class="fa fa-comment fa-fw me-2" /><span><a href="/contactus">Contact us</a></span></li>
+                                    <li><i class="fa fa-skype fa-fw me-2"></i><span><a href="skype:kanakinfosystems?chat">kanakinfosystems</a></span></li>
                                     <li><i class="fa fa-envelope fa-fw me-2" /><span><a href="mailto:sales@kanakinfosystems.com">sales@kanakinfosystems.com</a></span></li>
                                     <li><i class="fa fa-phone fa-fw me-2" /><span class="o_force_ltr"><a href="tel:+91 9818108884, 011-42143250">+91 9818108884, 011-42143250</a></span></li>
                                 </ul>
@@ -80,7 +80,7 @@
                     </div>
                 </section>
             </div>
-            <script type="text/javascript" data-oe-id="1518" data-oe-model="ir.ui.view" data-oe-field="arch" data-oe-xpath="/t[1]/script[1]">
+            <script type="text/javascript">
             (function() {
                 var options = {
                     whatsapp: "+91 9818108884", // WhatsApp number
@@ -99,12 +99,31 @@
                 x.parentNode.insertBefore(s, x);
             })();
             </script>
+            <style>
+                @media(max-width: 768px){
+                    [id^="gb-widget"]{
+                        right: 13px !important;
+                        bottom: 116px !important;
+                        left: auto !important;
+                    }
+                    #tidio-chat iframe{
+                        bottom: 34px !important;
+                        right: 2px !important;
+                    }
+                    .o_footer_copyright{
+                        padding-bottom: 0px !important;
+                    }
+                    .o_footer_copyright .o_footer_copyright_name{
+                        font-size: 12px;
+                    }
+                }
+            </style>
         </xpath>
     </template>
     <template id="copyright" inherit_id="website.layout">
         <xpath expr="//div[hasclass('o_footer_copyright')]" position="replace">
             <div class="o_footer_copyright text-center pt16 pb16" data-name="Copyright">
-                <span class="o_footer_copyright_name me-2">Copyright &amp;copy; 2023 Kanak Infosystems LLP. All Rights Reserved. </span>
+                <span class="o_footer_copyright_name me-2">Copyright &amp;copy; 2023 Kanak Infosystems LLP. All Rights Reserved. | <a href="/privacy-policy" class="text-white">Privacy Policy</a> | <a class="text-white" href="/terms-and-condition">Terms &amp; Conditions</a></span>
             </div>
         </xpath>
     </template>

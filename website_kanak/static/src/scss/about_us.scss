@@ -587,4 +587,31 @@
             font-size: 17px;
         }
     }
+    .owl-carousel .item{
+        min-height: 200px;
+        align-items: center;
+        vertical-align: middle;
+        display: flex;
+    }
+    .owl-carousel .owl-prev i{
+        font-size: 35px;
+    }
+    .owl-carousel .owl-next i{
+        font-size: 35px;
+    }
+    .owl-carousel img{
+        filter: grayscale(100%);
+        width:  fit-content;
+    }
+    .owl-carousel img:hover{
+        filter: grayscale(0%);
+    }
+    @media(max-width: 768px){
+        .owl-carousel .owl-prev{
+                margin-left: 0px;
+        }
+        .owl-carousel .owl-next{
+                right: 0;
+        }
+    }
 }

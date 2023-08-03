@@ -6,547 +6,478 @@
             <t t-set="website_meta_description">Discover the power of Frappe LMS, the free and open-source learning management system. Empower your learners with a platform designed for the modern age. Try it today!</t>
             <t t-set="website_meta_keywords">frappe lms, module lms, what lms, moodle alternative, learning management system modules, open source learning platform, open source learning management system, open source lms, free learning management system, erpnext lms, best lms portal, free elearning software, free lms system, learning management system platforms, open source learning, best elearning software, talant lms alternative, best lms software</t>
             <t t-call="website.layout">
-                <t t-set="pageName" t-value="'FrappeLms kanak_frappe_lms'" />
-                <section style="background: linear-gradient(99.13deg, rgba(206, 232, 245, 0.42) 0%, rgba(154, 198, 241, 0) 100%);">
-                    <div class="container pt32">
-                        <p class="text-center" style="font-size: 34px; color: #488EE8; font-weight: bolder;">Frappe LMS Service</p>
-                        <img src="/website_kanak/static/src/img/frappe_lms/LMS-bg1.webp" class="img-fluid mx-auto" style="display: block; margin: 0 auto;z-index:1000;position:relative;" />
-                    </div>
-                </section>
-                <section style="position:relative;">
-                    <div class="container">
-                        <div class="summary-lms row">
-                            <div class="col-md-12 col-lg-8 spoiler" >
-                                <h1 style="color:#488EE8;">A Quick Summary of <span style="color:red;">Frappe LMS</span></h1>
-                                <div class="hidden-text" style="width:100%;margin:0;margin-bottom: 10pt;">
-                                    <p class="text-justify">You have likely encountered at least one LMS in the past, so you might wonder why there is a
-                                        need for another. These LMS may have all the capabilities they need, but most are difficult to
-                                        use, forcing you to halt and search for the next move. Usually, their user interface is overstuffed
-                                        with data. This is where Frappe LMS stands out from the competition. Not only does Frappe
-                                        LMS offer all the capabilities it needs, but it&#39;s also simple to use. Frappe LMS is an <a href="/blog/what-is-erp">open source</a>, easy-to-use learning management system. The program has a straightforward backend
-                                        and a clear user interface to ensure the user concentrates only on what is crucial.</p>
-                                    <p class="text-justify">The Frappe framework serves as the foundation for Frappe LMS. It is a meta-data-driven
-                                        framework that enables rapid <a href="/blog/mobile-app-development-process">application development</a>
-                                        . Python and Javascript were used to
-                                        build it. In addition, the Frappe LMS aids in creating a learning community. Users can search for
-                                        and communicate with other users in their domain to expand their network. With the help of this
-                                        software, we hope to offer a distraction-free teaching and learning environment.</p>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <img src="/website_kanak/static/src/img/frappe_lms/summary.webp" class="img-fluid mx-auto " />
-                            </div>
+                <div id="wrap">
+                    <t t-set="pageName" t-value="'FrappeLms kanak_frappe_lms'" />
+                    <section style="background: linear-gradient(99.13deg, rgba(206, 232, 245, 0.42) 0%, rgba(154, 198, 241, 0) 100%);">
+                        <div class="container pt32">
+                            <p class="text-center" style="font-size: 34px; color: #488EE8; font-weight: bolder;">Frappe LMS Service</p>
+                            <img src="/website_kanak/static/src/img/frappe_lms/LMS-bg1.webp" class="img-fluid mx-auto" style="display: block; margin: 0 auto;z-index:1000;position:relative;" />
                         </div>
-                    </div>
-                </section>
-                <section class="col-xs-12">
-                    <div class="container sec-lms-carousal" style="margin-top:20pt;margin-bottom:20pt;">
-                        <div class="owl-carousel owl-theme">
-                            <div class="item">
-                                <div style="border-radius:10px;background-color:#E4EEFC;padding:10pt">
-                                    <img style="height:300px;" src="/website_kanak/static/src/img/frappe_lms/key-bg1.webp" class="img-fluid mx-auto center-block" />
+                    </section>
+                    <section style="position:relative;">
+                        <div class="container">
+                            <div class="summary-lms row">
+                                <div class="col-md-12 col-lg-8 spoiler" >
+                                    <h1 style="color:#488EE8;">A Quick Summary of <span style="color:red;">Frappe LMS</span></h1>
+                                    <div class="hidden-text" style="width:100%;margin:0;margin-bottom: 10pt;">
+                                        <p class="text-justify">You have likely encountered at least one LMS in the past, so you might wonder why there is a
+                                            need for another. These LMS may have all the capabilities they need, but most are difficult to
+                                            use, forcing you to halt and search for the next move. Usually, their user interface is overstuffed
+                                            with data. This is where Frappe LMS stands out from the competition. Not only does Frappe
+                                            LMS offer all the capabilities it needs, but it&#39;s also simple to use. Frappe LMS is an <a href="/blog/what-is-erp">open source</a>, easy-to-use learning management system. The program has a straightforward backend
+                                            and a clear user interface to ensure the user concentrates only on what is crucial.</p>
+                                        <p class="text-justify">The Frappe framework serves as the foundation for Frappe LMS. It is a meta-data-driven
+                                            framework that enables rapid <a href="/blog/mobile-app-development-process">application development</a>
+                                            . Python and Javascript were used to
+                                            build it. In addition, the Frappe LMS aids in creating a learning community. Users can search for
+                                            and communicate with other users in their domain to expand their network. With the help of this
+                                            software, we hope to offer a distraction-free teaching and learning environment.</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="item">
-                                <div style="border-radius:10px;background-color:#E4EEFC;padding:10pt">
-                                    <img style="height:300px;" src="/website_kanak/static/src/img/frappe_lms/key-bg2.webp" class="img-fluid mx-auto center-block" />
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div style="border-radius:10px;background-color:#E4EEFC;padding:10pt">
-                                    <img style="height:300px;" src="/website_kanak/static/src/img/frappe_lms/key-bg3.webp" class="img-fluid mx-auto center-block" />
+                                <div class="col-md-4">
+                                    <img src="/website_kanak/static/src/img/frappe_lms/summary.webp" class="img-fluid mx-auto " />
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </section>
-                <section class="lms-feature-desk">
-                    <div class="container" style="background-color: rgba(133, 146, 239, 0.15);border-radius: 16px;padding-top:20pt;padding-bottom:20pt;">
-                        <h2 class="text-center" style="color:#488EE8;font-weight:revert;">Frappe LMS: <span style="color:red;">Highlighted Features</span></h2>
-                        <p class="text-center" style="color: #565656;font-family: aileron, Roboto, sans-serif;font-weight: 500;">Contains several modern and business-grade software features</p>
-                        <div class="row mt32">
-                            <div class="col-lg-4">
-                                <div style="padding:10pt;text-align:justify;">
-                                    <div style="margin-bottom: 10px;">
-                                        <img src="/website_kanak/static/src/img/frappe_lms/integrations-icon.svg" style="display:inline-block;vertical-align:middle;width:25px;" />
-                                        <span style="padding-left:5pt;font-size:18px;color:#DB4437;vertical-align:middle"><b>LMS integrations</b></span>
+                    </section>
+                    <section class="col-xs-12">
+                        <div class="container sec-lms-carousal" style="margin-top:20pt;margin-bottom:20pt;">
+                            <div class="owl-carousel owl-theme">
+                                <div class="item">
+                                    <div style="border-radius:10px;background-color:#E4EEFC;padding:10pt">
+                                        <img style="height:300px;" src="/website_kanak/static/src/img/frappe_lms/key-bg1.webp" class="img-fluid mx-auto center-block" />
                                     </div>
-                                    <p class="text-justify para-new" style="margin-top: 10pt">The ability to effortlessly integrate the LMS with other systems, such as association management software or talent management systems, allows L&amp;D professionals to add crucial course completion statistics to learner information.</p>
                                 </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div style="padding:10pt;text-align:justify;">
-                                    <div style="margin-bottom: 10px;">
-                                        <img src="/website_kanak/static/src/img/frappe_lms/tracking-icon.svg" style="display:inline-block;vertical-align:middle;width:25px;" />
-                                        <span style="padding-left:5pt;font-size:18px;color:#DB4437;vertical-align:middle"><b>Data tracking</b></span>
+                                <div class="item">
+                                    <div style="border-radius:10px;background-color:#E4EEFC;padding:10pt">
+                                        <img style="height:300px;" src="/website_kanak/static/src/img/frappe_lms/key-bg2.webp" class="img-fluid mx-auto center-block" />
                                     </div>
-                                    <p class="text-justify para-new" style="margin-top: 10pt">This makes it easier for L&amp;D professionals to plan and track their training initiatives. Additionally, spotting areas where students need to improve or those where they shine speeds up the training process.</p>
                                 </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div style="padding:10pt;text-align:justify;">
-                                    <div style="margin-bottom: 10px;">
-                                        <img src="/website_kanak/static/src/img/frappe_lms/personalize-icon.svg" style="display:inline-block;vertical-align:middle;width:25px;" />
-                                        <span style="padding-left:5pt;font-size:18px;color:#DB4437;vertical-align:middle"><b>Personalized user experience</b></span>
+                                <div class="item">
+                                    <div style="border-radius:10px;background-color:#E4EEFC;padding:10pt">
+                                        <img style="height:300px;" src="/website_kanak/static/src/img/frappe_lms/key-bg3.webp" class="img-fluid mx-auto center-block" />
                                     </div>
-                                    <p class="text-justify para-new" style="margin-top: 10pt">A competent Frappe LMS should offer content depending on a learner's usage history and function inside the platform to promote greater adoption. In the LMS, for instance, a student who works in sales should have no trouble finding more training materials with a sales focus.</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-lg-4">
-                                <div style="padding:10pt;text-align:justify;">
-                                    <div style="margin-bottom: 10px;">
-                                        <img src="/website_kanak/static/src/img/frappe_lms/offline-icon.svg" style="display:inline-block;vertical-align:middle;width:25px;" />
-                                        <span style="padding-left:5pt;font-size:18px;color:#488EE8;vertical-align:middle"><b>Offline learning trackers</b></span>
-                                    </div>
-                                    <p class="text-justify para-new" style="margin-top: 10pt">A Frappe LMS should provide L&amp;D professionals to record the outcomes of offline assessments to bring this offline learning back online. Electronic records can be created, and assessment checklists can be edited and customized to fit the specific capabilities or skills that need to be evaluated.</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div style="padding:10pt;text-align:justify;">
-                                    <div style="margin-bottom: 10px;">
-                                        <img src="/website_kanak/static/src/img/frappe_lms/alert-icon.svg" style="display:inline-block;vertical-align:middle;width:25px;" />
-                                        <span style="padding-left:5pt;font-size:18px;color:#488EE8;vertical-align:middle"><b>Automated alerts &amp; notifications</b></span>
-                                    </div>
-                                    <p class="text-justify para-new" style="margin-top: 10pt">Automated alerts and notifications are crucial LMS features that ensure trainers and management know how their students have been engaging with and finishing course materials. An LMS can give feedback to the appropriate parties at the proper time by notifying trainers of a user's completion rates and auto-alerting learners about their training deadlines.</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div style="padding:10pt;text-align:justify;">
-                                    <div style="margin-bottom: 10px;">
-                                        <img src="/website_kanak/static/src/img/frappe_lms/learning-icon.svg" style="display:inline-block;vertical-align:middle;width:25px;" />
-                                        <span style="padding-left:5pt;font-size:18px;color:#488EE8;vertical-align:middle"><b>Centralized learning materials</b></span>
-                                    </div>
-                                    <p class="text-justify para-new" style="margin-top: 10pt">An LMS isn't simply for eLearning. It should be able to store various learning resources in one convenient area, including written instruction, slide presentations, videos, and other learning resources. Users and L&amp;D professionals can keep organized and deliver consistency with centralized learning materials, two fundamental components of raising learner engagement.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-4">
-                                <div style="padding:10pt;text-align:justify;">
-                                    <div style="margin-bottom: 10px;">
-                                        <img src="/website_kanak/static/src/img/frappe_lms/comliance-icon.svg" style="display:inline-block;vertical-align:middle;width:25px;" />
-                                        <span style="padding-left:5pt;font-size:18px;color:#DB4437;vertical-align:middle"><b>Compliance</b></span>
-                                    </div>
-                                    <p class="text-justify para-new" style="margin-top: 10pt">Many organizations must continue to adhere to company or governmental policies. This includes ensuring the appropriate individuals receive the proper training at a reasonable time and that learners are correctly evaluated regarding their comprehension and awareness of regulatory requirements.</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div style="padding:10pt;text-align:justify;">
-                                    <div style="margin-bottom: 10px;">
-                                        <img src="/website_kanak/static/src/img/frappe_lms/assesment-icon.svg" style="display:inline-block;vertical-align:middle;width:25px;" />
-                                        <span style="padding-left:5pt;font-size:18px;color:#DB4437;vertical-align:middle"><b>Assessment tools</b></span>
-                                    </div>
-                                    <p class="text-justify para-new" style="margin-top: 10pt">Learning professionals can track their learners' engagement with the aid of Frappe LMS reports and analytics but evaluating their learners' retention and comprehension is crucial. To do this, an LMS needs to enable a variety of assessment techniques, such as branching scenarios, simulations, and exam engines.</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div style="padding:10pt;text-align:justify;">
-                                    <div style="margin-bottom: 10px;">
-                                        <img src="/website_kanak/static/src/img/frappe_lms/smart-icon.svg" style="display:inline-block;vertical-align:middle;width:25px;" />
-                                        <span style="padding-left:5pt;font-size:18px;color:#DB4437;vertical-align:middle"><b>Smart scheduling tools</b></span>
-                                    </div>
-                                    <p class="text-justify para-new" style="margin-top: 10pt">Instructors can specify multiple dates and times for their training sessions by using an LMS that has an intelligent scheduling function. Instead of expecting learners to juggle various tasks while acquiring new skills, this flexibility benefits them by ensuring they access crucial instruction when available.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section class="lms-feature-mob">
-                    <div class="container" style="background-color: rgba(133, 146, 239, 0.15);border-radius: 16px;padding:20pt;">
-                            <h2 class="text-center" style="color:#488EE8;">Frappe LMS: <span class="red">Highlighted Features</span></h2>
+                    </section>
+                    <section class="lms-feature-desk">
+                        <div class="container" style="background-color: rgba(133, 146, 239, 0.15);border-radius: 16px;padding-top:20pt;padding-bottom:20pt;">
+                            <h2 class="text-center" style="color:#488EE8;font-weight:revert;">Frappe LMS: <span style="color:red;">Highlighted Features</span></h2>
                             <p class="text-center" style="color: #565656;font-family: aileron, Roboto, sans-serif;font-weight: 500;">Contains several modern and business-grade software features</p>
-                            <div class="owl-carousel owl-theme mt32" style="border-radius:10px;border:2px solid #4B88D2;padding:5pt;">
+                            <div class="row mt32">
+                                <div class="col-lg-4">
+                                    <div style="padding:10pt;text-align:justify;">
+                                        <div style="margin-bottom: 10px;">
+                                            <img src="/website_kanak/static/src/img/frappe_lms/integrations-icon.svg" style="display:inline-block;vertical-align:middle;width:25px;" />
+                                            <span style="padding-left:5pt;font-size:18px;color:#DB4437;vertical-align:middle"><b>LMS integrations</b></span>
+                                        </div>
+                                        <p class="text-justify para-new" style="margin-top: 10pt">The ability to effortlessly integrate the LMS with other systems, such as association management software or talent management systems, allows L&amp;D professionals to add crucial course completion statistics to learner information.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div style="padding:10pt;text-align:justify;">
+                                        <div style="margin-bottom: 10px;">
+                                            <img src="/website_kanak/static/src/img/frappe_lms/tracking-icon.svg" style="display:inline-block;vertical-align:middle;width:25px;" />
+                                            <span style="padding-left:5pt;font-size:18px;color:#DB4437;vertical-align:middle"><b>Data tracking</b></span>
+                                        </div>
+                                        <p class="text-justify para-new" style="margin-top: 10pt">This makes it easier for L&amp;D professionals to plan and track their training initiatives. Additionally, spotting areas where students need to improve or those where they shine speeds up the training process.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div style="padding:10pt;text-align:justify;">
+                                        <div style="margin-bottom: 10px;">
+                                            <img src="/website_kanak/static/src/img/frappe_lms/personalize-icon.svg" style="display:inline-block;vertical-align:middle;width:25px;" />
+                                            <span style="padding-left:5pt;font-size:18px;color:#DB4437;vertical-align:middle"><b>Personalized user experience</b></span>
+                                        </div>
+                                        <p class="text-justify para-new" style="margin-top: 10pt">A competent Frappe LMS should offer content depending on a learner's usage history and function inside the platform to promote greater adoption. In the LMS, for instance, a student who works in sales should have no trouble finding more training materials with a sales focus.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div style="padding:10pt;text-align:justify;">
+                                        <div style="margin-bottom: 10px;">
+                                            <img src="/website_kanak/static/src/img/frappe_lms/offline-icon.svg" style="display:inline-block;vertical-align:middle;width:25px;" />
+                                            <span style="padding-left:5pt;font-size:18px;color:#488EE8;vertical-align:middle"><b>Offline learning trackers</b></span>
+                                        </div>
+                                        <p class="text-justify para-new" style="margin-top: 10pt">A Frappe LMS should provide L&amp;D professionals to record the outcomes of offline assessments to bring this offline learning back online. Electronic records can be created, and assessment checklists can be edited and customized to fit the specific capabilities or skills that need to be evaluated.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div style="padding:10pt;text-align:justify;">
+                                        <div style="margin-bottom: 10px;">
+                                            <img src="/website_kanak/static/src/img/frappe_lms/alert-icon.svg" style="display:inline-block;vertical-align:middle;width:25px;" />
+                                            <span style="padding-left:5pt;font-size:18px;color:#488EE8;vertical-align:middle"><b>Automated alerts &amp; notifications</b></span>
+                                        </div>
+                                        <p class="text-justify para-new" style="margin-top: 10pt">Automated alerts and notifications are crucial LMS features that ensure trainers and management know how their students have been engaging with and finishing course materials. An LMS can give feedback to the appropriate parties at the proper time by notifying trainers of a user's completion rates and auto-alerting learners about their training deadlines.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div style="padding:10pt;text-align:justify;">
+                                        <div style="margin-bottom: 10px;">
+                                            <img src="/website_kanak/static/src/img/frappe_lms/learning-icon.svg" style="display:inline-block;vertical-align:middle;width:25px;" />
+                                            <span style="padding-left:5pt;font-size:18px;color:#488EE8;vertical-align:middle"><b>Centralized learning materials</b></span>
+                                        </div>
+                                        <p class="text-justify para-new" style="margin-top: 10pt">An LMS isn't simply for eLearning. It should be able to store various learning resources in one convenient area, including written instruction, slide presentations, videos, and other learning resources. Users and L&amp;D professionals can keep organized and deliver consistency with centralized learning materials, two fundamental components of raising learner engagement.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div style="padding:10pt;text-align:justify;">
+                                        <div style="margin-bottom: 10px;">
+                                            <img src="/website_kanak/static/src/img/frappe_lms/comliance-icon.svg" style="display:inline-block;vertical-align:middle;width:25px;" />
+                                            <span style="padding-left:5pt;font-size:18px;color:#DB4437;vertical-align:middle"><b>Compliance</b></span>
+                                        </div>
+                                        <p class="text-justify para-new" style="margin-top: 10pt">Many organizations must continue to adhere to company or governmental policies. This includes ensuring the appropriate individuals receive the proper training at a reasonable time and that learners are correctly evaluated regarding their comprehension and awareness of regulatory requirements.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div style="padding:10pt;text-align:justify;">
+                                        <div style="margin-bottom: 10px;">
+                                            <img src="/website_kanak/static/src/img/frappe_lms/assesment-icon.svg" style="display:inline-block;vertical-align:middle;width:25px;" />
+                                            <span style="padding-left:5pt;font-size:18px;color:#DB4437;vertical-align:middle"><b>Assessment tools</b></span>
+                                        </div>
+                                        <p class="text-justify para-new" style="margin-top: 10pt">Learning professionals can track their learners' engagement with the aid of Frappe LMS reports and analytics but evaluating their learners' retention and comprehension is crucial. To do this, an LMS needs to enable a variety of assessment techniques, such as branching scenarios, simulations, and exam engines.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div style="padding:10pt;text-align:justify;">
+                                        <div style="margin-bottom: 10px;">
+                                            <img src="/website_kanak/static/src/img/frappe_lms/smart-icon.svg" style="display:inline-block;vertical-align:middle;width:25px;" />
+                                            <span style="padding-left:5pt;font-size:18px;color:#DB4437;vertical-align:middle"><b>Smart scheduling tools</b></span>
+                                        </div>
+                                        <p class="text-justify para-new" style="margin-top: 10pt">Instructors can specify multiple dates and times for their training sessions by using an LMS that has an intelligent scheduling function. Instead of expecting learners to juggle various tasks while acquiring new skills, this flexibility benefits them by ensuring they access crucial instruction when available.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="lms-feature-mob">
+                        <div class="container" style="background-color: rgba(133, 146, 239, 0.15);border-radius: 16px;padding:20pt;">
+                                <h2 class="text-center" style="color:#488EE8;">Frappe LMS: <span class="red">Highlighted Features</span></h2>
+                                <p class="text-center" style="color: #565656;font-family: aileron, Roboto, sans-serif;font-weight: 500;">Contains several modern and business-grade software features</p>
+                                <div class="owl-carousel owl-theme mt32" style="border-radius:10px;border:2px solid #4B88D2;padding:5pt;">
+                                    <div class="item">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <div style="padding:10pt">
+                                                    <div>
+                                                        <img src="/website_kanak/static/src/img/frappe_lms/integrations-icon.svg" style="display:inline-block;vertical-align:middle" />
+                                                        <span style="padding-left:5pt;font-size:18px;color:#DB4437;vertical-align:middle"><b>LMS integrations</b></span>
+                                                    </div>
+                                                    <p class="text-justify" style="margin-top: 10pt">The ability to effortlessly integrate the LMS with other systems, such as association management software or talent management systems, allows L&amp;D professionals to add crucial course completion statistics to learner information.</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div style="padding:10pt">
+                                                    <div>
+                                                        <img src="/website_kanak/static/src/img/frappe_lms/tracking-icon.svg" style="display:inline-block;vertical-align:middle" />
+                                                        <span style="padding-left:5pt;font-size:18px;color:#DB4437;vertical-align:middle"><b>Data tracking</b></span>
+                                                    </div>
+                                                    <p class="text-justify" style="margin-top: 10pt">This makes it easier for L&amp;D professionals to plan and track their training initiatives. Additionally, spotting areas where students need to improve or those where they shine speeds up the training process.</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div style="padding:10pt">
+                                                    <div>
+                                                        <img src="/website_kanak/static/src/img/frappe_lms/personalize-icon.svg" style="display:inline-block;vertical-align:middle" />
+                                                        <span style="padding-left:5pt;font-size:18px;color:#DB4437;vertical-align:middle"><b>Personalized user experience</b></span>
+                                                    </div>
+                                                    <p class="text-justify" style="margin-top: 10pt">A competent Frappe LMS should offer content depending on a learner's usage history and function inside the platform to promote greater adoption. In the LMS, for instance, a student who works in sales should have no trouble finding more training materials with a sales focus.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <div style="padding:10pt">
+                                                    <div>
+                                                        <img src="/website_kanak/static/src/img/frappe_lms/offline-icon.svg" style="display:inline-block;vertical-align:middle" />
+                                                        <span style="padding-left:5pt;font-size:18px;color:#488EE8;vertical-align:middle"><b>Offline learning trackers</b></span>
+                                                    </div>
+                                                    <p class="text-justify" style="margin-top: 10pt">A Frappe LMS should provide L&amp;D professionals to record the outcomes of offline assessments to bring this offline learning back online. Electronic records can be created, and assessment checklists can be edited and customized to fit the specific capabilities or skills that need to be evaluated.</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div style="padding:10pt">
+                                                    <div>
+                                                        <img src="/website_kanak/static/src/img/frappe_lms/alert-icon.svg" style="display:inline-block;vertical-align:middle" />
+                                                        <span style="padding-left:5pt;font-size:18px;color:#488EE8;vertical-align:middle"><b>Automated alerts &amp; notifications</b></span>
+                                                    </div>
+                                                    <p class="text-justify" style="margin-top: 10pt">Automated alerts and notifications are crucial LMS features that ensure trainers and management know how their students have been engaging with and finishing course materials. An LMS can give feedback to the appropriate parties at the proper time by notifying trainers of a user's completion rates and auto-alerting learners about their training deadlines.</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div style="padding:10pt">
+                                                    <div>
+                                                        <img src="/website_kanak/static/src/img/frappe_lms/learning-icon.svg" style="display:inline-block;vertical-align:middle" />
+                                                        <span style="padding-left:5pt;font-size:18px;color:#488EE8;vertical-align:middle"><b>Centralized learning materials</b></span>
+                                                    </div>
+                                                    <p class="text-justify" style="margin-top: 10pt">An LMS isn't simply for eLearning. It should be able to store various learning resources in one convenient area, including written instruction, slide presentations, videos, and other learning resources. Users and L&amp;D professionals can keep organized and deliver consistency with centralized learning materials, two fundamental components of raising learner engagement.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <div style="padding:10pt">
+                                                    <div>
+                                                        <img src="/website_kanak/static/src/img/frappe_lms/comliance-icon.svg" style="display:inline-block;vertical-align:middle" />
+                                                        <span style="padding-left:5pt;font-size:18px;color:#DB4437;vertical-align:middle"><b>Compliance</b></span>
+                                                    </div>
+                                                    <p class="text-justify" style="margin-top: 10pt">Many organizations must continue to adhere to company or governmental policies. This includes ensuring the appropriate individuals receive the proper training at a reasonable time and that learners are correctly evaluated regarding their comprehension and awareness of regulatory requirements.</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div style="padding:10pt">
+                                                    <div>
+                                                        <img src="/website_kanak/static/src/img/frappe_lms/assesment-icon.svg" style="display:inline-block;vertical-align:middle" />
+                                                        <span style="padding-left:5pt;font-size:18px;color:#DB4437;vertical-align:middle"><b>Assessment tools</b></span>
+                                                    </div>
+                                                    <p class="text-justify" style="margin-top: 10pt">Learning professionals can track their learners' engagement with the aid of Frappe LMS reports and analytics but evaluating their learners' retention and comprehension is crucial. To do this, an LMS needs to enable a variety of assessment techniques, such as branching scenarios, simulations, and exam engines.</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div style="padding:10pt">
+                                                    <div>
+                                                        <img src="/website_kanak/static/src/img/frappe_lms/smart-icon.svg" style="display:inline-block;vertical-align:middle" />
+                                                        <span style="padding-left:5pt;font-size:18px;color:#DB4437;vertical-align:middle"><b>Smart scheduling tools</b></span>
+                                                    </div>
+                                                    <p class="text-justify" style="margin-top: 10pt">Instructors can specify multiple dates and times for their training sessions by using an LMS that has an intelligent scheduling function. Instead of expecting learners to juggle various tasks while acquiring new skills, this flexibility benefits them by ensuring they access crucial instruction when available.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </section>
+                    <section style="background-color: rgba(72, 142, 232, 0.15); margin-top:20pt; padding-top:30pt; padding-bottom:30pt;">
+                        <h2 class="text-center" style="color:#488EE8;font-weight:revert;">What Makes <span style="color
+                            :red;">Frappe LMS</span> A Good Option For You?</h2>
+                        <br />
+                        <div class="container ring-slider-desk">
+                            <p class="text-center" style="color: #565656;font-family: aileron, Roboto, sans-serif;font-weight: 500;">The sleek UI and straightforward backend of Frappe LMS ensure that learning is the main priority. View some of the distinctive characteristics that improve the teaching and learning experience.</p>
+                            <div class="row ">
+                                <div class="col-lg-4 col-md-4 col-sm-6 circle-main pt32">
+                                    <img src="/website_kanak/static/src/img/frappe_lms/Blue-circle.svg" class="img-fluid mx-auto center-block" />
+                                    <div class="circle-box">
+                                        <img src="/website_kanak/static/src/img/frappe_lms/simple-backend.svg" class="img-fluid mx-auto" style="width:25px;" />
+                                        <p class="text-center" style="font-weight:bold;color:#488EE8;">Simple Backend</p>
+                                        <p class="text-center">Create lessons and courses using straightforward backend forms, which you can examine using reports.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-6 circle-main pt32">
+                                    <img src="/website_kanak/static/src/img/frappe_lms/Red-Circle.svg" class="img-fluid mx-auto center-block" />
+                                    <div class="circle-box">
+                                        <img src="/website_kanak/static/src/img/frappe_lms/clean-ui.svg" class="img-fluid mx-auto" style="width:25px;" />
+                                        <p class="text-center" style="font-weight:bold;color:#DB4437;">Clean UI</p>
+                                        <p class="text-center">A simple user interface that promotes distraction-free learning and helps pupils concentrate solely on what is necessary.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-6 circle-main pt32">
+                                    <img src="/website_kanak/static/src/img/frappe_lms/Purcle-circle.svg" class="img-fluid mx-auto center-block" />
+                                    <div class="circle-box">
+                                        <img src="/website_kanak/static/src/img/frappe_lms/quizzzes.svg" class="img-fluid mx-auto" style="width:25px;" />
+                                        <p class="text-center" style="font-weight:bold;color:#488EE8;">Engage with quizzes</p>
+                                        <p class="text-center">Quizzes can help students review and assess their learning while maintaining their interest.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row ">
+                                <div class="col-lg-4 col-md-4 col-sm-6 circle-main pt32">
+                                    <img src="/website_kanak/static/src/img/frappe_lms/Blue-circle.svg" class="img-fluid mx-auto center-block" />
+                                    <div class="circle-box">
+                                        <img src="/website_kanak/static/src/img/frappe_lms/connect-student.svg" class="img-fluid mx-auto" style="width:25px;" />
+                                        <p class="text-center" style="font-weight:bold;color:#488EE8;">Lessons in various forms</p>
+                                        <p class="text-center">To make learning enjoyable, include lessons in a variety of formats. Lessons may be presented as articles, videos, tests, or all three.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-6 circle-main pt32">
+                                    <img src="/website_kanak/static/src/img/frappe_lms/Red-Circle.svg" class="img-fluid mx-auto center-block" />
+                                    <div class="circle-box">
+                                        <img src="/website_kanak/static/src/img/frappe_lms/connect-student.svg" class="img-fluid mx-auto" style="width:25px;" />
+                                        <p class="text-center" style="font-weight:bold;color:#DB4437;">Connect with students</p>
+                                        <p class="text-center">Course instructors and students can connect and address any issues through the discussion section provided for each session.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-6 circle-main pt32">
+                                    <img src="/website_kanak/static/src/img/frappe_lms/Purcle-circle.svg" class="img-fluid mx-auto center-block" />
+                                    <div class="circle-box">
+                                        <img src="/website_kanak/static/src/img/frappe_lms/courses-ease.svg" class="img-fluid mx-auto" style="width:25px;" />
+                                        <p class="text-center" style="font-weight:bold;color:#488EE8;">Create courses with ease</p>
+                                        <p class="text-center">Create your course without being intimidated by the system.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container ring-slider-mob">
+                            <div class="owl-carousel">
                                 <div class="item">
-                                    <div class="row">
-                                        <div class="col-lg-4">
-                                            <div style="padding:10pt">
-                                                <div>
-                                                    <img src="/website_kanak/static/src/img/frappe_lms/integrations-icon.svg" style="display:inline-block;vertical-align:middle" />
-                                                    <span style="padding-left:5pt;font-size:18px;color:#DB4437;vertical-align:middle"><b>LMS integrations</b></span>
-                                                </div>
-                                                <p class="text-justify" style="margin-top: 10pt">The ability to effortlessly integrate the LMS with other systems, such as association management software or talent management systems, allows L&amp;D professionals to add crucial course completion statistics to learner information.</p>
+                                    <div class="row ">
+                                        <div class="col-lg-4 col-md-4 col-sm-6 circle-main pt32">
+                                            <img src="/website_kanak/static/src/img/frappe_lms/Blue-circle.svg" class="img-fluid mx-auto center-block" />
+                                            <div class="circle-box">
+                                                <img src="/website_kanak/static/src/img/frappe_lms/simple-backend.svg" class="img-fluid mx-auto" style="width:25px;" />
+                                                <p class="text-center" style="font-weight:bold;color:#488EE8;">Simple Backend</p>
+                                                <p class="text-center">Create lessons and courses using straightforward backend forms, which you can examine using reports.</p>
                                             </div>
                                         </div>
-                                        <div class="col-lg-4">
-                                            <div style="padding:10pt">
-                                                <div>
-                                                    <img src="/website_kanak/static/src/img/frappe_lms/tracking-icon.svg" style="display:inline-block;vertical-align:middle" />
-                                                    <span style="padding-left:5pt;font-size:18px;color:#DB4437;vertical-align:middle"><b>Data tracking</b></span>
-                                                </div>
-                                                <p class="text-justify" style="margin-top: 10pt">This makes it easier for L&amp;D professionals to plan and track their training initiatives. Additionally, spotting areas where students need to improve or those where they shine speeds up the training process.</p>
+                                        <div class="col-lg-4 col-md-4 col-sm-6 circle-main pt32">
+                                            <img src="/website_kanak/static/src/img/frappe_lms/Red-Circle.svg" class="img-fluid mx-auto center-block" />
+                                            <div class="circle-box">
+                                                <img src="/website_kanak/static/src/img/frappe_lms/clean-ui.svg" class="img-fluid mx-auto" style="width:25px;" />
+                                                <p class="text-center" style="font-weight:bold;color:#DB4437;">Clean UI</p>
+                                                <p class="text-center">A simple user interface that promotes distraction-free learning and helps pupils concentrate solely on what is necessary.</p>
                                             </div>
                                         </div>
-                                        <div class="col-lg-4">
-                                            <div style="padding:10pt">
-                                                <div>
-                                                    <img src="/website_kanak/static/src/img/frappe_lms/personalize-icon.svg" style="display:inline-block;vertical-align:middle" />
-                                                    <span style="padding-left:5pt;font-size:18px;color:#DB4437;vertical-align:middle"><b>Personalized user experience</b></span>
-                                                </div>
-                                                <p class="text-justify" style="margin-top: 10pt">A competent Frappe LMS should offer content depending on a learner's usage history and function inside the platform to promote greater adoption. In the LMS, for instance, a student who works in sales should have no trouble finding more training materials with a sales focus.</p>
+                                        <div class="col-lg-4 col-md-4 col-sm-6 circle-main pt32">
+                                            <img src="/website_kanak/static/src/img/frappe_lms/Purcle-circle.svg" class="img-fluid mx-auto center-block" />
+                                            <div class="circle-box">
+                                                <img src="/website_kanak/static/src/img/frappe_lms/quizzzes.svg" class="img-fluid mx-auto" style="width:25px;" />
+                                                <p class="text-center" style="font-weight:bold;color:#488EE8;">Engage with quizzes</p>
+                                                <p class="text-center">Quizzes can help students review and assess their learning while maintaining their interest.</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="item">
-                                    <div class="row">
-                                        <div class="col-lg-4">
-                                            <div style="padding:10pt">
-                                                <div>
-                                                    <img src="/website_kanak/static/src/img/frappe_lms/offline-icon.svg" style="display:inline-block;vertical-align:middle" />
-                                                    <span style="padding-left:5pt;font-size:18px;color:#488EE8;vertical-align:middle"><b>Offline learning trackers</b></span>
-                                                </div>
-                                                <p class="text-justify" style="margin-top: 10pt">A Frappe LMS should provide L&amp;D professionals to record the outcomes of offline assessments to bring this offline learning back online. Electronic records can be created, and assessment checklists can be edited and customized to fit the specific capabilities or skills that need to be evaluated.</p>
+                                    <div class="row ">
+                                        <div class="col-lg-4 col-md-4 col-sm-6 circle-main pt32">
+                                            <img src="/website_kanak/static/src/img/frappe_lms/Blue-circle.svg" class="img-fluid mx-auto center-block" />
+                                            <div class="circle-box">
+                                                <img src="/website_kanak/static/src/img/frappe_lms/connect-student.svg" class="img-fluid mx-auto" style="width:25px;" />
+                                                <p class="text-center" style="font-weight:bold;color:#488EE8;">Lessons in various forms</p>
+                                                <p class="text-center">To make learning enjoyable, include lessons in a variety of formats. Lessons may be presented as articles, videos, tests, or all three.</p>
                                             </div>
                                         </div>
-                                        <div class="col-lg-4">
-                                            <div style="padding:10pt">
-                                                <div>
-                                                    <img src="/website_kanak/static/src/img/frappe_lms/alert-icon.svg" style="display:inline-block;vertical-align:middle" />
-                                                    <span style="padding-left:5pt;font-size:18px;color:#488EE8;vertical-align:middle"><b>Automated alerts &amp; notifications</b></span>
-                                                </div>
-                                                <p class="text-justify" style="margin-top: 10pt">Automated alerts and notifications are crucial LMS features that ensure trainers and management know how their students have been engaging with and finishing course materials. An LMS can give feedback to the appropriate parties at the proper time by notifying trainers of a user's completion rates and auto-alerting learners about their training deadlines.</p>
+                                        <div class="col-lg-4 col-md-4 col-sm-6 circle-main pt32">
+                                            <img src="/website_kanak/static/src/img/frappe_lms/Red-Circle.svg" class="img-fluid mx-auto center-block" />
+                                            <div class="circle-box">
+                                                <img src="/website_kanak/static/src/img/frappe_lms/connect-student.svg" class="img-fluid mx-auto" style="width:25px;" />
+                                                <p class="text-center" style="font-weight:bold;color:#DB4437;">Connect with students</p>
+                                                <p class="text-center">Course instructors and students can connect and address any issues through the discussion section provided for each session.</p>
                                             </div>
                                         </div>
-                                        <div class="col-lg-4">
-                                            <div style="padding:10pt">
-                                                <div>
-                                                    <img src="/website_kanak/static/src/img/frappe_lms/learning-icon.svg" style="display:inline-block;vertical-align:middle" />
-                                                    <span style="padding-left:5pt;font-size:18px;color:#488EE8;vertical-align:middle"><b>Centralized learning materials</b></span>
-                                                </div>
-                                                <p class="text-justify" style="margin-top: 10pt">An LMS isn't simply for eLearning. It should be able to store various learning resources in one convenient area, including written instruction, slide presentations, videos, and other learning resources. Users and L&amp;D professionals can keep organized and deliver consistency with centralized learning materials, two fundamental components of raising learner engagement.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="row">
-                                        <div class="col-lg-4">
-                                            <div style="padding:10pt">
-                                                <div>
-                                                    <img src="/website_kanak/static/src/img/frappe_lms/comliance-icon.svg" style="display:inline-block;vertical-align:middle" />
-                                                    <span style="padding-left:5pt;font-size:18px;color:#DB4437;vertical-align:middle"><b>Compliance</b></span>
-                                                </div>
-                                                <p class="text-justify" style="margin-top: 10pt">Many organizations must continue to adhere to company or governmental policies. This includes ensuring the appropriate individuals receive the proper training at a reasonable time and that learners are correctly evaluated regarding their comprehension and awareness of regulatory requirements.</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4">
-                                            <div style="padding:10pt">
-                                                <div>
-                                                    <img src="/website_kanak/static/src/img/frappe_lms/assesment-icon.svg" style="display:inline-block;vertical-align:middle" />
-                                                    <span style="padding-left:5pt;font-size:18px;color:#DB4437;vertical-align:middle"><b>Assessment tools</b></span>
-                                                </div>
-                                                <p class="text-justify" style="margin-top: 10pt">Learning professionals can track their learners' engagement with the aid of Frappe LMS reports and analytics but evaluating their learners' retention and comprehension is crucial. To do this, an LMS needs to enable a variety of assessment techniques, such as branching scenarios, simulations, and exam engines.</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4">
-                                            <div style="padding:10pt">
-                                                <div>
-                                                    <img src="/website_kanak/static/src/img/frappe_lms/smart-icon.svg" style="display:inline-block;vertical-align:middle" />
-                                                    <span style="padding-left:5pt;font-size:18px;color:#DB4437;vertical-align:middle"><b>Smart scheduling tools</b></span>
-                                                </div>
-                                                <p class="text-justify" style="margin-top: 10pt">Instructors can specify multiple dates and times for their training sessions by using an LMS that has an intelligent scheduling function. Instead of expecting learners to juggle various tasks while acquiring new skills, this flexibility benefits them by ensuring they access crucial instruction when available.</p>
+                                        <div class="col-lg-4 col-md-4 col-sm-6 circle-main pt32">
+                                            <img src="/website_kanak/static/src/img/frappe_lms/Purcle-circle.svg" class="img-fluid mx-auto center-block" />
+                                            <div class="circle-box">
+                                                <img src="/website_kanak/static/src/img/frappe_lms/courses-ease.svg" class="img-fluid mx-auto" style="width:25px;" />
+                                                <p class="text-center" style="font-weight:bold;color:#488EE8;">Create courses with ease</p>
+                                                <p class="text-center">Create your course without being intimidated by the system.</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                </section>
-                <section style="background-color: rgba(72, 142, 232, 0.15); margin-top:20pt; padding-top:30pt; padding-bottom:30pt;">
-                    <h2 class="text-center" style="color:#488EE8;font-weight:revert;">What Makes <span style="color
-                        :red;">Frappe LMS</span> A Good Option For You?</h2>
-                    <br />
-                    <div class="container ring-slider-desk">
-                        <p class="text-center" style="color: #565656;font-family: aileron, Roboto, sans-serif;font-weight: 500;">The sleek UI and straightforward backend of Frappe LMS ensure that learning is the main priority. View some of the distinctive characteristics that improve the teaching and learning experience.</p>
-                        <div class="row ">
-                            <div class="col-lg-4 col-md-4 col-sm-6 circle-main pt32">
-                                <img src="/website_kanak/static/src/img/frappe_lms/Blue-circle.svg" class="img-fluid mx-auto center-block" />
-                                <div class="circle-box">
-                                    <img src="/website_kanak/static/src/img/frappe_lms/simple-backend.svg" class="img-fluid mx-auto" style="width:25px;" />
-                                    <p class="text-center" style="font-weight:bold;color:#488EE8;">Simple Backend</p>
-                                    <p class="text-center">Create lessons and courses using straightforward backend forms, which you can examine using reports.</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-4 col-sm-6 circle-main pt32">
-                                <img src="/website_kanak/static/src/img/frappe_lms/Red-Circle.svg" class="img-fluid mx-auto center-block" />
-                                <div class="circle-box">
-                                    <img src="/website_kanak/static/src/img/frappe_lms/clean-ui.svg" class="img-fluid mx-auto" style="width:25px;" />
-                                    <p class="text-center" style="font-weight:bold;color:#DB4437;">Clean UI</p>
-                                    <p class="text-center">A simple user interface that promotes distraction-free learning and helps pupils concentrate solely on what is necessary.</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-4 col-sm-6 circle-main pt32">
-                                <img src="/website_kanak/static/src/img/frappe_lms/Purcle-circle.svg" class="img-fluid mx-auto center-block" />
-                                <div class="circle-box">
-                                    <img src="/website_kanak/static/src/img/frappe_lms/quizzzes.svg" class="img-fluid mx-auto" style="width:25px;" />
-                                    <p class="text-center" style="font-weight:bold;color:#488EE8;">Engage with quizzes</p>
-                                    <p class="text-center">Quizzes can help students review and assess their learning while maintaining their interest.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row ">
-                            <div class="col-lg-4 col-md-4 col-sm-6 circle-main pt32">
-                                <img src="/website_kanak/static/src/img/frappe_lms/Blue-circle.svg" class="img-fluid mx-auto center-block" />
-                                <div class="circle-box">
-                                    <img src="/website_kanak/static/src/img/frappe_lms/connect-student.svg" class="img-fluid mx-auto" style="width:25px;" />
-                                    <p class="text-center" style="font-weight:bold;color:#488EE8;">Lessons in various forms</p>
-                                    <p class="text-center">To make learning enjoyable, include lessons in a variety of formats. Lessons may be presented as articles, videos, tests, or all three.</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-4 col-sm-6 circle-main pt32">
-                                <img src="/website_kanak/static/src/img/frappe_lms/Red-Circle.svg" class="img-fluid mx-auto center-block" />
-                                <div class="circle-box">
-                                    <img src="/website_kanak/static/src/img/frappe_lms/connect-student.svg" class="img-fluid mx-auto" style="width:25px;" />
-                                    <p class="text-center" style="font-weight:bold;color:#DB4437;">Connect with students</p>
-                                    <p class="text-center">Course instructors and students can connect and address any issues through the discussion section provided for each session.</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-4 col-sm-6 circle-main pt32">
-                                <img src="/website_kanak/static/src/img/frappe_lms/Purcle-circle.svg" class="img-fluid mx-auto center-block" />
-                                <div class="circle-box">
-                                    <img src="/website_kanak/static/src/img/frappe_lms/courses-ease.svg" class="img-fluid mx-auto" style="width:25px;" />
-                                    <p class="text-center" style="font-weight:bold;color:#488EE8;">Create courses with ease</p>
-                                    <p class="text-center">Create your course without being intimidated by the system.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="container ring-slider-mob">
-                        <div class="owl-carousel">
-                            <div class="item">
-                                <div class="row ">
-                                    <div class="col-lg-4 col-md-4 col-sm-6 circle-main pt32">
-                                        <img src="/website_kanak/static/src/img/frappe_lms/Blue-circle.svg" class="img-fluid mx-auto center-block" />
-                                        <div class="circle-box">
-                                            <img src="/website_kanak/static/src/img/frappe_lms/simple-backend.svg" class="img-fluid mx-auto" style="width:25px;" />
-                                            <p class="text-center" style="font-weight:bold;color:#488EE8;">Simple Backend</p>
-                                            <p class="text-center">Create lessons and courses using straightforward backend forms, which you can examine using reports.</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-md-4 col-sm-6 circle-main pt32">
-                                        <img src="/website_kanak/static/src/img/frappe_lms/Red-Circle.svg" class="img-fluid mx-auto center-block" />
-                                        <div class="circle-box">
-                                            <img src="/website_kanak/static/src/img/frappe_lms/clean-ui.svg" class="img-fluid mx-auto" style="width:25px;" />
-                                            <p class="text-center" style="font-weight:bold;color:#DB4437;">Clean UI</p>
-                                            <p class="text-center">A simple user interface that promotes distraction-free learning and helps pupils concentrate solely on what is necessary.</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-md-4 col-sm-6 circle-main pt32">
-                                        <img src="/website_kanak/static/src/img/frappe_lms/Purcle-circle.svg" class="img-fluid mx-auto center-block" />
-                                        <div class="circle-box">
-                                            <img src="/website_kanak/static/src/img/frappe_lms/quizzzes.svg" class="img-fluid mx-auto" style="width:25px;" />
-                                            <p class="text-center" style="font-weight:bold;color:#488EE8;">Engage with quizzes</p>
-                                            <p class="text-center">Quizzes can help students review and assess their learning while maintaining their interest.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="row ">
-                                    <div class="col-lg-4 col-md-4 col-sm-6 circle-main pt32">
-                                        <img src="/website_kanak/static/src/img/frappe_lms/Blue-circle.svg" class="img-fluid mx-auto center-block" />
-                                        <div class="circle-box">
-                                            <img src="/website_kanak/static/src/img/frappe_lms/connect-student.svg" class="img-fluid mx-auto" style="width:25px;" />
-                                            <p class="text-center" style="font-weight:bold;color:#488EE8;">Lessons in various forms</p>
-                                            <p class="text-center">To make learning enjoyable, include lessons in a variety of formats. Lessons may be presented as articles, videos, tests, or all three.</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-md-4 col-sm-6 circle-main pt32">
-                                        <img src="/website_kanak/static/src/img/frappe_lms/Red-Circle.svg" class="img-fluid mx-auto center-block" />
-                                        <div class="circle-box">
-                                            <img src="/website_kanak/static/src/img/frappe_lms/connect-student.svg" class="img-fluid mx-auto" style="width:25px;" />
-                                            <p class="text-center" style="font-weight:bold;color:#DB4437;">Connect with students</p>
-                                            <p class="text-center">Course instructors and students can connect and address any issues through the discussion section provided for each session.</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-md-4 col-sm-6 circle-main pt32">
-                                        <img src="/website_kanak/static/src/img/frappe_lms/Purcle-circle.svg" class="img-fluid mx-auto center-block" />
-                                        <div class="circle-box">
-                                            <img src="/website_kanak/static/src/img/frappe_lms/courses-ease.svg" class="img-fluid mx-auto" style="width:25px;" />
-                                            <p class="text-center" style="font-weight:bold;color:#488EE8;">Create courses with ease</p>
-                                            <p class="text-center">Create your course without being intimidated by the system.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section style="background-color: rgba(133, 146, 239, 0.15);padding-bottom:30pt;padding-top:30pt">
-                    <h3 class="text-center" style="color:#488EE8;font-weight:900;font-size:28px;">Why Should You Choose <span style="color:red;">Frappe LMS?</span></h3>
-                    <p class="text-center" style="color: #565656;font-family: aileron, Roboto, sans-serif;font-weight: 500;">Contains several modern and business-grade software features</p>
-                    <div class="container choose-lms-desk">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="choose-lms-box">
-                                    <div style="display: flex; justify-content: center;">
-                                        <img src="/website_kanak/static/src/img/frappe_lms/Tape.webp" class="img-fluid mx-auto center-block" style="height: 50px;" />
-                                    </div>
-                                    <div style="padding: 10pt 20pt 20pt 20pt; background-color: #fff; border-radius: 10px; margin-bottom: 10px; margin-top: -24px; box-shadow: 1px 5px 14px 3px;">
-                                        <p style="font-weight: 600; font-size: 18px; margin: 0; color: #4B88D2; text-align: center; margin-top: 20px;">Tracks Learner’s Progress</p>
-                                        <p class="text-justify" style="font-size: 14px; line-height: 1.5; margin: 0; padding-top: 10pt; color: #565656; font-family: aileron, Roboto, sans-serif; font-weight: 500; text-align: justify;">You may monitor students' progress and ensure they achieve their performance goals. You may identify and improve the weak points of your eLearning course using the reporting and analytics features available in many learning management systems.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="choose-lms-box">
-                                    <div style="display: flex; justify-content: center;">
-                                        <img src="/website_kanak/static/src/img/frappe_lms/white-tape.webp" class="img-fluid mx-auto center-block" style="height: 50px;" />
-                                    </div>
-                                    <div style="padding: 10pt 20pt 20pt 20pt;background-color:#fff; border-radius: 10px;margin-bottom:10px;margin-top: -24px;background-color: rgba(72, 142, 232, 0.15);box-shadow: 1px 5px 14px 3px">
-                                        <p style="font-weight:600;font-size:18px;margin:0;color: #4B88D2;text-align:center;margin-top: 20px;">Evaluates Capabilities</p>
-                                        <p class="text-justify" style="font-size:14px;line-height:1.5;margin:0;padding-top:10pt;color: #565656;font-family: aileron, Roboto, sans-serif;font-weight: 500;text-align:justify;">A Frappe learning management system (LMS) enables users to be assessed before, during, and after the course. By periodically allocating assignments, employers can evaluate their retention rates. They can then check the data to ascertain the success rates.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="choose-lms-box">
-                                    <div style="display: flex; justify-content: center;">
-                                        <img src="/website_kanak/static/src/img/frappe_lms/Tape.webp" class="img-fluid mx-auto center-block" style="height: 50px;" />
-                                    </div>
-                                    <div style="padding: 10pt 20pt 20pt 20pt;background-color:#fff; border-radius: 10px;margin-bottom:10px;margin-top: -24px;box-shadow: 1px 5px 14px 3px">
-                                        <p style="font-weight:600;font-size:18px;margin:0;color: #4B88D2;text-align:center;margin-top: 20px;">Update Information</p>
-                                        <p class="text-justify" style="font-size:14px;line-height:1.5;margin:0;padding-top:10pt;color: #565656;font-family: aileron, Roboto, sans-serif;font-weight: 500;text-align:justify;">The Frappe LMS makes it simple to edit the course's information and content. It provides a central destination for information, simplifying the forms, specifications, and product descriptions. The updated information is then available to users whenever they desire.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="choose-lms-box">
-                                    <div style="display: flex; justify-content: center;">
-                                        <img src="/website_kanak/static/src/img/frappe_lms/white-tape.webp" class="img-fluid mx-auto center-block" style="height: 50px;" />
-                                    </div>
-                                    <div style="padding: 10pt 20pt 20pt 20pt;background-color:#fff; border-radius: 10px;margin-bottom:10px;margin-top: -24px;background-color: rgba(72, 142, 232, 0.15);box-shadow: 1px 5px 14px 3px">
-                                        <p style="font-weight:600;font-size:18px;margin:0;color: #4B88D2;text-align:center;margin-top: 20px;">Unlimited access to educational resources</p>
-                                        <p class="text-justify" style="font-size:14px;line-height:1.5;margin:0;padding-top:10pt;color: #565656;font-family: aileron, Roboto, sans-serif;font-weight: 500;text-align:justify;">Once you publish your course materials in the LMS and upload them there, students can readily access them whenever they want. Even those who cannot wait for their upcoming online training session can access the eLearning platform on their smartphones and tablets by logging in.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="choose-lms-box">
-                                    <div style="display: flex; justify-content: center;">
-                                        <img src="/website_kanak/static/src/img/frappe_lms/Tape.webp" class="img-fluid mx-auto center-block" style="height: 50px;" />
-                                    </div>
-                                    <div style="padding: 10pt 20pt 20pt 20pt;background-color:#fff; border-radius: 10px;margin-bottom:10px;margin-top: -24px;box-shadow: 1px 5px 14px 3px">
-                                        <p style="font-weight:600;font-size:18px;margin:0;color: #4B88D2;text-align:center;margin-top: 20px;">Integrates social learning experiences</p>
-                                        <p class="text-justify" style="font-size:14px;line-height:1.5;margin:0;padding-top:10pt;color: #565656;font-family: aileron, Roboto, sans-serif;font-weight: 500;text-align:justify;">Social learning is simple to incorporate into your eLearning strategy with the help of a learning management system. Since Frappe LMS is already available online, you can include links to Facebook and Twitter sites, LinkedIn groups, and discussion forums.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="choose-lms-box">
-                                    <div style="display: flex; justify-content: center;">
-                                        <img src="/website_kanak/static/src/img/frappe_lms/white-tape.webp" class="img-fluid mx-auto center-block" style="height: 50px;" />
-                                    </div>
-                                    <div style="padding: 10pt 20pt 20pt 20pt;background-color:#fff; border-radius: 10px;margin-bottom:10px;margin-top: -24px;background-color: rgba(72, 142, 232, 0.15);box-shadow: 1px 5px 14px 3px">
-                                        <p style="font-weight:600;font-size:18px;margin:0;color: #4B88D2;text-align:center;margin-top: 20px;">Organizes eLearning content in one location</p>
-                                        <p class="text-justify" style="font-size:14px;line-height:1.5;margin:0;padding-top:10pt;color: #565656;font-family: aileron, Roboto, sans-serif;font-weight: 500;text-align:justify;">Your eLearning resources don't need to be dispersed across numerous hard drives and gadgets; instead, you may keep them all together in one place. This lowers the chance of losing crucial data and simplifies developing an eLearning course.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="container choose-lms-mob">
-                        <div class="owl-carousel">
-                            <div class="item">
-                                <div class="row">
-                                    <div class="col-lg-6">
-                                        <div class="choose-lms-box">
+                    </section>
+                    <section style="background-color: rgba(133, 146, 239, 0.15);padding-bottom:30pt;padding-top:30pt">
+                        <h3 class="text-center" style="color:#488EE8;font-weight:900;font-size:28px;">Why Should You Choose <span style="color:red;">Frappe LMS?</span></h3>
+                        <p class="text-center" style="color: #565656;font-family: aileron, Roboto, sans-serif;font-weight: 500;">Contains several modern and business-grade software features</p>
+                        <div class="container choose-lms-desk">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-12 col-lg-6">
+                                    <div class="choose-lms-box mx-auto">
+                                        <div style="display: flex; justify-content: center;">
                                             <img src="/website_kanak/static/src/img/frappe_lms/Tape.webp" class="img-fluid mx-auto center-block" style="height: 50px;" />
-                                            <div style="padding: 10pt 20pt 20pt 20pt;background-color:#fff; border-radius: 10px;margin-bottom:10px;margin-top: -24px;box-shadow: 1px 5px 14px 3px">
-                                                <p style="font-weight:600;font-size:18px;margin:0;color: #4B88D2;text-align:center;margin-top: 20px;">Tracks Learner’s Progress</p>
-                                                <p class="text-justify" style="font-size:14px;line-height:1.5;margin:0;padding-top:10pt">You may monitor students' progress and ensure they achieve their performance goals. You may identify and improve the weak points of your eLearning course using the reporting and analytics features available in many learning management systems.</p>
-                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="choose-lms-box">
-                                            <img src="/website_kanak/static/src/img/frappe_lms/white-tape.webp" class="img-fluid mx-auto center-block" style="height: 50px;" />
-                                            <div style="padding: 10pt 20pt 20pt 20pt;background-color:#fff; border-radius: 10px;margin-bottom:10px;margin-top: -24px;background-color: rgba(72, 142, 232, 0.15);box-shadow: 1px 5px 14px 3px">
-                                                <p style="font-weight:600;font-size:18px;margin:0;color: #4B88D2;text-align:center;margin-top: 20px;">Evaluates Capabilities</p>
-                                                <p class="text-justify" style="font-size:14px;line-height:1.5;margin:0;padding-top:10pt">A Frappe learning management system (LMS) enables users to be assessed before, during, and after the course. By periodically allocating assignments, employers can evaluate their retention rates. They can then check the data to ascertain the success rates.</p>
-                                            </div>
+                                        <div style="padding: 10pt 20pt 20pt 20pt; background-color: #fff; border-radius: 10px; margin-bottom: 10px; margin-top: -24px; box-shadow: 1px 5px 14px 3px;">
+                                            <p style="font-weight: 600; font-size: 18px; margin: 0; color: #4B88D2; text-align: center; margin-top: 20px;">Tracks Learner’s Progress</p>
+                                            <p class="text-justify" style="font-size: 14px; line-height: 1.5; margin: 0; padding-top: 10pt; color: #565656; font-family: aileron, Roboto, sans-serif; font-weight: 500; text-align: justify;">You may monitor students' progress and ensure they achieve their performance goals. You may identify and improve the weak points of your eLearning course using the reporting and analytics features available in many learning management systems.</p>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="item">
-                                <div class="row">
-                                    <div class="col-lg-6">
-                                        <div class="choose-lms-box">
-                                            <img src="/website_kanak/static/src/img/frappe_lms/Tape.webp" class="img-fluid mx-auto center-block" style="height: 50px;" />
-                                            <div style="padding: 10pt 20pt 20pt 20pt;background-color:#fff; border-radius: 10px;margin-bottom:10px;margin-top: -24px;box-shadow: 1px 5px 14px 3px">
-                                                <p style="font-weight:600;font-size:18px;margin:0;color: #4B88D2;text-align:center;margin-top: 20px;">Update Information</p>
-                                                <p class="text-justify" style="font-size:14px;line-height:1.5;margin:0;padding-top:10pt">The Frappe LMS makes it simple to edit the course's information and content. It provides a central destination for information, simplifying the forms, specifications, and product descriptions. The updated information is then available to users whenever they desire.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="choose-lms-box">
+                                <div class="col-sm-12 col-md-12 col-lg-6">
+                                    <div class="choose-lms-box mx-auto">
+                                        <div style="display: flex; justify-content: center;">
                                             <img src="/website_kanak/static/src/img/frappe_lms/white-tape.webp" class="img-fluid mx-auto center-block" style="height: 50px;" />
-                                            <div style="padding: 10pt 20pt 20pt 20pt;background-color:#fff; border-radius: 10px;margin-bottom:10px;margin-top: -24px;background-color: rgba(72, 142, 232, 0.15);box-shadow: 1px 5px 14px 3px">
-                                                <p style="font-weight:600;font-size:18px;margin:0;color: #4B88D2;text-align:center;margin-top: 20px;">Unlimited access to educational resources</p>
-                                                <p class="text-justify" style="font-size:14px;line-height:1.5;margin:0;padding-top:10pt">Once you publish your course materials in the LMS and upload them there, students can readily access them whenever they want. Even those who cannot wait for their upcoming online training session can access the eLearning platform on their smartphones and tablets by logging in.</p>
-                                            </div>
+                                        </div>
+                                        <div style="padding: 10pt 20pt 20pt 20pt;background-color:#fff; border-radius: 10px;margin-bottom:10px;margin-top: -24px;background-color: rgba(72, 142, 232, 0.15);box-shadow: 1px 5px 14px 3px">
+                                            <p style="font-weight:600;font-size:18px;margin:0;color: #4B88D2;text-align:center;margin-top: 20px;">Evaluates Capabilities</p>
+                                            <p class="text-justify" style="font-size:14px;line-height:1.5;margin:0;padding-top:10pt;color: #565656;font-family: aileron, Roboto, sans-serif;font-weight: 500;text-align:justify;">A Frappe learning management system (LMS) enables users to be assessed before, during, and after the course. By periodically allocating assignments, employers can evaluate their retention rates. They can then check the data to ascertain the success rates.</p>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="item">
-                                <div class="row">
-                                    <div class="col-lg-6">
-                                        <div class="choose-lms-box">
+                                <div class="col-sm-12 col-md-12 col-lg-6">
+                                    <div class="choose-lms-box mx-auto">
+                                        <div style="display: flex; justify-content: center;">
                                             <img src="/website_kanak/static/src/img/frappe_lms/Tape.webp" class="img-fluid mx-auto center-block" style="height: 50px;" />
-                                            <div style="padding: 10pt 20pt 20pt 20pt;background-color:#fff; border-radius: 10px;margin-bottom:10px;margin-top: -24px;box-shadow: 1px 5px 14px 3px">
-                                                <p style="font-weight:600;font-size:18px;margin:0;color: #4B88D2;text-align:center;margin-top: 20px;">Integrates social learning experiences</p>
-                                                <p class="text-justify" style="font-size:14px;line-height:1.5;margin:0;padding-top:10pt">Social learning is simple to incorporate into your eLearning strategy with the help of a learning management system. Since Frappe LMS is already available online, you can include links to Facebook and Twitter sites, LinkedIn groups, and discussion forums.</p>
-                                            </div>
+                                        </div>
+                                        <div style="padding: 10pt 20pt 20pt 20pt;background-color:#fff; border-radius: 10px;margin-bottom:10px;margin-top: -24px;box-shadow: 1px 5px 14px 3px">
+                                            <p style="font-weight:600;font-size:18px;margin:0;color: #4B88D2;text-align:center;margin-top: 20px;">Update Information</p>
+                                            <p class="text-justify" style="font-size:14px;line-height:1.5;margin:0;padding-top:10pt;color: #565656;font-family: aileron, Roboto, sans-serif;font-weight: 500;text-align:justify;">The Frappe LMS makes it simple to edit the course's information and content. It provides a central destination for information, simplifying the forms, specifications, and product descriptions. The updated information is then available to users whenever they desire.</p>
                                         </div>
                                     </div>
-                                    <div class="col-lg-6">
-                                        <div class="choose-lms-box">
+                                </div>
+                                <div class="col-sm-12 col-md-12 col-lg-6">
+                                    <div class="choose-lms-box mx-auto">
+                                        <div style="display: flex; justify-content: center;">
                                             <img src="/website_kanak/static/src/img/frappe_lms/white-tape.webp" class="img-fluid mx-auto center-block" style="height: 50px;" />
-                                            <div style="padding: 10pt 20pt 20pt 20pt;background-color:#fff; border-radius: 10px;margin-bottom:10px;margin-top: -24px;background-color: rgba(72, 142, 232, 0.15);box-shadow: 1px 5px 14px 3px">
-                                                <p style="font-weight:600;font-size:18px;margin:0;color: #4B88D2;text-align:center;margin-top: 20px;">Organizes eLearning content in one location</p>
-                                                <p class="text-justify" style="font-size:14px;line-height:1.5;margin:0;padding-top:10pt">Your eLearning resources don't need to be dispersed across numerous hard drives and gadgets; instead, you may keep them all together in one place. This lowers the chance of losing crucial data and simplifies developing an eLearning course.</p>
-                                            </div>
+                                        </div>
+                                        <div style="padding: 10pt 20pt 20pt 20pt;background-color:#fff; border-radius: 10px;margin-bottom:10px;margin-top: -24px;background-color: rgba(72, 142, 232, 0.15);box-shadow: 1px 5px 14px 3px">
+                                            <p style="font-weight:600;font-size:18px;margin:0;color: #4B88D2;text-align:center;margin-top: 20px;">Unlimited access to educational resources</p>
+                                            <p class="text-justify" style="font-size:14px;line-height:1.5;margin:0;padding-top:10pt;color: #565656;font-family: aileron, Roboto, sans-serif;font-weight: 500;text-align:justify;">Once you publish your course materials in the LMS and upload them there, students can readily access them whenever they want. Even those who cannot wait for their upcoming online training session can access the eLearning platform on their smartphones and tablets by logging in.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-12 col-lg-6">
+                                    <div class="choose-lms-box mx-auto">
+                                        <div style="display: flex; justify-content: center;">
+                                            <img src="/website_kanak/static/src/img/frappe_lms/Tape.webp" class="img-fluid mx-auto center-block" style="height: 50px;" />
+                                        </div>
+                                        <div style="padding: 10pt 20pt 20pt 20pt;background-color:#fff; border-radius: 10px;margin-bottom:10px;margin-top: -24px;box-shadow: 1px 5px 14px 3px">
+                                            <p style="font-weight:600;font-size:18px;margin:0;color: #4B88D2;text-align:center;margin-top: 20px;">Integrates social learning experiences</p>
+                                            <p class="text-justify" style="font-size:14px;line-height:1.5;margin:0;padding-top:10pt;color: #565656;font-family: aileron, Roboto, sans-serif;font-weight: 500;text-align:justify;">Social learning is simple to incorporate into your eLearning strategy with the help of a learning management system. Since Frappe LMS is already available online, you can include links to Facebook and Twitter sites, LinkedIn groups, and discussion forums.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-12 col-lg-6">
+                                    <div class="choose-lms-box mx-auto">
+                                        <div style="display: flex; justify-content: center;">
+                                            <img src="/website_kanak/static/src/img/frappe_lms/white-tape.webp" class="img-fluid mx-auto center-block" style="height: 50px;" />
+                                        </div>
+                                        <div style="padding: 10pt 20pt 20pt 20pt;background-color:#fff; border-radius: 10px;margin-bottom:10px;margin-top: -24px;background-color: rgba(72, 142, 232, 0.15);box-shadow: 1px 5px 14px 3px">
+                                            <p style="font-weight:600;font-size:18px;margin:0;color: #4B88D2;text-align:center;margin-top: 20px;">Organizes eLearning content in one location</p>
+                                            <p class="text-justify" style="font-size:14px;line-height:1.5;margin:0;padding-top:10pt;color: #565656;font-family: aileron, Roboto, sans-serif;font-weight: 500;text-align:justify;">Your eLearning resources don't need to be dispersed across numerous hard drives and gadgets; instead, you may keep them all together in one place. This lowers the chance of losing crucial data and simplifies developing an eLearning course.</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </section>
-                <section style="background-color: rgba(72, 142, 232, 0.15);" class="sec-choose pt16 pb16">
-                    <div class="container">
-                        <div class="row mb32">
-                            <div class="col-lg-8 col-md-7 col-sm-6">
-                                <h3 style="color:#488EE8;font-size:28px;font-weight: 900;">Why Choose <span style="color:red;">Kanak Infosystems?</span></h3>
-                                <p class="text-justify para-new">Selecting the ideal LMS for businesses takes a lot of time. Establish eLearning goals with your team first, then decide which elements your LMS will need to include. Remember that your company's top objective should be to locate a platform that enables it to develop, deliver, and track its training programs effectively.</p>
-                                <p class="text-justify para-new">You can get Frappe LMS services from Kanak Infosystems in several ways. They can assist in a variety of ways, such as:</p>
-                                <ul>
-                                    <br />
-                                    <li class="mb16">
-                                        <p class="text-justify para-new"><b>Customizing Frappe LMS:</b> Frappe LMS is a flexible platform that can be tailored to match the unique requirements of your business. By creating unique <a href="/apps">modules or plugins</a>
-                                            that increase the platform's capabilities, Kanak Infosystems may assist you in customizing Frappe LMS. This may entail modifying the user interface, including fresh features or functionality, or integrating the system with other ones.</p>
-                                    </li>
-                                    <li class="mb16">
-                                        <p class="text-justify para-new"><b>Providing support and maintenance:</b> For Frappe LMS to function appropriately and efficiently, we can provide continuing support and maintenance as an <a href="/apps">app development company</a>
-                                            . This may entail resolving any problems that crop up, offering guidance and assistance to users, and keeping the platform updated with the newest functions and security updates.</p>
-                                    </li>
-                                    <li class="mb16">
-                                        <p class="text-justify para-new"><b>Building custom applications:</b> To assist you in automating operations and enhancing the user experience, we at <a href="/">Kanak Infosystems</a>
-                                            also <a href="/contactus">develop custom applications</a> that interact with Frappe LMS. For instance, we provide a customized application that lets you control course enrollment and registration directly from Frappe LMS.</p>
-                                    </li>
-                                </ul>
-                                <p class="text-justify para-new">Elevate your e-learning project with Frappe LMS by partnering with our <a href="/android-app-development-company">app development company</a>
-                                    . We offer a range of services including customization, integration, and support to ensure your project is a success.</p>
+                    </section>
+                    <section style="background-color: rgba(72, 142, 232, 0.15);" class="sec-choose pt16 pb16">
+                        <div class="container">
+                            <div class="row mb32">
+                                <div class="col-lg-8 col-md-7 col-sm-6">
+                                    <h3 style="color:#488EE8;font-size:28px;font-weight: 900;">Why Choose <span style="color:red;">Kanak Infosystems?</span></h3>
+                                    <p class="text-justify para-new">Selecting the ideal LMS for businesses takes a lot of time. Establish eLearning goals with your team first, then decide which elements your LMS will need to include. Remember that your company's top objective should be to locate a platform that enables it to develop, deliver, and track its training programs effectively.</p>
+                                    <p class="text-justify para-new">You can get Frappe LMS services from Kanak Infosystems in several ways. They can assist in a variety of ways, such as:</p>
+                                    <ul>
+                                        <br />
+                                        <li class="mb16">
+                                            <p class="text-justify para-new"><b>Customizing Frappe LMS:</b> Frappe LMS is a flexible platform that can be tailored to match the unique requirements of your business. By creating unique <a href="/apps">modules or plugins</a>
+                                                that increase the platform's capabilities, Kanak Infosystems may assist you in customizing Frappe LMS. This may entail modifying the user interface, including fresh features or functionality, or integrating the system with other ones.</p>
+                                        </li>
+                                        <li class="mb16">
+                                            <p class="text-justify para-new"><b>Providing support and maintenance:</b> For Frappe LMS to function appropriately and efficiently, we can provide continuing support and maintenance as an <a href="/apps">app development company</a>
+                                                . This may entail resolving any problems that crop up, offering guidance and assistance to users, and keeping the platform updated with the newest functions and security updates.</p>
+                                        </li>
+                                        <li class="mb16">
+                                            <p class="text-justify para-new"><b>Building custom applications:</b> To assist you in automating operations and enhancing the user experience, we at <a href="/">Kanak Infosystems</a>
+                                                also <a href="/contactus">develop custom applications</a> that interact with Frappe LMS. For instance, we provide a customized application that lets you control course enrollment and registration directly from Frappe LMS.</p>
+                                        </li>
+                                    </ul>
+                                    <p class="text-justify para-new">Elevate your e-learning project with Frappe LMS by partnering with our <a href="/android-app-development-company">app development company</a>
+                                        . We offer a range of services including customization, integration, and support to ensure your project is a success.</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </section>
-                <section class="pt16">
+                    </section>
+                    <section class="pt16">
                     <div class="container">
                         <div class="faq_border mb32" style="border: 1px solid #cec7c7;">
                             <div class="row">
@@ -595,7 +526,8 @@
                             </div>
                         </div>
                     </div>
-                </section>
+                    </section>
+                </div>
             </t>
         </template>
     </data>

@@ -192,88 +192,38 @@
                         <p class="text-center symbol-heading"> Trusted By </p>
                         <div class="container main-symbol1">
                             <div class="row">
-                                <div id="myCarousel111" class="carousel slide" data-bs-ride="carousel">
-                                    <div class="carousel-inner" role="listbox">
-                                        <div class="carousel-item active">
-                                            <div class="col-md-2 col-sm-2 ">
-                                                <div class="main-symbol text-center">
-                                                    <div class="main-symbol-img">
-                                                        <img class="img-fluid mx-auto" src="/website_kanak/static/src/img/testimonial/lotshub_log-1.webp" alt="kanak infosystems llp clients logo" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-2 col-sm-2 ">
-                                                <div class="main-symbol text-center">
-                                                    <div class="main-symbol-img">
-                                                        <img class="img-fluid mx-auto" src="/website_kanak/static/src/img/about_us/home-credit.webp" alt="kanak infosystems llp clients logo" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-2 col-sm-2 ">
-                                                <div class="main-symbol text-center">
-                                                    <div class="main-symbol-img">
-                                                        <img class="img-fluid mx-auto" src="/website_kanak/static/src/img/about_us/cl14.webp" alt="kanak infosystems llp partners logo" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-2 col-sm-2 ">
-                                                <div class="main-symbol text-center">
-                                                    <div class="main-symbol-img">
-                                                        <img class="img-fluid mx-auto" src="/website_kanak/static/src/img/testimonial/logo111.webp" alt="kanak infosystems llp clients logo" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-2 col-sm-2 ">
-                                                <div class="main-symbol text-center">
-                                                    <div class="main-symbol-img">
-                                                        <img class="img-fluid mx-auto" src="/website_kanak/static/src/img/about_us/warm-wind.webp" alt="kanak infosystems llp clients logo" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-2 col-sm-2 ">
-                                                <div class="main-symbol text-center">
-                                                    <div class="main-symbol-img">
-                                                        <img class="img-fluid mx-auto" src="/website_kanak/static/src/img/about_us/lioncode.webp" alt="kanak infosystems llp clients logo" />
-                                                    </div>
-                                                </div>
-                                            </div>
+                                <div class="col-md-12">
+                                    <div class="owl-carousel">
+                                        <div class="item">
+                                            <img class="img-fluid mx-auto" src="/website_kanak/static/src/img/testimonial/lotshub_log-1.webp" alt="kanak infosystems llp clients logo" />
                                         </div>
-                                        <div class="carousel-item">
-                                            <div class="col-md-2 col-sm-2 col-xs-2">
-                                                <div class="main-symbol text-center">
-                                                    <div class="main-symbol-img">
-                                                        <img class="img-fluid mx-auto" src="/website_kanak/static/src/img/testimonial/logo113.webp" alt="kanak infosystems llp clients logo" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-3 col-sm-2 col-xs-2">
-                                                <div class="main-symbol text-center">
-                                                    <div class="main-symbol-img">
-                                                        <img class="img-fluid mx-auto" src="/website_kanak/static/src/img/testimonial/logo114.webp" alt="kanak infosystems llp clients logo" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-2 col-sm-2 col-xs-2">
-                                                <div class="main-symbol text-center">
-                                                    <div class="main-symbol-img">
-                                                        <img class="img-fluid mx-auto" src="/website_kanak/static/src/img/testimonial/logo117.webp" alt="kanak infosystems llp partners logo" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-2 col-sm-2 col-xs-2">
-                                                <div class="main-symbol text-center">
-                                                    <div class="main-symbol-img">
-                                                        <img class="img-fluid mx-auto" src="/website_kanak/static/src/img/testimonial/logo118.webp" alt="kanak infosystems llp clients logo" />
-                                                    </div>
-                                                </div>
-                                            </div>
+                                        <div class="item">
+                                            <img class="img-fluid mx-auto" src="/website_kanak/static/src/img/about_us/home-credit.webp" alt="kanak infosystems llp clients logo" />
                                         </div>
-                                    </div>
-                                    <div class="new_carousel_ind">
-                                        <ol class="carousel-indicators">
-                                            <li data-bs-target="#myCarousel111" data-bs-slide-to="0" class="active"></li>
-                                            <li data-bs-target="#myCarousel111" data-bs-slide-to="1"></li>
-                                        </ol>
+                                        <div class="item">
+                                            <img class="img-fluid mx-auto" src="/website_kanak/static/src/img/about_us/cl14.webp" alt="kanak infosystems llp clients logo" />
+                                        </div>
+                                        <div class="item">
+                                            <img class="img-fluid mx-auto" src="/website_kanak/static/src/img/testimonial/logo111.webp" alt="kanak infosystems llp clients logo" />
+                                        </div>
+                                        <div class="item">
+                                            <img class="img-fluid mx-auto" src="/website_kanak/static/src/img/about_us/warm-wind.webp" alt="kanak infosystems llp clients logo" />
+                                        </div>
+                                        <div class="item">
+                                            <img class="img-fluid mx-auto" src="/website_kanak/static/src/img/about_us/lioncode.webp" alt="kanak infosystems llp clients logo" />
+                                        </div>
+                                        <div class="item">
+                                           <img class="img-fluid mx-auto" src="/website_kanak/static/src/img/testimonial/logo113.webp" alt="kanak infosystems llp clients logo" />
+                                        </div>
+                                        <div class="item">
+                                            <img class="img-fluid mx-auto" src="/website_kanak/static/src/img/testimonial/logo114.webp" alt="kanak infosystems llp clients logo" />
+                                        </div>
+                                        <div class="item">
+                                           <img class="img-fluid mx-auto" src="/website_kanak/static/src/img/testimonial/logo117.webp" alt="kanak infosystems llp partners logo" />
+                                        </div>
+                                        <div class="item">
+                                           <img class="img-fluid mx-auto" src="/website_kanak/static/src/img/testimonial/logo118.webp" alt="kanak infosystems llp clients logo" />
+                                        </div>
                                     </div>
                                 </div>
                             </div>

@@ -363,6 +363,7 @@ odoo.define('website_kanak.script', function(require) {
         margin: 10,
         nav: true,
         autoplay: true,
+        dots:false,
         autoplayTimeout: 3000,
         responsive: {
             0: {
@@ -550,5 +551,22 @@ odoo.define('website_kanak.script', function(require) {
         $(elm).next().next().find(".card").animate({
                 height: '321px',
         }, 1000);
+    });
+    $('#main-symbol-all .owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:5
+            }
+        },
+        navText : ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
     });
 });

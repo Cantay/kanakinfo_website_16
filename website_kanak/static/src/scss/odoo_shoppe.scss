@@ -493,7 +493,7 @@
 
         .owl-nav {
             position: absolute;
-            right: 0;
+            right: 9%;
             bottom: 0;
         }
     }
@@ -541,7 +541,7 @@
                 width: 93px;
                 height: 93px;
                 background: transparent;
-                background: url(/website_kanak/static/src/img/odoo_shoppe/Double_arrow_1.svg) !important;
+                background: url(/website_kanak/static/src/img/odoo_shoppe/Double_arrow_2.svg) !important;
                 background-size: 100% !important;
                 background-repeat: no-repeat;
                 top: inherit !important;
@@ -553,7 +553,7 @@
                 width: 93px;
                 height: 93px;
                 background: transparent;
-                background: url(/website_kanak/static/src/img/odoo_shoppe/Double_arrow_2.svg) !important;
+                background: url(/website_kanak/static/src/img/odoo_shoppe/Double_arrow_1.svg) !important;
                 background-size: 100% !important;
                 background-repeat: no-repeat;
                 top: inherit !important;
@@ -855,7 +855,7 @@
                 right: 0;
                 left: 0;
                 margin: auto;
-                bottom: -16%;
+                bottom: 0%;
                 .owl-prev {
                     bottom: -90px !important;
                     left: 32% !important;

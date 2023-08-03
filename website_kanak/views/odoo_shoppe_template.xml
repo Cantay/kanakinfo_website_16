@@ -48,11 +48,10 @@
                             <div class="col-md-7">
                                 <p class="easy-head">Easy Management</p>
                                 <p class="s_p_4_1">You will be able to manage your products through putting them in Menus like <span class="s_b_4_color1">Shop by Categories and Shop By Brands.</span> This will help you segregate the products for a smooth surfing and shopping experience. You can add <span class="s_b_4_color1">Advertisement and Promotional Banners</span> to inform your audience and give them the Smart Search option to easily navigate.</p>
-                                <div class="whilte-line-left s_b4_line">    
-                                </div>
                                 <div class="s_b4_book_trail">
                                     <p class="book-trail-head">Wanna know how odooshoppe works? Book a Trial Now.</p>
-                                    <a type="button" class="btn btn-default white-free-trial s_h_btn" href="/contactus"><img src="/website_kanak/static/src/img/odoo_shoppe/monitor.png" /><span>Get a free Trial</span></a>
+                                    <a type="button" class="btn btn-primary d-inline-flex gap-2 align-items-center" href="/contactus">
+                                        <span>Get a free Trial</span></a>
                                 </div>
                             </div>
                             <div class="col-md-5 img_block_4">
@@ -67,11 +66,10 @@
                         </div>
                         <div class="row s_block_4_2">
                             <div class="col-md-12">
-                                <div class="whilte-line-left s_b4_line">    
-                                </div>
                                 <div class="s_b4_book_trail text-center">
                                     <h4 class="book-trail-head">Wanna know how odooshoppe works? Book a Trial Now.</h4>
-                                    <a type="button" class="btn btn-default white-free-trial s_h_btn" href="/contactus"><img src="/website_kanak/static/src/img/odoo_shoppe/monitor.png" /><span>Get a free Trial</span></a>
+                                    <a type="button" class="btn btn-primary d-inline-flex gap-2 align-items-center" href="/contactus">
+                                        <span>Get a free Trial</span></a>
                                 </div>
                             </div>
                         </div>
@@ -103,9 +101,6 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row s_block_5_2">
-                            <div class="col-md-4"></div>
-                        </div>
                     </div>
                 </section>
                 <section class="s_block_6">
@@ -114,9 +109,6 @@
                             <div class="col-md-7">
                                 <h3>Transform Your Way of Business</h3>
                                 <p class="s_p_6_1">Online businesses are making a breakthrough. It provides you and your customer with a sense of convenience that you can run your business from anywhere and your customers can shop from anywhere. You will be able to display all your product collections, out of which, your customers can choose and decide to buy.</p>
-                                <div class="row s_block_6_1_1 mt100px">
-                                    <div class="col-md-6"></div>
-                                </div>
                                 <div class="row mt32px s_block_6_1_2">
                                     <div class="col-md-12 text-center">
                                         <p class="trial-head">Explore the huge possibilities of Odooshoppe for your business by Booking a free trial now.</p>
@@ -137,7 +129,7 @@
                             </div>
                         </div>
                         <div class="row s_block_6_2">
-                            <div class="row s_block_6_2_1 mt100px">
+                            <div class="row mt100px">
                                 <div class="col-3"></div>
                             </div>
                             <div class="row mt32px s_block_6_2_2">

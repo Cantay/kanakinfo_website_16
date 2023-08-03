@@ -51,7 +51,7 @@
                                 <div class="col-md-6">
                                     <div class="hr-feature-box workflow">
                                         <p class="hr-feature-head">Workflows</p>
-                                        <p>The majority of the repetitive,
+                                        <p class="text-justify text-muted">The majority of the repetitive,
                                             routine tasks that reduce the
                                             effectiveness of HR
                                             administration can be
@@ -70,7 +70,7 @@
                                 <div class="col-md-6">
                                     <div class="hr-feature-box recruitment">
                                         <p class="hr-feature-head">Recruitment &amp; Hiring</p>
-                                        <p>A data study on peer roles
+                                        <p class="text-justify text-muted">A data study on peer roles
                                             may be automated,
                                             optimized, and the system
                                             can pitch the right salary.
@@ -93,7 +93,7 @@
                         <div class="col-md-3">
                             <div class="hr-feature-box payroll">
                                 <p class="hr-feature-head">Payroll Systems</p>
-                                <p>Payroll&#39;s primary
+                                <p class="text-justify text-muted">Payroll&#39;s primary
                                     responsibilities include
                                     determining and paying
                                     salaries, computing the
@@ -111,7 +111,7 @@
                         <div class="col-md-3">
                             <div class="hr-feature-box self-service">
                                 <p class="hr-feature-head">Employee Self-Service</p>
-                                <p>Employee self-service is a
+                                <p class="text-justify text-muted">Employee self-service is a
                                     component of HR systems
                                     that are highly valued by
                                     many businesses. Employee
@@ -131,7 +131,7 @@
                         <div class="col-md-3">
                             <div class="hr-feature-box performance">
                                 <p class="hr-feature-head">Performance Reviews</p>
-                                <p>The scope and usefulness of
+                                <p class="text-justify text-muted">The scope and usefulness of
                                     paper performance reviews
                                     are rather constrained, and
                                     they can be a bother.
@@ -149,7 +149,7 @@
                         <div class="col-md-3">
                             <div class="hr-feature-box training">
                                 <p class="hr-feature-head">Employee Training</p>
-                                <p>Every person must update
+                                <p class="text-justify text-muted">Every person must update
                                     their skill sets in light of the
                                     changes in technology and
                                     business procedures. In
@@ -169,7 +169,7 @@
                         <div class="col-md-3">
                             <div class="hr-feature-box administration">
                                 <p class="hr-feature-head">Employee Benefits Administration</p>
-                                <p>Open enrollment periods for
+                                <p class="text-justify text-muted">Open enrollment periods for
                                     benefits can be complicated
                                     and busy. Investing in an HR
                                     system that includes benefits
@@ -191,7 +191,7 @@
                         <div class="col-md-3">
                             <div class="hr-feature-box entitlement">
                                 <p class="hr-feature-head">Time Tracking and Leave Entitlement</p>
-                                <p>The ATS, or applicant
+                                <p class="text-justify text-muted">The ATS, or applicant
                                     tracking system, is taking the
                                     place of the thick folders in
                                     closets where dozens of
@@ -218,7 +218,7 @@
                         <div class="item">
                             <div class="hr-feature-box workflow">
                                 <p class="hr-feature-head">Workflows</p>
-                                <p>The majority of the repetitive,
+                                <p class="text-justify text-muted">The majority of the repetitive,
                                     routine tasks that reduce the
                                     effectiveness of HR
                                     administration can be
@@ -237,7 +237,7 @@
                         <div class="item">
                             <div class="hr-feature-box recruitment">
                                 <p class="hr-feature-head">Recruitment &amp; Hiring</p>
-                                <p>A data study on peer roles
+                                <p class="text-justify text-muted">A data study on peer roles
                                     may be automated,
                                     optimized, and the system
                                     can pitch the right salary.
@@ -253,7 +253,7 @@
                         <div class="item">
                             <div class="hr-feature-box payroll">
                                 <p class="hr-feature-head">Payroll Systems</p>
-                                <p>Payroll&#39;s primary
+                                <p class="text-justify text-muted">Payroll&#39;s primary
                                     responsibilities include
                                     determining and paying
                                     salaries, computing the
@@ -271,7 +271,7 @@
                         <div class="item">
                             <div class="hr-feature-box self-service">
                                 <p class="hr-feature-head">Employee Self-Service</p>
-                                <p>Employee self-service is a
+                                <p class="text-justify text-muted">Employee self-service is a
                                     component of HR systems
                                     that are highly valued by
                                     many businesses. Employee
@@ -291,7 +291,7 @@
                         <div class="item">
                             <div class="hr-feature-box performance">
                                 <p class="hr-feature-head">Performance Reviews</p>
-                                <p>The scope and usefulness of
+                                <p class="text-justify text-muted">The scope and usefulness of
                                     paper performance reviews
                                     are rather constrained, and
                                     they can be a bother.
@@ -309,7 +309,7 @@
                         <div class="item">
                             <div class="hr-feature-box training">
                                 <p class="hr-feature-head">Employee Training</p>
-                                <p>Every person must update
+                                <p class="text-justify text-muted">Every person must update
                                     their skill sets in light of the
                                     changes in technology and
                                     business procedures. In
@@ -324,7 +324,7 @@
                         <div class="item">
                             <div class="hr-feature-box administration">
                                 <p class="hr-feature-head">Employee Benefits Administration</p>
-                                <p>Open enrollment periods for
+                                <p class="text-justify text-muted">Open enrollment periods for
                                     benefits can be complicated
                                     and busy. Investing in an HR
                                     system that includes benefits
@@ -346,7 +346,7 @@
                         <div class="item">
                             <div class="hr-feature-box entitlement">
                                 <p class="hr-feature-head">Time Tracking &amp; Leave Entitlement</p>
-                                <p>The ATS, or applicant
+                                <p class="text-justify text-muted">The ATS, or applicant
                                     tracking system, is taking the
                                     place of the thick folders in
                                     closets where dozens of
@@ -380,10 +380,10 @@
                     <div class="row">
                         <div class="col-md-4">
                             <img src="/website_kanak/static/src/img/frappe_hrms/choose-frappe.webp" class="img-fluid mx-auto " />
-                            <div class="row book-demo mt16">
+                            <div class="row book-demo mt16 d-flex align-items-center">
                                 <div>
-                                    <p style="font-size: 18px;font-weight: 500;line-height: 1.1;"><span style="color: #FF4A4A">Talk to us</span></p>
-                                    <img src="/website_kanak/static/src/img/frappe_hrms/head-icon.svg" style="height: 45px;width: 45px;" />
+                                    <p style="font-size: 18px;font-weight: 500;line-height: 1.1;" class="mb0"><span style="color: #FF4A4A">Talk to us</span></p>
+                                    <img src="/website_kanak/static/src/img/frappe_hrms/head-icon.svg" class="mb0" style="height: 45px;width: 45px;" />
                                     <a type="button" class="btn btn-default about-geo free-trial" href="/contactus">Book a Demo</a>
                                 </div>
                             </div>

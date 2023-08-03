@@ -38,14 +38,14 @@
                                 <div class="col-lg-6 col-md-6">
                                     <div class="eng_1001">
                                         <img src="/website_kanak/static/src/img/engagement/ENGAGEMENT-Models-icon1.svg" />
-                                        <h4>Client</h4>
+                                        <h4 class="mt4">Client</h4>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-6">
                                     <div class="eng_1002">
                                         <h4>Requirements</h4>
                                         <img src="/website_kanak/static/src/img/engagement/ENGAGEMENT-Models-icon2.svg" />
-                                        <h4>Delivery</h4>
+                                        <h4 class="mt4">Delivery</h4>
                                     </div>
                                 </div>
                             </div>
@@ -57,8 +57,8 @@
                                 <img class="eng_img_003" src="/website_kanak/static/src/img/engagement/ENGAGEMENT-Models-icon4.svg" />
                             </div>
                             <div class="eng_1004">
-                                <h4 class="eng_h1_001">Offshore Project Manager</h4>
-                                <h4 class="eng_h1_002">Offshore Team</h4>
+                                <h4 class="eng_h1_001 mt4">Offshore Project Manager</h4>
+                                <h4 class="eng_h1_002 mt4">Offshore Team</h4>
                             </div>
                         </div>
                     </div>

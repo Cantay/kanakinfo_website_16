@@ -14,7 +14,7 @@
                                     <li><a href="/odoo-development-services">Odoo</a></li>
                                     <li><a href="/erpnext-services">ERPNext</a></li>
                                     <li><a href="/netsuite-services">NetSuite</a></li>
-                                    <li><a href="/netsuite-services">Mobile App Development</a></li>
+                                    <li><a href="/android-app-development-company">Mobile App Development</a></li>
                                     <t t-set="configurator_footer_links" t-value="[]" />
                                     <li t-foreach="configurator_footer_links" t-as="link">
                                         <a t-att-href="link['href']" t-esc="link['text']" />

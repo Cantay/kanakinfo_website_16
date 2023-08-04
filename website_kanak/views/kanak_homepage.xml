@@ -9,14 +9,14 @@
                 <t t-set="website_meta_keywords"> odoo erp, odoo development, odoo services, odoo consulting services, erp solutions, customized software development, web development, mobile app development, crm software, it consulting, business process automation, it outsourcing services, erp consultant, mobile app development company, erp consulting company, odoo ready partner, erpnext partner, oracle netsuite partner</t>
                 <section class="s_carousel_wrapper" data-vxml="001">
                     <t t-set="uniq" t-value="datetime.datetime.now().microsecond" />
-                    <div t-attf-id="myCarousel{{uniq}}" class="s_carousel s_carousel_default carousel slide carousel-fade" data-bs-interval="10000">
+                    <div t-attf-id="myCarousel{{uniq}}" class="s_carousel s_carousel_default carousel slide carousel-fade" data-bs-interval="5000">
                         <ol class="carousel-indicators">
                             <li t-attf-data-bs-target="#myCarousel{{uniq}}" data-bs-slide-to="0" class="active" />
                             <li t-attf-data-bs-target="#myCarousel{{uniq}}" data-bs-slide-to="1" />
                             <li t-attf-data-bs-target="#myCarousel{{uniq}}" data-bs-slide-to="2" />
                         </ol>
                         <div class="carousel-inner">
-                            <div class="carousel-item active oe_img_bg o_bg_img_center bg_banner_color_home pt-5 pb-5 pt-md-6 pb-md-6" style="background-image: url('/website_kanak/static/src/img/home/home-banner1.webp');background-position:left;" data-name="Slide">
+                            <div class="carousel-item active oe_img_bg o_bg_img_center bg_banner_color_home1 pt-5 pb-5 pt-md-6 pb-md-6" style="background-image: url('/website_kanak/static/src/img/home/home-banner1.webp');background-position:left;" data-name="Slide">
                                 <div class="container oe_unremovable">
                                     <div class="row content">
                                         <div class="carousel-content col-lg-6">
@@ -31,19 +31,19 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="carousel-item oe_img_bg o_bg_img_center pt-5 pb-5 pt-md-6 pb-md-6" style="background-image: url('/website_kanak/static/src/img/home/ERPNext-Banner.webp')" data-name="Slide">
+                            <div class="carousel-item oe_img_bg o_bg_img_center  pt-4 pb-4 pt-md-4 pb-md-4" style="background-image: url('/website_kanak/static/src/img/home/ERPNext-Banner.webp')" data-name="Slide">
                                 <div class="container oe_unremovable">
                                     <div class="row content">
                                         <div class="carousel-content col-lg-8 offset-lg-2">
                                             <h2 class="text-white text-center display-6 fw-bold">Simplify &amp; Streamline Your Business with World's best OpenSource &amp; Erp</h2>
-                                            <p class="lead text-white text-center pt-2 pb-3">ERPNext is the world's best free and open source ERP</p>
+                                            <p class="lead text-white text-center pt-2 pb-0 pb-md-3">ERPNext is the world's best free and open source ERP</p>
                                             <p class="text-center pt-0 pt-lg-3"><a href="/contactus" class="erpnext_banner_btn_home">Try Now</a></p>
-                                            <h1 class="text-center text-white display-3 fw-bold">ERPNEXT</h1>
+                                            <h1 class="text-center text-white display-5 fw-bold">ERPNEXT</h1>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="carousel-item oe_img_bg o_bg_img_center bg_banner_color_home pt-5 pb-5 pt-md-6 pb-md-6" style="background-image: url('/website_kanak/static/src/img/home/home-banner3.webp');background-position:right;" data-name="Slide">
+                            <div class="carousel-item oe_img_bg o_bg_img_center bg_banner_color_home2 pt-5 pb-5 pt-md-6 pb-md-6" style="background-image: url('/website_kanak/static/src/img/home/home-banner3.webp');background-position:right;" data-name="Slide">
                                 <div class="container oe_unremovable">
                                     <div class="row content">
                                         <div class="carousel-content col-lg-7 offset-lg-5">
@@ -595,31 +595,6 @@
                                              <img src="/website_kanak/static/src/img/home/partners/limitless-partner.webp" alt="Limitless partner" class="img-fluid" />
                                         </div>
                                     </div>
-                                    <!-- <div class="col-sm-4 col-6">
-                                        <img src="/website_kanak/static/src/img/home/partners/soludoo-partner.webp" alt="Soludoo" class="img-fluid" />
-                                    </div>
-                                    <div class="col-sm-4 col-6">
-                                        <img src="/website_kanak/static/src/img/home/partners/yellowmetals-partner.webp" alt="Yellowmetals" class="img-fluid" />
-                                    </div>
-                                    <div class="col-sm-4 col-6">
-                                        <img src="/website_kanak/static/src/img/home/partners/warmwinds-partner.webp" alt="Warmwinds" class="img-fluid" />
-                                    </div>
-                                    <div class="col-sm-4 col-6">
-                                        <img src="/website_kanak/static/src/img/home/partners/homecredit-partner.webp" alt="Homecredit" class="img-fluid" />
-                                    </div>
-                                    <div class="col-sm-4 col-6">
-                                        <img src="/website_kanak/static/src/img/home/partners/lioncode-partner.webp" alt="Lioncode partner" class="img-fluid" />
-                                    </div>
-                                    <div class="col-sm-4 col-xs-6 col-6 mob_motivate">
-                                        <img src="/website_kanak/static/src/img/home/partners/am8ze-partner.webp" alt="Am8ze partner" class="img-fluid" />
-                                    </div>
-                                    <div class="col-lg-2 col-md-2 col-sm-2 d-none d-sm-block"></div>
-                                    <div class="col-sm-4 col-6 mob_motivate">
-                                        <img src="/website_kanak/static/src/img/home/partners/deenweberari-partner.webp" alt="Deenweberari" class="img-fluid" />
-                                    </div>
-                                    <div class="col-sm-4 col-6 mob_motivate">
-                                        <img src="/website_kanak/static/src/img/home/partners/limitless-partner.webp" alt="Limitless partner" class="img-fluid" />
-                                    </div> -->
                                 </div>
                             </div>
                             <div class="col-md-6 col-12 client-says">
@@ -895,6 +870,9 @@
                                     </div>
                                 </div>
                             </t>
+                        </div>
+                        <div class="text-center">
+                            <a href="/blog" class="btn btn-danger mx-auto mb8">View All Blogs</a>
                         </div>
                     </div>
                 </section>

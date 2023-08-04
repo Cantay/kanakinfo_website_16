@@ -569,4 +569,38 @@ odoo.define('website_kanak.script', function(require) {
         },
         navText : ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
     });
+    function initOwlCarousel() {
+        $('#kanak_11_client_cust .owl-carousel').owlCarousel({
+            loop:true,
+            margin:20,
+            nav:false,
+            dots:false,
+            autoplay: true,
+            autoplayTimeout: 2000,
+            responsive:{
+                0:{
+                    items:1
+                }
+            },
+        });
+    }
+
+      // Function to destroy Owl Carousel on desktop devices
+      function destroyOwlCarousel() {
+        $('#kanak_11_client_cust .owl-carousel').trigger('destroy.owl.carousel');
+      }
+
+      // Check screen size and call appropriate functions
+      function checkScreenSize() {
+        if (window.innerWidth <= 768) {
+          initOwlCarousel(); // Initialize Owl Carousel on mobile
+        } else {
+          destroyOwlCarousel(); // Destroy Owl Carousel on desktop
+        }
+      }
+    checkScreenSize();
+    $(window).resize(function() {
+        checkScreenSize();
+    });
+    
 });

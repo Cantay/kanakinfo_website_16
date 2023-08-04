@@ -11,6 +11,7 @@ odoo.define('kanak_website.career_search', function(require) {
         loop: true,
         margin: 10,
         nav: true,
+        dots:false,
         autoplay: true,
         autoplayTimeout: 3000,
         responsive: {

@@ -4,17 +4,17 @@
     <template id="footer_custom_kanak" inherit_id="website.footer_custom" name="Kanak Footer" active="True">
         <xpath expr="//div[@id='footer']" position="replace">
             <div id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer">
-                <section class="s_text_block pt40 pb16" data-snippet="s_text_block" data-name="Text">
+                <section class="s_text_block" data-snippet="s_text_block" data-name="Text">
                     <div class="container">
                         <div class="row">
-                            <div class="col-lg-2 order-2 order-md-1 pt24 pb24">
-                                <h5 class="mb-3">Useful Links</h5>
+                            <div class="col-6 col-lg-3 order-2 order-md-1 pt24 pb-0 pb-md-3">
+                                <h5 class="mb-3">Our Services</h5>
                                 <ul class="list-unstyled">
                                     <li><a href="/">Home</a></li>
                                     <li><a href="/odoo-development-services">Odoo</a></li>
-                                    <li><a href="/netsuite-services">NetSuite</a></li>
                                     <li><a href="/erpnext-services">ERPNext</a></li>
-                                    <li><a href="/jobs">Careers</a></li>
+                                    <li><a href="/netsuite-services">NetSuite</a></li>
+                                    <li><a href="/netsuite-services">Mobile App Development</a></li>
                                     <t t-set="configurator_footer_links" t-value="[]" />
                                     <li t-foreach="configurator_footer_links" t-as="link">
                                         <a t-att-href="link['href']" t-esc="link['text']" />
@@ -22,11 +22,19 @@
                                     <li><a href="/contactus">Contact us</a></li>
                                 </ul>
                             </div>
-                            <div class="col-lg-5 order-1 order-md-2 d-none d-md-block pt24 pb24">
+                            <div class="col-lg-5 order-1 order-lg-2 d-none d-lg-block pt24 pb24">
                                 <h5 class="mb-3">About us</h5>
                                 <p>With the onset of 2012, Kanak Infosystems LLP has emerged as a prominent IT company providing services such as Odoo ERP, ERPNext, Oracle NetSuite, and Mobile Applications to small and medium enterprises, facilitating process transformations for their clients.</p>
                             </div>
-                            <div id="connect" class="col-lg-4 offset-lg-1 order-3  pt24 pb24">
+                            <div class="col-6 col-lg-2 offset-lg-2 order-2 order-lg-3 pt24 pb24">
+                                <h5 class="mb-3">Quick Links</h5>
+                                <ul class="list-unstyled">
+                                    <li><a href="/apps">Odoo Apps Store</a></li>
+                                    <li><a href="/about-us">About Us</a></li>
+                                    <li><a href="/jobs">Careers</a></li>
+                                </ul>
+                            </div>
+                            <div id="connect" class="col-lg-4 offset-lg-1 order-3 pb24 d-lg-none">
                                 <h5 class="mb-3">Connect with us</h5>
                                 <ul class="list-unstyled">
                                     <li><i class="fa fa-skype fa-fw me-2"></i><span><a href="skype:kanakinfosystems?chat">kanakinfosystems</a></span></li>

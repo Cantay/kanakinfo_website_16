@@ -423,7 +423,6 @@ footer {
             }
 
             .block_content_motivate {
-                padding: 10px;
                 .block-head {
                     font-size: 18px;
                     margin-top: 10px;
@@ -689,7 +688,7 @@ footer {
             -webkit-box-shadow: 2px 2px 6px 0 $color_9;
             -moz-box-shadow: 2px 2px 6px 0 $color_9;
             box-shadow: 2px 2px 6px 0 $color_9;
-            margin-bottom: 55px;
+            margin-bottom: 10px;
         }
 
         .recent_title {
@@ -1029,8 +1028,6 @@ footer {
 
         .motivate_us {
             .main_motivate_block {
-                margin-bottom: 20px;
-
                 .icon_main_motivate {
                     // top: -30px;
                     // left: 0;
@@ -1039,7 +1036,6 @@ footer {
                 }
 
                 .block_content_motivate {
-                    padding: 10px;
                     .block-head {
                         text-align: center;
                         font-size: 14px;
@@ -1140,4 +1136,30 @@ footer {
     .bg_banner_color_home{
         background: #3F51B5 !important;
     }
+}
+.kanak_main_homepage #kanak_11_client_cust .our-partner img{
+    width: 200px;
+    margin: 0 auto;
+}
+@media(min-width: 768px){
+    .kanak_main_homepage #kanak_11_client_cust .owl-carousel{
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-bottom: 22px;
+    }
+    .kanak_main_homepage #kanak_11_client_cust .our-partner img{
+        width: 192px;
+    }
+}
+.kanak_main_homepage #wrap a.erpnext_banner_btn_home{
+    color: black !important;
+    background: white;
+    padding: 13px 41px;
+    font-size: 21px;
+    letter-spacing: 3px;
+    border-radius: 11px;
+    font-weight: 400;
+    text-decoration: none;
 }

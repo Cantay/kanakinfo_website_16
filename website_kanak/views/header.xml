@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
+    <template id="layout_apps" inherit_id="website.template_header_default" priority="100">
+       <xpath expr="//div[@id='top_menu_collapse']//t[@t-as='submenu']" position="before">
+          <li class="nav-item d-lg-none">
+             <a class="btn btn-danger h2 text-white mt16" href="/apps"><i class="fa fa-check-square-o me-1"></i> Apps</a>
+          </li>
+       </xpath>
+    </template>
     <template id="custom_header" inherit_id="web.frontend_layout" priority="15">
         <xpath expr="//div[@id='wrapwrap']/header/img" position="before">
             <div class="wraper_header_top d-none d-lg-block">
@@ -9,6 +16,7 @@
                         <div class="header_top_item">
                            <div class="header-data-social">
                               <ul class="social">
+                                 <li class="facebook"><a href="skype:kanakinfosystems?chat" target="&quot;_blank&quot;"><i class="fa fa-skype"></i></a></li>
                                  <li class="facebook"><a href="https://www.facebook.com/kanakinfosystems/" target="&quot;_blank&quot;"><i class="fa fa-facebook"></i></a></li>
                                  <li class="twitter"><a href="https://twitter.com/KanakInfosys" target="&quot;_blank&quot;"><i class="fa fa-twitter"></i></a></li>
                                  <li class="linkedin"><a href="https://www.linkedin.com/company/kanak-infosystems-llp./" target="&quot;_blank&quot;"><i class="fa fa-linkedin"></i></a></li>
@@ -21,11 +29,11 @@
                         <div class="header_top_item">
                            <ul class="contact">
                               <li class="phone"><i class="fa fa-phone"></i> 
-                                <img src="/website_kanak/static/src/img/india-icon.png" alt="INDIA ICON" data-no-retina=""/> &amp;nbsp; +91 981-810-8884, +91 114-214-3250 &amp;nbsp; &amp;nbsp;</li>
-                              <li class="email"><i class="fa fa-envelope"></i> info@kanakinfosystems.com</li>
+                                <img src="/website_kanak/static/src/img/india-icon.png" alt="INDIA ICON" data-no-retina=""/> &amp;nbsp; +91 981-810-8884, 0114-214-3250 &amp;nbsp; &amp;nbsp;</li>
+                              <li class="email"><i class="fa fa-envelope"></i> sales@kanakinfosystems.com</li>
                            </ul>
                            <div class="header_main_action_buttons float-end">
-                              <a class="btn btn-one" href="/request-customization"><i class="fa fa-check-square-o"></i> Request Quote</a>
+                              <a class="btn btn-one" href="/apps"><i class="fa fa-check-square-o"></i> APPS</a>
                            </div>
                         </div>
                      </div>

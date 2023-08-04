@@ -9,7 +9,7 @@
                 <t t-set="website_meta_keywords"> odoo erp, odoo development, odoo services, odoo consulting services, erp solutions, customized software development, web development, mobile app development, crm software, it consulting, business process automation, it outsourcing services, erp consultant, mobile app development company, erp consulting company, odoo ready partner, erpnext partner, oracle netsuite partner</t>
                 <section class="s_carousel_wrapper" data-vxml="001">
                     <t t-set="uniq" t-value="datetime.datetime.now().microsecond" />
-                    <div t-attf-id="myCarousel{{uniq}}" class="s_carousel s_carousel_default carousel slide carousel-fade" data-bs-interval="1000000000">
+                    <div t-attf-id="myCarousel{{uniq}}" class="s_carousel s_carousel_default carousel slide carousel-fade" data-bs-interval="10000">
                         <ol class="carousel-indicators">
                             <li t-attf-data-bs-target="#myCarousel{{uniq}}" data-bs-slide-to="0" class="active" />
                             <li t-attf-data-bs-target="#myCarousel{{uniq}}" data-bs-slide-to="1" />
@@ -31,13 +31,14 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="carousel-item oe_img_bg o_bg_img_center bg_banner_color_home pt-5 pb-5 pt-md-6 pb-md-6" style="background-image: url('/website_kanak/static/src/img/home/home-banner2.webp');background-position:left;" data-name="Slide">
+                            <div class="carousel-item oe_img_bg o_bg_img_center pt-5 pb-5 pt-md-6 pb-md-6" style="background-image: url('/website_kanak/static/src/img/home/ERPNext-Banner.webp')" data-name="Slide">
                                 <div class="container oe_unremovable">
                                     <div class="row content">
-                                        <div class="carousel-content col-lg-6 ">
-                                            <h2 style="font-size: 32px;" class="text-white">Stay Ahead By Making Better Decisions Using NetSuite Financials</h2>
-                                            <p class="lead text-white">Transform your bussiness with world class cloud solutions using Oracle Netsuite.</p>
-                                            <p><a href="/contactus" class="btn btn-primary mb-2">Start your journey</a></p>
+                                        <div class="carousel-content col-lg-8 offset-lg-2">
+                                            <h2 class="text-white text-center display-6 fw-bold">Simplify &amp; Streamline Your Business with World's best OpenSource &amp; Erp</h2>
+                                            <p class="lead text-white text-center pt-2 pb-3">ERPNext is the world's best free and open source ERP</p>
+                                            <p class="text-center pt-0 pt-lg-3"><a href="/contactus" class="erpnext_banner_btn_home">Try Now</a></p>
+                                            <h1 class="text-center text-white display-3 fw-bold">ERPNEXT</h1>
                                         </div>
                                     </div>
                                 </div>
@@ -194,7 +195,7 @@
                                                 <p>A website is the direct representation of your business. Thus, choosing the best domain according to your business is must.</p>
                                             </div>
                                             <p class="">
-                                                <a target="_blank" href="/php-development-services">Read More...</a>
+                                                <a target="_blank" href="/contactus">Contact Us</a>
                                             </p>
                                         </div>
                                     </div>
@@ -482,13 +483,13 @@
                 </section>
                 <section class="motivate_us">
                     <div class="container">
-                        <p class="mb16 text-center motivate-head">What Motivates us to Move Forward</p>
+                        <p class="mb16 mt-0 text-center motivate-head">What Motivates us to Move Forward</p>
                         <div class="row">
-                            <div class="col-lg-6 col-md-6 col-12 order-2 order-md-1 mb32 service-desc spoiler main">
+                            <div class="col-lg-6 col-md-6 col-12 order-2 order-md-1 mb-0 service-desc spoiler main">
                                 <p class="hidden-text text-justify">We believe in client satisfaction, and it is our top priority. Our principles make us work hard and follow a path of progress every day. Today, we are one of the leading software companies in India. But we did not start from where we are today, we started from the basics and kept on improving every day. It is the continuous <a href="/testimonial">feedback of our clients</a> that encourages us to be better than we were yesterday.<br /><br />We are a <a href="/our-team">team of professionals</a> who believe in moving ahead of the pace of others. Keeping yesterday in mind, we plan our tomorrow and work accordingly in the present. Setting goals and following them is what we do. When our efforts bring success to our clients, it motivates us to do even a more efficient job in future.</p>
                                 <div class="clearfix" />
                             </div>
-                            <div class="col-lg-6 col-md-6 col-12 order-1 order-md-2 main_detail">
+                            <div class="col-lg-6 col-md-6 col-12 order-1 mt0 order-md-2 main_detail">
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-6 mb16 position-relative">
                                         <div class="main_motivate_block Our_Transparency">
@@ -500,7 +501,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-6 col-md-6 col-sm-6 col-6 mb16 position-relative ">
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-6 mb-2 position-relative ">
                                         <div class="main_motivate_block Our_Fairness">
                                             <div class="icon_main_motivate">
                                                 <div></div>
@@ -512,7 +513,7 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-lg-6 col-md-6 col-sm-6 col-6 mb16 position-relative">
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-6 mb-2 position-relative">
                                         <div class="main_motivate_block Our_Liability">
                                             <div class="icon_main_motivate">
                                                 <div></div>
@@ -522,7 +523,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-6 col-md-6 col-sm-6 col-6 mb16 position-relative">
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-6 mb-2 position-relative">
                                         <div class="main_motivate_block Our_Attention">
                                             <div class="icon_main_motivate">
                                                 <div></div>
@@ -537,7 +538,7 @@
                         </div>
                     </div>
                 </section>
-                <section id="kanak_11_0_1_002">
+                <section id="kanak_11_0_1_002" class="pb-lg-3">
                     <div class="container">
                         <p class="mt16 mb16 kanak_11_0_1_002-head">our recent <span class="orabg">work</span></p>
                     </div>
@@ -561,14 +562,40 @@
                         </t>
                     </div>
                 </section>
-                <section id="kanak_11_client_cust" class="mt16 pb48">
+                <section id="kanak_11_client_cust">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-6 col-12 our-partner">
                                 <p class="mt0 partners-head">Our <span class="red">Partners</span></p>
                                 <p class="text-center mb32">We believe in client satisfaction, and it is our top priority.</p>
                                 <div class="row">
-                                    <div class="col-sm-4 col-6">
+                                    <div class="owl-carousel">
+                                        <div class="item">
+                                            <img src="/website_kanak/static/src/img/home/partners/soludoo-partner.webp" alt="Soludoo" class="img-fluid" />
+                                        </div>
+                                        <div class="item">
+                                            <img src="/website_kanak/static/src/img/home/partners/yellowmetals-partner.webp" alt="Yellowmetals" class="img-fluid" />
+                                        </div>
+                                        <div class="item">
+                                             <img src="/website_kanak/static/src/img/home/partners/warmwinds-partner.webp" alt="Warmwinds" class="img-fluid" />
+                                        </div>
+                                        <div class="item">
+                                             <img src="/website_kanak/static/src/img/home/partners/homecredit-partner.webp" alt="Homecredit" class="img-fluid" />
+                                        </div>
+                                        <div class="item">
+                                            <img src="/website_kanak/static/src/img/home/partners/lioncode-partner.webp" alt="Lioncode partner" class="img-fluid" />
+                                        </div>
+                                        <div class="item">
+                                            <img src="/website_kanak/static/src/img/home/partners/am8ze-partner.webp" alt="Am8ze partner" class="img-fluid" />
+                                        </div>
+                                        <div class="item">
+                                            <img src="/website_kanak/static/src/img/home/partners/deenweberari-partner.webp" alt="Deenweberari" class="img-fluid" />
+                                        </div>
+                                        <div class="item">
+                                             <img src="/website_kanak/static/src/img/home/partners/limitless-partner.webp" alt="Limitless partner" class="img-fluid" />
+                                        </div>
+                                    </div>
+                                    <!-- <div class="col-sm-4 col-6">
                                         <img src="/website_kanak/static/src/img/home/partners/soludoo-partner.webp" alt="Soludoo" class="img-fluid" />
                                     </div>
                                     <div class="col-sm-4 col-6">
@@ -592,7 +619,7 @@
                                     </div>
                                     <div class="col-sm-4 col-6 mob_motivate">
                                         <img src="/website_kanak/static/src/img/home/partners/limitless-partner.webp" alt="Limitless partner" class="img-fluid" />
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                             <div class="col-md-6 col-12 client-says">
@@ -844,7 +871,7 @@
                     <div class="container">
                         <p class="mt32 mb32 creative-head">Creative <span class="red">Blogs</span></p>
                         <div class="row">
-                            <t t-foreach="website.latest_blog_posts()[:2]" t-as="post">
+                            <t t-foreach="website.latest_blog_posts()[:3]" t-as="post">
                                 <div class="col-md-4 col-xs-12 mb16">
                                     <img t-att-src="'/website/image/blog.post/%s/banner_medium' % (post.id)" t-att-alt="post.name" t-att-title="post.name" class="blog-feature img-fluid w-100" />
                                     <div class="hblog_003">
@@ -868,36 +895,6 @@
                                     </div>
                                 </div>
                             </t>
-                            <div class="col-md-4 col-xs-12">
-                                <div class="box-post">
-                                    <ul class="latest-post">
-                                        <t t-foreach="website.latest_blog_posts()[2:5]" t-as="post">
-                                            <li>
-                                                <div class="dflexlist">
-                                                    <div class="post-image">
-                                                        <a t-att-href="post.website_url">
-                                                            <img t-att-src="'/website/image/blog.post/%s/banner_thumbnail' % (post.id)" t-att-alt="post.name" t-att-title="post.name" class="blog-feature img-fluid" />
-                                                        </a>
-                                                    </div>
-                                                    <div class="post-item-text">
-                                                        <p class="author" t-esc="post.author_id.sudo().name" />
-                                                        <p class="post-item-text-h4 mt0 mb0">
-                                                            <a t-att-href="post.website_url" t-att-title="post.name"><span t-field="post.name" /></a>
-                                                        </p>
-                                                        <div class="post_teaser">
-                                                            <p t-field="post.teaser" />
-                                                        </div>
-                                                        <div class="v_draw_line" t-if="not post_last" />
-                                                    </div>
-                                                </div>
-                                            </li>
-                                        </t>
-                                    </ul>
-                                </div>
-                                <div class="text-right view_all mt16 mb32">
-                                    <a class="btn btn-default" href="/blog">View All</a>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </section>

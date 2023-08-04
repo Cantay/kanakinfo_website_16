@@ -11,6 +11,8 @@ from odoo.addons.website_sale.controllers.main import WebsiteSale
 from odoo.exceptions import UserError, AccessError, MissingError
 from odoo.http import content_disposition
 from odoo.addons.portal.controllers import portal
+from werkzeug import urls
+
 AVALABLE_VERSION = ['6.0', '7.0', '8.0', '9.0', '10.0', '11.0', '12.0', '13.0', '14.0', '15.0', '16.0', '17.0', '18.0', '19.0']
 _logger = logging.getLogger(__name__)
 
@@ -241,6 +243,10 @@ class KanakApp(WebsiteSale):
                         "technical_name": modulename,
                         "version": version,
                     }
+                    if not request.env.user._is_public():
+                        payload.update({
+                            "customer_name": request.env.user.partner_id.name
+                        })
                     response = requests.request("GET", url, headers=headers, data=payload)
                     return request.make_response(
                         response.content,
@@ -285,6 +291,9 @@ class CustomerPortal(portal.CustomerPortal):
                     payload = {
                         "technical_name": product_id.technical_name,
                         "version": product_id.version,
+                        "customer_name": order_sudo.partner_id.name,
+                        "order_number": order_sudo.name,
+                        "order_url": urls.url_join(order_sudo.get_base_url(), order_sudo.get_portal_url())
                     }
                     response = requests.request("GET", url, headers=headers, data=payload)
                     return request.make_response(

@@ -33,7 +33,7 @@ class website(models.Model):
 
 
     def latest_blog_posts(self):
-        latest_posts = self.env['blog.post'].sudo().search([('website_published', '=', True)], limit=6, order="id desc")
+        latest_posts = self.env['blog.post'].sudo().search([('website_published', '=', True)], limit=6, order="post_date desc")
         return latest_posts
 
     def update_shop_menu_sequence(self):

@@ -195,7 +195,8 @@ odoo.define('website_kanak.script', function(require) {
         items: 1,
         loop: true,
         margin: 5,
-        nav: true,
+        nav: false,
+        dots:false,
         autoplay: true,
         autoplayTimeout: 3000,
         responsive: {
@@ -212,8 +213,8 @@ odoo.define('website_kanak.script', function(require) {
         }
     });
 
-    $(".why-frappe-health .owl-carousel .owl-prev").html('');
-    $(".why-frappe-health .owl-carousel .owl-next").html('');
+    // $(".why-frappe-health .owl-carousel .owl-nav").html('');
+    // $(".why-frappe-health .owl-carousel .owl-dots").html('');
 
 
 
@@ -556,6 +557,8 @@ odoo.define('website_kanak.script', function(require) {
         loop:true,
         margin:10,
         nav:true,
+        autoplay: true,
+        autoplayTimeout: 2000,
         responsive:{
             0:{
                 items:1
@@ -569,6 +572,9 @@ odoo.define('website_kanak.script', function(require) {
         },
         navText : ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
     });
+
+    $("#main-symbol-all .owl-carousel .owl-nav").html('');
+
     function initOwlCarousel() {
         $('#kanak_11_client_cust .owl-carousel').owlCarousel({
             loop:true,

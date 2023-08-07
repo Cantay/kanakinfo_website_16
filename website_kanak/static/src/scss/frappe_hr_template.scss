@@ -1,5 +1,14 @@
-
 .kanak_frappe_hr {
+
+    main {
+        a.btn {
+            color: $color_3 !important;
+        }
+
+        a {
+            color: #0d6efd !important;
+        }
+    }
 
     .text-justify {
         text-align: justify;
@@ -62,7 +71,7 @@
         background: #5575BB;
 
         .hr-feature-box {
-            height: 380px;
+            height: 400px;
             color: $color_25;
             background-color: $color_3;
             border-radius: 5px;
@@ -233,7 +242,7 @@
                     background-position: center;
                 }
             }
-            
+
         }
     }
 
@@ -261,11 +270,13 @@
         p {
             text-align: justify;
         }
-        p.choose-head{
+
+        p.choose-head {
             font-size: 20px;
             font-weight: bold;
             color: #4B88D2;
         }
+
         .book-demo {
             text-align: center;
 
@@ -630,6 +641,7 @@
                         background-position: center;
                     }
                 }
+
                 .owl-dots {
                     display: none;
                 }

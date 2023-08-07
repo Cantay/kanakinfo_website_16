@@ -1,6 +1,17 @@
 
 .kanak_erpnext {
 
+    main {
+        a.btn {
+            color: $color_3 !important;
+        }
+
+        a {
+            color: #0d6efd !important;
+        }
+    }
+
+    
     .text-justify {
         text-align: justify;
     }

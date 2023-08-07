@@ -1,5 +1,15 @@
 .kanak_frappe_book {
 
+    main {
+        a.btn {
+            color: $color_3 !important;
+        }
+
+        a {
+            color: #0d6efd !important;
+        }
+    }
+
     .para-1 {
         font-size: 15px;
         font-size: 17px;
@@ -279,7 +289,7 @@
         padding: 20pt 40pt;
 
         .why-frappe-detail {
-            padding: 0 40pt;
+            padding: 0 20pt;
         }
     }
 

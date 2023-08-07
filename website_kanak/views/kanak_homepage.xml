@@ -16,7 +16,7 @@
                             <li t-attf-data-bs-target="#myCarousel{{uniq}}" data-bs-slide-to="2" />
                         </ol>
                         <div class="carousel-inner">
-                            <div class="carousel-item active oe_img_bg o_bg_img_center bg_banner_color_home1 pt-5 pb-5 pt-md-6 pb-md-6" style="background-image: url('/website_kanak/static/src/img/home/home-banner1.webp');background-position:left;" data-name="Slide">
+                            <div class="carousel-item active oe_img_bg o_bg_img_center bg_banner_color_home1 pt-5 pb-5 pt-md-6 pb-md-6" style="background-image: url('/website_kanak/static/src/img/home/home-banner1.webp');background-position:left;" data-name="Slide" >
                                 <div class="container oe_unremovable">
                                     <div class="row content">
                                         <div class="carousel-content col-lg-6">

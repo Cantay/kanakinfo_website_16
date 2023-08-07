@@ -14,7 +14,7 @@
               <div class="col-lg-6 main-erp">
                 <p class="main-erp-head">ERP <span class="red">Solutions</span></p>
                 <p>Ditch the Multiple Sheets, Software and Apps, Automate your Business with Our ERP Solutions. All your Business Workflows in one Database!</p>
-                <a href="/contact-us" type="button" class="btn btn-danger btn-erp-appointment" style="color:white !important">Book an Appointment</a>
+                <a href="/contactus" type="button" class="btn btn-danger btn-erp-appointment" style="color:white !important">Book an Appointment</a>
               </div>
               <div class="col-lg-6 mob">
                 <img src="/website_kanak/static/src/img/erp_solution/erp-solution-bg.svg" class="img-responsive center-block" style="height:400px"/>
@@ -46,7 +46,7 @@
                 <h1>Enterprise Resource Planning (ERP) Business Solutions</h1>
                 <p class="magento-block1">“Explore Our ERP Business Solutions for Small to Big Sized Business”</p>
                 <p class="for-deve-middletext1"> Kanak InfoSystems is one of the leading ERP solution provider company; a team of highly qualified and experienced professionals who delivers effective business solutions. We are providing <a href="/blog/erp-benefits-for-manufacturing-industry">ERP solutions to all manufactures</a>
-, Traders, Hotel Dealers, Transporters, Real Estate Companies, Software Companies and many more big sectors. We are also offering <a href="/contact-us">ERP consulting services</a>
+, Traders, Hotel Dealers, Transporters, Real Estate Companies, Software Companies and many more big sectors. We are also offering <a href="/contactus">ERP consulting services</a>
  by our experts of this domain.
                 </p>
                 <p class="for-deve-middletext2"> It is very difficult to choose which is the best software amongst all available <a href="/blog/odoo-review">open ERP software</a>
@@ -191,7 +191,7 @@
             <div class="row">
               <div class="col-md-12 process-img-hire for-spacing-all">
                 <p class="hire-contactus mt16 mb16">
-                  <a target="_blank" href="/contact-us"> Contact US </a>
+                  <a target="_blank" href="/contactus"> Contact US </a>
                 </p>
               </div>
             </div>

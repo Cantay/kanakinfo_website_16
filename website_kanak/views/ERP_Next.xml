@@ -13,7 +13,7 @@
                             <div>
                                 <p class="text-white" style="font-size:2.5rem;font-weight:700;">ERPNext</p>
                                 <p class="text-white text-justify">Boost your organization’s productivity by seamlessly managing your business resources and processes with our comprehensive &amp; trustworthy integrated ERP suite- ERPNEXT </p>
-                                <a type="button" class="btn btn-default about-geo free-trial" href="/contactus"><span>Book a Free Demo</span></a>
+                                <a type="button" class="btn btn-primary" href="/contactus"><span>Book a Free Demo</span></a>
                             </div>
                         </div>
                         <div class="col-md-6 d-sm-block d-none">
@@ -29,9 +29,7 @@
                             <h1 class="erp_heading">ERPNext : A Comprehensive &amp; Customizable ERP Solution</h1>
                             <p class="text-justify">ERPNext provides various business modules, including CRM, sales, manufacturing, project
                                 management, purchases, and human resource management. It also has industry-specific modules
-                                that address the education, <a href="/blog/erpnext-for-healthcare-industry">healthcare</a>
-                                , <a href="/blog/erp-implementation-for-nonprofit-organizations">nonprofit</a>
-                                , and agriculture sectors and the primary module
+                                that address the education, <a href="/blog/erpnext-for-healthcare-industry">healthcare</a>, <a href="/blog/erp-implementation-for-nonprofit-organizations">nonprofit</a>, and agriculture sectors and the primary module
                                 that every organization needs.</p>
                             <p class="text-justify">Built on the MariaDB database system and a server-side framework based on Python, ERPNext is an
                                 integrated <a href="/blog/what-is-erp">Enterprise Resource Planning (ERP)</a>

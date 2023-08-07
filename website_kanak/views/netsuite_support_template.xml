@@ -140,7 +140,7 @@
                         </div>
                     </div><br/>
                 </section>
-                <section>
+                <section class="pt32 pb32">
                     <div class="container">
                         <div id="functional_support" class="row">
                             <div class="col-lg-12">
@@ -191,7 +191,7 @@
                         </div>
                     </div>
                 </section>                
-                <section>
+                <section class="pt32 pb32">
                     <div class="container">
                         <div id="key_feature" class="row">                            
                             <div class="col-lg-6" >
@@ -222,7 +222,7 @@
                         </div>
                     </div>
                 </section>
-                <section>
+                <section class="pt32 pb32">
                     <div class="container">
                         <div id="hire_expert" class="row">
                             <!-- <div  class="col-lg-12"> -->

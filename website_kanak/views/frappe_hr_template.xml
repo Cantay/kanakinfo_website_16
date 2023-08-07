@@ -13,7 +13,7 @@
                             <p class="main-head-banner text-center" style="text-shadow: 1px 2px 7px black;">Frappe HR Services</p>
                             <p class="mt16 text-center" style="font-size:22px;font-weight:900;color:#fff;text-shadow: 1px 2px 7px black;">A HR and Payroll Software- Crafted as per Your Needs</p>
                             <div class="text-center pt32">
-                                <a type="button" class="btn btn-light btn-lg" href="/contactus" style="padding: 10pt 20pt !important;border-radius:10px;font-weight:900;font-size:20px">Book a free Trial !</a>
+                                <a type="button" class="btn btn-primary btn-lg" href="/contactus" style="padding: 10pt 20pt !important;border-radius:10px;font-weight:900;font-size:20px">Book a free Trial !</a>
                             </div>
                         </div>
                         <div class="col-md-6 banner-mob">
@@ -30,7 +30,7 @@
                             HR division. Managing human resources is one of the most crucial aspects of any firm. Effective
                             hiring procedures, good staff management, and a successful HR process is necessary to build
                             an effective and efficient workforce. The <a href="/blog/erpnext-everything-you-need-to-know-about-it">ERPNext</a> Human Resource Module is comprehensive.
-                            To <a href="/contact-us">assist HR organizations in managing</a> employee lifecycles, leaves, attendance, recruitment,
+                            To <a href="/contactus">assist HR organizations in managing</a> employee lifecycles, leaves, attendance, recruitment,
                             and training within one module, it offers a variety of settings, documents, and resources.</p>
                         <p class="text-justify">It keeps up with a comprehensive personnel database that includes contact information, salary
                             information, attendance, performance reviews, leaves of absence, and appraisal records.

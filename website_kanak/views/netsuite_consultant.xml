@@ -178,9 +178,9 @@
                     <div class="container">
                         <div class="row">
                             <div id="netsuite_support" style=" margin: auto;">
-                                <div class="col-12" style="padding: 20pt 0;">
+                                <div class="col-12">
                                     <div class="row">
-                                        <div class="col-md-6" style="padding-left: 0; padding-top: 30pt;">
+                                        <div class="col-md-6">
                                             <h2>Support for NetSuite Users</h2>
                                             <p class="text-justify" style="margin: 20pt 0;">DEDICATED,
                                                 CERTIFIED NETSUITE CONSULTANTS TO ASSIST YOUR TEAM.
@@ -209,7 +209,7 @@
                 <section style="background-image: url('/website_kanak/static/src/img/netsuite_consultant/Map_bg.webp');">
                     <div class="container">
                         <div class="row">
-                            <div id="professional_services" style="margin: auto; padding: 40pt 0;">
+                            <div id="professional_services" style="margin: auto;">
                                 <h3 class="professional-head">Professional Services</h3>
                                 <p class="text-justify">We flip our customers wish-listing tasks
                                     into reality. Our deep industry expertise and experience enables
@@ -273,13 +273,13 @@
                     </div>
                 </section>
                 <section style="background: #f28e71;">
-                    <div class="container">
+                    <div class="container-fluid">
                         <div class="row">
                             <div class="col-lg-6">
                                 <img alt="" src="/website_kanak/static/src/img/netsuite_consultant/NetSuite_erp_consulting.webp" class="img-fluid" style="height:100%" />
                             </div>
-                            <div class="col-lg-6 text-white pt16 pb16">
-                                <h3 class="user-head">NetSuite ERP Consulting</h3>
+                            <div class="col-lg-6 text-white pt16 pb16" style="padding-right:32pt;">
+                                <h3 class="user-head">NetSuite ERP Consulting</h3><br/>
                                 <p class="text-justify">Enterprises folks who are
                                     looking for to optimize their current gadget or
                                     NetSuite consulting, <a href="/">Kanak
@@ -372,7 +372,7 @@
                         </div>
                     </div>
                 </section>
-                <section class="pb16">
+                <section class="pt32 pb16">
                     <div class="container">
                         <div id="multi_sector">
                             <div class="row">

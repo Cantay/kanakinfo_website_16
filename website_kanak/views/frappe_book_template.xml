@@ -590,25 +590,25 @@
                                 <div class="why-frappe-part col-md-10 col-sm-10 col-12 col-lg-12">
                                     <p class="text-center">These days, it&#39;s hard to find desktop software that works offline. Especially so for offline <a href="/blog/freshbooks-vs-frappebooks-desktop-accounting-software-comparison">accounting software</a>. For this reason, we require Frappe Books.</p>
                                     <div class="row why-frappe-detail">
-                                        <div class="col-md-6 col-6">
+                                        <div class="col-md-6">
                                             <div class="why-frappe-implement">
                                                 <img src="/website_kanak/static/src/img/frappe_book/why-icon-one.svg" class="img-responsive center-block" />
                                                 <p>Local App, Local Database</p>
                                             </div>
                                         </div>
-                                        <div class="col-md-6 col-6">
+                                        <div class="col-md-6">
                                             <div class="why-frappe-implement">
                                                 <img src="/website_kanak/static/src/img/frappe_book/why-icon-two.svg" class="img-responsive center-block" />
                                                 <p>Simple and Clean User Interface</p>
                                             </div>
                                         </div>
-                                        <div class="col-md-6 col-6">
+                                        <div class="col-md-6">
                                             <div class="why-frappe-implement">
                                                 <img src="/website_kanak/static/src/img/frappe_book/why-icon-three.svg" class="img-responsive center-block" />
                                                 <p>Insightful Financial Reports</p>
                                             </div>
                                         </div>
-                                        <div class="col-md-6 col-6">
+                                        <div class="col-md-6">
                                             <div class="why-frappe-implement">
                                                 <img src="/website_kanak/static/src/img/frappe_book/why-icon-four.svg" class="img-responsive center-block" />
                                                 <p>Free and Open Source</p>

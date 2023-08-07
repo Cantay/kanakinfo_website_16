@@ -1,9 +1,21 @@
 .kanak_netsuit_consultant {
 
+    main {
+        a.btn {
+            color: $color_3 !important;
+        }
+
+        a {
+            color: #0d6efd !important;
+        }
+    }
+
+
     .workpage-home-work {
         .fa-chevron-right {
             font-size: 12px;
         }
+
         background-color: $background-color_18;
         padding-top: 8px;
         padding-bottom: 8px;
@@ -20,7 +32,8 @@
             }
         }
 
-        padding: 40pt 0 40pt 0;
+        padding-top: 40pt;
+        padding-bottom: 40pt;
     }
 
     #assessment {
@@ -51,19 +64,23 @@
     }
 
     #netsuite_support {
-        ul li {
-            margin-left: -40px;
-            padding: 10px 0 10px 30px;
-            list-style: none;
-            background-image: url(/website_kanak/static/src/img/netsuite_consultant/arrow.svg);
-            background-size: 12px;
-            background-repeat: no-repeat;
-            background-position: left center;
-            font-size: 17px;
+        ul {
+            li {
+                margin-left: -40px;
+                padding: 10px 0 10px 30px;
+                list-style: none;
+                background-image: url(/website_kanak/static/src/img/netsuite_consultant/arrow.svg);
+                background-size: 12px;
+                background-repeat: no-repeat;
+                background-position: left center;
+                font-size: 17px;
+            }
+
         }
 
+
         div {
-            padding: 0 20pt;
+            // padding: 0 20pt;
 
             .support-head {
                 font-weight: revert;
@@ -328,13 +345,6 @@
             margin-bottom: 10pt;
         }
 
-        #netsuite_support div {
-            padding: 0 !important;
-
-            div {
-                padding: 0 !important;
-            }
-        }
 
         #assessment {
             .well img {

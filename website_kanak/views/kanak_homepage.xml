@@ -9,7 +9,7 @@
                 <t t-set="website_meta_keywords"> odoo erp, odoo development, odoo services, odoo consulting services, erp solutions, customized software development, web development, mobile app development, crm software, it consulting, business process automation, it outsourcing services, erp consultant, mobile app development company, erp consulting company, odoo ready partner, erpnext partner, oracle netsuite partner</t>
                 <section class="s_carousel_wrapper" data-vxml="001">
                     <t t-set="uniq" t-value="datetime.datetime.now().microsecond" />
-                    <div t-attf-id="myCarousel{{uniq}}" class="s_carousel s_carousel_default carousel slide carousel-fade" data-bs-interval="5000">
+                    <div t-attf-id="myCarousel{{uniq}}" class="s_carousel s_carousel_default carousel slide carousel-fade" data-bs-interval="4000">
                         <ol class="carousel-indicators">
                             <li t-attf-data-bs-target="#myCarousel{{uniq}}" data-bs-slide-to="0" class="active" />
                             <li t-attf-data-bs-target="#myCarousel{{uniq}}" data-bs-slide-to="1" />
@@ -73,7 +73,7 @@
                             <p class="text-uppercase head-103 mt16">Be Ahead of your Competitors with <span class="red">Kanak Infosystems LLP.</span></p>
                             <p class="text-justify">We are a group of hardworking and skilled people. <a href="/"><span>Kanak Infosystems LLP.</span></a> is one of the leading software and IT companies in India. We provide top-notch services such as <span><a href="/odoo-development-services">Odoo Development</a>, <a href="/netsuite-services">NetSuite</a>, <a href="/erpnext-services">ERPNext</a>, <a href="/erp-solutions">ERP Solutions</a>, <a href="/php-development-services">PHP</a> &amp; <a href="/javascript-development-services">Java Script </a>Development, <a href="/android-apps-development-services">Android</a> &amp; <a href="/ios-apps-development-services">IOS</a> Apps, <a href="/website-designing-services">Web Designing</a></span>, and <span><a href="/seo-services">SEO</a> &amp; <a href="/smo-services">SMO</a> Services</span>. Customer satisfaction is our top priority which makes us a reliable IT solutions company in India.</p>
                             <div class="text-center mb16">
-                                <a href="/contact-us" class="btn btn-primary rounded-5 mx-auto">Book a Consultation Call</a>
+                                <a href="/contactus" class="btn btn-primary rounded-5 mx-auto">Book a Consultation Call</a>
                             </div>
                         </div>
                     </div>
@@ -195,7 +195,7 @@
                                                 <p>A website is the direct representation of your business. Thus, choosing the best domain according to your business is must.</p>
                                             </div>
                                             <p class="">
-                                                <a target="_blank" href="/contactus">Contact Us</a>
+                                                <a target="_blank" href="/contactus">Read More...</a>
                                             </p>
                                         </div>
                                     </div>
@@ -600,7 +600,7 @@
                             <div class="col-md-6 col-12 client-says">
                                 <p class="mt0 client-says-head">Clients' <span class="red">Says</span></p>
                                 <img class="talk mx-auto mt16" src="/website_kanak/static/src/img/home/talk-icon.webp" alt="clients say" />
-                                <div id="myCarousel025" class="carousel slide s_banner" data-bs-interval="5000">
+                                <div id="myCarousel025" class="carousel slide s_banner" data-bs-interval="4000">
                                     <ol class="carousel-indicators">
                                         <li data-bs-target="#myCarousel025" data-bs-slide-to="0" class="active" />
                                         <li data-bs-target="#myCarousel025" data-bs-slide-to="1" />

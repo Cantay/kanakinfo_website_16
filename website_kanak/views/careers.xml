@@ -128,28 +128,28 @@
                         <div class="row">
                             <div class="col-lg-3 pt16">
                                 <div class="gradi-border">
-                                    <img src="/website_kanak/static/src/img/careers/Circle1.webp" style="height: 30px;" alt=""/>
+                                    <img src="/website_kanak/static/src/img/careers/Circle1.webp" style="height: 30px;" alt="" class="img img-fluid"/>
                                     <p class="gradi-head">Personal Interview</p>
                                     <p>An applicant would undergo an initial screening where they would be given questions about their leadership, adaptability, and other.</p>
                                 </div>
                             </div>
                             <div class="col-lg-3 pt16">
                                 <div class="gradi-border">
-                                    <img src="/website_kanak/static/src/img/careers/Circle2.webp" style="height: 30px;" alt=""/>
+                                    <img src="/website_kanak/static/src/img/careers/Circle2.webp" style="height: 30px;" alt="" class="img img-fluid"/>
                                     <p class="gradi-head">Technical Round</p>
                                     <p>The phase of the interview requires you to run a program in practice and display the results.</p>
                                 </div>
                             </div>
                             <div class="col-lg-3 pt16">
                                 <div class="gradi-border">
-                                    <img src="/website_kanak/static/src/img/careers/Circle3.webp" style="height: 30px;" alt=""/>
+                                    <img src="/website_kanak/static/src/img/careers/Circle3.webp" style="height: 30px;" alt="" class="img img-fluid"/>
                                     <p class="gradi-head">HR Round</p>
                                     <p>In this phase, the results of the skills test and in-person interview should be communicated to you. You should anticipate receiving an offer (or rejection) as soon as possible after receiving comments.</p>
                                 </div>
                             </div>
                             <div class="col-lg-3 pt16">
                                 <div class="gradi-border">
-                                    <img src="/website_kanak/static/src/img/careers/Circle4.webp" style="height: 30px;" alt=""/>
+                                    <img src="/website_kanak/static/src/img/careers/Circle4.webp" style="height: 30px;" alt="" class="img img-fluid"/>
                                     <p class="gradi-head">Higher Management</p>
                                     <p>A brief final interview with the hiring manager can be scheduled for you after all of the aforementioned processes have been finished.</p>
                                 </div>

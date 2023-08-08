@@ -1,2 +1,4 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
 access_our_recent_work,access_our_recent_work,model_our_recent_work,,1,1,1,0
+access_vacant_location_id,access_vacant_location_name,model_vacant_location,,1,1,1,0
+access_job_skills_require_id,access_job_skills_require_name,model_job_skills_require,,1,1,1,0

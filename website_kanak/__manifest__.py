@@ -11,6 +11,8 @@
         'base',
         'website',
         'mass_mailing',
+        'hr',
+        'hr_recruitment',
         'website_hr_recruitment',
         'website_crm',
         'kanak_apps',
@@ -22,7 +24,7 @@
         'views/kanak_backend_view.xml',
         'views/kanak_homepage.xml',
         'views/footer.xml',
-        # 'views/careers_added_models.xml',
+        'views/careers_added_models.xml',
 
         'views/aboutus.xml',
         'views/privacy_policy.xml',

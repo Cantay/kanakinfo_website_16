@@ -2,13 +2,6 @@
 
 .kanak_geomarking {
 
-    @media (max-width: 768px) {
-
-        .modal-content {
-            height: auto !important;
-        }
-    }
-
     .geo-mob-banner {
         display: none;
     }
@@ -646,6 +639,34 @@
                         padding: 5px;
                     }
                 }
+            }
+        }
+    }
+
+    @media (max-width: 768px) {
+
+        .modal-content {
+            height: auto !important;
+        }
+    }
+
+    @media (max-width: 425px) {
+
+        .modal-content {
+            height: auto !important;
+        }
+
+
+        .download-pdf {
+            padding: 30pt 50pt;
+        }
+
+        .geomarking-employee {
+            #c1{
+                display: none;
+            }
+            #c2{
+                display: none;
             }
         }
     }

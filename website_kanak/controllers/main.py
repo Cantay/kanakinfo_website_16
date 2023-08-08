@@ -77,7 +77,7 @@ class WebsiteKanak(http.Controller):
         return request.render('website_kanak.frappe_hr_page', {})
 
 
-    @http.route('/odoo_Training', auth='public', website=True)
+    @http.route('/odoo-training', auth='public', website=True)
     def odoo_training(self, **kw):
         return http.request.render('website_kanak.odoo_training_form_view',{})
 

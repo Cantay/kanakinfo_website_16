@@ -22,6 +22,7 @@
         'views/kanak_backend_view.xml',
         'views/kanak_homepage.xml',
         'views/footer.xml',
+        # 'views/careers_added_models.xml',
 
         'views/aboutus.xml',
         'views/privacy_policy.xml',
@@ -29,6 +30,7 @@
         'views/our_team.xml',
         'views/engagement_model.xml',
         'views/careers.xml',
+
         
         'views/odoo_integration.xml',
         'views/odoo_development.xml',

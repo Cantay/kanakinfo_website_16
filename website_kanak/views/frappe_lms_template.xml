@@ -11,10 +11,10 @@
                     <section style="background: linear-gradient(99.13deg, rgba(206, 232, 245, 0.42) 0%, rgba(154, 198, 241, 0) 100%);">
                         <div class="container pt32">
                             <p class="text-center" style="font-size: 34px; color: #488EE8; font-weight: bolder;">Frappe LMS Service</p>
-                            <img src="/website_kanak/static/src/img/frappe_lms/LMS-bg1.webp" class="img-fluid mx-auto" style="display: block; margin: 0 auto;z-index:1000;position:relative;" />
+                            <img src="/website_kanak/static/src/img/frappe_lms/LMS-bg1.webp" class="img-fluid mx-auto" style="display: block; margin: 0 auto;z-index:10000;position:relative;" />
                         </div>
                     </section>
-                    <section style="position:relative;">
+                    <section style="position:relative;z-index:-10000;">
                         <div class="container">
                             <div class="summary-lms row">
                                 <div class="col-md-12 col-lg-8 spoiler" >
@@ -481,17 +481,17 @@
                     <div class="container">
                         <div class="faq_border mb32" style="border: 1px solid #cec7c7;">
                             <div class="row">
-                                <div class="col-lg-3 col-md-3 col-sm-3 col-3">
+                                <div class="col-lg-3 col-md-3 col-sm-3 d-none d-lg-block d-md-block d-sm-block">
                                     <div class="frequently_border_1 float-end" />
                                 </div>
-                                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-12">
                                     <p class="fw700 text-center faq-main-head">
                                         <font style="font-size: 30px;text-transform: uppercase;">
                                             <span class="dark_blue">frequently asked questions</span>
                                         </font>
                                     </p>
                                 </div>
-                                <div class="col-lg-3 col-md-3 col-sm-3 col-3">
+                                <div class="col-lg-3 col-md-3 col-sm-3 d-none d-lg-block d-md-block d-sm-block">
                                     <div class="frequently_border_2" />
                                 </div>
                             </div>

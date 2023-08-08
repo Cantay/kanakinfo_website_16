@@ -15,7 +15,8 @@
         background: linear-gradient(105.47deg, rgba(56, 137, 172, 0.47) 0.37%, rgba(67, 192, 246, 0) 90.02%);
         background-image: url(/website_kanak/static/src/img/odoo_shoppe/banner.png);
         height: 500px;
-        background-size: 100% 100%;
+        background-size: cover;
+        background-position: center;
         position: relative;
     }
 
@@ -541,24 +542,24 @@
                 width: 93px;
                 height: 93px;
                 background: transparent;
-                background: url(/website_kanak/static/src/img/odoo_shoppe/Double_arrow_2.svg) !important;
+                background: url(/website_kanak/static/src/img/odoo_shoppe/Double_arrow_1.svg) !important;
                 background-size: 100% !important;
                 background-repeat: no-repeat;
                 top: inherit !important;
                 bottom: 52px;
-                left: 76%;
+                left: -200px;
             }
 
             .owl-next {
                 width: 93px;
                 height: 93px;
                 background: transparent;
-                background: url(/website_kanak/static/src/img/odoo_shoppe/Double_arrow_1.svg) !important;
+                background: url(/website_kanak/static/src/img/odoo_shoppe/Double_arrow_2.svg) !important;
                 background-size: 100% !important;
                 background-repeat: no-repeat;
                 top: inherit !important;
                 bottom: 52px;
-                right: 86px;
+                right: -50px;
             }
 
             .owl-prev.disabled {
@@ -669,6 +670,11 @@
     }
 
     @media (max-width: 576px) {
+
+        .shoppe_header_banner {
+            background-size: auto;
+        }
+        
         .s_block_4_img_1 {
             width: 60%;
         }
@@ -858,7 +864,7 @@
                 bottom: 0%;
                 .owl-prev {
                     bottom: -90px !important;
-                    left: 50% !important;
+                    left: 20% !important;
                     display: inline-block !important;
                     width: 70px;
                     height: 70px;
@@ -866,7 +872,7 @@
 
                 .owl-next {
                     bottom: -90px !important;
-                    right: 50% !important;
+                    right: 20% !important;
                     display: inline-block !important;
                     width: 70px;
                     height: 70px;
@@ -899,20 +905,35 @@
             }
         }
 
-        .s_cover_1 {
+        // .s_cover_1 {
+        //     padding-bottom: 32px;
+
+        //     .s_header_text {
+        //         p {
+        //             br {
+        //                 display: none !important;
+        //             }
+
+        //             font-size: 22px;
+        //             line-height: 22px;
+        //         }
+        //     }
+        // }
+
+        .s_header_text {
+            padding-top: 32px;
             padding-bottom: 32px;
 
-            .s_header_text {
-                p {
-                    br {
-                        display: none !important;
-                    }
-
-                    font-size: 22px;
-                    line-height: 22px;
-                }
+            .s_banner_head {
+                font-weight: 700;
+                font-size: 64px;
             }
+            p{
+                font-size: 20px;
+            }
+
         }
+        
 
         .s_block_2 {
             .s_block_2_1 {
@@ -991,7 +1012,6 @@
                 display: grid;
 
                 .col-md-7 {
-                    order: 2;
                     padding-top: 0px;
                 }
 
@@ -999,9 +1019,6 @@
                     text-align: center;
                 }
 
-                .col-md-5 {
-                    order: 1;
-                }
             }
         }
 
@@ -1020,12 +1037,12 @@
             .owl-nav {
                 .owl-prev {
                     bottom: 0px;
-                    left: 65%;
+                    left: -200px;
                 }
 
                 .owl-next {
                     bottom: 0px;
-                    right: 130px;
+                    right: -50px;
                 }
             }
         }

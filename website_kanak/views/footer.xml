@@ -7,7 +7,7 @@
                 <section class="s_text_block" data-snippet="s_text_block" data-name="Text">
                     <div class="container">
                         <div class="row">
-                            <div class="col-6 col-lg-3 order-2 order-md-1 pt24 pb-0 pb-md-3">
+                            <div class="col-5 col-lg-3 order-2 order-md-1 pt24 pb-0 pb-md-3">
                                 <h5 class="mb-3">Our Services</h5>
                                 <ul class="list-unstyled">
                                     <li><a href="/odoo-development-services">Odoo</a></li>
@@ -25,21 +25,26 @@
                                 <h5 class="mb-3">About us</h5>
                                 <p>With the onset of 2012, Kanak Infosystems LLP has emerged as a prominent IT company providing services such as Odoo ERP, ERPNext, Oracle NetSuite, and Mobile Applications to small and medium enterprises, facilitating process transformations for their clients.</p>
                             </div>
-                            <div class="col-6 col-lg-2 offset-lg-2 order-2 order-lg-3 pt24 pb24">
+                            <div class="col-6 col-lg-2 offset-lg-2 order-2 order-lg-3 pt24 pb24 d-none d-lg-block d-md-block">
                                 <h5 class="mb-3">Quick Links</h5>
                                 <ul class="list-unstyled">
                                     <li><a href="/apps">Odoo Apps Store</a></li>
-                                    <li><a href="/our-team">Meet The Team</a></li>
                                     <li><a href="/jobs">Careers</a></li>
+                                    <li><a href="/blog">Blogs</a></li>
                                 </ul>
                             </div>
-                            <div id="connect" class="col-lg-4 offset-lg-1 order-3 pb24 d-lg-none">
+                            <div id="connect" class="col-7 col-lg-4 offset-lg-1 order-3 pb24 d-lg-none pt24">
                                 <h5 class="mb-3">Connect with us</h5>
                                 <ul class="list-unstyled">
-                                    <li><i class="fa fa-skype fa-fw me-2"></i><span><a href="skype:kanakinfosystems?chat">kanakinfosystems</a></span></li>
-                                    <li><i class="fa fa-envelope fa-fw me-2" /><span><a href="mailto:sales@kanakinfosystems.com">sales@kanakinfosystems.com</a></span></li>
-                                    <li><i class="fa fa-phone fa-fw me-2" /><span class="o_force_ltr"><a href="tel:+91 9818108884, 011-42143250">+91 9818108884, 011-42143250</a></span></li>
+                                    <li><i class="fa fa-skype fa-fw me-2 d-none"></i><span><a href="skype:kanakinfosystems?chat">kanakinfosystems</a></span></li>
+                                    <li><i class="fa fa-envelope fa-fw me-2 d-none" /><span><a href="mailto:sales@kanakinfosystems.com">sales@kanakinfosystems.com</a></span></li>
+                                    <li><i class="fa fa-phone fa-fw me-2 d-none" /><span class="o_force_ltr"><a href="tel:+91 9818108884, 011-42143250">+91 9818108884</a></span></li>
                                 </ul>
+                                
+                            </div>
+                            
+                        </div>
+                        <div class="row pb24 d-lg-none d-md-none d-sm-none">
                                 <div class="s_social_media text-start o_not_editable" data-snippet="s_social_media" data-name="Social Media" contenteditable="false">
                                     <h5 class="s_social_media_title d-none" contenteditable="true">Follow us</h5>
                                     <a href="https://www.facebook.com/kanakinfosystems/" class="s_social_media_facebook" target="_blank">
@@ -57,9 +62,9 @@
                                     <a href="https://www.youtube.com/channel/UCfS_433Zx5ui2hZ8uPY371A" class="s_social_media_youtube" target="_blank">
                                         <i class="fa fa-youtube rounded-circle shadow-sm" />
                                     </a>
+
                                 </div>
                             </div>
-                        </div>
                     </div>
                 </section>
                 <section style="background-color:#ededed" class="d-none d-md-block">
@@ -92,7 +97,7 @@
                 var options = {
                     whatsapp: "+91 9818108884", // WhatsApp number
                     call_to_action: "Message us", // Call to action
-                    position: "left", // Position may be 'right' or 'left'
+                    position: "right", // Position may be 'right' or 'left'
                 };
                 var proto = document.location.protocol,
                     host = "getbutton.io",

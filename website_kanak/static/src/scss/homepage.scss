@@ -23,6 +23,16 @@ h4 {
     text-align: justify;
 }
 
+
+div.bOaIxr {
+    display: none;
+}
+
+
+div[id*="gb-widget"] {
+    bottom: 130px !important;
+}
+
 @media(min-width: 768px){
 
     #top_menu {

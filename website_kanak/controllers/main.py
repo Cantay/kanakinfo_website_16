@@ -5,6 +5,8 @@ from odoo.http import request
 from odoo.addons.portal.controllers import portal
 from odoo.addons.website.controllers.form import WebsiteForm
 import json
+import werkzeug
+from odoo.addons.website_hr_recruitment.controllers.main import WebsiteHrRecruitment
 
 
 class WebsiteKanak(http.Controller):
@@ -260,3 +262,45 @@ class WebsiteForm(WebsiteForm):
         if model_name != 'crm.lead':
             res = super(WebsiteForm, self).website_form(model_name, **kwargs)
         return res
+
+
+
+class WebsiteHrRecruitmentInherit(WebsiteHrRecruitment):
+
+    @http.route()
+    def jobs(self, country=None, department=None, office_id=None, **kwargs):
+        res = super(WebsiteHrRecruitmentInherit, self).jobs(
+            country=country, department=department, office_id=office_id)
+        if kwargs.get('jobs'):
+            filter_job = res.qcontext.get('jobs').search(
+                [("id", "=", int(kwargs.get('jobs')))])
+            res.qcontext['jobs'] = filter_job
+        return res
+
+    @http.route('/jobs/detail/<string:url>', type='http', auth="public", website=True)
+    def jobs_detail(self, url, **kwargs):
+        if url:
+            url = str('/jobs/detail/') + str(url)
+        job = request.env['hr.job'].search([('website_url', '=', url)], limit=1)
+        if not job:
+            raise werkzeug.exceptions.NotFound()
+        return request.render("website_hr_recruitment.detail", {
+            'job': job,
+            'main_object': job,
+        })
+
+    # @http.route('/jobs/apply/<string:url>', type='http', auth="public", website=True)
+    # def jobs_apply(self, url, **kwargs):
+    #     error = {}
+    #     default = {}
+    #     job = request.env['hr.job'].search([('job_apply_website_url', '=', url)], limit=1)
+    #     if not job:
+    #         raise werkzeug.exceptions.NotFound()
+    #     if 'website_hr_recruitment_error' in request.session:
+    #         error = request.session.pop('website_hr_recruitment_error')
+    #         default = request.session.pop('website_hr_recruitment_default')
+    #     return request.render("website_hr_recruitment.apply", {
+    #         'job': job,
+    #         'error': error,
+    #         'default': default,
+    #     })

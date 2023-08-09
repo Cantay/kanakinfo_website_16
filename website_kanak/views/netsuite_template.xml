@@ -426,26 +426,26 @@
                             <div class="col-lg-4 col-md-4 col-sm-4">
                                 <div style="background: white;width: 90%;display: block;margin-bottom: 70px;" class="margin_bottom_20px">
                                     <div style="padding: 30px;">
-                                        <img style="width:8%;display: unset;margin-top: -10px;" src="/website_kanak/static/src/img/netsuite/double-check-icon.svg"><span style="margin-left: 10px;"><a href="/blog/netsuite-vs-tally" class="text-decoration-none">Accounting and Financials</a></span></img>
+                                        <img class="double-check" src="/website_kanak/static/src/img/netsuite/double-check-icon.svg"><span style="margin-left: 10px;"><a href="/blog/netsuite-vs-tally" class="text-decoration-none">Accounting and Financials</a></span></img>
                                         <br />
-                                        <img style="width:8%;display: unset;margin-top: -10px;" src="/website_kanak/static/src/img/netsuite/double-check-icon.svg"><span style="margin-left: 10px;">Order management</span></img>
+                                        <img class="double-check" src="/website_kanak/static/src/img/netsuite/double-check-icon.svg"><span style="margin-left: 10px;">Order management</span></img>
                                         <br />
-                                        <img style="width:8%;display: unset;margin-top: -10px;" src="/website_kanak/static/src/img/netsuite/double-check-icon.svg"><span style="margin-left: 10px;">Invoicing</span></img>
+                                        <img class="double-check" src="/website_kanak/static/src/img/netsuite/double-check-icon.svg"><span style="margin-left: 10px;">Invoicing</span></img>
                                         <br />
-                                        <img style="width:8%;display: unset;margin-top: -10px;" src="/website_kanak/static/src/img/netsuite/double-check-icon.svg"><span style="margin-left: 10px;">Purchasing management</span></img>
+                                        <img class="double-check" src="/website_kanak/static/src/img/netsuite/double-check-icon.svg"><span style="margin-left: 10px;">Purchasing management</span></img>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-4 col-sm-4 remove_margin_erp_box">
                                 <div class="margin_bottom_20px" style="background: white;width: 90%;">
                                     <div style="padding: 30px;">
-                                        <img style="width:8%;display: unset;margin-top: -10px;" src="/website_kanak/static/src/img/netsuite/double-check-icon.svg"><span style="margin-left: 10px;">Inventory management</span></img>
+                                        <img class="double-check" src="/website_kanak/static/src/img/netsuite/double-check-icon.svg"><span style="margin-left: 10px;">Inventory management</span></img>
                                         <br />
-                                        <img style="width:8%;display: unset;margin-top: -10px;" src="/website_kanak/static/src/img/netsuite/double-check-icon.svg"><span style="margin-left: 10px;">NetSuite multi-currency and</span><br /><span style="margin-left: 35px;">Multi-Company</span></img>
+                                        <img class="double-check" src="/website_kanak/static/src/img/netsuite/double-check-icon.svg"><span style="margin-left: 10px;">NetSuite multi-currency and</span><br /><span style="margin-left: 35px;">Multi-Company</span></img>
                                         <br />
-                                        <img style="width:8%;display: unset;margin-top: -10px;" src="/website_kanak/static/src/img/netsuite/double-check-icon.svg"><span style="margin-left: 10px;">NetSuite Billing</span></img>
+                                        <img class="double-check" src="/website_kanak/static/src/img/netsuite/double-check-icon.svg"><span style="margin-left: 10px;">NetSuite Billing</span></img>
                                         <br />
-                                        <img style="width:8%;display: unset;margin-top: -10px;" src="/website_kanak/static/src/img/netsuite/double-check-icon.svg"><span style="margin-left: 10px;"><a href="/blog/power-of-netsuite-kpis" class="text-decoration-none">NetSuite Integrations</a>
+                                        <img class="double-check" src="/website_kanak/static/src/img/netsuite/double-check-icon.svg"><span style="margin-left: 10px;"><a href="/blog/power-of-netsuite-kpis" class="text-decoration-none">NetSuite Integrations</a>
                                         </span></img>
                                     </div>
                                 </div>

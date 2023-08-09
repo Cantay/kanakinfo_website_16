@@ -4,9 +4,9 @@
         <template id="website_kanak_hr_jobs" inherit_id="website_hr_recruitment.index" name="Kanak Jobs">
             <xpath expr="//div[@id='wrap']" position="replace">
                 <t t-set="additional_title"> Job Openings | We Are Hiring | Kanak Infosystems</t>
-                <t t-set="website_meta_description">  Find Job Opportunities to give your career a boost with Kanakinfosystems. We hire for different positions like Odoo Developers, erpnext developers, React Native developers, ERP Sales Executive, ERP Functional Consultant, UI/UX designers &amp; many more..</t>
+                <t t-set="website_meta_description"> Find Job Opportunities to give your career a boost with Kanakinfosystems. We hire for different positions like Odoo Developers, erpnext developers, React Native developers, ERP Sales Executive, ERP Functional Consultant, UI/UX designers &amp; many more..</t>
                 <t t-set="website_meta_keywords"> kanak job openings, web development jobs, developers jobs, odoo developers job, erp developers job, expert developers, hiring fresher web developers, hiring react native developer, erp sales executive, erpnext developer, erp functional consultant, hiring ui/ux designer, business development executive, we are hiring, join our team</t>
-                <t t-set="pageName" t-value="'careers kanak_careers'"/>
+                <t t-set="pageName" t-value="'careers kanak_careers'" />
                 <section>
                     <div class="container">
                         <div class="row">
@@ -16,7 +16,7 @@
                 </section>
                 <section id="career-main-banner">
                     <div class="container">
-                        <img class="img-fluid mx-auto" src="/website_kanak/static/src/img/careers/main-banner.webp" alt=""/>
+                        <img class="img-fluid mx-auto" src="/website_kanak/static/src/img/careers/main-banner.webp" alt="" />
                     </div>
                 </section>
                 <section id="career-sec002" class="pt32">
@@ -67,7 +67,7 @@
                             <div class="item">
                                 <div class="our-team">
                                     <div class="team-icon">
-                                        <img src="/website_kanak/static/src/img/careers/development.webp" class="img-fluid mx-auto" alt=""/>
+                                        <img src="/website_kanak/static/src/img/careers/development.webp" class="img-fluid mx-auto" alt="" />
                                     </div>
                                     <p class="text-center">Development</p>
                                     <div>
@@ -78,7 +78,7 @@
                             <div class="item">
                                 <div class="our-team">
                                     <div class="team-icon">
-                                        <img src="/website_kanak/static/src/img/careers/Marketing.webp" class="img-fluid mx-auto" alt=""/>
+                                        <img src="/website_kanak/static/src/img/careers/Marketing.webp" class="img-fluid mx-auto" alt="" />
                                     </div>
                                     <p class="text-center">Marketing</p>
                                     <div>
@@ -89,7 +89,7 @@
                             <div class="item">
                                 <div class="our-team">
                                     <div class="team-icon">
-                                        <img src="/website_kanak/static/src/img/careers/Business_Dev.webp" class="img-fluid mx-auto" alt=""/>
+                                        <img src="/website_kanak/static/src/img/careers/Business_Dev.webp" class="img-fluid mx-auto" alt="" />
                                     </div>
                                     <p class="text-center">Business Dev.</p>
                                     <div>
@@ -100,7 +100,7 @@
                             <div class="item">
                                 <div class="our-team">
                                     <div class="team-icon">
-                                        <img src="/website_kanak/static/src/img/careers/HR.webp" class="img-fluid mx-auto" alt=""/>
+                                        <img src="/website_kanak/static/src/img/careers/HR.webp" class="img-fluid mx-auto" alt="" />
                                     </div>
                                     <p class="text-center">HR</p>
                                     <div>
@@ -111,7 +111,7 @@
                             <div class="item">
                                 <div class="our-team">
                                     <div class="team-icon">
-                                        <img src="/website_kanak/static/src/img/careers/Research.webp" class="img-fluid mx-auto" alt=""/>
+                                        <img src="/website_kanak/static/src/img/careers/Research.webp" class="img-fluid mx-auto" alt="" />
                                     </div>
                                     <p class="text-center">Research &amp; De</p>
                                     <div>
@@ -128,28 +128,28 @@
                         <div class="row">
                             <div class="col-lg-3 pt16">
                                 <div class="gradi-border">
-                                    <img src="/website_kanak/static/src/img/careers/Circle1.webp" style="height: 30px;" alt="" class="img img-fluid"/>
+                                    <img src="/website_kanak/static/src/img/careers/Circle1.webp" style="height: 30px;" alt="" class="img img-fluid" />
                                     <p class="gradi-head">Personal Interview</p>
                                     <p>An applicant would undergo an initial screening where they would be given questions about their leadership, adaptability, and other.</p>
                                 </div>
                             </div>
                             <div class="col-lg-3 pt16">
                                 <div class="gradi-border">
-                                    <img src="/website_kanak/static/src/img/careers/Circle2.webp" style="height: 30px;" alt="" class="img img-fluid"/>
+                                    <img src="/website_kanak/static/src/img/careers/Circle2.webp" style="height: 30px;" alt="" class="img img-fluid" />
                                     <p class="gradi-head">Technical Round</p>
                                     <p>The phase of the interview requires you to run a program in practice and display the results.</p>
                                 </div>
                             </div>
                             <div class="col-lg-3 pt16">
                                 <div class="gradi-border">
-                                    <img src="/website_kanak/static/src/img/careers/Circle3.webp" style="height: 30px;" alt="" class="img img-fluid"/>
+                                    <img src="/website_kanak/static/src/img/careers/Circle3.webp" style="height: 30px;" alt="" class="img img-fluid" />
                                     <p class="gradi-head">HR Round</p>
                                     <p>In this phase, the results of the skills test and in-person interview should be communicated to you. You should anticipate receiving an offer (or rejection) as soon as possible after receiving comments.</p>
                                 </div>
                             </div>
                             <div class="col-lg-3 pt16">
                                 <div class="gradi-border">
-                                    <img src="/website_kanak/static/src/img/careers/Circle4.webp" style="height: 30px;" alt="" class="img img-fluid"/>
+                                    <img src="/website_kanak/static/src/img/careers/Circle4.webp" style="height: 30px;" alt="" class="img img-fluid" />
                                     <p class="gradi-head">Higher Management</p>
                                     <p>A brief final interview with the hiring manager can be scheduled for you after all of the aforementioned processes have been finished.</p>
                                 </div>
@@ -163,28 +163,28 @@
                         <div class="owl-carousel">
                             <div class="item">
                                 <div class="gradi-border">
-                                    <img src="/website_kanak/static/src/img/careers/Circle1.webp" style="height: 30px;width: 30px" alt=""/>
+                                    <img src="/website_kanak/static/src/img/careers/Circle1.webp" style="height: 30px;width: 30px" alt="" />
                                     <p class="gradi-head">Personal Interview</p>
                                     <p>An applicant would undergo an initial screening where they would be given questions about their leadership, adaptability, and other.</p>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="gradi-border">
-                                    <img src="/website_kanak/static/src/img/careers/Circle2.webp" style="height: 30px;width: 30px" alt=""/>
+                                    <img src="/website_kanak/static/src/img/careers/Circle2.webp" style="height: 30px;width: 30px" alt="" />
                                     <p class="gradi-head">Technical Round</p>
                                     <p>The phase of the interview requires you to run a program in practice and display the results.</p>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="gradi-border">
-                                    <img src="/website_kanak/static/src/img/careers/Circle3.webp" style="height: 30px;width: 30px" alt=""/>
+                                    <img src="/website_kanak/static/src/img/careers/Circle3.webp" style="height: 30px;width: 30px" alt="" />
                                     <p class="gradi-head">HR Round</p>
                                     <p>In this phase, the results of the skills test and in-person interview should be communicated to you. You should anticipate receiving an offer (or rejection) as soon as possible after receiving comments.</p>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="gradi-border">
-                                    <img src="/website_kanak/static/src/img/careers/Circle4.webp" style="height: 30px;width: 30px" alt=""/>
+                                    <img src="/website_kanak/static/src/img/careers/Circle4.webp" style="height: 30px;width: 30px" alt="" />
                                     <p class="gradi-head">Higher Management</p>
                                     <p>A brief final interview with the hiring manager can be scheduled for you after all of the aforementioned processes have been finished.</p>
                                 </div>
@@ -266,26 +266,27 @@
         <template id="jobs_show_website" name="JOBS shown on website ">
             <t t-foreach="jobs" t-as="job">
                 <t t-if="job.website_published">
-                    <a t-attf-href="#{job.website_url}">
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 open_job_jd job_text jobs_vacancy">
-                            <table class="table">
-                                <tr>
-                                    <td style="width:20%;border-top:none;"><img t-att-src="'/website/image/hr.job/%s/job_image' % (job.id)" style="height: 50px;" alt=""/></td>
-                                    <td style="width:80%;border-top:none;">
-                                        <h4 style="text-align:left;margin-top:0;"><strong><span id="job_card_name" t-field="job.name" /></strong></h4>
-                                        <!-- <div><i class="fa fa-briefcase"></i> Experience - <span t-esc="job.exp_required" /> years</div> -->
-                                        <!-- <t t-if="job.vacant_location">
-                                            <div class="mt16">
-                                                <span><i class="fa fa-map-marker"></i>&amp;nbsp;</span>
-                                                <t t-foreach="job.vacant_location" t-as="vacant">
-                                                    <t t-esc="vacant.name" />,
-                                                </t>
-                                            </div>
-                                            <a t-attf-href="#{job.website_url}" class="btn btn-default btn-sm mt16" style="border-radius:5px">Read More</a>
-                                        </t> -->
-                                    </td>
-                                </tr>
-                            </table>
+                    <a t-attf-href="#{job.website_url}" class="col-lg-4 col-md-4 col-sm-6 col-xs-12 open_job_jd job_text jobs_vacancy">
+                        <table class="table">
+                            <tr>
+                                <td style="width:10%;border-top:none;"><img t-att-src="'/website/image/hr.job/%s/job_image' % (job.id)" style="height: 50px;" alt="" /></td>
+                                <td style="width:90%;border-top:none;">
+                                    <h5 style="text-align:left;margin-top:0;"><strong><span id="job_card_name" t-field="job.name" /></strong></h5>
+                                    <div><i class="fa fa-briefcase">&amp;nbsp;</i>Experience - <span t-esc="job.exp_required" /> years</div>
+                                    <t t-if="job.vacant_location">
+                                        <div class="mt16">
+                                            <i class="fa fa-map-marker">&amp;nbsp;</i>
+                                            <!-- <span></span> -->
+                                            <t t-foreach="job.vacant_location" t-as="vacant">
+                                                <t t-esc="vacant.name" />,
+                                            </t>
+                                        </div>
+                                        <a t-attf-href="#{job.website_url}" class="btn btn-light btn-sm mt16" style="border-radius:5px">Read More</a>
+                                    </t>
+                                </td>
+                            </tr>
+                        </table>
+                        <div>
                         </div>
                     </a>
                 </t>
@@ -370,8 +371,8 @@
                     </div>
                 </div>
             </xpath>
-        </template>
-        <template id="job_apply_custom" inherit_id="website_hr_recruitment.apply" name="Job Apply Custom">
+        </template> -->
+        <!-- <template id="job_apply_custom" inherit_id="website_hr_recruitment.apply" name="Job Apply Custom">
             <xpath expr="//section[@id='forms']" position="replace">
                 <section id="forms">
                     <form action="/website_form/" method="post" class="s_website_form form-horizontal container-fluid mt32" enctype="multipart/form-data" data-model_name="hr.applicant" data-success_page="/job-thank-you" t-att-data-form_field_department_id="job and job.department_id.id or False" t-att-data-form_field_job_id="job and job.id or False">

@@ -37,7 +37,7 @@ div[id*="gb-widget"] {
 
 @media(max-width: 425px) {
     div[id*="gb-widget"] {
-        bottom: 130px;
+        bottom: 130px !important;
         left: unset !important;
         right: 16px;
     }

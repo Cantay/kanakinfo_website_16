@@ -453,13 +453,13 @@
                             <div class="col-lg-4 col-md-4 col-sm-4">
                                 <div class="margin_bottom_20px" style="background: white;width: 90%;">
                                     <div style="padding: 30px;">
-                                        <img style="width:8%;display: unset;margin-top: -10px;" src="/website_kanak/static/src/img/netsuite/double-check-icon.svg"><span style="margin-left: 10px;">E-commerce, Web Analytics, <br /><span style="margin-left: 35px;">and web store</span></span></img>
+                                        <img class="double-check" src="/website_kanak/static/src/img/netsuite/double-check-icon.svg"><span style="margin-left: 10px;">E-commerce, Web Analytics, <br /><span style="margin-left: 35px;">and web store</span></span></img>
                                         <br />
-                                        <img style="width:8%;display: unset;margin-top: -10px;" src="/website_kanak/static/src/img/netsuite/double-check-icon.svg"><span style="margin-left: 10px;">NetSuite Website builds</span></img>
+                                        <img class="double-check" src="/website_kanak/static/src/img/netsuite/double-check-icon.svg"><span style="margin-left: 10px;">NetSuite Website builds</span></img>
                                         <br />
-                                        <img style="width:8%;display: unset;margin-top: -10px;" src="/website_kanak/static/src/img/netsuite/double-check-icon.svg"><span style="margin-left: 10px;">NetSuite Administration</span></img>
+                                        <img class="double-check" src="/website_kanak/static/src/img/netsuite/double-check-icon.svg"><span style="margin-left: 10px;">NetSuite Administration</span></img>
                                         <br />
-                                        <img style="width:8%;display: unset;margin-top: -10px;" src="/website_kanak/static/src/img/netsuite/double-check-icon.svg"><span style="margin-left: 10px;">Customer Service and Training</span></img>
+                                        <img class="double-check" src="/website_kanak/static/src/img/netsuite/double-check-icon.svg"><span style="margin-left: 10px;">Customer Service and Training</span></img>
                                     </div>
                                 </div>
                             </div>

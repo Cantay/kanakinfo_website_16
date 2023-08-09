@@ -5,7 +5,7 @@ h4 {
     color: $color_2;
 }
 
-#wrap:not(.js_apps,.auto_pop){
+#wrap:not(.js_apps, .auto_pop) {
     a.btn {
         color: $color_3 !important;
     }
@@ -24,57 +24,85 @@ h4 {
 }
 
 
-div.bOaIxr {
-    display: none;
-}
-
-
 div[id*="gb-widget"] {
-    bottom: 130px !important;
+    bottom: 14px;
+    left: 16px;
+
+    div:nth-child(2) {
+        display: none;
+    }
 }
 
-@media(min-width: 768px){
+
+
+@media(max-width: 425px) {
+    div[id*="gb-widget"] {
+        bottom: 130px !important;
+        left: unset !important;
+        right: 16px;
+    }
+
+}
+
+
+footer {
+    #connect {
+        font-size: 14px;
+
+        ul {
+            li {
+                padding-top: 5pt;
+                padding-bottom: 5pt;
+            }
+        }
+    }
+}
+
+@media(min-width: 768px) {
 
     #top_menu {
         li.nav-item {
             ul.dropdown-menu {
                 display: block !important;
-                position:absolute;
-                top:100%;
-                left:0;
-                z-index:1;
-                width:220px;
-                height:auto;
-                background-color:#fff;
-                box-shadow:0px 3px 10px rgba(0,0,0,0.2);
-                opacity:0;
-                visibility:hidden;
-                transition:all 0.5s ease-in-out;
-                -webkit-transition:all 0.5s ease-in-out;
-                li{
+                position: absolute;
+                top: 100%;
+                left: 0;
+                z-index: 1;
+                width: 220px;
+                height: auto;
+                background-color: #fff;
+                box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+                opacity: 0;
+                visibility: hidden;
+                transition: all 0.5s ease-in-out;
+                -webkit-transition: all 0.5s ease-in-out;
+
+                li {
                     a {
-                        position:relative;
-                        display:block;
-                        width:auto;
-                        height:auto;
-                        padding:2px 15px 2px 15px;
-                        border-bottom:1px #f4f4f4 solid;
-                        opacity:inherit!important;
-                        visibility:inherit!important;
-                        cursor:pointer;
-                        transition:all 0.5s ease-in-out!important;
-                        -webkit-transition:all 0.5s ease-in-out!important;
+                        position: relative;
+                        display: block;
+                        width: auto;
+                        height: auto;
+                        padding: 2px 15px 2px 15px;
+                        border-bottom: 1px #f4f4f4 solid;
+                        opacity: inherit !important;
+                        visibility: inherit !important;
+                        cursor: pointer;
+                        transition: all 0.5s ease-in-out !important;
+                        -webkit-transition: all 0.5s ease-in-out !important;
                     }
                 }
             }
+
             &:hover {
                 ul.dropdown-menu {
-                    opacity:1;
-                    visibility:visible;
-                    li{
-                        a{
-                            padding-top:10px;
-                            padding-bottom:10px;
+                    opacity: 1;
+                    visibility: visible;
+
+                    li {
+                        a {
+                            padding-top: 10px;
+                            padding-bottom: 10px;
                         }
                     }
                 }
@@ -82,6 +110,7 @@ div[id*="gb-widget"] {
         }
     }
 }
+
 footer {
     background-color: $color_2 !important;
 
@@ -408,6 +437,7 @@ footer {
             display: flex;
             flex-direction: column;
             align-items: center;
+
             .icon_main_motivate {
                 display: flex;
                 position: relative;
@@ -1142,31 +1172,37 @@ footer {
         }
     }
 }
-@media(max-width: 768px){
-    .bg_banner_color_home2{
+
+@media(max-width: 768px) {
+    .bg_banner_color_home2 {
         background-size: 228% 100%;
     }
-    .bg_banner_color_home1{
+
+    .bg_banner_color_home1 {
         background-size: 228% 100%;
     }
 }
-.kanak_main_homepage #kanak_11_client_cust .our-partner img{
+
+.kanak_main_homepage #kanak_11_client_cust .our-partner img {
     width: 200px;
     margin: 0 auto;
 }
-@media(min-width: 768px){
-    .kanak_main_homepage #kanak_11_client_cust .owl-carousel{
+
+@media(min-width: 768px) {
+    .kanak_main_homepage #kanak_11_client_cust .owl-carousel {
         display: flex;
         gap: 10px;
         flex-wrap: wrap;
         justify-content: center;
         padding-bottom: 22px;
     }
-    .kanak_main_homepage #kanak_11_client_cust .our-partner img{
+
+    .kanak_main_homepage #kanak_11_client_cust .our-partner img {
         width: 192px;
     }
 }
-.kanak_main_homepage #wrap a.erpnext_banner_btn_home{
+
+.kanak_main_homepage #wrap a.erpnext_banner_btn_home {
     color: black !important;
     background: white;
     padding: 13px 41px;

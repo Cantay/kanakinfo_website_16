@@ -2,6 +2,7 @@
 import logging
 import os
 import shutil
+import json
 import requests
 from odoo import http
 from odoo.http import request
@@ -258,12 +259,13 @@ class KanakApp(WebsiteSale):
                     payload = {
                         "technical_name": modulename,
                         "version": version,
+                        "dependencies": product_id.get_product_dependancies(),
                     }
                     if not request.env.user._is_public():
                         payload.update({
                             "customer_name": request.env.user.partner_id.name
                         })
-                    response = requests.request("GET", url, headers=headers, data=payload)
+                    response = requests.request("GET", url, headers=headers, data=json.dumps(payload))
                     return request.make_response(
                         response.content,
                         headers=[
@@ -306,12 +308,13 @@ class CustomerPortal(portal.CustomerPortal):
                     }
                     payload = {
                         "technical_name": product_id.technical_name,
+                        "dependencies": product_id.get_product_dependancies(),
                         "version": product_id.version,
                         "customer_name": order_sudo.partner_id.name,
                         "order_number": order_sudo.name,
                         "order_url": urls.url_join(order_sudo.get_base_url(), order_sudo.get_portal_url())
                     }
-                    response = requests.request("GET", url, headers=headers, data=payload)
+                    response = requests.request("GET", url, headers=headers, data=json.dumps(payload))
                     return request.make_response(
                         response.content,
                         headers=[

@@ -18,6 +18,8 @@
         <field name="arch" type="xml">
             <field name="default_code" position="after">
                     <field name="version" readonly="1"/>
+                    <field name="app_timestamp"/>
+                    <field name="depends"/>
             </field>
             <xpath expr="//notebook" position="inside">
                 <page string="Module Description" name="module_description">

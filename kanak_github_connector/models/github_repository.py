@@ -64,6 +64,7 @@ class GithubRepository(models.Model):
                 'description_rst_html': description_rst_html,
                 'image_1920': module_info.get('icon', False),
                 'banner_image': banner_image,
+                'depends': ','.join(module_info.get('depends', '')),
                 'theme_image': theme_image,
                 'description_sale': module_info.get('summary', ''),
                 'license': module_info.get('license', ''),

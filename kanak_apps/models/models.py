@@ -63,6 +63,16 @@ class ProductProduct(models.Model):
                     attributes = ','.join(str(x) for x in product.product_template_attribute_value_ids.ids)
                     product.website_url = "%s#attr=%s" % (product.product_tmpl_id.website_url, attributes)
 
+    @api.model
+    def get_product_dependancies(self):
+        depends_list = []
+        if self.depends:
+            for modulename in self.depends.split(','):
+                module_obj = self.search([('technical_name', '=', modulename), ('version', '=', self.version)], limit=1)
+                if module_obj and module_obj.exists():
+                    depends_list.append(modulename)
+        return depends_list
+
 
 class SaleOrder(models.Model):
     _inherit = 'sale.order'

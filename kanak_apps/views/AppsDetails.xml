@@ -73,6 +73,22 @@
                             </form>
                             <div class="p-0 col-12 d-md-none d-lg-block">
                                 <table style="word-wrap: break-word;" class="loempia_app_table table table-sm small mt16">
+                                    <thead class="alert-info" t-if="product_variant.depends">
+                                        <tr>
+                                            <td style="vertical-align: baseline;padding-left: 5px;"><b>Required Apps</b>
+                                                <a role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="Apps Required" data-bs-content="This app requires some additional standard apps from kanak to be installed.">
+                                                    <i class="fa fa-info-circle text-info" role="img" aria-label="Warning"></i>
+                                                </a>
+                                            </td>
+                                            <td>
+                                               <t t-foreach="product_variant.depends.split(',')" t-as="reqapp_name">
+                                                • 
+                                                <span><t t-esc="reqapp_name"/></span>
+                                                <br/>
+                                                </t>
+                                            </td>
+                                        </tr>
+                                    </thead>
                                     <tbody>
                                         <tr>
                                             <td><b>Technical Name</b></td>

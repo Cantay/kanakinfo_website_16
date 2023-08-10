@@ -23,6 +23,7 @@ class ProductProduct(models.Model):
     theme_image = fields.Image(string="Theme Banner")
     license = fields.Text(string="License")
     app_timestamp = fields.Char(string="Last Time")
+    depends = fields.Char(string="Depends")
 
     @api.model
     def get_module_category(self, info):
@@ -105,3 +106,51 @@ class ProductProduct(models.Model):
                     'value_ids': [(4, attribut_value_id.id)]})
                 ]})
         return values
+
+    def price_compute(self, price_type, uom=None, currency=None, company=None, date=False):
+        company = company or self.env.company
+        date = date or fields.Date.context_today(self)
+
+        self = self.with_company(company)
+        if price_type == 'standard_price':
+            # standard_price field can only be seen by users in base.group_user
+            # Thus, in order to compute the sale price from the cost for users not in this group
+            # We fetch the standard price as the superuser
+            self = self.sudo()
+
+        prices = dict.fromkeys(self.ids, 0.0)
+        for product in self:
+            price = product[price_type] or 0.0
+            price_currency = product.currency_id
+            if price_type == 'standard_price':
+                price_currency = product.cost_currency_id
+
+            if price_type == 'list_price':
+                price += product.price_extra
+                # we need to add the price from the attributes that do not generate variants
+                # (see field product.attribute create_variant)
+                if self._context.get('no_variant_attributes_price_extra'):
+                    # we have a list of price_extra that comes from the attribute values, we need to sum all that
+                    price += sum(self._context.get('no_variant_attributes_price_extra'))
+
+            if uom:
+                price = product.uom_id._compute_price(price, uom)
+                if product.depends:
+                    price += product.get_product_extra_price(uom)
+            # Convert from current user company currency to asked one
+            # This is right cause a field cannot be in more than one currency
+            if currency:
+                price = price_currency._convert(price, currency, company, date)
+
+            prices[product.id] = price
+
+        return prices
+
+    @api.model
+    def get_product_extra_price(self, uom):
+        othermodule_price = 0.0
+        for modulename in self.depends.split(','):
+            module_obj = self.search([('technical_name', '=', modulename), ('version', '=', self.version)], limit=1)
+            if module_obj and module_obj.exists():
+                othermodule_price += module_obj.uom_id._compute_price(module_obj['list_price'], uom)
+        return othermodule_price

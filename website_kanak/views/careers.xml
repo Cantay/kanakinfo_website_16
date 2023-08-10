@@ -266,7 +266,7 @@
         <template id="jobs_show_website" name="JOBS shown on website ">
             <t t-foreach="jobs" t-as="job">
                 <t t-if="job.website_published">
-                    <a t-attf-href="#{job.website_url}" class="col-lg-4 col-md-4 col-sm-6 col-xs-12 open_job_jd job_text jobs_vacancy">
+                    <a href="/contactus" class="col-lg-4 col-md-4 col-sm-6 col-xs-12 open_job_jd job_text jobs_vacancy">
                         <table class="table">
                             <tr>
                                 <td style="width:10%;border-top:none;"><img t-att-src="'/website/image/hr.job/%s/job_image' % (job.id)" style="height: 50px;" alt="" /></td>
@@ -281,7 +281,7 @@
                                                 <t t-esc="vacant.name" />,
                                             </t>
                                         </div>
-                                        <a t-attf-href="#{job.website_url}" class="btn btn-light btn-sm mt16" style="border-radius:5px">Read More</a>
+                                        <a href="/contactus" class="btn btn-light btn-sm mt16" style="border-radius:5px">Read More</a>
                                     </t>
                                 </td>
                             </tr>

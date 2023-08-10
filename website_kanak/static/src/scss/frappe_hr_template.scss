@@ -842,13 +842,10 @@
         }
 
         .using-frappe-box {
-            ul {
-                li {
-                    .using-frappe-head {
-                        display: block !important;
-                        text-align: center;
-                    }
-                }
+            .using-frappe-head {
+                display: block !important;
+                text-align: center;
+                font-size: 16px !important;
             }
         }
 

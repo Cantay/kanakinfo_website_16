@@ -11,11 +11,11 @@
                 <section id="main-odoo-install-banner" class="pt32 pb32">
                     <div class="container">
                         <div class="row">
-                            <div class="col-lg-6 col-6">
-                                <p class="install-banner-head">Odoo <br /><span class="red">
+                            <div class="col-lg-6">
+                                <p class="install-banner-head">Odoo <span class="red">
                                         Installation</span></p>
                             </div>
-                            <div class="col-lg-6 col-6">
+                            <div class="col-lg-6">
                                 <img src="/website_kanak/static/src/img/odoo_installation/Installation-graphic.webp" class="img-fluid mx-auto" alt="" />
                             </div>
                         </div>

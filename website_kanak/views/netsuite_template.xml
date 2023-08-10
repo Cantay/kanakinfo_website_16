@@ -32,7 +32,7 @@
                                 </div>
                             </div>
                             <!-- #02 -->
-                            <div class="carousel-item oe_img_bg o_bg_img_center pt96 pb96" style="background-image: url('/website_kanak/static/src/img/netsuite/slider2.webp');" data-name="Slide">
+                            <!-- <div class="carousel-item oe_img_bg o_bg_img_center pt96 pb96" style="background-image: url('/website_kanak/static/src/img/netsuite/slider2.webp');" data-name="Slide">
                                 <div class="container oe_unremovable">
                                     <div class="row content">
                                         <div class="carousel-content col-lg-5">
@@ -45,7 +45,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                         <!-- Controls -->
                         <a class="carousel-control-prev o_not_editable" contenteditable="false" t-attf-href="#myCarousel{{uniq}}" data-bs-slide="prev" role="img" aria-label="Previous" title="Previous">

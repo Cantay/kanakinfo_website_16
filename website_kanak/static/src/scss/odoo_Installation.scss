@@ -19,8 +19,9 @@
             color: $color_2;
             text-transform: uppercase;
             line-height: 62px;
-            font-size: 52px;
+            font-size: 3rem;
             font-weight: 900;
+            text-align: left;
         }
 
     }
@@ -195,10 +196,10 @@
         padding: 4px;
     }
 
-    @media screen and (max-width: 425px) {
+    @media (max-width: 768px) {
         #main-odoo-install-banner .install-banner-head {
             line-height: 1.2;
-            font-size: 22pt;
+            text-align: center;
         }
     }
 

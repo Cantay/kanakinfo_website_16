@@ -225,7 +225,7 @@
                                     <table>
                                         <tr>
                                             <td class="d-flex">
-                                                <img src="/website_kanak/static/src/img/netsuite/check_icon.svg" style="height:18px;margin-right:12px;margin-top:7px;"></img></td>
+                                                <img src="/website_kanak/static/src/img/netsuite/check_icon.svg" ></img></td>
                                             <td>
                                                 <p class="m-0"><strong class="netsuite-key-steps-heading">Initiate</strong></p>
                                                 <p>To begin the process, figure out the client’s goals and key challenges.</p>
@@ -237,7 +237,7 @@
                                     <table>
                                         <tr>
                                             <td class="d-flex">
-                                                <img src="/website_kanak/static/src/img/netsuite/check_icon.svg" style="height:18px;margin-right:12px;margin-top:7px;"></img></td>
+                                                <img src="/website_kanak/static/src/img/netsuite/check_icon.svg" ></img></td>
                                             <td>
                                                 <p class="m-0"><strong class="netsuite-key-steps-heading">Requirement Analysis</strong></p>
                                                 <p>Identify existing processes, validate data sources, identify process gaps, and document requirements.</p>
@@ -251,7 +251,7 @@
                                     <table>
                                         <tr>
                                             <td class="d-flex">
-                                                <img src="/website_kanak/static/src/img/netsuite/check_icon.svg" style="height:18px;margin-right:12px;margin-top:7px;"></img></td>
+                                                <img src="/website_kanak/static/src/img/netsuite/check_icon.svg" ></img></td>
                                             <td>
                                                 <p class="m-0"><strong class="netsuite-key-steps-heading">NetSuite Configuration</strong></p>
                                                 <p>Configure NetSuite based on requirements.</p>
@@ -263,7 +263,7 @@
                                     <table>
                                         <tr>
                                             <td class="d-flex">
-                                                <img src="/website_kanak/static/src/img/netsuite/check_icon.svg" style="height:18px;margin-right:12px;margin-top:7px;"></img></td>
+                                                <img src="/website_kanak/static/src/img/netsuite/check_icon.svg" ></img></td>
                                             <td>
                                                 <p class="m-0"><strong class="netsuite-key-steps-heading">NetSuite Implementation</strong></p>
                                                 <p>Implement NetSuite functionality and add client-specific settings as well as the content.</p>
@@ -277,7 +277,7 @@
                                     <table>
                                         <tr>
                                             <td class="d-flex">
-                                                <img src="/website_kanak/static/src/img/netsuite/check_icon.svg" style="height:18px;margin-right:12px;margin-top:7px;"></img></td>
+                                                <img src="/website_kanak/static/src/img/netsuite/check_icon.svg" ></img></td>
                                             <td>
                                                 <p class="m-0"><strong class="netsuite-key-steps-heading">Data Migration</strong></p>
                                                 <p>You can Import key data, such as clients and vendors in NetSuite.</p>
@@ -289,7 +289,7 @@
                                     <table>
                                         <tr>
                                             <td class="d-flex">
-                                                <img src="/website_kanak/static/src/img/netsuite/check_icon.svg" style="height:18px;margin-right:12px;margin-top:7px;"></img></td>
+                                                <img src="/website_kanak/static/src/img/netsuite/check_icon.svg" ></img></td>
                                             <td>
                                                 <p class="m-0"><strong class="netsuite-key-steps-heading">Testing</strong></p>
                                                 <p>Develop customized User Acceptance Testing (UAT) Documentation for NetSuite business processes.</p>
@@ -339,7 +339,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-4 col-sm-4 mt32">
+                            <div class="col-lg-4 col-md-4 col-sm-4">
                                 <div style="background: #f9f9f9;" class="erp_box">
                                     <div style="padding: 30px;">
                                         <img style="width:15%;display: unset;" src="/website_kanak/static/src/img/netsuite/industry_specifications.svg"><strong style="font-size: 16px;color: #565656;margin-left: 10px;font-weight: revert;">Industry Specifications</strong></img>
@@ -347,7 +347,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-4 col-sm-4 mt32">
+                            <div class="col-lg-4 col-md-4 col-sm-4">
                                 <div style="background: #f9f9f9;" class="erp_box">
                                     <div style="padding: 30px;">
                                         <img style="width:15%;display: unset;" src="/website_kanak/static/src/img/netsuite/industry_best_cloud.svg"><strong style="font-size: 16px;color: #565656;margin-left: 10px;word-break: break-all;font-weight: revert;">Industry's Best Cloud Platform</strong></img>
@@ -423,8 +423,8 @@
                         </div>
                         <br />
                         <div class="row" style="font-size: 18px;">
-                            <div class="col-lg-4 col-md-4 col-sm-4">
-                                <div style="background: white;width: 90%;display: block;margin-bottom: 70px;" class="margin_bottom_20px">
+                            <div class="col-lg-4 col-md-4 col-sm-4 remove_margin_erp_box">
+                                <div style="background: white;width: 90%;" class="margin_bottom_20px">
                                     <div style="padding: 30px;">
                                         <img class="double-check" src="/website_kanak/static/src/img/netsuite/double-check-icon.svg"><span style="margin-left: 10px;"><a href="/blog/netsuite-vs-tally" class="text-decoration-none">Accounting and Financials</a></span></img>
                                         <br />
@@ -450,7 +450,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-4 col-sm-4">
+                            <div class="col-lg-4 col-md-4 col-sm-4 remove_margin_erp_box">
                                 <div class="margin_bottom_20px" style="background: white;width: 90%;">
                                     <div style="padding: 30px;">
                                         <img class="double-check" src="/website_kanak/static/src/img/netsuite/double-check-icon.svg"><span style="margin-left: 10px;">E-commerce, Web Analytics, <br /><span style="margin-left: 35px;">and web store</span></span></img>

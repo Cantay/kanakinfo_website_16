@@ -31,7 +31,7 @@
         'views/testimonial_page.xml',
         'views/our_team.xml',
         'views/engagement_model.xml',
-        # 'views/careers.xml',
+        'views/careers.xml',
 
         
         'views/odoo_integration.xml',

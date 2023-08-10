@@ -11,7 +11,7 @@
                     <section style="background: linear-gradient(99.13deg, rgba(206, 232, 245, 0.42) 0%, rgba(154, 198, 241, 0) 100%);">
                         <div class="container pt32">
                             <p class="text-center" style="font-size: 34px; color: #488EE8; font-weight: bolder;">Frappe LMS Service</p>
-                            <img src="/website_kanak/static/src/img/frappe_lms/LMS-bg1.webp" class="img-fluid mx-auto" style="display: block; margin: 0 auto;z-index:1000;position:relative;" />
+                            <img src="/website_kanak/static/src/img/frappe_lms/LMS-bg1.webp" class="img-fluid mx-auto frappe-lms-banner" />
                         </div>
                     </section>
                     <section style="position:relative;">

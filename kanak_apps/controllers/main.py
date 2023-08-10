@@ -53,6 +53,22 @@ class KanakApp(WebsiteSale):
                 return request.redirect(rurl)
         return request.redirect('/apps')
 
+    @http.route(['/shop/product/<string:product>'], type='http', auth="public", website=True, sitemap=True)
+    def old_url_product(self, product, category='', search='', **kwargs):
+        product = request.env['product.template'].search([]).filtered(lambda x: x.old_url_product == product)[:1]
+        if not product.exists():
+            return request.redirect('/apps')
+        product_id = product._get_first_possible_variant_id()
+        vproduct = request.env['product.product'].browse(product_id)
+        if vproduct:
+            if 'theme' in vproduct.technical_name:
+                rurl = '/apps/themes/' + vproduct.version + '/' + vproduct.technical_name
+                return request.redirect(rurl)
+            else:
+                rurl = '/apps/modules/' + vproduct.version + '/' + vproduct.technical_name
+                return request.redirect(rurl)
+        return request.redirect('/apps')
+
     @http.route([
         '/apps',
         '/apps/<string:mtype>',

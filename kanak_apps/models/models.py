@@ -13,6 +13,13 @@ class ProductTemplate(models.Model):
     odoo_apps_sale_count = fields.Integer(string="Odoo Apps Sale Count", default=0)
     kanak_apps_sale_count = fields.Integer(string="Kanak Apps Sale Count", default=0)
     app_sale_count = fields.Integer(string="Apps Sale Count", default=0, compute="compute_app_sale_count", store=True)
+    old_url_product = fields.Char(string="Old Url", compute='_compute_old_product_url', store=True)
+
+    @api.depends('name')
+    def _compute_old_product_url(self):
+        for product in self:
+            if product.id:
+                product.old_url_product = product.name.lower().replace(' ', '-')
 
     @api.depends('odoo_apps_sale_count', 'kanak_apps_sale_count')
     def compute_app_sale_count(self):

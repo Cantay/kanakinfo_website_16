@@ -249,6 +249,7 @@ odoo.define('website_kanak.script', function(require) {
         loop: true,
         margin: 40,
         nav: true,
+        dots:false,
         autoplay: true,
         autoplayTimeout: 5000,
         responsive: {

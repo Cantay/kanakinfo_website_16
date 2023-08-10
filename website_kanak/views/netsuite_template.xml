@@ -48,14 +48,14 @@
                             </div> -->
                         </div>
                         <!-- Controls -->
-                        <a class="carousel-control-prev o_not_editable" contenteditable="false" t-attf-href="#myCarousel{{uniq}}" data-bs-slide="prev" role="img" aria-label="Previous" title="Previous">
+                       <!--  <a class="carousel-control-prev o_not_editable" contenteditable="false" t-attf-href="#myCarousel{{uniq}}" data-bs-slide="prev" role="img" aria-label="Previous" title="Previous">
                             <span class="carousel-control-prev-icon" />
                             <span class="visually-hidden">Previous</span>
                         </a>
                         <a class="carousel-control-next o_not_editable" contenteditable="false" t-attf-href="#myCarousel{{uniq}}" data-bs-slide="next" role="img" aria-label="Next" title="Next">
                             <span class="carousel-control-next-icon" />
                             <span class="visually-hidden">Next</span>
-                        </a>
+                        </a> -->
                     </div>
                 </section>
                 <section class="pt16 pb16">
@@ -224,9 +224,9 @@
                                 <div class="col-lg-6 col-md-6 col-sm-6 key_setup">
                                     <table>
                                         <tr>
-                                            <td class="d-flex">
-                                                <img src="/website_kanak/static/src/img/netsuite/check_icon.svg" ></img></td>
-                                            <td>
+                                            <td width="8%" class="position-relative">
+                                                <img src="/website_kanak/static/src/img/netsuite/check_icon.svg" /></td>
+                                            <td width="92%">
                                                 <p class="m-0"><strong class="netsuite-key-steps-heading">Initiate</strong></p>
                                                 <p>To begin the process, figure out the client’s goals and key challenges.</p>
                                             </td>
@@ -236,9 +236,9 @@
                                 <div class="col-lg-6 col-md-6 col-sm-6 key_setup">
                                     <table>
                                         <tr>
-                                            <td class="d-flex">
-                                                <img src="/website_kanak/static/src/img/netsuite/check_icon.svg" ></img></td>
-                                            <td>
+                                            <td width="8%" class="position-relative">
+                                                <img src="/website_kanak/static/src/img/netsuite/check_icon.svg" /></td>
+                                            <td width="92%">
                                                 <p class="m-0"><strong class="netsuite-key-steps-heading">Requirement Analysis</strong></p>
                                                 <p>Identify existing processes, validate data sources, identify process gaps, and document requirements.</p>
                                             </td>
@@ -250,11 +250,11 @@
                                 <div class="col-lg-6 col-md-6 col-sm-6 key_setup">
                                     <table>
                                         <tr>
-                                            <td class="d-flex">
-                                                <img src="/website_kanak/static/src/img/netsuite/check_icon.svg" ></img></td>
-                                            <td>
+                                            <td width="8%" class="position-relative">
+                                                <img src="/website_kanak/static/src/img/netsuite/check_icon.svg" /></td>
+                                            <td width="92%">
                                                 <p class="m-0"><strong class="netsuite-key-steps-heading">NetSuite Configuration</strong></p>
-                                                <p>Configure NetSuite based on requirements.</p>
+                                                <p>Configure NetSuite to map with you bussiness needs by customizing modules, workflows and integration for smooth operations. </p>
                                             </td>
                                         </tr>
                                     </table>
@@ -262,9 +262,9 @@
                                 <div class="col-lg-6 col-md-6 col-sm-6 key_setup">
                                     <table>
                                         <tr>
-                                            <td class="d-flex">
-                                                <img src="/website_kanak/static/src/img/netsuite/check_icon.svg" ></img></td>
-                                            <td>
+                                            <td width="8%" class="position-relative">
+                                                <img src="/website_kanak/static/src/img/netsuite/check_icon.svg" /></td>
+                                            <td width="92%">
                                                 <p class="m-0"><strong class="netsuite-key-steps-heading">NetSuite Implementation</strong></p>
                                                 <p>Implement NetSuite functionality and add client-specific settings as well as the content.</p>
                                             </td>
@@ -276,9 +276,9 @@
                                 <div class="col-lg-6 col-md-6 col-sm-6 key_setup">
                                     <table>
                                         <tr>
-                                            <td class="d-flex">
-                                                <img src="/website_kanak/static/src/img/netsuite/check_icon.svg" ></img></td>
-                                            <td>
+                                            <td width="8%" class="position-relative">
+                                                <img src="/website_kanak/static/src/img/netsuite/check_icon.svg" /></td>
+                                            <td width="92%">
                                                 <p class="m-0"><strong class="netsuite-key-steps-heading">Data Migration</strong></p>
                                                 <p>You can Import key data, such as clients and vendors in NetSuite.</p>
                                             </td>
@@ -288,9 +288,9 @@
                                 <div class="col-lg-6 col-md-6 col-sm-6 key_setup">
                                     <table>
                                         <tr>
-                                            <td class="d-flex">
-                                                <img src="/website_kanak/static/src/img/netsuite/check_icon.svg" ></img></td>
-                                            <td>
+                                            <td width="8%" class="position-relative">
+                                                <img src="/website_kanak/static/src/img/netsuite/check_icon.svg" /></td>
+                                            <td width="92%">
                                                 <p class="m-0"><strong class="netsuite-key-steps-heading">Testing</strong></p>
                                                 <p>Develop customized User Acceptance Testing (UAT) Documentation for NetSuite business processes.</p>
                                             </td>

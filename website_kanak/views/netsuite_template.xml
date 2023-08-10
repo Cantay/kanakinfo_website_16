@@ -224,7 +224,7 @@
                                 <div class="col-lg-6 col-md-6 col-sm-6 key_setup">
                                     <table>
                                         <tr>
-                                            <td width="8%" class="position-relative">
+                                            <td width="8%" class="d-flex">
                                                 <img src="/website_kanak/static/src/img/netsuite/check_icon.svg" /></td>
                                             <td width="92%">
                                                 <p class="m-0"><strong class="netsuite-key-steps-heading">Initiate</strong></p>
@@ -236,7 +236,7 @@
                                 <div class="col-lg-6 col-md-6 col-sm-6 key_setup">
                                     <table>
                                         <tr>
-                                            <td width="8%" class="position-relative">
+                                            <td width="8%" class="d-flex">
                                                 <img src="/website_kanak/static/src/img/netsuite/check_icon.svg" /></td>
                                             <td width="92%">
                                                 <p class="m-0"><strong class="netsuite-key-steps-heading">Requirement Analysis</strong></p>
@@ -250,7 +250,7 @@
                                 <div class="col-lg-6 col-md-6 col-sm-6 key_setup">
                                     <table>
                                         <tr>
-                                            <td width="8%" class="position-relative">
+                                            <td width="8%" class="d-flex">
                                                 <img src="/website_kanak/static/src/img/netsuite/check_icon.svg" /></td>
                                             <td width="92%">
                                                 <p class="m-0"><strong class="netsuite-key-steps-heading">NetSuite Configuration</strong></p>
@@ -262,7 +262,7 @@
                                 <div class="col-lg-6 col-md-6 col-sm-6 key_setup">
                                     <table>
                                         <tr>
-                                            <td width="8%" class="position-relative">
+                                            <td width="8%" class="d-flex">
                                                 <img src="/website_kanak/static/src/img/netsuite/check_icon.svg" /></td>
                                             <td width="92%">
                                                 <p class="m-0"><strong class="netsuite-key-steps-heading">NetSuite Implementation</strong></p>
@@ -276,7 +276,7 @@
                                 <div class="col-lg-6 col-md-6 col-sm-6 key_setup">
                                     <table>
                                         <tr>
-                                            <td width="8%" class="position-relative">
+                                            <td width="8%" class="d-flex">
                                                 <img src="/website_kanak/static/src/img/netsuite/check_icon.svg" /></td>
                                             <td width="92%">
                                                 <p class="m-0"><strong class="netsuite-key-steps-heading">Data Migration</strong></p>
@@ -288,7 +288,7 @@
                                 <div class="col-lg-6 col-md-6 col-sm-6 key_setup">
                                     <table>
                                         <tr>
-                                            <td width="8%" class="position-relative">
+                                            <td width="8%" class="d-flex">
                                                 <img src="/website_kanak/static/src/img/netsuite/check_icon.svg" /></td>
                                             <td width="92%">
                                                 <p class="m-0"><strong class="netsuite-key-steps-heading">Testing</strong></p>

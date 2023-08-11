@@ -28,6 +28,7 @@
 
         'views/aboutus.xml',
         'views/privacy_policy.xml',
+        'views/kanak_cookie_policy.xml',
         'views/testimonial_page.xml',
         'views/our_team.xml',
         'views/engagement_model.xml',

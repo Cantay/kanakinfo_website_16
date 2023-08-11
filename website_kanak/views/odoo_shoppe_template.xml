@@ -56,9 +56,9 @@
                             </div>
                             <div class="col-md-5 img_block_4">
                                 <div class="center_image">
-                                    <img src="/website_kanak/static/src/img/odoo_shoppe/Wood-Hand.svg" class="img-fluid  s_block_4_img_1" />
+                                    <img src="/website_kanak/static/src/img/odoo_shoppe/Wood-Hand.svg" class="s_block_4_img_1" />
 
-                                    <img src="/website_kanak/static/src/img/odoo_shoppe/Wood-Hand_2.svg" class="img-fluid  s_block_4_img_2" />
+                                    <img src="/website_kanak/static/src/img/odoo_shoppe/Wood-Hand_2.svg" class="s_block_4_img_2" />
                                     <img src="/website_kanak/static/src/img/odoo_shoppe/Wooden_Hands_3.svg" class="img-fluid  s_block_4_img_3" />
                                     <div class="s_block_4_img_big_line"/>
                                 </div>

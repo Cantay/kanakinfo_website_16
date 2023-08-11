@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<template id="kanak_cookie_policy" inherit_id="website.cookie_policy" name="Kanank Cookie Policy">
+		<xpath expr="//div[@id='wrap']" position="replace">
+			<div id="wrap" class="oe_structure">
+                <section class="pt8 pb8">
+                    <div class="container">
+                        <h2 class="pt16">Our Cookie Policy</h2>
+                        <p>
+                            Greetings from Kanak Infosystems! How we utilise cookies on our website is explained on this page. You agree to the use of cookies as outlined in this policy by continuing to explore and use this website.
+                        </p>
+                        <h4>What are Cookies?</h4>
+                        <p>
+                            When you visit a website, little text files called cookies are downloaded to your computer, mobile phone, or tablet. They are frequently employed to make websites operate more effectively and enhance user experience.
+
+                        </p>
+
+                        <h4>How Cookies Are Used</h4>
+
+                        <p>We utilise cookies at Kanak Infosystems to:</p>
+
+                        <div class="table-responsive">
+                            <table class="small table table-bordered text-center">
+                                <thead class="table-light">
+                                    <tr>
+                                        <th scope="col" style="width: 30%">Category of Cookie</th>
+                                        <th scope="col" style="width: 70%; min-width: 200px;">Purpose</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <p><b>Enhance Functionality:</b></p>
+                                        </td>
+                                        <td>
+                                            <p>
+                                                Cookies enable us to give you a seamless and customised experience. Your visits become more effective and entertaining since they keep track of your preferences and settings.
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p><b>Performance Analysis:</b></p>
+                                        </td>
+                                        <td>
+                                            <p>To better understand how you use our website, we employ cookies. We can enhance our content, design, and user experience thanks to this data.</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><p><b>Relevant material:</b></p></td>
+                                        <td>
+                                            <p>
+                                                Cookies help to improve your surfing experience by displaying material that is tailored to your interests and preferences.</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p><b>Enhance Security:</b></p>
+                                        </td>
+                                        <td>
+                                            <p>
+                                                By assisting us in identifying and preventing malicious activity, some cookies improve the security of our website.
+                                            </p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <h4>Types of Cookies We Use</h4>
+                        <p><b>Cookies that are Essential:</b> Without these, the website won't operate properly. They make it possible for fundamental operations like page navigation and entry into secure portions of the website.</p>
+
+						<p><b>Cookies for analysis and performance:</b> These cookies allow us to monitor how users interact with our website. They enable us to monitor website traffic and determine the most popular pages.</p>
+
+						<p><b>Functionality Cookies:</b> By remembering your preferences and selections, functionality cookies improve your experience by presenting personalised features.</p>
+
+						<p><b>Cookies used for targeting and advertising:</b> These cookies are used to deliver content that is pertinent to your interests. They might be applied to limit the amount of times you see an advertisement or deliver tailored advertising.</p>
+
+
+						<h4>Managing Cookies</h4>
+
+						<p>Cookies can be managed and controlled in your browser's settings. Although you can choose to block or remove cookies, you should be aware that doing so can make it more difficult for you to utilise our website to its full potential.</p>
+
+						<h4>Modifications to This Policy</h4>
+
+						<p>Our Cookies Policy may occasionally be updated. Please check this website frequently for any updates as they will be put here.</p>
+
+						<p>You consent to the usage of cookies as outlined in this policy by using our website.</p>
+
+						<p>Contact us at [sales@kanakinfosystems.com] if you have any inquiries regarding our policy.</p>
+
+						<p>Updated on [11 Aug 2023]</p>
+                    </div>
+                </section>
+            </div>
+			
+		</xpath>
+
+    </template>
+</odoo>

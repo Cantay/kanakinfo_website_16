@@ -36,7 +36,7 @@
                             <div id="connect" class="col-7 col-lg-4 offset-lg-1 order-3 pb24 d-lg-none pt24">
                                 <h5 class="mb-3">Connect with us</h5>
                                 <ul class="list-unstyled">
-                                    <li><i class="fa fa-skype fa-fw me-2 d-none"></i><span><a href="skype:kanakinfosystems?chat">kanakinfosystems</a></span></li>
+                                    <li><i class="fa fa-skype fa-fw me-2"></i><span><a href="skype:kanakinfosystems?chat">kanakinfosystems</a></span></li>
                                     <li><i class="fa fa-envelope fa-fw me-2 d-none" /><span><a href="mailto:sales@kanakinfosystems.com">sales@kanakinfosystems.com</a></span></li>
                                     <li><i class="fa fa-phone fa-fw me-2 d-none" /><span class="o_force_ltr"><a href="tel:+91 9818108884, 011-42143250">+91 9818108884</a></span></li>
                                 </ul>

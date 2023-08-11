@@ -7,7 +7,7 @@
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-8 col-md-12">
-                                <form action="/website_form/" method="post" data-model_name="crm.lead" data-success_page="/contactus-thank-you" class="s_website_form mt32 kanak_contactus_from" enctype="multipart/form-data" data-editable-form="false">
+                                <form action="/website/form/" method="post" data-model_name="crm.lead" data-success_page="/contactus-thank-you" class="s_website_form mt32 kanak_contactus_from" enctype="multipart/form-data" data-editable-form="false">
                                     <div class="row">
                                         <t t-if="not user_id._is_public()">
                                             <div class="form-group col-md-6" >

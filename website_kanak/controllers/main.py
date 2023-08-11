@@ -241,7 +241,7 @@ class WebsiteKanak(http.Controller):
 
 
 class WebsiteForm(WebsiteForm):
-    @http.route('/website_form/<string:model_name>', type='http', auth="public", methods=['POST'], website=True)
+    @http.route('/website/form/<string:model_name>', type='http', auth="public", methods=['POST'], website=True, csrf=False)
     def website_form(self, model_name, **kwargs):
         if model_name == 'crm.lead':
             if 'g-recaptcha-response' in kwargs and request.website.is_captcha_valid(kwargs['g-recaptcha-response']):

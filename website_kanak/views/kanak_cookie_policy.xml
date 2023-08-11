@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-	<template id="kanak_cookie_policy" inherit_id="website.cookie_policy" name="Kanank Cookie Policy">
+	<template id="kanak_cookie_policy" inherit_id="website.cookie_policy" name="Kanak Cookie Policy">
 		<xpath expr="//div[@id='wrap']" position="replace">
 			<div id="wrap" class="oe_structure">
                 <section class="pt8 pb8">
@@ -20,7 +20,7 @@
                         <p>We utilise cookies at Kanak Infosystems to:</p>
 
                         <div class="table-responsive">
-                            <table class="small table table-bordered text-center">
+                            <table class="small table table-bordered text-left mx-auto" style="width:80%">
                                 <thead class="table-light">
                                     <tr>
                                         <th scope="col" style="width: 30%">Category of Cookie</th>
@@ -66,7 +66,7 @@
                                 </tbody>
                             </table>
                         </div>
-                        <h4>Types of Cookies We Use</h4>
+                        <h4 class="mt24">Types of Cookies We Use</h4>
                         <p><b>Cookies that are Essential:</b> Without these, the website won't operate properly. They make it possible for fundamental operations like page navigation and entry into secure portions of the website.</p>
 
 						<p><b>Cookies for analysis and performance:</b> These cookies allow us to monitor how users interact with our website. They enable us to monitor website traffic and determine the most popular pages.</p>

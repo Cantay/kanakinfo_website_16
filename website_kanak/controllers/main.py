@@ -265,29 +265,29 @@ class WebsiteForm(WebsiteForm):
 
 
 
-# class WebsiteHrRecruitmentInherit(WebsiteHrRecruitment):
+class WebsiteHrRecruitmentInherit(WebsiteHrRecruitment):
 
-#     @http.route()
-#     def jobs(self, country=None, department=None, office_id=None, **kwargs):
-#         res = super(WebsiteHrRecruitmentInherit, self).jobs(
-#             country=country, department=department, office_id=office_id)
-#         if kwargs.get('jobs'):
-#             filter_job = res.qcontext.get('jobs').search(
-#                 [("id", "=", int(kwargs.get('jobs')))])
-#             res.qcontext['jobs'] = filter_job
-#         return res
+    @http.route()
+    def jobs(self, country=None, department=None, office_id=None, **kwargs):
+        res = super(WebsiteHrRecruitmentInherit, self).jobs(
+            country=country, department=department, office_id=office_id)
+        if kwargs.get('jobs'):
+            filter_job = res.qcontext.get('jobs').search(
+                [("id", "=", int(kwargs.get('jobs')))])
+            res.qcontext['jobs'] = filter_job
+        return res
 
-#     @http.route('/jobs/detail/<string:url>', type='http', auth="public", website=True)
-#     def jobs_detail(self, url, **kwargs):
-#         if url:
-#             url = str('/jobs/detail/') + str(url)
-#         job = request.env['hr.job'].search([('website_url', '=', url)], limit=1)
-#         if not job:
-#             raise werkzeug.exceptions.NotFound()
-#         return request.render("website_hr_recruitment.detail", {
-#             'job': job,
-#             'main_object': job,
-#         })
+    @http.route('/jobs/detail/<string:url>', type='http', auth="public", website=True)
+    def jobs_detail(self, url, **kwargs):
+        if url:
+            url = str('/jobs/detail/') + str(url)
+        job = request.env['hr.job'].search([('website_url', '=', url)], limit=1)
+        if not job:
+            raise werkzeug.exceptions.NotFound()
+        return request.render("website_hr_recruitment.detail", {
+            'job': job,
+            'main_object': job,
+        })
 
     # @http.route('/jobs/apply/<string:url>', type='http', auth="public", website=True)
     # def jobs_apply(self, url, **kwargs):

@@ -21,13 +21,7 @@
 
                         <div class="table-responsive">
                             <table class="small table table-bordered text-left mx-auto" style="width:80%">
-                                <thead class="table-light">
-                                    <tr>
-                                        <th scope="col" style="width: 30%">Category of Cookie</th>
-                                        <th scope="col" style="width: 70%; min-width: 200px;">Purpose</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
+                                <tbody class="table-light">
                                     <tr>
                                         <td>
                                             <p><b>Enhance Functionality:</b></p>
@@ -76,11 +70,11 @@
 						<p><b>Cookies used for targeting and advertising:</b> These cookies are used to deliver content that is pertinent to your interests. They might be applied to limit the amount of times you see an advertisement or deliver tailored advertising.</p>
 
 
-						<h4>Managing Cookies</h4>
+						<h4 class="mt24">Managing Cookies</h4>
 
 						<p>Cookies can be managed and controlled in your browser's settings. Although you can choose to block or remove cookies, you should be aware that doing so can make it more difficult for you to utilise our website to its full potential.</p>
 
-						<h4>Modifications to This Policy</h4>
+						<h4 class="mt24">Modifications to This Policy</h4>
 
 						<p>Our Cookies Policy may occasionally be updated. Please check this website frequently for any updates as they will be put here.</p>
 

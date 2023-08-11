@@ -260,7 +260,6 @@ class WebsiteForm(WebsiteForm):
             else:
                 return json.dumps(False)
         if model_name != 'crm.lead':
-            print("model_name---------", model_name, kwargs)
             res = super(WebsiteForm, self).website_form(model_name, **kwargs)
         return res
 

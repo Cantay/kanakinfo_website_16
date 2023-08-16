@@ -58,6 +58,10 @@ class GithubRepository(models.Model):
                 banner_image = module_info.get('images')[0]
             if module_info.get('images', False) and len(module_info.get('images', False)) > 1:
                 theme_image = module_info.get('images')[1]
+            default_currency = self.env.ref('base.EUR')
+            if module_info.get('currency'):
+                default_currency = self.env.ref("base.%s" % module_info.get('currency'))
+            default_price = default_currency._convert(float(module_info.get('price', 0.00)), self.env.company.currency_id, self.env.company, fields.Date.context_today(self))
             module_version.write({
                 'repository_id': self.id,
                 'version': self.github_url,
@@ -69,6 +73,9 @@ class GithubRepository(models.Model):
                 'description_sale': module_info.get('summary', ''),
                 'license': module_info.get('license', ''),
                 'app_timestamp': module_info.get('timestamp', '')
+            })
+            module_version.product_template_attribute_value_ids.write({
+                'price_extra': default_price - module_version.list_price
             })
 
     def get_apps(self):

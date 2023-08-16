@@ -39,6 +39,10 @@
             <xpath expr="//field[@name='name']" position="replace">
                 <field name="name" string="Product" filter_domain="['|', '|', '|', '|', ('default_code', 'ilike', self), ('product_variant_ids.default_code', 'ilike', self),('name', 'ilike', self), ('barcode', 'ilike', self), ('technical_name', 'ilike', self)]"/>
             </xpath>
+            <xpath expr="//filter[@name='consumable']" position="after">
+                <filter string="Apps" name="kanak_apps_filter" domain="[('technical_name', '!=', False)]"/>
+                <filter string="Free Apps" name="kanak_apps_filter" domain="[('technical_name', '!=', False), ('list_price', '&lt;', 1)]"/>
+            </xpath>
         </field>
     </record>
 

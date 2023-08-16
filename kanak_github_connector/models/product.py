@@ -90,13 +90,14 @@ class ProductProduct(models.Model):
         if info.get('currency'):
             default_currency = self.env.ref("base.%s" % info.get('currency'))
         default_price = default_currency._convert(float(info.get('price', 0.00)), self.env.company.currency_id, self.env.company, fields.Date.context_today(self))
+        exist_product = self.env['product.template'].search([('technical_name', '=', info['technical_name'])], limit=1)
         values = {
             'name': info['name'],
             'technical_name': info['technical_name'],
             'website_published': True,
             'description': info.get('description', ''),
             'public_categ_ids': [(6, 0, self.get_module_category(info) or [])],
-            'list_price': default_price,
+            'list_price': exist_product.list_price if exist_product else default_price,
             'url': info['name'].lower().replace(' ', '-'),
             'live_preview': info.get('live_test_url', '') or '',
             'sale_ok': True,

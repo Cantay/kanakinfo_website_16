@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="sale_order_portal_content_inherit_website_sale" inherit_id="website_sale.sale_order_portal_content_inherit_website_sale">
+        <xpath expr="//a[@t-if='line.product_id.website_published']" position="after">
+            <t t-if="line.product_id.website_published and sale_order.state in ['sale', 'done']">
+                <a t-att-href="line.get_apps_download_link()" class="btn btn-primary btn-sm ml-2">Download App</a>
+            </t>
+        </xpath>
+    </template>
+</odoo>

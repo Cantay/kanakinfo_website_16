@@ -6,7 +6,7 @@
     "name": "Kanak Apps",
     "version": "16.0.0.0",
     "category": "website",
-    "depends": ['sale', 'website_sale'],
+    "depends": ['sale', 'website_sale', 'kanak_github_connector'],
     'license': 'OPL-1',
     'website': 'https://www.kanakinfosystems.com',
     'author': 'Kanak Infosystems LLP.',
@@ -19,7 +19,8 @@
         'views/components.xml',
         'views/header_apps.xml',
         'views/template.xml',
-        'views/AppsDetails.xml'
+        'views/AppsDetails.xml',
+        'views/portal.xml'
     ],
     "auto_install": False,
     'assets': {

@@ -104,3 +104,15 @@ class SaleOrderLine(models.Model):
     def _is_not_sellable_line(self):
         return self.product_id and self.product_id.product_tmpl_id and \
             self.product_id.product_tmpl_id.technical_name or super()._is_not_sellable_line()
+
+    def get_apps_download_link(self):
+        link = ''
+        if self.order_id.access_token and self.order_id.state in ['sale', 'done']:
+            if self.product_id.version and self.product_id.technical_name:
+                if 'theme' in self.product_id.technical_name:
+                    link = '%s/download/apps/themes/%s/%s/%s?access_token=%s' % (self.order_id.get_base_url(), self.product_id.version, self.product_id.technical_name, self.order_id.id, self.order_id.access_token)
+                    return link
+                else:
+                    link = '%s/download/apps/modules/%s/%s/%s?access_token=%s' % (self.order_id.get_base_url(), self.product_id.version, self.product_id.technical_name, self.order_id.id, self.order_id.access_token)
+                    return link
+        return link

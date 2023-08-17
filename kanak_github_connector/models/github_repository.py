@@ -57,7 +57,7 @@ class GithubRepository(models.Model):
                     for element, attribute, link, pos in html.iterlinks():
                         if element.get('src') and '//' not in element.get('src') and 'static/' not in element.get('src'):
                             # /apps/assets/8.0/odoo_shoppe_backend_theme/v1_0_10.png
-                            element.set('src', "https://team.kanakinfosystems.com/apps/assets/%s/%s/%s" % (self.github_url, module_info['technical_name'], element.get('src')))
+                            element.set('src', "https://team.kanakinfosystems.com/apps/assets/%s/%s?imagepath=%s" % (self.github_url, module_info['technical_name'], element.get('src')))
                     description_rst_html = tools.html_sanitize(lxml.html.tostring(html))
                 except Exception as e:
                     _logger.info("error:%s", e)

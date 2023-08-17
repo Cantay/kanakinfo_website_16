@@ -43,6 +43,14 @@
                     <button name="get_apps" type="object" string="GET APPS" class="btn btn-primary" />
                 </header>
                 <sheet>
+                    <div class="oe_button_box" name="button_box" attrs="{'invisible': [('app_lines', '=', False)]}">
+                        <button name="action_get_apps"
+                                class="oe_stat_button"
+                                type="object"
+                                icon="fa-cubes">
+                            Apps
+                        </button>
+                    </div>
                     <group>
                         <field name="github_url" string="Version" />
                     </group>
@@ -71,6 +79,19 @@
             </tree>
         </field>
     </record>
+
+    <record model='ir.ui.view' id='github_repository_line_view_tree'>
+        <field name='name'>github.repository.line.tree</field>
+        <field name='model'>github.repository.line</field>
+        <field name='arch' type='xml'>
+            <tree string='APPS'>
+                <field name="name" />
+                <field name="timestamp" />
+                <button name="update_apps" type="object" string="SYNC" class="btn btn-primary btn-sm" />
+            </tree>
+        </field>
+    </record>
+
     <record id="github_repository_view_action" model="ir.actions.act_window">
         <field name="name">Github repository</field>
         <field name="res_model">github.repository</field>

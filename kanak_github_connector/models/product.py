@@ -85,7 +85,6 @@ class ProductProduct(models.Model):
                     'attribute_id': product_attribute_id.id
                 })
 
-        _logger.info("===Technical Name====%s" % (info.get('technical_name')))
         default_currency = self.env.ref('base.EUR')
         if info.get('currency'):
             default_currency = self.env.ref("base.%s" % info.get('currency'))

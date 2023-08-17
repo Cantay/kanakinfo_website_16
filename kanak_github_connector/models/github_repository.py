@@ -3,7 +3,7 @@
 import logging
 import requests
 import lxml.html
-from odoo import fields, models, tools
+from odoo import _, fields, models, tools
 
 _logger = logging.getLogger(__name__)
 
@@ -16,16 +16,26 @@ class GithubRepositoryLine(models.Model):
     timestamp = fields.Char('Last Modification')
 
     def update_apps(self):
-        self.ensure_one()
-        appdata = []
-        appdata.append(self.name)
-        product_id = self.env['product.product'].sudo().search([('technical_name', '=', self.name), ('version', '=', self.github_repo.github_url)], limit=1)
-        if product_id and product_id.exists():
-            try:
-                product_id.write({'app_timestamp': ''})
-                self.github_repo.sync_apps(appdata)
-            except Exception as e:
-                pass
+        cnt = 1
+        url = "https://team.kanakinfosystems.com/api/get/%s/apps" % (self.mapped('github_repo').github_url)
+        headers = {
+            'Authorization': 'Bearer 2fffeffc83024c6bbc0354751698be58cd3997e8'
+        }
+        response = requests.request("GET", url, headers=headers)
+        res = response.json()
+        for app in self:
+            product_id = self.env['product.product'].sudo().search([('technical_name', '=', app.name), ('version', '=', app.github_repo.github_url)], limit=1)
+            if product_id and product_id.exists():
+                try:
+                    product_id.write({'app_timestamp': ''})
+                    app.github_repo.sync_apps([app.name])
+                    _logger.info("=======%s : %d/%d" % (app.name, cnt, len(self)))
+                    cnt += 1
+                    results = list(filter(lambda x: x[0] == app.name, res.get('data')))
+                    app.write({'timestamp': results[0][1]})
+                    self.env.cr.commit()
+                except Exception as e:
+                    pass
 
 
 class GithubRepository(models.Model):
@@ -35,6 +45,16 @@ class GithubRepository(models.Model):
     sequence = fields.Integer(default=1)
     github_url = fields.Char(string='Branch Name', required=True)
     app_lines = fields.One2many('github.repository.line', 'github_repo')
+
+    def action_get_apps(self):
+        self.ensure_one()
+        return {
+            'name': _('Apps'),
+            'type': 'ir.actions.act_window',
+            'res_model': 'github.repository.line',
+            'view_mode': 'list',
+            'domain': [('id', 'in', self.app_lines.ids)]
+        }
 
     def sync_apps(self, appdata):
         product_product_obj = self.env['product.product'].sudo()

@@ -13,6 +13,7 @@
     ],
     'data': [
             'security/ir.model.access.csv',
+            'data/data.xml',
             'views/github_repository_views.xml',
             'views/menus.xml',
             'views/product_details_template.xml',

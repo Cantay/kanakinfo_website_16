@@ -244,7 +244,7 @@ class KanakApp(WebsiteSale):
         product_id = request.env['product.product'].browse(int(post.get('product_id')))
         if product_id:
             try:
-                if not product_id.list_price and product_id.product_template_attribute_value_ids and \
+                if not product_id._get_contextual_price_tax_selection() and product_id.product_template_attribute_value_ids and \
                     product_id.product_template_attribute_value_ids[0].name == post.get('version', '') and \
                         product_id.technical_name == post.get('module_name', ''):
                     modulename = post.get('module_name', '')

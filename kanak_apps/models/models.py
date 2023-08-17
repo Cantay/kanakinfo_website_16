@@ -15,6 +15,9 @@ class ProductTemplate(models.Model):
     app_sale_count = fields.Integer(string="Apps Sale Count", default=0, compute="compute_app_sale_count", store=True)
     old_url_product = fields.Char(string="Old Url", compute='_compute_old_product_url', store=True)
 
+    def action_toggle_is_published(self):
+        self.is_published = not self.is_published
+
     @api.depends('name')
     def _compute_old_product_url(self):
         for product in self:

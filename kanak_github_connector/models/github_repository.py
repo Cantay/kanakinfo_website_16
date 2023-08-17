@@ -15,6 +15,18 @@ class GithubRepositoryLine(models.Model):
     name = fields.Char()
     timestamp = fields.Char('Last Modification')
 
+    def update_apps(self):
+        self.ensure_one()
+        appdata = []
+        appdata.append(self.name)
+        product_id = self.env['product.product'].sudo().search([('technical_name', '=', self.name), ('version', '=', self.github_repo.github_url)], limit=1)
+        if product_id and product_id.exists():
+            try:
+                product_id.write({'app_timestamp': ''})
+                self.github_repo.sync_apps(appdata)
+            except Exception as e:
+                pass
+
 
 class GithubRepository(models.Model):
     _name = 'github.repository'

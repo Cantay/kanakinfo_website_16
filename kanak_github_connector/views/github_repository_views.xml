@@ -52,6 +52,7 @@
                                 <tree>
                                     <field name="name" />
                                     <field name="timestamp" />
+                                    <button name="update_apps" type="object" string="SYNC" class="btn btn-primary btn-sm" />
                                 </tree>
                             </field>
                         </page>

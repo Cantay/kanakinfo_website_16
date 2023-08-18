@@ -203,7 +203,17 @@ class WebsiteCustomeBlog(WebsiteBlog):
     def blog_post(self, blog, post_url, tag_id=None, page=1, enable_editor=None, **post):
         return request.redirect("/blog/%s" % post_url)
 
-    @http.route(['''/blog/<string:post_url>'''], type='http', auth="public", website=True)
+    def sitemap_blogs(env, rule, qs):
+        blog_posts = env['blog.post']
+        dom = env['website'].get_current_website().website_domain()
+
+        if not qs or qs.lower() in '/blog':
+            for blog_post in blog_posts.search(dom):
+                if blog_post and blog_post.url:
+                    loc = '/blog/%s' % (blog_post.url)
+                    yield {'loc': loc}
+
+    @http.route(['''/blog/<string:post_url>'''], type='http', auth="public", website=True, sitemap=sitemap_blogs)
     def custom_blog_post(self, blog=None, post_url=None, tag_id=None, page=1, enable_editor=None, **post):
         BlogPost = request.env['blog.post']
         # Redirect for old url to new url redirect

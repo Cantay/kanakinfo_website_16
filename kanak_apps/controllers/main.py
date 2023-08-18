@@ -221,7 +221,7 @@ class KanakApp(WebsiteSale):
         if order == 'Highest+Price':
             return 'list_price desc'
 
-    @http.route(['/apps/<string:mtype>/<string:version>/<string:modulename>'], type='http', auth="public", website=True)
+    @http.route(['/apps/<string:mtype>/<string:version>/<string:modulename>'], type='http', auth="public", website=True, sitemap=True)
     def AppsDetails(self, mtype='', version='', modulename='', **post):
         if not self.check_is_found_or_not(mtype) or (version and version not in AVALABLE_VERSION):
             raise NotFound()

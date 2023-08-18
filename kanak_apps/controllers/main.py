@@ -221,7 +221,25 @@ class KanakApp(WebsiteSale):
         if order == 'Highest+Price':
             return 'list_price desc'
 
-    @http.route(['/apps/<string:mtype>/<string:version>/<string:modulename>'], type='http', auth="public", website=True, sitemap=True)
+    def sitemap_apps(env, rule, qs):
+        products = request.env['product.template'].search([('is_published', '=', True), ('technical_name', '!=', '')])
+        if not qs or qs.lower() in '/apps':
+            for mtype in ['modules', 'themes']:
+                for version in AVALABLE_VERSION:
+                    for product in products:
+                        domain = [('is_published', '=', True)]
+                        domain += [('version', '=', version)]
+                        if mtype != 'themes':
+                            domain += [('technical_name', 'not like', 'theme')]
+                        if mtype == 'themes':
+                            domain += [('technical_name', 'like', 'theme')]
+                        domain += [('technical_name', '=', product.technical_name)]
+                        exproduct = request.env['product.product'].search(domain, limit=1)
+                        if exproduct and exproduct.exists():
+                            loc = '/apps/%s/%s/%s' % (mtype, version, product.technical_name)
+                            yield {'loc': loc}
+
+    @http.route(['/apps/<string:mtype>/<string:version>/<string:modulename>'], type='http', auth="public", website=True, sitemap=sitemap_apps)
     def AppsDetails(self, mtype='', version='', modulename='', **post):
         if not self.check_is_found_or_not(mtype) or (version and version not in AVALABLE_VERSION):
             raise NotFound()

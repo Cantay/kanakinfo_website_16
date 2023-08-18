@@ -24,6 +24,7 @@ class ProductProduct(models.Model):
     license = fields.Text(string="License")
     app_timestamp = fields.Char(string="Last Time")
     depends = fields.Char(string="Depends")
+    technical_name = fields.Char(related="product_tmpl_id.technical_name", string="technical_name")
 
     @api.model
     def get_module_category(self, info):

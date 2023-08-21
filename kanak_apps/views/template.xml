@@ -456,24 +456,52 @@
     </template>
     <template id="cart" inherit_id="website_sale.cart">
         <xpath expr="//div[@id='wrap']" position="before">
-            <t t-set="pageName" t-value="'hidden_bottom_chat_bar_cl'"/>
+            <style>
+                div#tidio-chat{
+                    display:none !important;
+                }
+                div[id*="gb-widget"]{
+                    display:none !important;
+                }
+            </style>
         </xpath>
     </template>
     <template id="checkout" inherit_id="website_sale.checkout">
         <xpath expr="//div[@id='wrap']" position="before">
-            <t t-set="pageName" t-value="'hidden_bottom_chat_bar_cl'"/>
+            <style>
+                div#tidio-chat{
+                    display:none !important;
+                }
+                div[id*="gb-widget"]{
+                    display:none !important;
+                }
+            </style>
         </xpath>
     </template>
 
     <template id="address" inherit_id="website_sale.address">
         <xpath expr="//div[@id='wrap']" position="before">
-            <t t-set="pageName" t-value="'hidden_bottom_chat_bar_cl'"/>
+            <style>
+                div#tidio-chat{
+                    display:none !important;
+                }
+                div[id*="gb-widget"]{
+                    display:none !important;
+                }
+            </style>
         </xpath>
     </template>
 
     <template id="payment" inherit_id="website_sale.payment">
         <xpath expr="//div[@id='wrap']" position="before">
-            <t t-set="pageName" t-value="'hidden_bottom_chat_bar_cl'"/>
+            <style>
+                div#tidio-chat{
+                    display:none !important;
+                }
+                div[id*="gb-widget"]{
+                    display:none !important;
+                }
+            </style>
         </xpath>
     </template>
     

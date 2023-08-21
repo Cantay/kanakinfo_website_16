@@ -55,4 +55,7 @@ odoo.define('kanak_website.career_search', function(require) {
         });
     });
 
+    $('.list_of_department').trigger('change');
+    
+
 });

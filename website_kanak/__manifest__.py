@@ -33,8 +33,6 @@
         'views/our_team.xml',
         'views/engagement_model.xml',
         'views/careers.xml',
-
-        
         'views/odoo_integration.xml',
         'views/odoo_development.xml',
         'views/odoo_Installation.xml',

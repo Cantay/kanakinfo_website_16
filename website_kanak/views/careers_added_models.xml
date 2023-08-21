@@ -70,12 +70,15 @@
         <field name="model">hr.job</field>
         <field name="inherit_id" ref="hr.view_hr_job_form" />
         <field name="arch" type="xml">
-            <xpath expr="//field[@name='no_of_recruitment']" position="after">
+            <xpath expr="//group[@name='recruitment2']" position="inside">
                 <field name="vacant_location" widget="many2many_tags" />
                 <field name="exp_required" />
                 <field name="job_skill" widget="many2many_tags" />
-                <field name="job_summary" />
                 <field name="job_image" />
+            </xpath>
+            <xpath expr="//page[@name='recruitment_page']/group[1]" position="inside">
+                <label for="job_summary"/>
+                <field name="job_summary"/>
             </xpath>
         </field>
     </record>

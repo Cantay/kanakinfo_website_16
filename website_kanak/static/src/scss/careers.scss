@@ -541,4 +541,17 @@
             text-align: left;
         }
     }
+    .roles_respo_jobs{
+        .bg-primary{
+            color: white;
+        }
+    }
+    .jd_details{
+        .bg-primary{
+            color: white;
+        }
+    }
+}
+#wrap:not(.js_apps, .auto_pop) .btn.btn-outline-primary.btn-lg.o_apply_description_link{
+    background: #003362;
 }

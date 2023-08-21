@@ -4,6 +4,7 @@
        <xpath expr="//div[@id='top_menu_collapse']//t[@t-as='submenu']" position="before">
           <li class="nav-item d-lg-none">
              <a class="btn btn-danger h2 text-white mt16" href="/apps"><i class="fa fa-check-square-o me-1"></i> Apps</a>
+             <a class="btn btn-light h2 text-white mt16 ms-2" href="/apps" style="background: cadetblue;"><i class="fa fa-ticket me-1"></i>Support</a>
           </li>
        </xpath>
     </template>
@@ -34,6 +35,7 @@
                               <li class="email"><i class="fa fa-envelope"></i> sales@kanakinfosystems.com</li>
                            </ul>
                            <div class="header_main_action_buttons float-end">
+                              <a class="btn btn-light ms-2" href="/helpdesk" style="background: cadetblue;"><i class="fa fa-ticket"></i>SUPPORT</a>
                               <a class="btn btn-one" href="/apps"><i class="fa fa-check-square-o"></i> APPS</a>
                            </div>
                         </div>

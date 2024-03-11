@@ -1,6 +1,7 @@
-
+/* Testimonial styles */
 .kanak_testimonial {
 
+    /* Work page home work styles */
     .workpage-home-work {
         .fa-chevron-right {
             font-size: 12px;
@@ -8,21 +9,22 @@
         background-color: $background-color_18;
         padding-top: 8px;
         padding-bottom: 8px;
-        opacity: .5;
+        opacity: 0.5;
     }
 
+    /* Testimonial styles for small screens */
     @media (max-width:767px) {
         .testimonial_kanak_002 {
             .test_box_001 {
                 p {
                     max-height: auto !important;
                     min-height: auto !important;
-                    }
+                }
             }
         }
-
     }
 
+    /* Privacy section styles */
     #privacy_sec_001 {
         background-position: 100% 27%;
     }
@@ -39,13 +41,13 @@
                 font-weight: 900;
             }
 
-            
             text-align: center;
             color: $color_3 !important;
             font-weight: 700;
         }
     }
 
+    /* Breadcrumb styles */
     .breadcrumb_custom {
         display: -webkit-box;
         list-style: none;
@@ -59,7 +61,6 @@
 
         li.active {
             a {
-
                 font-weight: 700;
             }
 
@@ -73,6 +74,7 @@
         }
     }
 
+    /* Title styles */
     h1.title_cl {
         text-align: center;
         text-transform: uppercase;
@@ -80,20 +82,22 @@
         font-weight: 700;
     }
 
+    /* Testimonial box styles */
     .testimonial_kanak_002 {
-        
+
         .test_box_001 {
             padding: 10pt;
             margin-bottom:50pt;
             border-radius: 33px;
             margin-top: 64px;
-            -webkit-box-shadow: 0 10px 17px -7px rgba(0, 0, 0, .75);
-            -moz-box-shadow: 0 10px 17px -7px rgba(0, 0, 0, .75);
-            box-shadow: 0 10px 17px -7px rgba(0, 0, 0, .75);
+            -webkit-box-shadow: 0 10px 17px -7px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 0 10px 17px -7px rgba(0, 0, 0, 0.75);
+            box-shadow: 0 10px 17px -7px rgba(0, 0, 0, 0.75);
 
             .test_image {
                 display: flex;
                 justify-content: center;
+
                 .img-logo {
                     height: 183px;
                     width: 183px;
@@ -104,7 +108,7 @@
                     display: flex;
                     align-items: center;
                     padding: 10pt;
-                    
+
                     img {
                         width: 150px;
                         border-radius: 50%;
@@ -133,12 +137,12 @@
         }
     }
 
+    /* Title styles */
     h3 {
-
         font-weight: 500;
-
     }
 
+    /* Testimonial styles */
     .testimonial_kanak_001 {
 
         margin-bottom: 81px;

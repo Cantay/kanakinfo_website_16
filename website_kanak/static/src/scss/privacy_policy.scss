@@ -1,5 +1,11 @@
+// Define common variables
+$background-color_18: #some-value;
+$color_15: #some-value;
+$color_3: #some-value;
+
 .privacy_policy_kanakinfo {
 
+    // Workpage home work
     .workpage-home-work {
         .fa-chevron-right {
             font-size: 12px;
@@ -7,9 +13,10 @@
         background-color: $background-color_18;
         padding-top: 8px;
         padding-bottom: 8px;
-        opacity: .5;
+        opacity: 0.5;
     }
 
+    // Privacy section banner
     .privacy_sec_banner {
         .p1_cl_001 {
             background: $color_15;
@@ -26,15 +33,17 @@
 
             padding: 8% 0 8% 0;
             text-align: center;
-            color: $color_3 !important;
+            color: $color_3;
             font-weight: 900;
         }
     }
 
+    // Privacy section 1
     #privacy_sec_001 {
         background-position: 100% 40%;
     }
 
+    // Paragraph styles
     p {
         font-size: 17px;
         line-height: 160%;
@@ -43,23 +52,12 @@
         font-weight: 300;
     }
 
+    // Title styles
     h1.title_cl {
         text-transform: uppercase;
-        font-size: 34px !important;
-        padding-left: 0 !important;
-        padding-right: 0 !important;
+        font-size: 34px;
+        padding-left: 0;
+        padding-right: 0;
     }
 
-    strong {
-        font-weight: bold;
-    }
-
-    @media screen and (max-width: 768px) {
-        h1.title_cl {
-            font-size: 20px !important;
-            padding-left: 0 !important;
-            padding-right: 0 !important;
-        }
-    }
-
-}
+    //

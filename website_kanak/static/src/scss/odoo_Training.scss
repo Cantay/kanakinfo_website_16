@@ -1,6 +1,5 @@
-
+// Training Banner
 .kanak_odoo_training {
-
     #main-odoo-training-banner {
         background-image: url(/website_kanak/static/src/img/odoo_Training/Training-bg.webp);
         background-repeat: no-repeat;
@@ -26,30 +25,36 @@
         }
     }
 
+    // Home Work Page
     .workpage-home-work {
         .fa-chevron-right {
             font-size: 12px;
         }
+
         background-color: $background-color_18;
         padding-top: 8px;
         padding-bottom: 8px;
         opacity: .5;
     }
 
+    // Spacing
     .for-spacing-all {
         p.training-block19 {
             text-align: center;
         }
     }
 
+    // Technical Training
     .heading-technical-trainng-hh {
         color: $color_2;
     }
 
+    // Two Port Space
     .for-two-port-space {
         background-color: $color_3;
     }
 
+    // Parallax Section
     #parallex-home-odoo-train2 {
         >.overlay-ab {
             top: 0;
@@ -65,6 +70,7 @@
         background-attachment: fixed;
     }
 
+    // Training Blocks
     .parallex-train-1 {
         position: relative;
         background: 50% 50%/cover;
@@ -113,6 +119,7 @@
         border-radius: 150px;
     }
 
+    // Functional Training
     .functional-training-class2 {
         text-align: right;
         color: $color_2;
@@ -136,6 +143,7 @@
         font-size: 16px;
     }
 
+    // Chapter Toggle
     .chapter-toggle {
         padding: 0;
         border: 1px solid #cdcdcd;
@@ -167,6 +175,7 @@
         font-size: 15px;
     }
 
+    // Only Training Toggle
     .only-training-toggle {
         .toggle-content {
             text-align: center;
@@ -178,6 +187,7 @@
         }
     }
 
+    // Themes Button
     .themes-btn-main {
         text-align: center;
     }
@@ -187,106 +197,4 @@
         padding-top: 20px;
     }
 
-    .btn-odoo-themes {
-        &:hover {
-            text-decoration: none;
-            color: $color_3;
-        }
-
-        border: 2px solid $color_2;
-        font-size: 20px;
-        color: $color_3;
-        background-color: $color_2;
-
-        
-        padding: 6px 18px;
-    }
-
-    .training-block19 {
-        color: $color_2;
-        text-align: center;
-        font-weight: 700;
-        font-size: 20px;
-    }
-
-    .only-insta-email {
-        text-align: center;
-        font-size: 24px;
-        padding-bottom: 25px;
-
-        a {
-            color: $color_2;
-        }
-    }
-
-    .insta-ph-num {
-        background-color: $color_2;
-
-        
-        padding: 4px;
-    }
-
-    .training-contactus {
-        a {
-            &:hover {
-                color: $color_3;
-                text-decoration: none;
-            }
-
-            background-color: $color_2;
-
-        
-            border-radius: 49px;
-            font-size: 25px;
-            color: $color_3;
-            padding: 5px 10px;
-        }
-
-        text-align: center;
-    }
-
-    .training-block111 {
-        font-size: 15px;
-        color: $color_2;
-    }
-
-    .functional-training-class1 {
-        color: $color_2;
-    }
-
-    .aaa-a1 {
-        color: $color_3;
-    }
-
-    .training-block18 {
-        color: $color_3;
-    }
-
-    @media (max-width:425px) {
-        .functional-training-class2 {
-            text-align: left;
-        }
-        .training-block111 {
-            text-align: left;
-        }
-    }
-
-    @media (max-width:768px) {
-        h2.training-block14 {
-            font-size: 22px;
-        }
-    }
-
-    @media (max-width:1024px) {
-        .training-block11 {
-            font-size: 14px;
-        }
-    }
-
-    @media (max-width:500px) {
-        .only-insta-email {
-            font-size: 16px;
-        }
-    }
-
-}
+    .btn-odoo-themes

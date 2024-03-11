@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
 
-from . import controllers
-from . import models
+# Import controllers and models for this module
+from .controllers import *
+from .models import *

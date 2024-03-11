@@ -1,24 +1,2 @@
-.kanak-request-customization{
-    .form-group{
-        margin-bottom: 15px;
-        label{
-            color: #666;
-            margin-bottom: 5px;
-            display: inline-block;
-            font-size: 15px;
-        }
-        .form-control {
-            color: #555555;
-            border: 1px solid #cccccc;
-            box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-            transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-            font-size: 15px;
-        }
-    }
-    #my-send-btn{
-        font-size: 20px;
-        box-shadow: none;
-        width: 100%;
-        border-radius: 0;
-    }
-}
+$label-color: #666;
+$input-color: #55555

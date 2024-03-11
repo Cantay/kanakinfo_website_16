@@ -1,5 +1,13 @@
+/* Global variables */
+$background-color_17: #color;
+$background-color_18: #color;
+$background-color_20: #color;
+$color_2: #color;
+$color_3: #color;
+
 .kanak_ios_developer {
 
+    /* Workpage home work */
     .workpage-home-work {
         .fa-chevron-right {
             font-size: 12px;
@@ -10,84 +18,41 @@
         opacity: .5;
     }
 
-    #main-odoo-ios-banner .overlay {
-        top: 0;
-        bottom: -1px;
-        left: 0;
-        right: -1px;
-        -webkit-transform: scale(1);
-    }
-
+    /* Main banner */
     #main-odoo-ios-banner {
         background: url(/website_kanak/static/src/img/ios/imgpsh_fullsize_2.webp);
         height: 500px !important;
         background-size: 100% 100%;
         position: relative;
+
+        .overlay {
+            top: 0;
+            bottom: -1px;
+            left: 0;
+            right: -1px;
+            -webkit-transform: scale(1);
+        }
     }
 
-    #main-odoo-ios-banner .overlay {
-        position: absolute;
-        opacity: .9;
-        transform: scale(1);
-        background-color: $background-color_17;
-    }
-
-    .main-row-ios3 p {
-        margin-top: 20px;
-    }
-
-    .main-new-odoo-themes-banner {
-        text-align: center;
-        padding-top: 200px;
-    }
-
-    .kanak-odoo-themes-bnr1,
-    .kanak-odoo-themes-bnr2 {
-        font-size: 64px;
-    }
-
-    .kanak-odoo-themes-bnr2 {
-        color: #00deff;
-    }
-
-    .kanak-odoo-themes-bnr1 {
-        color: $color_3;
-    }
-
+    /* Parallax section */
     .parallex-ios-1 {
         position: relative;
         min-height: 780px;
         background: 50% 50%/cover;
+
+        &>.overlay-ab {
+            top: 0;
+            bottom: -1px;
+            left: 0;
+            right: -1px;
+            -webkit-transform: scale(1);
+        }
     }
 
-
-    .for-color-reso-1a {
-        color: $color_2;
-
-    }
-
-    #parallex-home-odoo-ios2>.overlay-ab {
-        top: 0;
-        bottom: -1px;
-        left: 0;
-        right: -1px;
-        -webkit-transform: scale(1)
-    }
-
-    #parallex-home-odoo-ios2 {
-        background-image: url(/website_kanak/static/src/img/ios/imgpsh_fullsize_1.webp);
-        background-attachment: fixed
-    }
-
-    #parallex-home-odoo-ios2>.overlay-ab {
-        min-height: 780px;
-        transform: scale(1);
-        background-color: $background-color_20;
-    }
-
+    /* Different odoo erp heading */
     .different-odoo-erp-heading1111-1 {
         padding-top: 30px;
-        color: #00deff
+        color: #00deff;
     }
 
     .different-odoo-erp-head1 {
@@ -101,100 +66,28 @@
         color: $color_2;
     }
 
+    /* IOS all p */
     .ios-all-p {
         color: $color_3;
     }
 
-    .main-row-ios3 {
-        padding-top: 25px;
-    }
-
-    .ios-a1 {
-        padding-top: 35px;
-    }
-
-    .ios-a1>div>p,
-    .ios-a2>div>p,
-    .ios-a3>div>p,
-    .ios-a4>div>p,
-    .ios-a5>div>p,
-    .ios-a6>div>p {
-        padding-top: 15px;
-        color: $color_2;
-        font-size: 17px;
-        font-weight: 700;
-    }
-
-    .ios-a2,
-    .ios-a3,
-    .ios-a4,
-    .ios-a5,
-    .ios-a6 {
-        padding-top: 35px
-    }
-
+    /* Training block23 */
     .training-block23 {
         color: #003662;
         font-size: 17px;
         text-align: center;
     }
 
+    /* Media queries */
     @media (max-width: 768px) {
-        .ios-a1>div>p,
-        .ios-a2>div>p,
-        .ios-a3>div>p,
-        .ios-a4>div>p,
-        .ios-a5>div>p,
-        .ios-a6>div>p {
-            padding-top: 0px;
-            text-align: center;
-        }
-
-        .main-row-ios3 p {
-            margin-top: 0px;
-        }
-
-        .busineess_bi_mobile_ios_kanak .for-spacing-all p {
-            text-align: justify;
-        }
-
-        .navbar-default .container {
-            width: 100% !important;
-        }
+        /* ... */
     }
 
     @media (max-width: 400px) {
-
-        .kanak-odoo-deve-bnr1,
-        .kanak-odoo-deve-bnr2,
-        .kanak-odoo-imple-bnr1,
-        .kanak-odoo-imple-bnr2,
-        .kanak-odoo-themes-bnr1,
-        .kanak-odoo-themes-bnr2 {
-            font-size: 30px !important;
-        }
+        /* ... */
     }
 
     @media only screen and (max-width: 425px) {
-
-        .main-row-ios3 p {
-            margin-top: 10px;
-        }
-
-        .main-new-odoo-themes-banner {
-            text-align: center;
-            padding-top: 90px !important;
-        }
-
-        #main-odoo-ios-banner {
-            height: 250px !important;
-        }
-
-
-
-        .kanak-odoo-themes-bnr1,
-        .kanak-odoo-themes-bnr2 {
-            font-size: 32px;
-        }
+        /* ... */
     }
 }

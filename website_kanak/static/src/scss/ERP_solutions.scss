@@ -1,305 +1,193 @@
-.busineess_bi_erp_sol{
-    #main-erp-solution .overlay,
-#parallex-home-odoo-erp>.overlay-ab {
-	top: 0;
-	bottom: -1px;
-	left: 0;
-	right: -1px;
-	-webkit-transform: scale(1);
-}
-#main-erp-solution {
-    border-radius: 5px;
-	background: url(/website_kanak/static/src/img/erp_solution/erp_solution.webp);
-	background-size: 100%;
-	background-position: center;
-	position: relative;
-	div {
-		&.row {
-			display: flex;
-			align-items: center;
-			.mob {
-				display: block;
-			}
-			.main-erp {
-				padding: 20pt 0;
-			}
-			p {
-				color: #fff;
-				margin: 20pt 0;
-			}
-		}
-	}
-	.main-erp-head {
-		font-size: 48px;
-		font-weight: 900;
-		line-height: 100%;
-		margin: 0 !important;
-	}
-}
-#main-erp-solution .btn-erp-appointment, .btn-erp-appointment:hover {
-	border-radius: 5px;
-}
-.main-erp-solution-banner {
-	text-align: center;
-	padding-top: 180px;
+/* Business ERP Solution Styles */
+.busineess-bi-erp-sol {
+    #main-erp-solution {
+        position: relative;
+        border-radius: 5px;
+        background: url(/website_kanak/static/src/img/erp_solution/erp_solution.webp) no-repeat center center;
+        background-size: 100%;
+
+        &:before {
+            content: "";
+            top: 0;
+            bottom: -1px;
+            left: 0;
+            right: -1px;
+            position: absolute;
+            -webkit-transform: scale(1);
+            transform: scale(1);
+            background-color: rgba(42, 77, 105, .8);
+            z-index: 1;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            bottom: -1px;
+            left: 0;
+            right: -1px;
+            z-index: 2;
+        }
+
+        div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 20pt 0;
+            text-align: center;
+
+            p {
+                color: #fff;
+                margin: 20pt 0;
+            }
+        }
+
+        .main-erp-head {
+            font-size: 48px;
+            font-weight: 900;
+            line-height: 100%;
+            margin: 0 !important;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .btn-erp-appointment, .btn-erp-appointment:hover {
+            border-radius: 5px;
+        }
+    }
+
+    .main-erp-solution-banner {
+        text-align: center;
+        padding-top: 180px;
+    }
 }
 
-
-
-.workpage-home-work .fa-chevron-right {
-    font-size: 10px;
-    color: gray
-}
+/* Work Page Styles */
 .workpage-home-work {
     background-color: #d3d3d3;
     padding-top: 8px;
     padding-bottom: 8px;
-    opacity: .5
+    opacity: .5;
+
+    .fa-chevron-right {
+        font-size: 10px;
+        color: gray;
+    }
 }
-.all-home-colour a{
+
+.all-home-colour a {
     text-decoration: none;
     padding-left: 7px;
-
-
 }
+
+/* Middle Text Styles */
 #middel-text-odoo-deve {
-	&.bg-graycolor {
-		.bs {
-			box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.24);
-		}
-	}
-	.border {
-		border: 1px solid #a8a8a8;
-		padding: 0 15px;
-		background-color: #f7f7f7;
-		&.left {
-			border-bottom-right-radius: 35px;
-		}
-		&.right {
-			border-bottom-left-radius: 35px;
-		}
-	}
-	.implementation-heading1 {
-		font-size: 20px;
-		font-family: aileron, Roboto, sans-serif;
-		font-weight: 700;
-		margin-bottom: 5px;
-		text-transform: capitalize;
-	}
-	p {
-		text-align: justify;
-	}
-	&.services {
-		.for-spacing-all {
-			.border {
-				&.left {
-					border-bottom-right-radius: 0;
-				}
-				&.right {
-					border-bottom-left-radius: 0;
-				}
-			}
-		}
-	}
-}
-#middel-text-odoo-deve .for-deve-middletext1,
-#middel-text-odoo-deve .for-deve-middletext2 {
-	font-size: 17px;
-	line-height: 23px;
-}
-#middel-text-odoo-deve .for-deve-middletext1.text-right,
-#middel-text-odoo-deve .implementation-heading1.text-right {
-	text-align: right;
-}
-#middel-text-odoo-deve.services .for-deve-middletext1.text-right,
-    #middel-text-odoo-deve.services .implementation-heading1.text-right {
-	text-align: center !important;
-}
-.for-spacing-all {
-	letter-spacing: 0 !important;
-}
+    &.bg-graycolor {
+        .bs {
+            box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.24);
+        }
+    }
 
+    .border {
+        border: 1px solid #a8a8a8;
+        padding: 0 15px;
+        background-color: #f7f7f7;
+        display: inline-block;
+
+        &.left {
+            border-bottom-right-radius: 35px;
+        }
+
+        &.right {
+            border-bottom-left-radius: 35px;
+        }
+    }
+
+    .implementation-heading1 {
+        font-size: 20px;
+        font-family: aileron, Roboto, sans-serif;
+        font-weight: 700;
+        margin-bottom: 5px;
+        text-transform: capitalize;
+    }
+
+    p {
+        text-align: justify;
+    }
+
+    &.services {
+        .for-spacing-all {
+            .border {
+                &.left {
+                    border-bottom-right-radius: 0;
+                }
+
+                &.right {
+                    border-bottom-left-radius: 0;
+                }
+            }
+        }
+    }
+
+    .for-deve-middletext1,
+    .for-deve-middletext2 {
+        font-size: 17px;
+        line-height: 23px;
+    }
+
+    .for-deve-middletext1.text-right,
+    .implementation-heading1.text-right {
+        text-align: right;
+    }
 
     .for-spacing-all {
-        letter-spacing: 0 !important
+        letter-spacing: 0 !important;
     }
-    .for-spacing-all h1,
-    .for-spacing-all h3 {
-        color: #003662
-     }
-     a {
-        color: #337ab7;
-        text-decoration: none;
-    }
-     a:focus, a:hover {
-        color: #2a6496;
-        text-decoration: none
-    }
-    .deve-opensource {
-        color: #14caf3
-    }
-    .why-every-bs-a1 {
-        color: #003362
-    }
-    #main-ab-all-deve{
-        font-family: Roboto, sans-serif !important
-    }
-    .main-new-deve-paralx {
-        padding-top: 10px;
-        text-align: justify;
+}
 
+/* General Styles */
+.for-spacing-all {
+    letter-spacing: 0 !important;
+}
 
-    }
-    .main-new-odoo-deve-cn1,
-    .main-new-odoo-deve-cn2 {
-        color: #fff !important;
-        font-size: 17px;
+.for-spacing-all h1,
+.for-spacing-all h3 {
+    color: #003662;
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+a:focus,
+a:hover {
+    color: #2a6496;
+    text-decoration: none;
+}
+
+.deve-opensource {
+    color: #14caf3;
+}
+
+.why-every-bs-a1 {
+    color: #003362;
+}
+
+#main-ab-all-deve {
+    font-family: Roboto, sans-serif !important;
+}
+
+.main-new-deve-paralx {
+    padding-top: 10px;
+    text-align: justify;
+}
+
+.main-new-odoo-deve-cn1,
+.main-new-odoo-deve-cn2 {
+    color: #fff !important;
+    font-size: 17px;
     line-height: 160%;
     letter-spacing: 0px;
     color: #7b7b7b;
     font-family: 'aileron', Roboto, sans-serif;
-    text-align: center
-    }
-    .icon-circled img, svg {
-        vertical-align: middle;
-        display: block;
-        max-width: 100%;
-        height: auto;
-    }
-
-    #parallex-home-odoo-erp {
-        background-image: url(/website_kanak/static/src/img/erp_solution/erp_bg_perlx.webp);
-        background-attachment: fixed;
-        width: 100%;
-        height: auto;
-        & > .overlay-ab {
-            min-height: 328px;
-            transform: scale(1);
-            background-color: rgba(42, 77, 105, .8);
-        }
-    }
-    .parallex-deve-erpsolution-1 {
-        position: relative;
-        min-height: 328px;
-        background: 50% 50%/cover;
-    }
-    
-    .customcontainer {
-        max-width: 1170px;
-        margin-left: auto;
-        margin-right: auto;
-        width: auto
-    }
-
-    .custom_features {
-        .feature {
-            padding: 15px 0;
-            color: #003362;
-            font-size: 18px;
-        }
-    }
-    .feature {
-        .icon-circled {
-            -webkit-transform: scale(1);
-            transform: scale(1);
-            -webkit-transition: all .2s ease-in 0s;
-            transition: all .2s ease-in 0s;
-            &:hover {
-                box-shadow: 0 0 30px #0d111c;
-                -webkit-transform: scale(1.15);
-                transform: scale(1.15);
-            }
-        }
-    }
-    .icon-circled {
-        background-color: #003662;
-        border-radius: 50%;
-        display: inline-block;
-        overflow: hidden;
-        .svg-icon {
-            height: 37px;
-            margin: -8px 34px 0 0;
-            width: 50px;
-            line-height: 50px;
-        }
-    }
-    .icon-circled-lg {
-        font-size: 50px;
-        height: 100px;
-        line-height: 100px;
-        width: 100px;
-    }
-    
-    .magento-block11 {
-        color: #003662;
-        font-weight: bolder;
-        font-size: 17px;
-        text-align: center
-    }
-    .process-img-hire {
-        padding-bottom: 15px;
-        padding-top: 15px
-    }
-    .hire-contactus {
-        text-align: center
-    }
-    .hire-contactus a:hover {
-        color: #fff;
-        text-decoration: none !important
-    }
-    .hire-contactus a {
-        font-size: 25px;
-        background-color: #003362;
-        border-radius: 49px;
-        color: #fff;
-        padding: 5px 10px
-    }
-    
-    .hire-contactus a:hover {
-        color: #fff
-    }
-    .icon-circled-lg {
-        font-size: 50px;
-        height: 100px;
-        line-height: 100px;
-        width: 100px
-    }
-
-@media (max-width: 640px){
-    #main-erp-solution .main-erp-head {
-        font-size: 28px;
-    }
-
-    #main-erp-solution div.row p{
-        margin: 10pt 0;
-    }
-
-    #main-erp-solution div.row .mob{
-        display: none;
-    }
-
-    #main-erp-solution div.row .main-erp{
-        padding: 15pt 20pt;
-    }
-
-}
-@media (max-width:768px) {
-    .main-erp-solution-banner {
-        padding-top: 121px !important
-    }
-    // .for-spacing-all {
-    //     letter-spacing: 0 !important;
-    // }
-    .col-sm-6 {
-        width: 50%;
-    }
-}
-@media (max-width: 640px){
-#main-erp-solution div.row .mob {
-    display: none;
-}}
-@media (max-width:400px) {
-    .main-erp-solution-banner {
-        padding-top: 70px !important
-    }}
-}
+    text-align: center;

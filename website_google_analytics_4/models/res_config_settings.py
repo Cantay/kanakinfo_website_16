@@ -5,7 +5,6 @@
 
 from odoo import api, fields, models
 
-
 class ResConfigSettings(models.TransientModel):
     _inherit = 'res.config.settings'
 
@@ -14,16 +13,30 @@ class ResConfigSettings(models.TransientModel):
         readonly=False,
     )
 
-    @api.depends('website_id')
-    def has_google_analytics_4(self):
-        self.has_google_analytics_4 = bool(self.google_analytics_4_key)
+    google_analytics_4_key = fields.Char(
+        string='Google Analytics 4 Key',
+    )
 
-    def inverse_has_google_analytics_4(self):
-        if not self.has_google_analytics_4:
-            self.google_analytics_4_key = False
+    @api.depends('google_analytics_4_key')
+    def _compute_has_google_analytics_4(self):
+        for record in self:
+            record.has_google_analytics_4 = bool(record.google_analytics_4_key)
 
     has_google_analytics_4 = fields.Boolean(
         string='Google Analytics 4',
-        compute=has_google_analytics_4,
-        inverse=inverse_has_google_analytics_4,
+        compute='_compute_has_google_analytics_4',
+        store=True,
     )
+
+    def _inverse_has_google_analytics_4(self):
+        for record in self:
+            if not record.has_google_analytics_4:
+                record.google_analytics_4_key = False
+
+    def set_has_google_analytics_4(self):
+        for record in self:
+            if record.has_google_analytics_4:
+                record.google_analytics_4_key = record.google_analytics_4_key or ''
+            else:
+                record.google_analytics_4_key = False
+        return True

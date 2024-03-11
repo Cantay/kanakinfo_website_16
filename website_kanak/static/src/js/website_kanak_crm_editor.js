@@ -1,12 +1,16 @@
 odoo.define('website_kanak.form', function (require) {
 'use strict';
 
+// Import required modules
 var core = require('web.core');
-var FormEditorRegistry = require('website.form_editor_registry');
+var FormBuilderRegistry = require('web.form_builder_registry');
 
+// Translation function
 var _t = core._t;
 
-FormEditorRegistry.add('create_lead', {
+// Add the form to the form builder registry
+FormBuilderRegistry.add('create_lead', {
+    // Define the fields for the form
     formFields: [{
         type: 'char',
         required: true,
@@ -32,7 +36,8 @@ FormEditorRegistry.add('create_lead', {
         string: 'Your Company',
     }, {
         type: 'char',
-        modelRequired: true,
+        required: true,
+        fillWith: 'commercial_company_name',
         name: 'name',
         string: 'Subject',
     }, {
@@ -46,6 +51,7 @@ FormEditorRegistry.add('create_lead', {
         name: 'subject_type',
         string: 'Category',
     }],
+    // Define the fields for the model
     fields: [{
         name: 'team_id',
         type: 'many2one',
@@ -60,17 +66,4 @@ FormEditorRegistry.add('create_lead', {
         domain: [['share', '=', false]],
         string: _t('Salesperson'),
         title: _t('Assign leads/opportunities to a salesperson.'),
-    }],
-});
-
-});
-
-
-
-
-
-
-
-
-
-
+    }

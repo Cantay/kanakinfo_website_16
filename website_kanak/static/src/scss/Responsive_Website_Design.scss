@@ -1,31 +1,39 @@
-.service_web_responsive_kanak{
-    #main-odoo-resweb-banner {
-        background: url(/website_kanak/static/src/img/all-new/our_sevices/digital-marketing/link-building/Link-Building-banner.jpg);
-        height: 500px;
-        background-size: 100% 100%;
-        position: relative;
-        .overlay {
-            top: 0;
-            bottom: -1px;
-            left: 0;
-            right: -1px;
-            -webkit-transform: scale(1);
-            position: absolute;
-            opacity: .9;
-            transform: scale(1);
-            background-color: rgba(2, 42, 70, .79);
-        }
-        .main-new-odoo-themes-banner {
-            text-align: center;
-            padding-top: 200px;
-            .kanak-odoo-themes-bnr1 {
-                color: #fff;
-                font-size: 64px;
-            }
-            .kanak-odoo-themes-bnr2 {
-                color: #00deff;
-                font-size: 64px;
-            }
-        }
+.service-web-responsive-kanak {
+  /* Use a more descriptive class name */
+
+  #main-odoo-resweb-banner {
+    /* Use a more descriptive ID name */
+    background-image: url("/website_kanak/static/src/img/all-new/our_sevices/digital-marketing/link-building/Link-Building-banner.jpg");
+    /* Use background-image instead of background for better semantics */
+    height: 500px;
+    background-size: cover;
+    /* Use cover instead of 100% 100% for better scaling */
+    position: relative;
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(2, 42, 70, 0.79);
+      opacity: 0.9;
     }
+
+    .main-new-odoo-themes-banner {
+      text-align: center;
+      padding-top: 200px;
+
+      .kanak-odoo-themes-bnr1,
+      .kanak-odoo-themes-bnr2 {
+        color: white;
+        font-size: 64px;
+        /* Combine common styles for similar elements */
+      }
+
+      .kanak-odoo-themes-bnr2 {
+        color: #00deff;
+      }
+    }
+  }
 }

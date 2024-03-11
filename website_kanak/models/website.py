@@ -7,11 +7,11 @@ import requests
 import json
 
 
-class website(models.Model):
+class Website(models.Model):
     _inherit = 'website'
 
-    recaptcha_site_key = fields.Char('reCAPTCHA Site Key', default='6LchkgATAAAAAAdTJ_RCvTRL7_TTcN3Zm_YXB39s')
-    recaptcha_private_key = fields.Char('reCAPTCHA Private Key', default='6LchkgATAAAAADbGqMvbRxHbTnTEkavjw1gSwCng')
+    recaptcha_site_key = fields.Char('reCAPTCHA Site Key', default='6LchkgATAAAAAAdTJ_RCvTRL7_TTcN3Zm_YXB39s', store=True)
+    recaptcha_private_key = fields.Char('reCAPTCHA Private Key', default='6LchkgATAAAAADbGqMvbRxHbTnTEkavjw1gSwCng', store=True)
 
     def is_captcha_valid(self, response):
         for website in self:
@@ -26,13 +26,13 @@ class website(models.Model):
                 return True
         return False
 
-
-    def get_our_recent_work(self):
+    def get_our_recent_work(self, website_id=None):
+        self = self.with_context(active_id=website_id)
         works = self.env['our.recent.work'].sudo().search([])
         return works
 
-
-    def latest_blog_posts(self):
+    def latest_blog_posts(self, website_id=None):
+        self = self.with_context(active_id=website_id)
         latest_posts = self.env['blog.post'].sudo().search([('website_published', '=', True)], limit=6, order="post_date desc")
         return latest_posts
 
@@ -43,15 +43,12 @@ class website(models.Model):
         blog_record = self.env.ref('website_blog.menu_blog')
         if blog_record:
             blog_record.sequence = 4000
-        menus = self.env['website.menu'].search([('name', '=', ['Shop','Blog'])])
-        if menus:
-            for m in menus:
-                if m.name == 'Shop':
-                    m.sequence = 3000
-                if m.name == 'Blog':
-                    m.sequence = 4000
-
-
+        menus = self.env['website.menu'].search([('name', 'in', ['Shop','Blog'])], order='sequence')
+        for m in menus:
+            if m.name == 'Shop':
+                m.sequence = 3000
+            if m.name == 'Blog':
+                m.sequence = 4000
 
 
 class OurRecentWork(models.Model):
@@ -79,5 +76,4 @@ class Lead(models.Model):
          ('oracle_netsuite', 'Oracle Netsuite')],
          string='Type Your Subject')
 
-    odoo_version = fields.Selection([('v11', 'v11'), ('v10', 'v10'), ('v9', 'v9'), ('v8', 'v8'), ('v7', 'v7')], string='Odoo Version')
-    skype_hangout = fields.Char(string="Skype / Hangout")
+    odoo_version = fields.Selection([('v11', 'v11'), ('v10', 'v10'), ('v9', 'v9'), ('v8

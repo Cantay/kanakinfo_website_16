@@ -3,16 +3,16 @@
 # © 2020 Kanak Infosystems LLP. (<https://www.kanakinfosystems.com>).
 
 {
-    "name": "Kanak Apps",
-    "version": "16.0.0.0",
-    "category": "website",
-    "depends": ['sale', 'website_sale', 'kanak_github_connector'],
-    'license': 'OPL-1',
-    'website': 'https://www.kanakinfosystems.com',
-    'author': 'Kanak Infosystems LLP.',
+    'name': "Kanak Apps",
+    'version': "16.0.0.0",
+    'category': "website",
+    'description': "Kanak Apps",
     'summary': 'Kanak Apps',
-    "description": "Kanak Apps",
-    "data": [
+    'author': 'Kanak Infosystems LLP.',
+    'website': 'https://www.kanakinfosystems.com',
+    'license': 'OPL-1',
+    'depends': ['sale', 'website_sale', 'kanak_github_connector'],
+    'data': [
         'security/ir.model.access.csv',
         'data/data.xml',
         'views/views.xml',
@@ -22,12 +22,12 @@
         'views/AppsDetails.xml',
         'views/portal.xml'
     ],
-    "auto_install": False,
     'assets': {
         'web.assets_frontend': [
             'kanak_apps/static/src/js/**',
             'kanak_apps/static/src/scss/**'
         ],
     },
-    "installable": True,
+    'auto_install': False,
+    'installable': True,
 }

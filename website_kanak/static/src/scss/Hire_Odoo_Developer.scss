@@ -1,6 +1,9 @@
+$primary-color: $color_2;
+$accent-color: #fea600;
+$border-color: #cec7c7;
+$border-width: 4px;
 
-.kanak_hire_odoo_developer {
-
+.hire-developer {
     .workpage-home-work {
         .fa-chevron-right {
             font-size: 12px;
@@ -11,7 +14,6 @@
         opacity: .5;
     }
 
-
     .main-hire-banner {
         background-image: url(/website_kanak/static/src/img/hire-odoo-developer/hire-bg.png);
         background-repeat: no-repeat;
@@ -19,8 +21,8 @@
         background-position: center;
         position: relative;
 
-        div {
-            &.row {
+        .banner-content {
+            .row {
                 .mob {
                     display: block;
                 }
@@ -40,18 +42,9 @@
         }
     }
 
-    .who-we-head {
+    .section-head {
         font-weight: 900;
-        color: $color_2;
-        font-size: 28px;
-        margin-top: 20px;
-        margin-bottom: 15px;
-        line-height: 1.1;
-    }
-
-    .method-head {
-        font-weight: 900;
-        color: $color_2;
+        color: $primary-color;
         font-size: 28px;
         margin-top: 20px;
         margin-bottom: 15px;
@@ -60,48 +53,41 @@
 
     .btn-appointment,
     .btn-appointment:hover {
-        background-color: #fea600 !important;
-        border-color: #fea600 !important;
+        background-color: $accent-color !important;
+        border-color: $accent-color !important;
         border-radius: 5px;
     }
 
     @media (max-width: 640px) {
-        .main-hire-banner div.row .mob {
+        .main-hire-banner .row .mob {
             display: none;
         }
-
     }
 
-    .frequently_border_1 {
+    .frequently-border {
         width: 50%;
         margin-top: 1rem;
-        border-top: 4px solid red;
-    }
-
-    .frequently_border_2 {
-        width: 50%;
-        margin-top: 1rem;
-        border-top: 4px solid red;
+        border-top: $border-width solid red;
     }
 
     .faq-main-head {
-        color: $color_2;
+        color: $primary-color;
         font-size: 28px !important;
         margin-bottom: 15px;
         margin-top: 0;
         line-height: 1.1;
     }
 
-    .faq_border {
-        border: 1px solid #cec7c7;
+    .faq-content {
+        border: 1px solid $border-color;
         padding: 20pt;
     }
 
-    .fw700 {
+    .fw-700 {
         font-weight: 700;
     }
 
-    .faq_button {
+    .faq-button {
         display: inline-block;
         height: 30px;
         padding: 0;
@@ -117,5 +103,4 @@
             cursor: pointer;
         }
     }
-
 }

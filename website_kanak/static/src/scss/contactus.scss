@@ -1,1062 +1,212 @@
-
-.kanak_contactus {
-
-    .kanak-breadcrumb {
-        background-color: $color_3;
-        padding-top: 15px;
-        padding-bottom: 8px;
-        opacity: .5;
-
-        span {
-            color: $color_17;
-
-            a {
-                color: $color_9;
-            }
-        }
-
-        i {
-            padding-left: 5px;
-            padding-right: 5px;
-            font-size: 9px;
-        }
-    }
-
-    .bg-graycolor {
-        .kanak-breadcrumb {
-            background-color: $background-color_4;
-        }
-    }
-
-    .contact-us-banner {
-        // background: url('/website_kanak/static/src/img/contact/contact-us.webp') 0% 0% / 100% 100%;
-        background-image: url('/website_kanak/static/src/img/contact/contact-us.webp');
-        height: 380px;
-        position: relative;
-    }
-
-    .contact-us-banner-container {
-        text-align: left;
-        padding-top: 130px;
-        color: $color_17;
-        
-        .contact-big {
-            font-size: 40px;
-            font-weight: 600;
-            line-height: 140%;
-        }
-
-        .contact-small {
-            font-size: 16px;
-            font-weight: 500;
-        }
-    }
-
-    .borderless {
-        td {
-            border: none !important;
-        }
-
-        th {
-            border: none !important;
-        }
-    }
-
-    .contact-address {
-        td {
-            &:nth-child(1) {
-                width: 12%;
-            }
-
-            img {
-                width: 100%;
-            }
-
-            &:nth-child(2) {
-                vertical-align: middle !important;
-                text-align: left;
-            }
-
-            i {
-                font-size: 18px;
-                font-weight: 300;
-            }
-        }
-
-        h4 {
-            font-style: italic;
-            font-size: 20px;
-            font-weight: 600;
-            margin-bottom: 5px;
-
-            &:nth-child(1) {
-                margin-top: 6px;
-            }
-        }
-
-        i.small {
-            font-size: 16px;
-        }
-    }
-
-    .knk_contact_form {
-        label {
-            font-weight: normal;
-            color: $color_9;
-        }
-
-        input {
-            border-radius: 0px;
-            height: 35px !important;
-            box-shadow: none;
-            font-size: 15px !important;
-            font-weight: 300;
-            padding: 7px 8px;
-        }
-
-        select {
-            border-radius: 0px;
-            height: 35px !important;
-            box-shadow: none;
-            font-size: 15px !important;
-            font-weight: 300;
-            padding: 7px 8px;
-
-            option {
-                font-weight: 300;
-                font-size: 15px;
-            }
-        }
-
-        textarea {
-            border-radius: 0px;
-            height: 35px !important;
-            box-shadow: none;
-            font-size: 15px !important;
-            font-weight: 300;
-            padding: 7px 8px;
-        }
-
-        input[type="file"] {
-            padding-left: 0px;
-        }
-    }
-
-    #contactus-btn {
-        padding: 8px 15px !important;
-        background-color: $color_3 !important;
-        border-color: $background-color_15 !important;
-        font-size: 18px;
-        font-weight: 500;
-        border-radius: 4px;
-        -webkit-box-shadow: 1px 1px 4px 0px rgba(189, 189, 189, 1);
-        -moz-box-shadow: 1px 1px 4px 0px rgba(189, 189, 189, 1);
-        box-shadow: 1px 1px 4px 0px rgba(189, 189, 189, 1);
-    }
-
-    .submit-ticket {
-        padding: 8px 15px !important;
-        background-color: $color_3 !important;
-        border-color: $background-color_15 !important;
-        font-size: 18px;
-        font-weight: 500;
-        border-radius: 4px;
-        -webkit-box-shadow: 1px 1px 4px 0px rgba(189, 189, 189, 1);
-        -moz-box-shadow: 1px 1px 4px 0px rgba(189, 189, 189, 1);
-        box-shadow: 1px 1px 4px 0px rgba(189, 189, 189, 1);
-    }
-
-    .contactus-map {
-        img {
-            border: 3px solid #dedede;
-        }
-    }
-
-    .p-7 {
-        text-align: center;
-        font-size: 17px;
-        line-height: 160%;
-        letter-spacing: 0;
-        color: $color_17;
-        padding-left: 30px;
-        padding-right: 30px;
-        text-align: left;
-        font-weight: 500;
-    }
-
-    .p-8 {
-        font-size: 17px;
-        line-height: 160%;
-        letter-spacing: 0;
-        color: $color_17;
-        text-align: left;
-        font-weight: 500;
-    }
-
-    .knk_contact_form {
-        label {
-            font-weight: Bold;
-            color: $color_9;
-            padding-bottom: 5px;
-        }
-
-        input {
-            border-radius: 0;
-            height: 35px !important;
-            box-shadow: none;
-            font-size: 15px !important;
-            font-weight: 300;
-            padding: 7px 8px;
-        }
-
-        select {
-            border-radius: 0;
-            height: 35px !important;
-            box-shadow: none;
-            font-size: 15px !important;
-            font-weight: 300;
-            padding: 7px 8px;
-
-            option {
-                font-weight: 300;
-                font-size: 15px;
-            }
-        }
-
-        textarea {
-            border-radius: 0;
-            height: 35px !important;
-            box-shadow: none;
-            font-size: 15px !important;
-            font-weight: 300;
-            padding: 7px 8px;
-        }
-
-        input[type=file] {
-            padding-left: 0;
-        }
-
-        .btn-primary {
-            &:focus {
-                outline: 0;
-            }
-        }
-    }
-
-    .contactus-banner2 {
-        min-height: 80vh;
-    }
-
-    .contactus-banner {
-        background-color: $background-color_4;
-        min-height: 80vh;
-    }
-
-    .user_login_submit1 {
-        >.pull-right {
-            div {
-                margin-left: auto;
-                margin-right: auto;
-            }
-        }
-    }
-
-    .o_technical_modal {
-        z-index: 2001;
-    }
-
-    .white {
-        color: $color_3;
-
-        h2.bds {
-            color: $color_27;
-        }
-    }
-
-    .green {
-        color: $color_22;
-    }
-
-    .red {
-        color: $color_1;
-    }
-
-    .kanak_contactus_from {
-        .text_area_minheight {
-            min-height: 120px;
-        }
-
-        .contactus-recapcha {
-            div {
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-            }
-        }
-    }
-
-    #kanak_sec_108 {
-        .text_area_minheight {
-            min-height: 60px !important;
-        }
-    }
-
-    .contact_us_iframe {
-        border: 0;
-    }
-
-    .close_button_dispaly {
-        display: block;
-    }
-
-    .contact_us_padding {
-        padding-top: 0;
-    }
-
-    .pb15 {
-        padding-bottom: 15px;
-    }
-
-    .bg_img_kanakblogs {
-        background-image: url(/contact_us_page/static/src/img/blog-header.jpg);
-        height: 300px;
-    }
-
-    .kanak_hm_grid_position {
-        position: relative;
-        height: 916px;
-    }
-
-    div.laptop-wrapper {
-        position: relative;
-        padding-top: 25px;
-        padding-bottom: 67.5%;
-        height: 0;
-    }
-
-    footer {
-        #footer {
-            .our_head {
-                a.contactus_btn {
-                    color: $color_3 !important;
-                    margin-top: 19px;
-                    border-radius: 3px;
-                    font-weight: 500;
-                    padding-left: 18px;
-                    padding-right: 18px;
-                }
-            }
-        }
-    }
-
-    .contactus-get-in {
-        h1 {
-            font-size: 36px;
-        }
-    }
-
-    #contactus-btn {
-        padding: 8px 15px !important;
-        background-color: $background-color_15 !important;
-        border-color: $background-color_15 !important;
-        font-size: 18px;
-        font-weight: 500;
-        border-radius: 4px;
-        -webkit-box-shadow: 1px 1px 4px 0 #bdbdbd;
-        -moz-box-shadow: 1px 1px 4px 0 #bdbdbd;
-        box-shadow: 1px 1px 4px 0 #bdbdbd;
-    }
-
-    .submit-ticket {
-        padding: 8px 15px !important;
-        background-color: $background-color_15 !important;
-        border-color: $background-color_15 !important;
-        font-size: 18px;
-        font-weight: 500;
-        border-radius: 4px;
-        -webkit-box-shadow: 1px 1px 4px 0 #bdbdbd;
-        -moz-box-shadow: 1px 1px 4px 0 #bdbdbd;
-        box-shadow: 1px 1px 4px 0 #bdbdbd;
-    }
-
-    .contactus-map {
-        img {
-            border: 3px solid #dedede;
-        }
-    }
-
-
-    .location-bg {
-        width: 100%;
-        max-height: 350px;
-        height: 350px;
-    }
-
-    .contactus-location {
-        position: absolute;
-        top: 50%;
-        left: 10%;
-        -webkit-transform: translate(-10%, -50%);
-        -ms-transform: translate(-10%, -50%);
-        transform: translate(-10%, -50%);
-
-        img {
-            height: 60px;
-        }
-    }
-
-    .contactus-discuss {
-        border: 1px solid #d5e7fb;
-        border-radius: 10px;
-        box-shadow: 5px 5px 5px #ebebeb;
-        background-color: $color_3;
-    }
-
-    @media (max-width:768px) {
-        .navbar-left {
-            .navbar-brand-logo {
-                display: none;
-            }
-        }
-
-        #kanak_11_0_1_002 {
-            .kanak_11_0_1_002-head {
-                font-size: 20px;
-            }
-        }
-
-        #kanak_11_client_cust {
-            .our-partner {
-                .partners-head {
-                    font-size: 20px;
-                }
-
-                border-right: none;
-            }
-
-            margin-top: 0 !important;
-
-            h1.title_cl {
-                padding-top: 32px;
-            }
-
-            .client-says {
-                h1.title_cl {
-                    margin-top: 32px;
-                }
-            }
-
-            img.talk {
-                width: 40px;
-            }
-
-            .client-img {
-                width: 100px !important;
-                height: 100px !important;
-                padding: 27px 10px;
-            }
-
-            .carousel-content {
-                p.cust-title-head {
-                    text-align: center;
-                    font-size: 18px;
-                    margin-top: 16px;
-                }
-
-                p {
-                    font-size: 15px;
-                    line-height: 140%;
-                    text-align: justify;
-                }
-            }
-
-            .grey-line-end {
-                margin-left: auto;
-                margin-right: auto;
-            }
-        }
-
-        .kanak_sec_10777 {
-            .hblog_002 {
-                p.blog-head {
-                    font-size: 18px !important;
-                    margin-top: 10px;
-                    margin-bottom: 10px;
-                    font-weight: 500;
-                    line-height: 1.1;
-                }
-            }
-        }
-
-        .client-says {
-            .client-says-head {
-                font-size: 20px;
-            }
-        }
-
-        #intro {
-            background-position: 0 0px;
-            width: 100%;
-            position: relative;
-            height: auto;
-            background-repeat: no-repeat;
-            background-size: 100% 100%;
-            background-attachment: inherit;
-            padding: 40% 0 1px 0 !important;
-        }
-
-        .navbar-static-top {
-            .container {
-                .top-logo {
-                    display: block !important;
-                }
-            }
-        }
-
-        .top-logo {
-            .navbar-brand-logo {
-                img {
-                    margin: auto !important;
-                    width: 100px !important;
-                    padding-top: 15px;
-                }
-            }
-        }
-
-        .main-eight-block {
-            padding-bottom: 230px !important;
-        }
-
-        .main-eight-block2 {
-            padding-bottom: 230px !important;
-        }
-
-        #wrapwrap {
-            >header {
-                >.navbar-static-top {
-                    >div {
-                        >.navbar-top-collapse {
-                            height: auto !important;
-                        }
-                    }
-                }
-            }
-
-            padding-bottom: 0px;
-        }
-
-        .navbar-default {
-            .navbar-toggle {
-                margin-left: 15px;
-                margin-right: 15px !important;
-                border-color: $background-color_15;
-                float: left;
-
-                .icon-bar {
-                    background-color: $color_3;
-                }
-            }
-
-            .support-box.navbar-nav {
-                >li {
-                    >a {
-                        font-size: 12px !important;
-                        line-height: 140%;
-                        padding: 6px 10px !important;
-                    }
-                }
-            }
-        }
-
-        .contactus-banner {
-            background-color: $background-color_4;
-            min-height: auto !important;
-        }
-
-        .contactus-banner2 {
-            min-height: auto;
-        }
-
-        .location-bg {
-            max-height: auto;
-            height: auto;
-        }
-
-        .contactus-location {
-            zoom: 0.8;
-            img {
-                height: 30px !important;
-            }
-        }
-
-        .social-login {
-            float: right;
-            margin: 0;
-            display: flex;
-            margin-top: 0px;
-
-            img {
-                height: 21px;
-            }
-
-            .support {
-                margin-right: 7px;
-                margin-left: 0px;
-            }
-
-            .talk {
-                margin-right: 7px;
-            }
-
-            .odoo_apps {
-                padding: 2px 6px;
-            }
-
-            .signinup {
-                display: inline-block;
-                padding-right: 10px;
-                padding-left: 10px;
-                text-align: center;
-                background-color: $color_2;
-
-        
-                border-radius: 4px;
-                line-height: 0;
-                font-weight: 400;
-                margin-top: 0px;
-                margin-left: 0px;
-                padding: 7px 7px !important;
-                margin-bottom: 6px;
-
-                i {
-                    font-size: 21px;
-                }
-            }
-        }
-
-        .support-box {
-            display: flex !important;
-            margin: 0;
-            margin-right: 0px;
-            margin-top: 12px;
-        }
-
-        #proficiency-odoo {
-            .new-odoo-customization {
-                height: 260px !important;
-            }
-        }
-
-        .profici-block1 {
-            padding-top: 0px;
-            padding-bottom: 50px;
-        }
-
-        .profici-block2 {
-            padding-bottom: 50px;
-        }
-
-        .profici-block3 {
-            padding-bottom: 50px;
-        }
-
-        #main-odoo-development-banner {
-            height: auto;
-
-            .main-new-odoo-themes-banner {
-                padding-top: 30px;
-                padding-bottom: 30px;
-
-                .kanak-odoo-themes-bnr1 {
-                    line-height: 32px;
-                    font-size: 26px;
-                }
-
-                .kanak-odoo-themes-bnr2 {
-                    line-height: 32px;
-                    font-size: 26px;
-                }
-
-                .kanak-odoo-themes-bnr3 {
-                    display: none;
-                }
-            }
-        }
-
-        #middel-text-odoo-deve.services {
-            .for-spacing-all {
-                .border.left {
-                    border-bottom-right-radius: 0;
-                }
-
-                .border.right {
-                    border-bottom-left-radius: 0;
-                }
-            }
-
-            .for-deve-middletext1.text-right {
-                text-align: center !important;
-            }
-
-            .implementation-heading1.text-right {
-                text-align: center !important;
-            }
-        }
-
-        #main-odoo-banner {
-            height: 300px !important;
-
-            .main-new-odoo-themes-banner {
-                padding-top: 33px;
-            }
-        }
-
-        .knk-faqs {
-            h3.implementation-heading1 {
-                line-height: 28px;
-                text-align: left;
-            }
-        }
-
-        p {
-            font-size: 15px;
-            line-height: 140%;
-        }
-
-        .navbar-brand-logo {
-            img {
-                width: 130px;
-            }
-        }
-
-        #kanak_sec_103 {
-            margin-top: 0 !important;
-            margin-bottom: 36px !important;
-            background-image: none;
-
-            .head-103 {
-                font-size: 18px;
-                line-height: 25px;
-                text-align: center;
-            }
-        }
-
-        #kanak_sec_107 {
-            .hblog_006 {
-                .readmore_btn {
-                    margin-bottom: 16px;
-                }
-            }
-        }
-
-        #subsctibe-section {
-            h1 {
-                text-align: center;
-            }
-        }
-
-        #footer {
-            .footer-review {
-                img {
-                    height: 48px;
-                }
-
-                display: flex !important;
-
-                li {
-                    &:nth-child(1) {
-                        flex: 0 0 27%;
-                    }
-
-                    &:nth-child(2) {
-                        flex: 0 0 19%;
-                    }
-
-                    &:nth-child(3) {
-                        flex: 0 0 40%;
-                    }
-
-                    &:nth-child(4) {
-                        flex: 0 0 12%;
-                    }
-                }
-            }
-
-            .quick-link {
-                text-align: center;
-
-                i {
-                    display: none;
-                }
-
-                a {
-                    color: $color_17 !important;
-                    font-weight: 300;
-                    line-height: 140%;
-                }
-            }
-
-            .our_head {
-                text-align: left;
-
-                i {
-                    display: none;
-                }
-
-                div.col-md-4 {
-                    text-align: center;
-                }
-            }
-
-            .sale_contact {
-                text-align: center;
-
-                .email_border {
-                    margin-left: auto;
-                    margin-right: auto;
-                }
-            }
-
-            .copyright {
-                a {
-                    font-size: 12px;
-                }
-            }
-
-            .col-md-5 {
-                h3 {
-                    margin-top: 32px !important;
-                }
-            }
-
-            .footer-review.hidden-xs {
-                display: none !important;
-            }
-
-            input {
-                height: 42px;
-            }
-        }
-
-        .contact-us-banner {
-            height: auto;
-        }
-
-        .contact-us-banner-container {
-            padding-top: 35px;
-            padding-bottom: 35px;
-
-            .contact-big {
-                font-size: 22px;
-                line-height: 120%;
-            }
-
-            .contact-small {
-                display: none;
-            }
-        }
-
-        .contactus-get-in {
-            h1 {
-                font-size: 28px;
-            }
-        }
-
-        .contact-address {
-            td {
-                &:nth-child(1) {
-                    width: 20%;
-                }
-            }
-        }
-
-        .knk_contact_form {
-            label {
-                margin-bottom: 0;
-            }
-        }
-
-        #contactus-btn {
-            font-size: 16px;
-        }
-
-        .contactus-map {
-            img {
-                margin-top: 48px;
-            }
-        }
-
-        .busineess_bi_mobile_android_kanak {
-            .android {
-                .decor-line {
-                    margin: auto;
-                }
-
-                h1 {
-                    font-size: 60px;
-                }
-            }
-
-            .inner_accr {
-                ul {
-                    margin-left: 0px;
-                }
-            }
-
-            .score {
-                width: 100% !important;
-                margin-bottom: 12px !important;
-            }
-
-            .sec-head {
-                &:before {
-                    left: 16px;
-                    top: 0px;
-                    height: 32px;
-                }
-            }
-
-            .mshome-desc {
-                line-height: 1.5;
-                margin-left: 0px;
-                width: 100%;
-            }
-
-            .iconn {
-                margin-left: 0px;
-                display: inline-block;
-            }
-
-            .icon-wrap {
-                margin-left: 0px;
-                margin-top: 0px;
-                margin-bottom: 0px;
-            }
-
-            .box-wrapper {
-                .android-apps-head {
-                    margin-left: 18px;
-                    margin-top: 14px;
-                }
-
-                p {
-                    margin-left: 0px;
-                    margin-top: 0px;
-                    margin-right: 0px;
-                    text-align: justify;
-                    line-height: 1.5;
-                }
-            }
-
-            .heading5 {
-                font-size: 16px;
-                margin-left: 0px;
-                width: 100%;
-                text-align: justify;
-            }
-
-            .border_box1 {
-                margin-left: 0px;
-            }
-
-            .border_box {
-                width: 47%;
-                text-align: center;
-                text-align: -webkit-center;
-                margin: 10px 10px;
-                height: 280px;
-            }
-
-            .mb30 {
-                margin-bottom: 5pt;
-            }
-
-            .box1-para {
-                text-align: justify;
-            }
-
-            .makeover {
-                width: 100%;
-                margin-left: 0px;
-            }
-
-            .space {
-                margin-top: 0px;
-            }
-
-            .different1 {
-                height: auto;
-            }
-        }
-
-        .android_dev {
-            div {
-                display: none;
-            }
-        }
-
-        .score1 {
-            width: 100% !important;
-            margin-bottom: 12px !important;
-        }
-
-        .score2 {
-            width: 100% !important;
-            margin-bottom: 12px !important;
-        }
-
-        .score3 {
-            width: 100% !important;
-            margin-bottom: 12px !important;
-        }
-
-        .make1 {
-            display: inline-block;
-        }
-
-        .busineess_odoo_openerp_dev_kanak {
-            .accordion1 {
-                margin: auto;
-                width: 100%;
-                margin-top: 36px;
-            }
-
-            .box1 {
-                width: 100%;
-            }
-
-            .arrows1 {
-                section {
-                    .box-title1 {
-                        width: calc(100%);
-                    }
-                }
-            }
-        }
-
-        .chat-us {
-            position: fixed;
-            right: 25px !important;
-            cursor: pointer;
-            z-index: 150;
-            bottom: 40px !important;
-
-            img {
-                display: none;
-            }
-        }
-
-        .navbar-nav {
-            .nav-item {
-                .chat-us {
-                    a {
-                        background: url(/contact_us_page/static/src/img/Chat-Icon.png) -88px -134px;
-                        background-size: 220px !important;
-                        background-repeat: no-repeat !important;
-                        padding: 22px 32px !important;
-                    }
-                }
-            }
-        }
-    }
+// Variables
+$color-3: #006699;
+$color-9: #333333;
+$color-17: #666666;
+$color-22: #4caf50;
+$color-27: #0099cc;
+$color-1: #f44336;
+$background-color-4: #f5f5f5;
+$background-color-15: #e0e0e0;
+
+// Mixins
+@mixin borderless {
+  td {
+    border: none !important;
+  }
+
+  th {
+    border: none !important;
+  }
 }
+
+@mixin knk-contact-form-input {
+  border-radius: 0px;
+  height: 35px !important;
+  box-shadow: none;
+  font-size: 15px !important;
+  font-weight: 300;
+  padding: 7px 8px;
+}
+
+@mixin btn-primary {
+  &:focus {
+    outline: 0;
+  }
+}
+
+// Map
+$breakpoints: (
+  mobile: 480px,
+  tablet: 768px,
+  desktop: 992px
+);
+
+// Helper functions
+@function breakpoint($name) {
+  @return map-get($breakpoints, $name);
+}
+
+// Styles
+.kanak_contactus {
+  .kanak-breadcrumb {
+    background-color: $color_3;
+    padding-top: 15px;
+    padding-bottom: 8px;
+    opacity: .5;
+
+    span {
+      color: $color_17;
+
+      a {
+        color: $color_9;
+      }
+    }
+
+    i {
+      padding-left: 5px;
+      padding-right: 5px;
+      font-size: 9px;
+    }
+  }
+
+  .bg-graycolor {
+    .kanak-breadcrumb {
+      background-color: $background-color_4;
+    }
+  }
+
+  .contact-us-banner {
+    background-image: url('/website_kanak/static/src/img/contact/contact-us.webp');
+    height: 380px;
+    position: relative;
+  }
+
+  .contact-us-banner-container {
+    text-align: left;
+    padding-top: 130px;
+    color: $color_17;
+
+    .contact-big {
+      font-size: 40px;
+      font-weight: 600;
+      line-height: 140%;
+    }
+
+    .contact-small {
+      font-size: 16px;
+      font-weight: 500;
+    }
+  }
+
+  @include borderless;
+
+  .contact-address {
+    td {
+      &:nth-child(1) {
+        width: 12%;
+      }
+
+      img {
+        width: 100%;
+      }
+
+      &:nth-child(2) {
+        vertical-align: middle !important;
+        text-align: left;
+      }
+
+      i {
+        font-size: 18px;
+        font-weight: 300;
+      }
+    }
+
+    h4 {
+      font-style: italic;
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 5px;
+
+      &:nth-child(1) {
+        margin-top: 6px;
+      }
+    }
+
+    i.small {
+      font-size: 16px;
+    }
+  }
+
+  .knk_contact_form {
+    label {
+      font-weight: normal;
+      color: $color_9;
+    }
+
+    input,
+    select,
+    textarea {
+      @include knk-contact-form-input;
+    }
+
+    input[type="file"] {
+      padding-left: 0px;
+    }
+  }
+
+  #contactus-btn,
+  .submit-ticket {
+    padding: 8px 15px !important;
+    background-color: $color_3 !important;
+    border-color: $background-color_15 !important;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 4px;
+    box-shadow: 1px 1px 4px 0px rgba(189, 189, 189, 1);
+  }
+
+  .contactus-map {
+    img {
+      border: 3px solid #dedede;
+    }
+  }
+
+  .p-7,
+  .p-8 {
+    text-align: center;
+    font-size: 17px;
+    line-height: 160%;
+    letter-spacing: 0;
+    color: $color_17;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: left;
+    font-weight: 500;
+  }
+
+  @include btn-primary;
+
+  .contactus-banner2 {
+    min-height: 80vh;
+  }
+
+  .contactus-banner {
+    background-color: $background-color_4;
+    min-height: 80vh;
+  }
+
+  .user_login_submit1 {
+    >.pull-right {
+      div {
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  }
+
+  .o_technical_modal {
+    z-index: 2001;
+  }
+
+  .white {
+    color: $
